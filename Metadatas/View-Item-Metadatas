@@ -1,5 +1,13 @@
--- Script REAPER : Lire les métadonnées du fichier source de l'item sélectionné
--- Fonctionne même si le fichier est sur disque (pas besoin de GetMediaSourceMetadata)
+--((
+-- ReaScript Name:View-Item-Metadatas
+-- Author: Mariow
+-- Repository: GitHub > Maginch > Reaper_Scripts-Mariow
+-- Repository URI: https://github.com/Maginch/Reaper_Scripts-Mariow
+-- @description View Item Metadatas for your purposes
+-- Script REAPER : Read Metadatas of the source file of Item selected
+-- Reaper 7.0
+-- @version 1.0
+-- ))
 
 local r = reaper
 
