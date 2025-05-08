@@ -66,7 +66,7 @@ Type a text and convert it in Reaper Session
 
 ## Fonctionnalités
 Vous pouvez ainsi écrire vos Templates de pistes et les conserver dans un "Livre"
-GB (you can write your Templates as a Text , in a "book" and transform this in a Reaper session as a Template would do
+GB (Write your Templates as a Text and transform this in a Reaper session as a Template would do)
 
 ## CARE
 TEXT must be in PLAIN TEXT (SHIFT Cmd ) +T  in TextEdit
