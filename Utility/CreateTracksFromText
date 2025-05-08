@@ -1,0 +1,140 @@
+--((
+-- ReaScript Name:CreateTracksFromText
+-- Author: Mariow
+-- Repository: GitHub > Maginch > Reaper_Scripts-Mariow
+-- Repository URI: https://github.com/Maginch/Reaper_Scripts-Mariow
+-- @description Créer des pistes depuis un fichier texte (parents, enfants via suffixe, couleurs individuelles, spacers)
+-- Reaper 7.0
+-- @version 1.0
+-- ))
+
+
+local named_colors = {
+rouge = {255, 0, 0},
+vert = {0, 200, 0},
+bleu = {0, 120, 255},
+jaune = {255, 255, 0},
+violet = {180, 0, 255},
+orange = {255, 140, 0},
+rose = {255, 100, 180},
+gris = {120, 120, 120},
+blanc = {255, 255, 255},
+noir = {0, 0, 0}
+}
+
+local retval, file_path = reaper.GetUserFileNameForRead("", "Sélectionner un fichier texte", ".txt")
+if not retval then return end
+
+local file = io.open(file_path, "r")
+if not file then
+reaper.ShowMessageBox("Impossible d'ouvrir le fichier.", "Erreur", 0)
+return
+end
+
+local lines = {}
+for line in file:lines() do
+table.insert(lines, line:match("^%s*(.-)%s*$")) -- trim
+end
+file:close()
+
+reaper.Undo_BeginBlock()
+reaper.PreventUIRefresh(1)
+
+local function create_track(name, color)
+local idx = reaper.CountTracks(0)
+reaper.InsertTrackAtIndex(idx, true)
+local track = reaper.GetTrack(0, idx)
+reaper.GetSetMediaTrackInfo_String(track, "P_NAME", name, true)
+
+if color then
+local rgb = named_colors[string.lower(color)]
+if rgb then
+local col = reaper.ColorToNative(table.unpack(rgb)) | 0x1000000
+reaper.SetMediaTrackInfo_Value(track, "I_CUSTOMCOLOR", col)
+end
+end
+
+return track
+end
+
+local created = {}
+
+-- 1. Création des pistes
+for _, line in ipairs(lines) do
+if line == "" then
+-- Spacer
+local idx = reaper.CountTracks(0)
+reaper.InsertTrackAtIndex(idx, true)
+local t = reaper.GetTrack(0, idx)
+reaper.GetSetMediaTrackInfo_String(t, "P_NAME", "", true)
+reaper.SetMediaTrackInfo_Value(t, "I_SPACER", 1)
+local gray = reaper.ColorToNative(120,120,120)|0x1000000
+reaper.SetMediaTrackInfo_Value(t, "I_CUSTOMCOLOR", gray)
+else
+local base, parent = line:match("^(.-)%s*%-%s*(.+)$")
+local full = base or line
+
+-- Gérer le nom et la couleur dans la partie gauche (avant le -)
+local name, color = full:match("^(.-)%s*%(([%a]+)%)$")
+name = name or full
+name = name:match("^%s*(.-)%s*$")
+if parent then parent = parent:match("^%s*(.-)%s*$") end
+
+local track = create_track(name, color)
+created[#created + 1] = { name = name, parent = parent, track = track }
+end
+end
+
+-- 2. Identifier les enfants pour chaque parent
+local children_of = {}
+for _, t in ipairs(created) do
+if t.parent then
+children_of[t.parent] = children_of[t.parent] or {}
+table.insert(children_of[t.parent], t)
+end
+end
+
+-- 3. Appliquer la hiérarchie
+for _, info in ipairs(created) do
+local track = info.track
+if info.parent then
+reaper.SetMediaTrackInfo_Value(track, "I_FOLDERDEPTH", 0)
+else
+-- C’est un parent
+local children = children_of[info.name]
+if children and #children > 0 then
+reaper.SetMediaTrackInfo_Value(track, "I_FOLDERDEPTH", 1)
+local last_child = children[#children]
+local last_child_idx = reaper.GetMediaTrackInfo_Value(last_child.track, "IP_TRACKNUMBER") - 1
+
+-- Fermer le dossier après le dernier enfant
+local after_idx = last_child_idx + 1
+if after_idx < reaper.CountTracks(0) then
+local next_track = reaper.GetTrack(0, after_idx)
+local depth = reaper.GetMediaTrackInfo_Value(next_track, "I_FOLDERDEPTH")
+if depth == 0 then
+reaper.SetMediaTrackInfo_Value(next_track, "I_FOLDERDEPTH", -1)
+end
+else
+reaper.SetMediaTrackInfo_Value(last_child.track, "I_FOLDERDEPTH", -1)
+end
+else
+reaper.SetMediaTrackInfo_Value(track, "I_FOLDERDEPTH", 0)
+end
+end
+end
+
+-- 4. Nettoyage
+for i = reaper.CountTracks(0)-1, 0, -1 do
+local t = reaper.GetTrack(0, i)
+local _, name = reaper.GetSetMediaTrackInfo_String(t, "P_NAME", "", false)
+local isSpacer = reaper.GetMediaTrackInfo_Value(t, "I_SPACER")
+if name == "" and isSpacer ~= 1 then
+reaper.DeleteTrack(t)
+end
+end
+
+reaper.PreventUIRefresh(-1)
+reaper.TrackList_AdjustWindows(false)
+reaper.Undo_EndBlock("Créer pistes depuis fichier texte (couleurs enfants incluses)", -1)
+reaper.UpdateArrange()
