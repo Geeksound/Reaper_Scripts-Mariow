@@ -29,7 +29,8 @@ Ajoutez ce dépôt à votre ReaPack :
 
 # TimeShift - Déplacement temporel précis (ReaImGui)
 
-Script ReaImGui pour REAPER permettant de déplacer précisément des items ou une sélection temporelle à l’aide d’une valeur saisie dans différents formats.
+Script ReaImGui pour REAPER permettant de déplacer précisément des items, une sélection temporelle, ou le curseur de position, à l’aide d’une valeur saisie dans différents formats.
+Ce Script est inspiré de la fonction Edit/Shift dans PROTOOLS , et y apporte des améliorations.
 
 ## Fonctionnalités
 
@@ -45,9 +46,9 @@ Script ReaImGui pour REAPER permettant de déplacer précisément des items ou u
 
 ## Utilisation
 
-1. Sélectionnez un ou plusieurs items, ou une time selection.
+1. Choisissez de deplacer l'Item Selectionné, ou la TimeSelection, ou le Curseur de position
 2. Entrez la valeur de décalage souhaitée (ex : `00:00:02:15` ou `1500 ms` ou `44100 samples`).
-3. Cliquez sur le bouton pour appliquer le décalage.
+3. Cliquez sur le bouton pour appliquer le décalage en Avant ou en Arrière
 
 ## Dépendance
 
