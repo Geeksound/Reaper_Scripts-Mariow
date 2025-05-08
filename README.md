@@ -31,6 +31,7 @@ Ajoutez ce dépôt à votre ReaPack :
 
 Script ReaImGui pour REAPER permettant de déplacer précisément des items, une sélection temporelle, ou le curseur de position, à l’aide d’une valeur saisie dans différents formats.
 Ce Script est inspiré de la fonction Edit/Shift dans PROTOOLS , et y apporte des améliorations.
+GB (This Script is the same as Edit/SHIFT in PROTOOLS , but with more possibilities)
 
 ## Fonctionnalités
 
@@ -57,3 +58,15 @@ Ce Script est inspiré de la fonction Edit/Shift dans PROTOOLS , et y apporte de
 ## Installation via ReaPack
 
 Ajoutez ce dépôt à vos sources ReaPack :
+
+## CreateTracksFromText
+
+Script permettant de convertir un simple texte en Session Reaper
+Type a text and convert it in Reaper Session
+
+## Fonctionnalités
+Vous pouvez ainsi écrire vos Templates de pistes et les conserver dans un "Livre"
+GB (you can write your Templates as a Text , in a "book" and transform this in a Reaper session as a Template would do
+
+## CARE
+TEXT must be in PLAIN TEXT (SHIFT Cmd ) +T  in TextEdit
