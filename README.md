@@ -15,6 +15,7 @@ Script ReaImGui pour REAPER affichant des informations temporelles contextuelles
 - `Position` lorsqu’arrêté
 - **Fond coloré** :
 - Noir par défaut
+- Vert lors de la lecture
 - Rouge lorsqu’on enregistre
 - **Typographie personnalisée** : Comic Sans MS pour une touche originale
 
