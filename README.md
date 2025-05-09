@@ -1,3 +1,7 @@
+<p align="center">
+<img src="ProfilGitHubMariow.png" alt="Mariow Logo" width="200"/>
+</p>
+
 # Scripts Reaper - par Mariow
 
 ## Dynamic Timecode Display (ReaImGui)
