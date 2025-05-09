@@ -2,7 +2,7 @@
 -- ReaScript Name:CreateTracksFromText
 -- Author: Mariow
 -- Repository: GitHub > Maginch > Reaper_Scripts-Mariow
--- Repository URI: https://github.com/Maginch/Reaper_Scripts-Mariow
+-- Repository URL: https://github.com/Maginch/Reaper_Scripts-Mariow
 -- @description Créer des pistes depuis un fichier texte (parents, enfants via suffixe, couleurs individuelles, spacers)
 -- Reaper 7.0
 -- @version 1.0
