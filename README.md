@@ -1,5 +1,3 @@
-![Logo](./ProfilGitHubMariow.png)
-
 <p align="center">
 <img src="ProfilGitHubMariow.png" alt="Mariow Logo" width="200"/>
 </p>
