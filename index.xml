@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<index version="1" name="Mariow Scripts">
+<source url="https://github.com/Maginch/Reaper_Scripts-Mariow/raw/main/Metadatas/View-Item-Metadatas.lua" />
+<source url="https://github.com/Maginch/Reaper_Scripts-Mariow/raw/main/Utility/CreateTracksFromText.lua" />
+<source url="https://github.com/Maginch/Reaper_Scripts-Mariow/raw/main/TimeShift/TimeShift.lua" />
+<source url="https://github.com/Maginch/Reaper_Scripts-Mariow/raw/main/Interactive%20TC%20Display/Interactive_TC_Display.lua" />
+</index>
