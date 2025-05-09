@@ -1,3 +1,14 @@
+--((
+-- ReaScript TimeShift
+-- Author: Mariow
+-- Repository: GitHub > Maginch > Reaper_Scripts-Mariow
+-- Repository URI: https://github.com/Maginch/Reaper_Scripts-Mariow
+-- @description Inpired from Edit/Shift in PROTOOLS , with more feaures
+-- Script REAPER : TimeShift
+-- Reaper 7.0
+-- @version 1.0
+-- ))
+
 -- ReaImGui : Convertisseur temporel (samples -> hh:mm:ss:ff)
 local ctx = reaper.ImGui_CreateContext('Convertisseur temporel')
 
