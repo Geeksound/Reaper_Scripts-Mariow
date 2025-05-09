@@ -6,6 +6,12 @@
 
 ## Dynamic Timecode Display (ReaImGui)
 
+Affiche dynamiquement le timecode ou le nom de l’item sélectionné dans REAPER, selon le contexte. 
+Pratique pour un retour visuel clair en post-prod ou en enregistrement.
+
+### Aperçu du script
+![Aperçu de Dynamic Timecode Display](./tc-display.png)
+
 ReaImGui script for REAPER that displays contextual time information in a clean and readable floating window.
 
 ### Features
