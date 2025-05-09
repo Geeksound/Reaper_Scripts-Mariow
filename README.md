@@ -10,7 +10,7 @@ ReaImGui script for REAPER that displays contextual time information in a clean 
 
 ### Features
 
-- **Dysplays the name and timecode** of selected Items (hh:mm:ss:ff)
+- **Displays the name and timecode** of selected Items (hh:mm:ss:ff)
 - **Displays the duration** of the timeselection (if no item is selected)
 - **Shows the play cursor or playback position** with large text
 - **Dynamic display** :
