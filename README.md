@@ -89,5 +89,6 @@ TEXT must be in PLAIN TEXT (SHIFT Cmd )+T  in TextEdit
 **[Geeksound](https://github.com/Geeksound)**
 Sound engineer, professor, eternal student, and workflow designer.
 Specialized in location sound and post-production sound, with a passion for developing innovative workflows.
-Wish the best for Reaper and its collaborators and community
+Wish the best for Reaper and its collaborators and community.
+
 "Reapers" by Muse is a reference among all
