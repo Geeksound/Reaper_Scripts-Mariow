@@ -1,13 +1,13 @@
 --((
 -- ReaScript Name:Interactive TC Display
 -- Author: Mariow
--- Repository: GitHub > Maginch > Reaper_Scripts-Mariow
--- Repository URL: https://github.com/Maginch/Reaper_Scripts-Mariow
+-- Repository: GitHub > Geeksound > Reaper_Scripts-Mariow
+-- Repository URL: https://github.com/Geeksound/Reaper_Scripts-Mariow
 -- @description Contextual display of TimeCode / Items / Status 
 -- Script REAPER : Interactive TC Display
 -- Reaper 7.0
 -- @version 1.0
--- ))-- Auteur : Mariow (co-auteur)
+-- ))-- Auteur : Mariow
 
 local ctx = reaper.ImGui_CreateContext('Affichage Timecode')
 local font_regular = reaper.ImGui_CreateFont('Comic Sans MS', 16)
