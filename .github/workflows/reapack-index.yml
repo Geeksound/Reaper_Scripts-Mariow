@@ -7,25 +7,25 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-steps:
-  - name: Checkout
-  uses: actions/checkout@v4
+    steps:
+      - name: Checkout
+      uses: actions/checkout@v4
 
-  - name: Setup Ruby
-  uses: ruby/setup-ruby@v1
-  with:
-  ruby-version: '3.1'
+      - name: Setup Ruby
+      uses: ruby/setup-ruby@v1
+      with:
+        ruby-version: '3.1'
 
-- name: Install reapack-index
-run: gem install reapack-index
+      - name: Install reapack-index
+      run: gem install reapack-index
 
-- name: Generate index
-run: reapack-index .
+      - name: Generate index
+      run: reapack-index .
 
-- name: Commit index
-run: |
-git config user.name "github-actions[bot]"
-git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-git add index.xml
-git commit -m "Update index.xml [CI]" || echo "No changes to commit"
-git push
+      - name: Commit index
+      run: |
+        git config user.name "github-actions[bot]"
+        git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+        git add index.xml
+        git commit -m "Update index.xml [CI]" || echo "No changes to commit"
+        git push
