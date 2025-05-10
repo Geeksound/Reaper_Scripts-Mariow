@@ -5,21 +5,29 @@
 -- Repository URL: https://github.com/Geeksound/Reaper_Scripts-Mariow
 -- @description Créer des pistes depuis un fichier texte (parents, enfants via suffixe, couleurs individuelles, spacers)
 -- Reaper 7.0
--- @version 1.0
+-- @version 2.0
 -- ))
-
 
 local named_colors = {
 rouge = {255, 0, 0},
+red = {255, 0, 0},
 vert = {0, 200, 0},
+green = {0, 200, 0},
 bleu = {0, 120, 255},
+blue = {0, 120, 255},
 jaune = {255, 255, 0},
+yellow = {255, 255, 0},
 violet = {180, 0, 255},
+purple = {180, 0, 255},
 orange = {255, 140, 0},
 rose = {255, 100, 180},
+pink = {255, 100, 180},
 gris = {120, 120, 120},
+grey = {120, 120, 120},
 blanc = {255, 255, 255},
-noir = {0, 0, 0}
+white = {255, 255, 255},
+noir = {0, 0, 0},
+black = {0, 0, 0},
 }
 
 local retval, file_path = reaper.GetUserFileNameForRead("", "Sélectionner un fichier texte", ".txt")
@@ -33,7 +41,9 @@ end
 
 local lines = {}
 for line in file:lines() do
-table.insert(lines, line:match("^%s*(.-)%s*$")) -- trim
+local indent = line:match("^(%s*)") or ""
+local trimmed = line:match("^%s*(.-)%s*$")
+table.insert(lines, {raw = line, name = trimmed, indent = #indent})
 end
 file:close()
 
@@ -53,14 +63,17 @@ local col = reaper.ColorToNative(table.unpack(rgb)) | 0x1000000
 reaper.SetMediaTrackInfo_Value(track, "I_CUSTOMCOLOR", col)
 end
 end
-
 return track
 end
 
-local created = {}
+-- Étape 1 : Créer les pistes et stocker infos
+local track_infos = {}
+local indent_stack = {}
 
--- 1. Création des pistes
-for _, line in ipairs(lines) do
+for _, entry in ipairs(lines) do
+local line = entry.name
+local indent = entry.indent
+
 if line == "" then
 -- Spacer
 local idx = reaper.CountTracks(0)
@@ -68,63 +81,49 @@ reaper.InsertTrackAtIndex(idx, true)
 local t = reaper.GetTrack(0, idx)
 reaper.GetSetMediaTrackInfo_String(t, "P_NAME", "", true)
 reaper.SetMediaTrackInfo_Value(t, "I_SPACER", 1)
-local gray = reaper.ColorToNative(120,120,120)|0x1000000
+local gray = reaper.ColorToNative(120, 120, 120) | 0x1000000
 reaper.SetMediaTrackInfo_Value(t, "I_CUSTOMCOLOR", gray)
 else
-local base, parent = line:match("^(.-)%s*%-%s*(.+)$")
-local full = base or line
-
--- Gérer le nom et la couleur dans la partie gauche (avant le -)
-local name, color = full:match("^(.-)%s*%(([%a]+)%)$")
-name = name or full
+local name, color = line:match("^(.-)%s*%(([%a]+)%)$")
+name = name or line
 name = name:match("^%s*(.-)%s*$")
-if parent then parent = parent:match("^%s*(.-)%s*$") end
-
 local track = create_track(name, color)
-created[#created + 1] = { name = name, parent = parent, track = track }
+
+-- Calcul profondeur
+while #indent_stack > 0 and indent_stack[#indent_stack].indent >= indent do
+table.remove(indent_stack)
+end
+
+local depth = #indent_stack
+table.insert(indent_stack, {name = name, indent = indent})
+
+table.insert(track_infos, {
+name = name,
+depth = depth,
+track = track
+})
 end
 end
 
--- 2. Identifier les enfants pour chaque parent
-local children_of = {}
-for _, t in ipairs(created) do
-if t.parent then
-children_of[t.parent] = children_of[t.parent] or {}
-table.insert(children_of[t.parent], t)
-end
-end
+-- Étape 2 : Appliquer I_FOLDERDEPTH
+for i, info in ipairs(track_infos) do
+local this_depth = info.depth
+local next = track_infos[i+1]
+local next_depth = next and next.depth or 0
 
--- 3. Appliquer la hiérarchie
-for _, info in ipairs(created) do
-local track = info.track
-if info.parent then
-reaper.SetMediaTrackInfo_Value(track, "I_FOLDERDEPTH", 0)
+local folder_depth = 0
+if next_depth > this_depth then
+folder_depth = 1
+elseif next_depth < this_depth then
+folder_depth = -1 * (this_depth - next_depth)
 else
--- C’est un parent
-local children = children_of[info.name]
-if children and #children > 0 then
-reaper.SetMediaTrackInfo_Value(track, "I_FOLDERDEPTH", 1)
-local last_child = children[#children]
-local last_child_idx = reaper.GetMediaTrackInfo_Value(last_child.track, "IP_TRACKNUMBER") - 1
-
--- Fermer le dossier après le dernier enfant
-local after_idx = last_child_idx + 1
-if after_idx < reaper.CountTracks(0) then
-local next_track = reaper.GetTrack(0, after_idx)
-local depth = reaper.GetMediaTrackInfo_Value(next_track, "I_FOLDERDEPTH")
-if depth == 0 then
-reaper.SetMediaTrackInfo_Value(next_track, "I_FOLDERDEPTH", -1)
-end
-else
-reaper.SetMediaTrackInfo_Value(last_child.track, "I_FOLDERDEPTH", -1)
-end
-else
-reaper.SetMediaTrackInfo_Value(track, "I_FOLDERDEPTH", 0)
-end
-end
+folder_depth = 0
 end
 
--- 4. Nettoyage
+reaper.SetMediaTrackInfo_Value(info.track, "I_FOLDERDEPTH", folder_depth)
+end
+
+-- Étape 3 : Nettoyage pistes vides non-spacers
 for i = reaper.CountTracks(0)-1, 0, -1 do
 local t = reaper.GetTrack(0, i)
 local _, name = reaper.GetSetMediaTrackInfo_String(t, "P_NAME", "", false)
@@ -136,5 +135,5 @@ end
 
 reaper.PreventUIRefresh(-1)
 reaper.TrackList_AdjustWindows(false)
-reaper.Undo_EndBlock("Créer pistes depuis fichier texte (couleurs enfants incluses)", -1)
+reaper.Undo_EndBlock("Créer pistes (hiérarchie par indentation)", -1)
 reaper.UpdateArrange()
