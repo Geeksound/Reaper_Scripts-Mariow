@@ -80,3 +80,12 @@ Write your Templates as a Text and transform this in a Reaper session as a Templ
 
 ## CARE
 TEXT must be in PLAIN TEXT (SHIFT Cmd )+T  in TextEdit
+
+
+
+-------------------------------------------------
+--------------About the Author-------------------
+-------------------------------------------------
+**[Geeksound](https://github.com/Geeksound)**
+Sound engineer, professor, eternal student, and workflow designer.
+Specialized in production and post-production sound, with a passion for developing innovative workflows.
