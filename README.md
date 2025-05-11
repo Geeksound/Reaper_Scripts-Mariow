@@ -9,7 +9,7 @@
 Affiche dynamiquement le timecode ou le nom de l’item sélectionné dans REAPER, selon le contexte. 
 Pratique pour un retour visuel clair en post-prod ou en enregistrement.
 
-### Aperçu du script
+### Overview of the 'TimeCode' field depending on the context
 ![Aperçu de Dynamic Timecode Display](DynamicTcDisplay.png)
 
 ReaImGui script for REAPER that displays contextual time information in a clean and readable floating window.
