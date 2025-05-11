@@ -83,10 +83,26 @@ Type a text and convert it in Reaper Session
 
 ## Features
 Write your Templates as a Text and transform this in a Reaper session as a Template would do
+Exemple:
+---
+Batterie (red)
+ Kick
+ Snare
+ Overheads
 
+Guitare (blue)
+ Electric
+  Fender
+  Gibson
+
+BASS (black)
+ Bass Amp
+ Bass DI
+---
 ## CARE
-TEXT must be in PLAIN TEXT (SHIFT Cmd )+T  in TextEdit
-
+TEXT must be in PLAIN TEXT
+SHIFT(Cmd+T) in TextEdit
+or click on Format,then Make Plain Text.
 
 
 -------------------------------------------------
