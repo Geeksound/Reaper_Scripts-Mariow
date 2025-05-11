@@ -4,6 +4,14 @@
 
 # Scripts Reaper - par Mariow
 
+## Structure des répertoires
+- `Metadatas/` : Scripts liés aux métadonnées
+- `Utility/` : Scripts utilitaires
+- `Editing/` : Scripts pour l'édition
+- `View/` : Scripts liés à l'affichage
+
+
+
 ## Interactive-TC-Display (ReaImGui)
 
 Displays either the Timecode or the selected item's name dynamically, based on context.
