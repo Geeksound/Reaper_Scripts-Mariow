@@ -107,6 +107,8 @@ TEXT must be in PLAIN TEXT
 SHIFT(Cmd+T) in TextEdit
 or click on Format,then Make Plain Text.
 
+-------------------------------------------------
+
 ## View-Item-Metadatas
 - `Metadatas/`
 
