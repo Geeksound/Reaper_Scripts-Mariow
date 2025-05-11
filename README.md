@@ -79,7 +79,7 @@ Add this repository to your ReaPack sources:
 Type a text and convert it in Reaper Session
 
 ### Overview of 'CreateTracksFromText'
-![Aperçu de CreateTracksFromText](TextToTracks.png)
+![Aperçu de CreateTracksFromText](TextToTracksDef.png)
 
 ## Features
 Write your Templates as a Text and transform this in a Reaper session as a Template would do
