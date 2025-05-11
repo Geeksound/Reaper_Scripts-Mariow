@@ -4,7 +4,7 @@
 
 # Scripts Reaper - par Mariow
 
-## Dynamic Timecode Display (ReaImGui)
+## Interactive-TC-Display (ReaImGui)
 
 Displays either the Timecode or the selected item's name dynamically, based on context.
 Designed for precise visual feedback in post-production or recording workflows.
