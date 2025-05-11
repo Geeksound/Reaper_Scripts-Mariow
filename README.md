@@ -14,6 +14,7 @@
 
 
 ## Interactive-TC-Display (ReaImGui)
+- `View/`
 
 Displays either the Timecode or the selected item's name dynamically, based on context.
 Designed for precise visual feedback in post-production or recording workflows.
@@ -49,6 +50,7 @@ Add this repository to your ReaPack:
 -------------------------------------------------
 
 # TimeShift - Precise Time Shifting (ReaImGui)
+- `Editing/`
 
 ReaImGui script for REAPER that allows precise shifting of items, time selection, or the edit cursor using a user-defined value in various formats.
 This script is inspired by the Edit/Shift function in PROTOOLS, with added improvements.
@@ -85,6 +87,7 @@ Add this repository to your ReaPack sources:
 -------------------------------------------------
 
 ## CreateTracksFromText
+- `Utility/`
 
 Type a text and convert it in Reaper Session
 
@@ -98,6 +101,8 @@ Write your Templates as a Text and transform this in a Reaper session as a Templ
 TEXT must be in PLAIN TEXT
 SHIFT(Cmd+T) in TextEdit
 or click on Format,then Make Plain Text.
+
+## 
 
 
 -------------------------------------------------
