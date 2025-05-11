@@ -1,13 +1,14 @@
---((
+-- @description View-Item-Metadatas
 -- ReaScript Name:View-Item-Metadatas
--- Author: Mariow
--- Repository: GitHub > Geeksound > Reaper_Scripts-Mariow
--- Repository URL: https://github.com/Geeksound/Reaper_Scripts-Mariow
--- @description View Item Metadatas for your purposes
--- Script REAPER : Read Metadatas of the source file of Item selected
--- Reaper 7.0
+-- @author Mariow
 -- @version 1.0
--- ))
+-- @changelog Initial release
+-- @link https://github.com/Geeksound/Reaper_Scripts-Mariow
+-- @tags items , metadatatas , source properties
+-- @about
+--   # View-Item-Metadatas
+--   Contextual display selected item metadata for Reaper 7.0.
+
 
 local r = reaper
 
