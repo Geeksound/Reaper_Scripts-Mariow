@@ -90,7 +90,7 @@ TEXT must be in PLAIN TEXT (SHIFT Cmd )+T  in TextEdit
 
 
 -------------------------------------------------
-About the Author-----------------
+About the Author------------
 -------------------------------------------------
 **[Geeksound](https://github.com/Geeksound)**
 Sound engineer, professor, eternal student, and workflow designer.
