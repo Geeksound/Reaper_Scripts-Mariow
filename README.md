@@ -43,6 +43,9 @@ Add this repository to your ReaPack:
 ReaImGui script for REAPER that allows precise shifting of items, time selection, or the edit cursor using a user-defined value in various formats.
 This script is inspired by the Edit/Shift function in PROTOOLS, with added improvements.
 
+### Overview of 'TimeShift'
+![Aperçu de TimeShift](Timeshift.png)
+
 ## Features
 
 - **Quick shifting** of selected items or time selection
