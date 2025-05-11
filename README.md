@@ -97,14 +97,23 @@ Type a text and convert it in Reaper Session
 ## Features
 Write your Templates as a Text and transform this in a Reaper session as a Template would do
 
+## How to use
+1. Write the appropriate form of Text and save the file
+2. Open the Script and Browse to your Text file and select it
+3. Your Tracks in Reaper are created
+
 ## CARE
 TEXT must be in PLAIN TEXT
 SHIFT(Cmd+T) in TextEdit
 or click on Format,then Make Plain Text.
 
-## 
+## View-Item-Metadatas
+- `Metadatas/`
 
+View in a window differents kind of Metadatas listed in your Item source file
+May be practical to be sure that the Metadatas are accessible in some Workflows
 
+  
 -------------------------------------------------
 About the Author------------
 -------------------------------------------------
