@@ -1,5 +1,5 @@
 <p align="center">
-<img src="ProfilGitHubMariow.png" alt="Mariow Logo" width="200"/>
+<img src="PICTURES/ProfilGitHubMariow.png" alt="Mariow Logo" width="200"/>
 </p>
 
 # Scripts Reaper - par Mariow
@@ -10,7 +10,7 @@ Displays either the Timecode or the selected item's name dynamically, based on c
 Designed for precise visual feedback in post-production or recording workflows.
 
 ### Overview of the 'TimeCode' field depending on the context
-![Aperçu de Dynamic Timecode Display](DynamicTcDisplay.png)
+![Aperçu de Dynamic Timecode Display](PICTURES/DynamicTcDisplay.png)
 
 ReaImGui script for REAPER that displays contextual time information in a clean and readable floating window.
 
@@ -44,7 +44,7 @@ ReaImGui script for REAPER that allows precise shifting of items, time selection
 This script is inspired by the Edit/Shift function in PROTOOLS, with added improvements.
 
 ### Overview of 'TimeShift'
-![Aperçu de TimeShift](Timeshift.png)
+![Aperçu de TimeShift](PICTURES/Timeshift.png)
 
 ## Features
 
@@ -79,7 +79,7 @@ Add this repository to your ReaPack sources:
 Type a text and convert it in Reaper Session
 
 ### Overview of 'CreateTracksFromText'
-![Aperçu de CreateTracksFromText](TextToTracksDef.png)
+![Aperçu de CreateTracksFromText](PICTURES/TextToTracksDef.png)
 
 ## Features
 Write your Templates as a Text and transform this in a Reaper session as a Template would do
