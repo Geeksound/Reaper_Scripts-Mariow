@@ -3,6 +3,10 @@
 </p>
 
 # Scripts Reaper - par Mariow
+## Installation via ReaPack
+
+Ajoutez cette URL à vos sources ReaPack pour installer **TimeShift** et les autres scripts disponibles dans ce dépôt :
+
 
 
 ## Directory Structure
@@ -14,7 +18,9 @@
 
 
 ## Interactive-TC-Display (ReaImGui)
+## [Interactive-TC-Display (ReaImGui)](https://github.com/Geeksound/Reaper_Scripts-Mariow/blob/main/View/Interactive-TC-Display.lua)
 - `View/`
+
 
 Displays either the Timecode or the selected item's name dynamically, based on context.
 Designed for precise visual feedback in post-production or recording workflows.
