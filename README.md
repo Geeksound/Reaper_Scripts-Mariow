@@ -4,11 +4,12 @@
 
 # Scripts Reaper - par Mariow
 
-## Structure des répertoires
-- `Metadatas/` : Scripts liés aux métadonnées
-- `Utility/` : Scripts utilitaires
-- `Editing/` : Scripts pour l'édition
-- `View/` : Scripts liés à l'affichage
+
+## Directory Structure
+- `Metadatas/`: Scripts related to metadata
+- `Utility/`: Utility scripts
+- `Editing/`: Scripts for editing
+- `View/`: Scripts related to display
 
 
 
@@ -36,7 +37,8 @@ ReaImGui script for REAPER that displays contextual time information in a clean 
 - Green during playback
 - Red while recording
 - **custom typography** : Comic Sans MS for a playful touch
-### Dépendance
+- 
+### Dependancy
 
 This script requires [ReaImGui](https://github.com/cfillion/reaimgui).
 
