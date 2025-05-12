@@ -5,7 +5,7 @@
 # Scripts Reaper - par Mariow
 ## Installation via ReaPack
 
-Add this URLto your Reapack repositories (Reapack>Manage Repositories... import/export) to install these Scripts
+Add this URL to your Reapack repositories (Reapack>Manage Repositories... import/export) to install these Scripts
 https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/index.xml
 
 
