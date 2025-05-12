@@ -5,7 +5,7 @@
 # Scripts Reaper - par Mariow
 ## Installation via ReaPack
 
-Ajoutez cette URL à vos sources ReaPack pour installer **TimeShift** et les autres scripts disponibles dans ce dépôt :
+Add this URLto your Reapack repositories (Reapack>Manage Repositories... import/export) to install these Scripts
 https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/index.xml
 
 
