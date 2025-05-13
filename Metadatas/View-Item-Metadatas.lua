@@ -2,6 +2,8 @@
 -- @author Mariow
 -- @version 1.0
 -- @changelog Initial release
+-- @provides
+--   [main] Metadatas/View-Item-Metadatas.lua
 -- @link https://github.com/Geeksound/Reaper_Scripts-Mariow
 -- @tags items , metadatatas , source properties
 -- @about
