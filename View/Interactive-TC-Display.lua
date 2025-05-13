@@ -7,6 +7,7 @@
 -- @about
 --   # Interactive-TC-Display
 --   Contextual display of TimeCode / Items / Status for Reaper 7.0.
+-- This script was developed with the help of GitHub Copilot.
 
 local ctx = reaper.ImGui_CreateContext('Interactive-TC-Display')
 local FONT_SIZE = 24
