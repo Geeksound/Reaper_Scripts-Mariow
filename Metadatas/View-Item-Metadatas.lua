@@ -7,6 +7,7 @@
 -- @about
 --   # View-Item-Metadatas
 --   Contextual display selected item metadata for Reaper 7.0.
+-- This script was developed with the help of GitHub Copilot.
 
 
 local r = reaper
