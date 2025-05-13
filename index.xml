@@ -50,7 +50,7 @@
   <version>1.0</version>
   <type>script</type>
   <link>https://github.com/Geeksound/Reaper_Scripts-Mariow</link>
-  <description>Concept by Mariow. Coding assistance by Github Copilot. Swpap 2 Items positions for listening&editing.</description>
+  <description>Concept by Mariow. Coding assistance by Github Copilot. Swap the positions of two items.</description>
   <author>Mariow</author>
   <category>Editing</category>
   <provides>[main] Editing/Swap-ItemsPositionsOnSameTracks.lua</provides>
