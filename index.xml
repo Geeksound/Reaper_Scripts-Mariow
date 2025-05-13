@@ -94,16 +94,6 @@
       </version>
     </reapack>
   </category>
-  <reapack name="CreateTracksFromText">
-    <author>Mariow</author>
-    <category>Tracks</category>
-    <description>Concept by Mariow. Coding assistance by Github Copilot. Create Tracks from a formatted text.</description>
-    <link>https://github.com/Geeksound/Reaper_Scripts-Mariow</link>
-    <provides>[main] Utility/CreateTracksFromText.lua</provides>
-    <source url="https://raw.githubusercontent.com/Geeksound/Reaper_Scripts-Mariow/main/Utility/CreateTracksFromText.lua"/>
-    <type>script</type>
-    <version>1.0</version>
-  </reapack>
   <reapack name="Interactive-TC-Display">
     <author>Mariow</author>
     <category>Display</category>
