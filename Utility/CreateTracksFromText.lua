@@ -7,6 +7,7 @@
 -- @about
 --   # CreateTracksFromText
 --   Contextual Create Tracks in Reaper with Name/Parent/children/Spacer and colors by entering a text in form
+-- This script was developed with the help of GitHub Copilot
 
 
 local named_colors = {
