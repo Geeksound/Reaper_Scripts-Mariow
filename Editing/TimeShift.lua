@@ -7,6 +7,7 @@
 -- @about
 --   # Timeshift
 --   Contextual edit/SHIFT Items/Timeselection/Curspos for Reaper 7.0.
+-- This script was developed with the help of GitHub Copilot.
 
 -- ReaImGui : Convertisseur temporel (samples -> hh:mm:ss:ff)
 local ctx = reaper.ImGui_CreateContext('Convertisseur temporel')
