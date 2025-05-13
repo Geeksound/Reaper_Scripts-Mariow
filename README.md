@@ -84,9 +84,7 @@ Add this repository to your ReaPack:
 
 - [ReaImGui](https://github.com/cfillion/reaimgui) (install via ReaPack)
 
-## Installation via ReaPack
 
-Add this repository to your ReaPack sources:
 
 ---
 ## 2. **Swap-ItemsPositionsOnSameTracks **
