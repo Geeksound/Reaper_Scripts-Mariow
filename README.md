@@ -20,7 +20,7 @@ https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/index.xml
 - `View/`---------
 
 ## 1. **Interactive-TC-Display** (ReaImGui)
-(https://github.com/Geeksound/Reaper_Scripts-Mariow/blob/main/View/Interactive-TC-Display.lua)
+(https://github.com/Geeksound/Reaper_Scripts-Mariow/blob/main/View/Interactive-TC-Display.lua)  
  Displays either the Timecode or the selected item's name dynamically, based on context.
  Designed for precise visual feedback in post-production or recording workflows.
 
@@ -55,7 +55,7 @@ Add this repository to your ReaPack:
 - `Editing/`---------
 
 ## 1. **TimeShift** 
-(https://github.com/Geeksound/Reaper_Scripts-Mariow/blob/main/Editing/TimeShhift.lua)
+(https://github.com/Geeksound/Reaper_Scripts-Mariow/blob/main/Editing/TimeShhift.lua)  
  Precise Time Shifting (ReaImGui)
  ReaImGui script for REAPER that allows precise shifting of items, time selection, or the edit cursor using a user-defined value in various formats.
  This script is inspired by the Edit/Shift function in PROTOOLS, with added improvements.
@@ -90,7 +90,7 @@ Add this repository to your ReaPack sources:
 
 ---
 ## 2. **Swap-ItemsPositionsOnSameTracks **
- (https://github.com/Geeksound/Reaper_Scripts-Mariow/blob/main/Editing/Swap-ItemsPositionsOnSameTracks.lua)
+ (https://github.com/Geeksound/Reaper_Scripts-Mariow/blob/main/Editing/Swap-ItemsPositionsOnSameTracks.lua)  
   Swap 2 Items on a Track for listening and editing purpose
 
  ### Overview of 'Swap-ItemsPositionsOnSameTracks'
@@ -108,7 +108,7 @@ Add this repository to your ReaPack sources:
 - `Utility/`---------
 
 ## 1. **CreateTracksFromText**
-(https://github.com/Geeksound/Reaper_Scripts-Mariow/blob/main/Utility/CreateTracksFromText.lua)
+(https://github.com/Geeksound/Reaper_Scripts-Mariow/blob/main/Utility/CreateTracksFromText.lua)  
  Type a text and convert it in Reaper Session
  
 
@@ -132,7 +132,7 @@ Add this repository to your ReaPack sources:
 - `Metadatas/`---------
 
 ## 1. **View-Item-Metadatas**
-(https://github.com/Geeksound/Reaper_Scripts-Mariow/blob/main/Metadatas/*View-Item-Metadatas.lua)
+(https://github.com/Geeksound/Reaper_Scripts-Mariow/blob/main/Metadatas/*View-Item-Metadatas.lua)  
 View in a window differents kind of Metadatas listed in your Item source file
 May be practical to be sure that the Metadatas are accessible in some Workflows
 
