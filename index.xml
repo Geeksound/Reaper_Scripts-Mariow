@@ -19,7 +19,7 @@
         <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/6cfdb2592fe8637624f798228765a55e7810f495/Editing/Swap-ItemsPositionsOnSameTracks.lua</source>
       </version>
     </reapack>
-    <reapack name="TimeShift.lua" type="script" desc="Inpired from Edit/Shift in PROTOOLS , with more feaures">
+    <reapack name="TimeShift.lua" type="script" desc="TimeShift">
       <metadata>
         <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
 {\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
