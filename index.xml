@@ -6,7 +6,7 @@
   <version>1.0</version>
   <type>script</type>
   <link>https://github.com/Geeksound/Reaper_Scripts-Mariow</link>
-  <description>Concept by Mariow. Coding assistance by ChatGPT. Overview of the 'TimeCode' field depending on the context.</description>
+  <description>Concept by Mariow. Coding assistance by c. Overview of the 'TimeCode' field depending on the context.</description>
   <author>Mariow</author>
   <category>Display</category>
   <provides>[main] View/Interactive-TC-Display.lua</provides>
@@ -17,7 +17,7 @@
   <version>1.0</version>
   <type>script</type>
   <link>https://github.com/Geeksound/Reaper_Scripts-Mariow</link>
-  <description>Concept by Mariow. Coding assistance by ChatGPT. Precise Shifting of Items/Timeselection/CursPos.</description>
+  <description>Concept by Mariow. Coding assistance by Github Copilot. Precise Shifting of Items/Timeselection/CursPos.</description>
   <author>Mariow</author>
   <category>Display</category>
   <provides>[main] Editing/TimeShift.lua</provides>
@@ -28,7 +28,7 @@
   <version>1.0</version>
   <type>script</type>
   <link>https://github.com/Geeksound/Reaper_Scripts-Mariow</link>
-  <description>Concept by Mariow. Coding assistance by ChatGPT. Create Tracks from a formatted text.</description>
+  <description>Concept by Mariow. Coding assistance by Github Copilot. Create Tracks from a formatted text.</description>
   <author>Mariow</author>
   <category>Tracks</category>
   <provides>[main] Utility/CreateTracksFromText.lua</provides>
@@ -39,7 +39,7 @@
   <version>1.0</version>
   <type>script</type>
   <link>https://github.com/Geeksound/Reaper_Scripts-Mariow</link>
-  <description>Concept by Mariow. Coding assistance by ChatGPT. View item's metadatas.</description>
+  <description>Concept by Mariow. Coding assistance by Github Copilot. View item's metadatas.</description>
   <author>Mariow</author>
   <category>View</category>
   <provides>[main] Metadatas/View-Item-Metadatas.lua</provides>
