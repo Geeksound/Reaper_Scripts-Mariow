@@ -2,6 +2,8 @@
 -- @author Mariow
 -- @version 1.0
 -- @changelog Initial release
+-- @provides
+--   [main] Utility/CreateTracksFromText.lua
 -- @link https://github.com/Geeksound/Reaper_Scripts-Mariow
 -- @tags template
 -- @about
