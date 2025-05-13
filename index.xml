@@ -46,4 +46,15 @@
   <source url="https://raw.githubusercontent.com/Geeksound/Reaper_Scripts-Mariow/main/Metadatas/View-Item-Metadatas.lua" />
  </reapack>
 
+<reapack name="Swap-2Items">
+  <version>1.0</version>
+  <type>script</type>
+  <link>https://github.com/Geeksound/Reaper_Scripts-Mariow</link>
+  <description>Concept by Mariow. Coding assistance by Github Copilot. Precise Shifting of Items/Timeselection/CursPos.</description>
+  <author>Mariow</author>
+  <category>Editing</category>
+  <provides>[main] Editing/Swap-2Items.lua</provides>
+  <source url="https://raw.githubusercontent.com/Geeksound/Reaper_Scripts-Mariow/main/Editing/TimeShift.lua" />
+ </reapack>
+ 
 </index>
