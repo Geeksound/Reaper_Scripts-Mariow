@@ -2,6 +2,8 @@
 -- @author Mariow
 -- @version 1.0
 -- @changelog Initial release
+-- @provides
+--   [main] Editing/Swap-ItemsPositionsOnSameTracks.lua
 -- @link https://github.com/Geeksound/Reaper_Scripts-Mariow
 -- @tags items, editing
 -- @about
