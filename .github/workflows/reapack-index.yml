@@ -27,7 +27,9 @@ jobs:
             ${{ runner.os }}-gems-
 
       - name: Install dependencies
-        run: bundle install --path vendor/bundle
+        run: |
+          bundle config set --local path 'vendor/bundle'
+          bundle install
 
       - name: Generate index
         run: bundle exec reapack-index .
