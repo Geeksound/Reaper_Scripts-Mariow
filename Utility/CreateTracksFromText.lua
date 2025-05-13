@@ -1,6 +1,6 @@
 -- @description Name:CreateTracksFromText
 -- @author Mariow
--- @version 1.0
+-- @version 2.0
 -- @changelog Initial release
 -- @provides
 --   [main] Utility/CreateTracksFromText.lua
@@ -10,7 +10,6 @@
 --   # CreateTracksFromText
 --   Contextual Create Tracks in Reaper with Name/Parent/children/Spacer and colors by entering a text in form
 -- This script was developed with the help of GitHub Copilot
-
 
 local named_colors = {
 rouge = {255, 0, 0},
@@ -141,3 +140,19 @@ reaper.PreventUIRefresh(-1)
 reaper.TrackList_AdjustWindows(false)
 reaper.Undo_EndBlock("Créer pistes (hiérarchie par indentation)", -1)
 reaper.UpdateArrange()
+
+reaper.Undo_BeginBlock()
+reaper.Main_OnCommand(40297, 0) -- Unselect all tracks
+
+local track_count = reaper.CountTracks(0)
+for i = 0, track_count - 1 do
+local track = reaper.GetTrack(0, i)
+local _, name = reaper.GetSetMediaTrackInfo_String(track, "P_NAME", "", false)
+if name == "" then
+reaper.SetTrackSelected(track, true)
+end
+end
+
+reaper.Undo_EndBlock("Sélectionner pistes sans nom", -1)
+reaper.Main_OnCommand(40005, 0)
+

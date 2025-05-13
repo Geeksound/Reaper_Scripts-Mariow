@@ -69,7 +69,7 @@
 ]]></description>
         <link rel="website">https://github.com/Geeksound/Reaper_Scripts-Mariow</link>
       </metadata>
-      <version name="1.0" author="Mariow" time="2025-05-11T21:31:20Z">
+      <version name="2.0" author="Mariow" time="2025-05-11T21:31:20Z">
         <changelog><![CDATA[Initial release]]></changelog>
         <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/8a67c52f2685ea7c5565d27adc5e822c7e05cabb/Utility/CreateTracksFromText.lua</source>
       </version>
