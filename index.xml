@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<index version="1" name="Mariow Scripts" commit="1d48b6c02408d9489b805ebb181a4d2709a8be31">
+<index version="1" name="Mariow Scripts" commit="ebaa758e1b75f32c7ea84f20069307a5b92dc39a">
   <author>Mariow</author>
   <category name="Editing">
     <reapack name="Swap-ItemsPositionsOnSameTracks.lua" type="script" desc="Swap the position of 2 selected items">
@@ -25,8 +25,8 @@
 {\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
 \widowctrl\hyphauto
 
-{\pard \ql \f0 \sa180 \li0 \fi0 \outlinelevel0 \b \fs36 Timeshift\par}
-{\pard \ql \f0 \sa180 \li0 \fi0 Contextual edit/SHIFT Items/Timeselection/Curspos for Reaper 7.0.\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 \outlinelevel0 \b \fs36 TimeShift\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 Contextual edit/SHIFT for Items, Time Selection, and Cursor Position in Reaper 7.0. This script was developed with the help of GitHub Copilot.\par}
 }
 ]]></description>
         <link rel="website">https://github.com/Geeksound/Reaper_Scripts-Mariow</link>
