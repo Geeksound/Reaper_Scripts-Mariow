@@ -1,4 +1,4 @@
--- @description Inspired by Edit/Shift in Pro Tools, with more features
+-- @description TimeShift
 -- @version 1.1
 -- @author Mariow
 -- @changelog Initial release
