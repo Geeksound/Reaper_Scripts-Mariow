@@ -21,7 +21,7 @@ https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/index.xml
 
 ## 1. **Interactive-TC-Display** (ReaImGui)
 (https://github.com/Geeksound/Reaper_Scripts-Mariow/blob/main/View/Interactive-TC-Display.lua)
- Displays either the Timecode or the selected item's name dynamically, based on context.
+ ##Displays either the Timecode or the selected item's name dynamically, based on context.
  Designed for precise visual feedback in post-production or recording workflows.
 
 ### Overview of the 'TimeCode' field depending on the context
