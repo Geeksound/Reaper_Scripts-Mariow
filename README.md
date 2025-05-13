@@ -94,7 +94,7 @@ Add this repository to your ReaPack sources:
   Swap 2 Items on a Track for listening and editing purpose
 
  ### Overview of 'Swap-ItemsPositionsOnSameTracks'
-![Aperçu de TimeShift](PICTURES/Timeshift.png)
+![Aperçu de TimeShift](PICTURES/Swap2Items.png)
 
 ## FEATURES
  - **Quick comparative listening between 2 items
