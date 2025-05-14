@@ -55,7 +55,7 @@ Add this repository to your ReaPack:
 - `Editing/`---------
 
 ## 1. **TimeShift** 
-(https://github.com/Geeksound/Reaper_Scripts-Mariow/blob/main/Editing/TimeShhift.lua)  
+(https://github.com/Geeksound/Reaper_Scripts-Mariow/blob/main/Editing/TimeShift.lua)  
  Precise Time Shifting (ReaImGui)
  ReaImGui script for REAPER that allows precise shifting of items, time selection, or the edit cursor using a user-defined value in various formats.
  This script is inspired by the Edit/Shift function in PROTOOLS, with added improvements.
@@ -106,7 +106,7 @@ Add this repository to your ReaPack:
 - `Utility/`---------
 
 ## 1. **CreateTracksFrom-Text**
-(https://github.com/Geeksound/Reaper_Scripts-Mariow/blob/main/Utility/CreateTracksFromText.lua)  
+(https://github.com/Geeksound/Reaper_Scripts-Mariow/blob/main/Utility/CreateTracksFrom-Text.lua)  
  Type a text and convert it in Reaper Session
  
 
