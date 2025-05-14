@@ -61,7 +61,7 @@ Add this repository to your ReaPack:
  This script is inspired by the Edit/Shift function in PROTOOLS, with added improvements.
 
 ### Overview of 'TimeShift'
-![Aperçu de TimeShift](PICTURES/Timeshift.png)
+![Aperçu de TimeShift](PICTURES/TimeShift.png)
 
 ## FEATURES
 - **Quick shifting** of selected items or time selection
