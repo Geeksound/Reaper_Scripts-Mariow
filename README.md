@@ -130,7 +130,7 @@ Add this repository to your ReaPack:
 - `Metadatas/`---------
 
 ## 1. **View-Item-Metadatas**
-(https://github.com/Geeksound/Reaper_Scripts-Mariow/blob/main/Metadatas/*View-Item-Metadatas.lua)  
+(https://github.com/Geeksound/Reaper_Scripts-Mariow/blob/main/Metadatas/View-Item-Metadatas.lua)  
 View in a window differents kind of Metadatas listed in your Item source file
 May be practical to be sure that the Metadatas are accessible in some Workflows
 
