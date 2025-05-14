@@ -105,12 +105,12 @@ Add this repository to your ReaPack:
 -------------------------------------------------
 - `Utility/`---------
 
-## 1. **CreateTracksFromText**
+## 1. **CreateTracksFrom-Text**
 (https://github.com/Geeksound/Reaper_Scripts-Mariow/blob/main/Utility/CreateTracksFromText.lua)  
  Type a text and convert it in Reaper Session
  
 
-### Overview of 'CreateTracksFromText'
+### Overview of 'CreateTracksFrom-Text'
 ![Aperçu de CreateTracksFromText](PICTURES/TextToTracksDef.png)
 
 ## FEATURES
