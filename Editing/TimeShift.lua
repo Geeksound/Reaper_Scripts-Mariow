@@ -1,7 +1,7 @@
 -- @description Inspired by Edit/Shift in Pro Tools, with more features
--- @version 1.1
+-- @version 1.2
 -- @author Mariow
--- @changelog Initial release
+-- @changelog English version
 -- @provides
 --   [main] Editing/TimeShift.lua
 -- @link https://github.com/Geeksound/Reaper_Scripts-Mariow

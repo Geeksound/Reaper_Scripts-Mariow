@@ -51,8 +51,8 @@
 ]]></description>
         <link rel="website">https://github.com/Geeksound/Reaper_Scripts-Mariow</link>
       </metadata>
-      <version name="1.1" author="Mariow" time="2025-05-11T21:34:52Z">
-        <changelog><![CDATA[Initial release]]></changelog>
+      <version name="1.2" author="Mariow" time="2025-05-11T21:34:52Z">
+        <changelog><![CDATA[English version]]></changelog>
         <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/563d6ad15568c31e0b12e7764d6a52c362e644a1/Editing/TimeShift.lua</source>
       </version>
     </reapack>
@@ -155,7 +155,7 @@
     <provides>[main] Editing/TimeShift.lua</provides>
     <source url="https://raw.githubusercontent.com/Geeksound/Reaper_Scripts-Mariow/main/Editing/TimeShift.lua"/>
     <type>script</type>
-    <version>1.1</version>
+    <version>1.2</version>
   </reapack>
   <reapack name="View-Item-Metadatas">
     <author>Mariow</author>
