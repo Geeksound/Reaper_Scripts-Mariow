@@ -1,15 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
-<index version="1" name="Mariow Scripts" commit="ebaa758e1b75f32c7ea84f20069307a5b92dc39a">
+<index version="1" name="Mariow Scripts" commit="2daa5a29f1569838c01a840a35501de334a4851c">
   <!-- ===================================== -->
   <!--           AUTHOR INFORMATION          -->
   <!-- ===================================== -->
-  <author>Mariow</author>
-
   <!-- ===================================== -->
   <!--           EDITING SCRIPTS            -->
   <!-- ===================================== -->
+  <!-- ===================================== -->
+  <!--           METADATA SCRIPTS           -->
+  <!-- ===================================== -->
+  <!-- ===================================== -->
+  <!--           UTILITY SCRIPTS            -->
+  <!-- ===================================== -->
+  <!-- ===================================== -->
+  <!--           VIEW SCRIPTS               -->
+  <!-- ===================================== -->
+  <!-- ===================================== -->
+  <!--           REAPACK SECTION            -->
+  <!-- ===================================== -->
+  <!-- Script: Swap-ItemsPositionsOnSameTracks.lua -->
+  <!-- Script: TimeShift.lua -->
+  <!-- Script: View-Item-Metadatas.lua -->
+  <!-- Script: CreateTracksFrom-Text.lua -->
+  <!-- Script: Interactive-TC-Display.lua -->
+  <author>Mariow</author>
   <category name="Editing">
     <!-- Script: Swap-ItemsPositionsOnSameTracks -->
+    <!-- Script: TimeShift -->
     <reapack name="Swap-ItemsPositionsOnSameTracks.lua" type="script" desc="Swap the position of 2 selected items">
       <metadata>
         <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
@@ -27,8 +44,6 @@
         <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/6cfdb2592fe8637624f798228765a55e7810f495/Editing/Swap-ItemsPositionsOnSameTracks.lua</source>
       </version>
     </reapack>
-
-    <!-- Script: TimeShift -->
     <reapack name="TimeShift.lua" type="script" desc="TimeShift">
       <metadata>
         <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
@@ -47,10 +62,6 @@
       </version>
     </reapack>
   </category>
-
-  <!-- ===================================== -->
-  <!--           METADATA SCRIPTS           -->
-  <!-- ===================================== -->
   <category name="Metadatas">
     <!-- Script: View-Item-Metadatas -->
     <reapack name="View-Item-Metadatas.lua" type="script" desc="View-Item-Metadatas">
@@ -71,10 +82,26 @@
       </version>
     </reapack>
   </category>
+  <category name="Utility">
+    <!-- Script: CreateTracksFrom-Text -->
+    <reapack name="CreateTracksFrom-Text.lua" type="script" desc="Name:CreateTracksFromText">
+      <metadata>
+        <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
+{\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
+\widowctrl\hyphauto
 
-  <!-- ===================================== -->
-  <!--           VIEW SCRIPTS               -->
-  <!-- ===================================== -->
+{\pard \ql \f0 \sa180 \li0 \fi0 \outlinelevel0 \b \fs36 CreateTracksFromText\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 Contextual Create Tracks in Reaper with Name/Parent/children/Spacer and colors by entering a text in form\par}
+}
+]]></description>
+        <link rel="website">https://github.com/Geeksound/Reaper_Scripts-Mariow</link>
+      </metadata>
+      <version name="1.0" author="Mariow" time="2025-05-14T08:36:00Z">
+        <changelog><![CDATA[Initial release]]></changelog>
+        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/Utility/CreateTracksFrom-Text.lua</source>
+      </version>
+    </reapack>
+  </category>
   <category name="View">
     <!-- Script: Interactive-TC-Display -->
     <reapack name="Interactive-TC-Display.lua" type="script" desc="Interactive-TC-Display">
@@ -95,12 +122,26 @@
       </version>
     </reapack>
   </category>
-
-  <!-- ===================================== -->
-  <!--           REAPACK SECTION            -->
-  <!-- ===================================== -->
-
-  <!-- Script: Swap-ItemsPositionsOnSameTracks.lua -->
+  <reapack name="CreateTracksFrom-Text">
+    <author>Mariow</author>
+    <category>Utility</category>
+    <description>Concept by Mariow. Coding assistance by GitHub Copilot. Create tracks in REAPER with names, parent/child relationships, spacers, and colors.</description>
+    <link>https://github.com/Geeksound/Reaper_Scripts-Mariow</link>
+    <provides>[main] Utility/CreateTracksFrom-Text.lua</provides>
+    <source url="https://raw.githubusercontent.com/Geeksound/Reaper_Scripts-Mariow/main/Utility/CreateTracksFrom-Text.lua"/>
+    <type>script</type>
+    <version>1.0</version>
+  </reapack>
+  <reapack name="Interactive-TC-Display">
+    <author>Mariow</author>
+    <category>View</category>
+    <description>Concept by Mariow. Coding assistance by GitHub Copilot. Interactive display of TimeCode, items, and status for REAPER.</description>
+    <link>https://github.com/Geeksound/Reaper_Scripts-Mariow</link>
+    <provides>[main] View/Interactive-TC-Display.lua</provides>
+    <source url="https://raw.githubusercontent.com/Geeksound/Reaper_Scripts-Mariow/main/View/Interactive-TC-Display.lua"/>
+    <type>script</type>
+    <version>1.0</version>
+  </reapack>
   <reapack name="Swap-ItemsPositionsOnSameTracks">
     <author>Mariow</author>
     <category>Editing</category>
@@ -111,8 +152,6 @@
     <type>script</type>
     <version>1.0</version>
   </reapack>
-
-  <!-- Script: TimeShift.lua -->
   <reapack name="TimeShift">
     <author>Mariow</author>
     <category>Editing</category>
@@ -123,8 +162,6 @@
     <type>script</type>
     <version>1.1</version>
   </reapack>
-
-  <!-- Script: View-Item-Metadatas.lua -->
   <reapack name="View-Item-Metadatas">
     <author>Mariow</author>
     <category>Metadatas</category>
@@ -132,18 +169,6 @@
     <link>https://github.com/Geeksound/Reaper_Scripts-Mariow</link>
     <provides>[main] Metadatas/View-Item-Metadatas.lua</provides>
     <source url="https://raw.githubusercontent.com/Geeksound/Reaper_Scripts-Mariow/main/Metadatas/View-Item-Metadatas.lua"/>
-    <type>script</type>
-    <version>1.0</version>
-  </reapack>
-
-  <!-- Script: Interactive-TC-Display.lua -->
-  <reapack name="Interactive-TC-Display">
-    <author>Mariow</author>
-    <category>View</category>
-    <description>Concept by Mariow. Coding assistance by GitHub Copilot. Interactive display of TimeCode, items, and status for REAPER.</description>
-    <link>https://github.com/Geeksound/Reaper_Scripts-Mariow</link>
-    <provides>[main] View/Interactive-TC-Display.lua</provides>
-    <source url="https://raw.githubusercontent.com/Geeksound/Reaper_Scripts-Mariow/main/View/Interactive-TC-Display.lua"/>
     <type>script</type>
     <version>1.0</version>
   </reapack>
