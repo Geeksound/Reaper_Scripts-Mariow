@@ -6,27 +6,6 @@
   <author>Mariow</author>
 
   <!-- ===================================== -->
-  <!--           ABOUT SECTION              -->
-  <!-- ===================================== -->
-  <about>
-    <![CDATA[
-    # Mariow Scripts for REAPER
-
-    Welcome to my collection of scripts for REAPER! This repository contains various tools to enhance your workflow, including:
-    - **Utility Scripts:** Tools like `CreateTracksFrom-Text.lua` for creating tracks from text descriptions.
-    - **Editing Scripts:** Scripts for swapping item positions, time shifts, and more.
-    - **Metadata Scripts:** View and edit metadata directly in REAPER.
-
-    ## Features
-    - Improve efficiency with easy-to-use tools.
-    - Scripts are designed for REAPER 7.0 and above.
-    - Includes customizable actions and templates.
-
-    For more information, visit [my GitHub repository](https://github.com/Geeksound/Reaper_Scripts-Mariow).
-    ]]>
-  </about>
-
-  <!-- ===================================== -->
   <!--           EDITING SCRIPTS            -->
   <!-- ===================================== -->
   <category name="Editing">
