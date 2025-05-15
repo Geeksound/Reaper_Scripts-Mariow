@@ -69,6 +69,10 @@ Add this repository to your ReaPack:
 ### Overview of 'TimeShift'
 ![Aperçu de TimeShift](PICTURES/TimeShift.png)
 
+<p align="center">
+  <img src="PICTURES/TimeShift.png" alt="Overview of 'TimeShift'">
+</p>   
+
 ## FEATURES
 - **Quick shifting** of selected items or time selection
 - **Flexible input options** :
