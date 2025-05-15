@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-<img src="PICTURES/ProfilGitHubMariow.png" alt="Mariow Logo" width="200"/>
+<img src="PICTURES/ProfilGitHubMariow.png" alt="Mariow Logo" width="100"/>
 </p>
 
 # Scripts Reaper inspired from Protools and more - by Mariow
