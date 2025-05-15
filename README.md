@@ -8,7 +8,7 @@
 <img src="PICTURES/ProfilGitHubMariow.png" alt="Mariow Logo" width="200"/>
 </p>
 
-# Scripts Reaper inspired from Protools - by Mariow
+# Scripts Reaper inspired from Protools and more - by Mariow
 ## Installation via ReaPack
 
 Add this URL to your Reapack repositories (Reapack>Manage Repositories... import/export) to install these Scripts
