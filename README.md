@@ -30,8 +30,11 @@ https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/index.xml
  Displays either the Timecode or the selected item's name dynamically, based on context.
  Designed for precise visual feedback in post-production or recording workflows.
 
-### Overview of the 'TimeCode' field depending on the context
-![Aperçu de Dynamic Timecode Display](PICTURES/DynamicTcDisplay.png)
+<!--### Overview of the 'TimeCode' field depending on the context
+![Aperçu de Dynamic Timecode Display](PICTURES/DynamicTcDisplay.png)-->
+<p align="center">
+  <img src="PICTURES/DynamicTcDisplay.png" alt="Overview of 'DynamicTcDisplay'">
+</p>   
 
 ReaImGui script for REAPER that displays contextual time information in a clean and readable floating window.
 
@@ -66,10 +69,9 @@ Add this repository to your ReaPack:
  ReaImGui script for REAPER that allows precise shifting of items, time selection, or the edit cursor using a user-defined value in various formats.
  This script is inspired by the Edit/Shift function in PROTOOLS, with added improvements.
 
-<!-- ancienne version non centree pour reference -->
-<!--### Overview of 'TimeShift' -->
-<!--![Aperçu de TimeShift](PICTURES/TimeShift.png) -->
-
+<!-- ancienne version non centree pour reference
+### Overview of 'TimeShift'
+![Aperçu de TimeShift](PICTURES/TimeShift.png) -->
 <p align="center">
   <img src="PICTURES/TimeShift.png" alt="Overview of 'TimeShift'">
 </p>   
@@ -104,7 +106,6 @@ Add this repository to your ReaPack:
 
  <!--### Overview of 'Swap-ItemsPositionsOnSameTracks'
 ![Aperçu de TimeShift](PICTURES/Swap2Items.png)-->
-
 <p align="center">
   <img src="PICTURES/Swap2Items.png" alt="Overview of 'Swap2Items'">
 </p>   
@@ -125,8 +126,11 @@ Add this repository to your ReaPack:
  Type a text and convert it in Reaper Session
  
 
-### Overview of 'CreateTracksFrom-Text'
-![Aperçu de CreateTracksFromText](PICTURES/TextToTracksDef.png)
+<!--### Overview of 'CreateTracksFrom-Text'
+![Aperçu de CreateTracksFromText](PICTURES/TextToTracksDef.png)-->
+<p align="center">
+  <img src="PICTURES/TextToTracksDef.png" alt="Overview of 'TextToTracks'">
+</p>   
 
 ## FEATURES
  Write your Templates as a Text and transform this in a Reaper session as a Template would do
