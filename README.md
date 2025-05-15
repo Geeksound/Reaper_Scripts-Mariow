@@ -1,3 +1,9 @@
+<h2 align="center"><em>What if REAPER had the tools of Pro Tools?</em></h2>
+
+<p align="center">
+<img src="PICTURES/Ultimate.png" alt="Ultimate Banner" width="800"/>
+</p>
+
 <p align="center">
 <img src="PICTURES/ProfilGitHubMariow.png" alt="Mariow Logo" width="200"/>
 </p>
