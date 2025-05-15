@@ -102,8 +102,12 @@ Add this repository to your ReaPack:
  (https://github.com/Geeksound/Reaper_Scripts-Mariow/blob/main/Editing/Swap-ItemsPositionsOnSameTracks.lua)  
   Swap 2 Items on a Track for listening and editing purpose
 
- ### Overview of 'Swap-ItemsPositionsOnSameTracks'
-![Aperçu de TimeShift](PICTURES/Swap2Items.png)
+ <!--### Overview of 'Swap-ItemsPositionsOnSameTracks'
+![Aperçu de TimeShift](PICTURES/Swap2Items.png)-->
+
+<p align="center">
+  <img src="PICTURES/Swap2Items.png" alt="Overview of 'Swap2Items'">
+</p>   
 
 ## FEATURES
  - **Quick comparative listening between 2 items
