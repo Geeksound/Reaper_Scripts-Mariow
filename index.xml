@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
+<<<<<<< HEAD
 <index version="1" name="Mariow Scripts" commit="ebaa758e1b75f32c7ea84f20069307a5b92dc39a">
   <!-- ===================================== -->
   <!--           AUTHOR INFORMATION          -->
@@ -148,3 +149,6 @@
     <version>1.0</version>
   </reapack>
 </index>
+=======
+<index version="1" name="Mariow Scripts"/>
+>>>>>>> 9d27387 (index: 1 modified metadata)
