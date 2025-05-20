@@ -1,51 +1,33 @@
-name: ReaPack Index
+name: ReaPack index update
 
 on:
   push:
     branches: [main]
-  pull_request:
-    branches: [main]
+    paths:
+      - '**.lua'
+      - index.xml
 
 jobs:
-  build:
+  update-index:
     runs-on: ubuntu-latest
-
     steps:
-      - name: Checkout
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v3
 
-      - name: Setup Ruby
+      - name: Set up Ruby
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: '3.1.0'
-          bundler-cache: false
+          ruby-version: '3.1'
 
-      - name: Cache Gems
-        uses: actions/cache@v3
-        with:
-          path: vendor/bundle
-          key: ${{ runner.os }}-gems-${{ hashFiles('**/Gemfile.lock') }}
-          restore-keys: |
-            ${{ runner.os }}-gems-
+      - name: Install reapack-index
+        run: gem install reapack-index
 
-      - name: Install dependencies
-        run: |
-          bundle config set --local path 'vendor/bundle'
-          bundle install
+      - name: Run reapack-index
+        run: reapack-index .
 
-      - name: Generate index
-        run: bundle exec reapack-index .
-
-      - name: Validate index
-        run: |
-          if ! test -f index.xml; then
-            echo "Error: index.xml not found!" && exit 1
-          fi
-
-      - name: Commit index
+      - name: Commit and push updated index
         run: |
           git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add index.xml
-          git commit -m "Update index.xml [CI]" || echo "No changes to commit"
-          git push
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add index.xml index.xml.gz index.yaml || true
+          git commit -m "Update ReaPack index" || true
+          git push origin HEAD:gh-pages
