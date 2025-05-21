@@ -100,7 +100,7 @@ Add this repository to your ReaPack:
 
 
 ---
-## 2. **Swap-ItemsPositionsOnSameTracks **
+## 2. **Swap-ItemsPositionsOnSameTracks**
  (https://github.com/Geeksound/Reaper_Scripts-Mariow/blob/main/Editing/Swap-ItemsPositionsOnSameTracks.lua)  
   Swap 2 Items on a Track for listening and editing purpose
 
