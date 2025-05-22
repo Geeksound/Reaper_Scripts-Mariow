@@ -3,7 +3,7 @@
 <p align="center">
 <img src="PICTURES/Ultimate.png" alt="Ultimate Banner" width="800"/>
 </p>
-
+<h3 align="center"><em>"Reapers" by Muse is a reference among all</em></h3>
 <p align="center">
 <img src="PICTURES/ProfilGitHubMariow.png" alt="Mariow Logo" width="100"/>
 </p>
@@ -161,5 +161,3 @@ About the Author------------
 Sound engineer, professor, eternal student, and workflow designer.
 Specialized in location and production sound, with a passion for developing innovative workflows.
 Wish the best for Reaper, its collaborators and community.
-
-"Reapers" by Muse is a reference among all
