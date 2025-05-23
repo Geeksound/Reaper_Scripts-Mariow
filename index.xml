@@ -1,16 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
-<<<<<<< HEAD
-<index version="1" name="Mariow Scripts" commit="ebaa758e1b75f32c7ea84f20069307a5b92dc39a">
+<index version="1" name="Mariow Scripts" commit="1f0bab89ae918869d36a55c17c183178158d036a">
   <!-- ===================================== -->
-  <!--           AUTHOR INFORMATION          -->
+  <!--            AUTHOR INFORMATION         -->
+  <!-- ===================================== -->
+  <!-- ===================================== -->
+  <!--            EDITING SCRIPTS           -->
+  <!-- ===================================== -->
+  <!-- ===================================== -->
+  <!--           METADATA SCRIPTS           -->
+  <!-- ===================================== -->
+  <!-- ===================================== -->
+  <!--            UTILITY SCRIPTS           -->
+  <!-- ===================================== -->
+  <!-- ===================================== -->
+  <!--             VIEW SCRIPTS             -->
+  <!-- ===================================== -->
+  <!-- ===================================== -->
+  <!--            REAPACK SECTION           -->
   <!-- ===================================== -->
   <author>Mariow</author>
-
-  <!-- ===================================== -->
-  <!--           EDITING SCRIPTS            -->
-  <!-- ===================================== -->
   <category name="Editing">
     <!-- Script: Swap-ItemsPositionsOnSameTracks -->
+    <!-- Script: TimeShift -->
     <reapack name="Swap-ItemsPositionsOnSameTracks.lua" type="script" desc="Swap the position of 2 selected items">
       <metadata>
         <description><![CDATA[Swap Items Positions On Same Tracks for A/B listening in Reaper 7.0]]></description>
@@ -21,11 +32,16 @@
         <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/Editing/Swap-ItemsPositionsOnSameTracks.lua</source>
       </version>
     </reapack>
-
-    <!-- Script: TimeShift -->
-    <reapack name="TimeShift.lua" type="script" desc="TimeShift">
+    <reapack name="TimeShift.lua" type="script" desc="Inspired by Edit/Shift in Pro Tools, with more features">
       <metadata>
-        <description><![CDATA[Contextual edit/SHIFT for Items, Time Selection, and Cursor Position in Reaper 7.0.]]></description>
+        <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
+{\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
+\widowctrl\hyphauto
+
+{\pard \ql \f0 \sa180 \li0 \fi0 \outlinelevel0 \b \fs36 TimeShift\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 Contextual edit/SHIFT for Items, Time Selection, and Cursor Position in Reaper 7.0. This script was developed with the help of GitHub Copilot.\par}
+}
+]]></description>
         <link rel="website">https://github.com/Geeksound/Reaper_Scripts-Mariow</link>
       </metadata>
       <version name="1.2" author="Mariow" time="2025-05-11T21:34:52Z">
@@ -34,15 +50,18 @@
       </version>
     </reapack>
   </category>
-
-  <!-- ===================================== -->
-  <!--           METADATA SCRIPTS           -->
-  <!-- ===================================== -->
   <category name="Metadatas">
     <!-- Script: View-FieldRecorder-Metadatas -->
     <reapack name="View-FieldRecorder-Metadatas.lua" type="script" desc="View-FieldRecorder-Metadatas">
       <metadata>
-        <description><![CDATA[Display selected item metadata in Reaper 7.0.]]></description>
+        <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
+{\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
+\widowctrl\hyphauto
+
+{\pard \ql \f0 \sa180 \li0 \fi0 \outlinelevel0 \b \fs36 View-FieldRecorder-Metadatas\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 Contextual display selected item metadata for Reaper 7.0.\par}
+}
+]]></description>
         <link rel="website">https://github.com/Geeksound/Reaper_Scripts-Mariow</link>
       </metadata>
       <version name="1.1" author="Mariow" time="2025-05-11T21:34:12Z">
@@ -51,27 +70,6 @@
       </version>
     </reapack>
   </category>
-
-  <!-- ===================================== -->
-  <!--           UTILITY SCRIPTS            -->
-  <!-- ===================================== -->
-  <category name="Utility">
-    <!-- Script: CreateTracksFromText -->
-    <reapack name="CreateTracksFromText.lua" type="script" desc="Create Tracks From Text">
-      <metadata>
-        <description><![CDATA[Create tracks with names, parent/child relationships, spacers, and colors in Reaper.]]></description>
-        <link rel="website">https://github.com/Geeksound/Reaper_Scripts-Mariow</link>
-      </metadata>
-      <version name="1.0" author="Mariow" time="2025-05-14T08:36:00Z">
-        <changelog><![CDATA[Initial release]]></changelog>
-        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/Utility/CreateTracksFromText.lua</source>
-      </version>
-    </reapack>
-  </category>
-
-  <!-- ===================================== -->
-  <!--           VIEW SCRIPTS               -->
-  <!-- ===================================== -->
   <category name="View">
     <!-- Script: Interactive-TC-Display -->
     <reapack name="Interactive-TC-Display.lua" type="script" desc="Interactive-TC-Display">
@@ -85,47 +83,6 @@
       </version>
     </reapack>
   </category>
-
-  <!-- ===================================== -->
-  <!--           REAPACK SECTION            -->
-  <!-- ===================================== -->
-  <!-- Script: Swap-ItemsPositionsOnSameTracks.lua -->
-  <reapack name="Swap-ItemsPositionsOnSameTracks">
-    <author>Mariow</author>
-    <category>Editing</category>
-    <description>Concept by Mariow. Coding assistance by GitHub Copilot. Swap the positions of two items.</description>
-    <link>https://github.com/Geeksound/Reaper_Scripts-Mariow</link>
-    <provides>[main] Editing/Swap-ItemsPositionsOnSameTracks.lua</provides>
-    <source url="https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/Editing/Swap-ItemsPositionsOnSameTracks.lua"/>
-    <type>script</type>
-    <version>1.0</version>
-  </reapack>
-
-  <!-- Script: TimeShift.lua -->
-  <reapack name="TimeShift">
-    <author>Mariow</author>
-    <category>Editing</category>
-    <description>Concept by Mariow. Coding assistance by GitHub Copilot. Precise shifting of items, time selection, and cursor position.</description>
-    <link>https://github.com/Geeksound/Reaper_Scripts-Mariow</link>
-    <provides>[main] Editing/TimeShift.lua</provides>
-    <source url="https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/Editing/TimeShift.lua"/>
-    <type>script</type>
-    <version>1.1</version>
-  </reapack>
-
-  <!-- Script: View-FieldRecorder-Metadatas.lua -->
-  <reapack name="View-FieldRecorder-Metadatas">
-    <author>Mariow</author>
-    <category>Metadatas</category>
-    <description>Concept by Mariow. Coding assistance by GitHub Copilot. View-FieldRecorder-Metadatas.</description>
-    <link>https://github.com/Geeksound/Reaper_Scripts-Mariow</link>
-    <provides>[main] Metadatas/View-FieldRecorder-Metadatas.lua</provides>
-    <source url="https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/Metadatas/View-FieldRecorder-Metadatas.lua"/>
-    <type>script</type>
-    <version>1.0</version>
-  </reapack>
-
-  <!-- Script: CreateTracksFromText.lua -->
   <reapack name="CreateTracksFromText">
     <author>Mariow</author>
     <category>Utility</category>
@@ -136,8 +93,6 @@
     <type>script</type>
     <version>1.0</version>
   </reapack>
-
-  <!-- Script: Interactive-TC-Display.lua -->
   <reapack name="Interactive-TC-Display">
     <author>Mariow</author>
     <category>View</category>
@@ -148,7 +103,34 @@
     <type>script</type>
     <version>1.0</version>
   </reapack>
+  <reapack name="Swap-ItemsPositionsOnSameTracks">
+    <author>Mariow</author>
+    <category>Editing</category>
+    <description>Concept by Mariow. Coding assistance by GitHub Copilot. Swap the positions of two items.</description>
+    <link>https://github.com/Geeksound/Reaper_Scripts-Mariow</link>
+    <provides>[main] Editing/Swap-ItemsPositionsOnSameTracks.lua</provides>
+    <source url="https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/Editing/Swap-ItemsPositionsOnSameTracks.lua"/>
+    <type>script</type>
+    <version>1.0</version>
+  </reapack>
+  <reapack name="TimeShift">
+    <author>Mariow</author>
+    <category>Editing</category>
+    <description>Concept by Mariow. Coding assistance by GitHub Copilot. Precise shifting of items, time selection, and cursor position.</description>
+    <link>https://github.com/Geeksound/Reaper_Scripts-Mariow</link>
+    <provides>[main] Editing/TimeShift.lua</provides>
+    <source url="https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/Editing/TimeShift.lua"/>
+    <type>script</type>
+    <version>1.1</version>
+  </reapack>
+  <reapack name="View-FieldRecorder-Metadatas">
+    <author>Mariow</author>
+    <category>Metadatas</category>
+    <description>Concept by Mariow. Coding assistance by GitHub Copilot. View-FieldRecorder-Metadatas.</description>
+    <link>https://github.com/Geeksound/Reaper_Scripts-Mariow</link>
+    <provides>[main] Metadatas/View-FieldRecorder-Metadatas.lua</provides>
+    <source url="https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/Metadatas/View-FieldRecorder-Metadatas.lua"/>
+    <type>script</type>
+    <version>1.0</version>
+  </reapack>
 </index>
-=======
-<index version="1" name="Mariow Scripts"/>
->>>>>>> 9d27387 (index: 1 modified metadata)
