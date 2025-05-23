@@ -37,14 +37,14 @@
   <!--           METADATA SCRIPTS           -->
   <!-- ===================================== -->
   <category name="Metadatas">
-    <reapack name="View-Item-Metadatas.lua" type="script" desc="View-Item-Metadatas">
+    <reapack name="View-FieldRecorder-Metadatas.lua" type="script" desc="View-FieldRecorder-Metadatas">
       <metadata>
         <description><![CDATA[Display selected item metadata in Reaper 7.0.]]></description>
         <link rel="website">https://github.com/Geeksound/Reaper_Scripts-Mariow</link>
       </metadata>
-      <version name="1.0" author="Mariow" time="2025-05-11T21:34:12Z">
-        <changelog><![CDATA[Initial release]]></changelog>
-        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/Metadatas/View-Item-Metadatas.lua</source>
+      <version name="1.1" author="Mariow" time="2025-05-11T21:34:12Z">
+        <changelog><![CDATA[Renamed]]></changelog>
+        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/Metadatas/View-FieldRecorder-Metadatas.lua</source>
       </version>
     </reapack>
   </category>
