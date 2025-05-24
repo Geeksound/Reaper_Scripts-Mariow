@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<index version="1" name="Mariow Scripts" commit="1c3e4fd4daa52de2b4d6ce868d819102cc815cc2">
+<index version="1" name="Mariow Scripts" commit="fcebb20c908787cffd1ce56a5311918821e67ef4">
   <!-- ===================================== -->
   <!--           AUTHOR INFORMATION          -->
   <!-- ===================================== -->
@@ -29,7 +29,14 @@
     <!-- Script: TimeShift -->
     <reapack name="Swap-ItemsPositionsOnSameTracks.lua" type="script" desc="Swap the position of 2 selected items">
       <metadata>
-        <description><![CDATA[Swap Items Positions On Same Tracks for A/B listening in Reaper 7.0]]></description>
+        <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
+{\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
+\widowctrl\hyphauto
+
+{\pard \ql \f0 \sa180 \li0 \fi0 \outlinelevel0 \b \fs36 Swap-ItemsPositionsOnSameTracks\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 Contextual Swap to Between to Items for listening A/B for Reaper 7.0.\par}
+}
+]]></description>
         <link rel="website">https://github.com/Geeksound/Reaper_Scripts-Mariow</link>
       </metadata>
       <version name="1.0" author="Mariow" time="2025-05-13T07:48:20Z">
