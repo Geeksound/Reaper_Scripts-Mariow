@@ -1,0 +1,10 @@
+packages:
+  - name: Mariow Scripts
+    author: Mariow
+    website: https://github.com/Geeksound/Reaper_Scripts-Mariow
+    source: .
+    content:
+      - Editing/*.lua
+      - Metadatas/*.lua
+      - Utility/*.lua
+      - View/*.lua
