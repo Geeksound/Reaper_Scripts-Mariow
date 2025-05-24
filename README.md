@@ -155,7 +155,7 @@ May be practical to be sure that the Metadatas are accessible in some Workflows
 
   
 -------------------------------------------------
-About the Author------------
+-------About the Author-----
 -------------------------------------------------
 **[Geeksound](https://github.com/Geeksound)**
 Sound engineer, professor, eternal student, and workflow designer.
