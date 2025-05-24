@@ -159,7 +159,6 @@ in order to answer questions in this type of workflow.
 ____________________________
 ----- About the Author -----
 
--------------------------------------------------
 **[Geeksound](https://github.com/Geeksound)**
 Sound engineer, professor, eternal student, and workflow designer.
 Specialized in location and production sound, with a passion for developing innovative workflows.
