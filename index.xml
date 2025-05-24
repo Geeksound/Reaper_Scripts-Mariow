@@ -1,32 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <index version="1" name="Mariow Scripts" commit="fcebb20c908787cffd1ce56a5311918821e67ef4">
-  <!-- ===================================== -->
-  <!--           AUTHOR INFORMATION          -->
-  <!-- ===================================== -->
-  <!-- ===================================== -->
-  <!--           EDITING SCRIPTS            -->
-  <!-- ===================================== -->
-  <!-- ===================================== -->
-  <!--           METADATA SCRIPTS           -->
-  <!-- ===================================== -->
-  <!-- ===================================== -->
-  <!--           UTILITY SCRIPTS            -->
-  <!-- ===================================== -->
-  <!-- ===================================== -->
-  <!--           VIEW SCRIPTS               -->
-  <!-- ===================================== -->
-  <!-- ===================================== -->
-  <!--           REAPACK SECTION            -->
-  <!-- ===================================== -->
-  <!-- Script: Swap-ItemsPositionsOnSameTracks.lua -->
-  <!-- Script: TimeShift.lua -->
-  <!-- Script: View-FieldRecorder-Metadatas.lua -->
-  <!-- Script: CreateTracksFromText.lua -->
-  <!-- Script: Interactive-TC-Display.lua -->
   <author>Mariow</author>
   <category name="Editing">
-    <!-- Script: Swap-ItemsPositionsOnSameTracks -->
-    <!-- Script: TimeShift -->
     <reapack name="Swap-ItemsPositionsOnSameTracks.lua" type="script" desc="Swap the position of 2 selected items">
       <metadata>
         <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
@@ -63,7 +38,6 @@
     </reapack>
   </category>
   <category name="Metadatas">
-    <!-- Script: View-FieldRecorder-Metadatas -->
     <reapack name="View-FieldRecorder-Metadatas.lua" type="script" desc="View-FieldRecorder-Metadatas">
       <metadata>
         <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
@@ -83,7 +57,6 @@
     </reapack>
   </category>
   <category name="View">
-    <!-- Script: Interactive-TC-Display -->
     <reapack name="Interactive-TC-Display.lua" type="script" desc="Context-sensitive info display: TC, items, and time selection">
       <metadata>
         <description><![CDATA[Interactive display of TimeCode, items, and status for Reaper 7.0.]]></description>
@@ -95,16 +68,18 @@
       </version>
     </reapack>
   </category>
-  <reapack name="CreateTracksFromText">
-    <author>Mariow</author>
-    <category>Utility</category>
-    <description>Concept by Mariow. Coding assistance by GitHub Copilot. Create tracks in Reaper with names, parent/child relationships, spacers, and colors by entering text in a specific format.</description>
-    <link>https://github.com/Geeksound/Reaper_Scripts-Mariow</link>
-    <provides>[main] Utility/CreateTracksFromText.lua</provides>
-    <source url="https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/Utility/CreateTracksFromText.lua"/>
-    <type>script</type>
-    <version>1.0</version>
-  </reapack>
+  <category name="Utility">
+    <reapack name="CreateTracksFromText.lua" type="script" desc="Create tracks in Reaper with names, parent/child relationships, spacers, and colors by entering text in a specific format">
+      <metadata>
+        <description><![CDATA[Concept by Mariow. Coding assistance by GitHub Copilot. Create tracks in Reaper with names, parent/child relationships, spacers, and colors by entering text in a specific format.]]></description>
+        <link rel="website">https://github.com/Geeksound/Reaper_Scripts-Mariow</link>
+      </metadata>
+      <version name="1.0" author="Mariow" time="2025-05-11T21:34:52Z">
+        <changelog><![CDATA[Initial release]]></changelog>
+        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/Utility/CreateTracksFromText.lua</source>
+      </version>
+    </reapack>
+  </category>
   <reapack name="Interactive-TC-Display">
     <author>Mariow</author>
     <category>View</category>
