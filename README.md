@@ -151,7 +151,7 @@ Add this repository to your ReaPack:
 ## 1. **View-FieldRecorder-Metadatas**
 (https://github.com/Geeksound/Reaper_Scripts-Mariow/blob/main/Metadatas/View-FieldRecorder-Metadatas.lua)  
 This script allows you to read and analyze the metadatas of the selected item through its source file in a window. 
-The metadatas being examined is that entered by Sound Recorders in Film Sound Recording, such as the Scorpio or Cantar,
+The metadatas being examined are that entered by Sound Recorders in Film Sound Recording, such as the Scorpio or Cantar,
 in order to answer questions in this type of workflow.
 
   
