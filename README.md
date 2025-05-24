@@ -157,7 +157,7 @@ in order to answer questions in this type of workflow.
   
 -------------------------------------------------
 ____________________________
------ About the Author -----
+----- About the Author -----  
 **[Geeksound](https://github.com/Geeksound)**  
 
 Sound engineer, professor, eternal student, and workflow designer.
