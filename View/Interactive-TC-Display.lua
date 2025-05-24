@@ -1,9 +1,9 @@
 -- @description Interactive-TC-Display
 -- @author Mariow
--- @version 1.0
+-- @version 1.1
+-- @changelog Initial releaseV2
 -- @provides
 --   [main] View/Interactive-TC-Display.lua
--- @changelog Initial release
 -- @link https://github.com/Geeksound/Reaper_Scripts-Mariow
 -- @tags timecode, display, reaper, contextual, items, status
 -- @about
