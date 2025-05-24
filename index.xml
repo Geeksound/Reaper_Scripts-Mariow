@@ -83,4 +83,20 @@
       </version>
     </reapack>
   </category>
+  <category name="Utility">
+    <reapack name="CreateTracksFromText.lua" type="script" desc="Create named and structured tracks from text">
+      <metadata>
+        <description><![CDATA[
+# CreateTracksFromText
+Contextual Create Tracks in Reaper with Name/Parent/children/Spacer and colors by entering a text in form.
+This script was developed with the help of GitHub Copilot.
+      ]]></description>
+        <link rel="website">https://github.com/Geeksound/Reaper_Scripts-Mariow</link>
+      </metadata>
+      <version name="1.0" author="Mariow" time="2025-05-11T21:35:20Z">
+        <changelog><![CDATA[Initial release]]></changelog>
+        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/Utility/CreateTracksFromText.lua</source>
+      </version>
+    </reapack>
+  </category>
 </index>
