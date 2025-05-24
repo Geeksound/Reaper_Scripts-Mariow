@@ -141,9 +141,9 @@ Add this repository to your ReaPack:
  3. Your Tracks in Reaper are created
 
 ## CARE
- TEXT must be in PLAIN TEXT
- SHIFT(Cmd+T) in TextEdit
- or click on Format,then Make Plain Text.
+ TEXT must be in PLAIN TEXT  
+ SHIFT(Cmd+T) in TextEdit or  
+ click on Format,then Make Plain Text.
 
 -------------------------------------------------
 - `Metadatas/`---------
