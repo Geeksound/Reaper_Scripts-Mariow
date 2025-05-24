@@ -63,7 +63,7 @@ Add this repository to your ReaPack:
 -------------------------------------------------
 - `Editing/`---------
 
-## 1. **TimeShift** 
+## 1. **TimeShift** "PROTOOLS Edit/Shift in better" :)
 (https://github.com/Geeksound/Reaper_Scripts-Mariow/blob/main/Editing/TimeShift.lua)  
  Precise Time Shifting (ReaImGui)
  ReaImGui script for REAPER that allows precise shifting of items, time selection, or the edit cursor using a user-defined value in various formats.
