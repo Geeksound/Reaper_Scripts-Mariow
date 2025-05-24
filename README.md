@@ -160,6 +160,6 @@ ____________________________
 ----- About the Author -----  
 **[Geeksound](https://github.com/Geeksound)**  
 
-Sound engineer, professor, eternal student, and workflow designer.
-Specialized in location and production sound, with a passion for developing innovative workflows.
+Sound engineer, professor, eternal student, and workflow "designer".
+Working in Film Sound Recording and Post-Production , with a passion for developing innovative workflows.
 Wish the best for Reaper, its collaborators and community.
