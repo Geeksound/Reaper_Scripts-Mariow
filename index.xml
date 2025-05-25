@@ -86,7 +86,7 @@
     </reapack>
   </category>
   <category name="View">
-    <reapack name="Interactive-TC-Display.lua" type="script" desc="Context-sensitive info display: TC, items, and time selection">
+    <reapack name="Interactive-TC-Display.lua" type="script" desc="Interactive-TC-Display">
       <metadata>
         <description><![CDATA[Interactive display of TimeCode, items, and status for Reaper 7.0.]]></description>
         <link rel="website">https://github.com/Geeksound/Reaper_Scripts-Mariow</link>
