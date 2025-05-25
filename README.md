@@ -195,7 +195,9 @@ in order to answer questions in this type of workflow.
 -------------------------------------------------
 ____________________________
 ----- About the Author -----  
-**[Geeksound](https://github.com/Geeksound)**  
+<p align="center">
+  <strong><a href="https://github.com/Geeksound">Geeksound</a></strong>
+</p>
 
 Sound engineer, professor, eternal student, and workflow "designer".  
 Working in Film Sound Recording and Post-Production,  with a passion for developing innovative workflows.  
