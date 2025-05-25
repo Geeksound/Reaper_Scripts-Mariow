@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<index version="1" name="Mariow Scripts" commit="fcebb20c908787cffd1ce56a5311918821e67ef4">
+<index version="1" name="Mariow Scripts" commit="d00bdad0ad751ee216b96020219e3ac6fce419d5">
   <author>Mariow</author>
   <category name="Editing">
     <reapack name="Swap-ItemsPositionsOnSameTracks.lua" type="script" desc="Swap the position of 2 selected items">
@@ -56,6 +56,35 @@
       </version>
     </reapack>
   </category>
+  <category name="Utility">
+    <reapack name="CreateTracksFromText.lua" type="script" desc="Create tracks in Reaper with names, parent/child relationships, spacers, and colors by entering text in a specific format">
+      <metadata>
+        <description><![CDATA[Concept by Mariow. Coding assistance by GitHub Copilot. Create tracks in Reaper with names, parent/child relationships, spacers, and colors by entering text in a specific format.]]></description>
+        <link rel="website">https://github.com/Geeksound/Reaper_Scripts-Mariow</link>
+      </metadata>
+      <version name="1.0" author="Mariow" time="2025-05-11T21:34:52Z">
+        <changelog><![CDATA[Initial release]]></changelog>
+        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/Utility/CreateTracksFromText.lua</source>
+      </version>
+    </reapack>
+    <reapack name="prefix-to-name.lua" type="script" desc="Add prefix to the NAME of Selected Item">
+      <metadata>
+        <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
+{\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
+\widowctrl\hyphauto
+
+{\pard \ql \f0 \sa180 \li0 \fi0 \outlinelevel0 \b \fs36 prefix-to-name\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 Contextual add prefix to the NAME of Selected Item in Reaper 7.0. This script was developed with the help of GitHub Copilot.\par}
+}
+]]></description>
+        <link rel="website">https://github.com/Geeksound/Reaper_Scripts-Mariow</link>
+      </metadata>
+      <version name="1.0" author="Mariow" time="2025-05-25T00:00:00Z">
+        <changelog><![CDATA[Initial release]]></changelog>
+        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/Utility/prefix-to-name.lua</source>
+      </version>
+    </reapack>
+  </category>
   <category name="View">
     <reapack name="Interactive-TC-Display.lua" type="script" desc="Context-sensitive info display: TC, items, and time selection">
       <metadata>
@@ -68,28 +97,6 @@
       </version>
     </reapack>
   </category>
-  <category name="Utility">
-    <reapack name="CreateTracksFromText.lua" type="script" desc="Create tracks in Reaper with names, parent/child relationships, spacers, and colors by entering text in a specific format">
-      <metadata>
-        <description><![CDATA[Concept by Mariow. Coding assistance by GitHub Copilot. Create tracks in Reaper with names, parent/child relationships, spacers, and colors by entering text in a specific format.]]></description>
-        <link rel="website">https://github.com/Geeksound/Reaper_Scripts-Mariow</link>
-      </metadata>
-      <version name="1.0" author="Mariow" time="2025-05-11T21:34:52Z">
-        <changelog><![CDATA[Initial release]]></changelog>
-        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/Utility/CreateTracksFromText.lua</source>
-      </version>
-    </reapack>
-    <reapack name="prefix-to-name.lua" type="script" desc="Contextual add prefix to the NAME of Selected Item">
-      <metadata>
-        <description><![CDATA[Contextual add prefix to the NAME of Selected Item in Reaper 7.0.]]></description>
-        <link rel="website">https://github.com/Geeksound/Reaper_Scripts-Mariow</link>
-      </metadata>
-      <version name="1.0" author="Mariow" time="2025-05-25T00:00:00Z">
-        <changelog><![CDATA[Initial release]]></changelog>
-        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/Utility/prefix-to-name.lua</source>
-      </version>
-    </reapack>
-  </category>
   <reapack name="Interactive-TC-Display">
     <author>Mariow</author>
     <category>View</category>
@@ -99,6 +106,16 @@
     <source url="https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/View/Interactive-TC-Display.lua"/>
     <type>script</type>
     <version>1.1.1</version>
+  </reapack>
+  <reapack name="prefix-to-name">
+    <author>Mariow</author>
+    <category>Utility</category>
+    <description>Concept by Mariow. Coding assistance by GitHub Copilot. Contextual add prefix to the NAME of Selected Item in Reaper.</description>
+    <link>https://github.com/Geeksound/Reaper_Scripts-Mariow</link>
+    <provides>[main] Utility/prefix-to-name.lua</provides>
+    <source url="https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/Utility/prefix-to-name.lua"/>
+    <type>script</type>
+    <version>1.0</version>
   </reapack>
   <reapack name="Swap-ItemsPositionsOnSameTracks">
     <author>Mariow</author>
@@ -129,15 +146,5 @@
     <source url="https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/Metadatas/View-FieldRecorder-Metadatas.lua"/>
     <type>script</type>
     <version>1.1</version>
-  </reapack>
-  <reapack name="prefix-to-name">
-    <author>Mariow</author>
-    <category>Utility</category>
-    <description>Concept by Mariow. Coding assistance by GitHub Copilot. Contextual add prefix to the NAME of Selected Item in Reaper.</description>
-    <link>https://github.com/Geeksound/Reaper_Scripts-Mariow</link>
-    <provides>[main] Utility/prefix-to-name.lua</provides>
-    <source url="https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/Utility/prefix-to-name.lua"/>
-    <type>script</type>
-    <version>1.0</version>
   </reapack>
 </index>
