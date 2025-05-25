@@ -145,6 +145,25 @@ Add this repository to your ReaPack:
  SHIFT(Cmd+T) in TextEdit or  
  click on Format,then Make Plain Text.
 
+ 
+
+---
+## 2. **Sprefix-to-name**
+ (https://github.com/Geeksound/Reaper_Scripts-Mariow/blob/main/Utility/prefix-to-name.lua)  
+ Add a prefix to Name of Selected Items to improve sorting and organisation
+
+<p align="center">
+  <img src="PICTURES/prefix-to-name.png" alt="Overview of 'prefix-to-name'">
+</p>   
+
+## FEATURES
+Batch Re-naming selected Items with a prefix for a better Workflow and sorting
+ 
+ ## How to use
+ 1 Select Items
+ 2 Action list / prefix-to-name
+ 3 Choose a prefix
+ 
 -------------------------------------------------
 - `Metadatas/`---------
 
