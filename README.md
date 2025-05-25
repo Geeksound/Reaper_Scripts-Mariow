@@ -194,7 +194,7 @@ in order to answer questions in this type of workflow.
   
 -------------------------------------------------
 ____________________________
------ About the Author -----  
+<p align="center">😀 😎 🎧 About the Author 🎧 😎 😀</p>
 <p align="center">
   <strong><a href="https://github.com/Geeksound">Geeksound</a></strong>
 </p>
