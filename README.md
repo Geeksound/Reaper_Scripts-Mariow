@@ -177,10 +177,10 @@ Batch Re-naming selected Items with a prefix for a better Workflow and sorting
   Replace a/suit of character(s) in a Name for special Worflows and convention
   
   ## How to use
-  1 Select Items
-  2 Action list / ReplaceXthCharacter
-  3 Enter Character to replace
-  4 Enter New Character 
+  1 Select Items  
+  2 Action list / ReplaceXthCharacter  
+  3 Enter Character to replace  
+  4 Enter New Character  
  
 -------------------------------------------------
 - `Metadatas/`---------
