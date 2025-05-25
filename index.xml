@@ -57,7 +57,7 @@
     </reapack>
   </category>
   <category name="Utility">
-    <reapack name="CreateTracksFromText.lua" type="script" desc="Create tracks in Reaper with names, parent/child relationships, spacers, and colors by entering text in a specific format">
+    <reapack name="CreateTracksFromText.lua" type="script" desc=" CreateTracksFromText">
       <metadata>
         <description><![CDATA[Concept by Mariow. Coding assistance by GitHub Copilot. Create tracks in Reaper with names, parent/child relationships, spacers, and colors by entering text in a specific format.]]></description>
         <link rel="website">https://github.com/Geeksound/Reaper_Scripts-Mariow</link>
