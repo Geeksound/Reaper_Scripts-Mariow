@@ -153,7 +153,7 @@ Add this repository to your ReaPack:
  Add a prefix to Name of Selected Items to improve sorting and organisation
 
 <p align="center">
-  <img src="PICTURES/prefix-to-name.png" alt="Overview of 'prefix-to-name'" width="400" />
+  <img src="PICTURES/prefix-to-name.png" alt="Overview of 'prefix-to-name'" width="500" />
 </p>   
 
 ## FEATURES
