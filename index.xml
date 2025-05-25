@@ -79,7 +79,28 @@
         <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/Utility/CreateTracksFromText.lua</source>
       </version>
     </reapack>
+
+    <!-- Ajout de prefix to name -->
+    <reapack name="prefix-to-name.lua" type="script" desc="Add prefix to the NAME of Selected Item">
+      <metadata>
+        <description><![CDATA[
+{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
+{\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
+\widowctrl\hyphauto
+
+{\pard \ql \f0 \sa180 \li0 \fi0 \outlinelevel0 \b \fs36 prefix-to-name\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 Contextual add prefix to the NAME of selected item in Reaper 7.0. Developed with GitHub Copilot assistance.\par}
+]]
+        </description>
+        <link rel="website">https://github.com/Geeksound/Reaper_Scripts-Mariow</link>
+      </metadata>
+      <version name="1.0" author="Mariow" time="2025-05-25T00:00:00Z">
+        <changelog><![CDATA[Initial release]]></changelog>
+        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/Utility/prefix-to-name.lua</source>
+      </version>
+    </reapack>
   </category>
+
   <reapack name="Interactive-TC-Display">
     <author>Mariow</author>
     <category>View</category>
