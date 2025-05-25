@@ -84,6 +84,24 @@
         <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/Utility/prefix-to-name.lua</source>
       </version>
     </reapack>
+    <reapack name="ReplaceXthCharacter-inName.lua" type="script" desc="CharacterText Interchange in Names">
+      <metadata>
+        <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
+{\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
+\widowctrl\hyphauto
+
+{\pard \ql \f0 \sa180 \li0 \fi0 \outlinelevel0 \b \fs36 ReplaceXthCharacter-inName\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 Contextual Replacement of a Character of sequence of Character in Reaper 7.0.\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 This script was developed with the help of GitHub Copilot.\par}
+}
+]]></description>
+        <link rel="website">https://github.com/Geeksound/Reaper_Scripts-Mariow</link>
+      </metadata>
+      <version name="1.0" author="Mariow" time="2025-05-25T00:00:00Z">
+        <changelog><![CDATA[Initial Release]]></changelog>
+        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/Utility/ReplaceXthCharacter-inName.lua</source>
+      </version>
+    </reapack>
   </category>
   <category name="View">
     <reapack name="Interactive-TC-Display.lua" type="script" desc="Interactive-TC-Display">
@@ -146,5 +164,15 @@
     <source url="https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/Metadatas/View-FieldRecorder-Metadatas.lua"/>
     <type>script</type>
     <version>1.1</version>
+  </reapack>
+  <reapack name="ReplaceXthCharacter-inName">
+    <author>Mariow</author>
+    <category>Utility</category>
+    <description>Contextual Replacement of a Character or sequence of Characters in Reaper 7.0. Developed with GitHub Copilot.</description>
+    <link>https://github.com/Geeksound/Reaper_Scripts-Mariow</link>
+    <provides>[main] Utility/ReplaceXthCharacter-inName.lua</provides>
+    <source url="https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/Utility/ReplaceXthCharacter-inName.lua"/>
+    <type>script</type>
+    <version>1.0</version>
   </reapack>
 </index>

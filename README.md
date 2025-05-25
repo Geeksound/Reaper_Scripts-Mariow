@@ -148,7 +148,7 @@ Add this repository to your ReaPack:
  
 
 ---
-## 2. **Sprefix-to-name**
+## 2. **prefix-to-name**
  (https://github.com/Geeksound/Reaper_Scripts-Mariow/blob/main/Utility/prefix-to-name.lua)  
  Add a prefix to Name of Selected Items to improve sorting and organisation
 
@@ -163,6 +163,24 @@ Batch Re-naming selected Items with a prefix for a better Workflow and sorting
  1 Select Items
  2 Action list / prefix-to-name
  3 Choose a prefix
+  
+  ---
+  ## 2. **ReplaceXthCharacter-inName**
+  (https://github.com/Geeksound/Reaper_Scripts-Mariow/blob/main/Utility/ReplaceXthCharacter-inName.lua)  
+  Replace a /suit of Chararacter(s) in a Name
+  
+  <p align="center">
+    <img src="PICTURES/ReplaceXthCharacter.png" alt="Overview of 'ReplaceXthCharacter'" width="800" />
+  </p>   
+  
+  ## FEATURES
+  Replace a/suit of character(s) in a Name for special Worflows and convention
+  
+  ## How to use
+  1 Select Items
+  2 Action list / ReplaceXthCharacter
+  3 Enter Character to replace
+  4 Enter New Character 
  
 -------------------------------------------------
 - `Metadatas/`---------
