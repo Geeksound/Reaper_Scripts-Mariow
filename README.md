@@ -89,7 +89,7 @@ Swap 2 Items on a Track for listening and editing purpose
 - `Field-Recorder_Workflow/`---------
 ## AVAILABLE SOON - under construction
 <p align="center">
-  <img src="PICTURES/MetadataMatcher.png" alt="Overview of 'MetadataMatcher'" width="800" />
+  <img src="PICTURES/Fieldrecorder-Tracks.png" alt="Overview of 'MetadataMatcher'" width="800" />
 </p> 
 -------------------------------------------------
 
