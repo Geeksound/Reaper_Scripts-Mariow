@@ -16,61 +16,23 @@ https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/index.xml
 
 
 ## Directory Structure
-- `View/`: Scripts related to display
 - `Editing/`: Scripts for editing
-- `Utility/`: Utility scripts
-- `Metadatas/`: Scripts related to metadata
 - `Field-Recorder_Workflow/`: Under construction
+- `Metadatas/`: Scripts related to metadata
+- `Utility/`: Utility scripts
+- `View/`: Scripts related to display
 <p align="center">
   <img src="PICTURES/Tree-Github.png" alt="Tree-Github" width="800"/>
 </p>
-
--------------------------------------------------
-- `View/`---------
-
-## 1. **Interactive-TC-Display** (ReaImGui)
-(https://github.com/Geeksound/Reaper_Scripts-Mariow/blob/main/View/Interactive-TC-Display.lua)  
- Displays either the Timecode or the selected item's name dynamically, based on context.
- Designed for precise visual feedback in post-production or recording workflows.
-
-<!--### Overview of the 'TimeCode' field depending on the context
-![Aperçu de Dynamic Timecode Display](PICTURES/DynamicTcDisplay.png)-->
-<p align="center">
-  <img src="PICTURES/DynamicTcDisplay.png" alt="Overview of 'DynamicTcDisplay'">
-</p>   
-
-ReaImGui script for REAPER that displays contextual time information in a clean and readable floating window.
-
-### FEATURES
-- **Displays the name and timecode** of selected Items (hh:mm:ss:ff)
-- **Displays the duration** of the timeselection (if no item is selected)
-- **Shows the play cursor or playback position** with large text
-- **Dynamic display** :
-- `Play` when Reaper is playing
-- `REC` when Recording
-- `Position` when stopped
-- **Colored background** :
-- Black by default
-- Green during playback
-- Red while recording
-- **custom typography** : Comic Sans MS for a playful touch
-- 
-### Dependancy
-
-This script requires [ReaImGui](https://github.com/cfillion/reaimgui).
-
-### Installation via ReaPack
-
-Add this repository to your ReaPack:
 
 -------------------------------------------------
 - `Editing/`---------
 
 ## 1. **TimeShift** "PROTOOLS Edit/Shift in better" :)
 (https://github.com/Geeksound/Reaper_Scripts-Mariow/blob/main/Editing/TimeShift.lua)  
- Precise Time Shifting (ReaImGui)
- ReaImGui script for REAPER that allows precise shifting of items, time selection, or the edit cursor using a user-defined value in various formats.
- This script is inspired by the Edit/Shift function in PROTOOLS, with added improvements.
+Precise Time Shifting (ReaImGui)
+ReaImGui script for REAPER that allows precise shifting of items, time selection, or the edit cursor using a user-defined value in various formats.
+This script is inspired by the Edit/Shift function in PROTOOLS, with added improvements.
 
 <!-- ancienne version non centree pour reference
 ### Overview of 'TimeShift'
@@ -104,22 +66,36 @@ Add this repository to your ReaPack:
 
 ---
 ## 2. **Swap-ItemsPositionsOnSameTracks**
- (https://github.com/Geeksound/Reaper_Scripts-Mariow/blob/main/Editing/Swap-ItemsPositionsOnSameTracks.lua)  
-  Swap 2 Items on a Track for listening and editing purpose
+(https://github.com/Geeksound/Reaper_Scripts-Mariow/blob/main/Editing/Swap-ItemsPositionsOnSameTracks.lua)  
+Swap 2 Items on a Track for listening and editing purpose
 
- <!--### Overview of 'Swap-ItemsPositionsOnSameTracks'
+<!--### Overview of 'Swap-ItemsPositionsOnSameTracks'
 ![Aperçu de TimeShift](PICTURES/Swap2Items.png)-->
 <p align="center">
   <img src="PICTURES/Swap2Items.png" alt="Overview of 'Swap2Items'">
 </p>   
 
 ## FEATURES
- - **Quick comparative listening between 2 items
- - **Particularly useful during sound editing for picture
+- **Quick comparative listening between 2 items
+- **Particularly useful during sound editing for picture
 
 ## How to use
- 1. Select the 2 items you wish to swap positions.
- 2. Run the Script
+1. Select the 2 items you wish to swap positions.
+2. Run the Script
+
+
+
+-------------------------------------------------
+- `Field-Recorder_Workflow/`---------
+-------------------------------------------------
+
+- `Metadatas/`---------
+
+## 1. **View-FieldRecorder-Metadatas**
+(https://github.com/Geeksound/Reaper_Scripts-Mariow/blob/main/Metadatas/View-FieldRecorder-Metadatas.lua)  
+This script allows you to read and analyze the metadatas of the selected item through its source file in a window. 
+The metadatas being examined are that entered by Sound Recorders in Film Sound Recording, such as the Scorpio or Cantar,
+in order to answer questions in this type of workflow.
 
 -------------------------------------------------
 - `Utility/`---------
@@ -185,16 +161,41 @@ Batch Re-naming selected Items with a prefix for a better Workflow and sorting
   3 Enter Character to replace  
   4 Enter New Character  
  
+
 -------------------------------------------------
-- `Metadatas/`---------
+- `View/`---------
 
-## 1. **View-FieldRecorder-Metadatas**
-(https://github.com/Geeksound/Reaper_Scripts-Mariow/blob/main/Metadatas/View-FieldRecorder-Metadatas.lua)  
-This script allows you to read and analyze the metadatas of the selected item through its source file in a window. 
-The metadatas being examined are that entered by Sound Recorders in Film Sound Recording, such as the Scorpio or Cantar,
-in order to answer questions in this type of workflow.
+## 1. **Interactive-TC-Display** (ReaImGui)
+(https://github.com/Geeksound/Reaper_Scripts-Mariow/blob/main/View/Interactive-TC-Display.lua)  
+Displays either the Timecode or the selected item's name dynamically, based on context.
+Designed for precise visual feedback in post-production or recording workflows.
 
-  
+<!--### Overview of the 'TimeCode' field depending on the context
+![Aperçu de Dynamic Timecode Display](PICTURES/DynamicTcDisplay.png)-->
+<p align="center">
+  <img src="PICTURES/DynamicTcDisplay.png" alt="Overview of 'DynamicTcDisplay'">
+</p>   
+
+ReaImGui script for REAPER that displays contextual time information in a clean and readable floating window.
+
+### FEATURES
+- **Displays the name and timecode** of selected Items (hh:mm:ss:ff)
+- **Displays the duration** of the timeselection (if no item is selected)
+- **Shows the play cursor or playback position** with large text
+- **Dynamic display** :
+- `Play` when Reaper is playing
+- `REC` when Recording
+- `Position` when stopped
+- **Colored background** :
+- Black by default
+- Green during playback
+- Red while recording
+- **custom typography** : Comic Sans MS for a playful touch
+- 
+### Dependancy
+
+This script requires [ReaImGui](https://github.com/cfillion/reaimgui)
+
 -------------------------------------------------
 ____________________________
 <p align="center">😀 😎 🎧 About the Author 🎧 😎 😀</p>
