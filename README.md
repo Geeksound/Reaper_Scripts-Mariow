@@ -104,8 +104,8 @@ exclusive to **PROTOOLS**
 <p align="center">
   <img src="PICTURES/Fieldrecorder-Tracks.png" alt="Overview of 'MetadataMatcher'" width="800" />
 </p> 
--------------------------------------------------
 
+-------------------------------------------------
 - `Metadatas/`---------
 
 ## 1. **View-FieldRecorder-Metadatas**
