@@ -87,14 +87,14 @@ Swap 2 Items on a Track for listening and editing purpose
 
 -------------------------------------------------
 - `Field-Recorder_Workflow/`---------
-## AVAILABLE SOON - under construction
+## AVAILABLE SOON for **REAPER** - under construction
 
 <p align="center">
   <img src="PICTURES/CONFORMATION-SUITE.png" alt="Overview of 'Conformation-suite'" width="800" />
 </p> 
 
 
-## 2 VERSIONS of the famous Fieldrecorder-Track that everyone thought was exclusive to **PROTOOLS**
+## --2 VERSIONS--  of the Fieldrecorder-Track  that everyone thought was  exclusive to **PROTOOLS**
 ##  1.Full version with innovative Presets
 ##  2.Auto-mode version that will work on its own in most cases
 
