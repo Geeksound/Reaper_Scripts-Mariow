@@ -94,7 +94,10 @@ Swap 2 Items on a Track for listening and editing purpose
 </p> 
 
 
-## --2 VERSIONS--  of the Fieldrecorder-Track  that everyone thought was  exclusive to **PROTOOLS**
+## --2 VERSIONS--  
+of the Fieldrecorder-Track  
+that everyone thought was  
+exclusive to **PROTOOLS**
 ##  1.Full version with innovative Presets
 ##  2.Auto-mode version that will work on its own in most cases
 
