@@ -94,6 +94,10 @@ Swap 2 Items on a Track for listening and editing purpose
 </p> 
 
 
+## 2 VERSIONS of the famous Fieldrecorder-Track that everyone thought was exclusive to **PROTOOLS**
+##  1.Full version with innovative Presets
+##  2.Auto-mode version that will work on its own in most cases
+
 <p align="center">
   <img src="PICTURES/Fieldrecorder-Tracks.png" alt="Overview of 'MetadataMatcher'" width="800" />
 </p> 
