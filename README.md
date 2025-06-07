@@ -102,7 +102,7 @@ exclusive to **PROTOOLS**
 ##  2.Auto-mode version that will work on its own in most cases
 
 <p align="center">
-  <img src="PICTURES/Fieldrecorder-Tracks.png" alt="Overview of 'Fieldrecorder-Tracks'" width="800" />
+  <img src="PICTURES/Fieldrecorder-Tracks.png?cb=1" alt="Overview of 'Fieldrecorder-Tracks'" width="800" />
 </p> 
 
 -------------------------------------------------
