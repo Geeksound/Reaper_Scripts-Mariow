@@ -125,4 +125,22 @@
     <type>script</type>
     <version>1.1.1</version>
   </reapack>
+  <category name="Metadatas">
+    <reapack name="ViewFile-FieldRecorder-Metadatas.lua" type="script" desc="ViewFile - FieldRecorder Metadatas">
+      <metadata>
+        <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
+{\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
+\widowctrl\hyphauto
+
+{\pard \ql \f0 \sa180 \li0 \fi0 Displays BWF/iXML metadata from field recorder files.\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 Shows TAKE, SCENE, TAPE, TRACK names, CIRCLED status, and more.\par}
+}
+]]></description>
+      </metadata>
+      <version name="1.0" author="Mariow" time="2025-06-07T20:00:00Z">
+        <changelog><![CDATA[- Initial release]]></changelog>
+        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/Metadatas/ViewFile-FieldRecorder-Metadatas.lua</source>
+      </version>
+    </reapack>
+  </category>
 </index>
