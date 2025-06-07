@@ -114,6 +114,16 @@ This script allows you to read and analyze the metadatas of the selected item th
 The metadatas being examined are that entered by Sound Recorders in Film Sound Recording, such as the Scorpio or Cantar,
 in order to answer questions in this type of workflow.
 
+## 2. **ViewFile-FieldRecorder-Metadatas**
+(https://github.com/Geeksound/Reaper_Scripts-Mariow/blob/main/Metadatas/ViewFile-FieldRecorder-Metadatas.lua)  
+This script allows you to read and analyze the metadata of an audiofile in the browser.
+It may be useful for Conformation and Dialogue Editing duties.
+
+<p align="center">
+  <img src="PICTURES/ViewFile-FieldRecorder-Metadatas.png" alt="Overview of 'ViewFile-FieldRecorder-Metadatas'">
+</p>   
+
+
 -------------------------------------------------
 - `Utility/`---------
 
