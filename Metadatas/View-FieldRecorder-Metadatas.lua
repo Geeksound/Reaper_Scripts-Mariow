@@ -1,7 +1,7 @@
 -- @description View-FieldRecorder-Metadatas
 -- @author Mariow
--- @version 1.1
--- @changelog Renamed
+-- @version 1.2
+-- @changelog Bug correction
 -- @provides
 --   [main] Metadatas/View-FieldRecorder-Metadatas.lua
 -- @link https://github.com/Geeksound/Reaper_Scripts-Mariow
@@ -11,117 +11,150 @@
 --   Contextual display selected item metadata for Reaper 7.0.
 -- This script was developed with the help of GitHub Copilot.
 
-
 local r = reaper
 
-function Msg(str)
-r.ShowConsoleMsg(tostring(str) .. "\n")
+local function Msg(str)
+  r.ShowConsoleMsg(tostring(str) .. "\n")
 end
 
-function ReadMetadataFromFile(filepath)
-local src = r.PCM_Source_CreateFromFile(filepath)
-if not src then
-Msg("Erreur : impossible de charger le fichier en tant que PCM source.")
-return
+local function GetMetadata(src, tag)
+  local ok, val = r.GetMediaFileMetadata(src, tag)
+  if not ok or val == "" then
+    return "[non trouvé ou vide]"
+  end
+  return val
 end
 
-Msg("=== MÉTADONNÉES ===")
-Msg("Fichier : " .. filepath .. "\n")
-
-local tags = {
-"BWF:Description", "BWF:OriginationDate", "BWF:OriginationTime", "BWF:TimeReference",
-"IXML:PROJECT", "IXML:SCENE", "IXML:TAKE", "IXML:TAPE",
-"IXML:BEXT:BWF_DESCRIPTION", "IXML:BEXT:BWF_ORIGINATOR",
-"IXML:TRACK_LIST:TRACK_COUNT",
-"IXML:AATON_CANTAR:ALL_TRK_NAME:DATA:ACTIVE",
-"IXML:AATON_CANTAR:ALL_TRK_NAME:DATA:ACTIVE:2",
-"IXML:AATON_CANTAR:ALL_TRK_NAME:DATA:ACTIVE:3",
-"IXML:AATON_CANTAR:ALL_TRK_NAME:DATA:ACTIVE:4",
-"IXML:AATON_CANTAR:ALL_TRK_NAME:DATA:ACTIVE:5",
-"IXML:AATON_CANTAR:ALL_TRK_NAME:DATA:ACTIVE:6",
-"IXML:AATON_CANTAR:ALL_TRK_NAME:DATA:ACTIVE:7",
-"IXML:AATON_CANTAR:ALL_TRK_NAME:DATA:ACTIVE:8",
-"IXML:AATON_CANTAR:ALL_TRK_NAME:DATA:ACTIVE:9",
-"IXML:AATON_CANTAR:ALL_TRK_NAME:DATA:ACTIVE:10",
-"IXML:AATON_CANTAR:ALL_TRK_NAME:DATA:ACTIVE:11",
-"IXML:AATON_CANTAR:ALL_TRK_NAME:DATA:ACTIVE:12",
-"IXML:AATON_CANTAR:ALL_TRK_NAME:DATA:ACTIVE:13",
-"IXML:AATON_CANTAR:ALL_TRK_NAME:DATA:ACTIVE:14",
-"IXML:AATON_CANTAR:ALL_TRK_NAME:DATA:ACTIVE:15",
-"IXML:AATON_CANTAR:ALL_TRK_NAME:DATA:ACTIVE:16",
-"IXML:AATON_CANTAR:ALL_TRK_NAME:DATA:ACTIVE:17",
-"IXML:AATON_CANTAR:ALL_TRK_NAME:DATA:ACTIVE:18",
-"IXML:AATON_CANTAR:ALL_TRK_NAME:DATA:ACTIVE:19",
-"IXML:AATON_CANTAR:ALL_TRK_NAME:DATA:ACTIVE:20",
-"IXML:AATON_CANTAR:ALL_TRK_NAME:DATA:ACTIVE:21",
-"IXML:AATON_CANTAR:ALL_TRK_NAME:DATA:ACTIVE:22",
-"IXML:AATON_CANTAR:ALL_TRK_NAME:DATA:ACTIVE:23",
-"IXML:AATON_CANTAR:ALL_TRK_NAME:DATA:ACTIVE:24",
-
-}
-
-for _, tag in ipairs(tags) do
-local retval, value = r.GetMediaFileMetadata(src, tag)
-if retval and value ~= "" then
-Msg(tag .. " : " .. value)
-else
-Msg(tag .. " : [non trouvé ou vide]")
-end
+-- Affiche les tags statiques
+local function PrintStaticTags(src)
+  local tags = {
+    "BWF:Description",
+    "aSCENE",
+    "aTAKE",
+    "aTAPE",
+    "aSPEED",
+    "aTAG",
+    "aNOTE",
+    "aTYP",
+    "BWF:OriginationDate",
+    "BWF:OriginationTime",
+    "BWF:TimeReference",
+    "IXML:PROJECT",
+    "IXML:SCENE",
+    "IXML:TAKE",
+    "IXML:TAPE",
+    "IXML:BEXT:BWF_DESCRIPTION",
+    "IXML:BEXT:BWF_ORIGINATOR",
+    "IXML:TRACK_LIST:TRACK_COUNT"
+  }
+  for _, tag in ipairs(tags) do
+    Msg(string.format("%s : %s", tag, GetMetadata(src, tag)))
+  end
 end
 
-local _, trackCountStr = r.GetMediaFileMetadata(src, "IXML:TRACK_LIST:TRACK_COUNT")
-local trackCount = tonumber(trackCountStr) or 0
-
-Msg("\n--- NOMS DES PISTES ---")
-for i = 1, trackCount do
-local ixmlTag = (i == 1) and "IXML:TRACK_LIST:TRACK:NAME" or ("IXML:TRACK_LIST:TRACK:NAME:" .. i)
-local retvalIXML, nameIXML = r.GetMediaFileMetadata(src, ixmlTag)
-
-local nameBWF = nil
-for _, prefix in ipairs({"d", "s", "a", "g", "r"}) do
-local retvalBWF, name = r.GetMediaFileMetadata(src, prefix .. "TRK" .. i)
-if retvalBWF and name and name ~= "" then
-nameBWF = name
-break
-end
+-- Affiche tous les ALL_TRK_NAME:DATA:ACTIVE de 1 à maxIndex (ici 24)
+local function PrintActiveTracksStatus(src, maxIndex)
+  for i = 1, maxIndex do
+    local tag = (i == 1) and
+      "IXML:AATON_CANTAR:ALL_TRK_NAME:DATA:ACTIVE" or
+      ("IXML:AATON_CANTAR:ALL_TRK_NAME:DATA:ACTIVE:" .. i)
+    local val = GetMetadata(src, tag)
+    Msg(string.format("%s : %s", tag, val))
+  end
 end
 
-if retvalIXML and nameIXML and nameIXML ~= "" then
-Msg("Piste " .. i .. " (iXML) : " .. nameIXML)
-elseif nameBWF then
-Msg("Piste " .. i .. " (BWF) : " .. nameBWF)
-else
-Msg("Piste " .. i .. " : [non trouvée]")
-end
-end
-
-r.PCM_Source_Destroy(src)
-end
-
--- MAIN
-function Main()
-r.ClearConsole()
-local item = r.GetSelectedMediaItem(0, 0)
-if not item then
-Msg("Aucun item sélectionné.")
-return
+-- Compte les DISARMED avant un index donné
+local function CountDisarmedBefore(trackIndex, src)
+  local count = 0
+  for i = 1, trackIndex -1 do
+    local tag = (i == 1) and
+      "IXML:AATON_CANTAR:ALL_TRK_NAME:DATA:ACTIVE" or
+      ("IXML:AATON_CANTAR:ALL_TRK_NAME:DATA:ACTIVE:" .. i)
+    local val = GetMetadata(src, tag)
+    if val == "DISARMED" then
+      count = count + 1
+    end
+  end
+  return count
 end
 
-local take = r.GetActiveTake(item)
-if not take or r.TakeIsMIDI(take) then
-Msg("Erreur : l’item n’a pas de take audio actif.")
-return
+-- Récupère le nom de la piste selon l’index ajusté (piste active)
+local function GetTrackName(trackIndex, src)
+  -- Statut actif ou DISARMED
+  local activeTag = (trackIndex == 1) and
+    "IXML:AATON_CANTAR:ALL_TRK_NAME:DATA:ACTIVE" or
+    ("IXML:AATON_CANTAR:ALL_TRK_NAME:DATA:ACTIVE:" .. trackIndex)
+  local status = GetMetadata(src, activeTag)
+
+  if status == "DISARMED" then
+    return "DISARMED"
+  elseif status == "YES" then
+    local disarmedBefore = CountDisarmedBefore(trackIndex, src)
+    local adjustedIndex = trackIndex - disarmedBefore
+    local nameTag = (adjustedIndex == 1) and
+      "IXML:TRACK_LIST:TRACK:NAME" or
+      ("IXML:TRACK_LIST:TRACK:NAME:" .. adjustedIndex)
+    local name = GetMetadata(src, nameTag)
+    if name == "[non trouvé ou vide]" then
+      return "[non trouvée]"
+    else
+      return name
+    end
+  else
+    return "[non trouvée]"
+  end
 end
 
-local src = r.GetMediaItemTake_Source(take)
-local filepath = r.GetMediaSourceFileName(src, "")
+local function Main()
+  r.ClearConsole()
 
-if filepath == "" then
-Msg("Erreur : impossible de retrouver le chemin du fichier source.")
-return
-end
+  local item = r.GetSelectedMediaItem(0, 0)
+  if not item then
+    Msg("Aucun item sélectionné.")
+    return
+  end
+  local take = r.GetActiveTake(item)
+  if not take then
+    Msg("Aucun take actif sur l'item.")
+    return
+  end
+  local src = r.GetMediaItemTake_Source(take)
+  if not src then
+    Msg("Impossible d'obtenir la source média.")
+    return
+  end
+  local filepath = r.GetMediaSourceFileName(src, "")
 
-ReadMetadataFromFile(filepath)
+  Msg("=== MÉTADONNÉES ===")
+  Msg("Fichier : " .. filepath)
+  Msg("")
+
+  local pcm_src = r.PCM_Source_CreateFromFile(filepath)
+  if not pcm_src then
+    Msg("Impossible de charger la source PCM depuis le fichier.")
+    return
+  end
+
+  -- Affiche les tags fixes
+  PrintStaticTags(pcm_src)
+  Msg("")
+
+  -- Affiche la section complète ALL_TRK_NAME:DATA:ACTIVE de 1 à 24 (comme dans ton exemple)
+  PrintActiveTracksStatus(pcm_src, 24)
+  Msg("")
+
+  -- Récupérer le nombre total de pistes à afficher (ici on se base sur TRACK_COUNT)
+  local ok, trackCountStr = r.GetMediaFileMetadata(pcm_src, "IXML:TRACK_LIST:TRACK_COUNT")
+  local trackCount = tonumber(trackCountStr) or 0
+
+  Msg("--- NOMS DES PISTES ---")
+  for i = 1, trackCount do
+    local name = GetTrackName(i, pcm_src)
+    Msg(string.format("Piste %d (iXML) : %s", i, name))
+  end
+
+  r.PCM_Source_Destroy(pcm_src)
 end
 
 Main()
+
