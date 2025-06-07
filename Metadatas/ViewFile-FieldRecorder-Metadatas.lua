@@ -6,8 +6,7 @@
 @changelog
   v1.0 (2025-06-07)
   - Initial release
-@provides
-  [main] Metadatas/ViewFile-FieldRecorder-Metadatas.lua
+@provides [main] Metadatas/ViewFile-FieldRecorder-Metadatas.lua
 @link https://github.com/Geeksound/Reaper_Scripts-Mariow
 @repository https://github.com/Geeksound/Reaper_Scripts-Mariow
 @tags items metadata source properties
@@ -15,10 +14,9 @@
   # ViewFile-FieldRecorder-Metadatas
   
   Contextual display of selected item metadata for REAPER 7.0.
-
+  
   This script was developed with the help of GitHub Copilot.
 --]]
-
 
 
 local r = reaper
