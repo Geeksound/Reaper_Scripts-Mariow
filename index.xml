@@ -50,8 +50,8 @@
 ]]></description>
         <link rel="website">https://github.com/Geeksound/Reaper_Scripts-Mariow</link>
       </metadata>
-      <version name="1.1" author="Mariow" time="2025-05-11T21:34:12Z">
-        <changelog><![CDATA[Renamed]]></changelog>
+      <version name="1.2" author="Mariow" time="2025-06-07T12:00:00Z">
+        <changelog><![CDATA[Bug correction]]></changelog>
         <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/Metadatas/View-FieldRecorder-Metadatas.lua</source>
       </version>
     </reapack>
