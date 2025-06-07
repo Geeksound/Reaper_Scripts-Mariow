@@ -1,17 +1,21 @@
 --[[
- * ReaScript Name: View-FieldRecorder-Metadatas
- * About: View Item Metadatas Written by a fieldrecorder during shooting .
- * Instructions: Select Item and run.
- * Author: Mariow * Repository URI: https://github.com/X-Raym/REAPER-ReaScripts * REAPER: 7.0
- * This script was developed with the help of GitHub Copilot.
- * Version: 1.2.1
+* ReaScript Name: View-FieldRecorder-Metadatas
+* About: View item metadata written by a field recorder during shooting.
+* Instructions: Select an item and run the script.
+* Author: Mariow
+* REAPER: 7.0
+* Version: 1.2.3
+* Licence: MIT
+* Provides: [main]
+* This script was developed with the help of GitHub Copilot.
 --]]
 
 --[[
- * Changelog:
- * v1.2.1 (2015-06-07)
-  # Header Fix
+* Changelog:
+* v1.2.3 (2025-06-07)
+  # Header fix
 --]]
+
 
 local r = reaper
 
