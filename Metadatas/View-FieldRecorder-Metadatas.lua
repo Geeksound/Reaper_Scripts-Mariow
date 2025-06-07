@@ -1,17 +1,16 @@
 --[[
-@description View-FieldRecorder-Metadatas
-@version 1.2.1
-@author Mariow
-@changelog
-- Fixed malformed header block
-@provides
-[main] Metadatas/View-FieldRecorder-Metadatas.lua
-@link https://github.com/Geeksound/Reaper_Scripts-Mariow
-@tags items, metadata, source properties
-@about
-# View-FieldRecorder-Metadatas
-Contextual display of selected item metadata for Reaper 7.0.
-This script was developed with the help of GitHub Copilot.
+ * ReaScript Name: View-FieldRecorder-Metadatas
+ * About: View Item Metadatas Written by a fieldrecorder during shooting .
+ * Instructions: Select Item and run.
+ * Author: Mariow * Repository URI: https://github.com/X-Raym/REAPER-ReaScripts * REAPER: 7.0
+ * This script was developed with the help of GitHub Copilot.
+ * Version: 1.2.1
+--]]
+
+--[[
+ * Changelog:
+ * v1.2.1 (2015-06-07)
+  # Header Fix
 --]]
 
 local r = reaper
