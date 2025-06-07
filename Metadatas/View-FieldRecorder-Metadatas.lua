@@ -1,15 +1,18 @@
--- @description View-FieldRecorder-Metadatas
--- @author Mariow
--- @version 1.2
--- @changelog Bug correction
--- @provides
---   [main] Metadatas/View-FieldRecorder-Metadatas.lua
--- @link https://github.com/Geeksound/Reaper_Scripts-Mariow
--- @tags items , metadatatas , source properties
--- @about
---   # View-FieldRecorder-Metadatas
---   Contextual display selected item metadata for Reaper 7.0.
--- This script was developed with the help of GitHub Copilot.
+--[[
+@description View-FieldRecorder-Metadatas
+@version 1.2.1
+@author Mariow
+@changelog
+- Fixed malformed header block
+@provides
+[main] Metadatas/View-FieldRecorder-Metadatas.lua
+@link https://github.com/Geeksound/Reaper_Scripts-Mariow
+@tags items, metadata, source properties
+@about
+# View-FieldRecorder-Metadatas
+Contextual display of selected item metadata for Reaper 7.0.
+This script was developed with the help of GitHub Copilot.
+--]]
 
 local r = reaper
 
