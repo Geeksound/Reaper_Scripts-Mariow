@@ -102,7 +102,7 @@ exclusive to **PROTOOLS**
 ##  2.Auto-mode version that will work on its own in most cases
 
 <p align="center">
-  <img src="PICTURES/Fieldrecorder-Tracks.png" alt="Overview of 'MetadataMatcher'" width="800" />
+  <img src="PICTURES/Fieldrecorder-Tracks.png" alt="Overview of 'Fieldrecorder-Tracks'" width="800" />
 </p> 
 
 -------------------------------------------------
@@ -151,8 +151,6 @@ It may be useful for Conformation and Dialogue Editing duties.
  SHIFT(Cmd+T) in TextEdit or  
  click on Format,then Make Plain Text.
 
- 
-
 ---
 ## 2. **prefix-to-name**
  (https://github.com/Geeksound/Reaper_Scripts-Mariow/blob/main/Utility/prefix-to-name.lua)  
@@ -171,7 +169,7 @@ Batch Re-naming selected Items with a prefix for a better Workflow and sorting
  3 Choose a prefix
   
   ---
-  ## 2. **ReplaceXthCharacter-inName**
+  ## 3. **ReplaceXthCharacter-inName**
   (https://github.com/Geeksound/Reaper_Scripts-Mariow/blob/main/Utility/ReplaceXthCharacter-inName.lua)  
   Replace a /suit of Chararacter(s) in a Name
   
