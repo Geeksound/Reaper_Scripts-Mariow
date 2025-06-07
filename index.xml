@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<index version="1" name="Mariow Scripts" commit="3ff8cf1e618556101b6b8ea6183f848bfd49b4ea">
+<index version="1" name="Mariow Scripts" commit="e1460b15268fac0bb872c3f07524f349d86b45b7">
   <author>Mariow</author>
   <category name="Editing">
     <reapack name="Swap-ItemsPositionsOnSameTracks.lua" type="script" desc="Swap the position of 2 selected items">
@@ -54,6 +54,24 @@
       </version>
       <version name="1.2.1" author="Mariow" time="2025-06-07T19:18:06Z">
         <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/3ff8cf1e618556101b6b8ea6183f848bfd49b4ea/Metadatas/View-FieldRecorder-Metadatas.lua</source>
+      </version>
+    </reapack>
+    <reapack name="ViewFile-FieldRecorder-Metadatas.lua" type="script" desc="ViewFile-FieldRecorder-Metadatas">
+      <metadata>
+        <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
+{\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
+\widowctrl\hyphauto
+
+{\pard \ql \f0 \sa180 \li0 \fi0 \outlinelevel0 \b \fs36 ViewFile-FieldRecorder-Metadatas\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 Contextual display of selected item metadata for REAPER 7.0.\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 This script was developed with the help of GitHub Copilot.\par}
+}
+]]></description>
+        <link rel="website">https://github.com/Geeksound/Reaper_Scripts-Mariow</link>
+      </metadata>
+      <version name="1.0" author="Mariow" time="2025-06-07T20:00:00Z">
+        <changelog><![CDATA[- Initial release]]></changelog>
+        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/Metadatas/ViewFile-FieldRecorder-Metadatas.lua</source>
       </version>
     </reapack>
   </category>
@@ -125,22 +143,4 @@
     <type>script</type>
     <version>1.1.1</version>
   </reapack>
-  <category name="Metadatas">
-    <reapack name="ViewFile-FieldRecorder-Metadatas.lua" type="script" desc="ViewFile - FieldRecorder Metadatas">
-      <metadata>
-        <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
-{\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
-\widowctrl\hyphauto
-
-{\pard \ql \f0 \sa180 \li0 \fi0 Displays BWF/iXML metadata from field recorder files.\par}
-{\pard \ql \f0 \sa180 \li0 \fi0 Shows TAKE, SCENE, TAPE, TRACK names, CIRCLED status, and more.\par}
-}
-]]></description>
-      </metadata>
-      <version name="1.0" author="Mariow" time="2025-06-07T20:00:00Z">
-        <changelog><![CDATA[- Initial release]]></changelog>
-        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/Metadatas/ViewFile-FieldRecorder-Metadatas.lua</source>
-      </version>
-    </reapack>
-  </category>
 </index>
