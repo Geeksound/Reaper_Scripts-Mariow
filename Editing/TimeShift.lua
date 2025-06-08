@@ -1,15 +1,20 @@
--- @description TimeShift
--- @author Mariow
--- @version 1.3
--- @changelog English versionV2
--- @provides
---   [main] Editing/TimeShift.lua
--- @link https://github.com/Geeksound/Reaper_Scripts-Mariow
--- @tags timecode, display, items, editing
--- @about
---   # TimeShift
---   Contextual edit/SHIFT for Items, Time Selection, and Cursor Position in Reaper 7.0.
---   This script was developed with the help of GitHub Copilot.
+--[[
+@description TimeShift
+@version 1.3
+@author Mariow
+@changelog
+  v1.3 (2025-06-08)
+  - English version V2
+@provides
+  [main] Editing/TimeShift.lua
+@link https://github.com/Geeksound/Reaper_Scripts-Mariow
+@repository https://github.com/Geeksound/Reaper_Scripts-Mariow
+@tags timecode, display, items, editing
+@about
+  # TimeShift
+  Contextual edit/SHIFT for Items, Time Selection, and Cursor Position in Reaper 7.0.
+  This script was developed with the help of GitHub Copilot.
+--]]
 
 -- ReaImGui: Time Converter (samples -> hh:mm:ss:ff)
 local ctx = reaper.ImGui_CreateContext('Time Converter')
