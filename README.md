@@ -140,12 +140,6 @@ This script delete the empty Items that sometimes are recorded
 on a Field Recorder when track as no input but is ARMED.
 -- Dont't worry , ROOM TONES won't be deleted :) ! --
 
-## 5. **DetectEmpty-Items**
-(https://github.com/Geeksound/Reaper_Scripts-Mariow/blob/main/Field-Recorder_Workflow/DetectEmpty-Items.lua)   
-This script detect the empty Items that sometimes are recorded  
-on a Field Recorder when track as no input but is ARMED.
-It's just a variation of **Detect-DeleteEmpty-Items.lua** as  
-you have this time to delete Items that are detected
 
 -------------------------------------------------
 - `Metadatas/`---------
