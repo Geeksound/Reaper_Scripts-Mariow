@@ -1,18 +1,18 @@
 --[[
-@description Detect&DeleteEmpty-Items
+@description Detect-DeleteEmpty-Items
 @version 1.0
 @author Mariow
 @license MIT
 @changelog
-  v1.0 (2025-06-08)
-  - Initial release
+  v1.1 (2025-06-08)
+  - Renamed
 @provides
-  [main] Field-Recorder_Workflow/Detect&DeleteEmpty-Items.lua
+  [main] Field-Recorder_Workflow/Detect-DeleteEmpty-Items.lua
 @link https://github.com/Geeksound/Reaper_Scripts-Mariow
 @repository https://github.com/Geeksound/Reaper_Scripts-Mariow
 @tags items editing
 @about
-  # Detect&DeleteEmpty-Items
+  # Detect-DeleteEmpty-Items
 
   Variation of DetectEmpty-Items. During recording, sometimes empty tracks are created.
   During conformation, it may be useful to delete them for cleaning.
