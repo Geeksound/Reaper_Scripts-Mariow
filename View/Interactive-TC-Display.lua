@@ -1,15 +1,20 @@
--- @description Interactive-TC-Display
--- @author Mariow
--- @version 1.1
--- @changelog Initial releaseV2
--- @provides
---   [main] View/Interactive-TC-Display.lua
--- @link https://github.com/Geeksound/Reaper_Scripts-Mariow
--- @tags timecode, display, reaper, contextual, items, status
--- @about
---   # Interactive-TC-Display
---   Contextual display of TimeCode / Items / Status for Reaper 7.0.
--- This script was developed with the help of GitHub Copilot.
+--[[
+@description Interactive-TC-Display
+@version 1.1
+@author Mariow
+@changelog
+  v1.1 (2025-06-08)
+  - Initial releaseV2
+@provides
+  [main] View/Interactive-TC-Display.lua
+@link https://github.com/Geeksound/Reaper_Scripts-Mariow
+@repository https://github.com/Geeksound/Reaper_Scripts-Mariow
+@tags timecode, display, reaper, contextual, items, status
+@about
+  # Interactive-TC-Display
+  Contextual display of TimeCode / Items / Status for Reaper 7.0.
+  This script was developed with the help of GitHub Copilot.
+--]]
 
 local ctx = reaper.ImGui_CreateContext('Interactive-TC-Display')
 local FONT_SIZE = 24
