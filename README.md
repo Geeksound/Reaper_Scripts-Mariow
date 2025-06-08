@@ -115,6 +115,14 @@ May be useful for Post-production editing tasks and other
   <img src="PICTURES/ItemNames-to-TrackNames.png" alt="Overview of 'ItemNames-to-TrackNames'" width="800" />
 </p> 
 
+## 2. **Remove-DuplicatesItems**
+(https://github.com/Geeksound/Reaper_Scripts-Mariow/blob/main/Field-Recorder_Workflow/Remove-DuplicatesItems.lua) 
+This script Delete the unnecessary duplicates Items that are imported when Matching Raw Files with AAFs during conformation
+Very useful when editing dialog
+<p align="center">
+  <img src="PICTURES/Remove-DuplicatesItems.png" alt="Overview of 'Remove-DuplicatesItems'" width="800" />
+</p> 
+
 
 -------------------------------------------------
 - `Metadatas/`---------

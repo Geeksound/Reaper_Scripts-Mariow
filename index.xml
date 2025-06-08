@@ -55,11 +55,30 @@
         <tags>dialogue, conformation, workflow, Fieldrecording, Track</tags>
       </metadata>
       <version name="1.0" author="Mariow" time="2025-06-08T00:00:00Z">
-        <changelog><![CDATA[
-v1.0 (2025-06-08)
-- Initial release
-]]></changelog>
+        <changelog><![CDATA[v1.0 (2025-06-08)- Initial release]]></changelog>
         <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/Field-Recorder_Workflow/ItemNames-To-TrackNames.lua</source>
+      </version>
+    </reapack>
+    <reapack name="Remove-DuplicateItems.lua" type="script" desc="Remove-DuplicateItems">
+      <metadata>
+        <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
+{\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
+\widowctrl\hyphauto
+
+{\pard \ql \f0 \sa180 \li0 \fi0 \outlinelevel0 \b \fs36 Remove-DuplicateItems\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 This script comes after Auto-matching Conformation.\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 - After automatching conformation, unnecessary duplicate items may be imported in the session.\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 - This script deletes duplicate items (same name + same length) on selected tracks, and keeps the one on the highest track.\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 This script was developed with the help of GitHub Copilot.\par}
+}
+]]></description>
+        <license>MIT</license>
+        <link rel="website">https://github.com/Geeksound/Reaper_Scripts-Mariow</link>
+        <tags>dialogue, conformation, workflow, Fieldrecording, Track</tags>
+      </metadata>
+      <version name="1.0" author="Mariow" time="2025-06-08T00:00:00Z">
+        <changelog><![CDATA[v1.0 (2025-06-08)- Initial release]]></changelog>
+        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/Field-Recorder_Workflow/Remove-DuplicateItems.lua</source>
       </version>
     </reapack>
   </category>
