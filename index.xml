@@ -73,8 +73,8 @@
         <link rel="website">https://github.com/Geeksound/Reaper_Scripts-Mariow</link>
         <tags>items, editing, Fieldrecording, workflow</tags>
       </metadata>
-      <version name="1.0" author="Mariow" time="2025-06-08T00:00:00Z">
-        <changelog><![CDATA[v1.0 (2025-06-08) - Initial release]]></changelog>
+      <version name="1.1" author="Mariow" time="2025-06-08T00:00:00Z">
+        <changelog><![CDATA[v1.1 (2025-06-08) - Header]]></changelog>
         <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/Field-Recorder_Workflow/DetectEmpty-Items.lua</source>
       </version>
     </reapack>
