@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<index version="1" name="Mariow Scripts" commit="85b291d64df095a29f81fc4b9c9c5202b1760186">
+<index version="1" name="Mariow Scripts" commit="233d76023579ffc01183d4eca4e04603bdd8e210">
   <author>Mariow</author>
   <category name="Editing">
     <reapack name="Swap-ItemsPositionsOnSameTracks.lua" type="script" desc="Swap the position of 2 selected items">
@@ -38,6 +38,26 @@
     </reapack>
   </category>
   <category name="Field-Recorder_Workflow">
+    <reapack name="Detect-DeleteEmpty-Items.lua" type="script" desc="Detect-DeleteEmpty-Items">
+      <metadata>
+        <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
+{\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
+\widowctrl\hyphauto
+
+{\pard \ql \f0 \sa180 \li0 \fi0 \outlinelevel0 \b \fs36 Detect-DeleteEmpty-Items\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 Variation of DetectEmpty-Items. During recording, sometimes empty tracks are created. During conformation, it may be useful to delete them for cleaning.\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 This script was developed with the help of GitHub Copilot.\par}
+}
+]]></description>
+        <license>MIT</license>
+        <link rel="website">https://github.com/Geeksound/Reaper_Scripts-Mariow</link>
+        <tags>items, editing, Fieldrecording, workflow</tags>
+      </metadata>
+      <version name="1.0" author="Mariow" time="2025-06-08T00:00:00Z">
+        <changelog><![CDATA[v1.1 (2025-06-08) - Renamed]]></changelog>
+        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/Field-Recorder_Workflow/Detect-DeleteEmpty-Items.lua</source>
+      </version>
+    </reapack>
     <reapack name="ItemNames-To-TrackNames.lua" type="script" desc="ItemNames-To-TrackNames">
       <metadata>
         <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
@@ -102,26 +122,6 @@
       <version name="1.0" author="Mariow" time="2025-06-08T00:00:00Z">
         <changelog><![CDATA[v1.0 (2025-06-08)- Initial release]]></changelog>
         <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/Field-Recorder_Workflow/RenameItemFrom-ShootingSlate.lua</source>
-      </version>
-    </reapack>
-    <reapack name="Detect-DeleteEmpty-Items.lua" type="script" desc="Detect-DeleteEmpty-Items">
-      <metadata>
-        <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
-{\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
-\widowctrl\hyphauto
-
-{\pard \ql \f0 \sa180 \li0 \fi0 \outlinelevel0 \b \fs36 Detect&DeleteEmpty-Items\par}
-{\pard \ql \f0 \sa180 \li0 \fi0 Variante de DetectEmpty-Items. Lors de l’enregistrement, il arrive parfois que des pistes vides soient créées. Lors de la conformation, il peut être utile de les supprimer pour faire du ménage.\par}
-{\pard \ql \f0 \sa180 \li0 \fi0 Ce script a été développé avec l’aide de GitHub Copilot.\par}
-}
-]]></description>
-        <license>MIT</license>
-        <link rel="website">https://github.com/Geeksound/Reaper_Scripts-Mariow</link>
-        <tags>items, editing, Fieldrecording, workflow</tags>
-      </metadata>
-      <version name="1.0" author="Mariow" time="2025-06-08T00:00:00Z">
-        <changelog><![CDATA[v1.1 (2025-06-08) - Renamed]]></changelog>
-        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/Field-Recorder_Workflow/Detect-DeleteEmpty-Items.lua</source>
       </version>
     </reapack>
   </category>
