@@ -84,6 +84,16 @@ Swap 2 Items on a Track for listening and editing purpose
 2. Run the Script
 
 
+---
+## 3. **SelNoNamed-Tracks**
+(https://github.com/Geeksound/Reaper_Scripts-Mariow/blob/main/Utility/SelNoNamed-Tracks.lua)  
+Select Tracks without Names or unnamed
+
+<p align="center">
+  <img src="PICTURES/SelNoNamed-Tracks.png" alt="Overview of 'SelNoNamed-Tracks'">
+</p>   
+
+
 
 -------------------------------------------------
 - `Field-Recorder_Workflow/`---------
