@@ -58,7 +58,7 @@
         <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/Field-Recorder_Workflow/Detect-DeleteEmpty-Items.lua</source>
       </version>
     </reapack>
-        <reapack name="ItemNames-To-TrackNames.lua" type="script" desc="ItemNames-To-TrackNames">
+    <reapack name="ItemNames-To-TrackNames.lua" type="script" desc="ItemNames-To-TrackNames">
       <metadata>
         <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
 {\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
