@@ -134,6 +134,12 @@ Very useful when editing dialog.
   <img src="PICTURES/Remove-DuplicatesItems.png" alt="Overview of 'Remove-DuplicatesItems'" width="800" />
 </p> 
 
+## 4. **Detect&DeleteEmpty-Items**
+(https://github.com/Geeksound/Reaper_Scripts-Mariow/blob/main/Field-Recorder_Workflow/Detect&DeleteEmpty-Items.lua)   
+This script delete the empty Items that sometimes are recorded  
+on a Field Recorder when track as no input but is ARMED.
+-- Dont't worry , ROOM TONES won't be deleted :) ! --
+
 
 -------------------------------------------------
 - `Metadatas/`---------
