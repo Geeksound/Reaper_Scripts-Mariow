@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<index version="1" name="Mariow Scripts" commit="264cba66e16f960c4815a8e254893fdbb8008e40">
+<index version="1" name="Mariow Scripts" commit="985476cb73e739a33ad701df08f83eacbd30b521">
   <author>Mariow</author>
   <category name="Editing">
     <reapack name="Swap-ItemsPositionsOnSameTracks.lua" type="script" desc="Swap the position of 2 selected items">
@@ -67,8 +67,8 @@
 
 {\pard \ql \f0 \sa180 \li0 \fi0 \outlinelevel0 \b \fs36 Remove-DuplicateItems\par}
 {\pard \ql \f0 \sa180 \li0 \fi0 This script comes after Auto-matching Conformation.\par}
-{\pard \ql \f0 \sa180 \li0 \fi0 - After automatching conformation, unnecessary duplicate items may be imported in the session.\par}
-{\pard \ql \f0 \sa180 \li0 \fi0 - This script deletes duplicate items (same name + same length) on selected tracks, and keeps the one on the highest track.\par}
+{\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab After automatching conformation, unnecessary duplicate items may be imported in the session.\par}
+{\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab This script deletes duplicate items (same name + same length) on selected tracks, and keeps the one on the highest track.\sa180\par}
 {\pard \ql \f0 \sa180 \li0 \fi0 This script was developed with the help of GitHub Copilot.\par}
 }
 ]]></description>
