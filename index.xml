@@ -58,27 +58,7 @@
         <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/Field-Recorder_Workflow/Detect-DeleteEmpty-Items.lua</source>
       </version>
     </reapack>
-    <reapack name="DetectEmpty-Items.lua" type="script" desc="DetectEmpty-Items">
-      <metadata>
-        <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
-{\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
-\widowctrl\hyphauto
-
-{\pard \ql \f0 \sa180 \li0 \fi0 \outlinelevel0 \b \fs36 DetectEmpty-Items\par}
-{\pard \ql \f0 \sa180 \li0 \fi0 Sometimes in Fieldrecorder, tracks are armed but empty. During conformation, it may be useful to see them for cleaning.\par}
-{\pard \ql \f0 \sa180 \li0 \fi0 This script was developed with the help of GitHub Copilot.\par}
-}
-]]></description>
-        <license>MIT</license>
-        <link rel="website">https://github.com/Geeksound/Reaper_Scripts-Mariow</link>
-        <tags>items, editing, Fieldrecording, workflow</tags>
-      </metadata>
-      <version name="1.1" author="Mariow" time="2025-06-08T00:00:00Z">
-        <changelog><![CDATA[v1.1 (2025-06-08) - Header]]></changelog>
-        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/Field-Recorder_Workflow/DetectEmpty-Items.lua</source>
-      </version>
-    </reapack>
-    <reapack name="ItemNames-To-TrackNames.lua" type="script" desc="ItemNames-To-TrackNames">
+        <reapack name="ItemNames-To-TrackNames.lua" type="script" desc="ItemNames-To-TrackNames">
       <metadata>
         <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
 {\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
