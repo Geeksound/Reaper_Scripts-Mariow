@@ -1,15 +1,20 @@
--- @description  Swap the position of 2 selected items
--- @author Mariow
--- @version 1.0
--- @changelog Initial release
--- @provides
---   [main] Editing/Swap-ItemsPositionsOnSameTracks.lua
--- @link https://github.com/Geeksound/Reaper_Scripts-Mariow
--- @tags items, editing
--- @about
---   # Swap-ItemsPositionsOnSameTracks
---   Contextual Swap to Between to Items for listening A/B for Reaper 7.0.
--- This script was developed with the help of GitHub Copilot.
+--[[
+@description Swap the position of 2 selected items
+@version 1.0
+@author Mariow
+@changelog
+  v1.0 (2025-06-08)
+  - Initial release
+@provides
+  [main] Editing/Swap-ItemsPositionsOnSameTracks.lua
+@link https://github.com/Geeksound/Reaper_Scripts-Mariow
+@repository https://github.com/Geeksound/Reaper_Scripts-Mariow
+@tags items, editing
+@about
+  # Swap-ItemsPositionsOnSameTracks
+  Contextual swap between two items for A/B listening in Reaper 7.0.
+  This script was developed with the help of GitHub Copilot.
+--]]
 
 -- Check that exactly 2 items are selected
 local item_count = reaper.CountSelectedMediaItems(0)
