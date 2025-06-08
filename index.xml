@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<index version="1" name="Mariow Scripts" commit="233d76023579ffc01183d4eca4e04603bdd8e210">
+<index version="1" name="Mariow Scripts" commit="4db53d05806ebe5f0cb8bd63281ee4cd0409bcbc">
   <author>Mariow</author>
   <category name="Editing">
     <reapack name="Swap-ItemsPositionsOnSameTracks.lua" type="script" desc="Swap the position of 2 selected items">
@@ -215,16 +215,15 @@
         <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/Utility/ReplaceXthCharacter-inName.lua</source>
       </version>
     </reapack>
-    <reapack name="SelNoNamed-Tracks.lua" type="script" desc="Select tracks that are not named for different purposes">
+    <reapack name="SelNoNamed-Tracks.lua" type="script" desc="SelNoNamed-Tracks">
       <metadata>
         <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
 {\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
 \widowctrl\hyphauto
 
 {\pard \ql \f0 \sa180 \li0 \fi0 \outlinelevel0 \b \fs36 SelNoNamed-Tracks\par}
-{\pard \ql \f0 \sa180 \li0 \fi0 Selects tracks that are not named for different purposes.\par
-\par
-This script was developed with the help of GitHub Copilot.\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 Selects tracks that are not named for different purposes.\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 This script was developed with the help of GitHub Copilot.\par}
 }
 ]]></description>
         <link rel="website">https://github.com/Geeksound/Reaper_Scripts-Mariow</link>
