@@ -1,11 +1,11 @@
 --[[
 @description DetectEmpty-Items
-@version 1.0
+@version 1.1
 @author Mariow
 @license MIT
 @changelog
-  v1.0 (2025-06-08)
-  - Initial release
+  v1.1 (2025-06-08)
+  - Header
 @provides
   [main] Field-Recorder_Workflow/DetectEmpty-Items.lua
 @link https://github.com/Geeksound/Reaper_Scripts-Mariow
