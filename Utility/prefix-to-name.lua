@@ -1,16 +1,20 @@
--- @description Add prefix to the NAME of Selected Item
--- @author Mariow
--- @version 1.0
--- @changelog Initial Relaeas
--- @provides
---   [main] Utility/prefix-to-name.lua
--- @link https://github.com/Geeksound/Reaper_Scripts-Mariow
--- @tags name,items,editing
--- @about
---   # prefix-to-name
---   Contextual add prefix to the NAME of Selected Item in Reaper 7.0.
---   This script was developed with the help of GitHub Copilot.
-
+--[[
+@description Add prefix to the NAME of Selected Item
+@version 1.0
+@author Mariow
+@changelog
+  v1.0 (2025-06-07)
+  - Initial release
+@provides
+  [main] Utility/prefix-to-name.lua
+@link https://github.com/Geeksound/Reaper_Scripts-Mariow
+@repository https://github.com/Geeksound/Reaper_Scripts-Mariow
+@tags name, items, editing
+@about
+  # prefix-to-name
+  Contextual add prefix to the NAME of Selected Item in Reaper 7.0.
+  This script was developed with the help of GitHub Copilot.
+--]]
 -- Ask for the Suffix to add
 local retval, suffix = reaper.GetUserInputs("Add prefix to Name", 1, "Prefix to add :", "")
 if not retval then return end
