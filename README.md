@@ -126,7 +126,7 @@ May be useful for Post-production editing tasks and other.
 </p> 
 
 ## 3. **Remove-DuplicatesItems**
-(https://github.com/Geeksound/Reaper_Scripts-Mariow/blob/main/Field-Recorder_Workflow/Remove-DuplicatesItems.lua)   
+(https://github.com/Geeksound/Reaper_Scripts-Mariow/blob/main/Field-Recorder_Workflow/Remove-DuplicateItems.lua)   
 This script delete the unnecessary duplicates Items that are imported  
 when Matching Raw Files with AAFs during conformation.  
 Very useful when editing dialog.
