@@ -7,7 +7,6 @@
   v1.0 (2025-06-08)
   - Initial release
 @provides
-  [main] Editing/DetectEmpty-Items.lua
   [main] Field-Recorder_Workflow/DetectEmpty-Items.lua
 @link https://github.com/Geeksound/Reaper_Scripts-Mariow
 @repository https://github.com/Geeksound/Reaper_Scripts-Mariow
