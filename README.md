@@ -106,7 +106,17 @@ exclusive to **PROTOOLS**
 </p> 
 
 ## Utilities
-## 1. **ItemNames-To-TrackNames**
+## 1. **RenameItemFrom-ShootingSlate**
+(https://github.com/Geeksound/Reaper_Scripts-Mariow/blob/main/Field-Recorder_Workflow/RenameItemFrom-ShootingSlate.lua)  
+This script Rename Items with the SCENE/Take and/or TRACK NAME edited during Shooting on the FIELD RECORDER 
+May be useful for Post-production editing Dialogues
+
+<p align="center">
+  <img src="PICTURES/RenameItemFrom-ShootingSlate.png" alt="Overview of 'RenameItemFrom-ShootingSlate'" width="800" />
+</p> 
+
+
+## 2. **ItemNames-To-TrackNames**
 (https://github.com/Geeksound/Reaper_Scripts-Mariow/blob/main/Field-Recorder_Workflow/ItemNames-To-TrackNames.lua)  
 This script Rename the Track from item selected.
 May be useful for Post-production editing tasks and other.
@@ -115,7 +125,7 @@ May be useful for Post-production editing tasks and other.
   <img src="PICTURES/ItemNames-to-TrackNames.png" alt="Overview of 'ItemNames-to-TrackNames'" width="800" />
 </p> 
 
-## 2. **Remove-DuplicatesItems**
+## 3. **Remove-DuplicatesItems**
 (https://github.com/Geeksound/Reaper_Scripts-Mariow/blob/main/Field-Recorder_Workflow/Remove-DuplicatesItems.lua)   
 This script delete the unnecessary duplicates Items that are imported  
 when Matching Raw Files with AAFs during conformation.  
