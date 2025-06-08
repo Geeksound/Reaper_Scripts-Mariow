@@ -105,6 +105,17 @@ exclusive to **PROTOOLS**
   <img src="PICTURES/Fieldrecorder-Tracks.png" alt="Overview of 'Fieldrecorder-Tracks'" width="800" />
 </p> 
 
+## Utilities
+## 1. **ItemNames-To-TrackNames**
+(https://github.com/Geeksound/Reaper_Scripts-Mariow/blob/main/Field-Recorder_Workflow/ItemNames-To-TrackNames.lua) 
+This script Rename the Track from item selected
+May be useful for Post-production editing tasks and other
+
+<p align="center">
+  <img src="PICTURES/ItemNames-to-TrackNames.png" alt="Overview of 'ItemNames-to-TrackNames'" width="800" />
+</p> 
+
+
 -------------------------------------------------
 - `Metadatas/`---------
 
