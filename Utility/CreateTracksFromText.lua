@@ -1,15 +1,20 @@
--- @description Name:CreateTracksFromText
--- @author Mariow
--- @version 1.0
--- @changelog Initial release
--- @provides
---   [main] Utility/CreateTracksFromText.lua
--- @link https://github.com/Geeksound/Reaper_Scripts-Mariow
--- @tags template
--- @about
---   # CreateTracksFromText
---   Contextual Create Tracks in Reaper with Name/Parent/children/Spacer and colors by entering a text in form
--- This script was developed with the help of GitHub Copilot
+--[[
+@description CreateTracksFromText
+@version 1.0
+@author Mariow
+@changelog
+  v1.0 (2025-06-08)
+  - Initial release
+@provides
+  [main] Utility/CreateTracksFromText.lua
+@link https://github.com/Geeksound/Reaper_Scripts-Mariow
+@repository https://github.com/Geeksound/Reaper_Scripts-Mariow
+@tags template
+@about
+  # CreateTracksFromText
+  Contextual Create Tracks in Reaper with Name/Parent/children/Spacer and colors by entering a text in form.
+  This script was developed with the help of GitHub Copilot.
+--]]
 
 local named_colors = {
 rouge = {255, 0, 0},
