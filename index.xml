@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<index version="1" name="Mariow Scripts" commit="2c00b784dfaca28bf72593777718436779265df0">
+<index version="1" name="Mariow Scripts" commit="264cba66e16f960c4815a8e254893fdbb8008e40">
   <author>Mariow</author>
   <category name="Editing">
     <reapack name="Swap-ItemsPositionsOnSameTracks.lua" type="script" desc="Swap the position of 2 selected items">
@@ -34,6 +34,32 @@
       <version name="1.3" author="Mariow" time="2025-05-11T21:34:52Z">
         <changelog><![CDATA[English versionV2]]></changelog>
         <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/Editing/TimeShift.lua</source>
+      </version>
+    </reapack>
+  </category>
+  <category name="Field-Recorder_Workflow">
+    <reapack name="ItemNames-To-TrackNames.lua" type="script" desc="ItemNames-To-TrackNames">
+      <metadata>
+        <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
+{\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
+\widowctrl\hyphauto
+
+{\pard \ql \f0 \sa180 \li0 \fi0 \outlinelevel0 \b \fs36 ItemNames-To-TrackNames\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 When items with the same name are organized on the same tracks, it may be useful to rename the track identically.\par}
+{\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab Select item(s) on track(s) and run. Useful for some conformation tasks.\sa180\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 This script was developed with the help of GitHub Copilot.\par}
+}
+]]></description>
+        <license>MIT</license>
+        <link rel="website">https://github.com/Geeksound/Reaper_Scripts-Mariow</link>
+        <tags>dialogue, conformation, workflow, Fieldrecording, Track</tags>
+      </metadata>
+      <version name="1.0" author="Mariow" time="2025-06-08T00:00:00Z">
+        <changelog><![CDATA[
+v1.0 (2025-06-08)
+- Initial release
+]]></changelog>
+        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/Field-Recorder_Workflow/ItemNames-To-TrackNames.lua</source>
       </version>
     </reapack>
   </category>
@@ -150,33 +176,4 @@
     <type>script</type>
     <version>1.1.1</version>
   </reapack>
-<category name="Field-Recorder_Workflow">
-  <reapack name="ItemNames-To-TrackNames.lua" type="script" desc="Rename tracks to match item names (Field Recorder workflow)">
-    <metadata>
-      <description><![CDATA[
-{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
-{\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
-\widowctrl\hyphauto
-
-{\pard \ql \f0 \sa180 \li0 \fi0 \outlinelevel0 \b \fs36 ItemNames-To-TrackNames\par}
-{\pard \ql \f0 \sa180 \li0 \fi0 When items with the same name are organized on the same tracks, it may be useful to rename the track identically.\par}
-{\pard \ql \f0 \sa180 \li0 \fi0 - Select item(s) on track(s) and run.\par}
-{\pard \ql \f0 \sa180 \li0 \fi0 Useful for some conformation tasks.\par}
-{\pard \ql \f0 \sa180 \li0 \fi0 This script was developed with the help of GitHub Copilot.\par}
-}
-]]></description>
-      <link rel="website">https://github.com/Geeksound/Reaper_Scripts-Mariow</link>
-      <link rel="source">https://github.com/Geeksound/Reaper_Scripts-Mariow/blob/main/Field-Recorder_Workflow/ItemNames-To-TrackNames.lua</link>
-      <tags>dialogue, conformation, workflow, Fieldrecording, Track</tags>
-      <license>MIT</license>
-    </metadata>
-    <version name="1.0" author="Mariow" time="2025-06-08T00:00:00Z">
-      <changelog><![CDATA[
-v1.0 (2025-06-08)
-- Initial release
-]]></changelog>
-      <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/Field-Recorder_Workflow/ItemNames-To-TrackNames.lua</source>
-    </version>
-  </reapack>
-</category>
 </index>
