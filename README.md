@@ -14,6 +14,10 @@
 Add this URL to your Reapack repositories (Reapack>Manage Repositories... import/export) to install these Scripts
 https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/index.xml
 
+## D O C U M E N T A T I O N S
+<p align="center">
+  <img src="PICTURES/Repository-Guide.png" alt="Repository-Guide" width="800"/>
+</p>
 
 ## Directory Structure
 - `Editing/`: Scripts for editing
