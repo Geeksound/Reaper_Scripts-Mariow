@@ -25,7 +25,9 @@ For better knowledge of Scripts &
 <h3 align="center"><em>FIELD RECORDING-TRACK GUIDE as in PROTOOLS</em></h3>
 
 - `Editing/`: Scripts for editing
-- `Field-Recorder_Workflow/`: Under construction
+- `Field-Recorder_Workflow/`:  
+Exclusives Script Dialogue for Conformation  
+inspired by PROTOOLS Field-recorder  Track
 - `Metadatas/`: Scripts related to metadata
 - `Utility/`: Utility scripts
 - `View/`: Scripts related to display
