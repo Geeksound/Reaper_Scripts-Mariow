@@ -26,8 +26,9 @@ For better knowledge of Scripts &
 
 - `Editing/`: Scripts for editing
 - `Field-Recorder_Workflow/`:  
-Exclusive Scripts for Dialogue editing&conformation  
-Inspired by "PT' Field-recorder Track
+Exclusive Scripts for Dialogue  
+editing&conformation Inspired  
+by "PT' Field-recorder Track
 - `Metadatas/`: Scripts related to metadata
 - `Utility/`: Utility scripts
 - `View/`: Scripts related to display
