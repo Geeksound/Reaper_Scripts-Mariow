@@ -146,7 +146,7 @@ This script Rename the Track from item selected.
 May be useful for Post-production editing tasks and other.
 
 <p align="center">
-  <img src="PICTURES/ItemNames-to-TrackNames.png" alt="Overview of 'ItemNames-to-TrackNames'" width="800" />
+  <img src="PICTURES/ItemNames-to-TrackNames.png" alt="Overview of 'ItemNames-to-TrackNames'" width="500" />
 </p> 
 
 ## 3. **Remove-DuplicatesItems**
@@ -155,7 +155,7 @@ This script delete the unnecessary duplicates Items that are imported
 when Matching Raw Files with AAFs during conformation.  
 Very useful when editing dialog.
 <p align="center">
-  <img src="PICTURES/Remove-DuplicatesItems.png" alt="Overview of 'Remove-DuplicatesItems'" width="800" />
+  <img src="PICTURES/Remove-DuplicatesItems.png" alt="Overview of 'Remove-DuplicatesItems'" width="500" />
 </p> 
 
 ## 4. **Detect-DeleteEmpty-Items**
