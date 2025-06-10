@@ -23,7 +23,7 @@ Special Script to see and Download Guide for my Repository and Scripts
 </p>
 
 ## Directory Structure
-<h3 <em>-'DOCUMENTATIONS'</em></h3>
+<h3><em>- 'DOCUMENTATIONS'</em></h3>
 For better knowledge of Scripts &  
 <h3 align="center"><em>FIELD RECORDING-TRACK GUIDE as in PROTOOLS</em></h3>
 
