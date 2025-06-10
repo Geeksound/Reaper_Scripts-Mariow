@@ -4,16 +4,13 @@
   <category name="Documentations">
     <reapack name="Repository-Guide.lua" type="script" desc="Repository-Guide of Scripts by Mariow in Geeksound hosted by GitHub.com">
       <metadata>
-        <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
-{\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
-\widowctrl\hyphauto
-
-{\pard \ql \f0 \sa180 \li0 \fi0 \outlinelevel0 \b \fs36 Repository-Guide\par}
-{\pard \ql \f0 \sa180 \li0 \fi0 Script with links Buttons to my repository guide and instructions in Reaper 7.0. This script was developed with the help of GitHub Copilot.\par}
-}
-]]></description>
+        <description><![CDATA[...]]></description>
         <link rel="website">https://github.com/Geeksound/Reaper_Scripts-Mariow</link>
       </metadata>
+      <version name="1.1" author="Mariow" time="2025-06-10T00:00:00Z">
+        <changelog><![CDATA[Ajout d'un bouton pour accéder au guide audio_conforming_guide.md]]></changelog>
+        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/Documentations/Repository-Guide.lua</source>
+      </version>
       <version name="1.0" author="Mariow" time="2025-06-09T00:00:00Z">
         <changelog><![CDATA[Initial release]]></changelog>
         <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/Documentations/Repository-Guide.lua</source>
