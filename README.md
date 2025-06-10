@@ -104,7 +104,7 @@ Swap 2 Items on a Track for listening and editing purpose
 Select Tracks without Names or unnamed
 
 <p align="center">
-  <img src="PICTURES/SelNoNamed-Tracks.png" alt="Overview of 'SelNoNamed-Tracks'">
+  <img src="PICTURES/SelNoNamed-Tracks.png" alt="Overview of 'SelNoNamed-Tracks'"width="400" />
 </p>   
 
 
