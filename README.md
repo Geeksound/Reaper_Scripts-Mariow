@@ -136,7 +136,7 @@ This script Rename Items with the SCENE/Take and/or TRACK NAME edited during Sho
 May be useful for Post-production editing Dialogues
 
 <p align="center">
-  <img src="PICTURES/RenameItemFrom-ShootingSlate.png" alt="Overview of 'RenameItemFrom-ShootingSlate'" width="800" />
+  <img src="PICTURES/RenameItemFrom-ShootingSlate.png" alt="Overview of 'RenameItemFrom-ShootingSlate'" width="500" />
 </p> 
 
 
