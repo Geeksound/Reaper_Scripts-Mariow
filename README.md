@@ -180,7 +180,7 @@ This script allows you to read and analyze the metadata of an audiofile in the b
 It may be useful for Conformation and Dialogue Editing duties.
 
 <p align="center">
-  <img src="PICTURES/ViewFile-FieldRecorder-Metadatas.png?cb=1" alt="Overview of 'ViewFile-FieldRecorder-Metadatas'">
+  <img src="PICTURES/ViewFile-FieldRecorder-Metadatas.png?cb=1" alt="Overview of 'ViewFile-FieldRecorder-Metadatas'"width="500" />
 </p>   
 
 
