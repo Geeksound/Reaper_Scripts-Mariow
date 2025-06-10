@@ -289,5 +289,6 @@ ____________________________
 </p>
 
 `Sound engineer, professor, eternal student, and workflow "designer".  
-Working in Film Sound Recording and Post-Production,  with a passion for developing innovative workflows.  
+Working in Film Sound Recording and Post-Production,  
+with a passion for developing innovative workflows.  
 Wish the best for Reaper, its collaborators and community.`
