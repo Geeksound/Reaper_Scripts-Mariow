@@ -20,7 +20,7 @@ https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/index.xml
 </p>
 
 ## Directory Structure
-<h3 align="center"><em>-'DOCUMENTATIONS'</em></h3>
+<h3 <em>-'DOCUMENTATIONS'</em></h3>
 For better knowledge of Scripts &  
 <h3 align="center"><em>FIELD RECORDING-TRACK GUIDE as in PROTOOLS</em></h3>
 
