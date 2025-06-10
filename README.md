@@ -1,7 +1,7 @@
 <h2 align="center"><em>What if REAPER had the tools of Pro Tools?</em></h2>
 
 <p align="center">
-<img src="PICTURES/Ultimate.png" alt="Ultimate Banner" width="800"/>
+<img src="PICTURES/Ultimate.png" alt="Ultimate Banner" width="600"/>
 </p>
 <h3 align="center"><em>"Reapers" by Muse is a reference among all</em></h3>
 <p align="center">
