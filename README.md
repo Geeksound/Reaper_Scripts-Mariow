@@ -258,7 +258,7 @@ Designed for precise visual feedback in post-production or recording workflows.
 <!--### Overview of the 'TimeCode' field depending on the context
 ![Aperçu de Dynamic Timecode Display](PICTURES/DynamicTcDisplay.png)-->
 <p align="center">
-  <img src="PICTURES/DynamicTcDisplay.png" alt="Overview of 'DynamicTcDisplay'">
+  <img src="PICTURES/DynamicTcDisplay.png" alt="Overview of 'DynamicTcDisplay'"width="500" />
 </p>   
 
 ReaImGui script for REAPER that displays contextual time information in a clean and readable floating window.
