@@ -11,8 +11,8 @@
 # Scripts Reaper inspired from Protools and more - by Mariow
 ## Installation via ReaPack
 
-Add this URL to your Reapack repositories (Reapack>Manage Repositories... import/export) to install these Scripts
-https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/index.xml
+Add this URL to your Reapack repositories (Reapack>Manage Repositories... import/export) to install these Scripts  
+`https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/index.xml`
 
 ## D O C U M E N T A T I O N
 <p align="center">
