@@ -1,7 +1,7 @@
 <h2 align="center"><em>What if REAPER had the tools of Pro Tools?</em></h2>
 
 <p align="center">
-<img src="PICTURES/Ultimate.png" alt="Ultimate Banner" width="800"/>
+<img src="PICTURES/Ultimate.png" alt="Ultimate Banner" width="600"/>
 </p>
 <h3 align="center"><em>"Reapers" by Muse is a reference among all</em></h3>
 <p align="center">
@@ -19,7 +19,7 @@ https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/index.xml
 ## **Documentations/Repository-Guide.lua**
 Special Script to see and Download Guide for my Repository and Scripts
 <p align="center">
-  <img src="PICTURES/Repository-Guide.png" alt="Repository-Guide" width="800"/>
+  <img src="PICTURES/Repository-Guide.png" alt="Repository-Guide" width="400"/>
 </p>
 
 ## Directory Structure
@@ -36,7 +36,7 @@ by "PT' Field-recorder Track
 - `Utility/`: Utility scripts
 - `View/`: Scripts related to display
 <p align="center">
-  <img src="PICTURES/Tree-Github.png" alt="Tree-Github" width="800"/>
+  <img src="PICTURES/Tree-Github.png" alt="Tree-Github" width="400"/>
 </p>
 
 -------------------------------------------------
@@ -104,7 +104,7 @@ Swap 2 Items on a Track for listening and editing purpose
 Select Tracks without Names or unnamed
 
 <p align="center">
-  <img src="PICTURES/SelNoNamed-Tracks.png" alt="Overview of 'SelNoNamed-Tracks'">
+  <img src="PICTURES/SelNoNamed-Tracks.png" alt="Overview of 'SelNoNamed-Tracks'"width="400" />
 </p>   
 
 
@@ -136,7 +136,7 @@ This script Rename Items with the SCENE/Take and/or TRACK NAME edited during Sho
 May be useful for Post-production editing Dialogues
 
 <p align="center">
-  <img src="PICTURES/RenameItemFrom-ShootingSlate.png" alt="Overview of 'RenameItemFrom-ShootingSlate'" width="800" />
+  <img src="PICTURES/RenameItemFrom-ShootingSlate.png" alt="Overview of 'RenameItemFrom-ShootingSlate'" width="500" />
 </p> 
 
 
@@ -146,7 +146,7 @@ This script Rename the Track from item selected.
 May be useful for Post-production editing tasks and other.
 
 <p align="center">
-  <img src="PICTURES/ItemNames-to-TrackNames.png" alt="Overview of 'ItemNames-to-TrackNames'" width="800" />
+  <img src="PICTURES/ItemNames-to-TrackNames.png" alt="Overview of 'ItemNames-to-TrackNames'" width="500" />
 </p> 
 
 ## 3. **Remove-DuplicatesItems**
@@ -155,7 +155,7 @@ This script delete the unnecessary duplicates Items that are imported
 when Matching Raw Files with AAFs during conformation.  
 Very useful when editing dialog.
 <p align="center">
-  <img src="PICTURES/Remove-DuplicatesItems.png" alt="Overview of 'Remove-DuplicatesItems'" width="800" />
+  <img src="PICTURES/Remove-DuplicatesItems.png" alt="Overview of 'Remove-DuplicatesItems'" width="500" />
 </p> 
 
 ## 4. **Detect-DeleteEmpty-Items**
@@ -176,11 +176,11 @@ in order to answer questions in this type of workflow.
 
 ## 2. **ViewFile-FieldRecorder-Metadatas**
 (https://github.com/Geeksound/Reaper_Scripts-Mariow/blob/main/Metadatas/ViewFile-FieldRecorder-Metadatas.lua)  
-This script allows you to read and analyze the metadata of an audiofile in the browser.
+This script allows you to read and analyze the metadata of an audiofile in the browser.  
 It may be useful for Conformation and Dialogue Editing duties.
 
 <p align="center">
-  <img src="PICTURES/ViewFile-FieldRecorder-Metadatas.png?cb=1" alt="Overview of 'ViewFile-FieldRecorder-Metadatas'">
+  <img src="PICTURES/ViewFile-FieldRecorder-Metadatas.png?cb=1" alt="Overview of 'ViewFile-FieldRecorder-Metadatas'"width="500" />
 </p>   
 
 
@@ -258,7 +258,7 @@ Designed for precise visual feedback in post-production or recording workflows.
 <!--### Overview of the 'TimeCode' field depending on the context
 ![Aperçu de Dynamic Timecode Display](PICTURES/DynamicTcDisplay.png)-->
 <p align="center">
-  <img src="PICTURES/DynamicTcDisplay.png" alt="Overview of 'DynamicTcDisplay'">
+  <img src="PICTURES/DynamicTcDisplay.png" alt="Overview of 'DynamicTcDisplay'"width="500" />
 </p>   
 
 ReaImGui script for REAPER that displays contextual time information in a clean and readable floating window.
