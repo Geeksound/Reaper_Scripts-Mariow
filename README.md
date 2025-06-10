@@ -176,7 +176,7 @@ in order to answer questions in this type of workflow.
 
 ## 2. **ViewFile-FieldRecorder-Metadatas**
 (https://github.com/Geeksound/Reaper_Scripts-Mariow/blob/main/Metadatas/ViewFile-FieldRecorder-Metadatas.lua)  
-This script allows you to read and analyze the metadata of an audiofile in the browser.
+This script allows you to read and analyze the metadata of an audiofile in the browser.  
 It may be useful for Conformation and Dialogue Editing duties.
 
 <p align="center">
