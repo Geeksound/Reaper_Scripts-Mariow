@@ -36,7 +36,7 @@ by "PT' Field-recorder Track
 - `Utility/`: Utility scripts
 - `View/`: Scripts related to display
 <p align="center">
-  <img src="PICTURES/Tree-Github.png" alt="Tree-Github" width="800"/>
+  <img src="PICTURES/Tree-Github.png" alt="Tree-Github" width="400"/>
 </p>
 
 -------------------------------------------------
