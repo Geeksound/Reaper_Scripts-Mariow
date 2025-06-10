@@ -1,4 +1,5 @@
 # 🎧 Audio Conforming Guide In REAPER
+## NB: Illustrations shown are issued from my REAPER skinned in PT 😜
 
 # 1. General Definition
 
@@ -25,6 +26,8 @@ In the meantime, we have to work with **AAF** to make the **conformation**, so t
 
 <p style="margin-top: 60px;"></p>
 
+![1_Conformation](https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/Documentations/ConformationGuidePictures/1_Conformation.png "1_Conformation")
+
 
 # 3. Conforming Workflow
 This workflow is naturally optimized for **Pro Tools**, which is tightly integrated with Avid's ecosystem and can **directly interpret and extract these metadata fields** from the AAF
@@ -35,10 +38,13 @@ However, when importing the same AAF into **REAPER** using tools like **Vordio**
 > - **Pro Tools** can natively read AAF metadata due to its Avid compatibility. 
 > - **REAPER** requires additional steps to access that metadata, typically using scripts to extract it from the **Notes** field populated by **Vordio**.
 
-## 3.1 HOW-TO conform in DAWs
+![AAF to Reaper](https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/Documentations/ConformationGuidePictures/2_AAF-to%20Reaper.png)
+
+## 3.1 HOW-TO conform in REAPER
 ### Checking the Metadatas of the .wav files in AAF session
 _**Protools** can retrieve the **Scene** name, the **TakeN°**, and read the **Timecode** with ease._
 
+![Source Properties](https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/Documentations/ConformationGuidePictures/3_Source-Properties.png)
 - Using **REAPER** check if you can find the `Scene/take` and `originationTC` of each .wav in the Item's Name and/or Source Properties.
 -  if yes , let's consider **Case A**,*(it is often the case with **DaVinci** export)*
 -  if not, **Case B**.*(it is often the case with **Avid Media composer** export)*
@@ -47,6 +53,8 @@ _**Protools** can retrieve the **Scene** name, the **TakeN°**, and read the **T
 
 **CaseB**  
 In **REAPER**, the **`Scene&Take`** information may be found in the **_Item-Notes_**_(if AAF is created by VORDIO)_, while the **Timecode** is found in the **source properties**.  
+![Vordio Notes Injected](https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/Documentations/ConformationGuidePictures/4_Vordio-Notes-Injected.png)
+
 So to ensure that the **`Scene/Take`** can be interpreted;  
 there are **2** possible approaches:  
 **1_Either**  
@@ -71,6 +79,7 @@ We therefore propose these two workarounds.
 - Or use "**`FieldrecorderTrackMatching.lua`**" with the  
 `Match By Name (SCENE/TAKE)` and other `criteria°°` to Match&Import the Raw Files more accurately if needed  
   _°°we can add Origination Date and/or Start TC Offset for more accurate Matching_
+![Metamatchers](https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/Documentations/ConformationGuidePictures/5_Metamatchers.png)
 
 <p style="margin-top: 40px;"></p>
 
@@ -79,7 +88,7 @@ We therefore propose these two workarounds.
 - Use 🔍`Set-ItemFor-IXMLRendering.lua` to Rename Items with **SCENE** and leave the Notes with **Take**
 - Render with the proper Wildcards to Re-inject dSCENE & dTAKE in the iXML Tags
 - Do the conformation as illustrated below (CASE A)
-
+![Reinject by rendering](https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/Documentations/ConformationGuidePictures/6_Reinject-by-rendering.png)
 <p style="margin-top: 60px;"></p>
 
 
@@ -90,6 +99,9 @@ We therefore propose these two workarounds.
 - My Field-Recorder-Track Scripts are optimized and written to work with all possible scenarios.  
 🔍`FieldrecorderTrackMatchingLight.lua` has an **automatic-mode**
 
+**After Fieldrecorder matching , AAF'.wavs are replaced by RAW polys Files as below**
+![Fieldrecorder Polys](https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/Documentations/ConformationGuidePictures/7_Fieldrecorder-Polys.png)
+
 ## 3.3. Track Organization
 Re-order the audio tracks using a standard logic, such as:
 - **Track 1: Main boom mic**
@@ -98,6 +110,8 @@ Re-order the audio tracks using a standard logic, such as:
 - **Additional tracks: Room mics, ambience, etc.**  
 The general rule is to organize tracks **from most general (booms) to most specific (lavs)**.  
 🔍` Dial-EditConform` is a special Script that organize Items & Tracks automatically
+![Dial EditConform](https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/Documentations/ConformationGuidePictures/8_Dial-EditConform.png)
+
 
 > 🔍 In short: CONFORMATION
 > - Open .RPP session converted by **VORDIO** from the AAF 
@@ -106,12 +120,12 @@ The general rule is to organize tracks **from most general (booms) to most speci
 > - Launch 🔍`FieldrecorderTrackMatching.lua` for more accurate Conformation
 > - Exceptionally, you could use 🔍`Set-ItemFor-IXMLRendering` which is a special Script that is made for prepare **Item-Names & Item-Notes** to an `Items Rendering` in **REAPER** for iXMLtags re-injection as shown below
 
-> 🔍 In short: TRACK ORGANISATION
-> - After **CONFORMATION**, .wav Mono Files may be replaced by RAW Polys Files from the Folder selected during **MATCHING** process
-> - Then 🔍`Dial-EditConform.lua`may be used to **AUTOMATICALLY**:
-> - Explode Polys in Mono Files
-> - Rename Items by SCENE/Take-TRACKNAMES
-> - Place and organize Items in Track named by TRACKNAMES
+> 🔍 In short: TRACK ORGANISATION  
+After **CONFORMATION**, .wav Mono Files may be replaced by RAW Polys Files from the Folder selected during **MATCHING** process  
+Then 🔍`Dial-EditConform.lua`may be used to **AUTOMATICALLY**:
+   > - Explode Polys in Mono Files
+   > - Rename Items by SCENE/Take-TRACKNAMES
+   > - Place and organize Items in Track named by TRACKNAMES
 
 <p style="margin-top: 60px;"></p>
 
@@ -144,4 +158,3 @@ The general rule is to organize tracks **from most general (booms) to most speci
 Audio conforming is a technical but vital stage: it allows you to **recover the full quality and structure of the original recordings**, while **preparing a clean, logical session for future sound work**. A well-conformed session means faster editing, easier mixing, and a clearer understanding of the film’s sound narrative.
 
 `Pro Tools was, until now, the only one capable of performing conforming. Thanks to this suite of innovative plugins I’m offering, **i hope that Reaper** will be very much in the game.`
-
