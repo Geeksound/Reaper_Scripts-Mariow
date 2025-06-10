@@ -40,7 +40,7 @@ by "PT' Field-recorder Track
 </p>
 
 -------------------------------------------------
-- `Editing/`---------
+`- Editing/---------`
 
 ## 1. **TimeShift** "PROTOOLS Edit/Shift in better" :)
 (https://github.com/Geeksound/Reaper_Scripts-Mariow/blob/main/Editing/TimeShift.lua)  
@@ -110,7 +110,7 @@ Select Tracks without Names or unnamed
 
 
 -------------------------------------------------
-- `Field-Recorder_Workflow/`---------
+`- Field-Recorder_Workflow/---------`
 ## AVAILABLE SOON for **REAPER** - under construction
 
 <p align="center">
@@ -166,7 +166,7 @@ on a Field Recorder when track as no input but is ARMED.
 
 
 -------------------------------------------------
-- `Metadatas/`---------
+`- Metadatas/---------`
 
 ## 1. **View-FieldRecorder-Metadatas**
 (https://github.com/Geeksound/Reaper_Scripts-Mariow/blob/main/Metadatas/View-FieldRecorder-Metadatas.lua)  
@@ -185,7 +185,7 @@ It may be useful for Conformation and Dialogue Editing duties.
 
 
 -------------------------------------------------
-- `Utility/`---------
+`- Utility/---------`
 
 ## 1. **CreateTracksFromText**
 (https://github.com/Geeksound/Reaper_Scripts-Mariow/blob/main/Utility/CreateTracksFromText.lua)  
@@ -248,7 +248,7 @@ Batch Re-naming selected Items with a prefix for a better Workflow and sorting
  
 
 -------------------------------------------------
-- `View/`---------
+`- View/---------`
 
 ## 1. **Interactive-TC-Display** (ReaImGui)
 (https://github.com/Geeksound/Reaper_Scripts-Mariow/blob/main/View/Interactive-TC-Display.lua)  
@@ -288,6 +288,6 @@ ____________________________
   <strong><a href="https://github.com/Geeksound">Geeksound</a></strong>
 </p>
 
-Sound engineer, professor, eternal student, and workflow "designer".  
+`Sound engineer, professor, eternal student, and workflow "designer".  
 Working in Film Sound Recording and Post-Production,  with a passion for developing innovative workflows.  
-Wish the best for Reaper, its collaborators and community.
+Wish the best for Reaper, its collaborators and community.`
