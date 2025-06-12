@@ -352,4 +352,11 @@
     <type>script</type>
     <version>1.1.1</version>
   </reapack>
+  <metadata>
+    <description><![CDATA[
+      Scripts by Mariow for REAPER: field recorder workflow, editing, utilities and more.
+      Compatible with REAPER 7+.
+      Documentation et support : https://github.com/Geeksound/Reaper_Scripts-Mariow
+    ]]></description>
+  </metadata>
 </index>
