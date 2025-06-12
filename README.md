@@ -16,7 +16,7 @@ https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/index.xml
 
 ## D O C U M E N T A T I O N
 `- Documentations/---------`
-## **Documentations/Repository-Guide.lua**
+## **Documentations/\nRepository-Guide.lua**
 Special Script to see and Download Guide for my Repository and Scripts
 <p align="center">
   <img src="PICTURES/Repository-Guide.png" alt="Repository-Guide" width="400"/>
