@@ -162,5 +162,5 @@ Audio conforming is a technical but vital stage: it allows you to **recover the 
 
 # 🎧 ILLUSTRATIONS
 
-![Fieldrecorder Polys](https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/Documentations/ConformationGuidePictures/7_Fieldrecorder-Polys.png)
-![Fieldrecorder Polys](https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/Documentations/ConformationGuidePictures/7_Fieldrecorder-Polys.png)
+![Fieldrecorder Polys](https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/Documentations/ConformationGuidePictures/CONFORMATION p1.png )
+![Fieldrecorder Polys](https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/Documentations/ConformationGuidePictures/CONFORMATION p2.png )
