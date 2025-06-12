@@ -111,22 +111,34 @@ Select Tracks without Names or unnamed
 
 -------------------------------------------------
 `- Field-Recorder_Workflow/---------`
-## AVAILABLE SOON for **REAPER** - under construction
 
-<p align="center">
-  <img src="PICTURES/CONFORMATION-SUITE.png" alt="Overview of 'Conformation-suite'" width="800" />
-</p> 
-
-
-## --2 VERSIONS--  
+# --2 VERSIONS--  
 of the Fieldrecorder-Track  
 that everyone thought was  
 exclusive to **PROTOOLS**
 ##  1.Full version with innovative Presets
 ##  2.Auto-mode version that will work on its own in most cases
+ReaImGui scripts for REAPER that may be executed after an AAF import and match these .wav files imported with the Original RAW Files from the ****Fieldrecorder**
+
+<p align="center">
+  <img src="PICTURES/CONFORMATION-SUITE.png" alt="Overview of 'Conformation-suite'" width="800" />
+</p> 
+
+## 1. **FieldrecorderTrack-Matching_AUTO-Lite** "PROTOOLS Fieldrecorder Track" with an **AUTOMATIC-MODE!**:)
+(https://github.com/Geeksound/Reaper_Scripts-Mariow/blob/mainField-Recorder_Workflow/FieldrecorderTrack-Matching_AUTO-Lite.lua)  
+
+## 2. **FieldrecorderTrack-Matching** "PROTOOLS Fieldrecorder Track" with some presets accorded to  **Fieldrecorders**:)
+(https://github.com/Geeksound/Reaper_Scripts-Mariow/blob/mainField-Recorder_Workflow/FieldrecorderTrack-Matching.lua)  
 
 <p align="center">
   <img src="PICTURES/Fieldrecorder-Tracks.png" alt="Overview of 'Fieldrecorder-Tracks'" width="800" />
+</p> 
+
+## 3. **Dial-EditConform** comes after RAW Files Matching to explode and organize Itemsin Tracks by Name
+(https://github.com/Geeksound/Reaper_Scripts-Mariow/blob/mainField-Recorder_Workflow/Dial-EditConform.lua)  
+
+<p align="center">
+  <img src="PICTURES/Dial-EditConform.png" alt="Overview of 'Dial-EditConform'" width="800" />
 </p> 
 
 ## Utilities

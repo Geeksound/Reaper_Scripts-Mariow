@@ -61,6 +61,65 @@
     </reapack>
   </category>
   <category name="Field-Recorder_Workflow">
+    <reapack name="FieldrecorderTrack-Matching_AUTO-Lite.lua" type="script" desc="FieldrecorderTrack-Matching_AUTO-Lite">
+      <metadata>
+        <description><![CDATA[# FieldrecorderTrack-Matching_AUTO-Lite
+This script comes after AAF importing files (ideally from Vordio).
+This is a light and automatic version of the famous FieldrecorderTrackMatching Script:
+- Searching original files from Fieldrecorder into a folder
+- Importing and placing multichannel poly items below AAF files
+Advanced dialogue Fieldrecorder track matching and organizing like in PROTOOLS.
+This script was developed with the help of GitHub Copilot.
+]]></description>
+        <license>MIT</license>
+        <link rel="website">https://github.com/Geeksound/Reaper_Scripts-Mariow</link>
+        <tags>dialogue, conformation, workflow, Fieldrecording, Track, rushs, raw, files, matching, conforming</tags>
+      </metadata>
+      <version name="1.0" author="Mariow" time="2025-06-08T00:00:00Z">
+        <changelog><![CDATA[v1.0 (2025-06-08) - Initial release]]></changelog>
+        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/Field-Recorder_Workflow/FieldrecorderTrack-Matching_AUTO-Lite.lua</source>
+      </version>
+    </reapack>
+    <reapack name="FieldrecorderTrack-Matching.lua" type="script" desc="FieldrecorderTrack-Matching">
+      <metadata>
+        <description><![CDATA[# FieldrecorderTrack-Matching
+This script comes after AAF importing files (ideally from Vordio):
+- Searching original files from Fieldrecorder into a folder
+- Importing and placing multichannel poly items below AAF files
+Advanced dialogue Fieldrecorder track matching and organizing like in PROTOOLS and better.
+This script was developed with the help of GitHub Copilot.
+]]></description>
+        <license>MIT</license>
+        <link rel="website">https://github.com/Geeksound/Reaper_Scripts-Mariow</link>
+        <tags>dialogue, conformation, workflow, Fieldrecording, Track</tags>
+      </metadata>
+      <version name="1.0" author="Mariow" time="2025-06-08T00:00:00Z">
+        <changelog><![CDATA[v1.0 (2025-06-08) - Initial release]]></changelog>
+        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/Field-Recorder_Workflow/FieldrecorderTrack-Matching.lua</source>
+      </version>
+    </reapack>
+    <reapack name="Dial-EditConform.lua" type="script" desc="Dial-EditConform">
+      <metadata>
+        <description><![CDATA[# Dial-EditConform
+This script comes after FieldrecorderTrackmatching to automate dialogue audio conforming:
+- Creating tracks from iXML/BWF metadata,
+- Exploding multichannel items into separate mono tracks (thanks to RODILAB for this),
+- Renaming items according to their source and metadata,
+- Moving items to appropriate tracks based on take names,
+- Deleting empty tracks or tracks containing only items/takes named "DISARMED".
+Ends by deselecting all items and tracks for a clean state.
+Advanced dialogue track conforming and organizing (iXML/BWF metadata, splitting, renaming, moving, cleaning).
+This script was developed with the help of GitHub Copilot.
+]]></description>
+        <license>MIT</license>
+        <link rel="website">https://github.com/Geeksound/Reaper_Scripts-Mariow</link>
+        <tags>dialogue, editing, conformation, workflow, timecode, display, items</tags>
+      </metadata>
+      <version name="1.0" author="Mariow" time="2025-06-08T00:00:00Z">
+        <changelog><![CDATA[v1.0 (2025-06-08) - Initial release]]></changelog>
+        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/Field-Recorder_Workflow/Dial-EditConform.lua</source>
+      </version>
+    </reapack>
     <reapack name="Detect-DeleteEmpty-Items.lua" type="script" desc="Detect-DeleteEmpty-Items">
       <metadata>
         <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
