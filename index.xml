@@ -369,17 +369,18 @@
 {\pard\ql\f0\sa0\li360\fi-360\bullet\tx360\tab Utility\par}
 {\pard\ql\f0\sa0\li360\fi-360\bullet\tx360\tab View\par}
 
-{\pard\ql\f0\sa180\li0\fi0\b\fs32 Highlights:\par}
-{\pard\ql\f0\sa0\li360\fi-360\bullet\tx360\tab Advanced field recorder workflows\par}
-{\pard\ql\f0\sa0\li360\fi-360\bullet\tx360\tab Editing utilities for REAPER 7+\par}
-{\pard\ql\f0\sa0\li360\fi-360\bullet\tx360\tab Timecode and metadata management\par}
-{\pard\ql\f0\sa0\li360\fi-360\bullet\tx360\tab Documentation and guide scripts\par}
+{\pard\ql\f0\sa180\li0\fi0\b\fs32 Highlights:FieldrecorderTrack like in "Protools"\par}
+{\pard\ql\f0\sa0\li360\fi-360\bullet\tx360\tab 1_ FieldrecorderTrack with Auto-mode\par}
+{\pard\ql\f0\sa0\li360\fi-360\bullet\tx360\tab 2_ FieldrecorderTrack with "Expert-mode" with presets\par}
+{\pard\ql\f0\sa0\li360\fi-360\bullet\tx360\tab 3_ Dial-conform for Automatic organisation of Items-In-according Tracks\par}
+{\pard\ql\f0\sa0\li360\fi-360\bullet\tx360\tab 4_ Utilities for FieldrecorderTrack Workflow\par}
 
 {\pard\ql\f0\sa180\li0\fi0\b\fs28 Documentation:\par}
 {\pard\ql\f0\sa0\li360\fi-360\bullet\tx360\tab Full documentation and support:\par}
 {\pard\ql\f0\sa0\li720\fi-360\bullet\tx720\tab{\field{\*\fldinst{HYPERLINK "https://github.com/Geeksound/Reaper_Scripts-Mariow"}}{\fldrslt{https://github.com/Geeksound/Reaper_Scripts-Mariow}}}\par}
 
 {\pard\ql\f0\sa180\li0\fi0 Developed with the help of GitHub Copilot.\par}
+{\pard\ql\f0\sa180\li0\fi0 Enjoy !!!\par}
 }
 ]]></description>
 </metadata>
