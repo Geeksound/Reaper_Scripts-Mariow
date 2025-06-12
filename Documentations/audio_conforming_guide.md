@@ -75,7 +75,7 @@ We therefore propose these two workarounds.
 ### 3.1.2 Case B ----------------------------------
 
        B1 _we use a special algorithm that read Item-Notes to retrieve the RAW Files.
-- Use 🔍`FieldrecorderTrackMatchinglight.lua` with it automatic Algorythm
+- Use 🔍`FieldrecorderTrackMatchinglight.lua` with its **AUTO-MODE** Algorythm
 - Or use "**`FieldrecorderTrackMatching.lua`**" with the  
 `Match By Name (SCENE/TAKE)` and other `criteria°°` to Match&Import the Raw Files more accurately if needed  
   _°°we can add Origination Date and/or Start TC Offset for more accurate Matching_
@@ -157,4 +157,4 @@ Then 🔍`Dial-EditConform.lua`may be used to **AUTOMATICALLY**:
 
 Audio conforming is a technical but vital stage: it allows you to **recover the full quality and structure of the original recordings**, while **preparing a clean, logical session for future sound work**. A well-conformed session means faster editing, easier mixing, and a clearer understanding of the film’s sound narrative.
 
-`Pro Tools was, until now, the only one capable of performing conforming. Thanks to this suite of innovative plugins I’m offering, **i hope that Reaper** will be very much in the game.`
+`Pro Tools was, until now, the only one capable of performing conforming. Thanks to this suite of innovative plugins I’m offering, "i hope that REAPER will be very much in the game.`
