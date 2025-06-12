@@ -158,3 +158,9 @@ Then 🔍`Dial-EditConform.lua`may be used to **AUTOMATICALLY**:
 Audio conforming is a technical but vital stage: it allows you to **recover the full quality and structure of the original recordings**, while **preparing a clean, logical session for future sound work**. A well-conformed session means faster editing, easier mixing, and a clearer understanding of the film’s sound narrative.
 
 `Pro Tools was, until now, the only one capable of performing conforming. Thanks to this suite of innovative plugins I’m offering, "i hope that REAPER will be very much in the game.`
+
+
+# 🎧 ILLUSTRATIONS
+
+![Fieldrecorder Polys](https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/Documentations/ConformationGuidePictures/7_Fieldrecorder-Polys.png)
+![Fieldrecorder Polys](https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/Documentations/ConformationGuidePictures/7_Fieldrecorder-Polys.png)
