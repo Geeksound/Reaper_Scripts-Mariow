@@ -75,7 +75,7 @@ We therefore propose these two workarounds.
 ### 3.1.2 Case B ----------------------------------
 
        B1 _we use a special algorithm that read Item-Notes to retrieve the RAW Files.
-- Use 🔍`FieldrecorderTrackMatchinglight.lua` with its **AUTO-MODE** Algorythm
+- Use 🔍`FieldrecorderTrack-Matching_AUTO-Lite` with its **AUTO-MODE** Algorythm
 - Or use "**`FieldrecorderTrackMatching.lua`**" with the  
 `Match By Name (SCENE/TAKE)` and other `criteria°°` to Match&Import the Raw Files more accurately if needed  
   _°°we can add Origination Date and/or Start TC Offset for more accurate Matching_
