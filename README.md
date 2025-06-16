@@ -176,6 +176,17 @@ This script delete the empty Items that sometimes are recorded
 on a Field Recorder when track as no input but is ARMED.
 -- Dont't worry , ROOM TONES won't be deleted :) ! --
 
+## 4. **Set-ItemFor-IXMLRendering**
+(https://github.com/Geeksound/Reaper_Scripts-Mariow/blob/main/Field-Recorder_Workflow/Set-ItemFor-IXMLRendering.lua)   
+This script may be used if..., Metadata related to SCENE/Take in AAF .wavs files are missing.
+So when translating AAF>RPP with Vordio, we can retrieve these informations in the Notes of each Items
+One strategy could be to Rename each Item by "**SCENE**" and leave the Notes with only **Take**
+Then Reaper can Re-render each Items and re-inject missing Metadata in tags **iXML** with Wildcard used as shown below.
+<p align="center">
+  <img src="PICTURES/Set-ItemFor-IXMLRendering.png" alt="Overview of 'Set-ItemFor-IXMLRendering'" width="800" />
+</p> 
+
+
 
 -------------------------------------------------
 `- Metadatas/---------`
