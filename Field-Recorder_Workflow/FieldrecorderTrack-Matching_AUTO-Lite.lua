@@ -1,9 +1,11 @@
 --[[
 @description FieldrecorderTrack-Matching_AUTO-Lite
-@version 1.0
+@version 1.1
 @author Mariow
 @license MIT
 @changelog
+  V1.1 (2025-06-16)
+  - Add a command to rebuid missing Peaks at the end
   v1.0 (2025-06-08)
   - Initial release
 @provides
@@ -366,5 +368,7 @@ local function loop()
 
   r.defer(loop)
 end
+
+reaper.Main_OnCommand(40047,0) -- Rebuild Missing Peaks
 
 r.defer(loop)
