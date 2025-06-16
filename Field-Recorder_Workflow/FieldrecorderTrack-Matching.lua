@@ -1,11 +1,13 @@
 --[[
 @description FieldrecorderTrack-Matching
-@version 1.0
+@version 1.1
 @author Mariow
 @license MIT
 @changelog
+  v1.1 (2025-06-16)
+    - Add a function to rebuild missing peaks at the end
   v1.0 (2025-06-08)
-  - Initial release
+    - Initial release.
 @provides
   [main] Field-Recorder_Workflow/FieldrecorderTrack-Matching.lua
 @link https://github.com/Geeksound/Reaper_Scripts-Mariow
@@ -13,14 +15,14 @@
 @tags dialogue conformation workflow Fieldrecording Track
 @about
   # FieldrecorderTrack-Matching
+  
+This script is intended for use after importing an AAF file (ideally from Vordio):
+  - Searches for the original Fieldrecorder files within a folder
+  - Imports and places multichannel polyphonic files below the AAF files
 
-  This script comes after AAF importing files (ideally from Vordio):
-  - Searching original files from Fieldrecorder into a folder
-  - Importing and placing multichannel poly items below AAF files
-
-  Advanced dialogue Fieldrecorder track matching and organizing like in PROTOOLS and better.
-
-  This script was developed with the help of GitHub Copilot.
+  Advanced Fieldrecorder track matching and organization for dialogue, just like in PROTOOLS, or even better.
+  
+  This script was developed with the help of GitHub Copilot..
 --]]
 
 local r = reaper
@@ -508,6 +510,8 @@ local function loop()
 
   r.defer(loop)
 end
+
+reaper.Main_OnCommand(40047,0) -- Rebuild Missing Peaks
 
 r.defer(loop)
  

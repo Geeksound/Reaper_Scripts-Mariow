@@ -110,24 +110,29 @@
     </reapack>
     <reapack name="FieldrecorderTrack-Matching.lua" type="script" desc="FieldrecorderTrack-Matching">
       <metadata>
-        <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
-{\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
-\widowctrl\hyphauto
+        <description><![CDATA[
+FieldrecorderTrack-Matching
 
-{\pard \ql \f0 \sa180 \li0 \fi0 \outlinelevel0 \b \fs36 FieldrecorderTrack-Matching\par}
-{\pard \ql \f0 \sa180 \li0 \fi0 This script comes after AAF importing files (ideally from Vordio):\par}
-{\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab Searching original files from Fieldrecorder into a folder\par}
-{\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab Importing and placing multichannel poly items below AAF files\sa180\par}
-{\pard \ql \f0 \sa180 \li0 \fi0 Advanced dialogue Fieldrecorder track matching and organizing like in PROTOOLS and better.\par}
-{\pard \ql \f0 \sa180 \li0 \fi0 This script was developed with the help of GitHub Copilot.\par}
-}
-]]></description>
+This script is intended for use after importing an AAF file (ideally from Vordio):
+- Searches for the original Fieldrecorder files within a folder
+- Imports and places multichannel polyphonic files below the AAF files
+
+Advanced Fieldrecorder track matching and organization for dialogue, just like in PROTOOLS, or even better.
+
+This script was developed with the help of GitHub Copilot.
+    ]]></description>
         <license>MIT</license>
         <link rel="website">https://github.com/Geeksound/Reaper_Scripts-Mariow</link>
         <tags>dialogue, conformation, workflow, Fieldrecording, Track</tags>
       </metadata>
-      <version name="1.0" author="Mariow" time="2025-06-08T00:00:00Z">
-        <changelog><![CDATA[v1.0 (2025-06-08) - Initial release]]></changelog>
+      <version name="1.1" author="Mariow" time="2025-06-16T00:00:00Z">
+        <changelog><![CDATA[
+v1.1 (2025-06-16)
+  - Add a function to rebuild missing peaks at the end
+
+v1.0 (2025-06-08)
+  - Initial release.
+    ]]></changelog>
         <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/Field-Recorder_Workflow/FieldrecorderTrack-Matching.lua</source>
       </version>
     </reapack>
