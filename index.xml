@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<index version="1" name="Mariow Scripts" commit="aadfbc7b01a7fbfa263c310f3affbe0804414a5f">
+<index version="1" name="Mariow Scripts" commit="80a9fa22230a6b858825301256f12e5a774638b3">
   <author>Mariow</author>
   <category name="Documentations">
     <reapack name="Repository-Guide.lua" type="script" desc="Repository-Guide of Scripts by Mariow in Geeksound hosted by GitHub.com">
@@ -61,33 +61,6 @@
     </reapack>
   </category>
   <category name="Field-Recorder_Workflow">
-    <reapack name="Set-ItemFor-IXMLRendering.lua" type="script" desc="Set-ItemFor-IXMLRendering">
-      <metadata>
-        <description><![CDATA[
-# Set-ItemFor-IXMLRendering
-
-This script comes after AAF importing files (ideally from Vordio).
-It prepares item names and notes for the injection of iXML tags concerning SCENE/TAKE and TRACKNAME during a specific rendering.
-
-- Modifies item names and item notes based on the content injected by VORDIO during AAF export.
-- May be followed by item rendering with iXML metadata injection (ItemName > SCENE and ItemNotes > Take).
-- Improves field recording track matching by SCENE & TAKE.
-- Advanced dialogue field recorder track matching and organizing, similar to PROTOOLS.
-
-This script was developed with the help of GitHub Copilot.
-    ]]></description>
-        <license>MIT</license>
-        <link rel="website">https://github.com/Geeksound/Reaper_Scripts-Mariow</link>
-        <tags>dialogue, conformation, workflow, Fieldrecording, Track, rushs, raw, files, matching, conforming</tags>
-      </metadata>
-      <version name="1.0" author="Mariow" time="2025-06-08T00:00:00Z">
-        <changelog><![CDATA[
-v1.0 (2025-06-08)
-- Initial release
-    ]]></changelog>
-        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/Field-Recorder_Workflow/Set-ItemFor-IXMLRendering.lua</source>
-      </version>
-    </reapack>
     <reapack name="Detect-DeleteEmpty-Items.lua" type="script" desc="Detect-DeleteEmpty-Items">
       <metadata>
         <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
@@ -247,6 +220,33 @@ v1.0 (2025-06-08)
         <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/Field-Recorder_Workflow/RenameItemFrom-ShootingSlate.lua</source>
       </version>
     </reapack>
+    <reapack name="Set-ItemFor-IXMLRendering.lua" type="script" desc="Set-ItemFor-IXMLRendering">
+      <metadata>
+        <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
+{\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
+\widowctrl\hyphauto
+
+{\pard \ql \f0 \sa180 \li0 \fi0 \outlinelevel0 \b \fs36 Set-ItemFor-IXMLRendering\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 This script comes after AAF importing files (ideally from Vordio). It prepares item names and notes for the injection of iXML tags concerning SCENE/TAKE and TRACKNAME during a specific rendering.\par}
+{\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab Modifies item names and item notes based on the content injected by VORDIO during AAF export.\par}
+{\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab May be followed by item rendering with iXML metadata injection (ItemName > SCENE and ItemNotes > Take).\par}
+{\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab Improves field recording track matching by SCENE & TAKE.\par}
+{\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab Advanced dialogue field recorder track matching and organizing, similar to PROTOOLS.\sa180\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 This script was developed with the help of GitHub Copilot.\par}
+}
+]]></description>
+        <license>MIT</license>
+        <link rel="website">https://github.com/Geeksound/Reaper_Scripts-Mariow</link>
+        <tags>dialogue, conformation, workflow, Fieldrecording, Track, rushs, raw, files, matching, conforming</tags>
+      </metadata>
+      <version name="1.0" author="Mariow" time="2025-06-08T00:00:00Z">
+        <changelog><![CDATA[
+v1.0 (2025-06-08)
+- Initial release
+    ]]></changelog>
+        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/Field-Recorder_Workflow/Set-ItemFor-IXMLRendering.lua</source>
+      </version>
+    </reapack>
   </category>
   <category name="Metadatas">
     <reapack name="View-FieldRecorder-Metadatas.lua" type="script" desc="View-FieldRecorder-Metadatas">
@@ -369,18 +369,8 @@ v1.0 (2025-06-08)
       </version>
     </reapack>
   </category>
-  <reapack name="Interactive-TC-Display">
-    <author>Mariow</author>
-    <category>View</category>
-    <description>Concept by Mariow. Coding assistance by GitHub Copilot. Interactive display of TimeCode, items, and status for Reaper.</description>
-    <link>https://github.com/Geeksound/Reaper_Scripts-Mariow</link>
-    <provides>[main] View/Interactive-TC-Display.lua</provides>
-    <source url="https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/View/Interactive-TC-Display.lua"/>
-    <type>script</type>
-    <version>1.1.1</version>
-  </reapack>
-<metadata>
-  <description><![CDATA[
+  <metadata>
+    <description><![CDATA[
 {\rtf1\ansi\deff0{\fonttbl{\f0\fswiss Helvetica;}{\f1 Courier;}}
 {\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
 \widowctrl\hyphauto
@@ -414,5 +404,15 @@ v1.0 (2025-06-08)
 {\pard\ql\f0\sa180\li0\fi0 Enjoy !!!\par}
 }
 ]]></description>
-</metadata>
+  </metadata>
+  <reapack name="Interactive-TC-Display">
+    <author>Mariow</author>
+    <category>View</category>
+    <description>Concept by Mariow. Coding assistance by GitHub Copilot. Interactive display of TimeCode, items, and status for Reaper.</description>
+    <link>https://github.com/Geeksound/Reaper_Scripts-Mariow</link>
+    <provides>[main] View/Interactive-TC-Display.lua</provides>
+    <source url="https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/View/Interactive-TC-Display.lua"/>
+    <type>script</type>
+    <version>1.1.1</version>
+  </reapack>
 </index>
