@@ -134,11 +134,19 @@ ReaImGui scripts for REAPER that may be executed after an AAF import and match t
   <img src="PICTURES/Fieldrecorder-Tracks.png" alt="Overview of 'Fieldrecorder-Tracks'" width="800" />
 </p> 
 
-## 3. **Dial-EditConform** comes after RAW Files Matching to explode and organize Itemsin Tracks by Name
+## 3. **Dial-EditConform** comes after RAW Files Matching to explode and organize Items in Tracks by Name
 (https://github.com/Geeksound/Reaper_Scripts-Mariow/blob/mainField-Recorder_Workflow/Dial-EditConform.lua)  
 
 <p align="center">
   <img src="PICTURES/Dial-EditConform.png" alt="Overview of 'Dial-EditConform'" width="800" />
+</p> 
+
+## 4. **FieldrecordingSound-Report** Record the Dialog Lines on SHOOTING film via Dante  
+from Field-Recorders like ****Cantar** or **Sound Devices** and edit a Sound-Report for Post-Production
+(https://github.com/Geeksound/Reaper_Scripts-Mariow/blob/mainField-Recorder_Workflow/FieldrecordingSound-Report.lua)  
+
+<p align="center">
+  <img src="PICTURES/FieldrecordingSound-Report.png" alt="Overview of 'FieldrecordingSound-Report'" width="800" />
 </p> 
 
 ## Utilities

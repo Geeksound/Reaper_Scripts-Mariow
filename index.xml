@@ -61,6 +61,33 @@
     </reapack>
   </category>
   <category name="Field-Recorder_Workflow">
+    <reapack name="FieldrecordingSound-Report.lua" type="script" desc="Fieldrecording Sound-Report">
+      <metadata>
+        <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
+{\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
+\widowctrl\hyphauto
+
+{\pard \ql \f0 \sa180 \li0 \fi0 \outlinelevel0 \b \fs36 Fieldrecording Sound-Report\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 This script comes during Fieldrecording with Reaper\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 - Record Production Sound via Dante from Cantar or Scorpio\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 - Enter additionals Items notes to describe the Sound recorded\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 - Select all Items recorded and launch the Script\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 - The Sound Report appear and may be completed\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 - Export a CSV version for Post-production\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 \par}
+{\pard \ql \f0 \sa180 \li0 \fi0 Advanced dialogue track Sound Reporting by reading iXML/BWF metadata, and Items properties.\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 This script was developed with the help of GitHub Copilot.\par}
+}
+]]></description>
+        <license>MIT</license>
+        <link rel="website">https://github.com/Geeksound/Reaper_Scripts-Mariow</link>
+        <tags>dialogue, recording, conformation, workflow, Sound-report</tags>
+      </metadata>
+      <version name="1.0" author="Mariow" time="2025-06-17T00:00:00Z">
+        <changelog><![CDATA[v1.0 (2025-06-17) - Initial release]]></changelog>
+        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/Field-Recorder_Workflow/FieldrecordingSound-Report.lua</source>
+      </version>
+    </reapack>
     <reapack name="Detect-DeleteEmpty-Items.lua" type="script" desc="Detect-DeleteEmpty-Items">
       <metadata>
         <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
