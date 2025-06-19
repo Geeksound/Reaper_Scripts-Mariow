@@ -112,10 +112,9 @@ Select Tracks without Names or unnamed
 -------------------------------------------------
 `- Field-Recorder_Workflow/---------`
 
-# --2 VERSIONS--  
-of the Fieldrecorder-Track  
-that everyone thought was  
-exclusive to **PROTOOLS**
+# --2 VERSIONS of the Fieldrecorder-Track--  
+"that everyone thought was  
+exclusive to **PROTOOLS**"
 ##  1.Full version with innovative Presets
 ##  2.Auto-mode version that will work on its own in most cases
 ReaImGui scripts for REAPER that may be executed after an AAF import and match these .wav files imported with the Original RAW Files from the ****Fieldrecorder**
