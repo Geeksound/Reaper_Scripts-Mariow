@@ -140,9 +140,7 @@ ReaImGui scripts for REAPER that may be executed after an AAF import and match t
 </p> 
 
 ## 4. **FieldrecordingSound-Report** 
-Record the Dialog Lines on SHOOTING film via Dante  
-from Field-Recorders like ****Cantar** or **Sound Devices**   
-and edit a Sound-Report for Post-Production
+Record the Dialog Lines on SHOOTING film via Dantefrom Field-Recorders like ****Cantar** or **Sound Devices** and edit a Sound-Report for Post-Production.
 (https://github.com/Geeksound/Reaper_Scripts-Mariow/blob/mainField-Recorder_Workflow/FieldrecordingSound-Report.lua)  
 
 <p align="center">
