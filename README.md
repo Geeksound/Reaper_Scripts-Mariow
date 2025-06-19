@@ -25,7 +25,7 @@ Special Script to see and Download Guide for my Repository and Scripts
 ## Directory Structure
 <h3><em>- 'DOCUMENTATIONS'</em></h3>
 For better knowledge of Scripts &  
-RECORDING-TRACK GUIDE __as in PROTOOLS_
+RECORDING-TRACK GUIDE ~as in PROTOOLS~
 
 - `Editing/`: Scripts for editing
 - `Field-Recorder_Workflow/`:  
