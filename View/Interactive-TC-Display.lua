@@ -1,20 +1,24 @@
 --[[
 @description Interactive-TC-Display
-@version 1.1
+@version 1.2
 @author Mariow
+@license MIT
 @changelog
-  v1.1 (2025-06-08)
-  - Initial releaseV2
+  V1.2 (2025-09-08)
+  - ReaImguiV0.10.02 Font Compatibility
+  v1.0 (2025-06-08)
+  - Initial release
 @provides
   [main] View/Interactive-TC-Display.lua
 @link https://github.com/Geeksound/Reaper_Scripts-Mariow
 @repository https://github.com/Geeksound/Reaper_Scripts-Mariow
-@tags timecode, display, reaper, contextual, items, status
+@tags timecode display reaper contextual items status
 @about
   # Interactive-TC-Display
+
   Contextual display of TimeCode / Items / Status for Reaper 7.0.
-  This script was developed with the help of GitHub Copilot.
 --]]
+
 
 local ctx = reaper.ImGui_CreateContext('Interactive-TC-Display')
 local FONT_SIZE = 24
@@ -22,10 +26,10 @@ local BIG_FONT_SIZE = 46
 local SMALL_FONT_SIZE = 16
 local MID_FONT_SIZE = 36
 
-local font_main = reaper.ImGui_CreateFont('Comic Sans MS', FONT_SIZE)
-local font_big = reaper.ImGui_CreateFont('Arial', BIG_FONT_SIZE)
-local font_small = reaper.ImGui_CreateFont('Comic', SMALL_FONT_SIZE)
-local font_mid = reaper.ImGui_CreateFont('Arial', MID_FONT_SIZE)
+local font_main = reaper.ImGui_CreateFont('Comic Sans MS')
+local font_big = reaper.ImGui_CreateFont('Arial')
+local font_small = reaper.ImGui_CreateFont('Comic')
+local font_mid = reaper.ImGui_CreateFont('Arial')
 reaper.ImGui_Attach(ctx, font_main)
 reaper.ImGui_Attach(ctx, font_big)
 reaper.ImGui_Attach(ctx, font_small)
@@ -76,18 +80,18 @@ local duration = now - recording_start_time
 local pos_str = format_timecode(now)
 local duration_str = format_timecode(duration)
 
-reaper.ImGui_PushFont(ctx, font_big)
+reaper.ImGui_PushFont(ctx, font_big, BIG_FONT_SIZE)
 reaper.ImGui_TextColored(ctx, 0xFFFFFFFF, "REC: " .. duration_str)
 reaper.ImGui_PopFont(ctx)
 
-reaper.ImGui_PushFont(ctx, font_small)
+reaper.ImGui_PushFont(ctx, font_small, SMALL_FONT_SIZE)
 reaper.ImGui_TextColored(ctx, 0xFFFFFFFF, "Position: " .. pos_str)
 reaper.ImGui_PopFont(ctx)
 
 elseif is_playing then
 recording_start_time = nil
 local pos = reaper.GetPlayPosition()
-reaper.ImGui_PushFont(ctx, font_big)
+reaper.ImGui_PushFont(ctx, font_big, BIG_FONT_SIZE)
 reaper.ImGui_TextColored(ctx, 0xFFFFFFFF, "Play: " .. format_timecode(pos))
 reaper.ImGui_PopFont(ctx)
 
@@ -113,7 +117,7 @@ end
 end
 
 local tc = format_timecode(pos)
-reaper.ImGui_PushFont(ctx, font_main)
+reaper.ImGui_PushFont(ctx, font_main, FONT_SIZE)
 
 reaper.ImGui_TextColored(ctx, 0x00FF00FF, "                  Item Selected        " )
 reaper.ImGui_TextColored(ctx, 0xFFFFFFFF, name .. " | " .. tc)
@@ -123,7 +127,7 @@ elseif time_sel_end > time_sel_start then
 local duration = time_sel_end - time_sel_start
 local dur_str = format_timecode(duration)
 
-reaper.ImGui_PushFont(ctx, font_small)
+reaper.ImGui_PushFont(ctx, font_small, FONT_SMALL_SIZE)
 reaper.ImGui_TextColored(ctx, 0x00FF00FF, "Start            " .. format_timecode(time_sel_start))
 reaper.ImGui_TextColored(ctx, 0xFF0F0FF, "End             " .. format_timecode(time_sel_end))
 reaper.ImGui_TextColored(ctx, 0xFFFF00FF, "L e n g t h    " .. dur_str)
@@ -131,7 +135,7 @@ reaper.ImGui_PopFont(ctx)
 
 else
 local pos = reaper.GetCursorPosition()
-reaper.ImGui_PushFont(ctx, font_mid)
+reaper.ImGui_PushFont(ctx, font_mid, MID_FONT_SIZE)
 reaper.ImGui_TextColored(ctx, 0xFFFFFFFF, " Position " .. format_timecode(pos))
 reaper.ImGui_PopFont(ctx)
 end

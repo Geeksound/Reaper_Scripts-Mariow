@@ -410,11 +410,15 @@ v1.0 (2025-06-08)
   <category name="View">
     <reapack name="Interactive-TC-Display.lua" type="script" desc="Interactive-TC-Display">
       <metadata>
-        <description><![CDATA[Interactive display of TimeCode, items, and status for Reaper 7.0.]]></description>
+        <description><![CDATA[Contextual display of TimeCode / Items / Status for Reaper 7.0.]]></description>
         <link rel="website">https://github.com/Geeksound/Reaper_Scripts-Mariow</link>
       </metadata>
+      <version name="1.2" author="Mariow" time="2025-09-08T00:00:00Z">
+        <changelog><![CDATA[ReaImguiV0.10.02 Font Compatibility]]></changelog>
+        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/View/Interactive-TC-Display.lua</source>
+      </version>
       <version name="1.0" author="Mariow" time="2025-05-11T21:35:20Z">
-        <changelog><![CDATA[Initial releaseV2.1]]></changelog>
+        <changelog><![CDATA[Initial release]]></changelog>
         <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/View/Interactive-TC-Display.lua</source>
       </version>
     </reapack>
