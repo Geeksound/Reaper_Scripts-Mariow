@@ -145,7 +145,6 @@ v1.0 (2025-06-08)
         <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/Field-Recorder_Workflow/FieldrecorderTrack-Matching.lua</source>
       </version>
     </reapack>
-    
     <reapack name="FieldrecorderTrack-Matching_AUTO-Lite.lua" type="script" desc="FieldrecorderTrack-Matching_AUTO-Lite">
       <metadata>
         <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
@@ -164,8 +163,11 @@ v1.0 (2025-06-08)
         <link rel="website">https://github.com/Geeksound/Reaper_Scripts-Mariow</link>
         <tags>dialogue, conformation, workflow, Fieldrecording, Track, rushs, raw, files, matching, conforming</tags>
       </metadata>
-      <version name="1.1" author="Mariow" time="2025-06-16T00:00:00Z">
+      <version name="1.2" author="Mariow" time="2025-09-08T00:00:00Z">
         <changelog><![CDATA[
+v1.2 (2025-09-08)
+  - ReaImguiV0.10.02 Font Compatibility
+
 v1.1 (2025-06-16)
   - Add a command to rebuid missing Peaks at the end
 
@@ -175,6 +177,7 @@ v1.0 (2025-06-08)
         <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/Field-Recorder_Workflow/FieldrecorderTrack-Matching_AUTO-Lite.lua</source>
       </version>
     </reapack>
+    
     <reapack name="FieldrecordingSound-Report.lua" type="script" desc="Fieldrecording Sound-Report">
       <metadata>
         <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
