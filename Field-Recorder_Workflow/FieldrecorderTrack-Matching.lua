@@ -1,9 +1,11 @@
 --[[
 @description FieldrecorderTrack-Matching
-@version 1.1
+@version 1.2
 @author Mariow
 @license MIT
 @changelog
+  v1.2 (2025-09-08)
+    - Fix ReaImgui errors with Font
   v1.1 (2025-06-16)
     - Add a function to rebuild missing peaks at the end
   v1.0 (2025-06-08)
@@ -39,11 +41,16 @@ if reaper.CountSelectedMediaItems(0) == 0 then
 end
 -- === ImGui Context & Polices ===
 local ctx = r.ImGui_CreateContext('Metadata Matcher Expert VERSION')
-local BIGFONT = r.ImGui_CreateFont('Comic Sans MS', 30)
-local FONT = r.ImGui_CreateFont('Comic Sans MS', 18)
-local BIGBUTTONFONT = r.ImGui_CreateFont('Comic Sans MS', 24)
-local ARIALFONT = r.ImGui_CreateFont('Arial Bold', 24)
-local ARIALMIDFONT = r.ImGui_CreateFont('Arial Bold', 18)
+local BIGFONT_SIZE = 20
+local BIGFONT = r.ImGui_CreateFont('Comic Sans MS')
+local FONT_SIZE = 18
+local FONT = r.ImGui_CreateFont('Comic Sans MS')
+local BIGBUTTONFONT_SIZE = 24
+local BIGBUTTONFONT = r.ImGui_CreateFont('Comic Sans MS')
+local ARIALFONT_SIZE = 24
+local ARIALFONT = r.ImGui_CreateFont('Arial Bold')
+local ARIALMIDFONT_SIZE = 18
+local ARIALMIDFONT = r.ImGui_CreateFont('Arial Bold')
 r.ImGui_Attach(ctx, BIGBUTTONFONT)
 r.ImGui_Attach(ctx, BIGFONT)
 r.ImGui_Attach(ctx, FONT)
@@ -58,9 +65,9 @@ local function welcome_window()
   r.ImGui_SetNextWindowSize(ctx, 750, 600, r.ImGui_Cond_Always())
   local visible, open = r.ImGui_Begin(ctx, "Innovative Fieldrecorder for **R E A P E R**  @Geeksound by mariow", true)
   if visible then
-    r.ImGui_PushFont(ctx, BIGFONT)
+    r.ImGui_PushFont(ctx, BIGFONT, BIGFONT_SIZE)
     if visible then
-      r.ImGui_PushFont(ctx, BIGFONT)
+      r.ImGui_PushFont(ctx, BIGFONT, BIGFONT_SIZE)
       r.ImGui_TextWrapped(ctx,
         "-------------------------------------------------------------------------------- \n" ..
         "Innovative Script inspired by \"The Fieldrecorder Track\" in Protools\n" ..
@@ -84,7 +91,7 @@ local function welcome_window()
     r.ImGui_Separator(ctx)
 
     r.ImGui_PushStyleVar(ctx, r.ImGui_StyleVar_FramePadding(), 10, 10)
-    r.ImGui_PushFont(ctx, BIGBUTTONFONT)
+    r.ImGui_PushFont(ctx, BIGBUTTONFONT, BIGBUTTONFONT_SIZE)
     if r.ImGui_Button(ctx, "--- S T A R T ---", 750, 50) then
       show_welcome = false
     end
@@ -282,7 +289,7 @@ local function loop()
     r.ImGui_BeginChild(ctx, "notice_box", 0, 120)
 
     r.ImGui_Text(ctx, "")
-    r.ImGui_PushFont(ctx, FONT)
+    r.ImGui_PushFont(ctx, FONT, FONT_SIZE)
     r.ImGui_PushStyleColor(ctx, r.ImGui_Col_Text(), 0xFFFFF5E1)
     
      r.ImGui_Indent(ctx, 90)
@@ -314,7 +321,7 @@ local function loop()
     r.ImGui_Separator(ctx)
 
     -- Presets de matching
-    r.ImGui_PushFont(ctx, ARIALMIDFONT)
+    r.ImGui_PushFont(ctx, ARIALMIDFONT, ARIALMIDFONT_SIZE)
     r.ImGui_Text(ctx, "Presets:")
     if r.ImGui_Button(ctx, "MANUAL") then
       criteria.by_name = false
@@ -381,7 +388,7 @@ local function loop()
     r.ImGui_PushStyleColor(ctx, r.ImGui_Col_ButtonActive(), 0xFF55AA55)
     r.ImGui_PushStyleVar(ctx, r.ImGui_StyleVar_FramePadding(), 10, 10)
     r.ImGui_PopFont(ctx)
-    r.ImGui_PushFont(ctx, ARIALFONT)
+    r.ImGui_PushFont(ctx, ARIALFONT, ARIALFONT_SIZE)
     if r.ImGui_Button(ctx, "//                 SEARCH FILES                 \\\\") and not scanning then
       if selected_folder ~= "" then
         if criteria.by_name then
@@ -475,12 +482,12 @@ local function loop()
   end
 
   if r.ImGui_BeginPopupModal(ctx, "CONFORMATION duty to organize Items&Tracks byName", nil, r.ImGui_WindowFlags_AlwaysAutoResize()) then
-    r.ImGui_PushFont(ctx, BIGFONT)
+    r.ImGui_PushFont(ctx, BIGFONT, BIGFONT_SIZE)
     r.ImGui_TextWrapped(ctx, "Execute 'Dial-EditConform.lua' \nto explode and organize files ?")
     r.ImGui_PopFont(ctx)
     r.ImGui_Separator(ctx)
 
-    r.ImGui_PushFont(ctx, BIGBUTTONFONT)
+    r.ImGui_PushFont(ctx, BIGBUTTONFONT, BIGBUTTONFONT_SIZE)
     if r.ImGui_Button(ctx, "yes, do it now", 120, 60) then
       local command_id = "_RS020864c125a69873acc44f20c080d5bc35f26242"
       local command_number = r.NamedCommandLookup(command_id)
@@ -498,7 +505,7 @@ local function loop()
     r.ImGui_Dummy(ctx, 80, 0) -- Espace horizontal entre les boutons
     r.ImGui_SameLine(ctx)
 
-    r.ImGui_PushFont(ctx, BIGBUTTONFONT)
+    r.ImGui_PushFont(ctx, BIGBUTTONFONT, BIGBUTTONFONT_SIZE)
     if r.ImGui_Button(ctx, "No, exit", 120, 60) then
       r.ImGui_CloseCurrentPopup(ctx)
       show_launch_popup = false
