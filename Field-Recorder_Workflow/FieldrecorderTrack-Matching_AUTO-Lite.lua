@@ -1,9 +1,11 @@
 --[[
 @description FieldrecorderTrack-Matching_AUTO-Lite
-@version 1.1
+@version 1.2
 @author Mariow
 @license MIT
 @changelog
+  V1.2 (2025-09-08)
+  - ReaImguiV0.10.02 Font Compatibility
   V1.1 (2025-06-16)
   - Add a command to rebuid missing Peaks at the end
   v1.0 (2025-06-08)
@@ -39,16 +41,22 @@ if reaper.CountSelectedMediaItems(0) == 0 then
 end
 -- Initialisation ImGui et police
 local ctx = r.ImGui_CreateContext('Metadata Matcher Auto-Mode VERSION')
-local BIGFONT = r.ImGui_CreateFont('Comic Sans MS', 30)
-local MIDFONT = r.ImGui_CreateFont('Comic Sans MS', 22)
-local FONT = r.ImGui_CreateFont('Comic Sans MS', 20)
-local BIGBUTTONFONT = r.ImGui_CreateFont('Comic Sans MS', 24)
-local ARIALBUTTONFONT = r.ImGui_CreateFont('Arial Bold', 18)
+local BIGFONT_SIZE = 20
+local BIGFONT = r.ImGui_CreateFont('Comic Sans MS')
+local MIDFONT_SIZE = 22
+local MIDFONT = r.ImGui_CreateFont('Comic Sans MS')
+local FONT_SIZE = 20
+local FONT = r.ImGui_CreateFont('Comic Sans MS')
+local BIGBUTTONFONT_SIZE = 20
+local BIGBUTTONFONT = r.ImGui_CreateFont('Comic Sans MS')
+local ARIALBUTTONFONT = 10
+local ARIALBUTTONFONT = r.ImGui_CreateFont('Arial Bold')
 r.ImGui_Attach(ctx, BIGBUTTONFONT)
 r.ImGui_Attach(ctx, BIGFONT)
 r.ImGui_Attach(ctx, MIDFONT)
 r.ImGui_Attach(ctx, FONT)
 r.ImGui_Attach(ctx, ARIALBUTTONFONT)
+
 
 
 -- Etat fenêtre d'accueil
@@ -59,9 +67,9 @@ local function welcome_window()
   r.ImGui_SetNextWindowSize(ctx, 750, 600, r.ImGui_Cond_Always())
   local visible, open = r.ImGui_Begin(ctx, "Innovative Fieldrecorder for REAPER @Geeksound by mariow", true)
   if visible then
-    r.ImGui_PushFont(ctx, BIGFONT)
+    r.ImGui_PushFont(ctx, BIGFONT, BIGFONT_SIZE)
     if visible then
-      r.ImGui_PushFont(ctx, BIGFONT)
+      r.ImGui_PushFont(ctx, BIGFONT, BIGFONT_SIZE)
       r.ImGui_TextWrapped(ctx,
         "-------------------------------------------------------------------------------- \n" ..
         "Innovative Script inspired by \"The Fieldrecorder Track\" in Protools\n" ..
@@ -85,7 +93,7 @@ local function welcome_window()
     r.ImGui_Separator(ctx)
 
     r.ImGui_PushStyleVar(ctx, r.ImGui_StyleVar_FramePadding(), 10, 10)
-    r.ImGui_PushFont(ctx, BIGBUTTONFONT)
+    r.ImGui_PushFont(ctx, BIGBUTTONFONT, BIGBUTTONFONT_SIZE)
     if r.ImGui_Button(ctx, "--- S T A R T ---", 750, 50) then
       show_welcome = false
     end
@@ -221,12 +229,12 @@ local function loop()
     local visible, open = r.ImGui_Begin(ctx, "Metadata Matcher Auto-Mode VERSION", true)
 
     if visible then
-      r.ImGui_PushFont(ctx, FONT)
+      r.ImGui_PushFont(ctx, FONT, FONT_SIZE)
      r.ImGui_Text(ctx, '" FieldrecorderTrackMatching.lua "  may be required for more accurate searching')
       r.ImGui_PopFont(ctx)
 
       r.ImGui_Separator(ctx)
-      r.ImGui_PushFont(ctx, BIGBUTTONFONT)
+      r.ImGui_PushFont(ctx, BIGBUTTONFONT, BIGBUTTONFONT_SIZE)
       if r.ImGui_Button(ctx, "- dependency & recommendation -") then
         r.CF_ShellExecute("https://github.com/Geeksound/Reaper_Scripts-Mariow/blob/main/PICTURES/metamatcherdependency.png")
       end
@@ -333,12 +341,12 @@ local function loop()
     end
 
     if r.ImGui_BeginPopupModal(ctx, "CONFORMATION duty to organize Items&Tracks byName", nil, r.ImGui_WindowFlags_AlwaysAutoResize()) then
-      r.ImGui_PushFont(ctx, BIGFONT)
+      r.ImGui_PushFont(ctx, BIGFONT, BIGFONT_SIZE)
       r.ImGui_TextWrapped(ctx, "Execute 'Dial-EditConform.lua' \nto explode and organize files ?")
       r.ImGui_PopFont(ctx)
       r.ImGui_Separator(ctx)
 
-      r.ImGui_PushFont(ctx, ARIALBUTTONFONT)
+      r.ImGui_PushFont(ctx, ARIALBUTTONFONT, ARIALBUTTONFONT_SIZE)
       if r.ImGui_Button(ctx, "yes, do it now", 0, 40) then
         local command_id = "_RS020864c125a69873acc44f20c080d5bc35f26242"
         local command_number = r.NamedCommandLookup(command_id)
@@ -355,7 +363,7 @@ local function loop()
       r.ImGui_SameLine(ctx)
       r.ImGui_Dummy(ctx, 130, 0) -- Espace horizontal de 15 pixels
       r.ImGui_SameLine(ctx)
-      r.ImGui_PushFont(ctx, ARIALBUTTONFONT)
+      r.ImGui_PushFont(ctx, ARIALBUTTONFONT, ARIALBUTTONFONT_SIZE)
       if r.ImGui_Button(ctx, "No, exit", 0, 40) then
         r.ImGui_CloseCurrentPopup(ctx)
         show_launch_popup = false
