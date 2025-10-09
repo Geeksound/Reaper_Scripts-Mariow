@@ -1,9 +1,11 @@
 --[[
 @description SelNoNamed-Tracks
-@version 1.0
+@version 1.1
 @author Mariow
 @license MIT
 @changelog
+  V1.1 (2025-09-10) 
+  - Minor Changes
   v1.0 (2025-06-08)
   - Initial release
 @provides
