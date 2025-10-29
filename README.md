@@ -107,6 +107,18 @@ Select Tracks without Names or unnamed
   <img src="PICTURES/SelNoNamed-Tracks.png" alt="Overview of 'SelNoNamed-Tracks'"width="400" />
 </p>   
 
+## 3. **TRACKMANAGER**
+(https://github.com/Geeksound/Reaper_Scripts-Mariow/blob/main/Editing/TRACKMANAGERexpanded.lua)  
+(https://github.com/Geeksound/Reaper_Scripts-Mariow/blob/main/Editing/TRACKMANAGER.lua)  
+Harmonious palettes and tools for managing and visualizing the state of your session's tracks in Reaper
+
+<p align="center">
+  <img src="PICTURES/TRACKMANAGER.png" alt="Overview of 'TRACKMANAGER'"width="800" />
+</p>   
+
+<p align="center">
+  <img src="PICTURES/TRACKMANAGERexpanded.png" alt="Overview of 'TRACKMANAGERexpanded'"width="800" />
+</p>   
 
 
 -------------------------------------------------
