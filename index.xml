@@ -410,6 +410,23 @@ v1.0 (2025-06-08)
         <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/Utility/SelNoNamed-Tracks.lua</source>
       </version>
     </reapack>
+    <reapack name="ThumbnailDownload.lua" type="script" desc="Download Mariow's Thumbnail">
+      <metadata>
+        <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
+{\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
+\widowctrl\hyphauto
+
+{\pard \ql \f0 \sa180 \li0 \fi0 \outlinelevel0 \b \fs36 ThumbnailDownload\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 Downloads Mariow’s thumbnail image from GitHub and places it into the user’s REAPER Scripts directory to ensure it displays properly in other scripts.\par}
+}
+]]></description>
+        <link rel="website">https://github.com/Geeksound/Reaper_Scripts-Mariow</link>
+      </metadata>
+      <version name="1.0" author="Mariow" time="2025-10-29T00:00:00Z">
+        <changelog><![CDATA[Initial release]]></changelog>
+        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/Utility/ThumbnailDownload.lua</source>
+      </version>
+    </reapack>
   </category>
   <category name="View">
     <reapack name="Interactive-TC-Display.lua" type="script" desc="Interactive-TC-Display">
