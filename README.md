@@ -108,17 +108,27 @@ Select Tracks without Names or unnamed
 </p>   
 
 ## 3. **TRACKMANAGER**
-(https://github.com/Geeksound/Reaper_Scripts-Mariow/blob/main/Editing/TRACKMANAGERexpanded.lua)  
-(https://github.com/Geeksound/Reaper_Scripts-Mariow/blob/main/Editing/TRACKMANAGER.lua)  
-Harmonious palettes and tools for managing and visualizing the state of your session's tracks in Reaper
-
+  ##  2 versions of TRACKMANAGER
+ 
+  ## FEATURES
+  Harmonious palettes and tools for managing and visualizing the state of your session's tracks in Reaper
+  
+(https://github.com/Geeksound/Reaper_Scripts-Mariow/blob/main/Editing/TRACKMANAGER.lua) 
 <p align="center">
   <img src="PICTURES/TRACKMANAGER.png" alt="Overview of 'TRACKMANAGER'"width="800" />
 </p>   
 
+(https://github.com/Geeksound/Reaper_Scripts-Mariow/blob/main/Editing/TRACKMANAGERexpanded.lua)
 <p align="center">
   <img src="PICTURES/TRACKMANAGERexpanded.png" alt="Overview of 'TRACKMANAGERexpanded'"width="800" />
 </p>   
+
+## How to use
+1. Put it in your Global Startup if needed
+2. Colorize / View/ Manage Tracks by items in Tacks 'TRACKS' and vice versa
+3. You may used it to create Tracks in session by Items organized in Termplate in 'TRACKS'
+4. You have two powerful and different "search" type to retrieve Tracks-byType and Take Markers in your session
+
 
 
 -------------------------------------------------
