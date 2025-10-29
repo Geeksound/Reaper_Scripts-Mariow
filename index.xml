@@ -114,7 +114,12 @@
 {\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
 \widowctrl\hyphauto
 
-{\pard \ql \f0 \sa180 \li0 \fi0 \outlinelevel0 \b \fs36 FieldrecorderTrack-Matching\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 \outlinelevel0 \b \fs36\cf1 FieldrecorderTrack-Matching\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 This script comes after AAF importing files (ideally from Vordio). This is a powerful version of the famous Fieldrecorder of Protools\par}
+{\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab Searching original files from Fieldrecorder into a folder\par}
+{\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab Importing and placing multichannel poly items below AAF files\sa180\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 Advanced dialogue Fieldrecorder track matching and organizing like in PROTOOLS.\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 This script was developed with the help of GitHub Copilot.\par}
 }
 ]]></description>
         <license>MIT</license>
