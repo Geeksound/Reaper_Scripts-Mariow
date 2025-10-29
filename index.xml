@@ -75,7 +75,7 @@
       </metadata>
       <version name="1.0" author="Mariow" time="2025-10-28T00:00:00Z">
         <changelog><![CDATA[Initial release]]></changelog>
-        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/Editing/TrackManager.lua</source>
+        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/blob/bd333cf407ac480835208bbbfdeb86c73bd68b4e/Editing/TRACKMANAGER.lua</source>
       </version>
     </reapack>
     <reapack name="TrackManager-Expanded.lua" type="script" desc="Track Manager — Expanded Visualization and Control Palette">
@@ -93,7 +93,7 @@
       </metadata>
       <version name="1.0" author="Mariow" time="2025-10-28T00:00:00Z">
         <changelog><![CDATA[Initial release]]></changelog>
-        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/Editing/TrackManager-Expanded.lua</source>
+        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/blob/bd333cf407ac480835208bbbfdeb86c73bd68b4e/Editing/TRACKMANAGERexpanded.lua</source>
       </version>
     </reapack>
   </category>
