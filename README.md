@@ -52,7 +52,7 @@ This script is inspired by the Edit/Shift function in PROTOOLS, with added impro
 ### Overview of 'TimeShift'
 ![Aperçu de TimeShift](PICTURES/TimeShift.png) -->
 <p align="center">
-  <img src="PICTURES/TimeShift.png" alt="Overview of 'TimeShift'">
+  <img src="PICTURES/TimeShift1.4.2.png" alt="Overview of 'TimeShift'">
 </p>   
 
 ## FEATURES
