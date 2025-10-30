@@ -476,7 +476,7 @@ v1.0 (2025-06-08)
 \widowctrl\hyphauto
 
 {\pard \ql \f0 \sa180 \li0 \fi0 \outlinelevel0 \b \fs36 ThumbnailDownload\par}
-{\pard \ql \f0 \sa180 \li0 \fi0 Downloads Mariow’s thumbnail image from GitHub and places it into the user’s REAPER Scripts directory to ensure it displays properly in other scripts.\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 Some of (Mariow)scripts can link to GitHub using a thumbnail that should be present in Reaper/Scripts for better aesthetics. This script allows you to save that small thumbnail.\par}
 }
 ]]></description>
         <link rel="website">https://github.com/Geeksound/Reaper_Scripts-Mariow</link>
