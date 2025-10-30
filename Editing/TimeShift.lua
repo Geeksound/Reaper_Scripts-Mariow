@@ -1,10 +1,14 @@
 --[[
 @description TimeShift
-@version 1.4
+@version 1.4.2
 @author Mariow
 @changelog
+  v1.4.2 (2025-10-30)
+  - Added help tooltips on Selected Item, Time Selection, and Cursor Position
+  - Added fallback for ImGui_TextUnformatted to ensure backward compatibility
+
   v1.4 (2025-10-30)
-  - Imgui optimisation interface
+  - ImGui interface optimization
 
   v1.3 (2025-06-08)
   - English version V2
@@ -38,42 +42,61 @@
 --========================================
 local ctx = reaper.ImGui_CreateContext('TimeShift Like in Protools and better')
 
-------------Police for Aply Shift Button
--- Load and create fonts
+------------Fonts for interface
 local font_normal = reaper.ImGui_CreateFont('Arial')
 local font_bold   = reaper.ImGui_CreateFont('Arial Bold')
-
--- Attach les polices au contexte ImGui
 reaper.ImGui_Attach(ctx, font_normal)
 reaper.ImGui_Attach(ctx, font_bold)
 
------------- end def police
-
 --========================================
--- 🔹 AJOUT : Vignette GitHub
+-- 🔹 Help Tooltip Function (compatible with all versions)
 --========================================
-local lien_github = "https://github.com/Geeksound/Reaper_Scripts-Mariow"
-local vignette_path = reaper.GetResourcePath() .. '/Scripts/vignette.png'
-local vignette_image = reaper.ImGui_CreateImage(vignette_path)
-
-local function ouvrir_lien_github()
-    if reaper.CF_ShellExecute then
-        reaper.CF_ShellExecute(lien_github)
-    else
-        reaper.ShowMessageBox(
-            "⚠️ Impossible d’ouvrir le lien.\n\nL’extension SWS est requise.",
-            "Erreur",
-            0
-        )
+local function ImGui_HelpMarker(ctx, desc)
+    if reaper.ImGui_IsItemHovered(ctx) then
+        reaper.ImGui_BeginTooltip(ctx)
+        reaper.ImGui_PushTextWrapPos(ctx, reaper.ImGui_GetFontSize(ctx) * 35)
+        if reaper.ImGui_TextUnformatted then
+            reaper.ImGui_TextUnformatted(ctx, desc)
+        else
+            reaper.ImGui_Text(ctx, desc)
+        end
+        reaper.ImGui_PopTextWrapPos(ctx)
+        reaper.ImGui_EndTooltip(ctx)
     end
 end
+
+-- 🔹 Customizable Help Texts
+local Texte1 = "This option shifts the selected media items along the timeline."
+local Texte2 = "This option moves the active time selection."
+local Texte3 = "This option shifts the current edit cursor position."
+
 --========================================
+-- 🔹 GitHub Thumbnail
+--========================================
+local github_link = "https://github.com/Geeksound/Reaper_Scripts-Mariow"
+-- 🔹 GitHub Thumbnail (optional image)
+local vignette_path = reaper.GetResourcePath() .. '/Scripts/vignette.png'
+local vignette_image = nil
+if reaper.file_exists and reaper.file_exists(vignette_path) then
+    vignette_image = reaper.ImGui_CreateImage(vignette_path)
+end
 
--- Constants
+
+local function open_github_link()
+    if reaper.CF_ShellExecute then
+        reaper.CF_ShellExecute(github_link)
+    else
+        reaper.ShowMessageBox("⚠️ Unable to open the link.\nSWS extension is required.", "Error", 0)
+    end
+end
+
+--========================================
+-- Constants and Utility Functions
+--========================================
 local project_sr = reaper.GetSetProjectInfo(0, 'PROJECT_SRATE', 0, false)
-local fps = 25 -- Framerate for the timecode
+local fps = 25 -- Framerate for timecode
 
--- Helper: Format timecode (samples -> hh:mm:ss:ff)
+-- Convert samples to timecode string
 local function format_timecode(samples, sample_rate, fps)
     local total_seconds = samples / sample_rate
     local hours = math.floor(total_seconds / 3600)
@@ -83,29 +106,24 @@ local function format_timecode(samples, sample_rate, fps)
     return string.format("%02d:%02d:%02d:%02d", hours, minutes, seconds, frames)
 end
 
--- Central value
-local sample_pos = math.floor(project_sr) -- Default to 1 second
-
--- Display fields
+-- Core values
+local sample_pos = math.floor(project_sr)
 local timecode_str = { format_timecode(sample_pos, project_sr, fps) }
 local milliseconds_val = { math.floor((sample_pos / project_sr) * 1000 + 0.5) }
 local samples_val = { sample_pos }
-
 local direction = "Forward"
 local target = "Item"
 
--- Helper: Parse timecode (hh:mm:ss:ff -> samples)
+-- Parse timecode string to samples
 local function parse_timecode_to_samples(tc)
     local h, m, s, f = tc:match("(%d+):(%d+):(%d+):(%d+)")
     if h and m and s and f then
-        local total_seconds = tonumber(h) * 3600 + tonumber(m) * 60 + tonumber(s) + tonumber(f) / fps
+        local total_seconds = tonumber(h)*3600 + tonumber(m)*60 + tonumber(s) + tonumber(f)/fps
         return math.floor(total_seconds * project_sr + 0.5)
-    else
-        return nil
     end
 end
 
--- Update display fields based on central value (samples)
+-- Update all linked fields based on current sample position
 local function update_fields_from_samples()
     local sec = sample_pos / project_sr
     timecode_str[1] = format_timecode(sample_pos, project_sr, fps)
@@ -113,11 +131,10 @@ local function update_fields_from_samples()
     samples_val[1] = sample_pos
 end
 
--- Apply time shift
+-- Apply the time shift
 local function apply_shift()
     local delta_sec = sample_pos / project_sr
     if direction == "Backward" then delta_sec = -delta_sec end
-
     reaper.Undo_BeginBlock()
 
     if target == "Item" then
@@ -128,7 +145,6 @@ local function apply_shift()
                 reaper.SetMediaItemInfo_Value(item, "D_POSITION", pos + delta_sec)
             end
         end
-
     elseif target == "Time Selection" then
         local start_time, end_time = reaper.GetSet_LoopTimeRange(false, false, 0, 0, false)
         if end_time > start_time then
@@ -136,7 +152,6 @@ local function apply_shift()
         else
             reaper.ShowMessageBox("No active time selection", "Error", 0)
         end
-
     elseif target == "CursorPos" then
         local cur_pos = reaper.GetCursorPosition()
         reaper.SetEditCurPos(cur_pos + delta_sec, true, false)
@@ -147,117 +162,79 @@ local function apply_shift()
 end
 
 --========================================
--- ImGui Loop
+-- ImGui Main Loop
 --========================================
 local function loop()
     local visible, open = reaper.ImGui_Begin(ctx, 'TimeShift Like in Protools and better', true, reaper.ImGui_WindowFlags_AlwaysAutoResize())
 
     if visible then
-        -- Timecode Input
+        -- Input fields
         local changed_tc, new_tc = reaper.ImGui_InputText(ctx, 'Timecode (hh:mm:ss:ff)', timecode_str[1], 256)
-        if changed_tc then
-            local s = parse_timecode_to_samples(new_tc)
-            if s then
-                sample_pos = s
-                update_fields_from_samples()
-            end
-        end
+        if changed_tc then local s = parse_timecode_to_samples(new_tc); if s then sample_pos = s; update_fields_from_samples() end end
 
-        -- Milliseconds Input
         local changed_ms, new_ms = reaper.ImGui_InputInt(ctx, 'Milliseconds', milliseconds_val[1])
-        if changed_ms then
-            sample_pos = math.floor((new_ms / 1000) * project_sr + 0.5)
-            update_fields_from_samples()
-        end
+        if changed_ms then sample_pos = math.floor((new_ms / 1000) * project_sr + 0.5); update_fields_from_samples() end
 
-        -- Samples Input
         local changed_samples, new_samples = reaper.ImGui_InputInt(ctx, 'Samples', samples_val[1])
-        if changed_samples then
-            sample_pos = new_samples
-            update_fields_from_samples()
-        end
-        
+        if changed_samples then sample_pos = new_samples; update_fields_from_samples() end
+
         reaper.ImGui_Text(ctx, " ")
---------------- SHIFT en Relief
-  local title1 = " <🀰🀰 SHIFT direction 🀰🀰> "
-
-  local x1, y = reaper.ImGui_GetCursorScreenPos(ctx)
-  reaper.ImGui_SetCursorScreenPos(ctx, x1 + 1, y + 1)
-  reaper.ImGui_TextColored(ctx, 0xFFFFFFFF, title1)
-  reaper.ImGui_SetCursorScreenPos(ctx, x1, y)
-  reaper.ImGui_TextColored(ctx, 0xFFFFFFFF, title1)
-
         reaper.ImGui_Separator(ctx)
 
-        
-        if reaper.ImGui_RadioButton(ctx, 'Backward', direction == "Backward") then
-            direction = "Backward"
+        -- Shift direction section
+        if reaper.ImGui_RadioButton(ctx, 'Backward', direction == "Backward") then direction = "Backward" end
+        reaper.ImGui_SameLine(ctx)
+        if reaper.ImGui_RadioButton(ctx, 'Forward', direction == "Forward") then direction = "Forward" end
+
+        reaper.ImGui_SameLine(ctx, nil, 30)
+        if vignette_image then
+           -- ✅ Si la vignette existe, on affiche le bouton image
+          if reaper.ImGui_ImageButton(ctx, 'vignette_github_btn', vignette_image, 24, 24) then
+            open_github_link()
+          end
+        else
+        -- 🚨 Si la vignette est absente, on affiche un bouton "Open"
+          if reaper.ImGui_Button(ctx, "Open", 50, 24) then
+            open_github_link()
+           end
         end
+
 
         reaper.ImGui_SameLine(ctx)
-
-        if reaper.ImGui_RadioButton(ctx, 'Forward', direction == "Forward") then
-            direction = "Forward"
-        end
-
-        -- 🔹 AJOUT : Vignette GitHub à côté du bouton 'Forward'
-        reaper.ImGui_SameLine(ctx,nil,30)
-        if vignette_image then
-            if reaper.ImGui_ImageButton(ctx, 'vignette_github_btn', vignette_image, 24, 24) then
-                ouvrir_lien_github()
-            end
-        else
-              -- 🚨 Si pas de vignette, afficher un bouton à la place
-              --reaper.ImGui_Spacing(ctx)
-              if reaper.ImGui_Button(ctx, "Open", 50, 30) then
-                ouvrir_lien_github()
-              end
-        end
-         reaper.ImGui_SameLine(ctx)
-         -- Texte "Recherche" en jaune
-         reaper.ImGui_PushStyleColor(ctx, reaper.ImGui_Col_Text(), reaper.ImGui_ColorConvertDouble4ToU32(1.0, 1.0, 0.0, 1.0))
-         -- Utilise la police Arial Bold
-             reaper.ImGui_PushFont(ctx, font_bold,14 )
-         reaper.ImGui_Text(ctx, "Visit my GitHub")
-         reaper.ImGui_PopStyleColor(ctx)
-         reaper.ImGui_PopFont(ctx)
-        -- 🔹 FIN AJOUT
+        reaper.ImGui_PushStyleColor(ctx, reaper.ImGui_Col_Text(), reaper.ImGui_ColorConvertDouble4ToU32(1,1,0,1))
+        reaper.ImGui_PushFont(ctx, font_bold, 14)
+        reaper.ImGui_Text(ctx, "Visit my GitHub")
+        reaper.ImGui_PopFont(ctx)
+        reaper.ImGui_PopStyleColor(ctx)
 
         reaper.ImGui_Separator(ctx)
-        --reaper.ImGui_Text(ctx, "Target")
 
+        -- 🔹 Targets + Help Tooltips
         if reaper.ImGui_RadioButton(ctx, 'Selected Item', target == "Item") then target = "Item" end
+        ImGui_HelpMarker(ctx, Texte1)
         reaper.ImGui_SameLine(ctx)
         if reaper.ImGui_RadioButton(ctx, 'Time Selection', target == "Time Selection") then target = "Time Selection" end
+        ImGui_HelpMarker(ctx, Texte2)
         reaper.ImGui_SameLine(ctx)
         if reaper.ImGui_RadioButton(ctx, 'Cursor Position', target == "CursorPos") then target = "CursorPos" end
+        ImGui_HelpMarker(ctx, Texte3)
 
         reaper.ImGui_Separator(ctx)
-        
--- Utilise la police Arial Bold
-    reaper.ImGui_PushFont(ctx, font_bold,16 )
 
--- Add facultative color
-    reaper.ImGui_PushStyleColor(ctx, reaper.ImGui_Col_Button(), 0xFFAA00FF) -- orange
-
-    if reaper.ImGui_Button(ctx, 'Apply Shift', -1) then
-    apply_shift()
-    end
-
--- reaper.ImGui_PopStyleColor(ctx) -- End of PopFont & Color
-    reaper.ImGui_PopFont(ctx)
-    reaper.ImGui_PopStyleColor(ctx)
-
+        -- Apply button
+        reaper.ImGui_PushFont(ctx, font_bold, 16)
+        reaper.ImGui_PushStyleColor(ctx, reaper.ImGui_Col_Button(), 0xFFAA00FF)
+        if reaper.ImGui_Button(ctx, 'Apply Shift', -1) then apply_shift() end
+        reaper.ImGui_PopStyleColor(ctx)
+        reaper.ImGui_PopFont(ctx)
 
         reaper.ImGui_End(ctx)
     end
 
-     if open then
+    if open then
         reaper.defer(loop)
     else
-       if reaper.ImGui_DestroyContext then
-            reaper.ImGui_DestroyContext(ctx)
-        end
+        if reaper.ImGui_DestroyContext then reaper.ImGui_DestroyContext(ctx) end
     end
 end
 

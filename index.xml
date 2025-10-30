@@ -54,6 +54,13 @@
 ]]></description>
         <link rel="website">https://github.com/Geeksound/Reaper_Scripts-Mariow</link>
       </metadata>
+      <version name="1.4.2" author="Mariow" time="2025-10-30T00:00:00Z">
+        <changelog><![CDATA[
+- Added help tooltips on Selected Item, Time Selection, and Cursor Position
+- Added fallback for ImGui_TextUnformatted to ensure backward compatibility
+]]></changelog>
+        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/Editing/TimeShift.lua</source>
+      </version>
       <version name="1.4" author="Mariow" time="2025-10-30T00:00:00Z">
         <changelog><![CDATA[Imgui optimisation interface]]></changelog>
         <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/Editing/TimeShift.lua</source>
