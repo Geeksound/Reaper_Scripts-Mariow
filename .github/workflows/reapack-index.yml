@@ -1,7 +1,5 @@
-name: ReaPack index commit
+name: ReaPack index update
 
-# Déclenche le workflow à chaque push sur main,
-# uniquement si des scripts Lua ou index.xml changent
 on:
   push:
     branches: [main]
@@ -10,24 +8,26 @@ on:
       - index.xml
 
 jobs:
-  commit-index:
+  update-index:
     runs-on: ubuntu-latest
     steps:
-      # Récupère le dépôt
       - uses: actions/checkout@v3
 
-      # Configure Git pour committer depuis GitHub Actions
-      - name: Configure Git
+      - name: Set up Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '3.1'
+
+      - name: Install reapack-index
+        run: gem install reapack-index
+
+      - name: Run reapack-index
+        run: reapack-index .
+
+      - name: Commit and push updated index
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-
-      # Commit et push uniquement si des fichiers changent
-      - name: Commit and push updated index
-        run: |
           git add index.xml index.xml.gz index.yaml || true
-          if ! git diff --cached --quiet; then
-            git commit -m "Update ReaPack index"
-            git push
-          else
-            echo "No changes to commit"
+          git commit -m "Update ReaPack index" || true
+          git push
