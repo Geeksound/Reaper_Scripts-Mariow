@@ -1,19 +1,21 @@
 --[[
 @description TrackManager-Expanded
-@version 1.0
+@version 1.1
 @author Mariow
 @changelog
+  v1.1 (2025-10-31)
+  - Debug with relaunch on Prefix button
+
   v1.0 (2025-10-28)
   - Initial release
 @provides
-  [main] Editing/TRACKMANAGERexpanded.lua
+  [main] trackManager-expanded.lua
 @link https://github.com/Geeksound/Reaper_Scripts-Mariow
 @repository https://github.com/Geeksound/Reaper_Scripts-Mariow
 @tags tracks, session, palette, management, visualization
 @about
   # TrackManager
   Harmonious palette and tools for managing and visualizing the state of your session's tracks in Reaper.
-  This script should be docked horizontally for greater convenience 
 --]]
 
 
@@ -25,6 +27,12 @@ local show_confirm_popup = false
 
 local show_tracks_guide = true  -- état de la case à cocher
 
+------------------------------------ Pour Recharge de Script ------
+local info = debug.getinfo(1, 'S')
+local script_path = info.source:match("@(.*)")
+-- Crée un contexte ImGui
+local ctx = reaper.ImGui_CreateContext('Demo Relance')
+--------------------------------------------------------------------
 ----- F I N D ------
 local show_tracks_search = false
 local search_text = ''
@@ -1806,6 +1814,9 @@ end
   reaper.ImGui_SameLine(ctx, nil, 30)    
   if reaper.ImGui_ArrowButton(ctx, '##Down', reaper.ImGui_Dir_Down()) then
     reaper.Main_OnCommand(43648, 0)
+    reaper.Main_OnCommand(reaper.NamedCommandLookup("_SWS_SAVESEL"), 0)
+    createitemsfromtracks()
+    reaper.Main_OnCommand(reaper.NamedCommandLookup("_SWS_RESTORESEL"), 0)
     reaper.Main_OnCommand(40913, 0) -- Zoom sur sélection (piste)
   end
 
@@ -1814,6 +1825,9 @@ end
 --  Up
   if reaper.ImGui_ArrowButton(ctx, '##Up', reaper.ImGui_Dir_Up()) then
     reaper.Main_OnCommand(43647, 0)
+    reaper.Main_OnCommand(reaper.NamedCommandLookup("_SWS_SAVESEL"), 0)
+    createitemsfromtracks()
+    reaper.Main_OnCommand(reaper.NamedCommandLookup("_SWS_RESTORESEL"), 0)
     reaper.Main_OnCommand(40913, 0) -- Zoom sur sélection (piste)
   end
 
@@ -1831,8 +1845,9 @@ end
   reaper.ImGui_PushStyleColor(ctx, reaper.ImGui_Col_ButtonActive(), green_active)
 
   if reaper.ImGui_Button(ctx, '✖Prefix & ↻') then
+    --createitemsfromtracks()
     delprefixonTrackName()
-    createitemsfromtracks()
+    dofile(script_path)
   end
 
   reaper.ImGui_PopStyleColor(ctx, 3)
