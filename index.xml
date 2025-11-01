@@ -109,15 +109,16 @@
       </metadata>
       <version name="1.1" author="Mariow" time="2025-10-31T00:00:00Z">
         <changelog><![CDATA[
+v1.1 (2025-10-31)
 - Debug with relaunch on Prefix button
+
+v1.0 (2025-10-28)
+- Initial release
 ]]></changelog>
         <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/Editing/TRACKMANAGER.lua</source>
       </version>
-      <version name="1.0" author="Mariow" time="2025-10-28T00:00:00Z">
-        <changelog><![CDATA[Initial release]]></changelog>
-        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/Editing/TRACKMANAGER.lua</source>
-      </version>
     </reapack>
+    
     <reapack name="TrackManager-Expanded.lua" type="script" desc="Track Manager — Expanded Visualization and Control Palette">
       <metadata>
         <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
@@ -133,15 +134,16 @@
       </metadata>
       <version name="1.1" author="Mariow" time="2025-10-31T00:00:00Z">
         <changelog><![CDATA[
+v1.1 (2025-10-31)
 - Debug with relaunch on Prefix button
+
+v1.0 (2025-10-28)
+- Initial release
 ]]></changelog>
         <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/Editing/TRACKMANAGERexpanded.lua</source>
       </version>
-      <version name="1.0" author="Mariow" time="2025-10-28T00:00:00Z">
-        <changelog><![CDATA[Initial release]]></changelog>
-        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/Editing/TRACKMANAGERexpanded.lua</source>
-      </version>
     </reapack>
+
   </category>
   <category name="Field-Recorder_Workflow">
     <reapack name="Detect-DeleteEmpty-Items.lua" type="script" desc="Detect-DeleteEmpty-Items">
