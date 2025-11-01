@@ -145,34 +145,39 @@ Through this system, you can:
 -------------------------------------------------
 `- Field-Recorder_Workflow/-------`
 
-# 2 VERSIONS of the Fieldrecorder-Track
+# Fieldrecorder-Track (like in Protools but better). 2 versions.
 
-##  1.Full version with innovative Presets
-##  2.Auto-mode version that will work on its own in most cases
+##  A.Full version with innovative Presets
+##  B.Auto-mode version that will work on its own in most cases
 ReaImGui scripts for REAPER that may be executed after an AAF import and match these .wav files imported with the Original RAW Files from the ****Fieldrecorder**
 
 <p align="center">
   <img src="PICTURES/CONFORMATION-SUITE.png" alt="Overview of 'Conformation-suite'" width="800" />
 </p> 
 
-## 1. **FieldrecorderTrack-Matching_AUTO-Lite** "PROTOOLS Fieldrecorder Track" with an **AUTOMATIC-MODE!**
+### A. **FieldrecorderTrack-Matching_AUTO-Lite** "PROTOOLS Fieldrecorder Track" with an **AUTOMATIC-MODE!**
 (https://github.com/Geeksound/Reaper_Scripts-Mariow/blob/mainField-Recorder_Workflow/FieldrecorderTrack-Matching_AUTO-Lite.lua)  
 
-## 2. **FieldrecorderTrack-Matching** "PROTOOLS Fieldrecorder Track" with some presets accorded to  **Fieldrecorders**
+### B. **FieldrecorderTrack-Matching** "PROTOOLS Fieldrecorder Track" with some presets accorded to  **Fieldrecorders**
 (https://github.com/Geeksound/Reaper_Scripts-Mariow/blob/mainField-Recorder_Workflow/FieldrecorderTrack-Matching.lua)  
 
 <p align="center">
   <img src="PICTURES/Fieldrecorder-Tracks.png" alt="Overview of 'Fieldrecorder-Tracks'" width="800" />
 </p> 
 
-## 3. **Dial-EditConform** comes after RAW Files Matching to explode and organize Items in Tracks by Name
+## 2. **Dial-EditConform** 
+### (comes after RAW Files Matching to explode and organize Items in Tracks by Name)
+– Automate and organize your dialogue workflow in Reaper: create tracks from metadata, split multichannel audio, rename and move items, and clean up unused tracks—all in one go. 
+Perfect for fast, metadata-driven dialogue conforming.
 (https://github.com/Geeksound/Reaper_Scripts-Mariow/blob/mainField-Recorder_Workflow/Dial-EditConform.lua)  
 
 <p align="center">
   <img src="PICTURES/Dial-EditConform.png" alt="Overview of 'Dial-EditConform'" width="800" />
 </p> 
 
-## 4. **FieldrecordingSound-Report** 
+## 3. **FieldrecordingSound-Report** 
+###Description:
+This script streamlines the field recording workflow in Reaper by generating a detailed Sound Report for dialogue or production recordings.
 Record the Dialog Lines on SHOOTING film via Dantefrom Field-Recorders like ****Cantar** or **Sound Devices** and edit a Sound-Report for Post-Production.
 (https://github.com/Geeksound/Reaper_Scripts-Mariow/blob/mainField-Recorder_Workflow/FieldrecordingSound-Report.lua)  
 
