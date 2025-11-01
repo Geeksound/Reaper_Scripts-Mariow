@@ -535,6 +535,32 @@ v1.0 (2025-06-08)
         <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/View/Interactive-TC-Display.lua</source>
       </version>
     </reapack>
+    <reapack name="AdvancedFind.lua" type="script" desc="AdvancedFind">
+      <metadata>
+        <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
+{\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
+\widowctrl\hyphauto
+
+{\pard \ql \f0 \sa180 \li0 \fi0 \outlinelevel0 \b \fs36 AdvancedFind\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 Advanced search tool for your Reaper sessions.\par}
+{\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab Search Tracks, Media Items, Muted Items, and Take Markers\par}
+{\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab Supports multi-selection for immediate selection in Arrange view\par}
+{\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab Integrated ImGui GUI for fast and convenient search\par}
+{\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab Repository Guide available via thumbnail button (PDF, GitHub, Audio Guide)\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 Developed for efficient project navigation and item management.\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 This script was developed with the help of GitHub Copilot.\par}
+}]]></description>
+        <link rel="website">https://github.com/Geeksound/Reaper_Scripts-Mariow</link>
+      </metadata>
+      <version name="1.0" author="Mariow" time="2025-11-01T00:00:00Z">
+        <changelog><![CDATA[
+      Initial release
+      - Integrated Repository-Guide window directly into the script
+      - Search for TRACKS / Items & TakeMarkers
+    ]]></changelog>
+        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/View/AdvancedFind.lua</source>
+      </version>
+    </reapack>
   </category>
   <metadata>
     <description><![CDATA[
