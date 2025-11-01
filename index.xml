@@ -111,7 +111,7 @@
         <changelog><![CDATA[
 - Debug with relaunch on Prefix button
 ]]></changelog>
-        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/Editing/TRACKMANAGERexpanded.lua</source>
+        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/Editing/TRACKMANAGER.lua</source>
       </version>
       <version name="1.0" author="Mariow" time="2025-10-28T00:00:00Z">
         <changelog><![CDATA[Initial release]]></changelog>
@@ -135,7 +135,7 @@
         <changelog><![CDATA[
 - Debug with relaunch on Prefix button
 ]]></changelog>
-        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/Editing/trackManager-expanded.lua</source>
+        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/Editing/TRACKMANAGERexpanded.lua</source>
       </version>
       <version name="1.0" author="Mariow" time="2025-10-28T00:00:00Z">
         <changelog><![CDATA[Initial release]]></changelog>
