@@ -108,26 +108,37 @@ Select Tracks without Names or unnamed
 </p>   
 
 ## 3. **TRACKMANAGER**
-  ##  2 versions of TRACKMANAGER
- 
-  ## FEATURES
-  Harmonious palettes and tools for managing and visualizing the state of your session's tracks in Reaper
-  
-(https://github.com/Geeksound/Reaper_Scripts-Mariow/blob/main/Editing/TRACKMANAGER.lua) 
-<p align="center">
-  <img src="PICTURES/TRACKMANAGER.png" alt="Overview of 'TRACKMANAGER'"width="800" />
-</p>   
+###  Two versions of TRACKMANAGER
 
-(https://github.com/Geeksound/Reaper_Scripts-Mariow/blob/main/Editing/TRACKMANAGERexpanded.lua)
+### FEATURES
+TRACKMANAGER provides harmonious color palettes and advanced tools to **visualize, organize, and manage** your REAPER session.
+
+It includes an ImGui-based graphical interface that introduces a dedicated guide track named **“TRACKS”**.  
+This special track acts as a **visual map** of your project: each real track is represented by a **colored item** inside the “TRACKS” track.  
+Through this system, you can:
+
+- Apply consistent and **harmonious colors** to tracks and items (2x18 color grid)  
+- **Easily create, delete, or reorganize** tracks and visual spacers  
+- Maintain a **two-way synchronization** between the “TRACKS” representation and the real tracks in your session  
+- Build or reconstruct a full project structure directly from the visual “TRACKS” template
+
+---
+
+(https://github.com/Geeksound/Reaper_Scripts-Mariow/blob/main/Editing/TRACKMANAGER.lua)  
 <p align="center">
-  <img src="PICTURES/TRACKMANAGERexpanded.png" alt="Overview of 'TRACKMANAGERexpanded'"width="800" />
-</p>   
+  <img src="PICTURES/TRACKMANAGER.png" alt="Overview of 'TRACKMANAGER'" width="800" />
+</p>
+
+(https://github.com/Geeksound/Reaper_Scripts-Mariow/blob/main/Editing/TRACKMANAGERexpanded.lua)  
+<p align="center">
+  <img src="PICTURES/TRACKMANAGERexpanded.png" alt="Overview of 'TRACKMANAGERexpanded'" width="800" />
+</p>
 
 ## How to use
-1. Put it in your Global Startup if needed
-2. Colorize / View/ Manage Tracks by items in Tacks 'TRACKS' and vice versa
-3. You may used it to create Tracks in session by Items organized in Termplate in 'TRACKS'
-4. You have two powerful and different "search" type to retrieve Tracks-byType and Take Markers in your session
+1. Put it in your Global Startup if needed  
+2. Colorize / View / Manage tracks by items in “TRACKS” and vice versa  
+3. Create new tracks in your session directly from organized items in “TRACKS”  
+4. Use the two advanced “search” modes to retrieve Tracks-by-Type and Take Markers efficiently
 
 
 
