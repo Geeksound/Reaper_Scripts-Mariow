@@ -9,7 +9,16 @@
 \widowctrl\hyphauto
 
 {\pard \ql \f0 \sa180 \li0 \fi0 \outlinelevel0 \b \fs36 Repository-Guide\par}
-{\pard \ql \f0 \sa180 \li0 \fi0 Script with links Buttons to my repository guide and instructions in Reaper 7.0. This script was developed with the help of GitHub Copilot.\par}
+{\pard \ql \f0 \sa180 \li0 \fi0
+Repository-Guide is a Reaper 7.0 script that provides a simple, user-friendly interface with buttons to quickly access essential resources created by Mariow, hosted on GitHub. 
+
+Features include:
+- 📄 Download the PDF version of the Repository-Guide.
+- 🌐 Open the main Geeksound GitHub repository.
+- 🎵 Access the Audio Conforming Guide.
+
+This script was developed with the assistance of GitHub Copilot and is intended to help Reaper users navigate Mariow’s script collection efficiently.
+}
 }
 ]]></description>
         <link rel="website">https://github.com/Geeksound/Reaper_Scripts-Mariow</link>
