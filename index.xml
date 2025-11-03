@@ -654,14 +654,4 @@ v1.0 (2025-06-08)
 }
 ]]></description>
   </metadata>
-  <reapack name="Interactive-TC-Display">
-    <author>Mariow</author>
-    <category>View</category>
-    <description>Concept by Mariow. Coding assistance by GitHub Copilot. Interactive display of TimeCode, items, and status for Reaper.</description>
-    <link>https://github.com/Geeksound/Reaper_Scripts-Mariow</link>
-    <provides>[main] View/Interactive-TC-Display.lua</provides>
-    <source url="https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/View/Interactive-TC-Display.lua"/>
-    <type>script</type>
-    <version>1.1.1</version>
-  </reapack>
 </index>
