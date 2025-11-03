@@ -433,7 +433,15 @@ v1.0 (2025-06-08)
 \widowctrl\hyphauto
 
 {\pard \ql \f0 \sa180 \li0 \fi0 \outlinelevel0 \b \fs36 CreateTracksFromText\par}
-{\pard \ql \f0 \sa180 \li0 \fi0 Contextual Create Tracks in Reaper with Name/Parent/children/Spacer and colors by entering a text in form. This script was developed with the help of GitHub Copilot.\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 Creates tracks in Reaper from a user-provided text file, defining names, hierarchy, spacers, and colors.\par}
+{\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab Reads a plain text file line by line to generate track structures,\par}
+{\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab Uses indentation to determine parent/child folder hierarchy,\par}
+{\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab Supports color assignment via simple color names (e.g. Red, Blue, Green),\par}
+{\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab Inserts spacer tracks automatically when empty lines are found,\par}
+{\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab Cleans up unused empty tracks after creation for a tidy project structure.\sa180\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 A powerful tool for setting up complex session templates directly from formatted text.\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 Compatible with Reaper 7.0 and later.\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 This script was developed with the help of GitHub Copilot.\par}
 }
 ]]></description>
         <link rel="website">https://github.com/Geeksound/Reaper_Scripts-Mariow</link>
