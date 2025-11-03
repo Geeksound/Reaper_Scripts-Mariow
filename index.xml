@@ -403,7 +403,15 @@ v1.0 (2025-06-08)
 {\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
 \widowctrl\hyphauto
 
-{\pard \ql \f0 \sa180 \li0 \fi0 View Item Metadatas Written by a fieldrecorder during shooting .\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 \outlinelevel0 \b \fs36 View-FieldRecorder-Metadatas\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 Contextual visualization of iXML and BWF metadata directly from the selected item’s audio source in Reaper 7.0.\par}
+{\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab Reads embedded metadata written by professional field recorders (Aaton Cantar, Sound Devices Scorpio, etc.),\par}
+{\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab Displays essential production tags such as Scene, Take, Tape, Project, Origination Date, and Time Reference,\par}
+{\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab Extracts and lists all active/disarmed tracks from iXML (up to 24 channels),\par}
+{\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab Automatically adjusts index references for disarmed tracks to preserve accurate channel mapping,\par}
+{\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab Outputs all metadata directly to Reaper’s Console for review or documentation.\sa180\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 Ideal for production sound editors, dialogue supervisors, and metadata verification tasks.\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 Developed with the help of GitHub Copilot.\par}
 }
 ]]></description>
       </metadata>
