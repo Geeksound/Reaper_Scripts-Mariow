@@ -54,7 +54,16 @@
 \widowctrl\hyphauto
 
 {\pard \ql \f0 \sa180 \li0 \fi0 \outlinelevel0 \b \fs36 TimeShift\par}
-{\pard \ql \f0 \sa180 \li0 \fi0 Contextual edit/SHIFT for Items, Time Selection, and Cursor Position in Reaper 7.0. Now with optimized ImGui interface for improved performance and usability. Developed with the help of GitHub Copilot.\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 Provides a precise and contextual time-shifting tool for Reaper, inspired by (and extending) Pro Tools' “Edit/Shift” feature.\par}
+{\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab Shifts selected media items, time selections, or the edit cursor position,\par}
+{\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab Offers bidirectional control (Forward / Backward) with real-time feedback,\par}
+{\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab Converts and links between samples, milliseconds, and timecode formats,\par}
+{\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab Displays contextual tooltips and color feedback for each editing mode,\par}
+{\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab Includes integrated GitHub link and optional thumbnail button in the ImGui interface.\sa180\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 Delivers a smooth and accurate workflow for time-based editing within Reaper.\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 Requires ReaImGui 0.10.02 or later.\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 Compatible with Reaper 7.0 and later.\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 Developed with the help of GitHub Copilot.\par}
 }
 ]]></description>
         <link rel="website">https://github.com/Geeksound/Reaper_Scripts-Mariow</link>
