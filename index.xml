@@ -543,7 +543,16 @@ v1.0 (2025-06-08)
 \widowctrl\hyphauto
 
 {\pard \ql \f0 \sa180 \li0 \fi0 \outlinelevel0 \b \fs36 Interactive-TC-Display\par}
-{\pard \ql \f0 \sa180 \li0 \fi0 Contextual display of TimeCode / Items / Status for Reaper 7.0.\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 Provides a dynamic and contextual TimeCode display for Reaper using ReaImGui.\par}
+{\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab Displays current TimeCode depending on playback, recording, or edit context,\par}
+{\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab Shows recording duration and playback position in real time,\par}
+{\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab Detects and displays selected items with their names and positions,\par}
+{\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab Highlights time selection range with start, end, and duration info,\par}
+{\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab Automatically adapts background color based on play/record status.\sa180\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 Offers an interactive visual feedback system for editing, playback, and recording.\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 Requires ReaImGui v0.10.02 or later.\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 Compatible with Reaper 7.0 and later.\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 This script was developed with the help of GitHub Copilot.\par}
 }
 ]]></description>
         <link rel="website">https://github.com/Geeksound/Reaper_Scripts-Mariow</link>
