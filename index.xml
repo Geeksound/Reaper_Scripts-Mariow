@@ -474,7 +474,14 @@ v1.0 (2025-06-08)
 \widowctrl\hyphauto
 
 {\pard \ql \f0 \sa180 \li0 \fi0 \outlinelevel0 \b \fs36 ReplaceXthCharacter-inName\par}
-{\pard \ql \f0 \sa180 \li0 \fi0 Contextual Replacement of a Character or sequence of Characters in Reaper 7.0. This script was developed with the help of GitHub Copilot.\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 Performs contextual replacement of a character or sequence of characters in the names of selected items in Reaper.\par}
+{\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab Prompts the user for the text to find and its replacement,\par}
+{\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab Applies the replacement across all selected items,\par}
+{\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab Works with active takes only (audio and MIDI),\par}
+{\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab Provides a quick way to standardize or clean up item naming conventions.\sa180\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 Useful for renaming items in bulk or correcting naming inconsistencies.\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 Compatible with Reaper 7.0 and later.\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 This script was developed with the help of GitHub Copilot.\par}
 }
 ]]></description>
         <link rel="website">https://github.com/Geeksound/Reaper_Scripts-Mariow</link>
