@@ -450,7 +450,14 @@ v1.0 (2025-06-08)
 \widowctrl\hyphauto
 
 {\pard \ql \f0 \sa180 \li0 \fi0 \outlinelevel0 \b \fs36 prefix-to-name\par}
-{\pard \ql \f0 \sa180 \li0 \fi0 Contextual add prefix to the NAME of Selected Item in Reaper 7.0. This script was developed with the help of GitHub Copilot.\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 Adds a custom prefix to the names of selected items in Reaper.\par}
+{\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab Prompts the user to enter a prefix string,\par}
+{\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab Applies the prefix automatically to all selected items,\par}
+{\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab Works only on active audio takes (MIDI takes are ignored),\par}
+{\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab Supports contextual renaming for quick organization.\sa180\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 Useful for naming items by category, version, or content type.\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 Compatible with Reaper 7.0 and later.\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 This script was developed with the help of GitHub Copilot.\par}
 }
 ]]></description>
         <link rel="website">https://github.com/Geeksound/Reaper_Scripts-Mariow</link>
