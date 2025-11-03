@@ -422,8 +422,15 @@ v1.0 (2025-06-08)
 \widowctrl\hyphauto
 
 {\pard \ql \f0 \sa180 \li0 \fi0 \outlinelevel0 \b \fs36 ViewFile-FieldRecorder-Metadatas\par}
-{\pard \ql \f0 \sa180 \li0 \fi0 Contextual display of selected item metadata for REAPER 7.0.\par}
-{\pard \ql \f0 \sa180 \li0 \fi0 This script was developed with the help of GitHub Copilot.\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 Contextual display of metadata and technical information from audio files recorded by field recorders (BWF / iXML) within Reaper 7.0.\par}
+{\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab Reads and displays both BWF and iXML metadata from the selected audio file,\par}
+{\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab Extracts key production data such as project, scene, take, and track list,\par}
+{\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab Detects active and disarmed tracks (up to 24) for Aaton Cantar and Sound Devices Scorpio recorders,\par}
+{\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab Merges iXML and BWF naming data for cross-verification of track names,\par}
+{\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab Outputs all metadata in Reaper’s Console for analysis or debugging.\sa180\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 Useful for post-production workflows, dialogue editing, and metadata verification.\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 Compatible with BWF/iXML standards (Aaton Cantar, Sound Devices Scorpio, etc.).\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 Developed with the help of GitHub Copilot.\par}
 }
 ]]></description>
         <link rel="website">https://github.com/Geeksound/Reaper_Scripts-Mariow</link>
