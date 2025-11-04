@@ -7,12 +7,12 @@
   - Initial release
   - Replaces all occurrences of a selected source clip with a new audio file
   - Automatically rebuilds peaks (cmd 40441) for updated waveforms
-
+  
 @provides
   [main] Editing/ReaPlaceClip.lua
 @link https://github.com/Geeksound/Reaper_Scripts-Mariow
 @repository https://github.com/Geeksound/Reaper_Scripts-Mariow
-@tags audio, editing, replace, clip, protols, source
+@tags audio, editing, replace, clip, protools, source
 @about
   # ReaPlaceClip
   A Pro Tools–style “Replace Clip” workflow for Reaper.
@@ -20,13 +20,14 @@
   This script allows you to select an item (clip) in your session, 
   choose a new audio file, and automatically replace **all occurrences** 
   of that clip’s source file throughout the project.
-
+  
   Perfect for post-production, sound design, or ADR workflows where 
   you need to globally update a sound (e.g., replacing "Door_Open1.wav" 
   with "Door_Open2.wav").
-
+  
   Inspired by the *Replace Clip* feature in Avid Pro Tools.
 --]]
+
 
 reaper.Undo_BeginBlock()
 
