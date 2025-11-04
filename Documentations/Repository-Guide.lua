@@ -1,8 +1,10 @@
 --[[
 @description Repository-Guide of Scripts by Mariow in Geeksound hosted by GitHub.com
-@version 1.1
+@version 1.2
 @author Mariow
 @changelog
+    V1.2 (2025-11-04)
+    - Color change over a button
     v1.1 (2025-06-10)
     - Ajout d'un bouton pour accéder au guide audio_conforming_guide.md
     v1.0 (2025-06-09)
@@ -33,12 +35,20 @@ function CenterWindow(w, h)
     gfx.init(title, w, h, 0, (screen_w - w)/2, (screen_h - h)/2)
 end
 
-function DrawButton(x, y, w, h, txt, hover)
+function DrawButton(x, y, w, h, txt, hover, btn_id)
     if hover then
-        gfx.set(0.2, 0.7, 1, 1)
+        -- Couleur au survol selon le bouton
+        if btn_id == 1 then
+            gfx.set(1, 0.4, 0.2, 1)  -- bouton PDF : orange
+        elseif btn_id == 2 then
+            gfx.set(0.2, 1, 0.3, 1)  -- bouton GitHub : vert
+        elseif btn_id == 3 then
+            gfx.set(0.9, 0.1, 0.9, 1) -- bouton Audio Guide : violet
+        end
     else
-        gfx.set(0.2, 0.6, 0.9, 1)
+        gfx.set(0.2, 0.6, 0.9, 1) -- couleur normale (bleu)
     end
+
     gfx.roundrect(x, y, w, h, 12, 1)
     gfx.setfont(1, "Arial", 18, 'b', 0)
     gfx.set(1,1,1,1)
@@ -75,9 +85,9 @@ function Main()
     local hover2 = mx > btn2_x and mx < btn2_x + btn_w and my > btn2_y and my < btn2_y + btn_h
     local hover3 = mx > btn3_x and mx < btn3_x + btn_w and my > btn3_y and my < btn3_y + btn_h
 
-    DrawButton(btn1_x, btn1_y, btn_w, btn_h, btn1_txt, hover1)
-    DrawButton(btn2_x, btn2_y, btn_w, btn_h, btn2_txt, hover2)
-    DrawButton(btn3_x, btn3_y, btn_w, btn_h, btn3_txt, hover3)
+    DrawButton(btn1_x, btn1_y, btn_w, btn_h, btn1_txt, hover1, 1)
+    DrawButton(btn2_x, btn2_y, btn_w, btn_h, btn2_txt, hover2, 2)
+    DrawButton(btn3_x, btn3_y, btn_w, btn_h, btn3_txt, hover3, 3)
 
     -- Click detection (triggers only on press, not hold)
     local mouse_down = gfx.mouse_cap & 1 == 1
@@ -106,3 +116,4 @@ end
 
 CenterWindow(520, 380)
 Main()
+
