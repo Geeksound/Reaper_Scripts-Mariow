@@ -278,8 +278,12 @@ It may be useful for Conformation and Dialogue Editing duties.
  SHIFT(Cmd+T) in TextEdit or  
  click on Format,then Make Plain Text.
 
+## 2. **CreateTextFromTracks**
+(https://github.com/Geeksound/Reaper_Scripts-Mariow/blob/main/Utility/CreateTextFromTracks.lua)  
+This is the "Reverse" Script version of **CreateTracksFromText**
+
 ---
-## 2. **prefix-to-name**
+## 3. **prefix-to-name**
  (https://github.com/Geeksound/Reaper_Scripts-Mariow/blob/main/Utility/prefix-to-name.lua)  
  Add a prefix to Name of Selected Items to improve sorting and organisation
 
@@ -296,7 +300,7 @@ Batch Re-naming selected Items with a prefix for a better Workflow and sorting
  3 Choose a prefix
   
   ---
-  ## 3. **ReplaceXthCharacter-inName**
+  ## 4. **ReplaceXthCharacter-inName**
   (https://github.com/Geeksound/Reaper_Scripts-Mariow/blob/main/Utility/ReplaceXthCharacter-inName.lua)  
   Replace a /suit of Chararacter(s) in a Name
   
