@@ -1,8 +1,10 @@
 --[[
 @description AdvancedFind - Advanced Search Tool for Your Sessions
-@version 1.0
+@version 1.1
 @author Mariow
 @changelog
+  v1.1 (2025-11-04)
+  - ImGui Windows with credits
   v1.0 (2025-11-01)
   - Integrated Repository-Guide window directly into the script
   - Search for Tracks, Items & Take Markers
@@ -224,7 +226,7 @@
  ------------------------------------------
  local function loop()
  local visible
- visible, open = reaper.ImGui_Begin(ctx, "Advanced Search", open, reaper.ImGui_WindowFlags_AlwaysAutoResize())
+ visible, open = reaper.ImGui_Begin(ctx, "Advanced Search (by Mariow)", open, reaper.ImGui_WindowFlags_AlwaysAutoResize())
  
  if visible then
  -- 🖼️ Centered Thumbnail
