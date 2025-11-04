@@ -193,7 +193,7 @@ v1.0 (2025-11-04)
 - Replaces all occurrences of a selected source clip with a new audio file
 - Automatically rebuilds peaks (cmd 40441) for updated waveforms
 ]]></changelog>
-        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/Editing/ReaPlaceClip.lua</source>
+        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/Editing/ReaplaceClip.lua</source>
       </version>
     </reapack>
   </category>
