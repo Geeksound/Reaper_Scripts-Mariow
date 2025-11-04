@@ -582,7 +582,7 @@ v1.0 (2025-06-08)
 {\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
 \widowctrl\hyphauto
 
-{\pard\ql\f0\sa180\li0\fi0\b\fs40\cf1 Get a beautiful Thumnail Button in some of my Scripts.\par}
+{\pard\ql\f0\sa180\li0\fi0\b\fs40\cf1 Get a beautiful Thumbnail Button in some of my Scripts.\par}
 {\pard\ql\f0\sa180\li0\fi0\b\fs40\cf1   \par}
 {\pard \ql \f0 \sa180 \li0 \fi0 \outlinelevel0 \b \fs36 ThumbnailDownload\par}
 {\pard \ql \f0 \sa180 \li0 \fi0 Some of (Mariow)scripts can link to GitHub using a thumbnail that should be present in Reaper/Scripts for better aesthetics. This script allows you to save that small thumbnail.\par}
