@@ -7,7 +7,7 @@
         <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
 {\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
 \widowctrl\hyphauto
-{\pard\ql\f0\sa180\li0\fi0\b\fs40\cf1   -- D O C U M E N T A T I O N S   //  Guides --\par}
+{\pard\ql\f0\sa180\li0\fi0\b\fs40\cf1   -- D O C U M E N T A T I O N S  //  Guides --\par}
 {\pard\ql\f0\sa180\li0\fi0\b\fs40\cf1   \par}
 {\pard \ql \f0 \sa180 \li0 \fi0 \outlinelevel0 \b \fs36 Repository-Guide\par}
 {\pard \ql \f0 \sa180 \li0 \fi0 This script provides a user-friendly interface to access Mariow's Reaper scripts and guides directly from Reaper 7.0:\par}
