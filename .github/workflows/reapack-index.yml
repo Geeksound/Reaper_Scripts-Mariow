@@ -18,8 +18,8 @@ jobs:
         with:
           ruby-version: '3.1'
 
-     # - name: Install reapack-index
-       # run: gem install reapack-index
+      - name: Install reapack-index
+        run: gem install reapack-index
 
       - name: Run reapack-index
         run: reapack-index .
