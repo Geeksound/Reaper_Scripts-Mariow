@@ -138,7 +138,6 @@
         <changelog><![CDATA[
 v1.1 (2025-10-31)
 - Debug with relaunch on Prefix button
-
 v1.0 (2025-10-28)
 - Initial release
 ]]></changelog>
@@ -165,14 +164,39 @@ v1.0 (2025-10-28)
         <changelog><![CDATA[
 v1.1 (2025-10-31)
 - Debug with relaunch on Prefix button
-
 v1.0 (2025-10-28)
 - Initial release
 ]]></changelog>
         <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/Editing/TRACKMANAGERexpanded.lua</source>
       </version>
     </reapack>
+    <reapack name="ReaPlaceClip.lua" type="script" desc="ReaPlaceClip — Replace Clip like in Pro Tools">
+      <metadata>
+        <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
+{\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
+\widowctrl\hyphauto
 
+{\pard\ql\f0\sa180\li0\fi0\b\fs40\cf1 Replace all instances of a clip's source file in your session, Pro Tools style.\par}
+{\pard\ql\f0\sa180\li0\fi0\b\fs36 ReaPlaceClip\par}
+{\pard\ql\f0\sa180\li0\fi0 Harmonious and efficient replacement of all occurrences of a selected audio clip in your Reaper project.\par}
+{\pard\ql\f0\sa180\li0\fi0 Select a clip, choose a new file, and ReaPlaceClip automatically updates every instance.\par}
+{\pard\ql\f0\sa180\li0\fi0 Peaks are rebuilt automatically (cmd 40441) for instant waveform updates.\par}
+{\pard\ql\f0\sa180\li0\fi0 Ideal for post-production, sound design, ADR, or any workflow requiring global clip replacement.\par}
+{\pard\ql\f0\sa180\li0\fi0 Inspired by Avid Pro Tools’ Replace Clip feature.\par}
+}
+]]></description>
+        <link rel="website">https://github.com/Geeksound/Reaper_Scripts-Mariow</link>
+      </metadata>
+      <version name="1.0" author="Mariow" time="2025-11-04T00:00:00Z">
+        <changelog><![CDATA[
+v1.0 (2025-11-04)
+- Initial release
+- Replaces all occurrences of a selected source clip with a new audio file
+- Automatically rebuilds peaks (cmd 40441) for updated waveforms
+]]></changelog>
+        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/Editing/ReaPlaceClip.lua</source>
+      </version>
+    </reapack>
   </category>
   <category name="Field-Recorder_Workflow">
     <reapack name="Detect-DeleteEmpty-Items.lua" type="script" desc="Detect-DeleteEmpty-Items">
