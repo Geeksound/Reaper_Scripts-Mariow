@@ -1,8 +1,10 @@
 --[[
 @description TimeShift
-@version 1.4.2
+@version 1.4.2.1
 @author Mariow
 @changelog
+  v1.4.2.1 (2025-11-04)
+  - Imgui windows with credits
   v1.4.2 (2025-10-30)
   - Added help tooltips on Selected Item, Time Selection, and Cursor Position
   - Added fallback for ImGui_TextUnformatted to ensure backward compatibility
@@ -165,7 +167,7 @@ end
 -- ImGui Main Loop
 --========================================
 local function loop()
-    local visible, open = reaper.ImGui_Begin(ctx, 'TimeShift Like in Protools and better', true, reaper.ImGui_WindowFlags_AlwaysAutoResize())
+    local visible, open = reaper.ImGui_Begin(ctx, 'TimeShift Like in Protools and better (by Mariow)', true, reaper.ImGui_WindowFlags_AlwaysAutoResize())
 
     if visible then
         -- Input fields
