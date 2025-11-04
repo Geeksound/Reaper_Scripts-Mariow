@@ -7,7 +7,8 @@
         <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
 {\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
 \widowctrl\hyphauto
-
+{\pard\ql\f0\sa180\li0\fi0\b\fs40\cf1   -- D O C U M E N T A T I O N S   //  Guides --\par}
+{\pard\ql\f0\sa180\li0\fi0\b\fs40\cf1   \par}
 {\pard \ql \f0 \sa180 \li0 \fi0 \outlinelevel0 \b \fs36 Repository-Guide\par}
 {\pard \ql \f0 \sa180 \li0 \fi0 This script provides a user-friendly interface to access Mariow's Reaper scripts and guides directly from Reaper 7.0:\par}
 {\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab Download the PDF version of the Repository-Guide\par}
@@ -36,6 +37,8 @@
 {\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
 \widowctrl\hyphauto
 
+{\pard\ql\f0\sa180\li0\fi0\b\fs40\cf1 practical for Editing sound when choosing sounds that fit best \par}
+{\pard\ql\f0\sa180\li0\fi0\b\fs40\cf1   \par}
 {\pard \ql \f0 \sa180 \li0 \fi0 \outlinelevel0 \b \fs36 Swap-ItemsPositionsOnSameTracks\par}
 {\pard \ql \f0 \sa180 \li0 \fi0 Contextual swap between two items for A/B listening in Reaper 7.0. This script was developed with the help of GitHub Copilot.\par}
 }
@@ -53,6 +56,8 @@
 {\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
 \widowctrl\hyphauto
 
+{\pard\ql\f0\sa180\li0\fi0\b\fs40\cf1 inspired from  -- P R O T O O L S --\par}
+{\pard\ql\f0\sa180\li0\fi0\b\fs40\cf1   \par}
 {\pard \ql \f0 \sa180 \li0 \fi0 \outlinelevel0 \b \fs36 TimeShift\par}
 {\pard \ql \f0 \sa180 \li0 \fi0 Provides a precise and contextual time-shifting tool for Reaper, inspired by (and extending) Pro Tools' “Edit/Shift” feature.\par}
 {\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab Shifts selected media items, time selections, or the edit cursor position,\par}
@@ -108,6 +113,8 @@
 {\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
 \widowctrl\hyphauto
 
+{\pard\ql\f0\sa180\li0\fi0\b\fs40\cf1 View and manage your session from a single Track . AWESOME :) \par}
+{\pard\ql\f0\sa180\li0\fi0\b\fs40\cf1   \par}
 {\pard \ql \f0 \sa180 \li0 \fi0 \outlinelevel0 \b \fs36 TrackManager\par}
 {\pard \ql \f0 \sa180 \li0 \fi0 Compact version of TrackManager-Expanded.\par}
 {\pard \ql \f0 \sa180 \li0 \fi0 Harmonious palette and tools for managing and visualizing the state of your session's tracks in Reaper.\par}
@@ -134,6 +141,8 @@ v1.0 (2025-10-28)
 {\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
 \widowctrl\hyphauto
 
+{\pard\ql\f0\sa180\li0\fi0\b\fs40\cf1 View and manage your session from a single Track . AWESOME :) \par}
+{\pard\ql\f0\sa180\li0\fi0\b\fs40\cf1   \par}
 {\pard \ql \f0 \sa180 \li0 \fi0 \outlinelevel0 \b \fs36 TrackManager-Expanded\par}
 {\pard \ql \f0 \sa180 \li0 \fi0 Harmonious palette and tools for managing and visualizing the state of your session's tracks in Reaper.\par}
 {\pard \ql \f0 \sa180 \li0 \fi0 This script should be docked horizontally for greater convenience.\par}
@@ -161,6 +170,8 @@ v1.0 (2025-10-28)
 {\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
 \widowctrl\hyphauto
 
+{\pard\ql\f0\sa180\li0\fi0\b\fs40\cf1 Practical for some "Empty" files from "Production Sound" \par}
+{\pard\ql\f0\sa180\li0\fi0\b\fs40\cf1   \par}
 {\pard \ql \f0 \sa180 \li0 \fi0 \outlinelevel0 \b \fs36 Detect-DeleteEmpty-Items\par}
 {\pard \ql \f0 \sa180 \li0 \fi0 Variation of DetectEmpty-Items. During recording, sometimes empty tracks are created. During conformation, it may be useful to delete them for cleaning.\par}
 {\pard \ql \f0 \sa180 \li0 \fi0 This script was developed with the help of GitHub Copilot.\par}
@@ -181,6 +192,8 @@ v1.0 (2025-10-28)
 {\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
 \widowctrl\hyphauto
 
+{\pard\ql\f0\sa180\li0\fi0\b\fs40\cf1 Truly revolutionary — you won’t find this anywhere else.\par}
+{\pard\ql\f0\sa180\li0\fi0\b\fs40\cf1   \par}
 {\pard \ql \f0 \sa180 \li0 \fi0 \outlinelevel0 \b \fs36 Dial-EditConform\par}
 {\pard \ql \f0 \sa180 \li0 \fi0 This script comes after FieldrecorderTrackmatching to automate dialogue audio conforming:\par}
 {\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab Creating tracks from iXML/BWF metadata,\par}
@@ -208,6 +221,8 @@ v1.0 (2025-10-28)
 {\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
 \widowctrl\hyphauto
 
+{\pard\ql\f0\sa180\li0\fi0\b\fs40\cf1 inspired from  -- P R O T O O L S --\par}
+{\pard\ql\f0\sa180\li0\fi0\b\fs40\cf1   \par}
 {\pard \ql \f0 \sa180 \li0 \fi0 \outlinelevel0 \b \fs36\cf1 FieldrecorderTrack-Matching\par}
 {\pard \ql \f0 \sa180 \li0 \fi0 This script comes after AAF importing files (ideally from Vordio). This is a powerful version of the famous Fieldrecorder of Protools\par}
 {\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab Searching original files from Fieldrecorder into a folder\par}
@@ -284,6 +299,8 @@ v1.0 (2025-06-08)
 {\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
 \widowctrl\hyphauto
 
+{\pard\ql\f0\sa180\li0\fi0\b\fs40\cf1 Edit your SOUND REPORTS from production Sound Metadatas - Trully INNOVATIVE\par}
+{\pard\ql\f0\sa180\li0\fi0\b\fs40\cf1   \par}
 {\pard \ql \f0 \sa180 \li0 \fi0 \outlinelevel0 \b \fs36 Fieldrecording Sound-Report\par}
 {\pard \ql \f0 \sa180 \li0 \fi0 This script comes during Fieldrecording with Reaper\par}
 {\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab Record Production Sound via Dante from Cantar or Scorpio\par}
@@ -310,6 +327,8 @@ v1.0 (2025-06-08)
 {\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
 \widowctrl\hyphauto
 
+{\pard\ql\f0\sa180\li0\fi0\b\fs40\cf1 Tool to Rename TRACKS from ITEMS \par}
+{\pard\ql\f0\sa180\li0\fi0\b\fs40\cf1   \par}
 {\pard \ql \f0 \sa180 \li0 \fi0 \outlinelevel0 \b \fs36 ItemNames-To-TrackNames\par}
 {\pard \ql \f0 \sa180 \li0 \fi0 When items with the same name are organized on the same tracks, it may be useful to rename the track identically.\par}
 {\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab Select item(s) on track(s) and run. Useful for some conformation tasks.\sa180\par}
@@ -331,6 +350,8 @@ v1.0 (2025-06-08)
 {\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
 \widowctrl\hyphauto
 
+{\pard\ql\f0\sa180\li0\fi0\b\fs40\cf1 after CONFORMATION ("Fieldrecorder-Track") , some Items in double may be deleted \par}
+{\pard\ql\f0\sa180\li0\fi0\b\fs40\cf1   \par}
 {\pard \ql \f0 \sa180 \li0 \fi0 \outlinelevel0 \b \fs36 Remove-DuplicateItems\par}
 {\pard \ql \f0 \sa180 \li0 \fi0 This script comes after Auto-matching Conformation.\par}
 {\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab After automatching conformation, unnecessary duplicate items may be imported in the session.\par}
@@ -353,6 +374,8 @@ v1.0 (2025-06-08)
 {\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
 \widowctrl\hyphauto
 
+{\pard\ql\f0\sa180\li0\fi0\b\fs40\cf1 indispensable when Editing DIALOGUES\par}
+{\pard\ql\f0\sa180\li0\fi0\b\fs40\cf1   \par}
 {\pard \ql \f0 \sa180 \li0 \fi0 \outlinelevel0 \b \fs36 RenameItemFrom-ShootingSlate\par}
 {\pard \ql \f0 \sa180 \li0 \fi0 This script may be used when editing dialogue for pictures and filmmaking.\par}
 {\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab Rename by SCENE/Take - TRACKNAME\par}
@@ -376,6 +399,8 @@ v1.0 (2025-06-08)
 {\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
 \widowctrl\hyphauto
 
+{\pard\ql\f0\sa180\li0\fi0\b\fs40\cf1 Re-inject METADATAS Tool\par}
+{\pard\ql\f0\sa180\li0\fi0\b\fs40\cf1   \par}
 {\pard \ql \f0 \sa180 \li0 \fi0 \outlinelevel0 \b \fs36 Set-ItemFor-IXMLRendering\par}
 {\pard \ql \f0 \sa180 \li0 \fi0 This script comes after AAF importing files (ideally from Vordio). It prepares item names and notes for the injection of iXML tags concerning SCENE/TAKE and TRACKNAME during a specific rendering.\par}
 {\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab Modifies item names and item notes based on the content injected by VORDIO during AAF export.\par}
@@ -458,6 +483,8 @@ v1.0 (2025-06-08)
 {\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
 \widowctrl\hyphauto
 
+{\pard\ql\f0\sa180\li0\fi0\b\fs40\cf1 INNOVATIVE Tool to create your session on Text Editor : create your Templates like a Book\par}
+{\pard\ql\f0\sa180\li0\fi0\b\fs40\cf1   \par}
 {\pard \ql \f0 \sa180 \li0 \fi0 \outlinelevel0 \b \fs36 CreateTracksFromText\par}
 {\pard \ql \f0 \sa180 \li0 \fi0 Creates tracks in Reaper from a user-provided text file, defining names, hierarchy, spacers, and colors.\par}
 {\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab Reads a plain text file line by line to generate track structures,\par}
@@ -483,6 +510,8 @@ v1.0 (2025-06-08)
 {\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
 \widowctrl\hyphauto
 
+{\pard\ql\f0\sa180\li0\fi0\b\fs40\cf1 Litteraly categorize your sounds in your Session\par}
+{\pard\ql\f0\sa180\li0\fi0\b\fs40\cf1   \par}
 {\pard \ql \f0 \sa180 \li0 \fi0 \outlinelevel0 \b \fs36 prefix-to-name\par}
 {\pard \ql \f0 \sa180 \li0 \fi0 Adds a custom prefix to the names of selected items in Reaper.\par}
 {\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab Prompts the user to enter a prefix string,\par}
@@ -507,6 +536,8 @@ v1.0 (2025-06-08)
 {\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
 \widowctrl\hyphauto
 
+{\pard\ql\f0\sa180\li0\fi0\b\fs40\cf1 Sometimes, sounds may be sorted & recognized with a special character; help to redefine this.\par}
+{\pard\ql\f0\sa180\li0\fi0\b\fs40\cf1   \par}
 {\pard \ql \f0 \sa180 \li0 \fi0 \outlinelevel0 \b \fs36 ReplaceXthCharacter-inName\par}
 {\pard \ql \f0 \sa180 \li0 \fi0 Performs contextual replacement of a character or sequence of characters in the names of selected items in Reaper.\par}
 {\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab Prompts the user for the text to find and its replacement,\par}
@@ -531,6 +562,8 @@ v1.0 (2025-06-08)
 {\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
 \widowctrl\hyphauto
 
+{\pard\ql\f0\sa180\li0\fi0\b\fs40\cf1 selection Tool par}
+{\pard\ql\f0\sa180\li0\fi0\b\fs40\cf1   \par}
 {\pard \ql \f0 \sa180 \li0 \fi0 \outlinelevel0 \b \fs36 SelNoNamed-Tracks\par}
 {\pard \ql \f0 \sa180 \li0 \fi0 Selects tracks that are not named for different purposes.\par}
 {\pard \ql \f0 \sa180 \li0 \fi0 This script was developed with the help of GitHub Copilot.\par}
@@ -549,6 +582,8 @@ v1.0 (2025-06-08)
 {\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
 \widowctrl\hyphauto
 
+{\pard\ql\f0\sa180\li0\fi0\b\fs40\cf1 Get a beautiful Thumnail Button in some of my Scripts.\par}
+{\pard\ql\f0\sa180\li0\fi0\b\fs40\cf1   \par}
 {\pard \ql \f0 \sa180 \li0 \fi0 \outlinelevel0 \b \fs36 ThumbnailDownload\par}
 {\pard \ql \f0 \sa180 \li0 \fi0 Some of (Mariow)scripts can link to GitHub using a thumbnail that should be present in Reaper/Scripts for better aesthetics. This script allows you to save that small thumbnail.\par}
 }
@@ -568,6 +603,8 @@ v1.0 (2025-06-08)
 {\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
 \widowctrl\hyphauto
 
+{\pard\ql\f0\sa180\li0\fi0\b\fs40\cf1 Incredibly practical and interactive TC & Item View on Top .\par}
+{\pard\ql\f0\sa180\li0\fi0\b\fs40\cf1   \par}
 {\pard \ql \f0 \sa180 \li0 \fi0 \outlinelevel0 \b \fs36 Interactive-TC-Display\par}
 {\pard \ql \f0 \sa180 \li0 \fi0 Provides a dynamic and contextual TimeCode display for Reaper using ReaImGui.\par}
 {\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab Displays current TimeCode depending on playback, recording, or edit context,\par}
@@ -598,6 +635,8 @@ v1.0 (2025-06-08)
 {\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
 \widowctrl\hyphauto
 
+{\pard\ql\f0\sa180\li0\fi0\b\fs40\cf1 Searching Tool : Tracks / Items / TakeMarkers , to navigate quickly\par}
+{\pard\ql\f0\sa180\li0\fi0\b\fs40\cf1   \par}
 {\pard \ql \f0 \sa180 \li0 \fi0 \outlinelevel0 \b \fs36 AdvancedFind\par}
 {\pard \ql \f0 \sa180 \li0 \fi0 Advanced search tool for your Reaper sessions.\par}
 {\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab Search Tracks, Media Items, Muted Items, and Take Markers\par}
