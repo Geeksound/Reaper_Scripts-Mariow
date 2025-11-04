@@ -77,9 +77,22 @@ This script is inspired by the Edit/Shift function in PROTOOLS, with added impro
 - [ReaImGui](https://github.com/cfillion/reaimgui) (install via ReaPack)
 
 
+## 2. **ReaplaceClip** "PROTOOLS replace clip" :)
+(https://github.com/Geeksound/Reaper_Scripts-Mariow/blob/main/Editing/ReaplaceClip.lua)  
+Script for REAPER that allows replacement of Items in Session by Files on Browser files.
+This script is inspired by the Replacement function in PROTOOLS.
+
+<p align="center">
+  <img src="PICTURES/ReaplaceClip.png" alt="Overview of 'ReaplaceClip'">
+</p>  
+
+## How to use
+
+1. Choose the Item to be replaced. 
+2. Run the Script and browse files to replace Item selected.
 
 ---
-## 2. **Swap-ItemsPositionsOnSameTracks**
+## 3. **Swap-ItemsPositionsOnSameTracks**
 (https://github.com/Geeksound/Reaper_Scripts-Mariow/blob/main/Editing/Swap-ItemsPositionsOnSameTracks.lua)  
 Swap 2 Items on a Track for listening and editing purpose
 
@@ -99,7 +112,7 @@ Swap 2 Items on a Track for listening and editing purpose
 
 
 ---
-## 3. **SelNoNamed-Tracks**
+## 4. **SelNoNamed-Tracks**
 (https://github.com/Geeksound/Reaper_Scripts-Mariow/blob/main/Utility/SelNoNamed-Tracks.lua)  
 Select Tracks without Names or unnamed
 
@@ -107,7 +120,7 @@ Select Tracks without Names or unnamed
   <img src="PICTURES/SelNoNamed-Tracks.png" alt="Overview of 'SelNoNamed-Tracks'"width="400" />
 </p>   
 
-## 3. **TRACKMANAGER**
+## 5. **TRACKMANAGER**
 ###  Two versions of TRACKMANAGER
 
 ### FEATURES
