@@ -519,6 +519,32 @@ v1.0 (2025-06-08)
         <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/Utility/CreateTracksFromText.lua</source>
       </version>
     </reapack>
+    <reapack name="CreateTextFromTracks.lua" type="script" desc="CreateTextFromTracks">
+      <metadata>
+        <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
+{\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
+\widowctrl\hyphauto
+
+{\pard\ql\f0\sa180\li0\fi0\b\fs40\cf1 INNOVATIVE Tool to export your session tracks to Text Editor : save your Templates like a Book\par}
+{\pard\ql\f0\sa180\li0\fi0\b\fs40\cf1   \par}
+{\pard \ql \f0 \sa180 \li0 \fi0 \outlinelevel0 \b \fs36 CreateTextFromTracks\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 Exports tracks from Reaper into a text file, including names, hierarchy, spacers, and colors.\par}
+{\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab Reads all tracks in the current project,\par}
+{\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab Uses folder depth to determine parent/child hierarchy,\par}
+{\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab Includes empty lines for spacer tracks,\par}
+{\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab Converts track colors to approximate color names (e.g., Red, Blue, Green),\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 This script is the reverse of CreateTracksFromText.lua and allows you to export your session structure for later reuse.\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 Compatible with Reaper 7.0 and later.\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 This script was developed with the help of GitHub Copilot.\par}
+}
+]]></description>
+        <link rel="website">https://github.com/Geeksound/Reaper_Scripts-Mariow</link>
+      </metadata>
+      <version name="1.0" author="Mariow" time="2025-11-04T12:00:00Z">
+        <changelog><![CDATA[Initial release]]></changelog>
+        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/Utility/CreateTextFromTracks.lua</source>
+      </version>
+    </reapack>
     <reapack name="prefix-to-name.lua" type="script" desc="Add prefix to the NAME of Selected Item">
       <metadata>
         <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
