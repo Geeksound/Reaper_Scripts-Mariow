@@ -1,9 +1,11 @@
 --[[
 @description Fieldrecording Sound-Report
-@version 1.0
+@version 1.1
 @author Mariow
 @license MIT
 @changelog
+  V1.1 (2025-10-04)
+  - ImGui Windows Description
   v1.0 (2025-06-17)
   - Initial release
 @provides
@@ -213,7 +215,7 @@ function export_csv()
 end
 
 function loop()
-  local visible, open = reaper.ImGui_Begin(ctx, 'Sound-Report', true, reaper.ImGui_WindowFlags_MenuBar())
+  local visible, open = reaper.ImGui_Begin(ctx, 'Sound-Report (by Mariow) Export a Sound Report from files recorded with Metadatas on Production Sound', true, reaper.ImGui_WindowFlags_MenuBar())
   if visible then
     -- Affichage des champs entête sur une seule ligne, largeurs personnalisées
     reaper.ImGui_Separator(ctx)

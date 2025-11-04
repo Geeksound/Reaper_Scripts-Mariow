@@ -316,6 +316,10 @@ v1.0 (2025-06-08)
         <link rel="website">https://github.com/Geeksound/Reaper_Scripts-Mariow</link>
         <tags>dialogue, recording, conformation, workflow, Sound-report</tags>
       </metadata>
+      <version name="1.1" author="Mariow" time="2025-10-04T00:00:00Z">
+        <changelog><![CDATA[v1.1 (2025-10-04) - ImGui Windows Description]]></changelog>
+        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/Field-Recorder_Workflow/FieldrecordingSound-Report.lua</source>
+      </version>
       <version name="1.0" author="Mariow" time="2025-06-17T00:00:00Z">
         <changelog><![CDATA[v1.0 (2025-06-17) - Initial release]]></changelog>
         <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/Field-Recorder_Workflow/FieldrecordingSound-Report.lua</source>
