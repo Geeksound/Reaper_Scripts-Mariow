@@ -1,9 +1,11 @@
 --[[
 @description Interactive-TC-Display
-@version 1.2
+@version 1.2.1
 @author Mariow
 @license MIT
 @changelog
+  V1.2.1 (2025-11-04)
+  - Add credits in ImGui Window
   V1.2 (2025-09-08)
   - ReaImguiV0.10.02 Font Compatibility
   v1.0 (2025-06-08)
@@ -63,7 +65,7 @@ reaper.ImGui_PushStyleColor(ctx, reaper.ImGui_Col_WindowBg(), color_bg)
 reaper.ImGui_SetNextWindowSize(ctx, 400, 200, reaper.ImGui_Cond_FirstUseEver())
 reaper.ImGui_SetNextWindowPos(ctx, 300, 200, reaper.ImGui_Cond_FirstUseEver())
 
-local visible, open = reaper.ImGui_Begin(ctx, 'Dynamic TC Display', true)
+local visible, open = reaper.ImGui_Begin(ctx, 'Dynamic TC Display (by Mariow)', true)
 --reaper.ImGui_WindowFlags_NoTitleBar() |
 --reaper.ImGui_WindowFlags_NoResize() |
 --reaper.ImGui_WindowFlags_NoMove() |
