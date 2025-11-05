@@ -213,6 +213,9 @@ v1.0 (2025-11-04)
 {\pard\ql\f0\sa180\li0\fi0\b\fs40\cf1   \par}
 {\pard \ql \f0 \sa180 \li0 \fi0 \outlinelevel0 \b \fs36 Detect-DeleteEmpty-Items\par}
 {\pard \ql \f0 \sa180 \li0 \fi0 Variation of DetectEmpty-Items. During recording, sometimes empty tracks are created. During conformation, it may be useful to delete them for cleaning.\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 During Production Sound recording, sometimes empty tracks are created by error. During conformation, it may be useful to delete them for cleaning.\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 Part of the conforming work is to delete them for cleaning.\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 The empty items are those whose audio level is below the threshold of -90 dB.\par}
 {\pard \ql \f0 \sa180 \li0 \fi0 This script was developed with the help of GitHub Copilot.\par}
 }
 ]]></description>
