@@ -805,20 +805,27 @@ v1.0 (2025-06-08)
 {\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
 \widowctrl\hyphauto
 
-{\pard\qc\f0\sa180\li0\fi0\b\fs36\cf1 Mariow Reaper Scripts\par}
-{\pard\ql\f0\sa180\li0\fi0 Collection of powerful scripts by Mariow for REAPER, inspired by Pro Tools workflows\par}
+{\pard\ql\f0\sa180\li0\fi0\b\fs40\cf1        Mariow Reaper Scripts       \par}
+{\pard\ql\f0\sa180\li0\fi0\fs20 Collection Scripts by Mariow for REAPER \par}
+{\pard\ql\f0\sa180\li0\fi0\fs20    Inspired from PROTOOLS Workflows \par}
 
 {\pard\ql\f0\sa180\li0\fi0\b\fs32 Categories:\par}
-{\pard\ql\f0\sa0\li360\fi-360\bullet\tx360\tab Documentations\par}
-{\pard\ql\f0\sa0\li360\fi-360\bullet\tx360\tab Editing\par}
-{\pard\ql\f0\sa0\li360\fi-360\bullet\tx360\tab Field-Recorder Workflow\par}
-{\pard\ql\f0\sa0\li360\fi-360\bullet\tx360\tab Metadatas\par}
-{\pard\ql\f0\sa0\li360\fi-360\bullet\tx360\tab Utility\par}
-{\pard\ql\f0\sa0\li360\fi-360\bullet\tx360\tab View\par}
+{\pard\ql\f0\sa0\li360\fi-360\bullet\tx360\tab\b\fs20 Documentations\par}
+{\pard\ql\f0\sa180\li0\fi0    Link to my GitHub and manuals in PDF\par}
+{\pard\ql\f0\sa0\li360\fi-360\bullet\tx360\tab\b\fs20 Editing\par}
+{\pard\ql\f0\sa180\li0\fi0    Innovatives Editiong tools like in PT\par}
+{\pard\ql\f0\sa0\li360\fi-360\bullet\tx360\tab\b\fs20 Field-Recorder Workflow\par}
+{\pard\ql\f0\sa180\li0\fi0    The FieldrecorderTrack is no longer exclusive to PT !\par}
+{\pard\ql\f0\sa180\li0\fi0    Other INSANE tools for Conformation and Editing Dialogue \par}
+{\pard\ql\f0\sa0\li360\fi-360\bullet\tx360\tab\b\fs20 Metadatas\par}
+{\pard\ql\f0\sa180\li0\fi0    Metadatas are so important in some Workflows !\par}
+{\pard\ql\f0\sa0\li360\fi-360\bullet\tx360\tab\b\fs20 Utility\par}
+{\pard\ql\f0\sa180\li0\fi0    Innovative tools that cannot be find elsewhere \par}
+{\pard\ql\f0\sa0\li360\fi-360\bullet\tx360\tab\b\fs20 View\par}
+{\pard\ql\f0\sa180\li0\fi0    Interactive TC-Display & AdvanceFind are awesome !\par}
 
 {\pard\ql\f0\sa180\li0\fi0\b\fs32 ---------------------------------------------------------------- \par}
-{\pard\ql\f0\sa180\li0\fi0\b\fs32 2025-06-12 : Key Features \par}
-{\pard\ql\f0\sa180\li0\fi0\b\fs32 Essential tools for post-production workflows in REAPER, including field recorder management similar to Pro Tools\par}
+{\pard\ql\f0\sa180\li0\fi0\b\fs32 THE FIELDRECORDER WORKFLOW in Post-Production is essential \par}
 
 {\pard\ql\f0\sa0\li360\fi-360\bullet\tx360\tab 1_ FieldrecorderTrack with Auto-mode\par}
 {\pard\ql\f0\sa0\li360\fi-360\bullet\tx360\tab 2_ FieldrecorderTrack with Expert-mode and presets\par}
@@ -832,7 +839,10 @@ v1.0 (2025-06-08)
 {\pard\ql\f0\sa0\li720\fi-360\bullet\tx720\tab{\field{\*\fldinst{HYPERLINK "https://github.com/Geeksound/Reaper_Scripts-Mariow"}}{\fldrslt{https://github.com/Geeksound/Reaper_Scripts-Mariow}}}\par}
 
 {\pard\ql\f0\sa180\li0\fi0 Developed with the help of GitHub Copilot.\par}
-{\pard\ql\f0\sa180\li0\fi0 Enjoy your workflow and happy editing!\par}
+{\pard\ql\f0\sa180\li0\fi0 Sound engineer, professor, eternal student, and workflow "designer".\par}
+{\pard\ql\f0\sa180\li0\fi0 Working in Film Sound Recording and Post-Production,\par}
+{\pard\ql\f0\sa180\li0\fi0 with a passion for developing innovative workflows.\par}
+{\pard\ql\f0\sa180\li0\fi0 Enjoy and happy editing!\par}
 
 {\pard\ql\f0\sa180\li0\fi0\b\fs28 Mariow contact:\par}
 {\pard\ql\f0\sa0\li360\fi-360\bullet\tx360\tab {\field{\*\fldinst{HYPERLINK "https://forum.cockos.com/member.php?u=229893"}}{\fldrslt{\ul
