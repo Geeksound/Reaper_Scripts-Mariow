@@ -233,6 +233,8 @@ This script delete the empty Items that sometimes are recorded
 on a Field Recorder when track as no input but is ARMED.
 -- Dont't worry , ROOM TONES won't be deleted :) ! --
 
+There is also a variation called **DetectEmpty-Items.lua** which rename 'Empty Items' with the **£**Prefix
+
 ## 4. **Set-ItemFor-IXMLRendering**
 (https://github.com/Geeksound/Reaper_Scripts-Mariow/blob/main/Field-Recorder_Workflow/Set-ItemFor-IXMLRendering.lua)   
 This script may be used if..., Metadata related to SCENE/Take in AAF .wavs files are missing.

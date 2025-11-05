@@ -229,6 +229,32 @@ v1.0 (2025-11-04)
         <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/Field-Recorder_Workflow/Detect-DeleteEmpty-Items.lua</source>
       </version>
     </reapack>
+    <reapack name="DetectEmpty-Items.lua" type="script" desc="DetectEmpty-Items">
+      <metadata>
+        <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
+{\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
+\widowctrl\hyphauto
+
+{\pard\ql\f0\sa180\li0\fi0\b\fs40\cf1 Detect and mark "Empty" Items from Field Recorder sessions \par}
+{\pard\ql\f0\sa180\li0\fi0\b\fs40\cf1   \par}
+{\pard \ql \f0 \sa180 \li0 \fi0 \outlinelevel0 \b \fs36 DetectEmpty-Items\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 During Production Sound recording, some armed tracks may contain no signal.\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 This script analyzes all items and detects those considered "empty" (below -90 dB).\par}
+{\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab Instead of deleting them, it renames the detected items by adding the prefix **£** to their name.\par}
+{\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab This allows you to visually identify and review the empty items before removal.\sa180\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 Practical for quick cleaning and verification before using Detect-DeleteEmpty-Items.lua.\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 This script was developed with the help of GitHub Copilot.\par}
+}
+]]></description>
+        <license>MIT</license>
+        <link rel="website">https://github.com/Geeksound/Reaper_Scripts-Mariow</link>
+        <tags>items, editing, Fieldrecording, workflow, detection</tags>
+      </metadata>
+      <version name="1.0" author="Mariow" time="2025-06-08T00:00:00Z">
+        <changelog><![CDATA[v1.0 (2025-06-08) - Initial release: Detects empty items and renames them with prefix “£”]]></changelog>
+        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/Field-Recorder_Workflow/DetectEmpty-Items.lua</source>
+      </version>
+    </reapack>
     <reapack name="Dial-EditConform.lua" type="script" desc="Dial-EditConform">
       <metadata>
         <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
