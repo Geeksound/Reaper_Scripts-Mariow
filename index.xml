@@ -476,6 +476,30 @@ v1.0 (2025-06-08)
         <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/Field-Recorder_Workflow/Set-ItemFor-IXMLRendering.lua</source>
       </version>
     </reapack>
+    <reapack name="SelectDISARMEDitemFromCANTARMonofiles.lua" type="script" desc="Select DISARMED items from Cantar mono files">
+      <metadata>
+        <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
+{\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
+\widowctrl\hyphauto
+
+{\pard\ql\f0\sa180\li0\fi0\b\fs40\cf1 Select mono items marked as DISARMED from Cantar recordings during shooting\par}
+{\pard\ql\f0\sa180\li0\fi0\b\fs40\cf1   \par}
+{\pard \ql \f0 \sa180 \li0 \fi0 \outlinelevel0 \b \fs36 SelectDISARMEDitemFromCANTARMonofiles\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 This script scans all items in the session and selects those whose iXML metadata indicates that the track was DISARMED on the Cantar recorder.\par}
+{\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab Useful for cleaning up empty or muted field recordings.\par}
+{\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab Only applies to mono files; automatically detects the correct channel from the media source.\sa180\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 This script was developed by Mariow and is shared under the MIT license.\par}
+}
+]]></description>
+        <license>MIT</license>
+        <link rel="website">https://github.com/Geeksound/Reaper_Scripts-Mariow</link>
+        <tags>dialogue, conformation, workflow, Fieldrecording, Cantar, DISARMED</tags>
+      </metadata>
+      <version name="1.0" author="Mariow" time="2025-11-05T00:00:00Z">
+        <changelog><![CDATA[v1.0 (2025-11-05) - Initial release, selects all mono items marked as DISARMED in Cantar iXML metadata]]></changelog>
+        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/Field-Recorder_Workflow/SelectDISARMEDitemFromCANTARMonofiles.lua</source>
+      </version>
+    </reapack>
   </category>
   <category name="Metadatas">
     <reapack name="View-FieldRecorder-Metadatas.lua" type="script" desc="View-FieldRecorder-Metadatas">
