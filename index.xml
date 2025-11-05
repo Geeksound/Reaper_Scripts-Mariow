@@ -725,6 +725,34 @@ v1.0 (2025-06-08)
         <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/Utility/ThumbnailDownload.lua</source>
       </version>
     </reapack>
+    <reapack name="GotoTime-Advanced.lua" type="script" desc="Go To Time (ImGui, H:M:S:F @25fps – Big Counter + Presets + Offset + Cursor + Time Selection)">
+      <metadata>
+        <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
+{\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
+\widowctrl\hyphauto
+
+{\pard\ql\f0\sa180\li0\fi0\b\fs40\cf1 Go To Time (Advanced) – ImGui Time Navigator\par}
+{\pard\ql\f0\sa180\li0\fi0\b\fs36\cf0 ImGui-based time navigator for REAPER (25fps).\par}
+{\pard\ql\f0\sa180\li0\fi0\fs24 Features:\par}
+{\pard\ql\f0\sa180\li280\fi0\fs24 - Large centered time counter\par}
+{\pard\ql\f0\sa180\li280\fi0\fs24 - Sliders for Hours, Minutes, Seconds, Frames\par}
+{\pard\ql\f0\sa180\li280\fi0\fs24 - Go/Play buttons with time selection option\par}
+{\pard\ql\f0\sa180\li280\fi0\fs24 - Presets and Offset adjustment\par}
+{\pard\ql\f0\sa180\li0\fi0\fs24 Compatible with REAPER 7.0+\par}
+}
+]]></description>
+        <link rel="website">https://github.com/Geeksound/Reaper_Scripts-Mariow</link>
+      </metadata>
+      <version name="1.0" author="Mariow" time="2025-11-05T00:00:00Z">
+        <changelog><![CDATA[
+v1.0 (2025-11-05)
+- Translated all text and comments to English
+- Cleaned up ImGui layout (aligned labels, compact offset slider)
+- Improved header to ReaPack format
+]]></changelog>
+        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/Utility/GotoTime-Advanced.lua</source>
+      </version>
+    </reapack>
   </category>
   <category name="View">
     <reapack name="Interactive-TC-Display.lua" type="script" desc="Interactive-TC-Display">

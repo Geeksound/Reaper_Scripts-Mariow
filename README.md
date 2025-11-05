@@ -340,6 +340,32 @@ Batch Re-naming selected Items with a prefix for a better Workflow and sorting
   2 Action list / ReplaceXthCharacter  
   3 Enter Character to replace  
   4 Enter New Character  
+  
+  ---
+  ## 5. **GotoTime-Advanced**
+  (https://github.com/Geeksound/Reaper_Scripts-Mariow/blob/main/Utility/GotoTime-Advanced.lua)  
+  ImGui-based time navigator for REAPER (25fps) with large counter, H:M:S:F sliders, presets, offset, cursor display, and optional time selection.
+  
+  <p align="center">
+    <img src="PICTURES/GotoTime-Advanced.png" alt="Overview of 'GotoTime-Advanced'" width="800" />
+  </p>   
+  
+  ## FEATURES
+  - Large centered time counter  
+  - Sliders for Hours, Minutes, Seconds, Frames  
+  - Go / Play buttons with optional Time Selection  
+  - Presets (1h / 10h)  
+  - Offset control (0–30s)  
+  - Display current cursor position  
+  
+  ## HOW TO USE
+  1. Open REAPER and select your project.  
+  2. Run the script from the Action List: `GotoTime-Advanced`.  
+  3. Use sliders to set the desired time (H:M:S:F).  
+  4. Adjust offset if needed.  
+  5. Press **Go** to move the edit cursor, or **Play** to start playback.  
+  6. Optionally, check **Make Time Selection** to create a time selection from cursor to target time.  
+
  
 
 -------------------------------------------------
