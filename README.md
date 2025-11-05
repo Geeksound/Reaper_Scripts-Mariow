@@ -243,6 +243,15 @@ Then Reaper can Re-render each Items and re-inject missing Metadata in tags **iX
   <img src="PICTURES/Set-ItemFor-IXMLRendering.png" alt="Overview of 'Set-ItemFor-IXMLRendering'" width="800" />
 </p> 
 
+## 5. **SelectDISARMEDitemFromCANTARMonofiles**
+(https://github.com/Geeksound/Reaper_Scripts-Mariow/blob/main/Field-Recorder_Workflow/SelectDISARMEDitemFromCANTARMonofiles.lua)   
+This script during conformation, when Polyfiles from CANTAR are exploded into MonoFiles on MonoTracks.
+During **SHOOTING** , some Tracks on the recorder are not 'ARMED' but recorded as empty to keep some correlation during **CONFORMATIO**
+One strategy could be detect these Items automatically and Delete them.
+
+<p align="center">
+  <img src="PICTURES/SelectDISARMEDitemFromCANTARMonofiles.png" alt="Overview of 'SelectDISARMEDitemFromCANTARMonofiles'" width="800" />
+</p> 
 
 
 -------------------------------------------------
