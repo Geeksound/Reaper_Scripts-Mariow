@@ -1,9 +1,11 @@
 --[[
 @description RenameItemFrom-ShootingSlate
-@version 1.0
+@version 1.1
 @author Mariow
 @license MIT
 @changelog
+  v1.1 (2025-11-05)
+  Correction old PushFont
   v1.0 (2025-06-08)
   - Initial release
 @provides
@@ -118,7 +120,7 @@ end
 local function loop()
 local visible, open = r.ImGui_Begin(ctx, 'Rename Items', true)
 if visible then
-r.ImGui_PushFont(ctx, FONT)
+r.ImGui_PushFont(ctx, FONT,14)
 r.ImGui_Text(ctx, 'Choose renaming mode:')
 
 if r.ImGui_RadioButton(ctx, '1: SCENE/TAKE - Track name', option == 1) then option = 1 end
