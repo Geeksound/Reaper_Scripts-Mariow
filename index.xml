@@ -202,6 +202,39 @@ v1.0 (2025-11-04)
       </version>
     </reapack>
   </category>
+  <category name="Editing_TRIM">
+      <reapack name="Trim-LeftRight@range.lua" type="script" desc="Trim Left-Right using sliders with adjustable duration">
+      <metadata>
+        <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
+{\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
+\widowctrl\hyphauto
+
+{\pard\ql\f0\sa180\li0\fi0\b\fs40\cf1 Trim Left & Right using sliders with adjustable duration \par}
+{\pard\ql\f0\sa180\li0\fi0\b\fs40\cf1   \par}
+{\pard \ql \f0 \sa180 \li0 \fi0 \outlinelevel0 \b \fs36 Editing_TRIM\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 Interactive tool for trimming item edges with precision in Reaper.\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 Two independent sliders let you adjust the left and right edges of selected items.\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 Duration range is fully adjustable from 1s to 10s, with smooth response and instant feedback.\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 FPS is automatically retrieved from project settings, ensuring accurate frame-based trimming.\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 Perfect for editors needing quick, visual, and frame-precise cuts.\par}
+{\pard \ql \f0 \sa180 \li0 \fi0   \par}
+{\pard \ql \f0 \sa180 \li0 \fi0 \b\cf2 Tip:\b0  Use the Reset button to instantly return sliders to default positions.\par}
+}
+]]></description>
+        <link rel="website">https://github.com/Geeksound/Reaper_Scripts-Mariow</link>
+      </metadata>
+      
+      <version name="1.0" author="Mariow" time="2025-11-06T00:00:00Z">
+        <changelog><![CDATA[
+v1.0 (2025-11-06)
+- Added adjustable duration for trim range (1s → 10s)
+- Improved FPS handling (defaults to 25 if unset)
+- Smoother slider responsiveness and reset when duration changes
+]]></changelog>
+        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/Editing_TRIM/Trim-LeftRight@range.lua</source>
+      </version>
+    </reapack>
+  </category>
   <category name="Field-Recorder_Workflow">
     <reapack name="Detect-DeleteEmpty-Items.lua" type="script" desc="Detect-DeleteEmpty-Items">
       <metadata>
