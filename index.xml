@@ -249,6 +249,13 @@ v1.0 (2025-11-06)
 ]]></description>
         <link rel="website">https://github.com/Geeksound/Reaper_Scripts-Mariow</link>
       </metadata>
+      <version name="1.1" author="Mariow" time="2025-11-07T00:00:00Z">
+        <changelog><![CDATA[
+v1.1 (2025-11-07)
+- Added condition: left edge will not move if already aligned with previous item's right edge
+]]></changelog>
+        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/Editing_TRIM/UnTrimStartToPrev.lua</source>
+      </version>
       <version name="1.0" author="Mariow" time="2025-11-06T00:00:00Z">
         <changelog><![CDATA[
 v1.0 (2025-11-06)
@@ -297,6 +304,13 @@ v1.0 (2025-11-06)
 ]]></description>
         <link rel="website">https://github.com/Geeksound/Reaper_Scripts-Mariow</link>
       </metadata>
+      <version name="1.1" author="Mariow" time="2025-11-06T00:00:00Z">
+        <changelog><![CDATA[
+v1.1 (2025-11-06)
+- Added condition: left edge will not move if already aligned with previous item's right edge
+]]></changelog>
+        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/Editing_TRIM/UnTrimBetweenItems.lua</source>
+      </version>
       <version name="1.0" author="Mariow" time="2025-11-06T00:00:00Z">
         <changelog><![CDATA[
 v1.0 (2025-11-06)
