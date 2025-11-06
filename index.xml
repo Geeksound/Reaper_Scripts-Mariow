@@ -223,7 +223,6 @@ v1.0 (2025-11-04)
 ]]></description>
         <link rel="website">https://github.com/Geeksound/Reaper_Scripts-Mariow</link>
       </metadata>
-      
       <version name="1.0" author="Mariow" time="2025-11-06T00:00:00Z">
         <changelog><![CDATA[
 v1.0 (2025-11-06)
@@ -232,6 +231,79 @@ v1.0 (2025-11-06)
 - Smoother slider responsiveness and reset when duration changes
 ]]></changelog>
         <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/Editing_TRIM/Trim-LeftRight@range.lua</source>
+      </version>
+    </reapack>
+    <reapack name="UnTrimStartToPrev.lua" type="script" desc="Trim Left Edge of Selected Item to Previous Item on Same Track">
+      <metadata>
+        <description><![CDATA[
+{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
+{\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
+\widowctrl\hyphauto
+
+{\pard\ql\f0\sa180\li0\fi0\b\fs40\cf1 Trim Left Edge of Selected Item to Previous Item on Same Track\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 \outlinelevel0 \b \fs36 Editing_TRIM\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 Automatically aligns the left edge of the selected item with the end of the previous item on the same track.\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 Moves the edit cursor to the start of the item, finds the previous item, and trims accordingly.\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 Ideal for cleaning overlaps or aligning clips in dialogue, SFX, or music edits.\par}
+}
+]]></description>
+        <link rel="website">https://github.com/Geeksound/Reaper_Scripts-Mariow</link>
+      </metadata>
+      <version name="1.0" author="Mariow" time="2025-11-06T00:00:00Z">
+        <changelog><![CDATA[
+v1.0 (2025-11-06)
+- Initial release
+- Trim the left edge of the selected item to the end of the previous item
+]]></changelog>
+        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/Editing_TRIM/UnTrimStartToPrev.lua</source>
+      </version>
+    </reapack>
+    <reapack name="UnTrimEndToNext.lua" type="script" desc="Trim Right Edge of Selected Item to Next Item on Same Track">
+      <metadata>
+        <description><![CDATA[
+{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
+{\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
+\widowctrl\hyphauto
+
+{\pard\ql\f0\sa180\li0\fi0\b\fs40\cf1 Trim Right Edge of Selected Item to Next Item on Same Track\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 \outlinelevel0 \b \fs36 Editing_TRIM\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 Automatically aligns the right edge of the selected item with the start of the next item on the same track.\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 Useful for cleaning overlaps and creating tight sequential edits in dialogue, SFX, or music clips.\par}
+}
+]]></description>
+        <link rel="website">https://github.com/Geeksound/Reaper_Scripts-Mariow</link>
+      </metadata>
+      <version name="1.0" author="Mariow" time="2025-11-06T00:00:00Z">
+        <changelog><![CDATA[
+v1.0 (2025-11-06)
+- Initial release
+- Trim the right edge of the selected item to the start of the next item
+]]></changelog>
+        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/Editing_TRIM/UnTrimEndToNext.lua</source>
+      </version>
+    </reapack>
+    <reapack name="UnTrimBetweenItems.lua" type="script" desc="Trim Left and Right edges of selected item to adjacent items on same track">
+      <metadata>
+        <description><![CDATA[
+{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
+{\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
+\widowctrl\hyphauto
+
+{\pard\ql\f0\sa180\li0\fi0\b\fs40\cf1 Trim Left & Right edges of selected item to adjacent items on same track\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 \outlinelevel0 \b \fs36 Editing_TRIM\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 Automatically trims both left and right edges of the selected item so that it aligns with the end of the previous item and the start of the next item on the same track.\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 Ideal for cleaning overlaps or creating tightly spaced item sequences without gaps.\par}
+}
+]]></description>
+        <link rel="website">https://github.com/Geeksound/Reaper_Scripts-Mariow</link>
+      </metadata>
+      <version name="1.0" author="Mariow" time="2025-11-06T00:00:00Z">
+        <changelog><![CDATA[
+v1.0 (2025-11-06)
+- Initial release
+- Trim both left and right edges of the selected item to adjacent items
+]]></changelog>
+        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/Editing_TRIM/UnTrimBetweenItems.lua</source>
       </version>
     </reapack>
   </category>
