@@ -120,11 +120,12 @@
     </reapack>
     <reapack name="TrackManager.lua" type="script" desc="Track Manager — Compact Track Visualization Tool">
       <metadata>
-        <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
+        <description><![CDATA[
+{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
 {\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
 \widowctrl\hyphauto
 
-{\pard\ql\f0\sa180\li0\fi0\b\fs40\cf1 View and manage your session from a single Track . AWESOME :) \par}
+{\pard\ql\f0\sa180\li0\fi0\b\fs40\cf1 View and manage your session from a single track. AWESOME :) \par}
 {\pard\ql\f0\sa180\li0\fi0\b\fs40\cf1   \par}
 {\pard \ql \f0 \sa180 \li0 \fi0 \outlinelevel0 \b \fs36 TrackManager\par}
 {\pard \ql \f0 \sa180 \li0 \fi0 Compact version of TrackManager-Expanded.\par}
@@ -134,39 +135,65 @@
 ]]></description>
         <link rel="website">https://github.com/Geeksound/Reaper_Scripts-Mariow</link>
       </metadata>
+      <version name="1.2" author="Mariow" time="2025-11-07T00:00:00Z">
+        <changelog><![CDATA[
+v1.2 (2025-11-07)
+- Check when creating a track that the track name does not already exist.
+]]></changelog>
+        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/Editing/TRACKMANAGER.lua</source>
+      </version>
       <version name="1.1" author="Mariow" time="2025-10-31T00:00:00Z">
         <changelog><![CDATA[
 v1.1 (2025-10-31)
 - Debug with relaunch on Prefix button
+]]></changelog>
+        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/Editing/TRACKMANAGER.lua</source>
+      </version>
+      <version name="1.0" author="Mariow" time="2025-10-28T00:00:00Z">
+        <changelog><![CDATA[
 v1.0 (2025-10-28)
 - Initial release
 ]]></changelog>
         <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/Editing/TRACKMANAGER.lua</source>
       </version>
     </reapack>
-    <reapack name="TrackManager-Expanded.lua" type="script" desc="Track Manager — Expanded Visualization and Control Palette">
+    <reapack name="TrackManager-Expanded.lua" type="script" desc="Track Manager — Extended Track Visualization Tool">
       <metadata>
-        <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
+        <description><![CDATA[
+{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
 {\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
 \widowctrl\hyphauto
 
-{\pard\ql\f0\sa180\li0\fi0\b\fs40\cf1 View and manage your session from a single Track . AWESOME :) \par}
+{\pard\ql\f0\sa180\li0\fi0\b\fs40\cf1 Complete track visualization and management palette for Reaper.\par}
 {\pard\ql\f0\sa180\li0\fi0\b\fs40\cf1   \par}
 {\pard \ql \f0 \sa180 \li0 \fi0 \outlinelevel0 \b \fs36 TrackManager-Expanded\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 Extended version of TrackManager with additional management tools.\par}
 {\pard \ql \f0 \sa180 \li0 \fi0 Harmonious palette and tools for managing and visualizing the state of your session's tracks in Reaper.\par}
-{\pard \ql \f0 \sa180 \li0 \fi0 This script should be docked horizontally for greater convenience.\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 Includes safety check to prevent creating tracks with duplicate names.\par}
 }
 ]]></description>
         <link rel="website">https://github.com/Geeksound/Reaper_Scripts-Mariow</link>
       </metadata>
+      <version name="1.2" author="Mariow" time="2025-11-07T00:00:00Z">
+        <changelog><![CDATA[
+v1.2 (2025-11-07)
+- Check when creating a track that the track name does not already exist.
+]]></changelog>
+        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/Editing/TRACKMANAGERexpanded.lua</source>
+      </version>
       <version name="1.1" author="Mariow" time="2025-10-31T00:00:00Z">
         <changelog><![CDATA[
 v1.1 (2025-10-31)
 - Debug with relaunch on Prefix button
+]]></changelog>
+        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/Editing/TRACKMANAGERexpanded.lua</source>
+      </version>
+      <version name="1.0" author="Mariow" time="2025-10-28T00:00:00Z">
+        <changelog><![CDATA[
 v1.0 (2025-10-28)
 - Initial release
 ]]></changelog>
-        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/Editing/ReaplaceClip.lua</source>
+        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/TRACKMANAGERexpanded.lua</source>
       </version>
     </reapack>
     <reapack name="ReaPlaceClip.lua" type="script" desc="ReaPlaceClip — Replace Clip like in Pro Tools">

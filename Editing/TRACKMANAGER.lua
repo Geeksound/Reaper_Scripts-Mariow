@@ -1,8 +1,10 @@
 --[[
 @description TrackManager
-@version 1.1
+@version 1.2
 @author Mariow
 @changelog
+  V1.2 (2025-11-07)
+  Check when creating a track that the track name does not already exist.
   v1.1 (2025-10-31)
   - Debug with relaunch on Prefix button
 
@@ -608,24 +610,64 @@ end
 -- fonction add Track
 ------------------------------------------------------------
 local function addtrack()
----------------------------------
+  ---------------------------------
   local guideTrack = FindTracksGuide()
   local selectedItem = reaper.GetSelectedMediaItem(0, 0)
   if selectedItem and guideTrack then
     local itemTrack = reaper.GetMediaItem_Track(selectedItem)
     if itemTrack == guideTrack then
----------------------------------
       SelectTrackFromItem()
     end
   end
+  ---------------------------------
+
   local sel_track = reaper.GetSelectedTrack(0, 0)
   if not sel_track then
     reaper.ShowMessageBox("Aucune piste sélectionnée.", "Erreur", 0)
     return
   end
 
-  local retval, user_input = reaper.GetUserInputs("Nom de la nouvelle piste", 1, "Nom de la piste:", "")
-  if not retval or user_input == "" then return end
+  -- Fonction : vérifier si un nom de piste existe déjà
+  local function TrackNameExists(name)
+    local trackCount = reaper.CountTracks(0)
+    for i = 0, trackCount - 1 do
+      local tr = reaper.GetTrack(0, i)
+      local _, trName = reaper.GetSetMediaTrackInfo_String(tr, "P_NAME", "", false)
+      if trName == name then
+        return true
+      end
+    end
+    return false
+  end
+
+  -- Fonction : demander un nom à l’utilisateur (avec vérification de doublon)
+  local function AskForUniqueTrackName(defaultName)
+    local user_input = defaultName or ""
+    while true do
+      local retval, input = reaper.GetUserInputs("Nom de la nouvelle piste", 1, "Nom de la piste:", user_input)
+      if not retval or input == "" then
+        return nil -- annulation
+      end
+
+      if not TrackNameExists(input) then
+        return input
+      else
+        local res = reaper.ShowMessageBox(
+          "Une piste nommée \"" .. input .. "\" existe déjà.\n\nVeuillez entrer un autre nom.",
+          "Nom déjà utilisé",
+          0
+        )
+        user_input = input -- préremplir la prochaine saisie
+      end
+    end
+  end
+
+  -- Demande du nom unique à l'utilisateur
+  local user_input = AskForUniqueTrackName("")
+  if not user_input then
+    reaper.ShowMessageBox("Création de piste annulée.", "Info", 0)
+    return
+  end
 
   local sel_index = reaper.GetMediaTrackInfo_Value(sel_track, "IP_TRACKNUMBER") -- index + 1
   local insert_index = math.floor(sel_index) -- position où insérer
@@ -638,13 +680,15 @@ local function addtrack()
   reaper.GetSetMediaTrackInfo_String(new_track, 'P_NAME', user_input, true)
   reaper.SetOnlyTrackSelected(new_track)
 
+  -- Couleur par défaut (gris clair)
   local default_color = rgb_to_bgr_int(0.8, 0.8, 0.8)
   reaper.SetMediaTrackInfo_Value(new_track, "I_CUSTOMCOLOR", default_color | 0x1000000)
-  
+
   createitemsfromtracks()
 
-  reaper.Undo_EndBlock("Ajouter une piste nommée après la sélection", -1)
+  reaper.Undo_EndBlock("Ajouter une piste nommée après la sélection (nom unique)", -1)
 end
+
 
 ------------------------------------------------------------
 --Fonction addspacer()
