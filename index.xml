@@ -54,7 +54,7 @@
         <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/Editing/Swap-ItemsPositionsOnSameTracks.lua</source>
       </version>
     </reapack>
-    <reapack name="TimeShift.lua" type="script" desc="TimeShift">
+    <reapack name="TimeShift.lua" type="script" desc="TimeShift (Pro Tools Style)">
       <metadata>
         <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
 {\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
@@ -210,7 +210,7 @@ v1.0 (2025-10-28)
         <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/TRACKMANAGERexpanded.lua</source>
       </version>
     </reapack>
-    <reapack name="ReaPlaceClip.lua" type="script" desc="ReaPlaceClip — Replace Clip like in Pro Tools">
+    <reapack name="ReaPlaceClip.lua" type="script" desc="ReaPlaceClip — Replace Clip (Pro Tools Style)">
       <metadata>
         <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
 {\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
