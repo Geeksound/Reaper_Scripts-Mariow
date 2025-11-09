@@ -464,7 +464,7 @@ v1.0 (2025-11-06)
         <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/Field-Recorder_Workflow/Dial-EditConform.lua</source>
       </version>
     </reapack>
-    <reapack name="FieldrecorderTrack-Matching.lua" type="script" desc="FieldrecorderTrack-Matching">
+    <reapack name="FieldrecorderTrack-Matching.lua" type="script" desc="FieldrecorderTrack (Pro Tools Style) ">
       <metadata>
         <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
 {\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
@@ -508,7 +508,7 @@ v1.0 (2025-06-08)
         <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/Field-Recorder_Workflow/FieldrecorderTrack-Matching.lua</source>
       </version>
     </reapack>
-    <reapack name="FieldrecorderTrack-Matching_AUTO-Lite.lua" type="script" desc="FieldrecorderTrack-Matching_AUTO-Lite">
+    <reapack name="FieldrecorderTrack-Matching_AUTO-Lite.lua" type="script" desc="Auto-FieldrecorderTrack (Pro Tools Style)">
       <metadata>
         <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
 {\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
@@ -708,7 +708,7 @@ v1.0 (2025-06-08)
     </reapack>
   </category>
   <category name="Metadatas">
-    <reapack name="View-FieldRecorder-Metadatas.lua" type="script" desc="View-FieldRecorder-Metadatas">
+    <reapack name="View-FieldRecorder-Metadatas.lua" type="script" desc="View-FieldRecorder-Metadatas (Pro Tools Style)">
       <metadata>
         <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
 {\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
@@ -734,7 +734,7 @@ v1.0 (2025-06-08)
         <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/3ff8cf1e618556101b6b8ea6183f848bfd49b4ea/Metadatas/View-FieldRecorder-Metadatas.lua</source>
       </version>
     </reapack>
-    <reapack name="ViewFile-FieldRecorder-Metadatas.lua" type="script" desc="ViewFile-FieldRecorder-Metadatas">
+    <reapack name="ViewFile-FieldRecorder-Metadatas.lua" type="script" desc="ViewFile-FieldRecorder-Metadatas (Pro Tools Style)">
       <metadata>
         <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
 {\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
@@ -905,7 +905,7 @@ v1.0 (2025-06-08)
         <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/Utility/ThumbnailDownload.lua</source>
       </version>
     </reapack>
-    <reapack name="GotoTime-Advanced.lua" type="script" desc="Go To Time (ImGui, H:M:S:F @25fps – Big Counter + Presets + Offset + Cursor + Time Selection)">
+    <reapack name="GotoTime-Advanced.lua" type="script" desc="Go To Time (H:M:S:F @25fps – Big Counter Inspired from PROTOOLS)">
       <metadata>
         <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
 {\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
