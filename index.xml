@@ -242,6 +242,26 @@ v1.0 (2025-11-04)
         <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/Editing/ReaplaceClip.lua</source>
       </version>
     </reapack>
+    <reapack name="shuffleItems.lua" type="script" desc="Shuffle Items on One Track (Pro Tools Style)">
+      <metadata>
+        <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
+{\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
+\widowctrl\hyphauto
+
+{\pard\ql\f0\sa180\li0\fi0\b\fs40\cf1 Reorganizes items on a single track without gaps or overlaps\par}
+{\pard\ql\f0\sa180\li0\fi0\b\fs40\cf1 Useful for arranging items quickly in Reaper\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 \outlinelevel0 \b \fs36 shuffleItems.lua\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 Similar to the shuffle behavior in Pro Tools. Developed with the help of GitHub Copilot.\par}
+}
+]]></description>
+        <link rel="website">https://github.com/Geeksound/Reaper_Scripts-Mariow</link>
+      </metadata>
+      <version name="1.0" author="Mariow" time="2025-11-09T07:48:20Z">
+        <changelog><![CDATA[Initial release]]></changelog>
+        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/Editing/shuffleItems.lua</source>
+      </version>
+    </reapack>
+
   </category>
   <category name="Editing_TRIM">
       <reapack name="Trim-LeftRight@range.lua" type="script" desc="Trim Left-Right using sliders with adjustable duration">

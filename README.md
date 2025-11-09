@@ -153,7 +153,16 @@ Through this system, you can:
 3. Create new tracks in your session directly from organized items in “TRACKS”  
 4. Use the two advanced “search” modes to retrieve Tracks-by-Type and Take Markers efficiently
 
+---
+## 6. **ShuffleItems**
+(https://github.com/Geeksound/Reaper_Scripts-Mariow/blob/main/Editing/ShuffleItems.lua.lua)  
+Shuffle Selected Items lijke in Protools
 
+<!--### Overview of 'Swap-ItemsPositionsOnSameTracks'
+![Aperçu de TimeShift](PICTURES/Swap2Items.png)-->
+<p align="center">
+  <img src="PICTURES/ShuffleItems.png" alt="Overview of 'ShuffleItems'">
+</p>   
 
 -------------------------------------------------
 `- Field-Recorder_Workflow/-------`
