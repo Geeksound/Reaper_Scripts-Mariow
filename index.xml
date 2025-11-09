@@ -250,8 +250,8 @@ v1.0 (2025-11-04)
 
 {\pard\ql\f0\sa180\li0\fi0\b\fs40\cf1 Reorganizes items on a single track without gaps or overlaps\par}
 {\pard\ql\f0\sa180\li0\fi0\b\fs40\cf1 Useful for arranging items quickly in Reaper\par}
-{\pard \ql \f0 \sa180 \li0 \fi0 \outlinelevel0 \b \fs36 shuffleItems.lua\par}
-{\pard \ql \f0 \sa180 \li0 \fi0 Similar to the shuffle behavior in Pro Tools. Developed with the help of GitHub Copilot.\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 \outlinelevel0 \b \fs36 ShuffleItems.lua\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 Similar to the shuffle behavior in Pro Tools.\par}
 }
 ]]></description>
         <link rel="website">https://github.com/Geeksound/Reaper_Scripts-Mariow</link>
