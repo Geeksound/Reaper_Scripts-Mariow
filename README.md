@@ -155,13 +155,22 @@ Through this system, you can:
 
 ---
 ## 6. **ShuffleItems**
-(https://github.com/Geeksound/Reaper_Scripts-Mariow/blob/main/Editing/ShuffleItems.lua.lua)  
+(https://github.com/Geeksound/Reaper_Scripts-Mariow/blob/main/Editing/ShuffleItems.lua)  
 Shuffle Selected Items lijke in Protools
 
 <!--### Overview of 'Swap-ItemsPositionsOnSameTracks'
-![Aperçu de TimeShift](PICTURES/Swap2Items.png)-->
+![Aperçu de ShuffleItems(PICTURES/ShuffleItems.png)-->
 <p align="center">
   <img src="PICTURES/ShuffleItems.png" alt="Overview of 'ShuffleItems'">
+</p>   
+
+## 6. **RemoveTakesByChoices**
+(https://github.com/Geeksound/Reaper_Scripts-Mariow/blob/main/Editing/RemoveTakesByChoices.lua)  
+Remove Takes by a Coche
+<!--### Overview of 'RemoveTakesByChoices'
+![Aperçu de RemoveTakesByChoices](PICTURES/RemoveTakesByChoices.png)-->
+<p align="center">
+  <img src="PICTURES/RemoveTakesByChoices.png" alt="Overview of 'RemoveTakesByChoices'">
 </p>   
 
 -------------------------------------------------
