@@ -1,8 +1,10 @@
 --[[
 @description TrackManager
-@version 1.2
+@version 1.3
 @author Mariow
 @changelog
+  V1.3 (2025-11-09)
+  - Helpers IMgui and Option [alt]click like in PT
   V1.2 (2025-11-07)
   Check when creating a track that the track name does not already exist.
   v1.1 (2025-10-31)
@@ -65,7 +67,32 @@ local function delprefixonTrackName()
   createitemsfromtracks()
 end
 -----------------------------------------------------
+------------------------- Helpers ------------------------------------
+--========================================
+-- 🔹 Help Tooltip Function (compatible with all versions)
+--========================================
+local function ImGui_HelpMarker(ctx, desc)
+    if reaper.ImGui_IsItemHovered(ctx) then
+        reaper.ImGui_BeginTooltip(ctx)
+        reaper.ImGui_PushTextWrapPos(ctx, reaper.ImGui_GetFontSize(ctx) * 35)
+        if reaper.ImGui_TextUnformatted then
+            reaper.ImGui_TextUnformatted(ctx, desc)
+        else
+            reaper.ImGui_Text(ctx, desc)
+        end
+        reaper.ImGui_PopTextWrapPos(ctx)
+        reaper.ImGui_EndTooltip(ctx)
+    end
+end
 
+-- 🔹 Customizable Help Texts
+local Texte1 = "Add TRACK, Otion[ALT] lets you delete Tracks."
+local Texte2 = "ADD Spacer, Otion[ALT] lets you delete Spacer after selected Tracks"
+local Texte3 = "Move track Down , Otion[ALT] lets you move Track Up inversely"
+local Texte4 = "Move track by listing position"
+local Texte5 = "Allows alternating between viewing the Track Item and its corresponding track."
+
+------------------------ End HELPERS ---------------------------------
 
 local function StripPrefix(name)
   return name:match("^%s*%d+%s*[-_.]%s*(.+)")
@@ -687,6 +714,26 @@ local function addtrack()
   createitemsfromtracks()
 
   reaper.Undo_EndBlock("Ajouter une piste nommée après la sélection (nom unique)", -1)
+end
+-------------------
+-- fonction delete Track
+------------------------------------------------------------
+local function deltrack()
+  local sel_track = reaper.GetSelectedTrack(0, 0)
+  if not sel_track then
+    reaper.ShowMessageBox("Aucune piste sélectionnée.", "Erreur", 0)
+    return
+  end
+
+  reaper.Undo_BeginBlock()
+
+  -- Supprimer la piste sélectionnée
+  reaper.DeleteTrack(sel_track)
+
+  -- Synchroniser les pistes avec la guide track
+  createitemsfromtracks()
+
+  reaper.Undo_EndBlock("Supprimer la piste sélectionnée et synchroniser", -1)
 end
 
 
@@ -1515,6 +1562,142 @@ function RechercheItemsGUI(ctx)
 
   reaper.defer(loop)
 end
+--------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------
+-- Function: MoveTracksToSelTracks()
+-- Description:
+--   Opens an ImGui window listing all project tracks.
+--   Moves the currently selected tracks just below
+--   the one chosen in the list.
+----------------------------------------
+function MoveTracksToSelTracks()
+
+  local function SaveTracks()
+    local t = {}
+    local count = reaper.CountTracks(0)
+    for i = 0, count - 1 do
+      local track = reaper.GetTrack(0, i)
+      local _, name = reaper.GetTrackName(track)
+      local depth = reaper.GetTrackDepth(track)
+      local indent = string.rep("-", depth)
+      local color = reaper.GetMediaTrackInfo_Value(track, "I_CUSTOMCOLOR")
+      local display = string.format("%02d: %s%s", i + 1, indent, name)
+      t[#t + 1] = {
+        track = track,
+        index = i,
+        color = color > 0 and reaper.ImGui_ColorConvertNative(color) or 0,
+        name = display
+      }
+    end
+    return t
+  end
+
+  local function GetSelectedTrackIndices()
+    local t = {}
+    for i = 0, reaper.CountSelectedTracks(0) - 1 do
+      local tr = reaper.GetSelectedTrack(0, i)
+      t[#t + 1] = reaper.GetMediaTrackInfo_Value(tr, "IP_TRACKNUMBER") - 1
+    end
+    table.sort(t)
+    return t
+  end
+
+  local function MoveSelectedTracksBelow(target_idx)
+    local selected = GetSelectedTrackIndices()
+    if #selected == 0 then return end
+
+    for _, idx in ipairs(selected) do
+      if idx == target_idx then return end -- ignore if target in selection
+    end
+
+    reaper.Undo_BeginBlock()
+    reaper.PreventUIRefresh(1)
+    reaper.ReorderSelectedTracks(target_idx + 1, 2)
+    reaper.PreventUIRefresh(-1)
+    reaper.Undo_EndBlock("Move selected tracks below chosen track", -1)
+    reaper.UpdateArrange()
+    createitemsfromtracks()
+  end
+
+  local function colorSquare(ctx, color)
+    color = (color << 8) | 0xff
+    local draw_list = reaper.ImGui_GetWindowDrawList(ctx)
+    local x, y = reaper.ImGui_GetCursorScreenPos(ctx)
+    local size = reaper.ImGui_GetTextLineHeight(ctx)
+    reaper.ImGui_DrawList_AddRectFilled(draw_list, x, y, x + size, y + size, color)
+    local pad = reaper.ImGui_GetStyleVar(ctx, reaper.ImGui_StyleVar_FramePadding())
+    reaper.ImGui_SetCursorScreenPos(ctx, x + size + pad, y)
+  end
+
+  local ctx = reaper.ImGui_CreateContext("Move Selected Tracks Below...")
+  local current_track = nil
+  local tracks = {}
+  local quit = false
+
+  local function Loop()
+    local visible, open = reaper.ImGui_Begin(ctx, "Move Selected Tracks Below...", true, reaper.ImGui_WindowFlags_NoCollapse())
+    if visible then
+      local w = reaper.ImGui_GetWindowWidth(ctx)
+      tracks = SaveTracks()
+      reaper.ImGui_SetNextItemWidth(ctx, w - 25)
+      if not current_track and tracks[1] then current_track = 1 end
+
+      if reaper.ImGui_BeginCombo(ctx, "##combo_tracks", "") then
+        for i, v in ipairs(tracks) do
+          reaper.ImGui_PushID(ctx, i)
+          colorSquare(ctx, v.color)
+          if reaper.ImGui_Selectable(ctx, v.name, current_track == i) then
+            current_track = i
+          end
+          reaper.ImGui_PopID(ctx)
+        end
+        reaper.ImGui_EndCombo(ctx)
+      end
+
+      local pad_x, pad_y = reaper.ImGui_GetStyleVar(ctx, reaper.ImGui_StyleVar_FramePadding())
+      local v = tracks[current_track]
+      if v then
+        colorSquare(ctx, v.color)
+        reaper.ImGui_Text(ctx, v.name)
+      end
+
+      reaper.ImGui_Dummy(ctx, 0, 15)
+      local button_w = w > 270 and w / 3 or w - 15
+      if w > 270 then reaper.ImGui_SameLine(ctx, w / 6) end
+      if reaper.ImGui_Button(ctx, "Move", button_w, 25) then
+        if current_track then
+          MoveSelectedTracksBelow(tracks[current_track].index)
+        end
+      end
+      if w > 270 then reaper.ImGui_SameLine(ctx) end
+      if reaper.ImGui_Button(ctx, "Move & Quit", button_w, 25)
+        or reaper.ImGui_IsKeyPressed(ctx, reaper.ImGui_Key_Enter()) then
+        if current_track then
+          MoveSelectedTracksBelow(tracks[current_track].index)
+        end
+        quit = true
+      end
+    end
+    reaper.ImGui_End(ctx)
+
+    if quit or not open then
+     pcall(function()
+     reaper.ImGui_DestroyContext(ctx)
+   end)
+    else
+      reaper.defer(Loop)
+    end
+  end
+
+  Loop()
+end
+
+  reaper.ImGui_SameLine(ctx)
+  if reaper.ImGui_Button(ctx, "Move Tracks") then
+    MoveTracksToSelTracks()
+  end
+  reaper.ImGui_SameLine(ctx)
+
 
 
 --------------------------------------------------------------------------------------------------------
@@ -1612,8 +1795,8 @@ reaper.ShowMessageBox(
     "abc - Info", 0)
   end
   reaper.ImGui_PopStyleColor(ctx, 3)
-    if reaper.ImGui_Button(ctx, 'Trk ✚     [   ] ✚     [   ] ⌫')then
-    reaper.ShowMessageBox("Add track & Name  / Add a Spacer after Selected [Track] / Delete Spacer after Selected [Track]", "Info", 0)
+    if reaper.ImGui_Button(ctx, 'Trk ✚     [   ] ✚')then
+    reaper.ShowMessageBox("Add track & Name  / Add a Spacer after Selected [Track] / Pressing [ALT] key let you do the opposite (Delete)", "Info", 0)
     end
   -- Déclaration de la police agrandie (à faire **une seule fois** au début du script, avant ta boucle principale)
   if not bigFont then
@@ -1641,12 +1824,22 @@ reaper.ShowMessageBox(
   reaper.ImGui_PushStyleColor(ctx, reaper.ImGui_Col_Button(), green_normal)
   reaper.ImGui_PushStyleColor(ctx, reaper.ImGui_Col_ButtonHovered(), green_hovered)
   reaper.ImGui_PushStyleColor(ctx, reaper.ImGui_Col_ButtonActive(), green_active)
-  
+
    reaper.ImGui_SameLine(ctx)
    if reaper.ImGui_Button(ctx, '✖Prefix & ↻') then
      reaper.ShowMessageBox("May be used to refresh Items 'TRACKS' View and "..
      "Removes any prefix that may precede the [Track] name to ensure the proper functioning of the “FOCUS” feature", "✖Prefix - Info", 0)
    end
+     reaper.ImGui_PopStyleColor(ctx, 3)
+     reaper.ImGui_PushStyleColor(ctx, reaper.ImGui_Col_Button(),        0xCC8400FF) -- orange vif 0xFFA100FF
+     reaper.ImGui_PushStyleColor(ctx, reaper.ImGui_Col_ButtonHovered(), 0xFFB733FF) -- survol (plus clair)
+     reaper.ImGui_PushStyleColor(ctx, reaper.ImGui_Col_ButtonActive(),  0xFFA100FF) -- clic (plus foncé)
+     
+   reaper.ImGui_SameLine(ctx)
+   
+     if reaper.ImGui_Button(ctx, '⇅', 20, 20) then
+         reaper.ShowMessageBox("Move Selected Track Down, and Up by pressing [ALT]", "Info", 0)
+    end
   -- Retirer les styles après le bouton
   reaper.ImGui_PopStyleColor(ctx, 3)
      reaper.ImGui_SameLine(ctx)
@@ -1745,12 +1938,38 @@ reaper.ImGui_PushStyleColor(ctx, reaper.ImGui_Col_ButtonActive(),  0xFFA100FF) -
 
   reaper.ImGui_SameLine(ctx, nil, 15)
   -- Autres boutons
-  if reaper.ImGui_Button(ctx, 'Trk ✚') then addtrack() end
-    reaper.ImGui_SameLine(ctx, nil, 05)
-  if reaper.ImGui_Button(ctx, '[   ] ✚') then addspacer() end
-    reaper.ImGui_SameLine(ctx, nil, 05)
-  if reaper.ImGui_Button(ctx, '[   ] ⌫') then delspacer() end
-    reaper.ImGui_SameLine(ctx, nil, 20)
+-- Vérifie si Alt (Option sur Mac) est pressé
+local mods = reaper.ImGui_GetKeyMods(ctx)
+local isAlt = (mods & reaper.ImGui_Mod_Alt()) ~= 0
+
+-- Change le label selon la touche Option
+local label = isAlt and 'Trk ⌫' or 'Trk ✚'
+
+if reaper.ImGui_Button(ctx, label) then
+  if isAlt then
+    deltrack() -- ta fonction à définir
+  else
+    addtrack()
+  end
+end
+  ImGui_HelpMarker(ctx, Texte1)
+reaper.ImGui_SameLine(ctx, nil, 5)
+
+-- Vérifie si Alt (Option sur Mac) est pressé
+local mods = reaper.ImGui_GetKeyMods(ctx)
+local isAlt = (mods & reaper.ImGui_Mod_Alt()) ~= 0
+
+-- Change l'icône selon la touche Option
+local label = isAlt and '[   ] ⌫' or '[   ] ✚'
+
+if reaper.ImGui_Button(ctx, label) then
+  if isAlt then
+    delspacer()
+  else
+    addspacer()
+  end
+end
+  ImGui_HelpMarker(ctx, Texte2)
 
   if not bigFont then
    bigFont = reaper.ImGui_CreateFont('sans-serif', 18) -- Taille modifiable ici
@@ -1803,26 +2022,10 @@ reaper.ImGui_PushStyleColor(ctx, reaper.ImGui_Col_ButtonActive(),  0xFFA100FF) -
 end
    
   reaper.ImGui_SameLine(ctx, nil, 15)    
-  if reaper.ImGui_ArrowButton(ctx, '##Down', reaper.ImGui_Dir_Down()) then
-    reaper.Main_OnCommand(43648, 0)
-    reaper.Main_OnCommand(reaper.NamedCommandLookup("_SWS_SAVESEL"), 0)
-    createitemsfromtracks()
-    reaper.Main_OnCommand(reaper.NamedCommandLookup("_SWS_RESTORESEL"), 0)
-    reaper.Main_OnCommand(40913, 0) -- Zoom sur sélection (piste)
-  end
+-- Récupère les modificateurs clavier (Shift / Ctrl / Alt / Cmd)
+local mods = reaper.ImGui_GetKeyMods(ctx)
+local isAlt = (mods & reaper.ImGui_Mod_Alt()) ~= 0  -- Sur Mac, "Option" = Alt
 
-  reaper.ImGui_SameLine(ctx)
-
---  Up
-  if reaper.ImGui_ArrowButton(ctx, '##Up', reaper.ImGui_Dir_Up()) then
-    reaper.Main_OnCommand(43647, 0)
-    reaper.Main_OnCommand(reaper.NamedCommandLookup("_SWS_SAVESEL"), 0)
-    createitemsfromtracks()
-    reaper.Main_OnCommand(reaper.NamedCommandLookup("_SWS_RESTORESEL"), 0)
-    reaper.Main_OnCommand(40913, 0) -- Zoom sur sélection (piste)
-  end
-
-    reaper.ImGui_SameLine(ctx, nil, 05)
   
 -------------- VIEW Functions ______________
   reaper.ImGui_SameLine(ctx)
@@ -1840,12 +2043,46 @@ end
     delprefixonTrackName()
     dofile(script_path)
   end
+    reaper.ImGui_PopStyleColor(ctx, 3)
+-----------------------------------------------------------------------------------------------------------
+---------------------------------------- orange move track with alt reverse order -------------------------
+    reaper.ImGui_PushStyleColor(ctx, reaper.ImGui_Col_Button(),        0xCC8400FF) -- orange vif 0xFFA100FF
+    reaper.ImGui_PushStyleColor(ctx, reaper.ImGui_Col_ButtonHovered(), 0xFFB733FF) -- survol (plus clair)
+    reaper.ImGui_PushStyleColor(ctx, reaper.ImGui_Col_ButtonActive(),  0xFFA100FF) -- clic (plus foncé)
+    
+  reaper.ImGui_SameLine(ctx)
+  
+  -- Bouton unique (Down)
+  --if reaper.ImGui_ArrowButton(ctx, '##Down', reaper.ImGui_Dir_Down()) then
+    if reaper.ImGui_Button(ctx, '⇅', 20, 20) then
+    reaper.Main_OnCommand(reaper.NamedCommandLookup("_SWS_SAVESEL"), 0)
+  
+    if isAlt then
+      -- 🟢 Action "UP" quand Alt/Option est enfoncé
+      reaper.Main_OnCommand(43647, 0)
+    else
+      -- 🔵 Action "DOWN" normale
+      reaper.Main_OnCommand(43648, 0)
+    end
+  
+    createitemsfromtracks()
+    reaper.Main_OnCommand(reaper.NamedCommandLookup("_SWS_RESTORESEL"), 0)
+    reaper.Main_OnCommand(40913, 0) -- Zoom sur sélection (piste)
+  end
+    ImGui_HelpMarker(ctx, Texte3)
+  
+      reaper.ImGui_SameLine(ctx, nil, 05)
+  
+  if reaper.ImGui_Button(ctx, "Move Tracks") then
+    MoveTracksToSelTracks()
+  end
+    ImGui_HelpMarker(ctx, Texte4)
+  reaper.ImGui_SameLine(ctx)
 
-  reaper.ImGui_PopStyleColor(ctx, 3)
 ----------- End Refresh -------------------
   
     reaper.ImGui_SameLine(ctx, nil, 05)
-
+    reaper.ImGui_PopStyleColor(ctx, 3)
 --------------- ARROWS L/R & SHIFT
   if reaper.ImGui_ArrowButton(ctx, '##Left', reaper.ImGui_Dir_Left()) then
   local keyMods = reaper.ImGui_GetKeyMods(ctx)
@@ -1887,6 +2124,7 @@ end
  ------------------------------ 
   reaper.ImGui_SameLine(ctx, nil, 15)
   if reaper.ImGui_Button(ctx, 'FOCUS') then MirrorSelection() end
+    ImGui_HelpMarker(ctx, Texte5)
   reaper.ImGui_SameLine(ctx, nil, 05)
   if reaper.ImGui_Button(ctx, 'ALL') then viewall() end
     reaper.ImGui_SameLine(ctx)

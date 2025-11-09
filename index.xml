@@ -135,6 +135,13 @@
 ]]></description>
         <link rel="website">https://github.com/Geeksound/Reaper_Scripts-Mariow</link>
       </metadata>
+      <version name="1.3" author="Mariow" time="2025-11-09T00:00:00Z">
+        <changelog><![CDATA[
+v1.3 (2025-11-09)
+  - Helpers IMgui and Option [alt]click like in PT
+]]></changelog>
+        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/Editing/TRACKMANAGER.lua</source>
+      </version>
       <version name="1.2" author="Mariow" time="2025-11-07T00:00:00Z">
         <changelog><![CDATA[
 v1.2 (2025-11-07)
@@ -174,6 +181,13 @@ v1.0 (2025-10-28)
 ]]></description>
         <link rel="website">https://github.com/Geeksound/Reaper_Scripts-Mariow</link>
       </metadata>
+      <version name="1.3" author="Mariow" time="2025-11-09T00:00:00Z">
+        <changelog><![CDATA[
+v1.3 (2025-11-09)
+  - Helpers IMgui and Option [alt]click like in PT
+]]></changelog>
+        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/Editing/TRACKMANAGERexpanded.lua</source>
+      </version>
       <version name="1.2" author="Mariow" time="2025-11-07T00:00:00Z">
         <changelog><![CDATA[
 v1.2 (2025-11-07)
