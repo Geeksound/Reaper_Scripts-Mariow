@@ -307,6 +307,39 @@ v1.0 (2025-11-11)
         <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/Editing/ItemControlBoard.lua</source>
       </version>
     </reapack>
+    <reapack name="MoveItemToTrackAbove.lua" type="script" desc="Move selected item to track above">
+      <metadata>
+        <description><![CDATA[
+Moves the first selected media item to the track directly above it (if it exists).  
+Useful for quickly rearranging items between adjacent tracks.
+]]></description>
+        <link rel="website">https://github.com/Geeksound/Reaper_Scripts-Mariow</link>
+      </metadata>
+      <version name="1.0" author="Mariow" time="2025-11-10T00:00:00Z">
+        <changelog><![CDATA[
+v1.0 (2025-11-10)
+  - Initial release
+]]></changelog>
+        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/Editing/Mariow-MoveItemToTrackAbove.lua</source>
+      </version>
+    </reapack>
+    <reapack name="MoveItemToTrackBelow.lua" type="script" desc="Move selected item to track below (create new one if needed)">
+      <metadata>
+        <description><![CDATA[
+Moves the first selected media item to the track directly below it.  
+If no track exists below, the script creates a new one and names it after the item's active take.  
+If the name already exists, it automatically increments the name to keep it unique.
+]]></description>
+        <link rel="website">https://github.com/Geeksound/Reaper_Scripts-Mariow</link>
+      </metadata>
+      <version name="1.0" author="Mariow" time="2025-11-10T00:00:00Z">
+        <changelog><![CDATA[
+v1.0 (2025-11-10)
+  - Initial release
+]]></changelog>
+        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/Editing/Mariow-MoveItemToTrackBelow.lua</source>
+      </version>
+    </reapack>
   </category>
   <category name="Editing_TRIM">
       <reapack name="Trim-LeftRight@range.lua" type="script" desc="Trim Left-Right using sliders with adjustable duration">
