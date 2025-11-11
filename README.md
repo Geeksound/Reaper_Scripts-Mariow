@@ -389,7 +389,7 @@ Batch Re-naming selected Items with a prefix for a better Workflow and sorting
   ImGui-based time navigator for REAPER (25fps) with large counter, H:M:S:F sliders, presets, offset, cursor display, and optional time selection.
   
   <p align="center">
-    <img src="PICTURES/GotoTime-Advanced.png" alt="Overview of 'GotoTime-Advanced'" width="800" />
+    <img src="PICTURES/GotoTime-Advanced.png" alt="Overview of 'GotoTime-Advanced'" width="400" />
   </p>   
   
   ## FEATURES
