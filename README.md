@@ -164,7 +164,7 @@ Shuffle Selected Items lijke in Protools
   <img src="PICTURES/ShuffleItems.png" alt="Overview of 'ShuffleItems'">
 </p>   
 
-## 6. **RemoveTakesByChoices**
+## 7. **RemoveTakesByChoices**
 (https://github.com/Geeksound/Reaper_Scripts-Mariow/blob/main/Editing/RemoveTakesByChoices.lua)  
 Remove Takes by a Coche
 <!--### Overview of 'RemoveTakesByChoices'
@@ -172,6 +172,30 @@ Remove Takes by a Coche
 <p align="center">
   <img src="PICTURES/RemoveTakesByChoices.png" alt="Overview of 'RemoveTakesByChoices'">
 </p>   
+
+## 8. **ItemControlBoard**
+(https://github.com/Geeksound/Reaper_Scripts-Mariow/blob/main/Editing/ItemControlBoard.lua)  
+ItemControlBoard
+<!--### Overview of 'ItemControlBoard'
+![Aperçu de ItemControlBoard](PICTURES/ItemControlBoard.png)-->
+<p align="center">
+  <img src="PICTURES/ItemControlBoard.png" alt="Overview of 'ItemControlBoard'">
+</p>  
+
+### FEATURES
+**ItemControlBoard** is an advanced ImGui-based control panel that lets you **interactively manipulate selected media items** in REAPER with precision and style.
+
+It provides an ergonomic interface designed for real-time control of item properties through intuitive buttons and repeatable actions.
+
+You can:
+
+- **Move**, **trim**, **pitch**, **timestretch**, and **gain-adjust** selected items  
+- Instantly **lighten/darken** or **apply colors** from the built-in **48+ harmonious palette**  
+- Adjust **fade-in / fade-out lengths** interactively  
+- Use **ALT** as a modifier to *reverse* each action for faster editing  
+- Switch between **momentary and latching modes** – hold to repeat  
+- Preview and apply colors directly within the ImGui interface  
+- Access the **GitHub repository** through the integrated thumbnail button  
 
 -------------------------------------------------
 `- Field-Recorder_Workflow/-------`
