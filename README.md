@@ -408,7 +408,17 @@ Batch Re-naming selected Items with a prefix for a better Workflow and sorting
   5. Press **Go** to move the edit cursor, or **Play** to start playback.  
   6. Optionally, check **Make Time Selection** to create a time selection from cursor to target time.  
 
- 
+---
+## 6. **MoveItem-OneKNOB**
+(https://github.com/Geeksound/Reaper_Scripts-Mariow/blob/main/Utility/MoveItem-OneKNOB.lua)  
+Move Item UP/Down with One Knob
+
+<p align="center">
+  <img src="PICTURES/MoveItem-OneKNOB.png" alt="Overview of 'MoveItem-OneKNOB'" width="500" />
+</p>   
+
+### TIPS
+- **If no tracks Below** move Item Down create a new Track based on Item Name
 
 -------------------------------------------------
 `- View/---------`
