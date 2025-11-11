@@ -459,6 +459,34 @@ v1.0 (2025-11-06)
         <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/Editing_TRIM/UnTrimBetweenItems.lua</source>
       </version>
     </reapack>
+    <reapack name="Auto-Split Overlapping Items (Keep Top Item)" type="script" desc="Automatically split overlapping items, keeping the top item intact">
+      <metadata>
+        <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
+{\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
+\widowctrl\hyphauto
+
+{\pard\ql\f0\sa180\li0\fi0\b\fs40\cf1 Auto-Split Overlapping Items (Keep Top Item)\par}
+{\pard\ql\f0\sa180\li0\fi0\b\fs40\cf1   \par}
+{\pard \ql \f0 \sa180 \li0 \fi0 \outlinelevel0 \b \fs36 Editing_TRIM\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 This script automatically splits overlapping media items on the same track.\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 It removes only the parts of the lower items that are covered by the selected (top) items,\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 leaving the top items intact.\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 Useful for cleaning up overlapping takes or consolidating edits.\par}
+{\pard \ql \f0 \sa180 \li0 \fi0   \par}
+{\pard \ql \f0 \sa180 \li0 \fi0 Developed with the help of GitHub Copilot.\par}
+}
+]]></description>
+        <link rel="website">https://github.com/Geeksound/Reaper_Scripts-Mariow</link>
+      </metadata>
+      <version name="1.0" author="Mariow" time="2025-11-11T00:00:00Z">
+        <changelog><![CDATA[
+v1.0 (2025-11-11)
+- When moving or pasting Item on another, preserves selected (top) items
+- Removes only overlapped portions below
+]]></changelog>
+        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/Editing_TRIM/TrimAndSplitByItemOnTop.lua</source>
+      </version>
+    </reapack>
   </category>
   <category name="Field-Recorder_Workflow">
     <reapack name="Detect-DeleteEmpty-Items.lua" type="script" desc="Detect-DeleteEmpty-Items">
