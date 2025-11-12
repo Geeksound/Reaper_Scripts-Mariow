@@ -1225,6 +1225,59 @@ v1.0 (2025-11-12)
         <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/PROTOOLS/Revert-ToSaved.lua</source>
       </version>
     </reapack>
+    <reapack name="LinkUnlink-TimelineANDEdit-Sel.lua" type="script" desc="Toggle Link/Unlink TimelineEdit Selection">
+      <metadata>
+        <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
+{\colortbl;\red0\green128\blue0;\red255\green0\blue0;}
+\widowctrl\hyphauto
+
+{\pard\ql\f0\sa180\li0\fi0\b\fs40 Link/Unlink Timeline & Edit Selection (Pro Tools Style)\par}
+{\pard \ql \f0 \sa180 \li0 \fi0\outlinelevel0\fs36 Script Principal\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 Toggle the LINKED / UNLINKED state between timeline and edit selection.\par}
+{\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab Changes loop points / time selection link and edit cursor link (SWS),\par}
+{\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab Works similarly to Pro Tools selection linking,\par}
+{\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab Useful for alternating selection behavior during editing.\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 Works with REAPER v6.80+ and SWS extension.\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 Developed by Mariow.\par}
+}]]></description>
+        <link rel="website">https://github.com/Geeksound/Reaper_Scripts-Mariow</link>
+      </metadata>
+      <version name="1.0" author="Mariow" time="2025-11-12T00:00:00Z">
+        <changelog><![CDATA[
+  v1.0 (2025-11-12)
+  - Initial release
+  - Toggle Timeline / Edit Selection link/unlink (Pro Tools style)
+]]></changelog>
+        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/PROTOOLS/LinkUnlink-TimelineANDEdit-Sel.lua</source>
+      </version>
+    </reapack>
+    <reapack name="LinkUnlink-TimelineANDEdit-SelOneKNOB.lua" type="script" desc="Toggle Link/Unlink TimelineEdit Selection (ImGui)">
+      <metadata>
+        <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
+{\colortbl;\red0\green128\blue0;\red255\green0\blue0;}
+\widowctrl\hyphauto
+
+{\pard\ql\f0\sa180\li0\fi0\b\fs40 Link/Unlink Timeline & Edit Selection (Pro Tools Style, ImGui)\par}
+{\pard \ql \f0 \sa180 \li0 \fi0\outlinelevel0\fs36 Script ImGui\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 Small floating window with a single button to display and toggle LINKED / UNLINKED state.\par}
+{\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab Button label and color indicate current state,\par}
+{\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab Can be used with LinkUnlink-TimelineANDEdit-Sel.lua to monitor state visually,\par}
+{\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab Works similarly to Pro Tools selection linking,\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 Requires REAPER v6.80+ and ReaImGui extension.\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 Developed by Mariow.\par}
+}]]></description>
+        <link rel="website">https://github.com/Geeksound/Reaper_Scripts-Mariow</link>
+      </metadata>
+      <version name="1.0" author="Mariow" time="2025-11-12T00:00:00Z">
+        <changelog><![CDATA[
+  v1.0 (2025-11-12)
+  - Initial release
+  - Small floating ImGui window with a single button
+  - Button color and label indicate current LINKED / UNLINKED state
+]]></changelog>
+        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/PROTOOLS/LinkUnlink-TimelineANDEdit-SelOneKNOB.lua</source>
+      </version>
+    </reapack>
   </category>
   <metadata>
     <description><![CDATA[
