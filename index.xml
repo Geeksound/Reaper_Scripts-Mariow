@@ -1168,6 +1168,35 @@ v1.0 (2025-11-10)
         <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/PROTOOLS/SyncPoint-ToEditCursor.lua</source>
       </version>
     </reapack>
+    <reapack name="Paste-ToFill.lua" type="script" desc="Paste-ToFill">
+      <metadata>
+        <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
+{\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
+\widowctrl\hyphauto
+
+{\pard\ql\f0\sa180\li0\fi0\b\fs40\cf1 Creates Razor Edits from Time Selection and executes MRX Paste To Fill\par}
+{\pard\ql\f0\sa180\li0\fi0\b\fs40\cf1   \par}
+{\pard \ql \f0 \sa180 \li0 \fi0 \outlinelevel0 \b \fs36 Paste-ToFill\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 Reproduces Pro Tools "Paste to Fill" in REAPER.\par}
+{\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab Creates Razor Edits matching the current Time Selection on all selected tracks,\par}
+{\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab Runs the full MRX Paste To Fill process in a single undo step,\par}
+{\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab Designed for fast, precise editing workflows.\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 Compatible with REAPER 7.0 and later.\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 Developed by Mariow & Benmrx.\par}
+}]]></description>
+        <link rel="website">https://github.com/Geeksound/Reaper_Scripts-Mariow</link>
+      </metadata>
+      <version name="1.0" author="Mariow/Benmrx" time="2025-11-12T00:00:00Z">
+        <changelog><![CDATA[
+v1.0 (2025-11-12)
+- Initial release
+- Creates Razor Edits from the Time Selection on selected tracks
+- Executes full MRX "Paste To Fill" logic within a single Undo Block
+- Simplified, organized, and commented version based on MRX PasteToFill v1.1 (Ben Kersten)
+]]></changelog>
+        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/PROTOOLS/Paste-ToFill.lua</source>
+      </version>
+    </reapack>
   </category>
   <metadata>
     <description><![CDATA[
