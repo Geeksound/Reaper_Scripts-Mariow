@@ -1278,6 +1278,64 @@ v1.0 (2025-11-12)
         <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/PROTOOLS/LinkUnlink-TlineANDedit-SelOneKNOB.lua</source>
       </version>
     </reapack>
+    <reapack name="PlayLoop.lua" type="script" desc="PlayLoop (Pro Tools style)">
+      <metadata>
+        <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
+{\colortbl;\red0\green128\blue0;\red255\green0\blue0;}
+\widowctrl\hyphauto
+
+{\pard\ql\f0\sa180\li0\fi0\b\fs40 GoTo Loop Start and Play (Reaper, Pro Tools style)\par}
+{\pard \ql \f0 \sa180 \li0 \fi0\outlinelevel0\fs36 Script functionality\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 Saves current Edit Cursor, jumps to Loop Start, plays, and restores cursor after playback stops.\par}
+{\pard \ql \f0 \sa0 \li360\fi-360 \bullet \tx360\tab Disables preroll if active,\par}
+{\pard \ql \f0 \sa0 \li360\fi-360 \bullet \tx360\tab Saves Edit Cursor to SWS slot 1,\par}
+{\pard \ql \f0 \sa0 \li360\fi-360 \bullet \tx360\tab Jumps to Loop Start and starts playback,\par}
+{\pard \ql \f0 \sa0 \li360\fi-360 \bullet \tx360\tab Restores Edit Cursor after playback stops.\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 Requires REAPER v6.80+ and SWS Extension.\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 Developed by Mariow.\par}
+}]]></description>
+        <link rel="website">https://github.com/Geeksound/Reaper_Scripts-Mariow</link>
+      </metadata>
+      <version name="1.0" author="Mariow" time="2025-11-12T00:00:00Z">
+        <changelog><![CDATA[
+  v1.0 (2025-11-12)
+  - Initial implementation of GoTo Loop Start and Play
+  - Disables preroll if active
+  - Saves and restores Edit Cursor (SWS slot 1)
+  - Mimics Pro Tools behavior for Edit Selection vs Loop Points
+]]></changelog>
+        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/PROTOOLS/PlayLoop.lua</source>
+      </version>
+    </reapack>
+    <reapack name="PlayTimeSelection.lua" type="script" desc="Play TimeSelection (Pro Tools style)">
+      <metadata>
+        <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
+{\colortbl;\red0\green128\blue0;\red255\green0\blue0;}
+\widowctrl\hyphauto
+
+{\pard\ql\f0\sa180\li0\fi0\b\fs40 GoTo Time Selection and Play (Reaper, Pro Tools style)\par}
+{\pard \ql \f0 \sa180 \li0 \fi0\outlinelevel0\fs36 Script functionality\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 Saves current Edit Cursor, jumps to Time Selection start (if defined), plays, and restores cursor after playback stops.\par}
+{\pard \ql \f0 \sa0 \li360\fi-360 \bullet \tx360\tab Disables preroll if active,\par}
+{\pard \ql \f0 \sa0 \li360\fi-360 \bullet \tx360\tab Saves Edit Cursor to SWS slot 1,\par}
+{\pard \ql \f0 \sa0 \li360\fi-360 \bullet \tx360\tab Jumps to Time Selection start if defined, otherwise plays from Edit Cursor,\par}
+{\pard \ql \f0 \sa0 \li360\fi-360 \bullet \tx360\tab Restores Edit Cursor after playback stops.\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 Requires REAPER v6.80+ and SWS Extension.\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 Developed by Mariow.\par}
+}]]></description>
+        <link rel="website">https://github.com/Geeksound/Reaper_Scripts-Mariow</link>
+      </metadata>
+      <version name="1.0" author="Mariow" time="2025-11-12T00:00:00Z">
+        <changelog><![CDATA[
+  v1.0 (2025-11-12)
+  - Initial implementation of GoTo TimeSel and Play
+  - Disables preroll if active
+  - Saves and restores Edit Cursor (SWS slot 1)
+  - Plays from Edit Cursor if no Time Selection is defined
+]]></changelog>
+        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/PROTOOLS/PlayTimeSelection.lua</source>
+      </version>
+    </reapack>
   </category>
   <metadata>
     <description><![CDATA[
