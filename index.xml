@@ -1139,34 +1139,38 @@ v1.0 (2025-11-10)
         <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/View/AdvancedFind.lua</source>
       </version>
     </reapack>
-    <category name="PROTOOLS">
-      <reapack name="SyncPoint-ToEditCursor.lua" type="script" desc="Move item so that Snap Offset aligns with Edit Cursor (Pro Tools K)">
-        <metadata>
-          <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
+  </category>
+  <category name="PROTOOLS">
+    <reapack name="SyncPoint-ToEditCursor.lua" type="script" desc="Move item so that Snap Offset aligns with Edit Cursor (Pro Tools K)">
+      <metadata>
+        <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
 {\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
 \widowctrl\hyphauto
 
-{\pard\ql\f0\sa180\li0\fi0\b\fs40\cf1 Emulates Pro Tools 'K' shortcut behavior in REAPER.\par}
-{\pard\ql\f0\sa180\li0\fi0\b\fs36\cf1 Move item so that Snap Offset aligns with Edit Cursor.\par}
-{\pard \ql \f0 \sa180 \li0 \fi0 \fs28 Moves selected item(s) so their Snap Offset aligns exactly with the Edit Cursor position.\par}
-{\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab Useful for field recording or precise sync editing workflows.\par}
-{\pard \ql \f0 \sa180 \li0 \fi0 \fs28 Same behavior as Pro Tools 'K' command.\par}
-{\pard \ql \f0 \sa180 \li0 \fi0 This script was developed with the help of GitHub Copilot.\par}
+{\pard\ql\f0\sa180\li0\fi0\b\fs40\cf1 Move item so that Snap Offset aligns with Edit Cursor (Pro Tools K)\par}
+{\pard\ql\f0\sa180\li0\fi0\b\fs40\cf1   \par}
+{\pard \ql \f0 \sa180 \li0 \fi0 \outlinelevel0 \b \fs36 SyncPoint-ToEditCursor\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 Emulates the Pro Tools 'K' shortcut behavior in REAPER.\par}
+{\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab Moves selected item(s) so that their Snap Offset aligns exactly with the Edit Cursor position,\par}
+{\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab Useful for field recording or precise sync editing workflows,\par}
+{\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab Equivalent to 'CF Editing/SnapOffsetToEditCursor' functionality.\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 Compatible with REAPER 7.0 and later.\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 Developed by Mariow.\par}
 }]]></description>
-          <link rel="website">https://github.com/Geeksound/Reaper_Scripts-Mariow</link>
-        </metadata>
-        <version name="1.0" author="Mariow" time="2025-11-12T00:00:00Z">
-          <changelog><![CDATA[
-      v1.0 (2025-11-12)
-      - Initial release
-      - Added Pro Tools 'K' behavior for Snap Offset alignment
-    ]]></changelog>
-          <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/PROTOOLS/SyncPoint-ToEditCursor.lua</source>
-        </version>
-      </reapack>
-    </category>
-    <metadata>
-      <description><![CDATA[
+        <link rel="website">https://github.com/Geeksound/Reaper_Scripts-Mariow</link>
+      </metadata>
+      <version name="1.0" author="Mariow" time="2025-11-12T00:00:00Z">
+        <changelog><![CDATA[
+  v1.0 (2025-11-12)
+  - Initial release
+  - Emulates Pro Tools 'K' shortcut: moves selected item(s) so Snap Offset aligns with Edit Cursor
+]]></changelog>
+        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/PROTOOLS/SyncPoint-ToEditCursor.lua</source>
+      </version>
+    </reapack>
+  </category>
+  <metadata>
+    <description><![CDATA[
 {\rtf1\ansi\deff0{\fonttbl{\f0\fswiss Helvetica;}{\f1 Courier;}}
 {\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
 \widowctrl\hyphauto
@@ -1217,6 +1221,5 @@ Cockos Forum
 }}}\par}
 }
 ]]></description>
-    </metadata>
-    </index>
-
+  </metadata>
+</index>
