@@ -1248,7 +1248,7 @@ v1.0 (2025-11-12)
   - Initial release
   - Toggle Timeline / Edit Selection link/unlink (Pro Tools style)
 ]]></changelog>
-        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/PROTOOLS/LinkUnlink-TimelineANDEdit-Sel.lua</source>
+        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/PROTOOLS/LinkUnlink-TlineANDedit-Sel.lua</source>
       </version>
     </reapack>
     <reapack name="LinkUnlink-TimelineANDEdit-SelOneKNOB.lua" type="script" desc="Toggle Link/Unlink TimelineEdit Selection (ImGui)">
@@ -1275,7 +1275,7 @@ v1.0 (2025-11-12)
   - Small floating ImGui window with a single button
   - Button color and label indicate current LINKED / UNLINKED state
 ]]></changelog>
-        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/PROTOOLS/LinkUnlink-TimelineANDEdit-SelOneKNOB.lua</source>
+        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/PROTOOLS/LinkUnlink-TlineANDedit-SelOneKNOB.lua</source>
       </version>
     </reapack>
   </category>
