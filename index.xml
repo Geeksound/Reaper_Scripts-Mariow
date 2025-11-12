@@ -1165,9 +1165,8 @@ v1.0 (2025-11-10)
         </version>
       </reapack>
     </category>
-  </category>
-  <metadata>
-    <description><![CDATA[
+    <metadata>
+      <description><![CDATA[
 {\rtf1\ansi\deff0{\fonttbl{\f0\fswiss Helvetica;}{\f1 Courier;}}
 {\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
 \widowctrl\hyphauto
@@ -1218,5 +1217,6 @@ Cockos Forum
 }}}\par}
 }
 ]]></description>
-  </metadata>
-</index>
+    </metadata>
+    </index>
+
