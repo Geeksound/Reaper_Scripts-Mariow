@@ -1,5 +1,5 @@
 --[[
-@description Move item so that Snap Offset aligns with Edit Cursor (Pro Tools K)
+@description SyncPoint-ToEditCursor
 @version 1.0
 @author Mariow
 @changelog

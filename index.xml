@@ -1141,7 +1141,7 @@ v1.0 (2025-11-10)
     </reapack>
   </category>
   <category name="PROTOOLS">
-    <reapack name="SyncPoint-ToEditCursor.lua" type="script" desc="Move item so that Snap Offset aligns with Edit Cursor (Pro Tools K)">
+    <reapack name="SyncPoint-ToEditCursor.lua" type="script" desc="SyncPoint-ToEditCursor">
       <metadata>
         <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
 {\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
