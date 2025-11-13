@@ -1075,6 +1075,33 @@ v1.0 (2025-11-10)
         <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/Utility/MoveItem-OneKNOB.lua</source>
       </version>
     </reapack>
+    <reapack name="GoTo-Markers.lua" type="script" desc="GoTo Markers (ImGui)">
+      <metadata>
+        <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
+{\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
+\widowctrl\hyphauto
+
+{\pard\ql\f0\sa180\li0\fi0\b\fs40\cf1 Go To Marker (ImGui)\par}
+{\pard\ql\f0\sa180\li0\fi0\b\fs36\cf0 Utility script to jump to a marker by number.\par}
+{\pard\ql\f0\sa180\li0\fi0\fs24 Features:\par}
+{\pard\ql\f0\sa180\li280\fi0\fs24 - Input field to type marker number\par}
+{\pard\ql\f0\sa180\li280\fi0\fs24 - Press Enter to jump directly to marker\par}
+{\pard\ql\f0\sa180\li280\fi0\fs24 - Lightweight and minimal ImGui interface\par}
+{\pard\ql\f0\sa180\li0\fi0\fs24 Compatible with REAPER 7.0+\par}
+}
+]]></description>
+        <link rel="website">https://github.com/Geeksound/Reaper_Scripts-Mariow</link>
+      </metadata>
+      <version name="1.0" author="Mariow" time="2025-11-12T00:00:00Z">
+        <changelog><![CDATA[
+v1.0 (2025-11-12)
+- Initial release: simple Go To Marker window using ReaImGui
+- Pressing Return/Enter in the Marker input field jumps directly to that marker
+- Minor improvements for ImGui input handling
+]]></changelog>
+        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/Utility/GoTo-Markers.lua</source>
+      </version>
+    </reapack>
   </category>
   <category name="View">
     <reapack name="Interactive-TC-Display.lua" type="script" desc="Interactive-TC-Display">
