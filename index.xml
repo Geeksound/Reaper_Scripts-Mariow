@@ -1409,7 +1409,7 @@ v1.0 (2025-11-17)
 - Implements Pro Tools Alt+Shift+TAB reverse selection behavior
 - Supports tab-to-transient, fade mode, and item boundary extension
 ]]></changelog>
-        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/ProTools_TAB/(ProTools)TAB-AltShift.lua</source>
+        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/ProTools_TAB/(Protools)TAB-AltShift.lua</source>
       </version>
     </reapack>
     <reapack name="(ProTools)TAB-Ctrl.lua" type="script" desc="ProTools TAB - Ctrl+TAB (Select Next Item)">
@@ -1442,7 +1442,7 @@ v1.0 (2025-11-17)
 - Emulates ProTools Ctrl+TAB item navigation
 - Selects the next item on the selected track
 ]]></changelog>
-        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/ProTools_TAB/(ProTools)TAB-Ctrl.lua</source>
+        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/ProTools_TAB/(Protools)TAB-Ctrl.lua</source>
       </version>
     </reapack>
     <reapack name="(ProTools)TAB-Ctrl(Alt).lua" type="script" desc="ProTools TAB - (Ctrl/Alt)+TAB (Select Previous Item)">
@@ -1475,7 +1475,7 @@ v1.0 (2025-11-17)
 - Emulates ProTools (Ctrl/Alt)+TAB: select previous item
 - Moves cursor and selection strictly item-by-item in reverse
 ]]></changelog>
-        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/ProTools_TAB/(ProTools)TAB-Ctrl(Alt).lua</source>
+        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/ProTools_TAB/(Protools)TAB-Ctrl(Alt).lua</source>
       </version>
     </reapack>
     <reapack name="(Protools)TAB-FadeToggleShortcut.lua" type="script" desc="ProTools TAB - Toggle Fade (Keyboard Shortcut)">
@@ -1577,7 +1577,7 @@ v1.0 (2025-11-17)
 - Implements full ProTools-style Shift+TAB extension logic
 - Supports TabToTransient, Fade, and Default modes
 ]]></changelog>
-        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/ProTools_TAB/(ProTools)TAB-Shift.lua</source>
+        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/ProTools_TAB/(Protools)TAB-Shift.lua</source>
       </version>
     </reapack>
     <reapack name="(Protools)TAB-TransientToggleShortcut.lua" type="script" desc="ProTools TAB - Toggle TabToTransient (Keyboard Shortcut)">
