@@ -1822,6 +1822,48 @@ v1.0 (2025-06-07)
         <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/ProTools_TAB/(Protools)TAB(imgui).lua</source>
       </version>
     </reapack>
+    <reapack name="(Protools)TAB-Instructions.lua" type="script" desc="ProTools TAB - Manual and Help (ImGui)">
+      <metadata>
+        <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
+{\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
+\widowctrl\hyphauto
+
+{\pard\ql\f0\sa180\li0\fi0\b\fs40 ProTools TAB – Manual & Help (ImGui)\par}
+{\pard\ql\f0\sa180\li0\fi0 Complete documentation and system diagnostics for the ProTools-like TAB system for REAPER.\par}
+
+{\pard\ql\f0\sa180\li0\fi0 Contains:\par}
+{\pard\ql\f0\sa0\li360\fi-360 \bullet \tx360\tab Installation guide,\par}
+{\pard\ql\f0\sa0\li360\fi-360 \bullet \tx360\tab Usage instructions for the TAB workflow,\par}
+{\pard\ql\f0\sa0\li360\fi-360 \bullet \tx360\tab Full developer documentation (ExtState + sync logic),\par}
+{\pard\ql\f0\sa0\li360\fi-360 \bullet \tx360\tab System Check page verifying all files are installed correctly,\par}
+{\pard\ql\f0\sa0\li360\fi-360 \bullet \tx360\tab Buttons to open folder or GitHub repository.\par}
+
+{\pard\ql\f0\sa180\li0\fi0 Also includes real-time ImGui UI with multiple tabs (Installation, Usage, Advanced, System Check, About).\par}
+{\pard\ql\f0\sa180\li0\fi0 Designed to accompany the full ProTools TAB Pack.\par}
+{\pard\ql\f0\sa180\li0\fi0 Developed by Mariow.\par}
+
+}]]></description>
+        <link rel="website">https://github.com/Geeksound/Reaper_Scripts-Mariow</link>
+      </metadata>
+      <version name="1.1" author="Mariow" time="2025-06-09T00:00:00Z">
+        <changelog><![CDATA[
+v1.1 (2025-06-09)
+- Added System Check tab
+- Added GitHub button
+- Added "Open Scripts Folder" button
+]]></changelog>
+        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/ProTools_TAB/(Protools)TAB-Instructions.lua</source>
+      </version>
+      <version name="1.0" author="Mariow" time="2025-06-08T00:00:00Z">
+        <changelog><![CDATA[
+v1.0 (2025-06-08)
+- Initial release
+- Full documentation for installation, usage and developer notes
+- ImGui interface with multi-tab layout
+]]></changelog>
+        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/ProTools_TAB/(Protools)TAB-Instructions.lua</source>
+      </version>
+    </reapack>
   </category>
   <metadata>
     <description><![CDATA[
