@@ -1500,6 +1500,13 @@ v1.0 (2025-11-17)
 }]]></description>
         <link rel="website">https://github.com/Geeksound/Reaper_Scripts-Mariow</link>
       </metadata>
+      <version name="1.1" author="Mariow" time="2025-06-07T00:00:00Z">
+        <changelog><![CDATA[
+v1.1 (2025-06-07)
+- RS Number update in code
+]]></changelog>
+        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/ProTools_TAB/(Protools)TAB-FadeToggleShortcut.lua</source>
+      </version>
       <version name="1.0" author="Mariow" time="2025-06-07T00:00:00Z">
         <changelog><![CDATA[
 v1.0 (2025-06-07)
@@ -1604,6 +1611,13 @@ v1.0 (2025-11-17)
 }]]></description>
         <link rel="website">https://github.com/Geeksound/Reaper_Scripts-Mariow</link>
       </metadata>
+      <version name="1.1" author="Mariow" time="2025-06-07T00:00:00Z">
+        <changelog><![CDATA[
+v1.1 (2025-06-07)
+- RS Number update in code
+]]></changelog>
+        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/ProTools_TAB/(Protools)TAB-TransientToggleShortcut.lua</source>
+      </version>
       <version name="1.0" author="Mariow" time="2025-06-07T00:00:00Z">
         <changelog><![CDATA[
 v1.0 (2025-06-07)
@@ -1640,6 +1654,13 @@ v1.0 (2025-06-07)
 }]]></description>
         <link rel="website">https://github.com/Geeksound/Reaper_Scripts-Mariow</link>
       </metadata>
+      <version name="1.1" author="Mariow" time="2025-06-07T00:00:00Z">
+        <changelog><![CDATA[
+v1.1 (2025-06-07)
+- RS Number update in code
+]]></changelog>
+        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/ProTools_TAB/(Protools)TAB-TransientToggleToolbarID.lua</source>
+      </version>
       <version name="1.0" author="Mariow" time="2025-06-07T00:00:00Z">
         <changelog><![CDATA[
 v1.0 (2025-06-07)
@@ -1769,6 +1790,13 @@ v1.0 (2025-06-07)
 }]]></description>
         <link rel="website">https://github.com/Geeksound/Reaper_Scripts-Mariow</link>
       </metadata>
+      <version name="1.1" author="Mariow" time="2025-06-07T00:00:00Z">
+        <changelog><![CDATA[
+v1.1 (2025-06-07)
+- RS Number update in code
+]]></changelog>
+        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/ProTools_TAB/(Protools)TAB(imgui).lua</source>
+      </version>
       <version name="1.0" author="Mariow" time="2025-06-07T00:00:00Z">
         <changelog><![CDATA[
 v1.0 (2025-06-07)

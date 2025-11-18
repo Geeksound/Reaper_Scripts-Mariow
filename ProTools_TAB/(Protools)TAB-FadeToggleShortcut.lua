@@ -1,8 +1,10 @@
 --[[
 @description ProTools TAB - Toggle Fade (Keyboard Shortcut)
-@version 1.0
+@version 1.1
 @author Mariow
 @changelog
+    V1.1 (2025-06-07)
+    - RS Number Upadate in code
     v1.0 (2025-06-07)
     - Initial release
 @provides
@@ -50,8 +52,8 @@ end
 
 -- 🔵 MISE À JOUR DES BOUTONS TOOLBAR
 do
-    local fade_commandID = reaper.NamedCommandLookup("_RS2d59b548b081423aba5dd398d28248e0299189a2") -- "RS1"
-    local transient_commandID = reaper.NamedCommandLookup("_RS36d30cfe1671aaa3a7c08bfebbce56c43dae2c20") -- "RS2"
+    local fade_commandID = reaper.NamedCommandLookup("_RS9660f424e64c0735a524774e52e173a6e638bdfa") -- "RS1"
+    local transient_commandID = reaper.NamedCommandLookup("_RSb0daa3cdff54c89e91d18544ce23fca5f3290582") -- "RS2"
     local sectionID = 0 -- main section
 
     local fade_enabled = reaper.GetExtState(namespace, "Fade") == "1"
