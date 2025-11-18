@@ -1377,6 +1377,410 @@ v1.0 (2025-11-12)
       </version>
     </reapack>
   </category>
+  <category name="ProTools_TAB">
+    <reapack name="(ProTools)TAB-AltShift.lua" type="script" desc="ProTools TAB - Alt+Shift+TAB (Extend Selection Left)">
+      <metadata>
+        <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
+{\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
+\widowctrl\hyphauto
+
+{\pard\ql\f0\sa180\li0\fi0\b\fs40\cf1 ProTools TAB - Alt+Shift+TAB (Extend Selection / Time Selection Left)\par}
+{\pard\ql\f0\sa180\li0\fi0   \par}
+{\pard \ql \f0 \sa180 \li0 \fi0 \outlinelevel0 \b \fs36 ProTools TAB - Alt+Shift+TAB\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 Implements the Alt+Shift+TAB reverse navigation behavior from Pro Tools.\par}
+
+{\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab TabToTransient Mode: extends Time Selection to previous transient,\par}
+{\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab Fade Mode: extends to fade points or item boundaries leftwards,\par}
+{\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab Default Mode: extends to the start of the previous item.\par}
+
+{\pard\ql\f0\sa180\li0\fi0 Fully respects the contextual rules of the ProTools TAB workflow.\par}
+{\pard\ql\f0\sa180\li0\fi0 Updates Time Selection or items in a ProTools-like manner.\par}
+{\pard\ql\f0\sa180\li0\fi0 Supports ImGui interface, toolbar buttons, and shared ExtState.\par}
+
+{\pard\ql\f0\sa180\li0\fi0 Compatible with REAPER 7.0 and later.\par}
+{\pard\ql\f0\sa180\li0\fi0 Developed by Mariow.\par}
+}]]></description>
+        <link rel="website">https://github.com/Geeksound/Reaper_Scripts-Mariow</link>
+      </metadata>
+      <version name="1.0" author="Mariow" time="2025-11-17T00:00:00Z">
+        <changelog><![CDATA[
+v1.0 (2025-11-17)
+- Initial release
+- Implements Pro Tools Alt+Shift+TAB reverse selection behavior
+- Supports tab-to-transient, fade mode, and item boundary extension
+]]></changelog>
+        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/ProTools_TAB/(ProTools)TAB-AltShift.lua</source>
+      </version>
+    </reapack>
+    <reapack name="(ProTools)TAB-Ctrl.lua" type="script" desc="ProTools TAB - Ctrl+TAB (Select Next Item)">
+      <metadata>
+        <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
+{\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
+\widowctrl\hyphauto
+
+{\pard\ql\f0\sa180\li0\fi0\b\fs40\cf1 ProTools TAB - Ctrl+TAB (Select Next Item)\par}
+{\pard\ql\f0\sa180\li0\fi0   \par}
+{\pard \ql \f0 \sa180 \li0 \fi0 \outlinelevel0 \b \fs36 ProTools TAB - Ctrl+TAB\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 Emulates the Ctrl+TAB behavior from Pro Tools: select the next item on the selected track.\par}
+
+{\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab Selects the next item on the active track,\par}
+{\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab Follows ProTools’ item navigation logic,\par}
+{\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab Ideal for fast and precise keyboard-driven editing.\par}
+
+{\pard\ql\f0\sa180\li0\fi0 Undo-friendly with descriptive Undo block.\par}
+{\pard\ql\f0\sa180\li0\fi0 Perfect for rapid navigation through consecutive items.\par}
+
+{\pard\ql\f0\sa180\li0\fi0 Compatible with REAPER 7.0 and later.\par}
+{\pard\ql\f0\sa180\li0\fi0 Developed by Mariow.\par}
+}]]></description>
+        <link rel="website">https://github.com/Geeksound/Reaper_Scripts-Mariow</link>
+      </metadata>
+      <version name="1.0" author="Mariow" time="2025-11-17T00:00:00Z">
+        <changelog><![CDATA[
+v1.0 (2025-11-17)
+- Initial release
+- Emulates ProTools Ctrl+TAB item navigation
+- Selects the next item on the selected track
+]]></changelog>
+        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/ProTools_TAB/(ProTools)TAB-Ctrl.lua</source>
+      </version>
+    </reapack>
+    <reapack name="(ProTools)TAB-Ctrl(Alt).lua" type="script" desc="ProTools TAB - (Ctrl/Alt)+TAB (Select Previous Item)">
+      <metadata>
+        <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
+{\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
+\widowctrl\hyphauto
+
+{\pard\ql\f0\sa180\li0\fi0\b\fs40\cf1 ProTools TAB - (Ctrl/Alt)+TAB (Select Previous Item)\par}
+{\pard\ql\f0\sa180\li0\fi0   \par}
+{\pard \ql \f0 \sa180 \li0 \fi0 \outlinelevel0 \b \fs36 ProTools TAB - Previous Item\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 Emulates the (Ctrl/Alt)+TAB reverse item-selection behavior from ProTools.\par}
+
+{\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab Moves the edit cursor to the previous item on selected track(s),\par}
+{\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab Selects that item, extending the selection item-by-item in reverse order,\par}
+{\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab Integrates seamlessly with the ProTools TAB workflow and shared ExtState.\par}
+
+{\pard\ql\f0\sa180\li0\fi0 Ideal for keyboard-driven selection and reverse navigation.\par}
+{\pard\ql\f0\sa180\li0\fi0 Undo-friendly with clear descriptive Undo block.\par}
+
+{\pard\ql\f0\sa180\li0\fi0 Compatible with REAPER 7.0 and later.\par}
+{\pard\ql\f0\sa180\li0\fi0 Developed by Mariow.\par}
+}]]></description>
+        <link rel="website">https://github.com/Geeksound/Reaper_Scripts-Mariow</link>
+      </metadata>
+      <version name="1.0" author="Mariow" time="2025-11-17T00:00:00Z">
+        <changelog><![CDATA[
+v1.0 (2025-11-17)
+- Initial release
+- Emulates ProTools (Ctrl/Alt)+TAB: select previous item
+- Moves cursor and selection strictly item-by-item in reverse
+]]></changelog>
+        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/ProTools_TAB/(ProTools)TAB-Ctrl(Alt).lua</source>
+      </version>
+    </reapack>
+    <reapack name="(Protools)TAB-FadeToggleShortcut.lua" type="script" desc="ProTools TAB - Toggle Fade (Keyboard Shortcut)">
+      <metadata>
+        <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
+{\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
+\widowctrl\hyphauto
+
+{\pard\ql\f0\sa180\li0\fi0\b\fs40\cf1 ProTools TAB - Toggle Fade (Keyboard Shortcut)\par}
+{\pard\ql\f0\sa180\li0\fi0    \par}
+{\pard \ql \f0 \sa180 \li0 \fi0 \outlinelevel0 \b \fs36 Fade Toggle (Shortcut)\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 Keyboard–shortcut version of the Fade button.\par}
+
+{\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab Enables or disables Fade mode,\par}
+{\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab Automatically deactivates TabToTransient (ProTools behavior),\par}
+{\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab Updates toolbar buttons, ImGui interface, and shared ExtState.\par}
+
+{\pard\ql\f0\sa180\li0\fi0 Allows a complete keyboard-driven workflow without losing synchronization.\par}
+
+{\pard\ql\f0\sa180\li0\fi0 Compatible with REAPER 7.0 and later.\par}
+{\pard\ql\f0\sa180\li0\fi0 Developed by Mariow.\par}
+}]]></description>
+        <link rel="website">https://github.com/Geeksound/Reaper_Scripts-Mariow</link>
+      </metadata>
+      <version name="1.0" author="Mariow" time="2025-06-07T00:00:00Z">
+        <changelog><![CDATA[
+v1.0 (2025-06-07)
+- Initial release
+- Keyboard shortcut version of the Fade button
+- Deactivates TabToTransient when engaged
+- Updates ExtState, toolbar buttons, and ImGui
+]]></changelog>
+        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/ProTools_TAB/(Protools)TAB-FadeToggleShortcut.lua</source>
+      </version>
+    </reapack>
+    <reapack name="(Protools)TAB-FadeToggleToolbarID.lua" type="script" desc="ProTools TAB - Toggle Fade (Toolbar Button RS1)">
+      <metadata>
+        <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
+{\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
+\widowctrl\hyphauto
+
+{\pard\ql\f0\sa180\li0\fi0\b\fs40\cf1 ProTools TAB - Toggle Fade (Toolbar Button RS1)\par}
+{\pard\ql\f0\sa180\li0\fi0   \par}
+{\pard \ql \f0 \sa180 \li0 \fi0 \outlinelevel0 \b \fs36 Fade Toggle (Toolbar)\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 Toolbar button version of the Fade toggle, without the need for an ImGui window.\par}
+
+{\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab Reads current Fade state from ExtState,\par}
+{\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab Toggles Fade ON/OFF,\par}
+{\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab Updates its own toolbar button state,\par}
+{\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab Notifies the main ImGui interface via ExtState.\par}
+
+{\pard\ql\f0\sa180\li0\fi0 Fully synchronized with the ImGui interface, the Transient button, and related shortcuts.\par}
+
+{\pard\ql\f0\sa180\li0\fi0 Compatible with REAPER 7.0 and later.\par}
+{\pard\ql\f0\sa180\li0\fi0 Developed by Mariow.\par}
+}]]></description>
+        <link rel="website">https://github.com/Geeksound/Reaper_Scripts-Mariow</link>
+      </metadata>
+      <version name="1.0" author="Mariow" time="2025-06-07T00:00:00Z">
+        <changelog><![CDATA[
+v1.0 (2025-06-07)
+- Initial release
+- Toolbar button for toggling Fade mode
+- Syncs with ImGui interface, Transient toggle, and keyboard shortcuts
+]]></changelog>
+        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/ProTools_TAB/(Protools)TAB-FadeToggleToolbarID.lua</source>
+      </version>
+    </reapack>
+    <reapack name="(ProTools)TAB-Shift.lua" type="script" desc="ProTools TAB - Shift+TAB (Extend Selection / Time Selection)">
+      <metadata>
+        <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
+{\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
+\widowctrl\hyphauto
+
+{\pard\ql\f0\sa180\li0\fi0\b\fs40\cf1 ProTools TAB - Shift+TAB (Extend Selection / Time Selection)\par}
+{\pard\ql\f0\sa180\li0\fi0   \par}
+{\pard \ql \f0 \sa180 \li0 \fi0 \outlinelevel0 \b \fs36 Shift+TAB Behavior\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 Implements the Shift+TAB feature from ProTools within the REAPER ProTools TAB workflow.\par}
+
+{\pard \ql \f0 \sa180 \li0 \fi0 Depending on the active mode:\par}
+
+{\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab \b TabToTransient Mode\b0 : extends Time Selection to the next transient,\par}
+{\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab \b Fade Mode\b0 : extends selection to fade points and item boundaries,\par}
+{\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab \b Default Mode\b0 : extends selection to the end of the next item.\par}
+
+{\pard\ql\f0\sa180\li0\fi0 Fully respects ProTools-style contextual selection rules.\par}
+{\pard\ql\f0\sa180\li0\fi0 Works seamlessly with ImGui interface, toolbar buttons, ExtState.\par}
+{\pard\ql\f0\sa180\li0\fi0 Ideal for transient-accurate or boundary-accurate extended editing.\par}
+
+{\pard\ql\f0\sa180\li0\fi0 Compatible with REAPER 7.0 and later.\par}
+{\pard\ql\f0\sa180\li0\fi0 Developed by Mariow.\par}
+}]]></description>
+        <link rel="website">https://github.com/Geeksound/Reaper_Scripts-Mariow</link>
+      </metadata>
+      <version name="1.0" author="Mariow" time="2025-11-17T00:00:00Z">
+        <changelog><![CDATA[
+v1.0 (2025-11-17)
+- Initial release
+- Implements full ProTools-style Shift+TAB extension logic
+- Supports TabToTransient, Fade, and Default modes
+]]></changelog>
+        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/ProTools_TAB/(ProTools)TAB-Shift.lua</source>
+      </version>
+    </reapack>
+    <reapack name="(Protools)TAB-TransientToggleShortcut.lua" type="script" desc="ProTools TAB - Toggle TabToTransient (Keyboard Shortcut)">
+      <metadata>
+        <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
+{\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
+\widowctrl\hyphauto
+
+{\pard\ql\f0\sa180\li0\fi0\b\fs40\cf1 ProTools TAB - TabToTransient Toggle (Shortcut)\par}
+{\pard\ql\f0\sa180\li0\fi0   \par}
+{\pard \ql \f0 \sa180 \li0 \fi0 \outlinelevel0 \b \fs36 Keyboard Shortcut Toggle\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 Keyboard–shortcut version of the TabToTransient button.\par}
+
+{\pard \ql \f0 \sa180 \li0 \fi0 \b Rules:\b0\par}
+
+{\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab Activates TabToTransient and disables Fade (ProTools behavior),\par}
+{\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab If already enabled: turns TabToTransient OFF and re-enables Fade,\par}
+{\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab Updates Transient & Fade toolbar buttons, ImGui, and ExtState.\par}
+
+{\pard\ql\f0\sa180\li0\fi0 Ensures consistent system behavior without mouse interaction.\par}
+
+{\pard\ql\f0\sa180\li0\fi0 Compatible with REAPER 7.0 and later.\par}
+{\pard\ql\f0\sa180\li0\fi0 Developed by Mariow.\par}
+}]]></description>
+        <link rel="website">https://github.com/Geeksound/Reaper_Scripts-Mariow</link>
+      </metadata>
+      <version name="1.0" author="Mariow" time="2025-06-07T00:00:00Z">
+        <changelog><![CDATA[
+v1.0 (2025-06-07)
+- Initial release
+- Keyboard shortcut for toggling TabToTransient
+- Disables Fade when activated, re-enables Fade when deactivated
+- Updates ExtState, toolbar buttons, and ImGui interface
+]]></changelog>
+        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/ProTools_TAB/(Protools)TAB-TransientToggleShortcut.lua</source>
+      </version>
+    </reapack>
+    <reapack name="(Protools)TAB-TransientToggleToolbarID.lua" type="script" desc="ProTools TAB - Toggle TabToTransientDisable Fade (Toolbar Button)">
+      <metadata>
+        <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
+{\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
+\widowctrl\hyphauto
+
+{\pard\ql\f0\sa180\li0\fi0\b\fs40\cf1 ProTools TAB - Toggle TabToTransient & Disable Fade (Toolbar Button)\par}
+{\pard\ql\f0\sa180\li0\fi0   \par}
+{\pard \ql \f0 \sa180 \li0 \fi0 \outlinelevel0 \b \fs36 Transient Toggle (Toolbar)\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 Toolbar button version of TabToTransient mode switching.\par}
+
+{\pard\ql\f0\sa180\li0\fi0\b Logic rules:\b0\par}
+
+{\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab If TabToTransient is ON → Fade is forced OFF,\par}
+{\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab If TabToTransient is OFF → mode is simply disabled,\par}
+{\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab Updates its own toolbar toggle state,\par}
+{\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab Forces Fade toolbar button OFF when required.\par}
+
+{\pard\ql\f0\sa180\li0\fi0 Fully synchronized with ImGui interface, keyboard shortcuts, and ExtState.\par}
+
+{\pard\ql\f0\sa180\li0\fi0 Compatible with REAPER 7.0 and later.\par}
+{\pard\ql\f0\sa180\li0\fi0 Developed by Mariow.\par}
+}]]></description>
+        <link rel="website">https://github.com/Geeksound/Reaper_Scripts-Mariow</link>
+      </metadata>
+      <version name="1.0" author="Mariow" time="2025-06-07T00:00:00Z">
+        <changelog><![CDATA[
+v1.0 (2025-06-07)
+- Initial release
+- Toolbar button for toggling TabToTransient mode
+- Forces Fade off when necessary
+- Syncs with ImGui, shortcuts, and ExtState
+]]></changelog>
+        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/ProTools_TAB/(Protools)TAB-TransientToggleToolbarID.lua</source>
+      </version>
+    </reapack>
+    <reapack name="(Protools)TAB.lua" type="script" desc="ProTools TAB - Contextual Tab Navigation (Items / Fades / Transients)">
+      <metadata>
+        <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
+{\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
+\widowctrl\hyphauto
+
+{\pard\ql\f0\sa180\li0\fi0\b\fs40\cf1 ProTools TAB - Contextual Tab Navigation\par}
+{\pard\ql\f0\sa180\li0\fi0   \par}
+{\pard \ql \f0 \sa180 \li0 \fi0 \outlinelevel0 \b\fs36 Contextual TAB Navigation\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 Reproduces ProTools-style TAB navigation according to active system mode.\par}
+
+{\pard\ql\f0\sa180\li0\fi0 Depending on the active mode:\par}
+
+{\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab Moves across item start/end boundaries,\par}
+{\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab Snaps to fade-in / fade-out edges in Fade mode,\par}
+{\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab Jumps transient-to-transient when TabToTransient is enabled.\par}
+
+{\pard\ql\f0\sa180\li0\fi0\b Behavior details:\b0\par}
+
+{\pard\ql\f0\sa0\li360\fi-360 \bullet \tx360\tab \b TabToTransient enabled\b0 : ProTools-like transient navigation,\par}
+{\pard\ql\f0\sa0\li360\fi-360 \bullet \tx360\tab \b Fade mode enabled\b0 : cycles through item start → fade-in end → fade-out start → item end,\par}
+{\pard\ql\f0\sa0\li360\fi-360 \bullet \tx360\tab \b Default mode\b0 : item start/end navigation.\par}
+
+{\pard\ql\f0\sa180\li0\fi0 Synchronization depends on shared ExtState:\par}
+{\pard\ql\f0\sa0\li360\fi-360 \bullet \tx360\tab "Fade",\par}
+{\pard\ql\f0\sa0\li360\fi-360 \bullet \tx360\tab "TabToTransient".\par}
+
+{\pard\ql\f0\sa180\li0\fi0 Controlled by ImGui, toolbar buttons, and shortcuts.\par}
+{\pard\ql\f0\sa180\li0\fi0 Completes the ProTools-like editing experience.\par}
+
+{\pard\ql\f0\sa180\li0\fi0 Compatible with REAPER 7.0 and later.\par}
+{\pard\ql\f0\sa180\li0\fi0 Developed by Mariow.\par}
+
+}]]></description>
+        <link rel="website">https://github.com/Geeksound/Reaper_Scripts-Mariow</link>
+      </metadata>
+      <version name="1.0" author="Mariow" time="2025-06-07T00:00:00Z">
+        <changelog><![CDATA[
+v1.0 (2025-06-07)
+- Initial release
+- Contextual TAB navigation for ProTools-style editing
+- Handles Items, Fades, and Transients depending on active mode
+- Syncs with shared ExtState and entire ProTools TAB ecosystem
+]]></changelog>
+        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/ProTools_TAB/(Protools)TAB.lua</source>
+      </version>
+    </reapack>
+    <reapack name="(Protools)TAB(alt).lua" type="script" desc="ProTools TAB - Contextual Reverse Tab Navigation (ALT+TAB)">
+      <metadata>
+        <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
+{\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
+\widowctrl\hyphauto
+
+{\pard\ql\f0\sa180\li0\fi0\b\fs40 ProTools TAB - Reverse Navigation (ALT+TAB)\par}
+{\pard\ql\f0\sa180\li0\fi0   \par}
+{\pard \ql \f0 \sa180 \li0 \fi0 \outlinelevel0 \b\fs36 Contextual Reverse TAB Navigation\par}
+{\pard \ql \f0 \sa180\li0\fi0 Emulates ProTools ALT+TAB navigation according to active system mode.\par}
+
+{\pard\ql\f0\sa180\li0\fi0 Depending on the active mode:\par}
+
+{\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab Jumps to previous item boundaries,\par}
+{\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab Snaps to previous fade-in / fade-out edges in Fade mode,\par}
+{\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab Jumps to previous transient when TabToTransient is active.\par}
+
+{\pard\ql\f0\sa180\li0\fi0\b Behavior details:\b0\par}
+
+{\pard\ql\f0\sa0\li360\fi-360 \bullet \tx360\tab \b TabToTransient enabled\b0 : mirrors backward Tab-to-Transient workflow,\par}
+{\pard\ql\f0\sa0\li360\fi-360 \bullet \tx360\tab \b Fade mode enabled\b0 : cycles backward through item end → fade-out start → fade-in end → item start,\par}
+{\pard\ql\f0\sa0\li360\fi-360 \bullet \tx360\tab \b Default mode\b0 : cycles backward through item end/start.\par}
+
+{\pard\ql\f0\sa180\li0\fi0 Synchronization depends on shared ExtState:\par}
+{\pard\ql\f0\sa0\li360\fi-360 \bullet \tx360\tab "Fade",\par}
+{\pard\ql\f0\sa0\li360\fi-360 \bullet \tx360\tab "TabToTransient".\par}
+
+{\pard\ql\f0\sa180\li0\fi0 Controlled by ImGui, toolbar buttons, and shortcuts.\par}
+{\pard\ql\f0\sa180\li0\fi0 Completes ProTools-like backward editing experience.\par}
+
+{\pard\ql\f0\sa180\li0\fi0 Compatible with REAPER 7.0 and later.\par}
+{\pard\ql\f0\sa180\li0\fi0 Developed by Mariow.\par}
+
+}]]></description>
+        <link rel="website">https://github.com/Geeksound/Reaper_Scripts-Mariow</link>
+      </metadata>
+      <version name="1.0" author="Mariow" time="2025-06-07T00:00:00Z">
+        <changelog><![CDATA[
+v1.0 (2025-06-07)
+- Initial release
+- Contextual reverse TAB navigation (ALT+TAB) for ProTools-style editing
+- Handles Items, Fades, and Transients depending on active mode
+- Syncs with shared ExtState and entire ProTools TAB ecosystem
+]]></changelog>
+        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/ProTools_TAB/(Protools)TAB(alt).lua</source>
+      </version>
+    </reapack>
+    <reapack name="(Protools)TAB(imgui).lua" type="script" desc="ProTools TAB - Main ImGui Controller (Fade / TabToTransient + ALT/SHIFT actions)">
+      <metadata>
+        <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
+{\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
+\widowctrl\hyphauto
+
+{\pard\ql\f0\sa180\li0\fi0\b\fs40 ProTools TAB - Main ImGui Controller\par}
+{\pard\ql\f0\sa180\li0\fi0 Core GUI for managing Fade / TabToTransient and ALT/SHIFT actions.\par}
+
+{\pard\ql\f0\sa180\li0\fi0 Features:\par}
+{\pard\ql\f0\sa0\li360\fi-360 \bullet \tx360\tab Shows current states of Fade and TabToTransient,\par}
+{\pard\ql\f0\sa0\li360\fi-360 \bullet \tx360\tab Mouse controls:\par}
+{\pard\ql\f0\sa0\li720\fi-360 \bullet \tx360\tab Normal click → Toggle Fade,\par}
+{\pard\ql\f0\sa0\li720\fi-360 \bullet \tx360\tab ALT+click → Enable TabToTransient and disable Fade,\par}
+{\pard\ql\f0\sa0\li720\fi-360 \bullet \tx360\tab SHIFT+click → Open REAPER Transient Detection window,\par}
+{\pard\ql\f0\sa0\li360\fi-360 \bullet \tx360\tab Fully synchronized with ExtState values from other scripts,\par}
+{\pard\ql\f0\sa0\li360\fi-360 \bullet \tx360\tab Updates toolbar button states and reacts to ALT_CLICK_REQUESTED flag.\par}
+
+{\pard\ql\f0\sa180\li0\fi0 Provides the visual and logical centerpiece of the ProTools TAB workflow inside REAPER.\par}
+{\pard\ql\f0\sa180\li0\fi0 Developed by Mariow.\par}
+
+}]]></description>
+        <link rel="website">https://github.com/Geeksound/Reaper_Scripts-Mariow</link>
+      </metadata>
+      <version name="1.0" author="Mariow" time="2025-06-07T00:00:00Z">
+        <changelog><![CDATA[
+v1.0 (2025-06-07)
+- Initial release
+- Core ImGui interface for ProTools TAB system
+- Manages Fade, TabToTransient, ALT/SHIFT actions
+- Fully synchronized with toolbar buttons, keyboard shortcuts, and ExtState
+]]></changelog>
+        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/ProTools_TAB/(Protools)TAB(imgui).lua</source>
+      </version>
+    </reapack>
+  </category>
   <metadata>
     <description><![CDATA[
 {\rtf1\ansi\deff0{\fonttbl{\f0\fswiss Helvetica;}{\f1 Courier;}}
