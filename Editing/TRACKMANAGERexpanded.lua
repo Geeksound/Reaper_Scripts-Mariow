@@ -1,8 +1,10 @@
 --[[
 @description TrackManager-Expanded
-@version 1.3
+@version 1.3.1
 @author Mariow
 @changelog
+  V1.3.1 (2025-11-18)
+  ImGui context
   V1.3 (2025-11-09)
   - Helpers IMgui and Option [alt]click like in PT
   v1.2 (2025-11-07)
@@ -35,7 +37,7 @@ local show_tracks_guide = true  -- état de la case à cocher
 local info = debug.getinfo(1, 'S')
 local script_path = info.source:match("@(.*)")
 -- Crée un contexte ImGui
-local ctx = reaper.ImGui_CreateContext('Demo Relance')
+local ctx = reaper.ImGui_CreateContext('TrackManager')
 --------------------------------------------------------------------
 ----- F I N D ------
 local show_tracks_search = false
