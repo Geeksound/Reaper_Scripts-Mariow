@@ -1845,6 +1845,13 @@ v1.0 (2025-06-07)
 }]]></description>
         <link rel="website">https://github.com/Geeksound/Reaper_Scripts-Mariow</link>
       </metadata>
+      <version name="1.2" author="Mariow" time="2025-11-18T00:00:00Z">
+        <changelog><![CDATA[
+v1.2 (2025-11-18)
+- Font Size
+]]></changelog>
+        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/ProTools_TAB/(Protools)TAB-Instructions.lua</source>
+      </version>
       <version name="1.1" author="Mariow" time="2025-06-09T00:00:00Z">
         <changelog><![CDATA[
 v1.1 (2025-06-09)
