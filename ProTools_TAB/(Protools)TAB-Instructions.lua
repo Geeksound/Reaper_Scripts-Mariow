@@ -1,8 +1,10 @@
 --[[
 @description ProTools TAB - Manual & Help (ImGui)
-@version 1.2
+@version 1.2.1
 @author Mariow
 @changelog
+    v1.2.1 (2025-11-19)
+    - Instructions picture Link
     v1.2 (2025-11-18)
     - Font Size
     v1.1 (2025-06-09)
@@ -322,10 +324,22 @@ Fully non-destructive and 100% ReaScript.
 
     Pad()
 
+    -- BOUTON GITHUB
     if reaper.ImGui_Button(ctx, "Open GitHub Repository", 220, 28) then
         reaper.CF_ShellExecute("https://github.com/Geeksound/Reaper_Scripts-Mariow")
     end
+
+    -- METTRE LE PROCHAIN BOUTON SUR LA MÊME LIGNE
+      reaper.ImGui_SameLine(ctx)
+
+    -- BOUTON POUR OUVRIR / TÉLÉCHARGER L'IMAGE PNG
+    if reaper.ImGui_Button(ctx, "Open Instructions PNG", 220, 28) then
+        local url = "https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/Documentations/TABpackage-INSTRUCTIONS.png"
+        reaper.CF_ShellExecute(url)
+    end
+
 end
+
 
 ------------------------------------------------------------
 -- MAIN LOOP
