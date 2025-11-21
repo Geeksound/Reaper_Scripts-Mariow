@@ -1390,6 +1390,37 @@ v1.0 (2025-11-12)
         <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/PROTOOLS/PlayTimeSelection.lua</source>
       </version>
     </reapack>
+    <reapack name="Save-Session-Copy-In.lua" type="script" desc="Save-Session-Copy-In">
+      <metadata>
+        <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
+{\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
+\widowctrl\hyphauto
+
+{\pard\ql\f0\sa180\li0\fi0\b\fs40\cf1 Pro Tools–style Session Copy In for REAPER\par}
+{\pard\ql\f0\sa180\li0\fi0\b\fs40\cf1   \par}
+{\pard \ql \f0 \sa180 \li0 \fi0 \outlinelevel0 \b \fs36 Save-Session-Copy-In\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 Recreates Pro Tools "Save Session Copy In" inside REAPER.\par}
+{\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab Copies project file and all selected media to a new folder,\par}
+{\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab Includes a real-time progress bar during copying,\par}
+{\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab Automatically updates all media paths in the duplicated .RPP,\par}
+{\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab Supports window auto-close and “croix” close handling.\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 Compatible with REAPER 7.0 and later.\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 Developed by Mariow.\par}
+}]]></description>
+        <link rel="website">https://github.com/Geeksound/Reaper_Scripts-Mariow</link>
+      </metadata>
+      <version name="1.0" author="Mariow" time="2025-11-21T00:00:00Z">
+        <changelog><![CDATA[
+v1.0 (2025-11-21)
+- Initial release
+- Creates a full Pro Tools–style "Session Copy In" process
+- Copies project and media with live progress bar
+- Updates all media paths in the new .RPP
+- Auto-close and window close support
+]]></changelog>
+        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/PROTOOLS/Save-Session-Copy-In.lua</source>
+      </version>
+    </reapack>
   </category>
   <category name="ProTools_TAB">
     <reapack name="(ProTools)TAB-AltShift.lua" type="script" desc="ProTools TAB - Alt+Shift+TAB (Extend Selection Left)">
