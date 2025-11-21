@@ -1421,6 +1421,46 @@ v1.0 (2025-11-21)
         <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/PROTOOLS/Save-Session-Copy-In.lua</source>
       </version>
     </reapack>
+    <reapack name="SaveSessionCopyInFolders.lua" type="script" desc="Media Matrix Router – Advanced Session Copy In (4-Folder Routing)">
+      <metadata>
+        <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
+{\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
+\widowctrl\hyphauto
+
+{\pard\ql\f0\sa180\li0\fi0\b\fs40\cf1 Media Matrix Router – Advanced Session Copy In\par}
+{\pard\ql\f0\sa180\li0\fi0\b\fs40\cf1   \par}
+{\pard \ql \f0 \sa180 \li0 \fi0 \outlinelevel0 \b \fs36 4-Folder Routing Version\par}
+
+{\pard \ql \f0 \sa180 \li0 \fi0 An expanded version of "Save Session Copy In" with an advanced media routing matrix.\par}
+
+{\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab Scans all media referenced in the current REAPER project,\par}
+{\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab Provides a 4-folder interactive routing matrix per media file,\par}
+{\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab Allows custom folder names and routing choices,\par}
+{\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab Copies project and media with a live progress bar,\par}
+{\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab Automatically updates paths inside the new .RPP copy,\par}
+{\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab Handles window close (“croix”) and auto-close on completion.\par}
+
+{\pard \ql \f0 \sa180 \li0 \fi0 Compatible with REAPER 7.0 and later.\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 Developed by Mariow.\par}
+}]]></description>
+        
+        <link rel="website">https://github.com/Geeksound/Reaper_Scripts-Mariow</link>
+      </metadata>
+      
+      <version name="1.0" author="Mariow" time="2025-11-21T00:00:00Z">
+        <changelog><![CDATA[
+v1.0 (2025-11-21)
+- Initial release
+- Added advanced 4-folder media routing matrix
+- Custom folder naming support
+- Real-time progress bar with step-by-step copying
+- Safe file copy engine with media path remapping
+- Automatic .RPP update after duplication
+- Window close and auto-close support
+]]></changelog>
+        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/PROTOOLS/SaveSessionCopyInFolders.lua</source>
+      </version>
+    </reapack>
   </category>
   <category name="ProTools_TAB">
     <reapack name="(ProTools)TAB-AltShift.lua" type="script" desc="ProTools TAB - Alt+Shift+TAB (Extend Selection Left)">
