@@ -1446,7 +1446,16 @@ v1.0 (2025-11-21)
         
         <link rel="website">https://github.com/Geeksound/Reaper_Scripts-Mariow</link>
       </metadata>
-      
+      <version name="1.1" author="Mariow" time="2025-11-22T00:00:00Z">
+        <changelog><![CDATA[
+v1.1 (2025-11-22)
+- SHIFT + clic = sélection étendue (range)
+- CMD/CTRL + hover = sélection instantanée
+- ALT + clic sur colonne = coche/décoche tous les médias de la colonne
+- Clic simple = sélection classique
+]]></changelog>
+        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/PROTOOLS/SaveSessionCopyInFolders.lua</source>
+      </version>
       <version name="1.0" author="Mariow" time="2025-11-21T00:00:00Z">
         <changelog><![CDATA[
 v1.0 (2025-11-21)

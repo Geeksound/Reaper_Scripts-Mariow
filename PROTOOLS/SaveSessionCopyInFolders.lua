@@ -1,8 +1,13 @@
 --[[
 @description Media Matrix Router – Advanced Session Copy In (4-Folder Routing)
-@version 1.0
+@version 1.1
 @author Mariow
 @changelog
+  v1.1 (2025-11-22)
+  - SHIFT + clic = sélection étendue (range)
+  - CMD/CTRL + hover = sélection instantanée
+  - ALT + clic sur colonne = coche/décoche tous les médias de la colonne
+  - Clic simple = sélection classique
   v1.0 (2025-11-21))
   - Initial release
 @provides
@@ -32,7 +37,6 @@
   high-end DAWs like Pro Tools, but extended with custom folder routing.
 --]]
 
-
 local reaper = reaper
 local ctx = reaper.ImGui_CreateContext("Media Matrix Router", 0)
 
@@ -41,7 +45,7 @@ local project_path = full_proj_path:match("^(.*)/") or ""
 local project_name = full_proj_path:match(".*/(.*)$") or ""
 
 -----------------------------------------------------
---  Data
+-- Data
 -----------------------------------------------------
 local media_files = {}
 local folder_names = {"Folder A", "Folder B", "Folder C", "Folder D"}
@@ -55,6 +59,11 @@ local copied_files = 0
 local total_files = 0
 local running = true
 
+-- Selection logic
+local last_clicked_index = nil
+local media_index = {}
+local instant_col = nil -- colonne active pour CMD/CTRL-hover
+
 -----------------------------------------------------
 -- Helpers
 -----------------------------------------------------
@@ -64,12 +73,10 @@ end
 
 local function file_copy_safe(src, dest)
     os.execute(string.format('mkdir "%s"', dest:match("^(.*)/")))
-    local fsrc = io.open(src, "rb") 
+    local fsrc = io.open(src, "rb")
     if not fsrc then return false end
-
-    local fdest = io.open(dest, "wb") 
+    local fdest = io.open(dest, "wb")
     if not fdest then return false end
-
     fdest:write(fsrc:read("*all"))
     fsrc:close()
     fdest:close()
@@ -82,6 +89,7 @@ end
 local function ScanProjectMedia()
     media_files = {}
     routing = {}
+    media_index = {}
 
     local set = {}
     local item_count = reaper.CountMediaItems(0)
@@ -96,9 +104,12 @@ local function ScanProjectMedia()
         end
     end
 
+    local idx = 1
     for path,_ in pairs(set) do
         table.insert(media_files, path)
-        routing[path] = 1    -- par défaut : Folder A
+        routing[path] = 1
+        media_index[path] = idx
+        idx = idx + 1
     end
 end
 
@@ -168,6 +179,18 @@ local function CopyStep()
 end
 
 -----------------------------------------------------
+-- Cross-platform modifier pour instant-hover
+-----------------------------------------------------
+local function isInstantSelectDown()
+    local mods = reaper.ImGui_GetKeyMods(ctx)
+    if reaper.GetOS():match("OSX") then
+        return (mods & reaper.ImGui_Mod_Super()) ~= 0 -- Cmd sur Mac
+    else
+        return (mods & reaper.ImGui_Mod_Ctrl()) ~= 0 -- Ctrl sur Windows/Linux
+    end
+end
+
+-----------------------------------------------------
 -- UI LOOP
 -----------------------------------------------------
 function Loop()
@@ -210,7 +233,7 @@ function Loop()
         reaper.ImGui_Separator(ctx)
 
         -------------------------------------------------
-        -- MATRICE
+        -- MATRICE (SHIFT-range + CMD/CTRL-hover + ALT-column)
         -------------------------------------------------
         if reaper.ImGui_BeginTable(ctx, "matrix", 5) then
             reaper.ImGui_TableSetupColumn(ctx, "Media")
@@ -219,29 +242,73 @@ function Loop()
             end
             reaper.ImGui_TableHeadersRow(ctx)
 
+            local instant_down = isInstantSelectDown() -- Cmd/Ctrl
+            local shift_down   = (reaper.ImGui_GetKeyMods(ctx) & reaper.ImGui_Mod_Shift()) ~= 0
+            local alt_down     = (reaper.ImGui_GetKeyMods(ctx) & reaper.ImGui_Mod_Alt()) ~= 0
+
             for _,file in ipairs(media_files) do
                 local name = file:match(".*/(.*)$") or file
-
                 reaper.ImGui_TableNextRow(ctx)
                 reaper.ImGui_TableSetColumnIndex(ctx, 0)
                 reaper.ImGui_Text(ctx, name)
 
                 for col=1,4 do
                     reaper.ImGui_TableSetColumnIndex(ctx, col)
+                    local clicked = reaper.ImGui_RadioButton(ctx, "##"..file..col, routing[file]==col)
+                    local hovered = reaper.ImGui_IsItemHovered(ctx)
 
-                    local clicked = reaper.ImGui_RadioButton(
-                        ctx, 
-                        "##"..file..col, 
-                        (routing[file] == col)
-                    )
-                    if clicked then
+                    -- ALT + click → toggle tous les médias de la colonne
+                    if clicked and alt_down then
+                        local any_checked = false
+                        for _,f in ipairs(media_files) do
+                            if routing[f] == col then any_checked = true break end
+                        end
+                        local new_state = not any_checked
+                        for _,f in ipairs(media_files) do
+                            if new_state then
+                                routing[f] = col
+                            else
+                                if routing[f] == col then routing[f] = 0 end
+                            end
+                        end
+                    end
+
+                    -- SHIFT + click = range selection
+                    if clicked and shift_down and not alt_down then
+                        local current_index = media_index[file]
+                        if last_clicked_index then
+                            local a = math.min(current_index, last_clicked_index)
+                            local b = math.max(current_index, last_clicked_index)
+                            for i = a, b do
+                                routing[media_files[i]] = col
+                            end
+                        else
+                            routing[file] = col
+                        end
+                        last_clicked_index = media_index[file]
+                        instant_col = col
+                    end
+
+                    -- Clic simple normal
+                    if clicked and not shift_down and not alt_down then
                         routing[file] = col
+                        last_clicked_index = media_index[file]
+                        instant_col = col
+                    end
+
+                    -- CMD/CTRL + hover → instant selection
+                    if hovered and instant_down then
+                        if not instant_col then instant_col = col end
+                        routing[file] = instant_col
                     end
                 end
             end
 
             reaper.ImGui_EndTable(ctx)
         end
+
+        -- reset colonne lorsque Cmd/Ctrl relâché
+        if not instant_down then instant_col = nil end
 
         reaper.ImGui_Separator(ctx)
 
@@ -250,8 +317,7 @@ function Loop()
         -------------------------------------------------
         if copying then
             local p = copied_files / total_files
-            reaper.ImGui_ProgressBar(ctx, p, -1, 0,
-                string.format("%.0f%%", p*100))
+            reaper.ImGui_ProgressBar(ctx, p, -1, 0, string.format("%.0f%%", p*100))
             CopyStep()
         elseif reaper.ImGui_Button(ctx, "COPY SESSION") then
             if dest_root == "" then
