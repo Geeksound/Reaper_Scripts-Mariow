@@ -1,10 +1,12 @@
 --[[
 @description TrackManager-Expanded
-@version 1.3.1
+@version 1.4
 @author Mariow
 @changelog
+  V1.4 (2025-11-22)
+  - Add Solo Clear
   V1.3.1 (2025-11-18)
-  ImGui context
+  -ImGui context
   V1.3 (2025-11-09)
   - Helpers IMgui and Option [alt]click like in PT
   v1.2 (2025-11-07)
@@ -92,6 +94,39 @@ local Texte2 = "ADD Spacer, Option[ALT] lets you delete Spacer after selected Tr
 local Texte3 = "Move track Down , Option[ALT] lets you move Track Up inversely"
 local Texte4 = "Move track by listing position"
 local Texte5 = "Allows alternating between viewing the Track Item and its corresponding track."
+local Texte6 = "SOLO CLEAR"
+
+-- === LOCALES SOLO CLEAR ===
+local function AnyTrackSoloed()
+    local trackCount = reaper.CountTracks(0)
+    for i = 0, trackCount - 1 do
+        local tr = reaper.GetTrack(0, i)
+        if reaper.GetMediaTrackInfo_Value(tr, "I_SOLO") > 0 then
+            return true
+        end
+    end
+    return false
+end
+
+local function ClearAllSolos()
+    local trackCount = reaper.CountTracks(0)
+    reaper.Undo_BeginBlock()
+    for i = 0, trackCount - 1 do
+        local tr = reaper.GetTrack(0, i)
+        reaper.SetMediaTrackInfo_Value(tr, "I_SOLO", 0)
+    end
+    reaper.Undo_EndBlock("Clear all solos", -1)
+end
+-------------
+-- === FONCTION SOLO CLEAR ===
+local function SoloClear()
+    local active = AnyTrackSoloed()
+    if active then
+        ClearAllSolos()
+        return true      -- un solo était actif → maintenant clear
+    end
+    return false         -- aucun solo n’était actif
+end
 
 ------------------------ End HELPERS -----------------------------------------------
 
@@ -1959,7 +1994,7 @@ end
     reaper.Main_OnCommand(41337,0)
   end
 
-  reaper.ImGui_SameLine(ctx, nil, 30)
+  reaper.ImGui_SameLine(ctx, nil, 20)
 
 ---------------- ITEM FORWARD & BACKWARD ------------------------
 
@@ -1991,7 +2026,7 @@ reaper.ImGui_PushStyleColor(ctx, reaper.ImGui_Col_ButtonActive(),  0xFFA100FF) -
   reaper.ImGui_PopStyleColor(ctx, 3) -- On retire le chgt de couleur
 
 
-  reaper.ImGui_SameLine(ctx, nil, 30)
+  reaper.ImGui_SameLine(ctx, nil, 20)
   -- Autres boutons
 -- Vérifie si Alt (Option sur Mac) est pressé
 local mods = reaper.ImGui_GetKeyMods(ctx)
@@ -2180,8 +2215,32 @@ if reaper.ImGui_Button(ctx, 'ALL') then
   viewall() 
 end
 
+-- === IMGUI : BOUTON SOLO CLEAR ===
+
+reaper.ImGui_SameLine(ctx, nil, 5)
+local soloActive = AnyTrackSoloed()
+
+-- Couleur du bouton (jaune si solo, gris si rien)
+if soloActive then
+    reaper.ImGui_PushStyleColor(ctx, reaper.ImGui_Col_Button(),        0xFFB733FF)
+    reaper.ImGui_PushStyleColor(ctx, reaper.ImGui_Col_ButtonHovered(), 0x33DDFFFF)
+    reaper.ImGui_PushStyleColor(ctx, reaper.ImGui_Col_ButtonActive(),  0xFFB733FF)
+else
+    reaper.ImGui_PushStyleColor(ctx, reaper.ImGui_Col_Button(),        0x444444FF)
+    reaper.ImGui_PushStyleColor(ctx, reaper.ImGui_Col_ButtonHovered(), 0x555555FF)
+    reaper.ImGui_PushStyleColor(ctx, reaper.ImGui_Col_ButtonActive(),  0x666666FF)
+end
+
+-- Bouton S
+if reaper.ImGui_Button(ctx, "S", 20, 20) then
+    SoloClear()
+end
+    ImGui_HelpMarker(ctx, Texte6)
+reaper.ImGui_PopStyleColor(ctx, 3)
+
+
 -- === Texte label + champ de recherche ===
-reaper.ImGui_SameLine(ctx, nil, 10)
+reaper.ImGui_SameLine(ctx, nil, 5)
 
 -- Texte "Recherche" en jaune
 reaper.ImGui_PushStyleColor(ctx, reaper.ImGui_Col_Text(), reaper.ImGui_ColorConvertDouble4ToU32(1.0, 1.0, 0.0, 1.0))
@@ -2238,7 +2297,7 @@ end
 
 -- === Bouton FD2 (reste à droite, visible) ===
 reaper.ImGui_SameLine(ctx, nil, 10)
-if reaper.ImGui_Button(ctx, "Extra-Search") then
+if reaper.ImGui_Button(ctx, "X-Search") then
   RechercheItemsGUI(ctx)
 end
 
@@ -2315,4 +2374,3 @@ if image then
 end
 
 reaper.defer(loop)
-
