@@ -1155,6 +1155,14 @@ v1.0 (2025-11-12)
 ]]></description>
         <link rel="website">https://github.com/Geeksound/Reaper_Scripts-Mariow</link>
       </metadata>
+      <version name="1.3.1" author="Mariow" time="2025-11-29T00:00:00Z">
+        <changelog><![CDATA[
+No Tittle in Popup Window
+  ]]></changelog>
+        <source main="main">
+          https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/View/Interactive-TC-Display.lua
+        </source>
+      </version>
       <version name="1.3" author="Mariow" time="2025-11-13T00:00:00Z">
         <changelog><![CDATA[Added "Go To Marker" input field under cursor position display]]></changelog>
         <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/View/Interactive-TC-Display.lua</source>
