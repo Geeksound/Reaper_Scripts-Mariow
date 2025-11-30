@@ -1,6 +1,6 @@
 --[[
 @description Interactive-TC-Display
-@version 1.3.1
+@version 1.3.1.1
 @author Mariow
 @license MIT
 @changelog
