@@ -5,6 +5,8 @@
 @license MIT
 @changelog
 
+  V1.3.1.1 (2025-11-29)
+  - Minor Changes
   V1.3.1 (2025-11-29)
   - No Tittle in Popup Window
   V1.3 (2025-11-13)
@@ -135,6 +137,10 @@ local function loop()
             reaper.ImGui_PushFont(ctx, font_big,41 )
             reaper.ImGui_TextColored(ctx, 0xFFFFFFFF, "Play: " .. format_timecode(pos))
             reaper.ImGui_PopFont(ctx)
+            reaper.ImGui_TextColored(ctx, 0x000000FF, "Playing : Transport: Play/pause to Stop in place…")   -- noir
+            
+            
+            
 
         else
             recording_start_time = nil
@@ -158,7 +164,7 @@ local function loop()
                 end
 
                 local tc = format_timecode(pos)
-                reaper.ImGui_PushFont(ctx, font_main, FONT_SIZE)
+                reaper.ImGui_PushFont(ctx, font_main, 24)
                 reaper.ImGui_TextColored(ctx, 0x00FF00FF, "        Item Selected              " )
                 reaper.ImGui_TextColored(ctx, 0xFFFFFFFF, name .. " | " .. tc)
                 reaper.ImGui_PopFont(ctx)
