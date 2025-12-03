@@ -1,8 +1,10 @@
 --[[
 @description Trim Left & Right edges of selected item to adjacent items on same track (with left edge check)
-@version 1.1.1
+@version 1.1.2
 @author Mariow
 @changelog
+  V1.1.2 (2025-12-03)
+  - Bug Fix
   V1.1.1 (2025-12-02)
   - Bug Fix
   v1.1 (2025-11-06)
@@ -28,55 +30,84 @@
 
 -- @noindex
 
-local function find_prev_positions(cursor)
-  local positions = {}
+-- SAFE PATCH : empêche le trim gauche destructif
 
-  local sel_tracks = reaper.CountSelectedTracks(0)
-  for i = 0, sel_tracks - 1 do
-    local track = reaper.GetSelectedTrack(0, i)
-    local item_count = reaper.CountTrackMediaItems(track)
+-- Safe Trim Left & Right based on adjacent items
 
-    for j = item_count - 1, 0, -1 do
-      local item = reaper.GetTrackMediaItem(track, j)
-      local item_start = reaper.GetMediaItemInfo_Value(item, "D_POSITION")
-      local item_end = item_start + reaper.GetMediaItemInfo_Value(item, "D_LENGTH")
+local function get_adjacent_items(track, item)
+  local item_start = reaper.GetMediaItemInfo_Value(item, "D_POSITION")
+  local item_end   = item_start + reaper.GetMediaItemInfo_Value(item, "D_LENGTH")
 
-      if item_end < cursor then
-        table.insert(positions, item_end)
-        break
-      elseif item_start < cursor then
-        table.insert(positions, item_start)
-        break
+  local prev_item_end = nil
+  local next_item_start = nil
+
+  local count = reaper.CountTrackMediaItems(track)
+  for i = 0, count - 1 do
+    local other = reaper.GetTrackMediaItem(track, i)
+    if other ~= item then
+
+      local s = reaper.GetMediaItemInfo_Value(other, "D_POSITION")
+      local e = s + reaper.GetMediaItemInfo_Value(other, "D_LENGTH")
+
+      -- item précédent (bord droit)
+      if e <= item_start and (not prev_item_end or e > prev_item_end) then
+        prev_item_end = e
       end
+
+      -- item suivant (bord gauche)
+      if s >= item_end and (not next_item_start or s < next_item_start) then
+        next_item_start = s
+      end
+
     end
   end
 
-  -- tri des positions en ordre croissant
-  table.sort(positions)
-  return positions[1]
+  return prev_item_end, next_item_start
 end
+
 
 local function main()
-  -- Étape 1 : Time selection to items
-  reaper.Main_OnCommand(40290, 0)
+  local item = reaper.GetSelectedMediaItem(0, 0)
+  if not item then return end
 
-  -- Étape 2 : Go to start of time selection
-  reaper.Main_OnCommand(40630, 0)
+  local track = reaper.GetMediaItem_Track(item)
 
-  -- Étape 3 : Calcul du nouveau curseur
-  local cursor = reaper.GetCursorPosition()
-  local new_pos = find_prev_positions(cursor)
-  if new_pos then
-    reaper.SetEditCurPos(new_pos, true, true)
+  -- Positions de l’item sélectionné
+  local item_start = reaper.GetMediaItemInfo_Value(item, "D_POSITION")
+  local item_end   = item_start + reaper.GetMediaItemInfo_Value(item, "D_LENGTH")
+
+  -- Chercher les voisins
+  local prev_end, next_start = get_adjacent_items(track, item)
+
+  ------------------------------------------------
+  -- 🟩 1. POSITIONNER CURSEUR AU DÉBUT DE L’ITEM
+  ------------------------------------------------
+  reaper.SetEditCurPos(item_start, false, false)
+
+  ------------------------------------------------
+  -- 🟩 2. SI UN ITEM PRÉCÉDENT EXISTE → CURSEUR = SON BORD DROIT
+  ------------------------------------------------
+  if prev_end then
+    reaper.SetEditCurPos(prev_end, false, false)
+
+    ------------------------------------------------
+    -- 🟩 3. TRIM LEFT (SÉCURISÉ)
+    ------------------------------------------------
+    reaper.Main_OnCommand(41305, 0) -- Trim left edge to cursor
   end
 
-  -- Étape 4 : Trim left edge of item to edit cursor
-  reaper.Main_OnCommand(41305, 0)
+  ------------------------------------------------
+  -- 🟦 4. TRIM RIGHT vers l'item suivant (commande native)
+  ------------------------------------------------
+  if next_start then
+    reaper.Main_OnCommand(41639, 0)
+  end
 
-  -- Étape 5 : Set item ends to start of next item
-  reaper.Main_OnCommand(41639, 0)
+  reaper.UpdateArrange()
 end
+
 
 reaper.Undo_BeginBlock()
 main()
-reaper.Undo_EndBlock("Custom Script Sequence Optimised", -1)
+reaper.Undo_EndBlock("Trim edges to adjacent items (stable)", -1)
+
