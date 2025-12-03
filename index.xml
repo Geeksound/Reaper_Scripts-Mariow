@@ -370,7 +370,7 @@ v1.0 (2025-11-10)
     </reapack>
   </category>
   <category name="Editing_TRIM">
-      <reapack name="Trim-LeftRight@range.lua" type="script" desc="Trim Left-Right using sliders with adjustable duration">
+      <reapack name="Trim-LeftRight@range.lua" type="script" desc="TrimEdgesWithSliders(ImGui)">
       <metadata>
         <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
 {\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
@@ -400,7 +400,7 @@ v1.0 (2025-11-06)
         <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/Editing_TRIM/Trim-LeftRight@range.lua</source>
       </version>
     </reapack>
-    <reapack name="UnTrimStartToPrev.lua" type="script" desc="Trim Left Edge of Selected Item to Previous Item on Same Track">
+    <reapack name="UnTrimStartToPrev.lua" type="script" desc="TrimLeft-ToPreviousClip(PT-Like)">
       <metadata>
         <description><![CDATA[
 {\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
@@ -439,7 +439,7 @@ v1.0 (2025-11-06)
         <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/Editing_TRIM/UnTrimStartToPrev.lua</source>
       </version>
     </reapack>
-    <reapack name="UnTrimEndToNext.lua" type="script" desc="Trim Right Edge of Selected Item to Next Item on Same Track">
+    <reapack name="UnTrimEndToNext.lua" type="script" desc="TrimRightt-ToNextClip(PT-Like)">
       <metadata>
         <description><![CDATA[
 {\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
@@ -463,7 +463,7 @@ v1.0 (2025-11-06)
         <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/Editing_TRIM/UnTrimEndToNext.lua</source>
       </version>
     </reapack>
-    <reapack name="UnTrimBetweenItems.lua" type="script" desc="Trim Left and Right edges of selected item to adjacent items on same track">
+    <reapack name="UnTrimBetweenItems.lua" type="script" desc="UntrimBetweenItems">
       <metadata>
         <description><![CDATA[
 {\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
@@ -501,7 +501,7 @@ v1.0 (2025-11-06)
         <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/Editing_TRIM/UnTrimBetweenItems.lua</source>
       </version>
     </reapack>
-    <reapack name="Auto-Split Overlapping Items (Keep Top Item)" type="script" desc="Automatically split overlapping items, keeping the top item intact">
+    <reapack name="Auto-Split Overlapping Items (Keep Top Item)" type="script" desc="TrimAndSplitItemUnderUnderneath">
       <metadata>
         <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
 {\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
