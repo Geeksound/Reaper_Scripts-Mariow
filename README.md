@@ -420,6 +420,18 @@ Move Item UP/Down with One Knob
 ### TIPS
 - **If no tracks Below** move Item Down create a new Track based on Item Name
 
+---
+## 7. **Create-CueItem**
+(https://github.com/Geeksound/Reaper_Scripts-Mariow/blob/main/Utility/Create-CueItem.lua)  
+Create beautiful empty items for better organisation of your sessions
+
+<p align="center">
+  <img src="PICTURES/Create-CueItem.png" alt="Overview of 'Create-CueItem'" width="500" />
+</p>   
+
+Ideal for workflow optimization when creating markers, labels,
+regions or organizational items inside REAPER.
+
 -------------------------------------------------
 `- View/---------`
 
