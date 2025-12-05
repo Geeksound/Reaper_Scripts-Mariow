@@ -1151,6 +1151,37 @@ v1.0 (2025-11-12)
         <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/Utility/GoTo-Markers.lua</source>
       </version>
     </reapack>
+    <reapack name="Create-CueItem.lua" type="script" desc="Empty Item Creator (ImGui V2)">
+      <metadata>
+        <description><![CDATA[
+{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}}
+
+{\pard\ql\f0\b\fs36 Empty Item Creator (ImGui V2)\par}
+{\pard\ql\f0\sa180 A lightweight ReaImGui-based utility to quickly create Empty Items in REAPER with custom name, note and color.\par}
+
+{\pard\ql\f0\b\fs28 Features:\par}
+{\pard\ql\f0\sa0 \li360 \fi-360 \bullet \tx360\tab Instant Empty Item creation,\par}
+{\pard\ql\f0\sa0 \li360 \fi-360 \bullet \tx360\tab Auto-focus on Name field,\par}
+{\pard\ql\f0\sa0 \li360 \fi-360 \bullet \tx360\tab Name → Note shortcut button,\par}
+{\pard\ql\f0\sa0 \li360 \fi-360 \bullet \tx360\tab Multi-line Note input,\par}
+{\pard\ql\f0\sa0 \li360 \fi-360 \bullet \tx360\tab Color palette with selection highlight,\par}
+{\pard\ql\f0\sa0 \li360 \fi-360 \bullet \tx360\tab Colors stored in REAPER's native BGR format,\par}
+{\pard\ql\f0\sa0 \li360 \fi-360 \bullet \tx360\tab Window position saved between sessions,\par}
+{\pard\ql\f0\sa0 \li360 \fi-360 \bullet \tx360\tab Press Enter to validate anywhere.\par}
+
+{\pard\ql\f0\sa180 Ideal tool for quickly creating labeled, colored, and organized Empty Items in REAPER.\par}
+]]></description>
+        <link rel="website">https://github.com/Geeksound/Reaper_Scripts-Mariow</link>
+      </metadata>      
+      <version name="1.0" author="Mariow" time="2025-12-05T00:00:00Z">
+        <changelog><![CDATA[
+Initial release: ImGui V2 tool to create and customize Empty Items
+    ]]></changelog>
+        <source main="main">
+          https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/Utility/Create-CueItem.lua
+        </source>
+      </version>
+    </reapack>
   </category>
   <category name="View">
     <reapack name="Interactive-TC-Display.lua" type="script" desc="Interactive-TC-Display">
