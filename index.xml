@@ -2112,6 +2112,29 @@ v1.0 (2025-12-06)
         <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/Protools_Edit/Copy-(PT%20CmdC)%20.lua</source>
       </version>
     </reapack>
+    <reapack name="DoubleRazorLength(PT-ShiftCtrlAltCmd-%).lua" type="script">
+      <metadata>
+        <description><![CDATA[
+Double-length of Razor-Area on selected tracks
+
+Doubles the length of Razor Edits on all selected tracks in REAPER.
+Maintains fade lengths and supports multiple Razor Edit areas per track.
+
+Developed by Mariow.
+    ]]></description>
+        <author>Mariow</author>
+        <version>1.0</version>
+        <link>https://github.com/Geeksound/Reaper_Scripts-Mariow</link>
+        <tags>razor edits, tracks, editing, items</tags>
+      </metadata>
+      <version name="1.0" author="Mariow" time="2025-11-26T00:00:00Z">
+        <changelog><![CDATA[
+v1.0 (2025-11-26)
+- Initial release
+    ]]></changelog>
+        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/Protools_Edit/DoubleRazorLength(PT-ShiftCtrlAltCmd-%).lua</source>
+      </version>
+    </reapack>
   </category>
   <metadata>
     <description><![CDATA[
