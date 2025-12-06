@@ -2181,6 +2181,32 @@ v1.0 (2025-06-07)
         <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/Protools_Edit/EndToFillSelection.lua</source>
       </version>
     </reapack>
+    <reapack name="ExtendEditDown(PT Shift M).lua" type="script">
+      <metadata>
+        <description><![CDATA[
+Extend Edit Down (ProTools-like SHIFT+M)
+Extends the current Razor Edit from the source track to the track below,
+following Pro Tools' Shift+M shortcut behavior.
+The script supports repeated execution:
+each subsequent run adds the Razor Edit to the next track further down,
+enabling rapid vertical multi-track edit extension.
+
+Developed by Mariow.
+    ]]></description>
+        <author>Mariow</author>
+        <version>1.0</version>
+        <link>https://github.com/Geeksound/Reaper_Scripts-Mariow</link>
+        <tags>editing, razor, selection, vertical, arrange, (protools-like)</tags>
+      </metadata>
+      <version name="1.0" author="Mariow" time="2025-11-30T00:00:00Z">
+        <changelog><![CDATA[
+v1.0 (2025-11-30)
+- Initial release: reliably extends the current Razor Edit down to the next track,
+  emulating Pro Tools’ Shift+M vertical edit extension behavior.
+    ]]></changelog>
+        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/Protools_Edit/ExtendEditDown(PT%20Shift%20M).lua</source>
+      </version>
+    </reapack>
   </category>
   <metadata>
     <description><![CDATA[
