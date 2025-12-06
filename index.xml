@@ -2032,6 +2032,44 @@ v1.0 (2025-06-08)
       </version>
     </reapack>
   </category>
+  <category name="Protools_Edit">
+    <reapack name="Cut-Time-Per-Track(Shuffle).lua" type="script">
+      <metadata>
+        <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
+{\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
+\widowctrl\hyphauto
+
+{\pard\ql\f0\sa180\li0\fi0\b\fs40 Cut Time on Selected Tracks — Shuffle Style\par}
+{\pard\ql\f0\sa180\li0\fi0 Perform Pro Tools–style Shuffle editing, but restricted to the tracks you select.\par}
+
+{\pard\ql\f0\sa180\li0\fi0 This script removes a defined time range and automatically closes the gap only on selected tracks, leaving all others intact.\par}
+
+{\pard\ql\f0\sa180\li0\fi0 Features:\par}
+{\pard\ql\f0\sa0\li360\fi-360 \bullet \tx360\tab Razor Area or Time Selection support,\par}
+{\pard\ql\f0\sa0\li360\fi-360 \bullet \tx360\tab True shuffle-style ripple closing on selected tracks only,\par}
+{\pard\ql\f0\sa0\li360\fi-360 \bullet \tx360\tab Non-destructive editing for unselected tracks,\par}
+{\pard\ql\f0\sa0\li360\fi-360 \bullet \tx360\tab ImGui interface for clear visual feedback.\par}
+
+{\pard\ql\f0\sa180\li0\fi0 Ideal for precise Pro Tools–like editing workflows within REAPER.\par}
+{\pard\ql\f0\sa180\li0\fi0 Developed by Mariow & Fernsehmuell.\par}
+}]]></description>
+        <author>Mariow/Fernsehmuell</author>
+        <version>1.0</version>
+        <link>https://github.com/Geeksound/Reaper_Scripts-Mariow</link>
+        <tags>editing, time, cut, razor, tracks </tags>
+      </metadata>      
+      <version name="1.0" author="Mariow/Fernsehmuell" time="2025-12-06T00:00:00Z">
+        <changelog><![CDATA[
+v1.0 (2025-12-06)
+- Cuts time only on selected tracks
+- Supports Razor Area or Time Selection
+        ]]></changelog>
+        <source main="main">
+          https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/Protools_Edit/Cut-Time-Per-Track(Shuffle).lua
+        </source>
+      </version>
+    </reapack>
+  </category>
   <metadata>
     <description><![CDATA[
 {\rtf1\ansi\deff0{\fonttbl{\f0\fswiss Helvetica;}{\f1 Courier;}}
