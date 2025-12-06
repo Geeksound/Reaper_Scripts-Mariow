@@ -2064,9 +2064,7 @@ v1.0 (2025-12-06)
 - Cuts time only on selected tracks
 - Supports Razor Area or Time Selection
         ]]></changelog>
-        <source main="main">
-          https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/Protools_Edit/Cut-Time-Per-Track(Shuffle).lua
-        </source>
+        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/Protools_Edit/Cut-Time-Per-Track(Shuffle).lua</source>
       </version>
     </reapack>
   </category>
