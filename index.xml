@@ -2562,6 +2562,34 @@ v1.0 (2025-06-07)
         <source main="main">https://raw.githubusercontent.com/Geeksound/Reaper_Scripts-Mariow/main/ProTools_Essentials/Strip-Silence%20(PT-Cmd%20U).lua</source>
       </version>
     </reapack>
+    <reapack name="ZoomPresets(PT-like).lua" type="script">
+      <metadata>
+        <description><![CDATA[
+Zoom Presets H+V (4 slots) - ProTools-like
+This script provides a dockable REAPER panel that mimics ProTools’ zoom presets.
+- ALT + click a button to save current horizontal + vertical zoom.
+- Click button to restore the saved zoom.
+- 4 slots available.
+
+Developed by Mariow.
+]]></description>
+        <author>Mariow</author>
+        <version>1.0</version>
+        <link>https://github.com/Geeksound/Reaper_Scripts-Mariow</link>
+        <tags>zoom, presets, arrange, vertical, horizontal, dockable, (protools-like)</tags>
+      </metadata>
+      <version name="1.0" author="Mariow" time="2025-12-06T00:00:00Z">
+        <changelog><![CDATA[
+v1.0 (2025-12-06)
+- Dockable ImGui panel
+- 4 horizontal + vertical zoom presets
+- ALT+Click to save current H+V zoom
+- Click to recall zoom (ProTools-like)
+- Compatible with all ReaImGui versions
+]]></changelog>
+        <source main="main">https://raw.githubusercontent.com/Geeksound/Reaper_Scripts-Mariow/main/ProTools_Essentials/ZoomPresets(PT-like).lua</source>
+      </version>
+    </reapack>
   </category>
   <metadata>
     <description><![CDATA[
