@@ -2158,6 +2158,29 @@ v1.0 (2025-11-26)
         <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/Protools_Edit/DoubleTimeLength(PT-ShiftCtrlAltCmd-%25).lua</source>
       </version>
     </reapack>
+    <reapack name="EndToFillSelection.lua" type="script">
+      <metadata>
+        <description><![CDATA[
+Trim item end to Time Selection on selected track (ProTools-like)
+
+Trims the *end* of items to the end of the current Time Selection
+on the selected track, emulating Pro Tools’ "Trim End to Fill Selection".
+
+Developed by Mariow.
+    ]]></description>
+        <author>Mariow</author>
+        <version>1.0</version>
+        <link>https://github.com/Geeksound/Reaper_Scripts-Mariow</link>
+        <tags>editing, items, (protools-like)</tags>
+      </metadata>
+      <version name="1.0" author="Mariow" time="2025-06-07T00:00:00Z">
+        <changelog><![CDATA[
+v1.0 (2025-06-07)
+- Initial release
+    ]]></changelog>
+        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/Protools_Edit/EndToFillSelection.lua</source>
+      </version>
+    </reapack>
   </category>
   <metadata>
     <description><![CDATA[
