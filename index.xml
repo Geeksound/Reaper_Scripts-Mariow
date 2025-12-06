@@ -2491,7 +2491,7 @@ Developed by Mariow.
 v1.0 (2025-11-26)
 - Initial release: trims the left edge of the item under cursor to edit cursor, Pro Tools Q behavior
 ]]></changelog>
-        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/Protools_Edit/Trim-Left-(PT%20Q).lua</source>
+        <source main="main">https://raw.githubusercontent.com/Geeksound/Reaper_Scripts-Mariow/main/Protools_Edit/Trim-Left-(PT%20Q).lua</source>
       </version>
     </reapack>
     <reapack name="Trim-Right-(PT S).lua" type="script">
@@ -2513,7 +2513,7 @@ Developed by Mariow.
 v1.0 (2025-11-26)
 - Initial release: trims the right edge of the item under cursor to edit cursor, Pro Tools S behavior
 ]]></changelog>
-        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/Protools_Edit/Trim-Right-(PT%20S).lua</source>
+        <source main="main">https://raw.githubusercontent.com/Geeksound/Reaper_Scripts-Mariow/main/Protools_Edit/Trim-Right-(PT%20S).lua</source>
       </version>
     </reapack>
   </category>
