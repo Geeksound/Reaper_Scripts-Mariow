@@ -2376,6 +2376,30 @@ v1.0 (2025-11-26)
         <source main="main">https://raw.githubusercontent.com/Geeksound/Reaper_Scripts-Mariow/main/Protools_Edit/Snap-Item-ToNext.lua</source>
       </version>
     </reapack>
+    <reapack name="Snap-Item-ToPrevious.lua" type="script">
+      <metadata>
+        <description><![CDATA[
+Snap Item to Previous (ProTools-like)
+
+Moves the selected item so that its left edge snaps exactly to the
+right edge of the previous item on the same track, emulating 
+Pro Tools' reverse edge-alignment workflow.
+
+Developed by Mariow.
+    ]]></description>
+        <author>Mariow</author>
+        <version>1.0</version>
+        <link>https://github.com/Geeksound/Reaper_Scripts-Mariow</link>
+        <tags>editing, items, snapping, alignment, (protools-like)</tags>
+      </metadata>
+      <version name="1.0" author="Mariow" time="2025-11-26T00:00:00Z">
+        <changelog><![CDATA[
+v1.0 (2025-11-26)
+- Initial release: moves selected item so its left edge aligns with the previous item on the same track
+    ]]></changelog>
+        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/Protools_Edit/Snap-Item-ToPrevious.lua</source>
+      </version>
+    </reapack>
   </category>
   <metadata>
     <description><![CDATA[
