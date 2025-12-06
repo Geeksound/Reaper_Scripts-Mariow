@@ -2397,7 +2397,7 @@ Developed by Mariow.
 v1.0 (2025-11-26)
 - Initial release: moves selected item so its left edge aligns with the previous item on the same track
     ]]></changelog>
-        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/Protools_Edit/Snap-Item-ToPrevious.lua</source>
+        <source main="main">https://raw.githubusercontent.com/Geeksound/Reaper_Scripts-Mariow/main/Protools_Edit/Snap-Item-ToPrevious.lua</source>
       </version>
     </reapack>
   </category>
