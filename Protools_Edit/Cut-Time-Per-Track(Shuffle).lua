@@ -10,7 +10,7 @@
   [main] Protools_Edit/Cut-Time-Per-Track(Shuffle).lua
 @link https://github.com/Geeksound/Reaper_Scripts-Mariow
 @repository https://github.com/Geeksound/Reaper_Scripts-Mariow
-@tags editing, time, cut, razor, tracks, ReaImGui
+@tags editing, time, cut, razor, tracks.
 @about
   # Cut Time on Selected Tracks — Fernsehmuell style
   Cuts a selected time range only on tracks currently selected.
