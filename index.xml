@@ -2281,7 +2281,7 @@ Developed by Mariow.
 v1.0 (2025-11-30)
 - Initial release: extends the active Razor Edit upward to the track above, emulating Pro Tools’ Shift+P behavior
 ]]></changelog>
-        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/Protools_Edit/ExtendEditUp%28PT%20Shift%20P%29.lua</source>
+        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/Protools_Edit/ExtendEditUP(PT-Shift%20P).lua</source>
       </version>
     </reapack>
   </category>
