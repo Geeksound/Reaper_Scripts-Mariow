@@ -2424,6 +2424,31 @@ v1.0 (2025-06-07)
         <source main="main">https://raw.githubusercontent.com/Geeksound/Reaper_Scripts-Mariow/main/Protools_Edit/Space-Clips.lua</source>
       </version>
     </reapack>
+    <reapack name="Split-Item(as PT).lua" type="script">
+      <metadata>
+        <description><![CDATA[
+Smart Split at Time Selection or Cursor (PT-cmd E)
+
+Behaves like Pro Tools' standard split:
+- If a time selection exists, the item(s) are split at its boundaries.
+- Otherwise, the script splits at the edit cursor, using zero-crossing when possible.
+Automatically selects items under the edit cursor before splitting.
+
+Developed by Mariow.
+    ]]></description>
+        <author>Mariow</author>
+        <version>1.0</version>
+        <link>https://github.com/Geeksound/Reaper_Scripts-Mariow</link>
+        <tags>editing, items, split, prottools-like</tags>
+      </metadata>
+      <version name="1.0" author="Mariow" time="2025-06-07T00:00:00Z">
+        <changelog><![CDATA[
+v1.0 (2025-06-07)
+- Initial release
+    ]]></changelog>
+        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/Protools_Edit/Split-Item(as%20PT).lua</source>
+      </version>
+    </reapack>
   </category>
   <metadata>
     <description><![CDATA[
