@@ -2516,6 +2516,28 @@ v1.0 (2025-11-26)
         <source main="main">https://raw.githubusercontent.com/Geeksound/Reaper_Scripts-Mariow/main/Protools_Edit/Trim-Right-(PT%20S).lua</source>
       </version>
     </reapack>
+    <reapack name="TrimToSelection.lua" type="script">
+      <metadata>
+        <description><![CDATA[
+Trim items to Time Selection on selected track (ProTools-like)
+Trims items to the current Time Selection on the selected track,
+emulating the behavior of Pro Tools' "Trim to Selection" edit function.
+
+Developed by Mariow.
+]]></description>
+        <author>Mariow</author>
+        <version>1.0</version>
+        <link>https://github.com/Geeksound/Reaper_Scripts-Mariow</link>
+        <tags>editing, items, (protools-like)</tags>
+      </metadata>
+      <version name="1.0" author="Mariow" time="2025-06-07T00:00:00Z">
+        <changelog><![CDATA[
+v1.0 (2025-06-07)
+- Initial release
+]]></changelog>
+        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/Protools_Edit/TrimToSelection.lua</source>
+      </version>
+    </reapack>
   </category>
   <category name="ProTools_Essentials">
     <reapack name="Strip-Silence (PT-Cmd U).lua" type="script">
