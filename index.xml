@@ -2207,6 +2207,32 @@ v1.0 (2025-11-30)
         <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/Protools_Edit/ExtendEditDown(PT-Shift%20M).lua</source>
       </version>
     </reapack>
+    <reapack name="ExtendEditToEnd(PT AltShift Return).lua" type="script">
+      <metadata>
+        <description><![CDATA[
+Extend Edit to Project End (ProTools-like AltShift Return)
+Extends the current Razor Edit area from its existing end point all the way to 
+the end of the project—matching Pro Tools’ Shift+S behavior for extending 
+an edit selection to the end of the session.
+If no Razor Edit exists on the selected track, the script automatically creates
+a new Razor Edit from the edit cursor to the project end, enabling seamless
+ProTools-style workflow even without a prior selection.
+Developed by Mariow.
+    ]]></description>
+        <author>Mariow</author>
+        <version>1.0</version>
+        <link>https://github.com/Geeksound/Reaper_Scripts-Mariow</link>
+        <tags>editing, razor, selection, arrange, (protools-like)</tags>
+      </metadata>
+      <version name="1.0" author="Mariow" time="2025-12-01T00:00:00Z">
+        <changelog><![CDATA[
+v1.0 (2025-12-01)
+- If no Razor exists on the selected track, creates one from the edit cursor to the project end
+- If a Razor exists, extends its end to the end of the project
+    ]]></changelog>
+        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/Protools_Edit/ExtendEditToEnd(PT-AltShift%20Return).lua</source>
+      </version>
+    </reapack>
   </category>
   <metadata>
     <description><![CDATA[
