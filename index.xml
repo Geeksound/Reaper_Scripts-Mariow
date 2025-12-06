@@ -2088,7 +2088,7 @@ v1.0 (2025-11-26)
 - Initial release: heal/normalize, consolidate, rename take, cleanup
     ]]></changelog>
         <source main="main">
-          https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/Protools_Edit/Consolidate-(PT AltShift3).lua
+          https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/Protools_Edit/Consolidate-%28PT%20AltShift3%29.lua
         </source>
       </version>
     </reapack>
