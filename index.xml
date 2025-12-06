@@ -2449,6 +2449,29 @@ v1.0 (2025-06-07)
         <source main="main">https://raw.githubusercontent.com/Geeksound/Reaper_Scripts-Mariow/main/Protools_Edit/Split-Item(as%20PT).lua</source>
       </version>
     </reapack>
+    <reapack name="StartToFillSelection.lua" type="script">
+      <metadata>
+        <description><![CDATA[
+Trim item start to Time Selection on selected track (ProTools-like)
+
+Trims the *start* of items to the beginning of the current Time Selection
+on the selected track, emulating Pro Tools’ "Trim Start to Fill Selection".
+
+Developed by Mariow.
+    ]]></description>
+        <author>Mariow</author>
+        <version>1.0</version>
+        <link>https://github.com/Geeksound/Reaper_Scripts-Mariow</link>
+        <tags>editing, items, (protools-like)</tags>
+      </metadata>
+      <version name="1.0" author="Mariow" time="2025-06-07T00:00:00Z">
+        <changelog><![CDATA[
+v1.0 (2025-06-07)
+- Initial release
+    ]]></changelog>
+        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/Protools_Edit/StartToFillSelection.lua</source>
+      </version>
+    </reapack>
   </category>
   <metadata>
     <description><![CDATA[
