@@ -17,7 +17,7 @@
   Supports:
   - Razor Areas
   - Time Selection
-]]
+--]]
 
 local reaper = reaper
 
