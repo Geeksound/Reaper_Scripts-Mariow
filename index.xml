@@ -2473,6 +2473,30 @@ v1.0 (2025-06-07)
       </version>
     </reapack>
   </category>
+  <category name="ProTools_Essentials">
+    <reapack name="Strip-Silence (PT-Cmd U).lua" type="script">
+      <metadata>
+        <description><![CDATA[
+Strip Silence (ProTools-like)
+Executes the native REAPER Strip Silence command,
+mimicking Pro Tools’ Cmd+U workflow.
+
+Developed by Mariow.
+]]></description>
+        <author>Mariow</author>
+        <version>1.0</version>
+        <link>https://github.com/Geeksound/Reaper_Scripts-Mariow</link>
+        <tags>editing, items, silence, cleanup, (protools-like)</tags>
+      </metadata>
+      <version name="1.0" author="Mariow" time="2025-06-07T00:00:00Z">
+        <changelog><![CDATA[
+v1.0 (2025-06-07)
+- Initial release: executes REAPER's Strip Silence action
+]]></changelog>
+        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/ProTools_Essentials/Strip-Silence%20(PT-Cmd%20U).lua</source>
+      </version>
+    </reapack>
+  </category>
   <metadata>
     <description><![CDATA[
 {\rtf1\ansi\deff0{\fonttbl{\f0\fswiss Helvetica;}{\f1 Courier;}}
