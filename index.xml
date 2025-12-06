@@ -2132,7 +2132,7 @@ Developed by Mariow.
 v1.0 (2025-11-26)
 - Initial release
     ]]></changelog>
-        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/Protools_Edit/DoubleRazorLength(PT-ShiftCtrlAltCmd-%).lua</source>
+        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/Protools_Edit/DoubleRazorLength(PT-ShiftCtrlAltCmd-%25).lua</source>
       </version>
     </reapack>
   </category>
