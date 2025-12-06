@@ -2349,7 +2349,7 @@ Developed by Mariow.
 v1.0 (2025-11-25)
 - Initial release: executes the sequence of commands to "Heal" items in the current time selection
     ]]></changelog>
-        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/Protools_Edit/Heal-Separation.lua</source>
+        <source main="main">https://raw.githubusercontent.com/Geeksound/Reaper_Scripts-Mariow/main/Protools_Edit/Heal-Separation%20(PT-Cmd%20H).lua</source>
       </version>
     </reapack>
   </category>
