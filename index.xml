@@ -2284,6 +2284,29 @@ v1.0 (2025-11-30)
         <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/Protools_Edit/ExtendEditUP(PT-Shift%20P).lua</source>
       </version>
     </reapack>
+    <reapack name="HalveRazorLength(PT-ShiftCtrlAltCmd-%).lua" type="script">
+      <metadata>
+        <description><![CDATA[
+Halve the length of Razor Edits on selected tracks
+
+Halves the length of Razor Edits on all selected tracks in REAPER.
+Maintains fade lengths and supports multiple Razor Edit areas per track.
+
+Developed by Mariow.
+    ]]></description>
+        <author>Mariow</author>
+        <version>1.0</version>
+        <link>https://github.com/Geeksound/Reaper_Scripts-Mariow</link>
+        <tags>razor edits, tracks, editing, items</tags>
+      </metadata>
+      <version name="1.0" author="Mariow" time="2025-11-26T00:00:00Z">
+        <changelog><![CDATA[
+v1.0 (2025-11-26)
+- Initial release
+    ]]></changelog>
+        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/Protools_Edit/HalveRazorLength(PT-ShiftCtrlAltCmd-%25).lua</source>
+      </version>
+    </reapack>
   </category>
   <metadata>
     <description><![CDATA[
