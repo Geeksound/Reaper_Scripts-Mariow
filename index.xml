@@ -2230,7 +2230,7 @@ v1.0 (2025-12-01)
 - If no Razor exists on the selected track, creates one from the edit cursor to the project end
 - If a Razor exists, extends its end to the end of the project
     ]]></changelog>
-        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/Protools_Edit/ExtendEditToEnd(PT-AltShift%20Return).lua</source>
+        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/Protools_Edit/ExtendEDitToEnd(PT AltShift Return).lua</source>
       </version>
     </reapack>
   </category>
