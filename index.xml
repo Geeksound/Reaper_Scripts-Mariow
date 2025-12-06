@@ -2090,6 +2090,29 @@ v1.0 (2025-11-26)
         <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/Protools_Edit/Consolidate-(PT%20AltShift3).lua</source>
       </version>
     </reapack>
+    <reapack name="Copy_Items.lua" type="script">
+      <metadata>
+        <description><![CDATA[
+Copy Items — Pro Tools ⌘C Style
+Simulates Pro Tools ⌘C workflow:
+- Copy the item under the mouse or the selected items
+- Clear time selection
+Developed by Mariow.
+    ]]></description>
+        <author>Mariow</author>
+        <version>1.0</version>
+        <link>https://github.com/Geeksound/Reaper_Scripts-Mariow</link>
+        <tags>editing, copy, takes, protools-like</tags>
+      </metadata>
+      <version name="1.0" author="Mariow" time="2025-12-06T00:00:00Z">
+        <changelog><![CDATA[
+v1.0 (2025-12-06)
+- Initial release: simulate Pro Tools ⌘C, copy items under mouse or selected items, clear time selection
+    ]]></changelog>
+        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/Protools_Edit/Copy_Items.lua</source>
+      </version>
+    </reapack>
+
   </category>
   <metadata>
     <description><![CDATA[
