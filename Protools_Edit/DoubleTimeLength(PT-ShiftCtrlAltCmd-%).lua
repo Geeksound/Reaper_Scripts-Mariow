@@ -6,7 +6,8 @@
   v1.0 (2025-11-26)
   - Initial release
 @provides
-  [main] Protools_Edit/DoubleTimeLength(ShiftCtrlAltCmd-%).lua
+  [main] 
+
 @link https://github.com/Geeksound/Reaper_Scripts-Mariow
 @repository https://github.com/Geeksound/Reaper_Scripts-Mariow
 @tags time selection, editing, items
