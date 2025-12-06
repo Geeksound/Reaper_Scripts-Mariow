@@ -2069,26 +2069,27 @@ v1.0 (2025-12-06)
     </reapack>
     <reapack name="Consolidate-(PT AltShift3).lua" type="script">
       <metadata>
-        <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
-{\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
-\widowctrl\hyphauto
+        <description><![CDATA[
+Consolidate Items — Pro Tools Alt+Shift+3 Style
 
-{\pard\ql\f0\sa180\li0\fi0\b\fs40 Consolidate Items — Pro Tools Alt+Shift+3 Style\par}
-{\pard\ql\f0\sa180\li0\fi0 Recreates Pro Tools' **Alt+Shift+3** consolidation workflow.\par}
+Recreates Pro Tools' Alt+Shift+3 consolidation workflow.
 
-{\pard\ql\f0\sa180\li0\fi0 Developed by Mariow.\par}
-}]]></description>
+Developed by Mariow.
+    ]]></description>
         <author>Mariow</author>
         <version>1.0</version>
         <link>https://github.com/Geeksound/Reaper_Scripts-Mariow</link>
         <tags>editing, consolidate, normalize, takes, protools-like</tags>
       </metadata>
+      
       <version name="1.0" author="Mariow" time="2025-12-06T00:00:00Z">
         <changelog><![CDATA[
 v1.0 (2025-11-26)
 - Initial release: heal/normalize, consolidate, rename take, cleanup
     ]]></changelog>
-        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/Protools_Edit/Consolidate-(PT AltShift3).lua</source>
+        <source main="main">
+          https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/Protools_Edit/Consolidate-(PT AltShift3).lua
+        </source>
       </version>
     </reapack>
   </category>
