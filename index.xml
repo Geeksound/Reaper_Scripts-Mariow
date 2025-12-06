@@ -2472,6 +2472,50 @@ v1.0 (2025-06-07)
         <source main="main">https://raw.githubusercontent.com/Geeksound/Reaper_Scripts-Mariow/main/Protools_Edit/StartToFillSelection.lua</source>
       </version>
     </reapack>
+    <reapack name="Trim-Left-(PT Q).lua" type="script">
+      <metadata>
+        <description><![CDATA[
+Trim Left Edge of Item to Cursor (ProTools-like Q)
+Selects the media item under the edit cursor and trims its left edge
+up to the cursor position, mimicking Pro Tools' Q shortcut behavior.
+
+Developed by Mariow.
+]]></description>
+        <author>Mariow</author>
+        <version>1.0</version>
+        <link>https://github.com/Geeksound/Reaper_Scripts-Mariow</link>
+        <tags>editing, items, trim, (protools-like)</tags>
+      </metadata>
+      <version name="1.0" author="Mariow" time="2025-11-26T00:00:00Z">
+        <changelog><![CDATA[
+v1.0 (2025-11-26)
+- Initial release: trims the left edge of the item under cursor to edit cursor, Pro Tools Q behavior
+]]></changelog>
+        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/Protools_Edit/Trim-Left-(PT%20Q).lua</source>
+      </version>
+    </reapack>
+    <reapack name="Trim-Right-(PT S).lua" type="script">
+      <metadata>
+        <description><![CDATA[
+Trim Right Edge of Item to Cursor (ProTools-like S)
+Selects the media item under the edit cursor and trims its right edge
+up to the cursor position, mimicking Pro Tools' S shortcut behavior.
+
+Developed by Mariow.
+]]></description>
+        <author>Mariow</author>
+        <version>1.0</version>
+        <link>https://github.com/Geeksound/Reaper_Scripts-Mariow</link>
+        <tags>editing, items, trim, (protools-like)</tags>
+      </metadata>
+      <version name="1.0" author="Mariow" time="2025-11-26T00:00:00Z">
+        <changelog><![CDATA[
+v1.0 (2025-11-26)
+- Initial release: trims the right edge of the item under cursor to edit cursor, Pro Tools S behavior
+]]></changelog>
+        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/Protools_Edit/Trim-Right-(PT%20S).lua</source>
+      </version>
+    </reapack>
   </category>
   <category name="ProTools_Essentials">
     <reapack name="Strip-Silence (PT-Cmd U).lua" type="script">
