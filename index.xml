@@ -2261,6 +2261,29 @@ v1.0 (2025-12-01)
         <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/Protools_Edit/ExtendEditToStart%28PT%20Shift%20Return%29.lua</source>
       </version>
     </reapack>
+    <reapack name="ExtendEditUp(PT Shift P).lua" type="script">
+      <metadata>
+        <description><![CDATA[
+Extend Edit Up (ProTools-like SHIFT+P)
+Extends the current Razor Edit area from the selected track to the track above,
+mimicking Pro Tools’ Shift+P behavior for extending an edit selection upward.
+Useful for multi-track editing, grouping-like workflows, and fast vertical edit extension.
+
+Developed by Mariow.
+]]></description>
+        <author>Mariow</author>
+        <version>1.0</version>
+        <link>https://github.com/Geeksound/Reaper_Scripts-Mariow</link>
+        <tags>editing, razor, selection, arrange, (protools-like)</tags>
+      </metadata>
+      <version name="1.0" author="Mariow" time="2025-11-30T00:00:00Z">
+        <changelog><![CDATA[
+v1.0 (2025-11-30)
+- Initial release: extends the active Razor Edit upward to the track above, emulating Pro Tools’ Shift+P behavior
+]]></changelog>
+        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/Protools_Edit/ExtendEditUp%28PT%20Shift%20P%29.lua</source>
+      </version>
+    </reapack>
   </category>
   <metadata>
     <description><![CDATA[
