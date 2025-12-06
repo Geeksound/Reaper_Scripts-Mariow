@@ -2493,7 +2493,7 @@ Developed by Mariow.
 v1.0 (2025-06-07)
 - Initial release: executes REAPER's Strip Silence action
 ]]></changelog>
-        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/ProTools_Essentials/Strip-Silence%20(PT-Cmd%20U).lua</source>
+        <source main="main">https://raw.githubusercontent.com/Geeksound/Reaper_Scripts-Mariow/main/ProTools_Essentials/Strip-Silence%20(PT-Cmd%20U).lua</source>
       </version>
     </reapack>
   </category>
