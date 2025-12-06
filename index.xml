@@ -2204,7 +2204,7 @@ v1.0 (2025-11-30)
 - Initial release: reliably extends the current Razor Edit down to the next track,
   emulating Pro Tools’ Shift+M vertical edit extension behavior.
     ]]></changelog>
-        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/Protools_Edit/ExtendEditDown(PT%20Shift%20M).lua</source>
+        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/Protools_Edit/ExtendEditDown(PT-Shift%20M).lua</source>
       </version>
     </reapack>
   </category>
