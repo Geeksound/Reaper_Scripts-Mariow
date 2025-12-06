@@ -2233,6 +2233,34 @@ v1.0 (2025-12-01)
         <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/Protools_Edit/ExtendEDitToEnd(PT%20AltShift%20Return).lua</source>
       </version>
     </reapack>
+    <reapack name="ExtendEditToStart(PT Shift Return).lua" type="script">
+      <metadata>
+        <description><![CDATA[
+Extend Edit to Project Start (ProTools-like Shift Return)
+Extends the active Razor Edit area from its current start point all the way
+to the beginning of the project — mimicking Pro Tools’ Shift+A behavior,
+which extends the current edit selection to the start of the session.
+
+If no Razor Edit is present on the selected track, the script creates
+a new Razor Edit from the project start to the current edit cursor,
+ensuring consistent ProTools-style editing workflow.
+
+Developed by Mariow.
+]]></description>
+        <author>Mariow</author>
+        <version>1.0</version>
+        <link>https://github.com/Geeksound/Reaper_Scripts-Mariow</link>
+        <tags>editing, razor, selection, arrange, (protools-like)</tags>
+      </metadata>
+      <version name="1.0" author="Mariow" time="2025-12-01T00:00:00Z">
+        <changelog><![CDATA[
+v1.0 (2025-12-01)
+- If no Razor exists on the selected track, creates one from project start to edit cursor
+- If a Razor exists, extends its start to the beginning of the project
+]]></changelog>
+        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/Protools_Edit/ExtendEditToStart%28PT%20Shift%20Return%29.lua</source>
+      </version>
+    </reapack>
   </category>
   <metadata>
     <description><![CDATA[
