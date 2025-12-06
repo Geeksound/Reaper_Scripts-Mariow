@@ -2330,6 +2330,28 @@ v1.0 (2025-11-26)
         <source main="main">https://raw.githubusercontent.com/Geeksound/Reaper_Scripts-Mariow/main/Protools_Edit/HalveTimeLength(PT-ShiftCtrlAltCmd-L).lua</source>
       </version>
     </reapack>
+    <reapack name="Heal-Separation.lua" type="script">
+      <metadata>
+        <description><![CDATA[
+Heal Separation (ProTools-like)
+Executes a series of REAPER commands to perform the "Heal" operation
+within the current Time Selection, emulating Pro Tools' Cmd+H behavior.
+
+Developed by Mariow.
+    ]]></description>
+        <author>Mariow</author>
+        <version>1.0</version>
+        <link>https://github.com/Geeksound/Reaper_Scripts-Mariow</link>
+        <tags>editing, items, timesel, (protools-like)</tags>
+      </metadata>
+      <version name="1.0" author="Mariow" time="2025-11-25T00:00:00Z">
+        <changelog><![CDATA[
+v1.0 (2025-11-25)
+- Initial release: executes the sequence of commands to "Heal" items in the current time selection
+    ]]></changelog>
+        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/Protools_Edit/Heal-Separation.lua</source>
+      </version>
+    </reapack>
   </category>
   <metadata>
     <description><![CDATA[
