@@ -2400,6 +2400,30 @@ v1.0 (2025-11-26)
         <source main="main">https://raw.githubusercontent.com/Geeksound/Reaper_Scripts-Mariow/main/Protools_Edit/Snap-Item-ToPrevious.lua</source>
       </version>
     </reapack>
+    <reapack name="Space-Clips.lua" type="script">
+      <metadata>
+        <description><![CDATA[
+Gap Between Items (Set or Remove Gaps) — Space-Clips (ProTools-like)
+
+Creates or removes uniform gaps between selected items,
+mimicking Pro Tools' "Space Clips" feature.
+Gaps can be entered as timecode, milliseconds, or samples.
+
+Developed by Mariow.
+    ]]></description>
+        <author>Mariow</author>
+        <version>1.0</version>
+        <link>https://github.com/Geeksound/Reaper_Scripts-Mariow</link>
+        <tags>editing, items, spacing, gaps, (protools-like)</tags>
+      </metadata>
+      <version name="1.0" author="Mariow" time="2025-06-07T00:00:00Z">
+        <changelog><![CDATA[
+v1.0 (2025-06-07)
+- Initial release
+    ]]></changelog>
+        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/Protools_Edit/Space-Clips.lua</source>
+      </version>
+    </reapack>
   </category>
   <metadata>
     <description><![CDATA[
