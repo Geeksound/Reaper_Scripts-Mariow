@@ -2692,6 +2692,51 @@ v1.0 (2025-11-25)
         <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/ProTools_Essentials/Scroll-To-Track(AltCmd%20F).lua</source>
       </version>
     </reapack>
+    <reapack name="TimeSelectionWatcher.lua" type="script">
+      <metadata>
+        <description><![CDATA[
+Continuously monitors the project's Time Selection and stores
+the last valid (non-empty) selection in ExtState for use with RestoreLastSelection.lua.
+Should be placed in Startup Action.
+(ProTools-like behavior)
+]]></description>
+        <author>Mariow</author>
+        <version>1.0</version>
+        <link>https://github.com/Geeksound/Reaper_Scripts-Mariow</link>
+        <tags>editing, timesel, watcher, (protools-like)</tags>
+      </metadata>
+      <version name="1.0" author="Mariow" time="2025-06-07T00:00:00Z">
+        <changelog><![CDATA[
+v1.0 (2025-06-07)
+- Initial release
+]]></changelog>
+        <source main="main">
+          https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/ProTools_Essentials/TimeSelectionWatcher.lua
+        </source>
+      </version>
+    </reapack>
+    <reapack name="RestoreLastSelection.lua" type="script">
+      <metadata>
+        <description><![CDATA[
+Restores the last stored Time Selection in the project,
+emulating Pro Tools’ behavior.
+Requires TimeSelectionWatcher.lua to be running (e.g. in Startup Actions).
+]]></description>
+        <author>Mariow</author>
+        <version>1.0</version>
+        <link>https://github.com/Geeksound/Reaper_Scripts-Mariow</link>
+        <tags>editing, items, timesel, watcher-dependency, (protools-like)</tags>
+      </metadata>
+      <version name="1.0" author="Mariow" time="2025-06-07T00:00:00Z">
+        <changelog><![CDATA[
+v1.0 (2025-06-07)
+- Initial release
+]]></changelog>
+        <source main="main">
+          https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/ProTools_Essentials/RestoreLastSelection.lua
+        </source>
+      </version>
+    </reapack>
   </category>
   <metadata>
     <description><![CDATA[
