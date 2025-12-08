@@ -2853,6 +2853,40 @@ v1.0 (2025-11-25)
         <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/Protools_Track/GroupTracks(PT-CmdG).lua</source>
       </version>
     </reapack>
+    <reapack name="InsertNewTrack(PT).lua" type="script" desc="Insert a new track and adjust it (ProTools-style)">
+      <metadata>
+        <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
+{\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
+\widowctrl\hyphauto
+
+{\pard\ql\f0\sa180\li0\fi0\b\fs40\cf1 Insert New Track (ProTools-style)\par}
+{\pard\ql\f0\sa180\li0\fi0\b\fs36 InsertNewTrack (PT)\par}
+
+{\pard\ql\f0\sa180\li0\fi0 Inserts a new track in REAPER and configures it automatically to mimic Pro Tools behavior.\par}
+{\pard\ql\f0\sa180\li0\fi0 The script sets the track height using Xenakios/SWS actions, and immediately opens the rename dialog for fast workflow.\par}
+
+{\pard\ql\f0\sa180\li0\fi0\bullet\tx360\tab Inserts a new track at the edit cursor or end of track list.\par}
+{\pard\ql\f0\sa180\li0\fi0\bullet\tx360\tab Automatically sets a preferred track height (requires SWS/Xenakios).\par}
+{\pard\ql\f0\sa180\li0\fi0\bullet\tx360\tab Opens the track rename prompt instantly for efficient naming.\par}
+
+{\pard\ql\f0\sa180\li0\fi0 Ideal for users wanting a smooth, Pro Tools–inspired track creation workflow.\par}
+}}
+]]></description>
+        
+        <license>MIT</license>
+        <link rel="website">https://github.com/Geeksound/Reaper_Scripts-Mariow</link>
+        <tags>track, insert, rename, height, editing</tags>
+      </metadata>
+      <version name="1.0" author="Mariow" time="2025-11-26T00:00:00Z">
+        <changelog><![CDATA[
+v1.0 (2025-11-26)
+- Initial release
+]]></changelog>
+        <source main="main">
+          https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/Protools_Track/InsertNewTrack(PT).lua
+        </source>
+      </version>
+    </reapack>
   </category>
   <metadata>
     <description><![CDATA[
