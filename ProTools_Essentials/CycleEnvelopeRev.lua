@@ -8,7 +8,7 @@
   - Cycles through: Pan → Mute → Volume (ProTools-style)
   - Shares ExtState key with forward cycling script
 @provides
-  [main] ProTools_Essentials/CycleEnvelope(PT ctrlCmd <-).lua
+  [main] ProTools_Essentials/CycleEnvelopeRev.lua
 @link https://github.com/Geeksound/Reaper_Scripts-Mariow
 @repository https://github.com/Geeksound/Reaper_Scripts-Mariow
 @tags envelope, cycle, reverse, prot tools, volume, mute, pan, hide
