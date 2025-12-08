@@ -2882,9 +2882,7 @@ v1.0 (2025-11-25)
 v1.0 (2025-11-26)
 - Initial release
 ]]></changelog>
-        <source main="main">
-          https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/Protools_Track/InsertNewTrack(PT).lua
-        </source>
+        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/Protools_Track/InsertNewTrack(PT).lua</source>
       </version>
     </reapack>
   </category>
