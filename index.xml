@@ -2921,6 +2921,41 @@ v1.0 (2025-06-07)
         <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/Protools_Track/MonosTracks-ToST.lua</source>
       </version>
     </reapack>
+    <reapack name="Split-ST-toMonos.lua" type="script" desc="Split stereo items into mono items (ProTools-like)">
+      <metadata>
+        <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
+{\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
+\widowctrl\hyphauto
+
+{\pard\ql\f0\sa180\li0\fi0\b\fs40\cf1 Split Stereo to Monos (ProTools-style)\par}
+{\pard\ql\f0\sa180\li0\fi0\b\fs36 Split-ST-toMonos\par}
+
+{\pard\ql\f0\sa180\li0\fi0 Emulates Pro Tools’ workflow for splitting a stereo item into two independent mono items.\par}
+{\pard\ql\f0\sa180\li0\fi0 Automates the required REAPER and SWS steps, ensuring a clean, structured result that mirrors established post-production workflows.\par}
+
+{\pard\ql\f0\sa180\li0\fi0\bullet\tx360\tab Inserts a temporary track for processing.\par}
+{\pard\ql\f0\sa180\li0\fi0\bullet\tx360\tab Moves or duplicates the selected stereo item.\par}
+{\pard\ql\f0\sa180\li0\fi0\bullet\tx360\tab Uses REAPER’s native “Explode multichannel audio to new one-channel items”.\par}
+{\pard\ql\f0\sa180\li0\fi0\bullet\tx360\tab Restores folder states via SWS actions.\par}
+{\pard\ql\f0\sa180\li0\fi0\bullet\tx360\tab Deletes temporary tracks, leaving only the final mono items.\par}
+
+{\pard\ql\f0\sa180\li0\fi0 Ideal for dialogue, FX, ambiences, or music workflows requiring precise mono handling.\par}
+}}
+]]></description>
+        <license>MIT</license>
+        <link rel="website">https://github.com/Geeksound/Reaper_Scripts-Mariow</link>
+        <tags>editing, items, audio, explode, channels, prottools-like</tags>
+      </metadata>
+      <version name="1.0" author="Mariow" time="2025-06-07T00:00:00Z">
+        <changelog><![CDATA[
+v1.0 (2025-06-07)
+- Initial release
+]]></changelog>
+        <source main="main">
+          https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/Protools_Track/Split-ST-toMonos.lua
+        </source>
+      </version>
+    </reapack>
   </category>
   <metadata>
     <description><![CDATA[
