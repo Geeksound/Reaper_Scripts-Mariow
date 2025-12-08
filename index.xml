@@ -2694,11 +2694,22 @@ v1.0 (2025-11-25)
     </reapack>
     <reapack name="TimeSelectionWatcher.lua" type="script">
       <metadata>
-        <description><![CDATA[
-Continuously monitors the project's Time Selection and stores
-the last valid (non-empty) selection in ExtState for use with RestoreLastSelection.lua.
-Should be placed in Startup Action.
-(ProTools-like behavior)
+        <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
+{\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
+\widowctrl\hyphauto
+
+{\pard\ql\f0\sa180\li0\fi0\b\fs40\cf1 TimeSelectionWatcher (ProTools-like)\par}
+{\pard\ql\f0\sa180\li0\fi0\b\fs36 Tracks and Stores Last Time Selection\par}
+{\pard\ql\f0\sa180\li0\fi0 Continuously monitors the project's time selection and stores the last valid (non-empty) selection for later recall.\par}
+
+{\pard\ql\f0\sa180\li0\fi0\bullet\tx360\tab Runs in the background (e.g., in Startup Actions) to automatically track selections.\par}
+{\pard\ql\f0\sa180\li0\fi0\bullet\tx360\tab Stores the last meaningful selection in ExtState for RestoreLastSelection.lua.\par}
+{\pard\ql\f0\sa180\li0\fi0\bullet\tx360\tab Provides seamless Pro Tools–like behavior in REAPER for time selection tracking.\par}
+
+{\pard\ql\f0\sa180\li0\fi0 Ideal for:\par}
+{\pard\ql\f0\sa0\li360\fi-360\bullet\tx360\tab Editing, arranging, and post-production workflows.\par}
+{\pard\ql\f0\sa0\li360\fi-360\bullet\tx360\tab Quickly returning to important time selections.\par}
+}
 ]]></description>
         <author>Mariow</author>
         <version>1.0</version>
@@ -2715,10 +2726,22 @@ v1.0 (2025-06-07)
     </reapack>
     <reapack name="RestoreLastSelection.lua" type="script">
       <metadata>
-        <description><![CDATA[
-Restores the last stored Time Selection in the project,
-emulating Pro Tools’ behavior.
-Requires TimeSelectionWatcher.lua to be running (e.g. in Startup Actions).
+        <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
+{\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
+\widowctrl\hyphauto
+
+{\pard\ql\f0\sa180\li0\fi0\b\fs40\cf1 RestoreLastSelection (ProTools-like)\par}
+{\pard\ql\f0\sa180\li0\fi0\b\fs36 Recalls the Last Time Selection\par}
+{\pard\ql\f0\sa180\li0\fi0 Restores the last stored time selection in the project, emulating Pro Tools’ “last selection restore” behavior.\par}
+
+{\pard\ql\f0\sa180\li0\fi0\bullet\tx360\tab Requires TimeSelectionWatcher.lua to be running to track and store selections.\par}
+{\pard\ql\f0\sa180\li0\fi0\bullet\tx360\tab Can be triggered anytime to quickly recall the last non-empty selection.\par}
+{\pard\ql\f0\sa180\li0\fi0\bullet\tx360\tab Perfect for workflows where you frequently jump between multiple time selections.\par}
+
+{\pard\ql\f0\sa180\li0\fi0 Ideal for:\par}
+{\pard\ql\f0\sa0\li360\fi-360\bullet\tx360\tab Editing, arranging, or post-production tasks in REAPER.\par}
+{\pard\ql\f0\sa0\li360\fi-360\bullet\tx360\tab Emulating Pro Tools–style selection recall.\par}
+}
 ]]></description>
         <author>Mariow</author>
         <version>1.0</version>
