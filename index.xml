@@ -2789,6 +2789,41 @@ v1.0 (2025-06-07)
       </version>
     </reapack>
   </category>
+  <category name="Protools_Track">
+    <reapack name="DelTrack(AsPT).lua" type="script" desc="Safe Delete Selected Tracks (ProTools-style)">
+      <metadata>
+        <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
+{\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
+\widowctrl\hyphauto
+
+{\pard\ql\f0\sa180\li0\fi0\b\fs40\cf1 Safe Delete Selected Tracks (ProTools-style)\par}
+{\pard\ql\f0\sa180\li0\fi0\b\fs36 DelTrack(AsPT)\par}
+{\pard\ql\f0\sa180\li0\fi0 Deletes selected tracks in REAPER similar to Pro Tools behavior.\par}
+{\pard\ql\f0\sa180\li0\fi0 Empty tracks are deleted immediately, while tracks containing items prompt the user for confirmation before deletion.\par}
+
+{\pard\ql\f0\sa180\li0\fi0\bullet\tx360\tab Deletes empty tracks instantly.\par}
+{\pard\ql\f0\sa180\li0\fi0\bullet\tx360\tab Prompts for confirmation when tracks contain items.\par}
+{\pard\ql\f0\sa180\li0\fi0\bullet\tx360\tab Provides a safe, Pro Tools–like workflow for managing track deletions.\par}
+
+{\pard\ql\f0\sa180\li0\fi0 Ideal for:\par}
+{\pard\ql\f0\sa0\li360\fi-360\bullet\tx360\tab Editing, arranging, and post-production workflows.\par}
+{\pard\ql\f0\sa0\li360\fi-360\bullet\tx360\tab Avoiding accidental deletion of tracks with items.\par}
+}}
+]]></description>
+        <license>MIT</license>
+        <link rel="website">https://github.com/Geeksound/Reaper_Scripts-Mariow</link>
+        <tags>tracks, delete, safe, editing, (protools-like)</tags>
+      </metadata>
+      <version name="1.0" author="Mariow" time="2025-11-26T00:00:00Z">
+        <changelog><![CDATA[
+v1.0 (2025-11-26)
+- Initial release
+- Deletes selected tracks if empty; asks confirmation if tracks contain items
+]]></changelog>
+        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/Protools_Track/DelTrack(AsPT).lua</source>
+      </version>
+    </reapack>
+  </category>
   <metadata>
     <description><![CDATA[
 {\rtf1\ansi\deff0{\fonttbl{\f0\fswiss Helvetica;}{\f1 Courier;}}
