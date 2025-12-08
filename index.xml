@@ -2613,7 +2613,7 @@ v1.0 (2025-12-08)
 - Cycles through Volume → Mute → Pan (ProTools-style)
 - Stores state in ExtState (PT_Toggles)
 ]]></changelog>
-        <source main="main">https://raw.githubusercontent.com/Geeksound/Reaper_Scripts-Mariow/main/ProTools_Essentials/CycleEnvelope(PT%20ctrlCmd%20-%3E).lua</source>
+        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/ProTools_Essentials/CycleEnvelope(PT%20ctrlCmd%20-%3E).lua</source>
       </version>
     </reapack>
     <reapack name="CycleEnvelope(PT ctrlCmd <-).lua" type="script">
@@ -2640,7 +2640,7 @@ v1.0 (2025-12-08)
 - Reverse logic: Hide → Pan → Mute → Volume
 - Shares ExtState key with forward cycle script
 ]]></changelog>
-        <source main="main">https://raw.githubusercontent.com/Geeksound/Reaper_Scripts-Mariow/main/ProTools_Essentials/CycleEnvelope(PT%20ctrlCmd%20-%3C-).lua</source>
+        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/ProTools_Essentials/CycleEnvelope(PT%20ctrlCmd%20%3C-).lua</source>
       </version>
     </reapack>
     <reapack name="ViewNameEnvelope(imGui).lua" type="script">
@@ -2668,7 +2668,7 @@ v1.0 (2025-12-08)
 - Shows selected envelope name or track name
 - Lightweight floating ImGui window
 ]]></changelog>
-        <source main="main">https://raw.githubusercontent.com/Geeksound/Reaper_Scripts-Mariow/main/ProTools_Essentials/ViewNameEnvelope(imGui).lua</source>
+        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/ProTools_Essentials/ViewNameEnvelope(imGui).lua</source>
       </version>
     </reapack>
   </category>
