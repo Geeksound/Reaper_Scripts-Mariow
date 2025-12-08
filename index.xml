@@ -2671,6 +2671,27 @@ v1.0 (2025-12-08)
         <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/ProTools_Essentials/ViewNameEnvelope(imGui).lua</source>
       </version>
     </reapack>
+    <reapack name="Scroll-To-Track(Altcmd F).lua" type="script">
+      <metadata>
+        <description><![CDATA[
+Scroll to a selected track by name (ProTools-like)
+Opens a filterable list of tracks and scrolls the arrange view
+to the selected track, emulating Pro Tools’ Alt+Cmd+F behavior.
+Developed by Mariow.
+]]></description>
+        <author>Mariow</author>
+        <version>1.0</version>
+        <link>https://github.com/Geeksound/Reaper_Scripts-Mariow</link>
+        <tags>navigation, tracks, filtering, (protools-like)</tags>
+      </metadata>
+      <version name="1.0" author="Mariow" time="2025-11-25T00:00:00Z">
+        <changelog><![CDATA[
+v1.0 (2025-11-25)
+- Initial release: scrolls to track matching filter text using Alt+Cmd+F workflow
+]]></changelog>
+        <source main="main">https://raw.githubusercontent.com/Geeksound/Reaper_Scripts-Mariow/main/ProTools_Essentials/Scroll-To-Track(Altcmd%20F).lua</source>
+      </version>
+    </reapack>
   </category>
   <metadata>
     <description><![CDATA[
