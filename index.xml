@@ -1543,6 +1543,40 @@ v1.0 (2025-11-21)
         <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/PROTOOLS/SaveSessionCopyInFolders.lua</source>
       </version>
     </reapack>
+    <reapack name="ZoomSel-(PT Alt F).lua" type="script">
+      <metadata>
+        <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
+{\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
+\widowctrl\hyphauto
+
+{\pard\ql\f0\sa180\li0\fi0\b\fs40\cf1 ZoomSel-(PT Alt F) (ProTools-like)\par}
+{\pard\ql\f0\sa180\li0\fi0\b\fs36 Zoom to Selected Items or Time Selection\par}
+{\pard\ql\f0\sa180\li0\fi0 Quickly zooms the arrange view to the selected item(s), or to the time selection if no items are selected, emulating Pro Tools’ clip zoom behavior.\par}
+
+{\pard\ql\f0\sa180\li0\fi0\bullet\tx360\tab Zooms directly to selected items if present.\par}
+{\pard\ql\f0\sa180\li0\fi0\bullet\tx360\tab Falls back to zooming to the time selection if no items are selected.\par}
+{\pard\ql\f0\sa180\li0\fi0\bullet\tx360\tab Provides a Pro Tools–like workflow for quickly navigating the arrange view.\par}
+
+{\pard\ql\f0\sa180\li0\fi0 Ideal for:\par}
+{\pard\ql\f0\sa0\li360\fi-360\bullet\tx360\tab Editing, arranging, or post-production tasks where quick zooming improves workflow.\par}
+{\pard\ql\f0\sa0\li360\fi-360\bullet\tx360\tab Situations where you frequently jump between items and time selections.\par}
+}}
+]]></description>
+        <author>Mariow</author>
+        <version>1.0</version>
+        <link>https://github.com/Geeksound/Reaper_Scripts-Mariow</link>
+        <tags>navigation, zoom, items, time selection, (protools-like)</tags>
+      </metadata>
+      <version name="1.0" author="Mariow" time="2025-11-26T00:00:00Z">
+        <changelog><![CDATA[
+v1.0 (2025-11-26)
+- Initial release: zooms to selected items or to time selection if no items, emulating Pro Tools behavior
+]]></changelog>
+        <source main="main">
+          https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/PROTOOLS/ZoomSel-(PT%20Alt%20F).lua
+        </source>
+      </version>
+    </reapack>
   </category>
   <category name="ProTools_TAB">
     <reapack name="(ProTools)TAB-AltShift.lua" type="script" desc="ProTools TAB - Alt+Shift+TAB (Extend Selection Left)">
