@@ -2885,6 +2885,44 @@ v1.0 (2025-11-26)
         <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/Protools_Track/InsertNewTrack(PT).lua</source>
       </version>
     </reapack>
+    <reapack name="MonosTracks-ToST.lua" type="script" desc="Convert mono tracks to stereo takes (ProTools-like)">
+      <metadata>
+        <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
+{\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
+\widowctrl\hyphauto
+
+{\pard\ql\f0\sa180\li0\fi0\b\fs40\cf1 Convert Mono Tracks to Stereo Takes (ProTools-style)\par}
+{\pard\ql\f0\sa180\li0\fi0\b\fs36 MonosTracks-ToST\par}
+
+{\pard\ql\f0\sa180\li0\fi0 Converts mono items on a track into a structured stereo take arrangement, emulating Pro Tools consolidation workflows.\par}
+{\pard\ql\f0\sa180\li0\fi0 Automates Xenakios/SWS and REAPER actions to transform mono sources into properly formed stereo takes with preserved naming and colors.\par}
+
+{\pard\ql\f0\sa180\li0\fi0\bullet\tx360\tab Selects all items on the current track.\par}
+{\pard\ql\f0\sa180\li0\fi0\bullet\tx360\tab Uses SWS/Xenakios action:\par}
+{\pard\ql\f0\sa0\li720\fi0 "Implode items to takes and pan symmetrically".\par}
+{\pard\ql\f0\sa180\li0\fi0\bullet\tx360\tab Glues each resulting take individually while preserving:\par}
+{\pard\ql\f0\sa0\li720\fi-360\bullet\tx720\tab Original take names.\par}
+{\pard\ql\f0\sa0\li720\fi-360\bullet\tx720\tab Original colors.\par}
+{\pard\ql\f0\sa180\li0\fi0\bullet\tx360\tab Prevents double-take generation.\par}
+{\pard\ql\f0\sa180\li0\fi0\bullet\tx360\tab Refreshes the arrange view at the end.\par}
+
+{\pard\ql\f0\sa180\li0\fi0 Ideal for post-production, dialogue, or FX workflows requiring quick mono→stereo structuring.\par}
+}}
+]]></description>
+        <license>MIT</license>
+        <link rel="website">https://github.com/Geeksound/Reaper_Scripts-Mariow</link>
+        <tags>editing, tracks, items, takes, implode, glue, (protools-like)</tags>
+      </metadata>
+      <version name="1.0" author="Mariow" time="2025-06-07T00:00:00Z">
+        <changelog><![CDATA[
+v1.0 (2025-06-07)
+- Initial release
+]]></changelog>
+        <source main="main">
+          https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/Protools_Track/MonosTracks-ToST.lua
+        </source>
+      </version>
+    </reapack>
   </category>
   <metadata>
     <description><![CDATA[
