@@ -2590,6 +2590,87 @@ v1.0 (2025-12-06)
         <source main="main">https://raw.githubusercontent.com/Geeksound/Reaper_Scripts-Mariow/main/ProTools_Essentials/ZoomPresets(PT-like).lua</source>
       </version>
     </reapack>
+    <reapack name="CycleEnvelope(PT ctrlCmd ->).lua" type="script">
+      <metadata>
+        <description><![CDATA[
+Cycle Track Envelope Volume → Mute → Pan (PT-like)
+
+Cycles through:
+- Volume → Mute → Pan → Hide  
+Stores its state in ExtState (PT_Toggles).
+
+Developed by Mariow.
+]]></description>
+        <author>Mariow</author>
+        <version>1.0</version>
+        <link>https://github.com/Geeksound/Reaper_Scripts-Mariow</link>
+        <tags>envelope, cycle, protools-like, volume, mute, pan, hide</tags>
+      </metadata>
+      <version name="1.0" author="Mariow" time="2025-12-08T00:00:00Z">
+        <changelog><![CDATA[
+v1.0 (2025-12-08)
+- Initial release
+- Cycles through Volume → Mute → Pan (ProTools-style)
+- Stores state in ExtState (PT_Toggles)
+]]></changelog>
+        <source main="main">https://raw.githubusercontent.com/Geeksound/Reaper_Scripts-Mariow/main/ProTools_Essentials/CycleEnvelope(PT%20ctrlCmd%20-%3E).lua</source>
+      </version>
+    </reapack>
+    <reapack name="CycleEnvelope(PT ctrlCmd <-).lua" type="script">
+      <metadata>
+        <description><![CDATA[
+Cycle Track Envelope Pan → Mute → Volume (reverse PT-like)
+
+Reverse cycle:
+- Hide → Pan → Mute → Volume  
+Synchronized with the forward script using shared ExtState.
+
+Developed by Mariow.
+]]></description>
+        <author>Mariow</author>
+        <version>1.0</version>
+        <link>https://github.com/Geeksound/Reaper_Scripts-Mariow</link>
+        <tags>envelope, cycle, reverse, protools-like, volume, mute, pan, hide</tags>
+      </metadata>
+      <version name="1.0" author="Mariow" time="2025-12-08T00:00:00Z">
+        <changelog><![CDATA[
+v1.0 (2025-12-08)
+- Initial release
+- Cycles: Pan → Mute → Volume (ProTools-style)
+- Reverse logic: Hide → Pan → Mute → Volume
+- Shares ExtState key with forward cycle script
+]]></changelog>
+        <source main="main">https://raw.githubusercontent.com/Geeksound/Reaper_Scripts-Mariow/main/ProTools_Essentials/CycleEnvelope(PT%20ctrlCmd%20-%3C-).lua</source>
+      </version>
+    </reapack>
+    <reapack name="ViewNameEnvelope(imGui).lua" type="script">
+      <metadata>
+        <description><![CDATA[
+Track / Envelope Display (ImGui helper)
+
+Displays:
+- Selected envelope name  
+- Otherwise the selected track name  
+
+Useful with the ProTools-like envelope cycling scripts.
+
+Developed by Mariow.
+]]></description>
+        <author>Mariow</author>
+        <version>1.0</version>
+        <link>https://github.com/Geeksound/Reaper_Scripts-Mariow</link>
+        <tags>envelope, track, display, imgui, helper, protools-like</tags>
+      </metadata>
+      <version name="1.0" author="Mariow" time="2025-12-08T00:00:00Z">
+        <changelog><![CDATA[
+v1.0 (2025-12-08)
+- Initial release
+- Shows selected envelope name or track name
+- Lightweight floating ImGui window
+]]></changelog>
+        <source main="main">https://raw.githubusercontent.com/Geeksound/Reaper_Scripts-Mariow/main/ProTools_Essentials/ViewNameEnvelope(imGui).lua</source>
+      </version>
+    </reapack>
   </category>
   <metadata>
     <description><![CDATA[
