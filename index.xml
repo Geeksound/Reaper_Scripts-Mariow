@@ -1181,6 +1181,47 @@ v1.0 (2025-11-12)
         <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/Utility/Create-CueItem.lua</source>
       </version>
     </reapack>
+    <reapack name="MultiplyDivide-TimeAreas.lua" type="script" desc="Multiply / Divide time areas with HH:MM:SS:Frames (ReaImGui)">
+      <metadata>
+        <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
+{\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
+\widowctrl\hyphauto
+
+{\pard\ql\f0\sa200\li0\fi0\b\fs40\cf1 Multiply / Divide Time Areas (ReaImGui)\par}
+{\pard\ql\f0\sa120\li0\fi0\b\fs36 Utility Tool\par}
+
+{\pard\ql\f0\sa180\li0\fi0 This tool proportionally scales the duration of selected:\par}
+{\pard\ql\f0\sa0\li360\fi-360 \bullet\tx360\tab Razor Edit areas\par}
+{\pard\ql\f0\sa0\li360\fi-360 \bullet\tx360\tab Time Selection\par}
+{\pard\ql\f0\sa0\li360\fi-360 \bullet\tx360\tab Loop Points\par}
+
+{\pard\ql\f0\sa180\li0\fi0 All durations are displayed live in \b HH:MM:SS:Frames \b0, updating instantly as the factor changes.\par}
+
+{\pard\ql\f0\sa180\li0\fi0 Features:\par}
+{\pard\ql\f0\sa0\li360\fi-360 \bullet\tx360\tab Multiply or divide with a slider or numeric entry\par}
+{\pard\ql\f0\sa0\li360\fi-360 \bullet\tx360\tab Separate toggles for Razor / TS / Loop\par}
+{\pard\ql\f0\sa0\li360\fi-360 \bullet\tx360\tab ReaImGui real-time interface\par}
+{\pard\ql\f0\sa0\li360\fi-360 \bullet\tx360\tab Ideal for timing edits, sound design, workflow automation\par}
+
+{\pard\ql\f0\sa200\li0\fi0 Developed by Mariow.\par}
+}]]></description>
+        <license>MIT</license>
+        <link rel="website">https://github.com/Geeksound/Reaper_Scripts-Mariow</link>
+        <tags>utility editing timing razor timesel loops imgui stretch</tags>
+      </metadata>
+      <version name="1.5" author="Mariow" time="2025-11-26T00:00:00Z">
+        <changelog><![CDATA[
+v1.5 (2025-11-26)
+- Added HH:MM:SS:Frames display
+- Added numeric + slider factor controls
+- Added independent toggles for each time area type
+- Improved ReaImGui interface
+]]></changelog>
+        <source main="main">
+          https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/Utility/MultiplyDivide-TimeAreas.lua
+        </source>
+      </version>
+    </reapack>
   </category>
   <category name="View">
     <reapack name="Interactive-TC-Display.lua" type="script" desc="Interactive-TC-Display">
