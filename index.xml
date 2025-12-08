@@ -2823,6 +2823,36 @@ v1.0 (2025-11-26)
         <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/Protools_Track/DelTrack(AsPT).lua</source>
       </version>
     </reapack>
+    <reapack name="GroupTracks(PT-CmdG).lua" type="script" desc="Group selected tracks (ProTools-like)">
+      <metadata>
+        <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
+{\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
+\widowctrl\hyphauto
+
+{\pard\ql\f0\sa180\li0\fi0\b\fs40\cf1 Group Selected Tracks (ProTools-style)\par}
+{\pard\ql\f0\sa180\li0\fi0\b\fs36 GroupTracks (PT Cmd+G)\par}
+{\pard\ql\f0\sa180\li0\fi0 Executes REAPER’s native “Group tracks” action (ID 40772), emulating Pro Tools' Cmd+G workflow.\par}
+
+{\pard\ql\f0\sa180\li0\fi0\bullet\tx360\tab Groups the currently selected tracks instantly.\par}
+{\pard\ql\f0\sa180\li0\fi0\bullet\tx360\tab Reproduces the familiar Cmd+G grouping behavior from Pro Tools.\par}
+{\pard\ql\f0\sa180\li0\fi0\bullet\tx360\tab Perfect for music, editing, and post-production workflows.\par}
+
+{\pard\ql\f0\sa180\li0\fi0 Ideal for users wanting a quick and consistent track grouping shortcut.\par}
+}}
+]]></description>
+        <license>MIT</license>
+        <link rel="website">https://github.com/Geeksound/Reaper_Scripts-Mariow</link>
+        <tags>editing, tracks, grouping, (protools-like)</tags>
+      </metadata>
+      
+      <version name="1.0" author="Mariow" time="2025-11-25T00:00:00Z">
+        <changelog><![CDATA[
+v1.0 (2025-11-25)
+- Initial release: executes the "Group tracks" command (ID 40772)
+]]></changelog>
+        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/Protools_Track/GroupTracks(PT-CmdG).lua</source>
+      </version>
+    </reapack>
   </category>
   <metadata>
     <description><![CDATA[
