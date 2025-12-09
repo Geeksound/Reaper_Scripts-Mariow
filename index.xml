@@ -2963,6 +2963,42 @@ v1.0 (2025-06-07)
         <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/ProTools_Essentials/PlayThruStart(PT%20AltCmdLeftArrow).lua</source>
       </version>
     </reapack>
+    <reapack name="PlayToEnd.lua" type="script">
+      <metadata>
+        <description><![CDATA[
+{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
+{\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
+\widowctrl\hyphauto
+
+{\pard\ql\f0\sa180\li0\fi0\b\fs40\cf1 PlayToEnd (ProTools-like)\par}
+{\pard\ql\f0\sa180\li0\fi0\b\fs36 Play from Pre-Roll to the End of the Time Selection\par}
+{\pard\ql\f0\sa180\li0\fi0 Plays from a pre-roll amount and stops automatically at the end\par}
+{\pard\ql\f0\sa0\li0\fi0 of the current Time Selection — emulating Pro Tools’ “Play To Out”.\par}
+
+{\pard\ql\f0\sa180\li0\fi0\bullet\tx360\tab Starts playback before the selection via configurable pre-roll.\par}
+{\pard\ql\f0\sa180\li0\fi0\bullet\tx360\tab Automatically stops exactly at the Time Selection end.\par}
+{\pard\ql\f0\sa180\li0\fi0\bullet\tx360\tab Perfect for verifying ending transitions, fades, edits, or cue timing.\par}
+
+{\pard\ql\f0\sa180\li0\fi0 Ideal for:\par}
+{\pard\ql\f0\sa0\li360\fi-360\bullet\tx360\tab Emulating Pro Tools’ “Play To Out”.\par}
+{\pard\ql\f0\sa0\li360\fi-360\bullet\tx360\tab Reviewing transition points at the end of selections.\par}
+}
+]]></description>
+        <author>Mariow</author>
+        <version>1.0</version>
+        <link>https://github.com/Geeksound/Reaper_Scripts-Mariow</link>
+        <tags>editing, transport, playback, (protools-like)</tags>
+      </metadata>
+      <version name="1.0" author="Mariow" time="2025-06-07T00:00:00Z">
+        <changelog><![CDATA[
+v1.0 (2025-06-07)
+- Initial release
+]]></changelog>
+        <source main="main">
+          https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/ProTools_Essentials/PlayToEnd(PT%20AltRightArrow).lua
+        </source>
+      </version>
+    </reapack>
   </category>
   <category name="Protools_Track">
     <reapack name="DelTrack(AsPT).lua" type="script" desc="Safe Delete Selected Tracks (ProTools-style)">
