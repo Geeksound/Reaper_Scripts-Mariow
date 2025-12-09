@@ -3031,6 +3031,51 @@ v1.0 (2025-06-07)
         <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/ProTools_Essentials/PlayToStart(PT%20AltLeftArrow).lua</source>
       </version>
     </reapack>
+    <reapack name="PRE-Post-ROLL(Imgui).lua" type="script">
+      <metadata>
+        <description><![CDATA[
+{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
+{\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
+\widowctrl\hyphauto
+
+{\pard\ql\f0\sa180\li0\fi0\b\fs40\cf1 PRE-Post-ROLL (Imgui) (ProTools-like)\par}
+{\pard\ql\f0\sa180\li0\fi0\b\fs36 Configure Pre-Roll, Post-Roll and Nudge Values for All ProTools-like Scripts\par}
+
+{\pard\ql\f0\sa180\li0\fi0 This script provides a unified control panel to configure global\par}
+{\pard\ql\f0\sa0\li0\fi0\fs24 Pre-Roll, Post-Roll and Nudge values used throughout the ProTools_Essentials suite.\par}
+
+{\pard\ql\f0\sa180\li0\fi0\b\fs32 Pre-Roll / Post-Roll\par}
+{\pard\ql\f0\sa0\li0\fi0 These values are automatically applied to all transport-related scripts:\par}
+{\pard\ql\f0\sa0\li360\fi-360\bullet\tx360\tab PlayFromStart\par}
+{\pard\ql\f0\sa0\li360\fi-360\bullet\tx360\tab PlayFromEnd\par}
+{\pard\ql\f0\sa0\li360\fi-360\bullet\tx360\tab PlayThruStart\par}
+{\pard\ql\f0\sa0\li360\fi-360\bullet\tx360\tab PlayThruEnd\par}
+{\pard\ql\f0\sa0\li360\fi-360\bullet\tx360\tab PlayToStart\par}
+{\pard\ql\f0\sa0\li360\fi-360\bullet\tx360\tab PlayToEnd\par}
+
+{\pard\ql\f0\sa180\li0\fi0\b\fs32 Nudge Value\par}
+{\pard\ql\f0\sa0\li0\fi0 The selected Nudge amount is shared with all related navigation scripts:\par}
+{\pard\ql\f0\sa0\li360\fi-360\bullet\tx360\tab Nudge Forward\par}
+{\pard\ql\f0\sa0\li360\fi-360\bullet\tx360\tab Nudge Backward\par}
+
+{\pard\ql\f0\sa180\li0\fi0 This tool provides a centralized configuration for consistent Pro Tools–style behavior across the entire workflow.\par}
+}
+]]></description>
+        <author>Mariow</author>
+        <version>1.0</version>
+        <link>https://github.com/Geeksound/Reaper_Scripts-Mariow</link>
+        <tags>settings, editing, transport, nudge, (protools-like)</tags>
+      </metadata>
+      <version name="1.0" author="Mariow" time="2025-06-07T00:00:00Z">
+        <changelog><![CDATA[
+v1.0 (2025-06-07)
+- Initial release
+]]></changelog>
+        <source main="main">
+          https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/ProTools_Essentials/PRE-Post-ROLL(Imgui).lua
+        </source>
+      </version>
+    </reapack>
   </category>
   <category name="Protools_Track">
     <reapack name="DelTrack(AsPT).lua" type="script" desc="Safe Delete Selected Tracks (ProTools-style)">
