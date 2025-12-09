@@ -3826,7 +3826,7 @@ providing a unified, Pro Tools–style editing workflow inside REAPER.\par}
 v1.0 (2025-12-09)
 - Initial release: moves start of Time Selection forward or backward using TimecodeUI value
 ]]></changelog>
-        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/ProTools_Essentials/MoveTimeSelectionStartBackward-TCui.lua</source>
+        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/ProTools_Essentials/MoveTimeSelStartBackward-TCui.lua</source>
       </version>
     </reapack>
   </category>
