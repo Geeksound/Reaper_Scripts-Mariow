@@ -3639,6 +3639,54 @@ v1.0 (2025-12-09)
         <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/ProTools_Essentials/MoveRazorRightBackward-TCui.lua</source>
       </version>
     </reapack>
+    <reapack name="MoveRazorRightForward-TCui.lua" type="script">
+      <metadata>
+        <description><![CDATA[
+{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
+{\colortbl;\red0\green150\blue255;\red0\green0\blue0;}
+\widowctrl\hyphauto
+
+{\pard\ql\f0\sa180\li0\fi0\b\fs40 Move RIGHT-Edge of Razor Areas Forward\par}
+{\pard\ql\f0\sa180\li0\fi0\b\fs32 Moves right edge of Razor Areas using shared Timecode (ProTools-like)\par}
+
+{\pard\ql\f0\sa180\li0\fi0 This script moves the \b right edge \b0 of all Razor Areas forward by the nudge value defined in
+the \b TimecodeUI \b0 panel. If no Razor Areas exist, the current Time Selection is converted first.\par}
+
+{\pard\ql\f0\sa180\li0\fi0\b\fs32 Shared Timecode Input\par}
+{\pard\ql\f0\sa0\li360\fi-360\bullet\tx360\tab Namespace: "TimecodeUI"\par}
+{\pard\ql\f0\sa0\li360\fi-360\bullet\tx360\tab Key: "tc"\par}
+{\pard\ql\f0\sa0\li360\fi-360\bullet\tx360\tab Format: HH:MM:SS:FF\par}
+
+{\pard\ql\f0\sa180\li0\fi0\b\fs32 Usage\par}
+{\pard\ql\f0\sa0\li360\fi-360\bullet\tx360\tab Moves the right edge of each Razor Area forward by Timecode value\par}
+{\pard\ql\f0\sa0\li360\fi-360\bullet\tx360\tab If no Razor Areas exist, creates them from Time Selection first\par}
+{\pard\ql\f0\sa0\li360\fi-360\bullet\tx360\tab Undo fully supported\par}
+
+{\pard\ql\f0\sa180\li0\fi0\b\fs32 Works With:\par}
+{\pard\ql\f0\sa0\li360\fi-360\bullet\tx360\tab MoveRazorAreaForward / MoveRazorAreaBackward\par}
+{\pard\ql\f0\sa0\li360\fi-360\bullet\tx360\tab MoveRazorLeftForward / MoveRazorLeftBackward\par}
+{\pard\ql\f0\sa0\li360\fi-360\bullet\tx360\tab Extend/Reduce Razor Areas\par}
+{\pard\ql\f0\sa0\li360\fi-360\bullet\tx360\tab Grow/Shrink Left & Right Edges\par}
+{\pard\ql\f0\sa0\li360\fi-360\bullet\tx360\tab Nudge Forward / Nudge Backward\par}
+{\pard\ql\f0\sa0\li360\fi-360\bullet\tx360\tab PRE-POST-ROLL + Timecode UI (ImGui)\par}
+
+{\pard\ql\f0\sa180\li0\fi0 This script is part of the \b ProTools_Essentials \b0 suite, 
+providing a unified, Pro Tools–style editing workflow inside REAPER.\par}
+}
+]]></description>
+        <author>Mariow</author>
+        <version>1.0</version>
+        <link>https://github.com/Geeksound/Reaper_Scripts-Mariow</link>
+        <tags>editing, razor, nudge, items, transport, (protools-like)</tags>
+      </metadata>
+      <version name="1.0" author="Mariow" time="2025-12-09T00:00:00Z">
+        <changelog><![CDATA[
+v1.0 (2025-12-09)
+- Initial release: moves right edge of Razor Areas forward using shared TimecodeUI value
+]]></changelog>
+        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/ProTools_Essentials/MoveRazorRightForward-TCui.lua</source>
+      </version>
+    </reapack>
   </category>
   <category name="Protools_Track">
     <reapack name="DelTrack(AsPT).lua" type="script" desc="Safe Delete Selected Tracks (ProTools-style)">
