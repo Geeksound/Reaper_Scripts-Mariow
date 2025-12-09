@@ -3160,9 +3160,7 @@ using the shared timecode entered in the\par}
 v1.0 (2025-06-07)
 - Initial release (reads tc value from Unified PRE-POST-ROLL panel)
 ]]></changelog>
-        <source main="main">
-          https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/ProTools_Essentials/NudgeBackward.lua
-        </source>
+        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/ProTools_Essentials/NudgeBackward.lua</source>
       </version>
     </reapack>
   </category>
