@@ -3074,6 +3074,53 @@ v1.0 (2025-06-07)
         <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/ProTools_Essentials/PRE-Post-ROLL(Imgui).lua</source>
       </version>
     </reapack>
+    <reapack name="NudgeForward.lua" type="script">
+      <metadata>
+        <description><![CDATA[
+{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
+{\colortbl;\red0\green150\blue255;\red0\green0\blue0;}
+\widowctrl\hyphauto
+
+{\pard\ql\f0\sa180\li0\fi0\b\fs40\cf1 Nudge Forward (ProTools-like)\par}
+{\pard\ql\f0\sa180\li0\fi0\b\fs32 Move Cursor or Items Forward Based on Shared Timecode\par}
+
+{\pard\ql\f0\sa180\li0\fi0 This script nudges the edit cursor or selected items \b forward \b0 
+using the shared timecode entered in the\par}
+{\pard\ql\f0\sa0\li0\fi0\b Unified PRE–POST–ROLL + Timecode UI (ImGui)\b0 .\par}
+
+{\pard\ql\f0\sa180\li0\fi0\b\fs32 Shared Timecode Input\par}
+{\pard\ql\f0\sa0\li0\fi0 The nudge amount is read from a global ExtState used across the ProTools_Essentials suite:\par}
+{\pard\ql\f0\sa0\li360\fi-360\bullet\tx360\tab Namespace: "TimecodeUI"\par}
+{\pard\ql\f0\sa0\li360\fi-360\bullet\tx360\tab Key: "tc"\par}
+{\pard\ql\f0\sa0\li360\fi-360\bullet\tx360\tab Format: HH:MM:SS:FF\par}
+
+{\pard\ql\f0\sa180\li0\fi0 This ensures complete synchronization across all navigation tools.\par}
+
+{\pard\ql\f0\sa180\li0\fi0\b\fs32 Works With:\par}
+{\pard\ql\f0\sa0\li360\fi-360\bullet\tx360\tab Nudge Backward\par}
+{\pard\ql\f0\sa0\li360\fi-360\bullet\tx360\tab Nudge Forward ×10\par}
+{\pard\ql\f0\sa0\li360\fi-360\bullet\tx360\tab PRE-POST-ROLL + Timecode UI (ImGui)\par}
+{\pard\ql\f0\sa0\li360\fi-360\bullet\tx360\tab Set_Rolls_And_Nudge_Settings\par}
+
+{\pard\ql\f0\sa180\li0\fi0 This script is part of the ProTools_Essentials suite, providing unified, Pro Tools–style navigation inside REAPER.\par}
+}
+]]></description>
+        <author>Mariow</author>
+        <version>1.0</version>
+        <link>https://github.com/Geeksound/Reaper_Scripts-Mariow</link>
+        <tags>editing, nudge, cursor, items, transport, (protools-like)</tags>
+      </metadata>
+      <version name="1.0" author="Mariow" time="2025-06-07T00:00:00Z">
+        <changelog><![CDATA[
+v1.0 (2025-06-07)
+- Initial release (reads tc value from Unified PRE-POST-ROLL panel)
+]]></changelog>
+        
+        <source main="main">
+          https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/ProTools_Essentials/NudgeForward.lua
+        </source>
+      </version>
+    </reapack>
   </category>
   <category name="Protools_Track">
     <reapack name="DelTrack(AsPT).lua" type="script" desc="Safe Delete Selected Tracks (ProTools-style)">
