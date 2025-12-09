@@ -3254,9 +3254,7 @@ Pro Tools–inspired editing and navigation inside REAPER.\par}
 v1.0 (2025-06-07)
 - Initial release (multiplies timecode nudge by 10)
 ]]></changelog>
-        <source main="main">
-          https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/ProTools_Essentials/NudgeForwardx10.lua
-        </source>
+        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/ProTools_Essentials/NudgeForward%20x10.lua</source>
       </version>
     </reapack>
   </category>
