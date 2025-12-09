@@ -6,7 +6,7 @@
     v1.0 (2025-12-09)
     - Initial release: moves the start of the Time Selection forward or backward according to TimecodeUI nudge value
 @provides
-    [main] ProTools_Essentials/MoveTimeSelectionStartBackward-TCui.lua
+    [main] ProTools_Essentials/MoveTimeSelStartBackward-TCui.lua
 @link https://github.com/Geeksound/Reaper_Scripts-Mariow
 @repository https://github.com/Geeksound/Reaper_Scripts-Mariow
 @tags editing, timesel, nudge, transport, (protools-like)
