@@ -2892,9 +2892,7 @@ v1.0 (2025-06-07)
 v1.0 (2025-06-07)
 - Initial release
 ]]></changelog>
-        <source main="main">
-          https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/ProTools_Essentials/PlayFromStart(PT%20CmdLeftArrow).lua
-        </source>
+        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/ProTools_Essentials/PlayFromStart(PT%20CmdLeftArrow).lua</source>
       </version>
     </reapack>
   </category>
