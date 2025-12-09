@@ -3686,17 +3686,17 @@ v1.0 (2025-12-09)
         <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/ProTools_Essentials/MoveTimeSelEndBackward-TCui.lua</source>
       </version>
     </reapack>
-    <reapack name="MoveTimeSelEndBackward-TCui.lua" type="script">
+    <reapack name="MoveTimeSelEndForward-TCui.lua" type="script">
       <metadata>
         <description><![CDATA[
 {\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
 {\colortbl;\red0\green150\blue255;\red0\green0\blue0;}
 \widowctrl\hyphauto
 
-{\pard\ql\f0\sa180\li0\fi0\b\fs40 Move Time Selection END Backward\par}
+{\pard\ql\f0\sa180\li0\fi0\b\fs40 Move Time Selection END Forward\par}
 {\pard\ql\f0\sa180\li0\fi0\b\fs32 Move end of Time Selection using shared Timecode (ProTools-like)\par}
 
-{\pard\ql\f0\sa180\li0\fi0 This script moves the \b end point \b0 of the current Time Selection backward by the nudge value
+{\pard\ql\f0\sa180\li0\fi0 This script moves the \b end point \b0 of the current Time Selection forward by the nudge value
 defined in the \b TimecodeUI \b0 panel. It ensures the end does not move before the start of the selection.\par}
 
 {\pard\ql\f0\sa180\li0\fi0\b\fs32 Shared Timecode Input\par}
@@ -3705,7 +3705,7 @@ defined in the \b TimecodeUI \b0 panel. It ensures the end does not move before 
 {\pard\ql\f0\sa0\li360\fi-360\bullet\tx360\tab Format: HH:MM:SS:FF (frames, 25 fps)\par}
 
 {\pard\ql\f0\sa180\li0\fi0\b\fs32 Usage\par}
-{\pard\ql\f0\sa0\li360\fi-360\bullet\tx360\tab Moves the end of the Time Selection backward by Timecode value\par}
+{\pard\ql\f0\sa0\li360\fi-360\bullet\tx360\tab Moves the end of the Time Selection forward by Timecode value\par}
 {\pard\ql\f0\sa0\li360\fi-360\bullet\tx360\tab Prevents end from moving before start\par}
 {\pard\ql\f0\sa0\li360\fi-360\bullet\tx360\tab Undo fully supported\par}
 
@@ -3728,9 +3728,9 @@ providing a unified, Pro Tools–style editing workflow inside REAPER.\par}
       <version name="1.0" author="Mariow" time="2025-12-09T00:00:00Z">
         <changelog><![CDATA[
 v1.0 (2025-12-09)
-- Initial release: moves end of Time Selection backward using TimecodeUI value
+- Initial release: moves end of Time Selection forward using TimecodeUI value
 ]]></changelog>
-        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/ProTools_Essentials/MoveTimeSelEndBackward-TCui.lua</source>
+        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/ProTools_Essentials/MoveTimeSelEndForward-TCui.lua</source>
       </version>
     </reapack>
     <reapack name="MoveRazorRightForward-TCui.lua" type="script">
