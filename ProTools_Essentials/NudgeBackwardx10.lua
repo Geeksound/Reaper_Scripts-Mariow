@@ -1,8 +1,10 @@
   --[[
   @description Nudge Backward x10 (reads timecode from PRE-POST-ROLL ImGui panel)
-  @version 1.0
+  @version 1.1
   @author Mariow
   @changelog
+    v1.1 (2025-12-08)
+    -Fix bug
     v1.0 (2025-06-07)
     - Initial release (multiplies timecode nudge by 10)
   @provides
@@ -47,9 +49,7 @@
     
     These scripts together provide a unified, Pro Tools–inspired editing experience.
   --]]
- 10, moves cursor/items backward
--- ==============================================
-
+  
 local function read_tc()
   local tc = reaper.GetExtState('TimecodeUI','tc')
   if not tc or tc == '' then return 0 end

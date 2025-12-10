@@ -3197,12 +3197,14 @@ to allow coarse backward navigation while staying fully aligned with the ProTool
 }
 ]]></description>
         <author>Mariow</author>
-        <version>1.0</version>
+        <version>1.1</version>
         <link>https://github.com/Geeksound/Reaper_Scripts-Mariow</link>
         <tags>editing, nudge, cursor, items, transport, (protools-like)</tags>
       </metadata>
-      <version name="1.0" author="Mariow" time="2025-06-07T00:00:00Z">
+      <version name="1.1" author="Mariow" time="2025-12-08T00:00:00Z">
         <changelog><![CDATA[
+v1.1 (2025-12-08)
+- Fix bug
 v1.0 (2025-06-07)
 - Initial release (multiplies timecode nudge by 10)
 ]]></changelog>
