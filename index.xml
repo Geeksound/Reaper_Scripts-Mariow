@@ -3829,6 +3829,61 @@ v1.0 (2025-12-09)
         <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/ProTools_Essentials/MoveTimeSelStartBackward-TCui.lua</source>
       </version>
     </reapack>
+    <reapack name="MoveTimeSelectionStartForward-TCui.lua" type="script">
+      <metadata>
+        <description><![CDATA[
+{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
+{\colortbl;\red0\green150\blue255;\red0\green0\blue0;}
+\widowctrl\hyphauto
+
+{\pard\ql\f0\sa180\li0\fi0\b\fs40 Move Time Selection START Forward\par}
+{\pard\ql\f0\sa180\li0\fi0\b\fs32 Move start of Time Selection using shared Timecode (ProTools-like)\par}
+
+{\pard\ql\f0\sa180\li0\fi0 This script moves the \b start point \b0 of the current Time Selection \b forward (+1)\b0 
+according to the nudge value defined in the shared \b TimecodeUI \b0 panel.\par}
+
+{\pard\ql\f0\sa180\li0\fi0 It ensures that the start never moves past the end of the selection and integrates fully 
+with the ProTools_Essentials workflow.\par}
+
+{\pard\ql\f0\sa180\li0\fi0\b\fs32 Shared Timecode Input (via PRE-Post-ROLL ImGui)\par}
+{\pard\ql\f0\sa0\li360\fi-360\bullet\tx360\tab Namespace: "TimecodeUI"\par}
+{\pard\ql\f0\sa0\li360\fi-360\bullet\tx360\tab Key: "tc"\par}
+{\pard\ql\f0\sa0\li360\fi-360\bullet\tx360\tab Provided by: PRE-Post-ROLL (ImGui)\par}
+{\pard\ql\f0\sa0\li360\fi-360\bullet\tx360\tab Format: HH:MM:SS:FF (25 fps)\par}
+
+{\pard\ql\f0\sa180\li0\fi0 This script reads the same TimecodeUI value used by the \b PRE-Post-ROLL(ImGui) panel\b0, 
+ensuring consistent nudge behaviour across all ProTools_Essentials scripts.\par}
+
+{\pard\ql\f0\sa180\li0\fi0\b\fs32 Usage\par}
+{\pard\ql\f0\sa0\li360\fi-360\bullet\tx360\tab Moves the start of the Time Selection forward (+1)\par}
+{\pard\ql\f0\sa0\li360\fi-360\bullet\tx360\tab Prevents start from crossing the end of the selection\par}
+{\pard\ql\f0\sa0\li360\fi-360\bullet\tx360\tab Undo fully supported\par}
+
+{\pard\ql\f0\sa180\li0\fi0\b\fs32 Works With:\par}
+{\pard\ql\f0\sa0\li360\fi-360\bullet\tx360\tab MoveTimeSelEndForward / MoveTimeSelEndBackward\par}
+{\pard\ql\f0\sa0\li360\fi-360\bullet\tx360\tab MoveTimeSelStartBackward\par}
+{\pard\ql\f0\sa0\li360\fi-360\bullet\tx360\tab Grow / Shrink Time Selection\par}
+{\pard\ql\f0\sa0\li360\fi-360\bullet\tx360\tab Razor Area movement scripts\par}
+{\pard\ql\f0\sa0\li360\fi-360\bullet\tx360\tab Nudge Forward / Backward\par}
+{\pard\ql\f0\sa0\li360\fi-360\bullet\tx360\tab PRE-Post-ROLL + Timecode UI (ImGui)\par}
+
+{\pard\ql\f0\sa180\li0\fi0 This script is part of the \b ProTools_Essentials \b0 suite,
+providing a unified, Pro Tools–style editing workflow inside REAPER.\par}
+}
+]]></description>
+        <author>Mariow</author>
+        <version>1.0</version>
+        <link>https://github.com/Geeksound/Reaper_Scripts-Mariow</link>
+        <tags>editing, timesel, nudge, transport, forward, (protools-like)</tags>
+      </metadata>
+      <version name="1.0" author="Mariow" time="2025-12-09T00:00:00Z">
+        <changelog><![CDATA[
+v1.0 (2025-12-09)
+- Initial release: moves the start of Time Selection forward using TimecodeUI value (shared with PRE-Post-ROLL ImGui)
+]]></changelog>
+        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/ProTools_Essentials/MoveTimeSelectionStartForward-TCui.lua</source>
+      </version>
+    </reapack>
   </category>
   <category name="Protools_Track">
     <reapack name="DelTrack(AsPT).lua" type="script" desc="Safe Delete Selected Tracks (ProTools-style)">
