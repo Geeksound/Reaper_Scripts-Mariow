@@ -3881,7 +3881,7 @@ providing a unified, Pro Tools–style editing workflow inside REAPER.\par}
 v1.0 (2025-12-09)
 - Initial release: moves the start of Time Selection forward using TimecodeUI value (shared with PRE-Post-ROLL ImGui)
 ]]></changelog>
-        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/ProTools_Essentials/MoveTimeSelectionStartForward-TCui.lua</source>
+        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/ProTools_Essentials/MoveTimeSelStartForward-TCui.lua</source>
       </version>
     </reapack>
   </category>
