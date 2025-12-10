@@ -1652,7 +1652,7 @@ v1.0 (2025-12-10)
 - Jump to marker by number or by name
 - Press Enter to validate and auto-close the window
 ]]></changelog>
-        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/PROTOOLS/MemoryLocation(as%20PT).lua</source>
+        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/PROTOOLS/MemoryLocation(As%20PT).lua</source>
       </version>
     </reapack>
   </category>
