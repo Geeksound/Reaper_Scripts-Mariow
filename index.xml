@@ -3940,6 +3940,65 @@ v1.0 (2025-12-09)
         <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/ProTools_Essentials/ShrinkLeftEdge-TCui.lua</source>
       </version>
     </reapack>
+    <reapack name="ShrinkRazor-TCui.lua" type="script">
+      <metadata>
+        <description><![CDATA[
+{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
+{\colortbl;\red0\green150\blue255;\red0\green0\blue0;}
+\widowctrl\hyphauto
+
+{\pard\ql\f0\sa180\li0\fi0\b\fs40 Reduce Razor Areas\par}
+{\pard\ql\f0\sa180\li0\fi0\b\fs32 Shrink left/right edges using shared Timecode (ProTools-like)\par}
+
+{\pard\ql\f0\sa180\li0\fi0 This script reduces all existing \b Razor Areas\b0 
+by moving the \b left edge forward\b0 and the \b right edge backward\b0 
+according to the nudge value defined in the shared \b TimecodeUI \b0 panel.\par}
+
+{\pard\ql\f0\sa180\li0\fi0 If no Razor Areas exist, the current \b Time Selection\b0 
+is automatically converted into Razor Areas to perform the reduction.\par}
+
+{\pard\ql\f0\sa180\li0\fi0 This script reads the same shared ExtState used by the 
+\b PRE-POST-ROLL + Timecode UI (ImGui) \b0 panel, ensuring all Razor Area modifications 
+remain synchronized with other nudge-based editing tools in the suite.\par}
+
+{\pard\ql\f0\sa180\li0\fi0\b\fs32 Shared Timecode Input (via PRE-POST-ROLL ImGui)\par}
+{\pard\ql\f0\sa0\li360\fi-360\bullet\tx360\tab Namespace: "TimecodeUI"\par}
+{\pard\ql\f0\sa0\li360\fi-360\bullet\tx360\tab Key: "tc"\par}
+{\pard\ql\f0\sa0\li360\fi-360\bullet\tx360\tab Provided by: PRE-POST-ROLL (ImGui)\par}
+{\pard\ql\f0\sa0\li360\fi-360\bullet\tx360\tab Format: HH:MM:SS:FF (25 fps)\par}
+
+{\pard\ql\f0\sa180\li0\fi0 This ensures consistent edge adjustments across all 
+ProTools_Essentials scripts that rely on the TimecodeUI nudge value.\par}
+
+{\pard\ql\f0\sa180\li0\fi0\b\fs32 Usage\par}
+{\pard\ql\f0\sa0\li360\fi-360\bullet\tx360\tab Shrinks left (forward) and right (backward) edges of all Razor Areas\par}
+{\pard\ql\f0\sa0\li360\fi-360\bullet\tx360\tab If no Razor Areas exist → uses Time Selection as temporary Razor Area\par}
+{\pard\ql\f0\sa0\li360\fi-360\bullet\tx360\tab Undo fully supported\par}
+
+{\pard\ql\f0\sa180\li0\fi0\b\fs32 Works With:\par}
+{\pard\ql\f0\sa0\li360\fi-360\bullet\tx360\tab ExtendRazor\par}
+{\pard\ql\f0\sa0\li360\fi-360\bullet\tx360\tab Nudge Forward / Nudge Backward\par}
+{\pard\ql\f0\sa0\li360\fi-360\bullet\tx360\tab PRE-POST-ROLL + Timecode UI (ImGui)\par}
+{\pard\ql\f0\sa0\li360\fi-360\bullet\tx360\tab Set_Rolls_And_Nudge_Settings\par}
+{\pard\ql\f0\sa0\li360\fi-360\bullet\tx360\tab Other transport & navigation tools\par}
+
+{\pard\ql\f0\sa180\li0\fi0 This script is part of the \b ProTools_Essentials \b0 suite,
+bringing a consistent, Pro Tools–like editing workflow to REAPER.\par}
+}
+]]></description>
+        <author>Mariow</author>
+        <version>1.0</version>
+        <link>https://github.com/Geeksound/Reaper_Scripts-Mariow</link>
+        <tags>editing, razor, nudge, items, transport, (protools-like)</tags>
+      </metadata>
+      <version name="1.0" author="Mariow" time="2025-12-09T00:00:00Z">
+        <changelog><![CDATA[
+v1.0 (2025-12-09)
+- Initial release: reduces Razor Areas using TimecodeUI nudge value (shared with PRE-POST-ROLL ImGui)
+]]></changelog>
+        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/ProTools_Essentials/ShrinkRazor-TCui.lua</source>
+      </version>
+    </reapack>
   </category>
   <category name="Protools_Track">
     <reapack name="DelTrack(AsPT).lua" type="script" desc="Safe Delete Selected Tracks (ProTools-style)">
