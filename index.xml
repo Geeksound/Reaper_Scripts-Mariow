@@ -1614,6 +1614,47 @@ v1.0 (2025-11-26)
         <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/PROTOOLS/ZoomSel-(PT%20Alt%20F).lua</source>
       </version>
     </reapack>
+    <reapack name="MemoryLocation(as PT).lua" type="script">
+      <metadata>
+        <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0\fmodern Courier;}{\f1\fswiss Helvetica;}}
+{\colortbl;\red255\green0\blue0;}
+\widowctrl\hyphauto
+
+{\pard\ql\f1\sa180\li0\fi0\b\fs40\cf1 Jump to marker by number or name (PT like)\par}
+{\pard\ql\f1\sa180\li0\fi0\b\fs36 Minimal ImGui Marker Navigation Tool\par}
+
+{\pard\ql\f1\sa180\li0\fi0 This script provides a fast and minimalistic Pro Tools–like workflow for jumping to REAPER markers.\par}
+{\pard\ql\f1\sa180\li0\fi0 Simply type a marker number or a marker name, press \b Enter\b0, and the script instantly navigates to the target marker. The ImGui window auto-focuses the input field and closes automatically after validation, ensuring a smooth, interruption-free workflow.\par}
+
+{\pard\ql\f1\sa180\li0\fi0\b Features:\par}
+{\pard\ql\f1\sa180\li360\fi-360\bullet\tx360\tab Minimal ImGui popup (no title bar, auto-resize)\par}
+{\pard\ql\f1\sa180\li360\fi-360\bullet\tx360\tab Auto-focuses the input field for immediate typing\par}
+{\pard\ql\f1\sa180\li360\fi-360\bullet\tx360\tab Jump to marker by number \i or\i0\ by exact name\par}
+{\pard\ql\f1\sa180\li360\fi-360\bullet\tx360\tab Press Enter to validate and close the window instantly\par}
+
+{\pard\ql\f1\sa180\li0\fi0\b Ideal for:\par}
+{\pard\ql\f1\sa0\li360\fi-360\bullet\tx360\tab Workflow similar to Pro Tools' Memory Locations window\par}
+{\pard\ql\f1\sa0\li360\fi-360\bullet\tx360\tab Fast navigation in editing, dialogue, SFX spotting, or music sessions\par}
+{\pard\ql\f1\sa0\li360\fi-360\bullet\tx360\tab Users who rely heavily on markers and need instant access\par}
+
+}}
+]]></description>
+        <author>Mariow</author>
+        <version>1.0</version>
+        <link>https://github.com/Geeksound/Reaper_Scripts-Mariow</link>
+        <tags>markers, navigation, workflow, gui, imgui, prottools-like</tags>
+      </metadata>
+      <version name="1.0" author="Mariow" time="2025-12-10T00:00:00Z">
+        <changelog><![CDATA[
+v1.0 (2025-12-10)
+- Initial release
+- Minimal ImGui window with auto-focus
+- Jump to marker by number or by name
+- Press Enter to validate and auto-close the window
+]]></changelog>
+        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/PROTOOLS/MemoryLocation(as%20PT).lua</source>
+      </version>
+    </reapack>
   </category>
   <category name="ProTools_TAB">
     <reapack name="(ProTools)TAB-AltShift.lua" type="script" desc="ProTools TAB - Alt+Shift+TAB (Extend Selection Left)">
