@@ -3999,6 +3999,65 @@ v1.0 (2025-12-09)
         <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/ProTools_Essentials/ShrinkRazor-TCui.lua</source>
       </version>
     </reapack>
+    <reapack name="ShrinkRightEdge-TCui.lua" type="script">
+      <metadata>
+        <description><![CDATA[
+{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
+{\colortbl;\red0\green150\blue255;\red0\green0\blue0;}
+\widowctrl\hyphauto
+
+{\pard\ql\f0\sa180\li0\fi0\b\fs40 Shrink Right Edge of Selected Items\par}
+{\pard\ql\f0\sa180\li0\fi0\b\fs32 Trim right edge using shared Timecode (ProTools-like)\par}
+
+{\pard\ql\f0\sa180\li0\fi0 This script reduces the \b length of selected items\b0 
+by moving their \b right edge backward\b0, using the nudge value defined in the shared 
+\b TimecodeUI \b0 panel.\par}
+
+{\pard\ql\f0\sa180\li0\fi0 The script relies on the same shared ExtState used by the 
+\b PRE-POST-ROLL + Timecode UI (ImGui) \b0 panel, guaranteeing synchronized nudge behaviour 
+across all ProTools_Essentials editing tools.\par}
+
+{\pard\ql\f0\sa180\li0\fi0\b\fs32 Shared Timecode Input (via PRE-POST-ROLL ImGui)\par}
+{\pard\ql\f0\sa0\li360\fi-360\bullet\tx360\tab Namespace: "TimecodeUI"\par}
+{\pard\ql\f0\sa0\li360\fi-360\bullet\tx360\tab Key: "tc"\par}
+{\pard\ql\f0\sa0\li360\fi-360\bullet\tx360\tab Provided by: PRE-POST-ROLL (ImGui)\par}
+{\pard\ql\f0\sa0\li360\fi-360\bullet\tx360\tab Format: HH:MM:SS:FF (25 fps)\par}
+
+{\pard\ql\f0\sa180\li0\fi0 This shared setting ensures all trim and nudge operations behave consistently 
+throughout the suite.\par}
+
+{\pard\ql\f0\sa180\li0\fi0\b\fs32 Usage\par}
+{\pard\ql\f0\sa0\li360\fi-360\bullet\tx360\tab Affects only selected items\par}
+{\pard\ql\f0\sa0\li360\fi-360\bullet\tx360\tab Moves right edge backward by nudge value\par}
+{\pard\ql\f0\sa0\li360\fi-360\bullet\tx360\tab Prevents item length from going below zero\par}
+{\pard\ql\f0\sa0\li360\fi-360\bullet\tx360\tab Undo fully supported\par}
+
+{\pard\ql\f0\sa180\li0\fi0\b\fs32 Works With:\par}
+{\pard\ql\f0\sa0\li360\fi-360\bullet\tx360\tab Grow Right Edge\par}
+{\pard\ql\f0\sa0\li360\fi-360\bullet\tx360\tab Grow Left Edge\par}
+{\pard\ql\f0\sa0\li360\fi-360\bullet\tx360\tab Trim Left Edge\par}
+{\pard\ql\f0\sa0\li360\fi-360\bullet\tx360\tab Trim Right Edge\par}
+{\pard\ql\f0\sa0\li360\fi-360\bullet\tx360\tab Nudge Forward / Nudge Backward\par}
+{\pard\ql\f0\sa0\li360\fi-360\bullet\tx360\tab PRE-POST-ROLL + Timecode UI (ImGui)\par}
+{\pard\ql\f0\sa0\li360\fi-360\bullet\tx360\tab Set_Rolls_And_Nudge_Settings\par}
+
+{\pard\ql\f0\sa180\li0\fi0 This script is part of the \b ProTools_Essentials \b0 suite,
+bringing a consistent, Pro Tools–inspired editing workflow to REAPER.\par}
+}
+]]></description>
+        <author>Mariow</author>
+        <version>1.0</version>
+        <link>https://github.com/Geeksound/Reaper_Scripts-Mariow</link>
+        <tags>editing, trim, nudge, items, transport, (protools-like)</tags>
+      </metadata>
+      <version name="1.0" author="Mariow" time="2025-12-09T00:00:00Z">
+        <changelog><![CDATA[
+v1.0 (2025-12-09)
+- Initial release: shrinks right edge of selected items using TimecodeUI nudge value (shared with PRE-POST-ROLL ImGui)
+]]></changelog>
+        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/ProTools_Essentials/ShrinkRightEdge-TCui.lua</source>
+      </version>
+    </reapack>
   </category>
   <category name="Protools_Track">
     <reapack name="DelTrack(AsPT).lua" type="script" desc="Safe Delete Selected Tracks (ProTools-style)">
