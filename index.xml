@@ -3166,35 +3166,29 @@ v1.0 (2025-06-07)
     <reapack name="NudgeBackwardx10.lua" type="script">
       <metadata>
         <description><![CDATA[
-{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
-{\colortbl;\red255\green120\blue0;\red0\green0\blue0;}
-\widowctrl\hyphauto
+Nudge Backward ×10 (ProTools-like)
 
-{\pard\ql\f0\sa180\li0\fi0\b\fs40\cf1 Nudge Backward ×10 (ProTools-like)\par}
-{\pard\ql\f0\sa180\li0\fi0\b\fs32 Move Cursor or Items Backward ×10 Based on Shared Timecode\par}
+Move Cursor or Items Backward ×10 Based on Shared Timecode
 
-{\pard\ql\f0\sa180\li0\fi0 This script nudges the edit cursor or selected items \b backward ×10 \b0 
-using the shared timecode entered in the\par}
-{\pard\ql\f0\sa0\li0\fi0\b Unified PRE–POST–ROLL + Timecode UI (ImGui)\b0 .\par}
+This script nudges the edit cursor or selected items backward ×10 using the shared timecode entered in the
+Unified PRE–POST–ROLL + Timecode UI (ImGui).
 
-{\pard\ql\f0\sa180\li0\fi0\b\fs32 Shared Timecode Input\par}
-{\pard\ql\f0\sa0\li0\fi0 The base nudge amount is read from a global ExtState shared across the ProTools_Essentials suite:\par}
-{\pard\ql\f0\sa0\li360\fi-360\bullet\tx360\tab Namespace: "TimecodeUI"\par}
-{\pard\ql\f0\sa0\li360\fi-360\bullet\tx360\tab Key: "tc"\par}
-{\pard\ql\f0\sa0\li360\fi-360\bullet\tx360\tab Format: HH:MM:SS:FF\par}
+Shared Timecode Input
+The base nudge amount is read from a global ExtState shared across the ProTools_Essentials suite:
+- Namespace: "TimecodeUI"
+- Key: "tc"
+- Format: HH:MM:SS:FF
 
-{\pard\ql\f0\sa180\li0\fi0 The script multiplies the resulting duration by \b 10 \b0 
-to allow coarse backward navigation while staying fully aligned with the ProTools-like timing workflow.\par}
+The script multiplies the resulting duration by 10 to allow coarse backward navigation while staying aligned with the ProTools-like timing workflow.
 
-{\pard\ql\f0\sa180\li0\fi0\b\fs32 Works With:\par}
-{\pard\ql\f0\sa0\li360\fi-360\bullet\tx360\tab Nudge Forward\par}
-{\pard\ql\f0\sa0\li360\fi-360\bullet\tx360\tab Nudge Backward\par}
-{\pard\ql\f0\sa0\li360\fi-360\bullet\tx360\tab Nudge Forward ×10\par}
-{\pard\ql\f0\sa0\li360\fi-360\bullet\tx360\tab PRE-POST-ROLL + Timecode UI (ImGui)\par}
-{\pard\ql\f0\sa0\li360\fi-360\bullet\tx360\tab Set_Rolls_And_Nudge_Settings\par}
+Works With:
+- Nudge Forward
+- Nudge Backward
+- Nudge Forward ×10
+- PRE-POST-ROLL + Timecode UI (ImGui)
+- Set_Rolls_And_Nudge_Settings
 
-{\pard\ql\f0\sa180\li0\fi0 This script is part of the ProTools_Essentials suite, providing Pro Tools–inspired transport and navigation inside REAPER.\par}
-}
+Part of the ProTools_Essentials suite, providing Pro Tools–inspired transport and navigation inside REAPER.
 ]]></description>
         <author>Mariow</author>
         <version>1.1</version>
