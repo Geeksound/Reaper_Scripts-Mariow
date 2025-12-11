@@ -63,7 +63,7 @@
 {\pard\ql\f0\sa180\li0\fi0\b\fs40\cf1 inspired from  -- P R O T O O L S --\par}
 {\pard\ql\f0\sa180\li0\fi0\b\fs40\cf1   \par}
 {\pard \ql \f0 \sa180 \li0 \fi0 \outlinelevel0 \b \fs36 TimeShift\par}
-{\pard \ql \f0 \sa180 \li0 \fi0 Provides a precise and contextual time-shifting tool for Reaper, inspired by (and extending) Pro Tools' “Edit/Shift” feature.\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 Provides a precise and contextual time-shifting tool for Reaper, inspired by (and extending) \b Protools \b0 “Edit/Shift” feature.\par}
 {\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab Shifts selected media items, time selections, or the edit cursor position,\par}
 {\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab Offers bidirectional control (Forward / Backward) with real-time feedback,\par}
 {\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab Converts and links between samples, milliseconds, and timecode formats,\par}
@@ -244,7 +244,7 @@ v1.0 (2025-10-28)
 {\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
 \widowctrl\hyphauto
 
-{\pard\ql\f0\sa180\li0\fi0\b\fs40\cf1 Reaplace Items like Replace Clip in Pro Tools .\par}
+{\pard\ql\f0\sa180\li0\fi0\b\fs40\cf1 Reaplace Items like Replace Clip in \b Protools \b0 .\par}
 {\pard\ql\f0\sa180\li0\fi0\b\fs40\cf1  \par}
 {\pard\ql\f0\sa180\li0\fi0\b\fs36 ReaPlaceClip\par}
 {\pard\ql\f0\sa180\li0\fi0 Ideal for post-production, sound design, ADR, or any workflow requiring global clip replacement.\par}
@@ -279,7 +279,7 @@ v1.0 (2025-11-04)
 {\pard\ql\f0\sa180\li0\fi0\b\fs40\cf1 Reorganizes items on a single track without gaps or overlaps\par}
 {\pard\ql\f0\sa180\li0\fi0\b\fs40\cf1 Useful for arranging items quickly in Reaper\par}
 {\pard \ql \f0 \sa180 \li0 \fi0 \outlinelevel0 \b \fs36 ShuffleItems.lua\par}
-{\pard \ql \f0 \sa180 \li0 \fi0 Similar to the shuffle behavior in Pro Tools.\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 Similar to the shuffle behavior in \b Protools \b0.\par}
 }
 ]]></description>
         <link rel="website">https://github.com/Geeksound/Reaper_Scripts-Mariow</link>
@@ -1316,7 +1316,7 @@ v1.5 (2025-11-26)
 {\pard\ql\f0\sa180\li0\fi0\b\fs40\cf1 Move item so that Snap Offset aligns with Edit Cursor (Pro Tools K)\par}
 {\pard\ql\f0\sa180\li0\fi0\b\fs40\cf1   \par}
 {\pard \ql \f0 \sa180 \li0 \fi0 \outlinelevel0 \b \fs36 SyncPoint-ToEditCursor\par}
-{\pard \ql \f0 \sa180 \li0 \fi0 Emulates the Pro Tools 'K' shortcut behavior in REAPER.\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 Emulates the \b Protools \b0 'K' shortcut behavior in REAPER.\par}
 {\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab Moves selected item(s) so that their Snap Offset aligns exactly with the Edit Cursor position,\par}
 {\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab Useful for field recording or precise sync editing workflows,\par}
 {\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab Equivalent to 'CF Editing/SnapOffsetToEditCursor' functionality.\par}
@@ -1329,7 +1329,7 @@ v1.5 (2025-11-26)
         <changelog><![CDATA[
   v1.0 (2025-11-12)
   - Initial release
-  - Emulates Pro Tools 'K' shortcut: moves selected item(s) so Snap Offset aligns with Edit Cursor
+  - Emulates \b Protools \b0 'K' shortcut: moves selected item(s) so Snap Offset aligns with Edit Cursor
 ]]></changelog>
         <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/PROTOOLS/SyncPoint-ToEditCursor.lua</source>
       </version>
@@ -1343,7 +1343,7 @@ v1.5 (2025-11-26)
 {\pard\ql\f0\sa180\li0\fi0\b\fs40\cf1 Creates Razor Edits from Time Selection and executes MRX Paste To Fill\par}
 {\pard\ql\f0\sa180\li0\fi0\b\fs40\cf1   \par}
 {\pard \ql \f0 \sa180 \li0 \fi0 \outlinelevel0 \b \fs36 Paste-ToFill\par}
-{\pard \ql \f0 \sa180 \li0 \fi0 Reproduces Pro Tools "Paste to Fill" in REAPER.\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 Reproduces \b Protools \b0 "Paste to Fill" in REAPER.\par}
 {\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab Creates Razor Edits matching the current Time Selection on all selected tracks,\par}
 {\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab Runs the full MRX Paste To Fill process in a single undo step,\par}
 {\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab Designed for fast, precise editing workflows.\par}
@@ -1369,12 +1369,12 @@ v1.0 (2025-11-12)
 {\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
 \widowctrl\hyphauto
 
-{\pard\ql\f0\sa180\li0\fi0\b\fs40\cf1 Simulate Pro Tools 'Revert to Saved' in REAPER\par}
+{\pard\ql\f0\sa180\li0\fi0\b\fs40\cf1 Simulate \b Protools \b0 'Revert to Saved' in REAPER\par}
 {\pard\ql\f0\sa180\li0\fi0\b\fs40\cf1   \par}
 {\pard \ql \f0 \sa180 \li0 \fi0 \outlinelevel0 \b \fs36 Revert-ToSaved\par}
 {\pard \ql \f0 \sa180 \li0 \fi0 Closes the current project and reopens the last saved version.\par}
 {\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab Prompts to save unsaved changes if needed,\par}
-{\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab Emulates Pro Tools 'Revert to Saved' functionality,\par}
+{\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab Emulates \b Protools \b0 'Revert to Saved' functionality,\par}
 {\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab Useful for quickly discarding unsaved edits and restoring the last saved state.\par}
 {\pard \ql \f0 \sa180 \li0 \fi0 Compatible with REAPER 7.0 and later.\par}
 {\pard \ql \f0 \sa180 \li0 \fi0 Developed by Mariow.\par}
@@ -1397,11 +1397,11 @@ v1.0 (2025-11-12)
 {\colortbl;\red0\green128\blue0;\red255\green0\blue0;}
 \widowctrl\hyphauto
 
-{\pard\ql\f0\sa180\li0\fi0\b\fs40 Link/Unlink Timeline & Edit Selection (Pro Tools Style)\par}
+{\pard\ql\f0\sa180\li0\fi0\b\fs40 Link/Unlink Timeline & Edit Selection (Protools Style)\par}
 {\pard \ql \f0 \sa180 \li0 \fi0\outlinelevel0\fs36 Script Principal\par}
 {\pard \ql \f0 \sa180 \li0 \fi0 Toggle the LINKED / UNLINKED state between timeline and edit selection.\par}
 {\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab Changes loop points / time selection link and edit cursor link (SWS),\par}
-{\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab Works similarly to Pro Tools selection linking,\par}
+{\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab Works similarly to \b Protools \b0 selection linking,\par}
 {\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab Useful for alternating selection behavior during editing.\par}
 {\pard \ql \f0 \sa180 \li0 \fi0 Works with REAPER v6.80+ and SWS extension.\par}
 {\pard \ql \f0 \sa180 \li0 \fi0 Developed by Mariow.\par}
@@ -1428,7 +1428,7 @@ v1.0 (2025-11-12)
 {\pard \ql \f0 \sa180 \li0 \fi0 Small floating window with a single button to display and toggle LINKED / UNLINKED state.\par}
 {\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab Button label and color indicate current state,\par}
 {\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab Can be used with LinkUnlink-TimelineANDEdit-Sel.lua to monitor state visually,\par}
-{\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab Works similarly to Pro Tools selection linking,\par}
+{\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab Works similarly to \b Protools \b0 selection linking,\par}
 {\pard \ql \f0 \sa180 \li0 \fi0 Requires REAPER v6.80+ and ReaImGui extension.\par}
 {\pard \ql \f0 \sa180 \li0 \fi0 Developed by Mariow.\par}
 }]]></description>
@@ -4457,7 +4457,7 @@ v1.0 (2025-06-07)
 {\pard\ql\f0\sa180\li0\fi0\b\fs40\cf1 Split Stereo to Monos (\b ProTools \b0-style)\par}
 {\pard\ql\f0\sa180\li0\fi0\b\fs36 Split-ST-toMonos\par}
 
-{\pard\ql\f0\sa180\li0\fi0 Emulates \b Pro Tools' \b0 workflow for splitting a stereo item into two independent mono items.\par}
+{\pard\ql\f0\sa180\li0\fi0 Emulates \b Protools \b0 workflow for splitting a stereo item into two independent mono items.\par}
 {\pard\ql\f0\sa180\li0\fi0 Automates the required REAPER and SWS steps, ensuring a clean, structured result that mirrors established post-production workflows.\par}
 
 {\pard\ql\f0\sa180\li0\fi0\bullet\tx360\tab Inserts a temporary track for processing.\par}
