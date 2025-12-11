@@ -11,7 +11,7 @@
   - Razor areas are always cleared for safety
   
 @provides
-  [main] ProTools_Edit/Create-6PointsEnveloppe(PT).lua
+  [main] Protools_Edit/Create-6PointsEnveloppe(PT).lua
   
 @link https://github.com/Geeksound/Reaper_Scripts-Mariow
 @repository https://github.com/Geeksound/Reaper_Scripts-Mariow
