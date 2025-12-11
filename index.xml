@@ -4457,7 +4457,7 @@ v1.0 (2025-06-07)
 {\pard\ql\f0\sa180\li0\fi0\b\fs40\cf1 Split Stereo to Monos (\b ProTools \b0-style)\par}
 {\pard\ql\f0\sa180\li0\fi0\b\fs36 Split-ST-toMonos\par}
 
-{\pard\ql\f0\sa180\li0\fi0 Emulates \b Protools’ \b0 workflow for splitting a stereo item into two independent mono items.\par}
+{\pard\ql\f0\sa180\li0\fi0 Emulates \b Pro Tools’ \b0 workflow for splitting a stereo item into two independent mono items.\par}
 {\pard\ql\f0\sa180\li0\fi0 Automates the required REAPER and SWS steps, ensuring a clean, structured result that mirrors established post-production workflows.\par}
 
 {\pard\ql\f0\sa180\li0\fi0\bullet\tx360\tab Inserts a temporary track for processing.\par}
