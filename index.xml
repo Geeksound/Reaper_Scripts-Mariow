@@ -2742,7 +2742,8 @@ v1.0 (2025-12-06)
     </reapack>
     <reapack name="CycleEnvelope.lua" type="script">
       <metadata>
-        <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
+        <description><![CDATA[
+{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
 {\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
 \widowctrl\hyphauto
 
@@ -2750,12 +2751,12 @@ v1.0 (2025-12-06)
 {\pard\ql\f0\sa180\li0\fi0   \par}
 
 {\pard \ql \f0 \sa180 \li0 \fi0 \outlinelevel0 \b \fs36 ProTools-Style Envelope Cycling\par}
-{\pard \ql \f0 \sa180 \li0 \fi0 Reproduces the Pro Tools shortcut {\b Ctrl+Cmd + Left/Right Arrow} used to cycle visible automation lanes.\par}
-{\pard \ql \f0 \sa180 \li0 \fi0 Allows REAPER users to switch instantly between main track envelopes just like in PT.\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 Reproduces the Pro Tools shortcut Ctrl+Cmd + Left/Right Arrow used to cycle visible automation lanes.\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 Allows REAPER users to switch instantly between main track envelopes just like in Pro Tools.\par}
 
-{\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab Cycle order: {\b Volume -> Mute -> Pan -> Hide},\par}
+{\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab Cycle order: Volume -> Mute -> Pan -> Hide,\par}
 {\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab Shows only the currently selected envelope (others hidden),\par}
-{\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab Preserves the cycle state using ExtState ({\i PT_Toggles}),\par}
+{\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab Preserves the cycle state using ExtState (PT_Toggles),\par}
 {\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab Works on selected track(s) and updates instantly.\par}
 
 {\pard\ql\f0\sa180\li0\fi0 Designed for ProTools users wanting familiar automation-lane navigation in REAPER.\par}
@@ -2791,12 +2792,12 @@ v1.0 (2025-12-08)
 {\pard\ql\f0\sa180\li0\fi0   \par}
 
 {\pard \ql \f0 \sa180 \li0 \fi0 \outlinelevel0 \b \fs36 ProTools-Style Envelope Cycling\par}
-{\pard \ql \f0 \sa180 \li0 \fi0 Reproduces the Pro Tools shortcut {\b Ctrl+Cmd + Left/Right Arrow} used to cycle visible automation lanes.\par}
-{\pard \ql \f0 \sa180 \li0 \fi0 Allows REAPER users to switch instantly between main track envelopes just like in PT.\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 Reproduces the Pro Tools shortcut Ctrl+Cmd + Left/Right Arrow used to cycle visible automation lanes.\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 Allows REAPER users to switch instantly between main track envelopes just like in Pro Tools.\par}
 
-{\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab Cycle order: {\b Volume -> Mute -> Pan -> Hide},\par}
+{\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab Cycle order: Volume -> Mute -> Pan -> Hide,\par}
 {\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab Shows only the currently selected envelope (others hidden),\par}
-{\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab Preserves the cycle state using ExtState ({\i PT_Toggles}),\par}
+{\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab Preserves the cycle state using ExtState (PT_Toggles),\par}
 {\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab Works on selected track(s) and updates instantly.\par}
 
 {\pard\ql\f0\sa180\li0\fi0 Designed for ProTools users wanting familiar automation-lane navigation in REAPER.\par}
@@ -2804,8 +2805,7 @@ v1.0 (2025-12-08)
 
 {\pard\ql\f0\sa180\li0\fi0 Compatible with REAPER 7.0 and later.\par}
 {\pard\ql\f0\sa180\li0\fi0 Developed by Mariow.\par}
-}
-]]></description>
+}]]></description>
         <author>Mariow</author>
         <version>1.0</version>
         <link>https://github.com/Geeksound/Reaper_Scripts-Mariow</link>
