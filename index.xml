@@ -2652,40 +2652,41 @@ v1.0 (2025-06-07)
     </reapack>
     <reapack name="Create-6PointsEnveloppe(PT).lua" type="script">
       <metadata>
-        
         <description><![CDATA[
 {\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
 {\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
 \widowctrl\hyphauto
 
 {\pard\ql\f0\sa180\li0\fi0\b\fs40 6 Points to Envelope — Item / Time Selection / Razor (ProTools-like)\par}
-{\pard\ql\f0\sa180\li0\fi0 Fast, precise envelope editing by automatically placing six automation points\line
-based on the active edit context — Item, Time Selection or Razor.\par}
+{\pard\ql\f0\sa180\li0\fi0 Fast automation editing by generating six envelope points around the edit zone.\par}
+{\pard\ql\f0\sa180\li0\fi0 Behavior adapts dynamically to context: selected item, time selection, or razor area.\par}
 
 {\pard\ql\f0\sa180\li0\fi0 Features:\par}
-{\pard\ql\f0\sa0\li360\fi-360 \bullet \tx360\tab Item-aware logic: selected item defines the edit zone,\par}
-{\pard\ql\f0\sa0\li360\fi-360 \bullet \tx360\tab Respects existing Time Selection (never overwritten),\par}
-{\pard\ql\f0\sa0\li360\fi-360 \bullet \tx360\tab Razor fallback only when no item and no TS,\par}
-{\pard\ql\f0\sa0\li360\fi-360 \bullet \tx360\tab Actions apply strictly on the initially selected track,\par}
-{\pard\ql\f0\sa0\li360\fi-360 \bullet \tx360\tab Razor areas always cleared after processing.\par}
+{\pard\ql\f0\sa0\li360\fi-360 \bullet \tx360\tab Selected item defines time range (highest priority),\par}
+{\pard\ql\f0\sa0\li360\fi-360 \bullet \tx360\tab Existing time selection preserved and used as-is,\par}
+{\pard\ql\f0\sa0\li360\fi-360 \bullet \tx360\tab Razor → Time Selection fallback only when needed,\par}
+{\pard\ql\f0\sa0\li360\fi-360 \bullet \tx360\tab Always applies on the initially selected track,\par}
+{\pard\ql\f0\sa0\li360\fi-360 \bullet \tx360\tab Razor areas cleared for safety.\par}
 
-{\pard\ql\f0\sa180\li0\fi0 Designed for fast, reliable mouse-based automation editing,\line
-with predictable Pro Tools–like behavior in REAPER.\par}
-
+{\pard\ql\f0\sa180\li0\fi0 Designed for precise ProTools-like mouse editing inside REAPER.\par}
 {\pard\ql\f0\sa180\li0\fi0 Developed by Mariow.\par}
-}]]></description>
-        <version name="1.3" author="Mariow" time="2025-12-11">
-          <changelog><![CDATA[
+    ]]></description>
+        <author>Mariow</author>
+        <version>1.3</version>
+        <link>https://github.com/Geeksound/Reaper_Scripts-Mariow</link>
+        <tags>editing, envelope, automation, items, razor, timesel, prottools-like, mouse-editing</tags>
+      </metadata>
+      <version name="1.3" author="Mariow" time="2025-12-11T00:00:00Z">
+        <changelog><![CDATA[
 v1.3 (2025-12-11)
 - NEW: If an item is selected, TS follows the item’s start/end (ignores Razor)
 - Respects existing time-selection (never overwrites it)
 - Razor → Time Selection fallback only when no TS and no selected item
 - Still forces operations to apply on the initially selected track
 - Razor areas always cleared for safety
-      ]]></changelog>
-          <source>https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/Protools_Edit/Create-6PointsEnveloppe(PT).lua</source>
-        </version>
-      </metadata>
+    ]]></changelog>
+        <source main="main">https://raw.githubusercontent.com/Geeksound/Reaper_Scripts-Mariow/main/Protools_Edit/Create-6PointsEnveloppe(PT).lua</source>
+      </version>
     </reapack>
   </category>
   <category name="ProTools_Essentials">
