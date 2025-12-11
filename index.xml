@@ -2277,14 +2277,19 @@ v1.0 (2025-11-26)
     </reapack>
     <reapack name="EndToFillSelection.lua" type="script">
       <metadata>
-        <description><![CDATA[
-Trim item end to Time Selection on selected track (ProTools-like)
+        <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
+{\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
+\widowctrl\hyphauto
 
-Trims the *end* of items to the end of the current Time Selection
-on the selected track, emulating Pro Tools’ "Trim End to Fill Selection".
+{\pard\ql\f0\sa180\li0\fi0\b\fs40 Trim Item End to Time Selection (PT-like)\par}
+{\pard\ql\f0\sa180\li0\fi0   \par}
 
-Developed by Mariow.
-    ]]></description>
+{\pard \ql \f0 \sa180 \li0 \fi0 \outlinelevel0 \b \fs36 Description\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 Trims the end of items to match the end of the current Time Selection on the selected track.\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 Emulates Pro Tools’ "Trim End to Fill Selection" behavior for fast, precise editing.\par}
+
+{\pard\ql\f0\sa180\li0\fi0 Developed by Mariow.\par}
+}]]></description>
         <author>Mariow</author>
         <version>1.0</version>
         <link>https://github.com/Geeksound/Reaper_Scripts-Mariow</link>
@@ -2300,16 +2305,19 @@ v1.0 (2025-06-07)
     </reapack>
     <reapack name="ExtendEditDown(PT Shift M).lua" type="script">
       <metadata>
-        <description><![CDATA[
-Extend Edit Down (ProTools-like SHIFT+M)
-Extends the current Razor Edit from the source track to the track below,
-following Pro Tools' Shift+M shortcut behavior.
-The script supports repeated execution:
-each subsequent run adds the Razor Edit to the next track further down,
-enabling rapid vertical multi-track edit extension.
+        <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
+{\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
+\widowctrl\hyphauto
 
-Developed by Mariow.
-    ]]></description>
+{\pard\ql\f0\sa180\li0\fi0\b\fs40 Extend Edit Down (PT-like SHIFT+M)\par}
+{\pard\ql\f0\sa180\li0\fi0   \par}
+
+{\pard \ql \f0 \sa180 \li0 \fi0 \outlinelevel0 \b \fs36 Description\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 Extends the current Razor Edit from the source track to the track below, following Pro Tools' Shift+M shortcut behavior.\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 The script supports repeated execution: each subsequent run adds the Razor Edit to the next track further down, enabling rapid vertical multi-track edit extension.\par}
+
+{\pard\ql\f0\sa180\li0\fi0 Developed by Mariow.\par}
+}]]></description>
         <author>Mariow</author>
         <version>1.0</version>
         <link>https://github.com/Geeksound/Reaper_Scripts-Mariow</link>
@@ -2326,16 +2334,19 @@ v1.0 (2025-11-30)
     </reapack>
     <reapack name="ExtendEditToEnd(PT AltShift Return).lua" type="script">
       <metadata>
-        <description><![CDATA[
-Extend Edit to Project End (ProTools-like AltShift Return)
-Extends the current Razor Edit area from its existing end point all the way to 
-the end of the project—matching Pro Tools’ Shift+S behavior for extending 
-an edit selection to the end of the session.
-If no Razor Edit exists on the selected track, the script automatically creates
-a new Razor Edit from the edit cursor to the project end, enabling seamless
-ProTools-style workflow even without a prior selection.
-Developed by Mariow.
-    ]]></description>
+        <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
+{\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
+\widowctrl\hyphauto
+
+{\pard\ql\f0\sa180\li0\fi0\b\fs40 Extend Edit to Project End (PT-like AltShift Return)\par}
+{\pard\ql\f0\sa180\li0\fi0   \par}
+
+{\pard \ql \f0 \sa180 \li0 \fi0 \outlinelevel0 \b \fs36 Description\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 Extends the current Razor Edit area from its existing end point all the way to the end of the project, matching Pro Tools' Alt+Shift+Return behavior for extending an edit selection to the end of the session.\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 If no Razor Edit exists on the selected track, the script automatically creates a new Razor Edit from the edit cursor to the project end, enabling seamless ProTools-style workflow even without a prior selection.\par}
+
+{\pard\ql\f0\sa180\li0\fi0 Developed by Mariow.\par}
+}]]></description>
         <author>Mariow</author>
         <version>1.0</version>
         <link>https://github.com/Geeksound/Reaper_Scripts-Mariow</link>
@@ -2352,18 +2363,19 @@ v1.0 (2025-12-01)
     </reapack>
     <reapack name="ExtendEditToStart(PT Shift Return).lua" type="script">
       <metadata>
-        <description><![CDATA[
-Extend Edit to Project Start (ProTools-like Shift Return)
-Extends the active Razor Edit area from its current start point all the way
-to the beginning of the project — mimicking Pro Tools’ Shift+A behavior,
-which extends the current edit selection to the start of the session.
+        <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
+{\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
+\widowctrl\hyphauto
 
-If no Razor Edit is present on the selected track, the script creates
-a new Razor Edit from the project start to the current edit cursor,
-ensuring consistent ProTools-style editing workflow.
+{\pard\ql\f0\sa180\li0\fi0\b\fs40 Extend Edit to Project Start (PT-like Shift Return)\par}
+{\pard\ql\f0\sa180\li0\fi0   \par}
 
-Developed by Mariow.
-]]></description>
+{\pard \ql \f0 \sa180 \li0 \fi0 \outlinelevel0 \b \fs36 Description\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 Extends the active Razor Edit area from its current start point all the way to the beginning of the project, mimicking Pro Tools' Shift+A behavior, which extends the current edit selection to the start of the session.\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 If no Razor Edit is present on the selected track, the script creates a new Razor Edit from the project start to the current edit cursor, ensuring a consistent ProTools-style editing workflow.\par}
+
+{\pard\ql\f0\sa180\li0\fi0 Developed by Mariow.\par}
+}]]></description>
         <author>Mariow</author>
         <version>1.0</version>
         <link>https://github.com/Geeksound/Reaper_Scripts-Mariow</link>
@@ -2380,14 +2392,19 @@ v1.0 (2025-12-01)
     </reapack>
     <reapack name="ExtendEditUp(PT Shift P).lua" type="script">
       <metadata>
-        <description><![CDATA[
-Extend Edit Up (ProTools-like SHIFT+P)
-Extends the current Razor Edit area from the selected track to the track above,
-mimicking Pro Tools’ Shift+P behavior for extending an edit selection upward.
-Useful for multi-track editing, grouping-like workflows, and fast vertical edit extension.
+        <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
+{\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
+\widowctrl\hyphauto
 
-Developed by Mariow.
-]]></description>
+{\pard\ql\f0\sa180\li0\fi0\b\fs40 Extend Edit Up (PT-like SHIFT+P)\par}
+{\pard\ql\f0\sa180\li0\fi0   \par}
+
+{\pard \ql \f0 \sa180 \li0 \fi0 \outlinelevel0 \b \fs36 Description\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 Extends the current Razor Edit area from the selected track to the track above, mimicking Pro Tools' Shift+P behavior for extending an edit selection upward.\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 Useful for multi-track editing, grouping-like workflows, and fast vertical edit extension.\par}
+
+{\pard\ql\f0\sa180\li0\fi0 Developed by Mariow.\par}
+}]]></description>
         <author>Mariow</author>
         <version>1.0</version>
         <link>https://github.com/Geeksound/Reaper_Scripts-Mariow</link>
@@ -2403,14 +2420,19 @@ v1.0 (2025-11-30)
     </reapack>
     <reapack name="HalveRazorLength(PT-ShiftCtrlAltCmd-%).lua" type="script">
       <metadata>
-        <description><![CDATA[
-Halve the length of Razor Edits on selected tracks
+        <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
+{\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
+\widowctrl\hyphauto
 
-Halves the length of Razor Edits on all selected tracks in REAPER.
-Maintains fade lengths and supports multiple Razor Edit areas per track.
+{\pard\ql\f0\sa180\li0\fi0\b\fs40 Halve Razor Edits on Selected Tracks\par}
+{\pard\ql\f0\sa180\li0\fi0   \par}
 
-Developed by Mariow.
-    ]]></description>
+{\pard \ql \f0 \sa180 \li0 \fi0 \outlinelevel0 \b \fs36 Description\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 Halves the length of Razor Edits on all selected tracks in REAPER.\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 Maintains fade lengths and supports multiple Razor Edit areas per track.\par}
+
+{\pard\ql\f0\sa180\li0\fi0 Developed by Mariow.\par}
+}]]></description>
         <author>Mariow</author>
         <version>1.0</version>
         <link>https://github.com/Geeksound/Reaper_Scripts-Mariow</link>
@@ -2426,14 +2448,19 @@ v1.0 (2025-11-26)
     </reapack>
     <reapack name="HalveTimeLength(PT-ShiftCtrlAltCmd-%).lua" type="script">
       <metadata>
-        <description><![CDATA[
-Halve the length of the Time Selection
+        <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
+{\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
+\widowctrl\hyphauto
 
-Halves the length of the current Time Selection in REAPER.
-Works by moving the loop points, halving the loop length, and restoring the time selection.
+{\pard\ql\f0\sa180\li0\fi0\b\fs40 Halve the Length of Time Selection\par}
+{\pard\ql\f0\sa180\li0\fi0   \par}
 
-Developed by Mariow.
-]]></description>
+{\pard \ql \f0 \sa180 \li0 \fi0 \outlinelevel0 \b \fs36 Description\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 Halves the length of the current Time Selection in REAPER.\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 Works by moving the loop points, halving the loop length, and restoring the time selection.\par}
+
+{\pard\ql\f0\sa180\li0\fi0 Developed by Mariow.\par}
+}]]></description>
         <author>Mariow</author>
         <version>1.0</version>
         <link>https://github.com/Geeksound/Reaper_Scripts-Mariow</link>
@@ -2449,13 +2476,18 @@ v1.0 (2025-11-26)
     </reapack>
     <reapack name="Heal-Separation.lua" type="script">
       <metadata>
-        <description><![CDATA[
-Heal Separation (ProTools-like)
-Executes a series of REAPER commands to perform the "Heal" operation
-within the current Time Selection, emulating Pro Tools' Cmd+H behavior.
+        <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
+{\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
+\widowctrl\hyphauto
 
-Developed by Mariow.
-    ]]></description>
+{\pard\ql\f0\sa180\li0\fi0\b\fs40 Heal Separation (PT-like)\par}
+{\pard\ql\f0\sa180\li0\fi0   \par}
+
+{\pard \ql \f0 \sa180 \li0 \fi0 \outlinelevel0 \b \fs36 Description\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 Executes a series of REAPER commands to perform the "Heal" operation within the current Time Selection, emulating Pro Tools' Cmd+H behavior.\par}
+
+{\pard\ql\f0\sa180\li0\fi0 Developed by Mariow.\par}
+}]]></description>
         <author>Mariow</author>
         <version>1.0</version>
         <link>https://github.com/Geeksound/Reaper_Scripts-Mariow</link>
@@ -2471,15 +2503,18 @@ v1.0 (2025-11-25)
     </reapack>
     <reapack name="Snap-Item-ToNext.lua" type="script">
       <metadata>
-        <description><![CDATA[
-SnapItemToNext (ProTools-like)
+        <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
+{\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
+\widowctrl\hyphauto
 
-Moves the selected item so that its right edge snaps exactly to the
-left edge of the next item on the same track, emulating Pro Tools' 
-edge-alignment workflow.
+{\pard\ql\f0\sa180\li0\fi0\b\fs40 Snap Item to Next (PT-like)\par}
+{\pard\ql\f0\sa180\li0\fi0   \par}
 
-Developed by Mariow.
-    ]]></description>
+{\pard \ql \f0 \sa180 \li0 \fi0 \outlinelevel0 \b \fs36 Description\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 Moves the selected item so that its right edge snaps exactly to the left edge of the next item on the same track, emulating Pro Tools' edge-alignment workflow.\par}
+
+{\pard\ql\f0\sa180\li0\fi0 Developed by Mariow.\par}
+}]]></description>
         <author>Mariow</author>
         <version>1.0</version>
         <link>https://github.com/Geeksound/Reaper_Scripts-Mariow</link>
@@ -2495,15 +2530,18 @@ v1.0 (2025-11-26)
     </reapack>
     <reapack name="Snap-Item-ToPrevious.lua" type="script">
       <metadata>
-        <description><![CDATA[
-Snap Item to Previous (ProTools-like)
+        <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
+{\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
+\widowctrl\hyphauto
 
-Moves the selected item so that its left edge snaps exactly to the
-right edge of the previous item on the same track, emulating 
-Pro Tools' reverse edge-alignment workflow.
+{\pard\ql\f0\sa180\li0\fi0\b\fs40 Snap Item to Previous (PT-like)\par}
+{\pard\ql\f0\sa180\li0\fi0   \par}
 
-Developed by Mariow.
-    ]]></description>
+{\pard \ql \f0 \sa180 \li0 \fi0 \outlinelevel0 \b \fs36 Description\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 Moves the selected item so that its left edge snaps exactly to the right edge of the previous item on the same track, emulating Pro Tools' reverse edge-alignment workflow.\par}
+
+{\pard\ql\f0\sa180\li0\fi0 Developed by Mariow.\par}
+}]]></description>
         <author>Mariow</author>
         <version>1.0</version>
         <link>https://github.com/Geeksound/Reaper_Scripts-Mariow</link>
@@ -2519,15 +2557,19 @@ v1.0 (2025-11-26)
     </reapack>
     <reapack name="Space-Clips.lua" type="script">
       <metadata>
-        <description><![CDATA[
-Gap Between Items (Set or Remove Gaps) — Space-Clips (ProTools-like)
+        <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
+{\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
+\widowctrl\hyphauto
 
-Creates or removes uniform gaps between selected items,
-mimicking Pro Tools' "Space Clips" feature.
-Gaps can be entered as timecode, milliseconds, or samples.
+{\pard\ql\f0\sa180\li0\fi0\b\fs40 Gap Between Items — Space Clips (PT-like)\par}
+{\pard\ql\f0\sa180\li0\fi0   \par}
 
-Developed by Mariow.
-    ]]></description>
+{\pard \ql \f0 \sa180 \li0 \fi0 \outlinelevel0 \b \fs36 Description\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 Creates or removes uniform gaps between selected items, mimicking Pro Tools' "Space Clips" feature.\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 Gaps can be entered as timecode, milliseconds, or samples.\par}
+
+{\pard\ql\f0\sa180\li0\fi0 Developed by Mariow.\par}
+}]]></description>
         <author>Mariow</author>
         <version>1.0</version>
         <link>https://github.com/Geeksound/Reaper_Scripts-Mariow</link>
@@ -2543,16 +2585,21 @@ v1.0 (2025-06-07)
     </reapack>
     <reapack name="Split-Item(as PT).lua" type="script">
       <metadata>
-        <description><![CDATA[
-Smart Split at Time Selection or Cursor (PT-cmd E)
+        <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
+{\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
+\widowctrl\hyphauto
 
-Behaves like Pro Tools' standard split:
-- If a time selection exists, the item(s) are split at its boundaries.
-- Otherwise, the script splits at the edit cursor, using zero-crossing when possible.
-Automatically selects items under the edit cursor before splitting.
+{\pard\ql\f0\sa180\li0\fi0\b\fs40 Smart Split at Time Selection or Cursor (PT-Cmd E)\par}
+{\pard\ql\f0\sa180\li0\fi0   \par}
 
-Developed by Mariow.
-    ]]></description>
+{\pard \ql \f0 \sa180 \li0 \fi0 \outlinelevel0 \b \fs36 Description\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 Behaves like Pro Tools' standard split:\par}
+{\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab If a time selection exists, the item(s) are split at its boundaries,\par}
+{\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab Otherwise, the script splits at the edit cursor, using zero-crossing when possible,\par}
+{\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab Automatically selects items under the edit cursor before splitting.\par}
+
+{\pard\ql\f0\sa180\li0\fi0 Developed by Mariow.\par}
+}]]></description>
         <author>Mariow</author>
         <version>1.0</version>
         <link>https://github.com/Geeksound/Reaper_Scripts-Mariow</link>
@@ -2568,14 +2615,18 @@ v1.0 (2025-06-07)
     </reapack>
     <reapack name="StartToFillSelection.lua" type="script">
       <metadata>
-        <description><![CDATA[
-Trim item start to Time Selection on selected track (ProTools-like)
+        <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
+{\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
+\widowctrl\hyphauto
 
-Trims the *start* of items to the beginning of the current Time Selection
-on the selected track, emulating Pro Tools’ "Trim Start to Fill Selection".
+{\pard\ql\f0\sa180\li0\fi0\b\fs40 Trim Item Start to Time Selection (PT-like)\par}
+{\pard\ql\f0\sa180\li0\fi0   \par}
 
-Developed by Mariow.
-    ]]></description>
+{\pard \ql \f0 \sa180 \li0 \fi0 \outlinelevel0 \b \fs36 Description\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 Trims the start of items to the beginning of the current Time Selection on the selected track, emulating Pro Tools’ "Trim Start to Fill Selection".\par}
+
+{\pard\ql\f0\sa180\li0\fi0 Developed by Mariow.\par}
+}]]></description>
         <author>Mariow</author>
         <version>1.0</version>
         <link>https://github.com/Geeksound/Reaper_Scripts-Mariow</link>
@@ -2591,13 +2642,18 @@ v1.0 (2025-06-07)
     </reapack>
     <reapack name="Trim-Left-(PT Q).lua" type="script">
       <metadata>
-        <description><![CDATA[
-Trim Left Edge of Item to Cursor (ProTools-like Q)
-Selects the media item under the edit cursor and trims its left edge
-up to the cursor position, mimicking Pro Tools' Q shortcut behavior.
+        <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
+{\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
+\widowctrl\hyphauto
 
-Developed by Mariow.
-]]></description>
+{\pard\ql\f0\sa180\li0\fi0\b\fs40 Trim Left Edge of Item to Cursor (PT-like Q)\par}
+{\pard\ql\f0\sa180\li0\fi0   \par}
+
+{\pard \ql \f0 \sa180 \li0 \fi0 \outlinelevel0 \b \fs36 Description\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 Selects the media item under the edit cursor and trims its left edge up to the cursor position, mimicking Pro Tools' Q shortcut behavior.\par}
+
+{\pard\ql\f0\sa180\li0\fi0 Developed by Mariow.\par}
+}]]></description>
         <author>Mariow</author>
         <version>1.0</version>
         <link>https://github.com/Geeksound/Reaper_Scripts-Mariow</link>
@@ -2613,13 +2669,18 @@ v1.0 (2025-11-26)
     </reapack>
     <reapack name="Trim-Right-(PT S).lua" type="script">
       <metadata>
-        <description><![CDATA[
-Trim Right Edge of Item to Cursor (ProTools-like S)
-Selects the media item under the edit cursor and trims its right edge
-up to the cursor position, mimicking Pro Tools' S shortcut behavior.
+        <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
+{\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
+\widowctrl\hyphauto
 
-Developed by Mariow.
-]]></description>
+{\pard\ql\f0\sa180\li0\fi0\b\fs40 Trim Right Edge of Item to Cursor (PT-like S)\par}
+{\pard\ql\f0\sa180\li0\fi0   \par}
+
+{\pard \ql \f0 \sa180 \li0 \fi0 \outlinelevel0 \b \fs36 Description\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 Selects the media item under the edit cursor and trims its right edge up to the cursor position, mimicking Pro Tools' S shortcut behavior.\par}
+
+{\pard\ql\f0\sa180\li0\fi0 Developed by Mariow.\par}
+}]]></description>
         <author>Mariow</author>
         <version>1.0</version>
         <link>https://github.com/Geeksound/Reaper_Scripts-Mariow</link>
@@ -2635,13 +2696,18 @@ v1.0 (2025-11-26)
     </reapack>
     <reapack name="TrimToSelection.lua" type="script">
       <metadata>
-        <description><![CDATA[
-Trim items to Time Selection on selected track (ProTools-like)
-Trims items to the current Time Selection on the selected track,
-emulating the behavior of Pro Tools' "Trim to Selection" edit function.
+        <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
+{\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
+\widowctrl\hyphauto
 
-Developed by Mariow.
-]]></description>
+{\pard\ql\f0\sa180\li0\fi0\b\fs40 Trim Items to Time Selection (PT-like)\par}
+{\pard\ql\f0\sa180\li0\fi0   \par}
+
+{\pard \ql \f0 \sa180 \li0 \fi0 \outlinelevel0 \b \fs36 Description\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 Trims items to the current Time Selection on the selected track, emulating the behavior of Pro Tools' "Trim to Selection" edit function.\par}
+
+{\pard\ql\f0\sa180\li0\fi0 Developed by Mariow.\par}
+}]]></description>
         <author>Mariow</author>
         <version>1.0</version>
         <link>https://github.com/Geeksound/Reaper_Scripts-Mariow</link>
@@ -2697,13 +2763,18 @@ v1.3 (2025-12-11)
   <category name="ProTools_Essentials">
     <reapack name="Strip-Silence (PT-Cmd U).lua" type="script">
       <metadata>
-        <description><![CDATA[
-Strip Silence (ProTools-like)
-Executes the native REAPER Strip Silence command,
-mimicking Pro Tools’ Cmd+U workflow.
+        <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
+{\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
+\widowctrl\hyphauto
 
-Developed by Mariow.
-]]></description>
+{\pard\ql\f0\sa180\li0\fi0\b\fs40 Strip Silence (ProTools-like)\par}
+{\pard\ql\f0\sa180\li0\fi0   \par}
+
+{\pard \ql \f0 \sa180 \li0 \fi0 \outlinelevel0 \b \fs36 Description\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 Executes the native REAPER Strip Silence command, mimicking Pro Tools' Cmd+U workflow.\par}
+
+{\pard\ql\f0\sa180\li0\fi0 Developed by Mariow.\par}
+}]]></description>
         <author>Mariow</author>
         <version>1.0</version>
         <link>https://github.com/Geeksound/Reaper_Scripts-Mariow</link>
@@ -2719,15 +2790,22 @@ v1.0 (2025-06-07)
     </reapack>
     <reapack name="ZoomPresets(PT-like).lua" type="script">
       <metadata>
-        <description><![CDATA[
-Zoom Presets H+V (4 slots) - ProTools-like
-This script provides a dockable REAPER panel that mimics ProTools’ zoom presets.
-- ALT + click a button to save current horizontal + vertical zoom.
-- Click button to restore the saved zoom.
-- 4 slots available.
+        <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
+{\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
+\widowctrl\hyphauto
 
-Developed by Mariow.
-]]></description>
+{\pard\ql\f0\sa180\li0\fi0\b\fs40 Zoom Presets H+V (4 slots) - ProTools-like\par}
+{\pard\ql\f0\sa180\li0\fi0   \par}
+
+{\pard \ql \f0 \sa180 \li0 \fi0 \outlinelevel0 \b \fs36 Description\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 Provides a dockable REAPER panel that mimics ProTools’ zoom presets:\par}
+
+{\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab ALT + click a button to save current horizontal + vertical zoom,\par}
+{\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab Click button to restore the saved zoom,\par}
+{\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab 4 slots available.\par}
+
+{\pard\ql\f0\sa180\li0\fi0 Developed by Mariow.\par}
+}]]></description>
         <author>Mariow</author>
         <version>1.0</version>
         <link>https://github.com/Geeksound/Reaper_Scripts-Mariow</link>
@@ -2830,15 +2908,22 @@ v1.0 (2025-12-08)
     </reapack>
     <reapack name="ViewNameEnvelope(imGui).lua" type="script">
       <metadata>
-        <description><![CDATA[
-Track / Envelope Display (ImGui helper, ProTools-like)
-Small ImGui floating window showing:
-- The selected envelope name (if any)
-- Otherwise the selected track name
-Useful when working with ProTools-like envelope cycling scripts,
-providing instant visual feedback without cluttering the arrange view.
-Developed by Mariow.
-]]></description>
+        <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
+{\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
+\widowctrl\hyphauto
+
+{\pard\ql\f0\sa180\li0\fi0\b\fs40 Track / Envelope Display (ImGui helper, ProTools-like)\par}
+{\pard\ql\f0\sa180\li0\fi0   \par}
+
+{\pard \ql \f0 \sa180 \li0 \fi0 \outlinelevel0 \b \fs36 Description\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 Small ImGui floating window showing:\par}
+
+{\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab The selected envelope name (if any),\par}
+{\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab Otherwise the selected track name.\par}
+
+{\pard \ql \f0 \sa180 \li0 \fi0 Useful when working with ProTools-like envelope cycling scripts, providing instant visual feedback without cluttering the arrange view.\par}
+{\pard\ql\f0\sa180\li0\fi0 Developed by Mariow.\par}
+}]]></description>
         <author>Mariow</author>
         <version>1.0</version>
         <link>https://github.com/Geeksound/Reaper_Scripts-Mariow</link>
@@ -2856,12 +2941,18 @@ v1.0 (2025-12-08)
     </reapack>
     <reapack name="Scroll-To-Track(Altcmd F).lua" type="script">
       <metadata>
-        <description><![CDATA[
-Scroll to a selected track by name (ProTools-like)
-Opens a filterable list of tracks and scrolls the arrange view
-to the selected track, emulating Pro Tools’ Alt+Cmd+F behavior.
-Developed by Mariow.
-]]></description>
+        <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
+{\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
+\widowctrl\hyphauto
+
+{\pard\ql\f0\sa180\li0\fi0\b\fs40 Scroll to a Selected Track by Name (ProTools-like)\par}
+{\pard\ql\f0\sa180\li0\fi0   \par}
+
+{\pard \ql \f0 \sa180 \li0 \fi0 \outlinelevel0 \b \fs36 Description\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 Opens a filterable list of tracks and scrolls the arrange view to the selected track, emulating Pro Tools’ Alt+Cmd+F behavior.\par}
+
+{\pard\ql\f0\sa180\li0\fi0 Developed by Mariow.\par}
+}]]></description>
         <author>Mariow</author>
         <version>1.0</version>
         <link>https://github.com/Geeksound/Reaper_Scripts-Mariow</link>
@@ -3277,31 +3368,30 @@ v1.0 (2025-06-07)
     </reapack>
     <reapack name="NudgeBackwardx10.lua" type="script">
       <metadata>
-        <description><![CDATA[
-Nudge Backward ×10 (ProTools-like)
+        <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
+{\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
+\widowctrl\hyphauto
 
-Move Cursor or Items Backward ×10 Based on Shared Timecode
+{\pard\ql\f0\sa180\li0\fi0\b\fs40 Nudge Backward ×10 (ProTools-like)\par}
+{\pard\ql\f0\sa180\li0\fi0   \par}
 
-This script nudges the edit cursor or selected items backward ×10 using the shared timecode entered in the
-Unified PRE–POST–ROLL + Timecode UI (ImGui).
+{\pard \ql \f0 \sa180 \li0 \fi0 \outlinelevel0 \b \fs36 Description\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 Move the edit cursor or selected items backward ×10 using the shared timecode entered in the Unified PRE–POST–ROLL + Timecode UI (ImGui).\par}
 
-Shared Timecode Input
-The base nudge amount is read from a global ExtState shared across the ProTools_Essentials suite:
-- Namespace: "TimecodeUI"
-- Key: "tc"
-- Format: HH:MM:SS:FF
+{\pard \ql \f0 \sa180 \li0 \fi0 Shared Timecode Input:\par}
+{\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab Base nudge amount read from global ExtState shared across the ProTools_Essentials suite,\par}
+{\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab Namespace: "TimecodeUI", Key: "tc", Format: HH:MM:SS:FF,\par}
+{\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab Resulting duration multiplied by 10 for coarse backward navigation aligned with ProTools-like timing workflow.\par}
 
-The script multiplies the resulting duration by 10 to allow coarse backward navigation while staying aligned with the ProTools-like timing workflow.
+{\pard \ql \f0 \sa180 \li0 \fi0 Works With:\par}
+{\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab Nudge Forward,\par}
+{\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab Nudge Backward,\par}
+{\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab Nudge Forward ×10,\par}
+{\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab PRE-POST-ROLL + Timecode UI (ImGui),\par}
+{\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab Set_Rolls_And_Nudge_Settings.\par}
 
-Works With:
-- Nudge Forward
-- Nudge Backward
-- Nudge Forward ×10
-- PRE-POST-ROLL + Timecode UI (ImGui)
-- Set_Rolls_And_Nudge_Settings
-
-Part of the ProTools_Essentials suite, providing Pro Tools–inspired transport and navigation inside REAPER.
-]]></description>
+{\pard\ql\f0\sa180\li0\fi0 Part of the ProTools_Essentials suite, providing Pro Tools–inspired transport and navigation inside REAPER.\par}
+}]]></description>
         <author>Mariow</author>
         <version>1.1</version>
         <link>https://github.com/Geeksound/Reaper_Scripts-Mariow</link>
