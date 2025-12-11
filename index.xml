@@ -2650,6 +2650,32 @@ v1.0 (2025-06-07)
         <source main="main">https://raw.githubusercontent.com/Geeksound/Reaper_Scripts-Mariow/main/Protools_Edit/TrimToSelection.lua</source>
       </version>
     </reapack>
+    <reapack name="Create-6PointsEnveloppe(PT).lua" type="script">
+      <metadata>
+        <description><![CDATA[
+{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
+{\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
+\widowctrl\hyphauto
+
+{\pard\ql\f0\sa180\li0\fi0\b\fs40 6 Points to Envelope — Item / Time Selection / Razor (ProTools-like)\par}
+{\pard\ql\f0\sa180\li0\fi0 Provides fast, precise envelope editing by automatically creating six automation points\par}
+{\pard\ql\f0\sa180\li0\fi0 based on the current edit context, similar to Pro Tools workflows.\par}
+
+{\pard\ql\f0\sa180\li0\fi0 Features:\par}
+{\pard\ql\f0\sa0\li360\fi-360 \bullet \tx360\tab **Item-aware logic** — if an item is selected, its start/end define the edit zone,\par}
+{\pard\ql\f0\sa0\li360\fi-360 \bullet \tx360\tab **Respect existing Time Selection** — never overwritten,\par}
+{\pard\ql\f0\sa0\li360\fi-360 \bullet \tx360\tab **Razor fallback** — only used if no item and no time selection,\par}
+{\pard\ql\f0\sa0\li360\fi-360 \bullet \tx360\tab Applies strictly on the initially selected track,\par}
+{\pard\ql\f0\sa0\li360\fi-360 \bullet \tx360\tab Razor areas automatically cleared for safety.\par}
+
+{\pard\ql\f0\sa180\li0\fi0 Ideal for fast mouse-driven automation editing with predictable Pro Tools–like behavior.\par}
+{\pard\ql\f0\sa180\li0\fi0 Developed by Mariow.\par}
+}]]></description>
+        <version name="1.3" author="Mariow" time="2025-12-XX">
+          <source>https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/ProTools_Edit/Create-6PointsEnveloppe(PT).lua</source>
+        </version>
+      </metadata>
+    </reapack>
   </category>
   <category name="ProTools_Essentials">
     <reapack name="Strip-Silence (PT-Cmd U).lua" type="script">
