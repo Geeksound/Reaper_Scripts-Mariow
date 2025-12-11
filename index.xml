@@ -1450,7 +1450,7 @@ v1.0 (2025-11-12)
 {\colortbl;\red0\green128\blue0;\red255\green0\blue0;}
 \widowctrl\hyphauto
 
-{\pard\ql\f0\sa180\li0\fi0\b\fs40 GoTo Loop Start and Play (Reaper, Pro Tools style)\par}
+{\pard\ql\f0\sa180\li0\fi0\b\fs40 GoTo Loop Start and Play (Reaper, \b Protools \b0 style)\par}
 {\pard \ql \f0 \sa180 \li0 \fi0\outlinelevel0\fs36 Script functionality\par}
 {\pard \ql \f0 \sa180 \li0 \fi0 Saves current Edit Cursor, jumps to Loop Start, plays, and restores cursor after playback stops.\par}
 {\pard \ql \f0 \sa0 \li360\fi-360 \bullet \tx360\tab Disables preroll if active,\par}
