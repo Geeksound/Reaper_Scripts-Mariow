@@ -2656,7 +2656,7 @@ v1.0 (2025-06-07)
 {\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
 \widowctrl\hyphauto
 
-{\pard\ql\f0\sa180\li0\fi0\b\fs40 6 Points to Envelope — Item / Time Selection / Razor (ProTools-like)\par}
+{\pard\ql\f0\sa180\li0\fi0\b\fs40 6 Points to Envelope - Item / Time Selection / Razor (ProTools-like)\par}
 {\pard\ql\f0\sa180\li0\fi0 Fast, contextual envelope editing similar to Pro Tools workflows.\par}
 
 {\pard\ql\f0\sa180\li0\fi0 This script automatically places six automation points around the active edit zone, adapting dynamically to whether you are working with a selected item, an existing time selection, or a Razor Area.\par}
@@ -2664,11 +2664,11 @@ v1.0 (2025-06-07)
 {\pard\ql\f0\sa180\li0\fi0 Features:\par}
 {\pard\ql\f0\sa0\li360\fi-360 \bullet \tx360\tab Selected item defines the automation range (highest priority),\par}
 {\pard\ql\f0\sa0\li360\fi-360 \bullet \tx360\tab Existing time selection respected and never overwritten,\par}
-{\pard\ql\f0\sa0\li360\fi-360 \bullet \tx360\tab Razor → Time Selection fallback only if no item and no TS are active,\par}
+{\pard\ql\f0\sa0\li360\fi-360 \bullet \tx360\tab Razor -> Time Selection fallback only if no item and no TS are active,\par}
 {\pard\ql\f0\sa0\li360\fi-360 \bullet \tx360\tab Always applies its edits on the initially selected track,\par}
 {\pard\ql\f0\sa0\li360\fi-360 \bullet \tx360\tab Razor areas automatically cleared for safety.\par}
 
-{\pard\ql\f0\sa180\li0\fi0 Ideal for fast, precise, Pro Tools–like envelope shaping with the mouse inside REAPER.\par}
+{\pard\ql\f0\sa180\li0\fi0 Ideal for fast, precise, Pro Tools-like envelope shaping with the mouse inside REAPER.\par}
 {\pard\ql\f0\sa180\li0\fi0 Developed by Mariow.\par}
 }]]></description>
         <author>Mariow</author>
