@@ -2249,14 +2249,19 @@ v1.0 (2025-11-26)
     </reapack>
     <reapack name="DoubleTimeLength(ShiftCtrlAltCmd-%).lua" type="script">
       <metadata>
-        <description><![CDATA[
-Double the length of the Time Selection
+        <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
+{\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
+\widowctrl\hyphauto
 
-Doubles the length of the current Time Selection in REAPER.
-Moves loop points to the selection, doubles the loop, then restores the time selection.
+{\pard\ql\f0\sa180\li0\fi0\b\fs40 Double Time Selection\par}
+{\pard\ql\f0\sa180\li0\fi0   \par}
 
-Developed by Mariow.
-    ]]></description>
+{\pard \ql \f0 \sa180 \li0 \fi0 \outlinelevel0 \b \fs36 Description\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 Doubles the length of the current Time Selection in REAPER.\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 Moves loop points to match the selection, doubles the loop range, and then restores the original time selection.\par}
+
+{\pard\ql\f0\sa180\li0\fi0 Developed by Mariow.\par}
+}]]></description>
         <author>Mariow</author>
         <version>1.0</version>
         <link>https://github.com/Geeksound/Reaper_Scripts-Mariow</link>
