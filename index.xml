@@ -2705,14 +2705,28 @@ v1.0 (2025-12-06)
     <reapack name="CycleEnvelope.lua" type="script">
       <metadata>
         <description><![CDATA[
-Cycle Track Envelope Volume → Mute → Pan → Hide (ProTools-like)
-Reproduces a ProTools-style shortcut cycling display of track envelopes.
-This script:
-- Cycles through Volume → Mute → Pan → Hide
-- Stores state in ExtState (PT_Toggles)
-- Controls envelope visibility without displaying UI.
-Developed by Mariow.
-]]></description>
+{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
+{\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
+\widowctrl\hyphauto
+
+{\pard\ql\f0\sa180\li0\fi0\b\fs40\cf1 Cycle Track Envelope – Volume → Mute → Pan → Hide (PT-like)\par}
+{\pard\ql\f0\sa180\li0\fi0   \par}
+
+{\pard \ql \f0 \sa180 \li0 \fi0 \outlinelevel0 \b \fs36 ProTools-Style Envelope Cycling\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 Reproduces the Pro Tools shortcut {\b Ctrl+Cmd + Left/Right Arrow} used to cycle visible automation lanes.\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 Allows REAPER users to switch instantly between main track envelopes just like in PT.\par}
+
+{\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab Cycle order: {\b Volume → Mute → Pan → Hide},\par}
+{\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab Shows only the currently selected envelope (others hidden),\par}
+{\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab Preserves the cycle state using ExtState ({\i PT_Toggles}),\par}
+{\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab Works on selected track(s) and updates instantly.\par}
+
+{\pard\ql\f0\sa180\li0\fi0 Designed for ProTools users wanting familiar automation-lane navigation in REAPER.\par}
+{\pard\ql\f0\sa180\li0\fi0 Ideal to assign to a PT-like shortcut (Ctrl+Cmd + → or ←).\par}
+
+{\pard\ql\f0\sa180\li0\fi0 Compatible with REAPER 7.0 and later.\par}
+{\pard\ql\f0\sa180\li0\fi0 Developed by Mariow.\par}
+}]]></description>
         <author>Mariow</author>
         <version>1.0</version>
         <link>https://github.com/Geeksound/Reaper_Scripts-Mariow</link>
@@ -2732,14 +2746,29 @@ v1.0 (2025-12-08)
     <reapack name="CycleEnvelopeRev.lua" type="script">
       <metadata>
         <description><![CDATA[
-Cycle Track Envelope Hide → Pan → Mute → Volume (reverse, ProTools-like)
-Reverse version of the ProTools-style cycling shortcut.
-This script:
-- Cycles Hide → Pan → Mute → Volume
-- Shares the same ExtState key with the forward cycling script
-- Controls envelope visibility without displaying UI.
-Developed by Mariow.
-]]></description>
+{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
+{\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
+\widowctrl\hyphauto
+
+{\pard\ql\f0\sa180\li0\fi0\b\fs40\cf1 Cycle Track Envelope – Pan → Mute → Volume → Hide (PT-like)\par}
+{\pard\ql\f0\sa180\li0\fi0   \par}
+
+{\pard \ql \f0 \sa180 \li0 \fi0 \outlinelevel0 \b \fs36 ProTools-Style Envelope Cycling\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 Reproduces the Pro Tools shortcut {\b Ctrl+Cmd + Left/Right Arrow} used to cycle visible automation lanes.\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 Allows REAPER users to switch instantly between main track envelopes just like in PT.\par}
+
+{\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab Cycle order: {\b Volume → Mute → Pan → Hide},\par}
+{\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab Shows only the currently selected envelope (others hidden),\par}
+{\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab Preserves the cycle state using ExtState ({\i PT_Toggles}),\par}
+{\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab Works on selected track(s) and updates instantly.\par}
+
+{\pard\ql\f0\sa180\li0\fi0 Designed for ProTools users wanting familiar automation-lane navigation in REAPER.\par}
+{\pard\ql\f0\sa180\li0\fi0 Ideal to assign to a PT-like shortcut (Ctrl+Cmd + → or ←).\par}
+
+{\pard\ql\f0\sa180\li0\fi0 Compatible with REAPER 7.0 and later.\par}
+{\pard\ql\f0\sa180\li0\fi0 Developed by Mariow.\par}
+}]]></description>
+
         <author>Mariow</author>
         <version>1.0</version>
         <link>https://github.com/Geeksound/Reaper_Scripts-Mariow</link>
