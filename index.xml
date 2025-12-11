@@ -2416,7 +2416,7 @@ Developed by Mariow.
 v1.0 (2025-11-26)
 - Initial release
     ]]></changelog>
-        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/HalveTimeLength%28PT-ShiftCtrlAltCmd-%25%29.lua</source>
+        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/Protools_Edit/HalveTimeLength(PT-ShiftCtrlAltCmd-L).lua</source>
       </version>
     </reapack>
     <reapack name="HalveTimeLength(PT-ShiftCtrlAltCmd-%).lua" type="script">
@@ -2652,25 +2652,25 @@ v1.0 (2025-06-07)
     </reapack>
     <reapack name="Create-6PointsEnveloppe(PT).lua" type="script">
       <metadata>
-        <description><![CDATA[
-{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
+        <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
 {\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
 \widowctrl\hyphauto
 
 {\pard\ql\f0\sa180\li0\fi0\b\fs40 6 Points to Envelope — Item / Time Selection / Razor (ProTools-like)\par}
-{\pard\ql\f0\sa180\li0\fi0 Fast automation editing by generating six envelope points around the edit zone.\par}
-{\pard\ql\f0\sa180\li0\fi0 Behavior adapts dynamically to context: selected item, time selection, or razor area.\par}
+{\pard\ql\f0\sa180\li0\fi0 Fast, contextual envelope editing similar to Pro Tools workflows.\par}
+
+{\pard\ql\f0\sa180\li0\fi0 This script automatically places six automation points around the active edit zone, adapting dynamically to whether you are working with a selected item, an existing time selection, or a Razor Area.\par}
 
 {\pard\ql\f0\sa180\li0\fi0 Features:\par}
-{\pard\ql\f0\sa0\li360\fi-360 \bullet \tx360\tab Selected item defines time range (highest priority),\par}
-{\pard\ql\f0\sa0\li360\fi-360 \bullet \tx360\tab Existing time selection preserved and used as-is,\par}
-{\pard\ql\f0\sa0\li360\fi-360 \bullet \tx360\tab Razor → Time Selection fallback only when needed,\par}
-{\pard\ql\f0\sa0\li360\fi-360 \bullet \tx360\tab Always applies on the initially selected track,\par}
-{\pard\ql\f0\sa0\li360\fi-360 \bullet \tx360\tab Razor areas cleared for safety.\par}
+{\pard\ql\f0\sa0\li360\fi-360 \bullet \tx360\tab Selected item defines the automation range (highest priority),\par}
+{\pard\ql\f0\sa0\li360\fi-360 \bullet \tx360\tab Existing time selection respected and never overwritten,\par}
+{\pard\ql\f0\sa0\li360\fi-360 \bullet \tx360\tab Razor → Time Selection fallback only if no item and no TS are active,\par}
+{\pard\ql\f0\sa0\li360\fi-360 \bullet \tx360\tab Always applies its edits on the initially selected track,\par}
+{\pard\ql\f0\sa0\li360\fi-360 \bullet \tx360\tab Razor areas automatically cleared for safety.\par}
 
-{\pard\ql\f0\sa180\li0\fi0 Designed for precise ProTools-like mouse editing inside REAPER.\par}
+{\pard\ql\f0\sa180\li0\fi0 Ideal for fast, precise, Pro Tools–like envelope shaping with the mouse inside REAPER.\par}
 {\pard\ql\f0\sa180\li0\fi0 Developed by Mariow.\par}
-    ]]></description>
+}]]></description>
         <author>Mariow</author>
         <version>1.3</version>
         <link>https://github.com/Geeksound/Reaper_Scripts-Mariow</link>
