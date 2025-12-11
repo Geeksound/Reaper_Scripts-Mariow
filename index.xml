@@ -1203,7 +1203,7 @@ v1.0 (2025-11-12)
 {\pard\ql\f0\sa0\li360\fi-360 \bullet\tx360\tab ReaImGui real-time interface\par}
 {\pard\ql\f0\sa0\li360\fi-360 \bullet\tx360\tab Ideal for timing edits, sound design, workflow automation\par}
 
-{\pard\ql\f0\sa200\li0\fi0 Developed by Mariow.\par}
+{\pard\ql\f0\sa200\li0\fi0 \b Developed by Mariow. \b0\par}
 }]]></description>
         <license>MIT</license>
         <link rel="website">https://github.com/Geeksound/Reaper_Scripts-Mariow</link>
