@@ -6,7 +6,7 @@
   v1.0 (2025-11-26)
   - Initial release
 @provides
-  [main] Protools_Edit/HalveRazorLength(PT-ShiftCtrlAltCmd-%).lua
+  [main] Protools_Edit/HalveRazorLength(PT-ShiftCtrlAltCmd-L).lua
 @link https://github.com/Geeksound/Reaper_Scripts-Mariow
 @repository https://github.com/Geeksound/Reaper_Scripts-Mariow
 @tags razor edits, tracks, editing, items
