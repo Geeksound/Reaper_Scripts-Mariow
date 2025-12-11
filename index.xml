@@ -1321,7 +1321,7 @@ v1.5 (2025-11-26)
 {\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab Useful for field recording or precise sync editing workflows,\par}
 {\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab Equivalent to 'CF Editing/SnapOffsetToEditCursor' functionality.\par}
 {\pard \ql \f0 \sa180 \li0 \fi0 Compatible with REAPER 7.0 and later.\par}
-{\pard \ql \f0 \sa180 \li0 \fi0 Developed by Mariow.\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 \b Developed by Mariow.\b0\par}
 }]]></description>
         <link rel="website">https://github.com/Geeksound/Reaper_Scripts-Mariow</link>
       </metadata>
@@ -1377,7 +1377,7 @@ v1.0 (2025-11-12)
 {\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab Emulates \b Protools \b0 'Revert to Saved' functionality,\par}
 {\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab Useful for quickly discarding unsaved edits and restoring the last saved state.\par}
 {\pard \ql \f0 \sa180 \li0 \fi0 Compatible with REAPER 7.0 and later.\par}
-{\pard \ql \f0 \sa180 \li0 \fi0 Developed by Mariow.\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 \b Developed by Mariow. \b0\par}
 }]]></description>
         <link rel="website">https://github.com/Geeksound/Reaper_Scripts-Mariow</link>
       </metadata>
@@ -1404,7 +1404,7 @@ v1.0 (2025-11-12)
 {\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab Works similarly to \b Protools \b0 selection linking,\par}
 {\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab Useful for alternating selection behavior during editing.\par}
 {\pard \ql \f0 \sa180 \li0 \fi0 Works with REAPER v6.80+ and SWS extension.\par}
-{\pard \ql \f0 \sa180 \li0 \fi0 Developed by Mariow.\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 \b Developed by Mariow. \b0\par}
 }]]></description>
         <link rel="website">https://github.com/Geeksound/Reaper_Scripts-Mariow</link>
       </metadata>
@@ -1430,7 +1430,7 @@ v1.0 (2025-11-12)
 {\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab Can be used with LinkUnlink-TimelineANDEdit-Sel.lua to monitor state visually,\par}
 {\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab Works similarly to \b Protools \b0 selection linking,\par}
 {\pard \ql \f0 \sa180 \li0 \fi0 Requires REAPER v6.80+ and ReaImGui extension.\par}
-{\pard \ql \f0 \sa180 \li0 \fi0 Developed by Mariow.\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 \b Developed by Mariow. \b0\par}
 }]]></description>
         <link rel="website">https://github.com/Geeksound/Reaper_Scripts-Mariow</link>
       </metadata>
@@ -1458,7 +1458,7 @@ v1.0 (2025-11-12)
 {\pard \ql \f0 \sa0 \li360\fi-360 \bullet \tx360\tab Jumps to Loop Start and starts playback,\par}
 {\pard \ql \f0 \sa0 \li360\fi-360 \bullet \tx360\tab Restores Edit Cursor after playback stops.\par}
 {\pard \ql \f0 \sa180 \li0 \fi0 Requires REAPER v6.80+ and SWS Extension.\par}
-{\pard \ql \f0 \sa180 \li0 \fi0 Developed by Mariow.\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 \b Developed by Mariow. \b0\par}
 }]]></description>
         <link rel="website">https://github.com/Geeksound/Reaper_Scripts-Mariow</link>
       </metadata>
@@ -1487,7 +1487,7 @@ v1.0 (2025-11-12)
 {\pard \ql \f0 \sa0 \li360\fi-360 \bullet \tx360\tab Jumps to Time Selection start if defined, otherwise plays from Edit Cursor,\par}
 {\pard \ql \f0 \sa0 \li360\fi-360 \bullet \tx360\tab Restores Edit Cursor after playback stops.\par}
 {\pard \ql \f0 \sa180 \li0 \fi0 Requires REAPER v6.80+ and SWS Extension.\par}
-{\pard \ql \f0 \sa180 \li0 \fi0 Developed by Mariow.\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 \b Developed by Mariow. \b0\par}
 }]]></description>
         <link rel="website">https://github.com/Geeksound/Reaper_Scripts-Mariow</link>
       </metadata>
@@ -1517,7 +1517,7 @@ v1.0 (2025-11-12)
 {\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab Automatically updates all media paths in the duplicated .RPP,\par}
 {\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab Supports window auto-close and “croix” close handling.\par}
 {\pard \ql \f0 \sa180 \li0 \fi0 Compatible with REAPER 7.0 and later.\par}
-{\pard \ql \f0 \sa180 \li0 \fi0 Developed by Mariow.\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 \b Developed by Mariow. \b0\par}
 }]]></description>
         <link rel="website">https://github.com/Geeksound/Reaper_Scripts-Mariow</link>
       </metadata>
@@ -1553,7 +1553,7 @@ v1.0 (2025-11-21)
 {\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab Handles window close (“croix”) and auto-close on completion.\par}
 
 {\pard \ql \f0 \sa180 \li0 \fi0 Compatible with REAPER 7.0 and later.\par}
-{\pard \ql \f0 \sa180 \li0 \fi0 Developed by Mariow.\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 \b Developed by Mariow. \b0\par}
 }]]></description>
         
         <link rel="website">https://github.com/Geeksound/Reaper_Scripts-Mariow</link>
@@ -1677,7 +1677,7 @@ v1.0 (2025-12-10)
 {\pard\ql\f0\sa180\li0\fi0 Supports ImGui interface, toolbar buttons, and shared ExtState.\par}
 
 {\pard\ql\f0\sa180\li0\fi0 Compatible with REAPER 7.0 and later.\par}
-{\pard\ql\f0\sa180\li0\fi0 Developed by Mariow.\par}
+{\pard\ql\f0\sa180\li0\fi0 \b Developed by Mariow. \b0\par}
 }]]></description>
         <link rel="website">https://github.com/Geeksound/Reaper_Scripts-Mariow</link>
       </metadata>
@@ -1710,7 +1710,7 @@ v1.0 (2025-11-17)
 {\pard\ql\f0\sa180\li0\fi0 Perfect for rapid navigation through consecutive items.\par}
 
 {\pard\ql\f0\sa180\li0\fi0 Compatible with REAPER 7.0 and later.\par}
-{\pard\ql\f0\sa180\li0\fi0 Developed by Mariow.\par}
+{\pard\ql\f0\sa180\li0\fi0 \b Developed by Mariow. \b0\par}
 }]]></description>
         <link rel="website">https://github.com/Geeksound/Reaper_Scripts-Mariow</link>
       </metadata>
@@ -1743,7 +1743,7 @@ v1.0 (2025-11-17)
 {\pard\ql\f0\sa180\li0\fi0 Undo-friendly with clear descriptive Undo block.\par}
 
 {\pard\ql\f0\sa180\li0\fi0 Compatible with REAPER 7.0 and later.\par}
-{\pard\ql\f0\sa180\li0\fi0 Developed by Mariow.\par}
+{\pard\ql\f0\sa180\li0\fi0 \b Developed by Mariow. \b0\par}
 }]]></description>
         <link rel="website">https://github.com/Geeksound/Reaper_Scripts-Mariow</link>
       </metadata>
@@ -1775,7 +1775,7 @@ v1.0 (2025-11-17)
 {\pard\ql\f0\sa180\li0\fi0 Allows a complete keyboard-driven workflow without losing synchronization.\par}
 
 {\pard\ql\f0\sa180\li0\fi0 Compatible with REAPER 7.0 and later.\par}
-{\pard\ql\f0\sa180\li0\fi0 Developed by Mariow.\par}
+{\pard\ql\f0\sa180\li0\fi0 \b Developed by Mariow. \b0\par}
 }]]></description>
         <link rel="website">https://github.com/Geeksound/Reaper_Scripts-Mariow</link>
       </metadata>
@@ -1816,7 +1816,7 @@ v1.0 (2025-06-07)
 {\pard\ql\f0\sa180\li0\fi0 Fully synchronized with the ImGui interface, the Transient button, and related shortcuts.\par}
 
 {\pard\ql\f0\sa180\li0\fi0 Compatible with REAPER 7.0 and later.\par}
-{\pard\ql\f0\sa180\li0\fi0 Developed by Mariow.\par}
+{\pard\ql\f0\sa180\li0\fi0 \b Developed by Mariow. \b0\par}
 }]]></description>
         <link rel="website">https://github.com/Geeksound/Reaper_Scripts-Mariow</link>
       </metadata>
@@ -1852,7 +1852,7 @@ v1.0 (2025-06-07)
 {\pard\ql\f0\sa180\li0\fi0 Ideal for transient-accurate or boundary-accurate extended editing.\par}
 
 {\pard\ql\f0\sa180\li0\fi0 Compatible with REAPER 7.0 and later.\par}
-{\pard\ql\f0\sa180\li0\fi0 Developed by Mariow.\par}
+{\pard\ql\f0\sa180\li0\fi0 \b Developed by Mariow. \b0\par}
 }]]></description>
         <link rel="website">https://github.com/Geeksound/Reaper_Scripts-Mariow</link>
       </metadata>
@@ -1886,7 +1886,7 @@ v1.0 (2025-11-17)
 {\pard\ql\f0\sa180\li0\fi0 Ensures consistent system behavior without mouse interaction.\par}
 
 {\pard\ql\f0\sa180\li0\fi0 Compatible with REAPER 7.0 and later.\par}
-{\pard\ql\f0\sa180\li0\fi0 Developed by Mariow.\par}
+{\pard\ql\f0\sa180\li0\fi0 \b Developed by Mariow. \b0\par}
 }]]></description>
         <link rel="website">https://github.com/Geeksound/Reaper_Scripts-Mariow</link>
       </metadata>
@@ -1929,7 +1929,7 @@ v1.0 (2025-06-07)
 {\pard\ql\f0\sa180\li0\fi0 Fully synchronized with ImGui interface, keyboard shortcuts, and ExtState.\par}
 
 {\pard\ql\f0\sa180\li0\fi0 Compatible with REAPER 7.0 and later.\par}
-{\pard\ql\f0\sa180\li0\fi0 Developed by Mariow.\par}
+{\pard\ql\f0\sa180\li0\fi0 \b Developed by Mariow. \b0\par}
 }]]></description>
         <link rel="website">https://github.com/Geeksound/Reaper_Scripts-Mariow</link>
       </metadata>
@@ -1982,7 +1982,7 @@ v1.0 (2025-06-07)
 {\pard\ql\f0\sa180\li0\fi0 Completes the ProTools-like editing experience.\par}
 
 {\pard\ql\f0\sa180\li0\fi0 Compatible with REAPER 7.0 and later.\par}
-{\pard\ql\f0\sa180\li0\fi0 Developed by Mariow.\par}
+{\pard\ql\f0\sa180\li0\fi0 \b Developed by Mariow. \b0\par}
 
 }]]></description>
         <link rel="website">https://github.com/Geeksound/Reaper_Scripts-Mariow</link>
@@ -2029,7 +2029,7 @@ v1.0 (2025-06-07)
 {\pard\ql\f0\sa180\li0\fi0 Completes ProTools-like backward editing experience.\par}
 
 {\pard\ql\f0\sa180\li0\fi0 Compatible with REAPER 7.0 and later.\par}
-{\pard\ql\f0\sa180\li0\fi0 Developed by Mariow.\par}
+{\pard\ql\f0\sa180\li0\fi0 \b Developed by Mariow. \b0\par}
 
 }]]></description>
         <link rel="website">https://github.com/Geeksound/Reaper_Scripts-Mariow</link>
@@ -2064,7 +2064,7 @@ v1.0 (2025-06-07)
 {\pard\ql\f0\sa0\li360\fi-360 \bullet \tx360\tab Updates toolbar button states and reacts to ALT_CLICK_REQUESTED flag.\par}
 
 {\pard\ql\f0\sa180\li0\fi0 Provides the visual and logical centerpiece of the ProTools TAB workflow inside REAPER.\par}
-{\pard\ql\f0\sa180\li0\fi0 Developed by Mariow.\par}
+{\pard\ql\f0\sa180\li0\fi0 \b Developed by Mariow. \b0\par}
 
 }]]></description>
         <link rel="website">https://github.com/Geeksound/Reaper_Scripts-Mariow</link>
@@ -2105,7 +2105,7 @@ v1.0 (2025-06-07)
 
 {\pard\ql\f0\sa180\li0\fi0 Also includes real-time ImGui UI with multiple tabs (Installation, Usage, Advanced, System Check, About).\par}
 {\pard\ql\f0\sa180\li0\fi0 Designed to accompany the full ProTools TAB Pack.\par}
-{\pard\ql\f0\sa180\li0\fi0 Developed by Mariow.\par}
+{\pard\ql\f0\sa180\li0\fi0 \b Developed by Mariow. \b0\par}
 
 }]]></description>
         <link rel="website">https://github.com/Geeksound/Reaper_Scripts-Mariow</link>
@@ -2260,7 +2260,7 @@ v1.0 (2025-11-26)
 {\pard \ql \f0 \sa180 \li0 \fi0 Doubles the length of the current Time Selection in REAPER.\par}
 {\pard \ql \f0 \sa180 \li0 \fi0 Moves loop points to match the selection, doubles the loop range, and then restores the original time selection.\par}
 
-{\pard\ql\f0\sa180\li0\fi0 Developed by Mariow.\par}
+{\pard\ql\f0\sa180\li0\fi0 \b Developed by Mariow. \b0\par}
 }]]></description>
         <author>Mariow</author>
         <version>1.0</version>
@@ -2288,7 +2288,7 @@ v1.0 (2025-11-26)
 {\pard \ql \f0 \sa180 \li0 \fi0 Trims the end of items to match the end of the current Time Selection on the selected track.\par}
 {\pard \ql \f0 \sa180 \li0 \fi0 Emulates Pro Tools’ "Trim End to Fill Selection" behavior for fast, precise editing.\par}
 
-{\pard\ql\f0\sa180\li0\fi0 Developed by Mariow.\par}
+{\pard\ql\f0\sa180\li0\fi0 \b Developed by Mariow. \b0\par}
 }]]></description>
         <author>Mariow</author>
         <version>1.0</version>
@@ -2316,7 +2316,7 @@ v1.0 (2025-06-07)
 {\pard \ql \f0 \sa180 \li0 \fi0 Extends the current Razor Edit from the source track to the track below, following Pro Tools' Shift+M shortcut behavior.\par}
 {\pard \ql \f0 \sa180 \li0 \fi0 The script supports repeated execution: each subsequent run adds the Razor Edit to the next track further down, enabling rapid vertical multi-track edit extension.\par}
 
-{\pard\ql\f0\sa180\li0\fi0 Developed by Mariow.\par}
+{\pard\ql\f0\sa180\li0\fi0 \b Developed by Mariow. \b0\par}
 }]]></description>
         <author>Mariow</author>
         <version>1.0</version>
@@ -2345,7 +2345,7 @@ v1.0 (2025-11-30)
 {\pard \ql \f0 \sa180 \li0 \fi0 Extends the current Razor Edit area from its existing end point all the way to the end of the project, matching Pro Tools' Alt+Shift+Return behavior for extending an edit selection to the end of the session.\par}
 {\pard \ql \f0 \sa180 \li0 \fi0 If no Razor Edit exists on the selected track, the script automatically creates a new Razor Edit from the edit cursor to the project end, enabling seamless ProTools-style workflow even without a prior selection.\par}
 
-{\pard\ql\f0\sa180\li0\fi0 Developed by Mariow.\par}
+{\pard\ql\f0\sa180\li0\fi0 \b Developed by Mariow. \b0\par}
 }]]></description>
         <author>Mariow</author>
         <version>1.0</version>
@@ -2374,7 +2374,7 @@ v1.0 (2025-12-01)
 {\pard \ql \f0 \sa180 \li0 \fi0 Extends the active Razor Edit area from its current start point all the way to the beginning of the project, mimicking Pro Tools' Shift+A behavior, which extends the current edit selection to the start of the session.\par}
 {\pard \ql \f0 \sa180 \li0 \fi0 If no Razor Edit is present on the selected track, the script creates a new Razor Edit from the project start to the current edit cursor, ensuring a consistent ProTools-style editing workflow.\par}
 
-{\pard\ql\f0\sa180\li0\fi0 Developed by Mariow.\par}
+{\pard\ql\f0\sa180\li0\fi0 \b Developed by Mariow. \b0\par}
 }]]></description>
         <author>Mariow</author>
         <version>1.0</version>
@@ -2403,7 +2403,7 @@ v1.0 (2025-12-01)
 {\pard \ql \f0 \sa180 \li0 \fi0 Extends the current Razor Edit area from the selected track to the track above, mimicking Pro Tools' Shift+P behavior for extending an edit selection upward.\par}
 {\pard \ql \f0 \sa180 \li0 \fi0 Useful for multi-track editing, grouping-like workflows, and fast vertical edit extension.\par}
 
-{\pard\ql\f0\sa180\li0\fi0 Developed by Mariow.\par}
+{\pard\ql\f0\sa180\li0\fi0 \b Developed by Mariow. \b0\par}
 }]]></description>
         <author>Mariow</author>
         <version>1.0</version>
@@ -2431,7 +2431,7 @@ v1.0 (2025-11-30)
 {\pard \ql \f0 \sa180 \li0 \fi0 Halves the length of Razor Edits on all selected tracks in REAPER.\par}
 {\pard \ql \f0 \sa180 \li0 \fi0 Maintains fade lengths and supports multiple Razor Edit areas per track.\par}
 
-{\pard\ql\f0\sa180\li0\fi0 Developed by Mariow.\par}
+{\pard\ql\f0\sa180\li0\fi0 \b Developed by Mariow. \b0\par}
 }]]></description>
         <author>Mariow</author>
         <version>1.0</version>
@@ -2459,7 +2459,7 @@ v1.0 (2025-11-26)
 {\pard \ql \f0 \sa180 \li0 \fi0 Halves the length of the current Time Selection in REAPER.\par}
 {\pard \ql \f0 \sa180 \li0 \fi0 Works by moving the loop points, halving the loop length, and restoring the time selection.\par}
 
-{\pard\ql\f0\sa180\li0\fi0 Developed by Mariow.\par}
+{\pard\ql\f0\sa180\li0\fi0 \b Developed by Mariow. \b0\par}
 }]]></description>
         <author>Mariow</author>
         <version>1.0</version>
@@ -2486,7 +2486,7 @@ v1.0 (2025-11-26)
 {\pard \ql \f0 \sa180 \li0 \fi0 \outlinelevel0 \b \fs36 Description\par}
 {\pard \ql \f0 \sa180 \li0 \fi0 Executes a series of REAPER commands to perform the "Heal" operation within the current Time Selection, emulating Pro Tools' Cmd+H behavior.\par}
 
-{\pard\ql\f0\sa180\li0\fi0 Developed by Mariow.\par}
+{\pard\ql\f0\sa180\li0\fi0 \b Developed by Mariow. \b0\par}
 }]]></description>
         <author>Mariow</author>
         <version>1.0</version>
@@ -2513,7 +2513,7 @@ v1.0 (2025-11-25)
 {\pard \ql \f0 \sa180 \li0 \fi0 \outlinelevel0 \b \fs36 Description\par}
 {\pard \ql \f0 \sa180 \li0 \fi0 Moves the selected item so that its right edge snaps exactly to the left edge of the next item on the same track, emulating Pro Tools' edge-alignment workflow.\par}
 
-{\pard\ql\f0\sa180\li0\fi0 Developed by Mariow.\par}
+{\pard\ql\f0\sa180\li0\fi0 \b Developed by Mariow. \b0\par}
 }]]></description>
         <author>Mariow</author>
         <version>1.0</version>
@@ -2540,7 +2540,7 @@ v1.0 (2025-11-26)
 {\pard \ql \f0 \sa180 \li0 \fi0 \outlinelevel0 \b \fs36 Description\par}
 {\pard \ql \f0 \sa180 \li0 \fi0 Moves the selected item so that its left edge snaps exactly to the right edge of the previous item on the same track, emulating Pro Tools' reverse edge-alignment workflow.\par}
 
-{\pard\ql\f0\sa180\li0\fi0 Developed by Mariow.\par}
+{\pard\ql\f0\sa180\li0\fi0 \b Developed by Mariow. \b0\par}
 }]]></description>
         <author>Mariow</author>
         <version>1.0</version>
@@ -2568,7 +2568,7 @@ v1.0 (2025-11-26)
 {\pard \ql \f0 \sa180 \li0 \fi0 Creates or removes uniform gaps between selected items, mimicking Pro Tools' "Space Clips" feature.\par}
 {\pard \ql \f0 \sa180 \li0 \fi0 Gaps can be entered as timecode, milliseconds, or samples.\par}
 
-{\pard\ql\f0\sa180\li0\fi0 Developed by Mariow.\par}
+{\pard\ql\f0\sa180\li0\fi0 \b Developed by Mariow. \b0\par}
 }]]></description>
         <author>Mariow</author>
         <version>1.0</version>
@@ -2598,7 +2598,7 @@ v1.0 (2025-06-07)
 {\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab Otherwise, the script splits at the edit cursor, using zero-crossing when possible,\par}
 {\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab Automatically selects items under the edit cursor before splitting.\par}
 
-{\pard\ql\f0\sa180\li0\fi0 Developed by Mariow.\par}
+{\pard\ql\f0\sa180\li0\fi0 \b Developed by Mariow. \b0\par}
 }]]></description>
         <author>Mariow</author>
         <version>1.0</version>
@@ -2625,7 +2625,7 @@ v1.0 (2025-06-07)
 {\pard \ql \f0 \sa180 \li0 \fi0 \outlinelevel0 \b \fs36 Description\par}
 {\pard \ql \f0 \sa180 \li0 \fi0 Trims the start of items to the beginning of the current Time Selection on the selected track, emulating Pro Tools’ "Trim Start to Fill Selection".\par}
 
-{\pard\ql\f0\sa180\li0\fi0 Developed by Mariow.\par}
+{\pard\ql\f0\sa180\li0\fi0 \b Developed by Mariow. \b0\par}
 }]]></description>
         <author>Mariow</author>
         <version>1.0</version>
@@ -2652,7 +2652,7 @@ v1.0 (2025-06-07)
 {\pard \ql \f0 \sa180 \li0 \fi0 \outlinelevel0 \b \fs36 Description\par}
 {\pard \ql \f0 \sa180 \li0 \fi0 Selects the media item under the edit cursor and trims its left edge up to the cursor position, mimicking Pro Tools' Q shortcut behavior.\par}
 
-{\pard\ql\f0\sa180\li0\fi0 Developed by Mariow.\par}
+{\pard\ql\f0\sa180\li0\fi0 \b Developed by Mariow. \b0\par}
 }]]></description>
         <author>Mariow</author>
         <version>1.0</version>
@@ -2679,7 +2679,7 @@ v1.0 (2025-11-26)
 {\pard \ql \f0 \sa180 \li0 \fi0 \outlinelevel0 \b \fs36 Description\par}
 {\pard \ql \f0 \sa180 \li0 \fi0 Selects the media item under the edit cursor and trims its right edge up to the cursor position, mimicking Pro Tools' S shortcut behavior.\par}
 
-{\pard\ql\f0\sa180\li0\fi0 Developed by Mariow.\par}
+{\pard\ql\f0\sa180\li0\fi0 \b Developed by Mariow. \b0\par}
 }]]></description>
         <author>Mariow</author>
         <version>1.0</version>
@@ -2706,7 +2706,7 @@ v1.0 (2025-11-26)
 {\pard \ql \f0 \sa180 \li0 \fi0 \outlinelevel0 \b \fs36 Description\par}
 {\pard \ql \f0 \sa180 \li0 \fi0 Trims items to the current Time Selection on the selected track, emulating the behavior of Pro Tools' "Trim to Selection" edit function.\par}
 
-{\pard\ql\f0\sa180\li0\fi0 Developed by Mariow.\par}
+{\pard\ql\f0\sa180\li0\fi0 \b Developed by Mariow. \b0\par}
 }]]></description>
         <author>Mariow</author>
         <version>1.0</version>
@@ -2740,7 +2740,7 @@ v1.0 (2025-06-07)
 {\pard\ql\f0\sa0\li360\fi-360 \bullet \tx360\tab Razor areas automatically cleared for safety.\par}
 
 {\pard\ql\f0\sa180\li0\fi0 Ideal for fast, precise, Pro Tools-like envelope shaping with the mouse inside REAPER.\par}
-{\pard\ql\f0\sa180\li0\fi0 Developed by Mariow.\par}
+{\pard\ql\f0\sa180\li0\fi0 \b Developed by Mariow. \b0\par}
 }]]></description>
         <author>Mariow</author>
         <version>1.3</version>
@@ -2773,7 +2773,7 @@ v1.3 (2025-12-11)
 {\pard \ql \f0 \sa180 \li0 \fi0 \outlinelevel0 \b \fs36 Description\par}
 {\pard \ql \f0 \sa180 \li0 \fi0 Executes the native REAPER Strip Silence command, mimicking Pro Tools' Cmd+U workflow.\par}
 
-{\pard\ql\f0\sa180\li0\fi0 Developed by Mariow.\par}
+{\pard\ql\f0\sa180\li0\fi0 \b Developed by Mariow. \b0\par}
 }]]></description>
         <author>Mariow</author>
         <version>1.0</version>
@@ -2804,7 +2804,7 @@ v1.0 (2025-06-07)
 {\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab Click button to restore the saved zoom,\par}
 {\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab 4 slots available.\par}
 
-{\pard\ql\f0\sa180\li0\fi0 Developed by Mariow.\par}
+{\pard\ql\f0\sa180\li0\fi0 \b Developed by Mariow. \b0\par}
 }]]></description>
         <author>Mariow</author>
         <version>1.0</version>
@@ -2846,7 +2846,7 @@ v1.0 (2025-12-06)
 {\pard\ql\f0\sa180\li0\fi0 Ideal to assign to a PT-like shortcut (Ctrl+Cmd + -> or <-).\par}
 
 {\pard\ql\f0\sa180\li0\fi0 Compatible with REAPER 7.0 and later.\par}
-{\pard\ql\f0\sa180\li0\fi0 Developed by Mariow.\par}
+{\pard\ql\f0\sa180\li0\fi0 \b Developed by Mariow. \b0\par}
 }]]></description>
         <author>Mariow</author>
         <version>1.0</version>
@@ -2887,7 +2887,7 @@ v1.0 (2025-12-08)
 {\pard\ql\f0\sa180\li0\fi0 Ideal to assign to a PT-like shortcut (Ctrl+Cmd + -> or <-).\par}
 
 {\pard\ql\f0\sa180\li0\fi0 Compatible with REAPER 7.0 and later.\par}
-{\pard\ql\f0\sa180\li0\fi0 Developed by Mariow.\par}
+{\pard\ql\f0\sa180\li0\fi0 \b Developed by Mariow. \b0\par}
 }]]></description>
         <author>Mariow</author>
         <version>1.0</version>
@@ -2922,7 +2922,7 @@ v1.0 (2025-12-08)
 {\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab Otherwise the selected track name.\par}
 
 {\pard \ql \f0 \sa180 \li0 \fi0 Useful when working with ProTools-like envelope cycling scripts, providing instant visual feedback without cluttering the arrange view.\par}
-{\pard\ql\f0\sa180\li0\fi0 Developed by Mariow.\par}
+{\pard\ql\f0\sa180\li0\fi0 \b Developed by Mariow. \b0\par}
 }]]></description>
         <author>Mariow</author>
         <version>1.0</version>
@@ -2951,7 +2951,7 @@ v1.0 (2025-12-08)
 {\pard \ql \f0 \sa180 \li0 \fi0 \outlinelevel0 \b \fs36 Description\par}
 {\pard \ql \f0 \sa180 \li0 \fi0 Opens a filterable list of tracks and scrolls the arrange view to the selected track, emulating Pro Tools’ Alt+Cmd+F behavior.\par}
 
-{\pard\ql\f0\sa180\li0\fi0 Developed by Mariow.\par}
+{\pard\ql\f0\sa180\li0\fi0 \b Developed by Mariow. \b0\par}
 }]]></description>
         <author>Mariow</author>
         <version>1.0</version>
