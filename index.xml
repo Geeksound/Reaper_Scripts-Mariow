@@ -4449,14 +4449,15 @@ v1.0 (2025-06-07)
     </reapack>
     <reapack name="Split-ST-toMonos.lua" type="script" desc="Split stereo items into mono items (ProTools-like)">
       <metadata>
-        <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
+        <description><![CDATA[
+{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
 {\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
 \widowctrl\hyphauto
 
-{\pard\ql\f0\sa180\li0\fi0\b\fs40\cf1 Split Stereo to Monos (ProTools-style)\par}
+{\pard\ql\f0\sa180\li0\fi0\b\fs40\cf1 Split Stereo to Monos (\b ProTools \b0-style)\par}
 {\pard\ql\f0\sa180\li0\fi0\b\fs36 Split-ST-toMonos\par}
 
-{\pard\ql\f0\sa180\li0\fi0 Emulates Pro Tools’ workflow for splitting a stereo item into two independent mono items.\par}
+{\pard\ql\f0\sa180\li0\fi0 Emulates \b Protools’ \b0 workflow for splitting a stereo item into two independent mono items.\par}
 {\pard\ql\f0\sa180\li0\fi0 Automates the required REAPER and SWS steps, ensuring a clean, structured result that mirrors established post-production workflows.\par}
 
 {\pard\ql\f0\sa180\li0\fi0\bullet\tx360\tab Inserts a temporary track for processing.\par}
@@ -4466,7 +4467,7 @@ v1.0 (2025-06-07)
 {\pard\ql\f0\sa180\li0\fi0\bullet\tx360\tab Deletes temporary tracks, leaving only the final mono items.\par}
 
 {\pard\ql\f0\sa180\li0\fi0 Ideal for dialogue, FX, ambiences, or music workflows requiring precise mono handling.\par}
-}}
+}
 ]]></description>
         <license>MIT</license>
         <link rel="website">https://github.com/Geeksound/Reaper_Scripts-Mariow</link>
