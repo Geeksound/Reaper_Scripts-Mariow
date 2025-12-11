@@ -3,7 +3,7 @@
 @version 1.3
 @author Mariow
 @changelog
-  v1.3 (2025-12-XX)
+  v1.3 (2025-12-11)
   - NEW: If an item is selected, TS follows the item’s start/end (ignores Razor)
   - Respects existing time-selection (never overwrites it)
   - Razor → Time Selection fallback only when no TS and no selected item
