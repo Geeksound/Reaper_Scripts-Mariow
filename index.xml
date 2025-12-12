@@ -3280,27 +3280,33 @@ v1.0 (2025-06-07)
     <reapack name="NudgeForward.lua" type="script">
       <metadata>
         <description><![CDATA[
-Nudge Forward (ProTools-like)
-Move Cursor or Items Forward Based on Shared Timecode
+{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
+{\colortbl;\red0\green150\blue255;\red0\green0\blue0;}
+\widowctrl\hyphauto
 
-This script nudges the edit cursor or selected items forward using the shared timecode entered in the
-Unified PRE-POST-ROLL + Timecode UI (ImGui).
+{\pard\ql\f0\sa180\li0\fi0\b\fs40\cf1 Nudge Forward (ProTools-like)\par}
+{\pard\ql\f0\sa180\li0\fi0\b\fs32 Move Cursor or Items Forward Based on Shared Timecode\par}
 
-Shared Timecode Input
-The nudge amount is read from a global ExtState used across the ProTools_Essentials suite:
-• Namespace: "TimecodeUI"
-• Key: "tc"
-• Format: HH:MM:SS:FF
+{\pard\ql\f0\sa180\li0\fi0 This script nudges the edit cursor or selected items \b forward \b0 
+using the shared timecode entered in the\par}
+{\pard\ql\f0\sa0\li0\fi0\b Unified PRE-POST-ROLL + Timecode UI (ImGui)\b0 .\par}
 
-This ensures complete synchronization across all navigation tools.
+{\pard\ql\f0\sa180\li0\fi0\b\fs32 Shared Timecode Input\par}
+{\pard\ql\f0\sa0\li0\fi0 The nudge amount is read from a global ExtState used across the ProTools_Essentials suite:\par}
+{\pard\ql\f0\sa0\li360\fi-360\bullet\tx360\tab Namespace: "TimecodeUI"\par}
+{\pard\ql\f0\sa0\li360\fi-360\bullet\tx360\tab Key: "tc"\par}
+{\pard\ql\f0\sa0\li360\fi-360\bullet\tx360\tab Format: HH:MM:SS:FF\par}
 
-Works With:
-• Nudge Backward
-• Nudge Forward x10
-• PRE-POST-ROLL + Timecode UI (ImGui)
-• Set_Rolls_And_Nudge_Settings
+{\pard\ql\f0\sa180\li0\fi0 This ensures complete synchronization across all navigation tools.\par}
 
-This script is part of the ProTools_Essentials suite, providing unified, Pro Tools–style navigation inside REAPER.
+{\pard\ql\f0\sa180\li0\fi0\b\fs32 Works With:\par}
+{\pard\ql\f0\sa0\li360\fi-360\bullet\tx360\tab Nudge Backward\par}
+{\pard\ql\f0\sa0\li360\fi-360\bullet\tx360\tab Nudge Forward x10\par}
+{\pard\ql\f0\sa0\li360\fi-360\bullet\tx360\tab PRE-POST-ROLL + Timecode UI (ImGui)\par}
+{\pard\ql\f0\sa0\li360\fi-360\bullet\tx360\tab Set_Rolls_And_Nudge_Settings\par}
+
+{\pard\ql\f0\sa180\li0\fi0 This script is part of the ProTools_Essentials suite, providing unified, Pro Tools-style navigation inside REAPER.\par}
+}
 ]]></description>
         <author>Mariow</author>
         <version>1.0</version>
@@ -3318,27 +3324,31 @@ v1.0 (2025-06-07)
     <reapack name="NudgeBackward.lua" type="script">
       <metadata>
         <description><![CDATA[
-Nudge Backward (ProTools-like)
-Move Cursor or Items Backward Based on Shared Timecode
+{\rtf1\ansi\deff0{\fonttbl{\f0 Arial;}}
+\widowctrl\hyphauto
 
-This script nudges the edit cursor or selected items backward using the shared timecode entered in the
-Unified PRE-POST-ROLL + Timecode UI (ImGui).
+{\pard\ql\f0\fs40\b Nudge Backward (ProTools-like)\par}
+{\pard\ql\f0\fs32\b Move Cursor or Items Backward Based on Shared Timecode\par}
 
-Shared Timecode Input
-The nudge amount is read from a global ExtState used across the ProTools_Essentials suite:
-• Namespace: "TimecodeUI"
-• Key: "tc"
-• Format: HH:MM:SS:FF
+{\pard\ql\f0\sa180 This script nudges the edit cursor or selected items backward using the shared timecode entered in the Unified PRE-POST-ROLL + Timecode UI (ImGui).\par}
 
-This ensures complete synchronization across all navigation tools.
+{\pard\ql\f0\fs32\b Shared Timecode Input\par}
+{\pard\ql\f0 The nudge amount is read from a global ExtState used across the ProTools_Essentials suite:\par}
+{\pard\ql\f0\li360\fi-360\bullet\tx360\tab Namespace: "TimecodeUI"\par}
+{\pard\ql\f0\li360\fi-360\bullet\tx360\tab Key: "tc"\par}
+{\pard\ql\f0\li360\fi-360\bullet\tx360\tab Format: HH:MM:SS:FF\par}
 
-Works With:
-• Nudge Forward
-• Nudge Backward x10
-• PRE-POST-ROLL + Timecode UI (ImGui)
-• Set_Rolls_And_Nudge_Settings
+{\pard\ql\f0 This ensures complete synchronization across all navigation tools.\par}
 
-This script is part of the ProTools_Essentials suite, providing unified, Pro Tools-style navigation inside REAPER.
+{\pard\ql\f0\fs32\b Works With:\par}
+{\pard\ql\f0\li360\fi-360\bullet\tx360\tab Nudge Forward\par}
+{\pard\ql\f0\li360\fi-360\bullet\tx360\tab Nudge Backward x10\par}
+{\pard\ql\f0\li360\fi-360\bullet\tx360\tab PRE-POST-ROLL + Timecode UI (ImGui)\par}
+{\pard\ql\f0\li360\fi-360\bullet\tx360\tab Set_Rolls_And_Nudge_Settings\par}
+
+{\pard\ql\f0 This script is part of the ProTools_Essentials suite, providing unified, Pro Tools-style navigation inside REAPER.\par}
+
+}
 ]]></description>
         <author>Mariow</author>
         <version>1.0</version>
@@ -3357,25 +3367,29 @@ v1.0 (2025-06-07)
     <reapack name="NudgeBackwardx10.lua" type="script">
       <metadata>
         <description><![CDATA[
-Nudge Backward x10 (ProTools-like)
+{\rtf1\ansi\deff0{\fonttbl{\f0 Arial;}}
+\widowctrl\hyphauto
 
-Description
-Move the edit cursor or selected items backward x10 using the shared timecode entered in the
-Unified PRE-POST-ROLL + Timecode UI (ImGui).
+{\pard\ql\f0\fs40\b Nudge Backward x10 (ProTools-like)\par}
 
-Shared Timecode Input:
-• Base nudge amount read from global ExtState shared across the ProTools_Essentials suite
-• Namespace: "TimecodeUI", Key: "tc", Format: HH:MM:SS:FF
-• Resulting duration multiplied by 10 for coarse backward navigation aligned with ProTools-like timing workflow
+{\pard\ql\f0\fs32\b Description\par}
+{\pard\ql\f0 Move the edit cursor or selected items backward x10 using the shared timecode entered in the Unified PRE-POST-ROLL + Timecode UI (ImGui).\par}
 
-Works With:
-• Nudge Forward
-• Nudge Backward
-• Nudge Forward x10
-• PRE-POST-ROLL + Timecode UI (ImGui)
-• Set_Rolls_And_Nudge_Settings
+{\pard\ql\f0\fs32\b Shared Timecode Input:\par}
+{\pard\ql\f0\li360\fi-360\bullet\tx360\tab Base nudge amount read from global ExtState shared across the ProTools_Essentials suite\par}
+{\pard\ql\f0\li360\fi-360\bullet\tx360\tab Namespace: "TimecodeUI", Key: "tc", Format: HH:MM:SS:FF\par}
+{\pard\ql\f0\li360\fi-360\bullet\tx360\tab Resulting duration multiplied by 10 for coarse backward navigation aligned with ProTools-like timing workflow\par}
 
-Part of the ProTools_Essentials suite, providing Pro Tools-inspired transport and navigation inside REAPER.
+{\pard\ql\f0\fs32\b Works With:\par}
+{\pard\ql\f0\li360\fi-360\bullet\tx360\tab Nudge Forward\par}
+{\pard\ql\f0\li360\fi-360\bullet\tx360\tab Nudge Backward\par}
+{\pard\ql\f0\li360\fi-360\bullet\tx360\tab Nudge Forward x10\par}
+{\pard\ql\f0\li360\fi-360\bullet\tx360\tab PRE-POST-ROLL + Timecode UI (ImGui)\par}
+{\pard\ql\f0\li360\fi-360\bullet\tx360\tab Set_Rolls_And_Nudge_Settings\par}
+
+{\pard\ql\f0 Part of the ProTools_Essentials suite, providing Pro Tools-inspired transport and navigation inside REAPER.\par}
+
+}
 ]]></description>
         <author>Mariow</author>
         <version>1.1</version>
@@ -3395,29 +3409,32 @@ v1.0 (2025-06-07)
     <reapack name="NudgeForwardx10.lua" type="script">
       <metadata>
         <description><![CDATA[
-Nudge Forward x10 (ProTools-like)
-Move Cursor or Items Forward x10 Based on Shared Timecode.
+{\rtf1\ansi\deff0{\fonttbl{\f0 Arial;}}
+\widowctrl\hyphauto
 
-This script nudges the edit cursor or selected items forward x10 using the shared timecode entered in the
-Unified PRE-POST-ROLL + Timecode UI (ImGui).
+{\pard\ql\f0\fs40\b Nudge Forward x10 (ProTools-like)\par}
+{\pard\ql\f0\fs32\b Move Cursor or Items Forward x10 Based on Shared Timecode\par}
 
-Shared Timecode Input
-The base nudge duration is read from the global ExtState shared across the entire ProTools_Essentials suite:
-• Namespace: "TimecodeUI"
-• Key: "tc"
-• Format: HH:MM:SS:FF
+{\pard\ql\f0 This script nudges the edit cursor or selected items forward x10 using the shared timecode entered in the Unified PRE-POST-ROLL + Timecode UI (ImGui).\par}
 
-The value is then multiplied by 10 to enable rapid forward navigation while maintaining consistency with
-ProTools-like timing logic.
+{\pard\ql\f0\fs32\b Shared Timecode Input\par}
+{\pard\ql\f0 The base nudge duration is read from the global ExtState shared across the entire ProTools_Essentials suite:\par}
+{\pard\ql\f0\li360\fi-360\bullet\tx360\tab Namespace: "TimecodeUI"\par}
+{\pard\ql\f0\li360\fi-360\bullet\tx360\tab Key: "tc"\par}
+{\pard\ql\f0\li360\fi-360\bullet\tx360\tab Format: HH:MM:SS:FF\par}
 
-Works With:
-• Nudge Backward
-• Nudge Forward
-• Nudge Backward x10
-• PRE-POST-ROLL + Timecode UI (ImGui)
-• Set_Rolls_And_Nudge_Settings
+{\pard\ql\f0 The value is then multiplied by 10 to enable rapid forward navigation while maintaining consistency with ProTools-like timing logic.\par}
 
-This script is part of the ProTools_Essentials suite, providing Pro Tools-inspired editing and navigation inside REAPER.
+{\pard\ql\f0\fs32\b Works With:\par}
+{\pard\ql\f0\li360\fi-360\bullet\tx360\tab Nudge Backward\par}
+{\pard\ql\f0\li360\fi-360\bullet\tx360\tab Nudge Forward\par}
+{\pard\ql\f0\li360\fi-360\bullet\tx360\tab Nudge Backward x10\par}
+{\pard\ql\f0\li360\fi-360\bullet\tx360\tab PRE-POST-ROLL + Timecode UI (ImGui)\par}
+{\pard\ql\f0\li360\fi-360\bullet\tx360\tab Set_Rolls_And_Nudge_Settings\par}
+
+{\pard\ql\f0 This script is part of the ProTools_Essentials suite, providing Pro Tools-inspired editing and navigation inside REAPER.\par}
+
+}
 ]]></description>
         <author>Mariow</author>
         <version>1.0</version>
