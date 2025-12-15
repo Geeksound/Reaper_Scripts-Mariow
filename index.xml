@@ -4308,6 +4308,74 @@ v1.0 (2025-12-09)
         <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/ProTools_Essentials/ShrinkTimeSelection-TCui.lua</source>
       </version>
     </reapack>
+    <reapack name="ZoomOutHorizontal(PT-R).lua" type="script">
+      <metadata>
+        <description><![CDATA[
+{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
+{\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
+\widowctrl\hyphauto
+
+{\pard\ql\f0\sa180\li0\fi0\b\fs40\cf1 ZoomOutHorizontal (ProTools-like)\par}
+{\pard\ql\f0\sa180\li0\fi0\b\fs36 Horizontal Zoom Out – Pro Tools R Behavior\par}
+{\pard\ql\f0\sa180\li0\fi0 Zooms out horizontally in the arrange view,\par}
+{\pard\ql\f0\sa0\li0\fi0 emulating Pro Tools’ \b R\b0 shortcut.\par}
+
+{\pard\ql\f0\sa180\li0\fi0\bullet\tx360\tab Smooth horizontal zoom out in the arrange view.\par}
+{\pard\ql\f0\sa180\li0\fi0\bullet\tx360\tab Matches Pro Tools muscle memory (R key).\par}
+{\pard\ql\f0\sa180\li0\fi0\bullet\tx360\tab Ideal for fast navigation and overview.\par}
+
+{\pard\ql\f0\sa180\li0\fi0 Ideal for:\par}
+{\pard\ql\f0\sa0\li360\fi-360\bullet\tx360\tab Editors transitioning from Pro Tools to REAPER.\par}
+{\pard\ql\f0\sa0\li360\fi-360\bullet\tx360\tab Quickly zooming out to regain context.\par}
+}
+]]></description>
+        <author>Mariow</author>
+        <version>1.0</version>
+        <link>https://github.com/Geeksound/Reaper_Scripts-Mariow</link>
+        <tags>navigation, zoom, arrange, (protools-like)</tags>
+      </metadata>
+      <version name="1.0" author="Mariow" time="2025-11-26T00:00:00Z">
+        <changelog><![CDATA[
+v1.0 (2025-11-26)
+- Initial release: zooms out horizontally (Pro Tools R behavior)
+]]></changelog>
+        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/ProTools_Essentials/ZoomOutHorizontal(PT-R).lua</source>
+      </version>
+    </reapack>
+    <reapack name="ZoomInHorizontal(PT-T).lua" type="script">
+      <metadata>
+        <description><![CDATA[
+{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
+{\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
+\widowctrl\hyphauto
+
+{\pard\ql\f0\sa180\li0\fi0\b\fs40\cf1 ZoomInHorizontal (ProTools-like)\par}
+{\pard\ql\f0\sa180\li0\fi0\b\fs36 Horizontal Zoom In & Cursor Centering\par}
+{\pard\ql\f0\sa180\li0\fi0 Zooms in horizontally and scrolls the arrange view to the cursor,\par}
+{\pard\ql\f0\sa0\li0\fi0 emulating Pro Tools’ \b T\b0 shortcut.\par}
+
+{\pard\ql\f0\sa180\li0\fi0\bullet\tx360\tab Horizontal zoom in focused on the edit cursor.\par}
+{\pard\ql\f0\sa180\li0\fi0\bullet\tx360\tab Automatically centers the cursor in the arrange view.\par}
+{\pard\ql\f0\sa180\li0\fi0\bullet\tx360\tab Faithful Pro Tools T key behavior.\par}
+
+{\pard\ql\f0\sa180\li0\fi0 Ideal for:\par}
+{\pard\ql\f0\sa0\li360\fi-360\bullet\tx360\tab Precision editing and tight navigation.\par}
+{\pard\ql\f0\sa0\li360\fi-360\bullet\tx360\tab Editors using Pro Tools–style zoom workflows.\par}
+}
+]]></description>
+        <author>Mariow</author>
+        <version>1.0</version>
+        <link>https://github.com/Geeksound/Reaper_Scripts-Mariow</link>
+        <tags>navigation, zoom, arrange, (protools-like)</tags>
+      </metadata>
+      <version name="1.0" author="Mariow" time="2025-11-26T00:00:00Z">
+        <changelog><![CDATA[
+v1.0 (2025-11-26)
+- Initial release: zooms horizontally and scrolls arrange view to cursor (Pro Tools T behavior)
+]]></changelog>
+        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/ProTools_Essentials/ZoomInHorizontal(PT-T).lua</source>
+      </version>
+    </reapack>
   </category>
   <category name="Protools_Track">
     <reapack name="DelTrack(AsPT).lua" type="script" desc="Safe Delete Selected Tracks (ProTools-style)">
@@ -4364,7 +4432,6 @@ v1.0 (2025-11-26)
         <link rel="website">https://github.com/Geeksound/Reaper_Scripts-Mariow</link>
         <tags>editing, tracks, grouping, (protools-like)</tags>
       </metadata>
-      
       <version name="1.0" author="Mariow" time="2025-11-25T00:00:00Z">
         <changelog><![CDATA[
 v1.0 (2025-11-25)
@@ -4392,7 +4459,6 @@ v1.0 (2025-11-25)
 {\pard\ql\f0\sa180\li0\fi0 Ideal for users wanting a smooth, Pro Tools–inspired track creation workflow.\par}
 }}
 ]]></description>
-        
         <license>MIT</license>
         <link rel="website">https://github.com/Geeksound/Reaper_Scripts-Mariow</link>
         <tags>track, insert, rename, height, editing</tags>
