@@ -67,10 +67,8 @@ from a single interface inside REAPER 7+.\par}
 Built with \b ReaImGui\b0 , it serves as the main entry point to the
 Mariow Scripts ecosystem.\par}
 }]]></description>
-        
         <link rel="website">https://github.com/Geeksound/Reaper_Scripts-Mariow</link>
       </metadata>
-      
       <version name="1.0" author="Mariow" time="2025-12-15T00:00:00Z">
         <changelog><![CDATA[Initial release]]></changelog>
         <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/Documentations/Mariow-ScriptsInteractiveRepository.lua</source>
