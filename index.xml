@@ -33,6 +33,51 @@
         <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/Documentations/Repository-Guide.lua</source>
       </version>
     </reapack>
+    <reapack name="Mariow-ScriptsInteractiveRepository.lua" type="script" desc="Interactive ImGui launcher and visual repository for Mariow Scripts">
+      <metadata>
+        <description><![CDATA[{\rtf1\ansi\deff0
+{\fonttbl{\f0\fswiss Helvetica;}{\f1\fmodern Courier;}}
+{\colortbl;\red180\green0\blue200;\red0\green0\blue0;\red40\green120\blue200;}
+\widowctrl\hyphauto
+
+{\pard\ql\f0\sa200\b\fs40\cf1   -- M A R I O W   S C R I P T S  //  I N T E R A C T I V E  R E P O S I T O R Y --\par}
+{\pard\ql\f0\sa200\par}
+
+{\pard\ql\f0\sa180\b\fs36 Mariow Scripts – Interactive Repository\par}
+
+{\pard\ql\f0\sa180\fs24
+This script provides a centralized \b ImGui-based visual launcher \b0
+to explore and run the full collection of Mariow’s REAPER scripts.\par}
+
+{\pard\ql\f0\sa120\par}
+
+{\pard\ql\f0\sa0\li360\fi-360\bullet\tx360\tab Categorized tabs with automatic color assignment\par}
+{\pard\ql\f0\sa0\li360\fi-360\bullet\tx360\tab Colored buttons for instant script execution\par}
+{\pard\ql\f0\sa0\li360\fi-360\bullet\tx360\tab Contextual help tooltips describing each script\par}
+{\pard\ql\f0\sa0\li360\fi-360\bullet\tx360\tab Pro Tools–inspired workflow organization\par}
+
+{\pard\ql\f0\sa180\par}
+
+{\pard\ql\f0\sa180\fs24
+Designed as a \b navigation and discovery hub\b0 , this launcher allows users
+to visually browse, understand, and execute scripts efficiently
+from a single interface inside REAPER 7+.\par}
+
+{\pard\ql\f0\sa180\fs24
+Built with \b ReaImGui\b0 , it serves as the main entry point to the
+Mariow Scripts ecosystem.\par}
+}]]></description>
+        
+        <link rel="website">https://github.com/Geeksound/Reaper_Scripts-Mariow</link>
+      </metadata>
+      
+      <version name="1.0" author="Mariow" time="2025-12-15T00:00:00Z">
+        <changelog><![CDATA[Initial release]]></changelog>
+        <source main="main">
+          https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/Documentations/Mariow-ScriptsInteractiveRepository.lua
+        </source>
+      </version>
+    </reapack>
   </category>
   <category name="Editing">
     <reapack name="Swap-ItemsPositionsOnSameTracks.lua" type="script" desc="Swap the position of 2 selected items">
