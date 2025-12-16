@@ -4376,6 +4376,44 @@ v1.0 (2025-11-26)
         <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/ProTools_Essentials/ZoomInHorizontal(PT-T).lua</source>
       </version>
     </reapack>
+    <reapack name="ExtendTimeSelection-TCui.lua" type="script">
+      <metadata>
+        <description><![CDATA[
+{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
+{\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
+\widowctrl\hyphauto
+
+{\pard\ql\f0\sa180\li0\fi0\b\fs40\cf1 Extend Time Selection (ProTools-like)\par}
+{\pard\ql\f0\sa180\li0\fi0\b\fs36 Timecode-Based Time Selection Extension\par}
+{\pard\ql\f0\sa180\li0\fi0 Extends the current Time Selection in REAPER using a duration\par}
+{\pard\ql\f0\sa0\li0\fi0 read from the Unified PRE-POST-ROLL + Timecode UI (ImGui).\par}
+
+{\pard\ql\f0\sa180\li0\fi0\bullet\tx360\tab Left edge moves backward by the timecode duration.\par}
+{\pard\ql\f0\sa180\li0\fi0\bullet\tx360\tab Right edge moves forward by the timecode duration.\par}
+{\pard\ql\f0\sa180\li0\fi0\bullet\tx360\tab Uses shared TimecodeUI ExtState for consistency.\par}
+
+{\pard\ql\f0\sa180\li0\fi0 Ideal for:\par}
+{\pard\ql\f0\sa0\li360\fi-360\bullet\tx360\tab Pro Tools–style timeline editing workflows.\par}
+{\pard\ql\f0\sa0\li360\fi-360\bullet\tx360\tab Fast extension of edit ranges using timecode values.\par}
+{\pard\ql\f0\sa0\li360\fi-360\bullet\tx360\tab Users working with PRE / POST roll-based navigation.\par}
+}
+]]></description>
+        <author>Mariow</author>
+        <version>1.0</version>
+        <link>https://github.com/Geeksound/Reaper_Scripts-Mariow</link>
+        <tags>editing, time selection, nudge, transport, (protools-like)</tags>
+      </metadata>
+      
+      <version name="1.0" author="Mariow" time="2025-12-09T00:00:00Z">
+        <changelog><![CDATA[
+v1.0 (2025-12-09)
+- Initial release: extends current Time Selection using TimecodeUI value
+]]></changelog>
+        <source main="main">
+          https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/ProTools_Essentials/ExtendTimeSelection-TCui.lua
+        </source>
+      </version>
+    </reapack>
   </category>
   <category name="Protools_Track">
     <reapack name="DelTrack(AsPT).lua" type="script" desc="Safe Delete Selected Tracks (ProTools-style)">
