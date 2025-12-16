@@ -46,8 +46,8 @@
 {\pard\ql\f0\sa180\b\fs36 Mariow Scripts Interactive Repository\par}
 
 {\pard\ql\f0\sa180\fs24
-This script provides a centralized \b ImGui-based visual launcher \b0
-to explore and run the full collection of Mariow’s REAPER scripts.\par}
+This script provides a centralized \b ImGui based visual launcher \b0
+to explore and run the full collection of \b Mariow REAPER scripts.\b0\par}
 
 {\pard\ql\f0\sa120\par}
 
@@ -64,7 +64,7 @@ to visually browse, understand, and execute scripts efficiently
 from a single interface inside REAPER 7+.\par}
 
 {\pard\ql\f0\sa180\fs24
-Built with \b ReaImGui\b0 , it serves as the main entry point to the \bMariow Scripts ecosystem.\par}
+Built with \b ReaImGui\b0 , it serves as the main entry point to the \b Mariow Scripts ecosystem.\b0\par}
 }]]></description>
         <link rel="website">https://github.com/Geeksound/Reaper_Scripts-Mariow</link>
       </metadata>
