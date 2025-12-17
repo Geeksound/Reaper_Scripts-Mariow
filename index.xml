@@ -1803,12 +1803,15 @@ v1.0 (2025-12-17)
 }}
 ]]></description>
         <author>Mariow</author>
-        <version>1.0</version>
+        <version>1.1</version>
         <link>https://github.com/Geeksound/Reaper_Scripts-Mariow</link>
         <tags>video, audio, import, group, workflow, prottools-like, imgui</tags>
       </metadata>
-      <version name="1.0" author="Mariow" time="2025-12-17T00:00:00Z">
+      <version name="1.1" author="Mariow" time="2025-12-17T00:00:00Z">
         <changelog><![CDATA[
+v1.1 (2025-12-17)
+- Fixed: Video item volume is no longer muted
+
 v1.0 (2025-12-17)
 - Initial release
 - Pro Tools–style video import
