@@ -1260,6 +1260,46 @@ v1.5 (2025-11-26)
         <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/Utility/Multiply%3ADivide-TimeAreas.lua</source>
       </version>
     </reapack>
+    <reapack name="ImportVideo.lua" type="script" desc="Import Video like Pro Tools (ImGui) with Audio extraction, mute Video items and group items)">
+      <metadata>
+        <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
+{\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
+\widowctrl\hyphauto
+
+{\pard\ql\f0\sa200\li0\fi0\b\fs40\cf1 Import Video like Pro Tools (ImGui)\par}
+{\pard\ql\f0\sa120\li0\fi0\b\fs36 Utility Tool\par}
+
+{\pard\ql\f0\sa180\li0\fi0 This tool imports video items in a Pro Tools–style workflow:\par}
+{\pard\ql\f0\sa0\li360\fi-360 \bullet\tx360\tab Extracts audio to 'ST-Mov' track (creates if missing)\par}
+{\pard\ql\f0\sa0\li360\fi-360 \bullet\tx360\tab Reuses existing 'VIDEO' and 'ST-Mov' tracks if present\par}
+{\pard\ql\f0\sa0\li360\fi-360 \bullet\tx360\tab Mutes video items automatically\par}
+{\pard\ql\f0\sa0\li360\fi-360 \bullet\tx360\tab Groups video & audio items PT-style\par}
+
+{\pard\ql\f0\sa180\li0\fi0 Behavior:\par}
+{\pard\ql\f0\sa0\li360\fi-360 \bullet\tx360\tab Placement options: Start of project or Edit cursor\par}
+{\pard\ql\f0\sa0\li360\fi-360 \bullet\tx360\tab Opens the video window safely if hidden\par}
+
+{\pard\ql\f0\sa200\li0\fi0 \b Developed by Mariow. \b0\par}
+}]]></description>
+        <license>MIT</license>
+        <link rel="website">https://github.com/Geeksound/Reaper_Scripts-Mariow</link>
+        <tags>video, audio, import, group, workflow, imgui, utility</tags>
+      </metadata>
+      <version name="1.0" author="Mariow" time="2025-12-17T00:00:00Z">
+        <changelog><![CDATA[
+v1.0 (2025-12-17)
+- Initial release
+- Imports video in Pro Tools–style workflow
+- Extracts audio to 'ST-Mov' track (creates if missing)
+- Reuses existing 'VIDEO' and 'ST-Mov' tracks if present
+- Mutes video items automatically
+- Groups video & audio items automatically
+- Placement options: Start of project or Edit cursor
+- Ensures video window is visible (safe, non-toggle)
+]]></changelog>
+        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/Utility/ImportVideo.lua</source>
+      </version>
+    </reapack>
   </category>
   <category name="View">
     <reapack name="Interactive-TC-Display.lua" type="script" desc="Interactive-TC-Display">
