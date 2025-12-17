@@ -1735,6 +1735,53 @@ v1.0 (2025-12-17)
         <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/PROTOOLS/ViewVideo.lua</source>
       </version>
     </reapack>
+    <reapack name="ImportVideo(PT-like).lua" type="script">
+      <metadata>
+        <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0\fmodern Courier;}{\f1\fswiss Helvetica;}}
+{\colortbl;\red255\green0\blue0;}
+\widowctrl\hyphauto
+
+{\pard\ql\f1\sa180\li0\fi0\b\fs40\cf1 Import Video like Pro Tools (ImGui)\par}
+{\pard\ql\f1\sa180\li0\fi0\b\fs36 Pro Tools–style video import utility\par}
+
+{\pard\ql\f1\sa180\li0\fi0 This script imports video items in REAPER following a Pro Tools–like workflow, optionally extracting audio and grouping items automatically.\par}
+
+{\pard\ql\f1\sa180\li0\fi0\b Features:\par}
+{\pard\ql\f1\sa180\li360\fi-360\bullet\tx360\tab Import video with optional audio extraction\par}
+{\pard\ql\f1\sa180\li360\fi-360\bullet\tx360\tab Automatically creates or reuses 'VIDEO' and 'ST-Mov' tracks\par}
+{\pard\ql\f1\sa180\li360\fi-360\bullet\tx360\tab Locks video items if desired\par}
+{\pard\ql\f1\sa180\li360\fi-360\bullet\tx360\tab Groups video & audio items (PT-like)\par}
+{\pard\ql\f1\sa180\li360\fi-360\bullet\tx360\tab Placement options: Start of project or Edit cursor\par}
+{\pard\ql\f1\sa180\li360\fi-360\bullet\tx360\tab Opens Item Properties for the imported video item\par}
+{\pard\ql\f1\sa180\li360\fi-360\bullet\tx360\tab Ensures video window is visible\par}
+
+{\pard\ql\f1\sa180\li0\fi0\b Ideal for:\par}
+{\pard\ql\f1\sa0\li360\fi-360\bullet\tx360\tab Fast video/audio workflows\par}
+{\pard\ql\f1\sa0\li360\fi-360\bullet\tx360\tab Dialogue, SFX, or music sessions\par}
+{\pard\ql\f1\sa0\li360\fi-360\bullet\tx360\tab Users who prefer Pro Tools–like import workflow in REAPER\par}
+
+}}
+]]></description>
+        <author>Mariow</author>
+        <version>1.0</version>
+        <link>https://github.com/Geeksound/Reaper_Scripts-Mariow</link>
+        <tags>video, audio, import, group, workflow, prottools-like, imgui</tags>
+      </metadata>
+      <version name="1.0" author="Mariow" time="2025-12-17T00:00:00Z">
+        <changelog><![CDATA[
+v1.0 (2025-12-17)
+- Initial release
+- Pro Tools–style video import
+- Optional audio extraction
+- Locks video items
+- Groups video & audio items automatically
+- Placement options: Start of project or Edit cursor
+- Opens Item Properties for imported video
+- Ensures video window is visible
+]]></changelog>
+        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/PROTOOLS/ImportVideo(PT-like).lua</source>
+      </version>
+    </reapack>
   </category>
   <category name="ProTools_TAB">
     <reapack name="(ProTools)TAB-AltShift.lua" type="script" desc="ProTools TAB - Alt+Shift+TAB (Extend Selection Left)">
