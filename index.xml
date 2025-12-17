@@ -1695,6 +1695,46 @@ v1.0 (2025-12-10)
         <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/PROTOOLS/MemoryLocation(As%20PT).lua</source>
       </version>
     </reapack>
+    <reapack name="ViewVideo.lua" type="script">
+      <metadata>
+        <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0\fmodern Courier;}{\f1\fswiss Helvetica;}}
+{\colortbl;\red255\green0\blue0;}
+\widowctrl\hyphauto
+
+{\pard\ql\f1\sa180\li0\fi0\b\fs40\cf1 Show Video Window If Hidden\par}
+{\pard\ql\f1\sa180\li0\fi0\b\fs36 Smart Video Window Visibility Utility\par}
+
+{\pard\ql\f1\sa180\li0\fi0 This script provides a simple and safe way to manage the visibility of REAPER's video window.\par}
+{\pard\ql\f1\sa180\li0\fi0 Instead of toggling blindly, it checks the current ON/OFF state of the video window and only shows it when it is hidden, preventing accidental closure during playback or editing.\par}
+
+{\pard\ql\f1\sa180\li0\fi0\b Behavior:\par}
+{\pard\ql\f1\sa180\li360\fi-360\bullet\tx360\tab If the video window is already visible, nothing happens\par}
+{\pard\ql\f1\sa180\li360\fi-360\bullet\tx360\tab If the video window is hidden, it is automatically shown\par}
+{\pard\ql\f1\sa180\li360\fi-360\bullet\tx360\tab Uses REAPER native toggle command safely\par}
+
+{\pard\ql\f1\sa180\li0\fi0\b Ideal for:\par}
+{\pard\ql\f1\sa0\li360\fi-360\bullet\tx360\tab Video post-production workflows\par}
+{\pard\ql\f1\sa0\li360\fi-360\bullet\tx360\tab Pro Tools–like visibility management\par}
+{\pard\ql\f1\sa0\li360\fi-360\bullet\tx360\tab Toolbar buttons and custom actions where safety matters\par}
+
+}}
+]]></description>
+        <author>Mariow</author>
+        <version>1.0</version>
+        <link>https://github.com/Geeksound/Reaper_Scripts-Mariow</link>
+        <tags>video, window, toggle, workflow, utility, prottools-like</tags>
+      </metadata>
+      
+      <version name="1.0" author="Mariow" time="2025-12-17T00:00:00Z">
+        <changelog><![CDATA[
+v1.0 (2025-12-17)
+- Initial release
+- Smart check of video window ON/OFF state
+- Shows video window only if it is hidden
+]]></changelog>
+        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/PROTOOLS/ViewVideo.lua</source>
+      </version>
+    </reapack>
   </category>
   <category name="ProTools_TAB">
     <reapack name="(ProTools)TAB-AltShift.lua" type="script" desc="ProTools TAB - Alt+Shift+TAB (Extend Selection Left)">
