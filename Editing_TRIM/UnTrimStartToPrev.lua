@@ -1,8 +1,10 @@
 --[[
 @description Trim Left Edge of Selected Item to Previous Item on Same Track (with left edge check)
-@version 1.1.1
+@version 1.2
 @author Mariow
 @changelog
+  v1.2
+- Process all selected items one by one safely
   V.1.1.1 (2025-12-02)
   - Bug Fix
   v1.1 (2025-11-07)
@@ -23,44 +25,76 @@
 
 -- @noindex
 
-
 reaper.Undo_BeginBlock()
 reaper.PreventUIRefresh(1)
 
-local item = reaper.GetSelectedMediaItem(0, 0)
-if item then
+-- Compter les items sélectionnés
+local count_sel = reaper.CountSelectedMediaItems(0)
+if count_sel == 0 then
+  reaper.MB("Aucun item sélectionné", "Erreur", 0)
+  return
+end
+
+-- Stocker les items sélectionnés
+local items = {}
+for i = 0, count_sel - 1 do
+  local item = reaper.GetSelectedMediaItem(0, i)
+  if item then
+    items[#items + 1] = item
+  end
+end
+
+-- Désélectionner tout
+reaper.SelectAllMediaItems(0, false)
+
+-- Traiter les items un par un
+for i = 1, #items do
+  local item = items[i]
+  
+  if reaper.ValidatePtr(item, "MediaItem*") then
+    -- Sélectionner uniquement l’item courant
+    reaper.SelectAllMediaItems(0, false)
+    reaper.SetMediaItemSelected(item, true)
+    
     local track = reaper.GetMediaItemTrack(item)
     local item_pos = reaper.GetMediaItemInfo_Value(item, "D_POSITION")
-
-    -- Trouver le précédent item sur la même piste
+    
+    -- Chercher l’item précédent sur la même piste
     local item_count = reaper.CountTrackMediaItems(track)
     local prev_item = nil
     local prev_end = -math.huge
-
-    for i = 0, item_count - 1 do
-        local it = reaper.GetTrackMediaItem(track, i)
+    
+    for j = 0, item_count - 1 do
+      local it = reaper.GetTrackMediaItem(track, j)
+      if it ~= item then
         local it_pos = reaper.GetMediaItemInfo_Value(it, "D_POSITION")
         local it_len = reaper.GetMediaItemInfo_Value(it, "D_LENGTH")
         local it_end = it_pos + it_len
-
+        
         if it_end <= item_pos and it_end > prev_end then
-            prev_item = it
-            prev_end = it_end
+          prev_item = it
+          prev_end = it_end
         end
+      end
     end
-
-    -- Vérifier qu’il y a un item précédent ET pas déjà aligné
+    
+    -- Trim uniquement si nécessaire
     if prev_item and math.abs(item_pos - prev_end) > 0.0001 then
-        
-        -- 1. placer le curseur
-        reaper.SetEditCurPos(prev_end, false, false)
-        
-        -- 2. utiliser la commande native : Trim left edge to edit cursor
-        -- 41305 = "Item: Trim left edge of item to edit cursor"
-        reaper.Main_OnCommand(41305, 0)
+      reaper.SetEditCurPos(prev_end, false, false)
+      -- 41305 = Item: Trim left edge of item to edit cursor
+      reaper.Main_OnCommand(41305, 0)
     end
+  end
+end
+
+-- Restaurer la sélection initiale
+reaper.SelectAllMediaItems(0, false)
+for i = 1, #items do
+  if reaper.ValidatePtr(items[i], "MediaItem*") then
+    reaper.SetMediaItemSelected(items[i], true)
+  end
 end
 
 reaper.UpdateArrange()
 reaper.PreventUIRefresh(-1)
-reaper.Undo_EndBlock("Trim Left Edge to Previous Item (safe)", -1)
+reaper.Undo_EndBlock("Trim Left Edge to Previous Item (sequential)", -1)
