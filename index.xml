@@ -2707,10 +2707,17 @@ v1.0 (2025-11-25)
 {\pard\ql\f0\sa180\li0\fi0 \b Developed by Mariow. \b0\par}
 }]]></description>
         <author>Mariow</author>
-        <version>1.0</version>
+        <version>1.1</version>
         <link>https://github.com/Geeksound/Reaper_Scripts-Mariow</link>
         <tags>editing, items, snapping, alignment, (protools-like)</tags>
       </metadata>
+      <version name="1.1" author="Mariow" time="2026-01-07T00:00:00Z">
+        <changelog><![CDATA[
+v1.1 (2026-01-07)
+- Process all selected items one by one safely
+]]></changelog>
+        <source main="main">https://raw.githubusercontent.com/Geeksound/Reaper_Scripts-Mariow/main/Protools_Edit/Snap-Item-ToNext.lua</source>
+      </version>
       <version name="1.0" author="Mariow" time="2025-11-26T00:00:00Z">
         <changelog><![CDATA[
 v1.0 (2025-11-26)
@@ -2734,10 +2741,17 @@ v1.0 (2025-11-26)
 {\pard\ql\f0\sa180\li0\fi0 \b Developed by Mariow. \b0\par}
 }]]></description>
         <author>Mariow</author>
-        <version>1.0</version>
+        <version>1.1</version>
         <link>https://github.com/Geeksound/Reaper_Scripts-Mariow</link>
         <tags>editing, items, snapping, alignment, (protools-like)</tags>
       </metadata>
+      <version name="1.1" author="Mariow" time="2026-01-07T00:00:00Z">
+        <changelog><![CDATA[
+v1.1 (2026-01-07)
+- Process all selected items one by one safely
+]]></changelog>
+        <source main="main">https://raw.githubusercontent.com/Geeksound/Reaper_Scripts-Mariow/main/Protools_Edit/Snap-Item-ToPrevious.lua</source>
+      </version>
       <version name="1.0" author="Mariow" time="2025-11-26T00:00:00Z">
         <changelog><![CDATA[
 v1.0 (2025-11-26)
