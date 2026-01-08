@@ -597,40 +597,6 @@ v1.0 (2025-11-11)
         <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/Editing_TRIM/TrimAndSplitByItemOnTop.lua</source>
       </version>
     </reapack>
-    <reapack name="Dual Trim Sliders for Even & Odd Items" type="script" desc="DualTrimSlider-EvenOddItems">
-      <metadata>
-        <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
-{\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
-\widowctrl\hyphauto
-
-{\pard\ql\f0\sa180\li0\fi0\b\fs40\cf1 Dual Trim Sliders for Even & Odd Items\par}
-{\pard\ql\f0\sa180\li0\fi0\b\fs36 Editing_TRIM\par}
-{\pard\ql\f0\sa180\li0\fi0 This script provides an ImGui interface with two cumulative sliders to trim the edges of selected items in REAPER according to their selection order.\par}
-{\pard\ql\f0\sa180\li0\fi0 \par}
-{\pard\ql\f0\sa180\li0\fi0 - Slider 1 controls odd items (with complementary effect on even items)\par}
-{\pard\ql\f0\sa180\li0\fi0 - Slider 2 controls even items (with complementary effect on odd items)\par}
-{\pard\ql\f0\sa180\li0\fi0 \par}
-{\pard\ql\f0\sa180\li0\fi0 Features:\par}
-{\pard\ql\f0\sa180\li0\fi0 - Trim left and right edges of selected items via REAPER actions\par}
-{\pard\ql\f0\sa180\li0\fi0 - Pair and odd item logic based on selection order\par}
-{\pard\ql\f0\sa180\li0\fi0 - Undo-friendly, selection preserved\par}
-{\pard\ql\f0\sa180\li0\fi0 - Adjustable sensitivity with dead zone and step divider\par}
-{\pard\ql\f0\sa180\li0\fi0 - Reset sliders button without changing any item\par}
-}
-]]></description>
-        <link rel="website">https://github.com/Geeksound/Reaper_Scripts-Mariow</link>
-      </metadata>
-      <version name="1.0" author="Mariow" time="2026-01-08T00:00:00Z">
-        <changelog><![CDATA[
-v1.0 (2026-01-08)
-- Initial release: dual sliders controlling left/right edges of selected items
-- Slider 1 affects odd items primarily
-- Slider 2 affects even items primarily
-- Actions executed according to REAPER command IDs
-]]></changelog>
-        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/Editing_TRIM/DualTrimSlider-EvenOddItems.lua</source>
-      </version>
-    </reapack>
   </category>
   <category name="Field-Recorder_Workflow">
     <reapack name="Detect-DeleteEmpty-Items.lua" type="script" desc="Detect-DeleteEmpty-Items">
