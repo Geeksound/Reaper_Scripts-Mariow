@@ -1,8 +1,12 @@
 --[[
 @description Mariow Scripts – Interactive Repository Visualizer & Launcher
-@version 1.0
+@version 1.1.1
 @author Mariow
 @changelog
+    v1.1.1 (2026-01-08)
+    -Add DualTrimSlider-EvenOddItems.lua
+    v1.1 (2025-12-XX)
+    - New Scripts
     v1.0 (2025-12-15)
     - Initial Release
 @provides
@@ -130,6 +134,9 @@ local scripts = {
     { category = "Editing TRIM", name = "Trim Left/Right @range", path = "Editing_TRIM/Trim-LeftRight@range.lua" , color={0.6,0.3,0.2,1},
     help="Trims the left and right edges of selected items using adjustable sliders,"..
     "offering precise control over item duration (1s to 10s) with smooth frame-based adjustments"},
+    { category = "Editing TRIM", name = "DualTrimSlider-EvenOddItems", path = "Editing_TRIM/DualTrimSlider-EvenOddItems.lua" , color={0.6,0.3,0.2,1},
+    help="Trims the left and right edges of selected odd&Even items using adjustable sliders,"..
+    "offering precise control over item duration (1s to 10s) with smooth frame-based adjustments"},
     { category = "Editing TRIM", name = "Auto-Split Overlapping Items (Keep Top Item)", path = "Editing_TRIM/Auto-Split Overlapping Items (Keep Top Item)" , color={0.6,0.3,0.2,1},
     help="Automatically splits overlapping items on the same track, keeping the top item intact,"..
     "and removing only the covered portions below for clean, organized edits"},
@@ -162,8 +169,8 @@ local scripts = {
     "renames items by source and metadata, moves items to correct tracks based on take names, and deletes empty or 'DISARMED' tracks.\n\nEnds by deselecting all items and tracks for a clean workflow."},
     
                    -- Dummy buttons / separation
-    { category = "Field Recorder Workflow", name = "  ", path = nil, color={0.0,0.0,0.0,0},
-    help="Texte1 en attente\nPassage  a la ligne"},
+    { category = "Field Recorder Workflow", name = "  ", path = nil, color={0.0,0.0,0.0,0} },
+    
     
     { category = "Field Recorder Workflow", name = "Detect/Delete Empty Items", path = "Field-Recorder_Workflow/Detect-DeleteEmpty-Items.lua" , color={0.2,0.4,0.8,1} , same_line=true,
     help="Texte1 en attente\nPassage  a la ligne"},
@@ -224,6 +231,15 @@ local scripts = {
     { category = "PROTOOLS", name = "Zoom Sel (PT Alt F)", path = "PROTOOLS/ZoomSel-(PT Alt F).lua"  , color={0.6,0.3,0.2,1},
     help="Zooms to selected items or Time Selection (Pro Tools–style).\n\nIf items are selected, the arrange view zooms to them; otherwise, it zooms to the current Time Selection,"..
     "mimicking Pro Tools' clip zoom behavior."},
+    
+    
+                   -- Dummy buttons / separation
+    { category = "PROTOOLS", name = "    ", path = nil, color={0.0,0.0,0.0,0} },
+    { category = "PROTOOLS", name = "ViewVideo", path = "PROTOOLS/ViewVideo.lua"  , color={0.2,0.2,0.2,1},
+    help="Open Window Video "},
+    { category = "PROTOOLS", name = "ImportVideo(PT-like)", path = "PROTOOLS/ImportVideo(PT-like).lua"  , color={0.2,0.2,0.2,1},
+    help="Import Video (PT like) "},
+  
     
     -- ProTools Essentials#1
     { category="ProTools Essentials#1",name= "Restore Last Selection", path = "ProTools_Essentials/RestoreLastSelection.lua" , color={0.3,0.7,0.3,1} , same_line=true,
