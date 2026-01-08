@@ -9,7 +9,7 @@
     - Slider 2 affects even items primarily
     - Actions executed according to REAPER command IDs
 @provides
-  [main]  Editing_TRIM/DualTrimSlider-EvenOddItems.lua
+  [main] Editing_TRIM/DualTrimSlider-EvenOddItems.lua
 @link https://github.com/Geeksound/Reaper_Scripts-Mariow
 @repository https://github.com/Geeksound/Reaper_Scripts-Mariow
 @tags items, editing, trim, slider, utility, even/odd
