@@ -4561,6 +4561,110 @@ v1.0 (2025-12-09)
         <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/ProTools_Essentials/ShrinkTimeSelection-TCui.lua</source>
       </version>
     </reapack>
+    <reapack name="SlipClipContentBackward-TCui.lua" type="script">
+      <metadata>
+        <description><![CDATA[
+{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
+{\colortbl;\red0\green150\blue255;\red0\green0\blue0;}
+\widowctrl\hyphauto
+
+{\pard\ql\f0\sa180\li0\fi0\b\fs40 Slip Clip Content Backward\par}
+{\pard\ql\f0\sa180\li0\fi0\b\fs32 Slip audio inside clips using shared Timecode (ProTools-like)\par}
+
+{\pard\ql\f0\sa180\li0\fi0 This script slips the \b audio content (waveform)\b0 
+inside selected items \b backward\b0 without moving the item position, according to the 
+nudge value defined in the shared \b TimecodeUI \b0 panel.\par}
+
+{\pard\ql\f0\sa180\li0\fi0 The item boundaries remain fixed while the waveform moves, 
+replicating classic \b Pro Tools Slip\b0 behavior.\par}
+
+{\pard\ql\f0\sa180\li0\fi0\b\fs32 Shared Timecode Input (via PRE-POST-ROLL ImGui)\par}
+{\pard\ql\f0\sa0\li360\fi-360\bullet\tx360\tab Namespace: "TimecodeUI"\par}
+{\pard\ql\f0\sa0\li360\fi-360\bullet\tx360\tab Key: "tc"\par}
+{\pard\ql\f0\sa0\li360\fi-360\bullet\tx360\tab Provided by: PRE-POST-ROLL (ImGui)\par}
+{\pard\ql\f0\sa0\li360\fi-360\bullet\tx360\tab Format: HH:MM:SS:FF (25 fps)\par}
+
+{\pard\ql\f0\sa180\li0\fi0\b\fs32 Usage\par}
+{\pard\ql\f0\sa0\li360\fi-360\bullet\tx360\tab Works on selected items only\par}
+{\pard\ql\f0\sa0\li360\fi-360\bullet\tx360\tab Slips waveform backward by nudge value\par}
+{\pard\ql\f0\sa0\li360\fi-360\bullet\tx360\tab Item position remains unchanged\par}
+{\pard\ql\f0\sa0\li360\fi-360\bullet\tx360\tab Undo fully supported\par}
+
+{\pard\ql\f0\sa180\li0\fi0\b\fs32 Works With:\par}
+{\pard\ql\f0\sa0\li360\fi-360\bullet\tx360\tab Slip Clip Content Forward\par}
+{\pard\ql\f0\sa0\li360\fi-360\bullet\tx360\tab Nudge Forward / Backward\par}
+{\pard\ql\f0\sa0\li360\fi-360\bullet\tx360\tab Time Selection tools\par}
+{\pard\ql\f0\sa0\li360\fi-360\bullet\tx360\tab PRE-POST-ROLL + Timecode UI (ImGui)\par}
+
+{\pard\ql\f0\sa180\li0\fi0 This script is part of the \b ProTools_Essentials \b0 suite,
+providing a unified Pro Tools–style editing workflow in REAPER.\par}
+}
+]]></description>
+        <author>Mariow</author>
+        <version>1.0</version>
+        <link>https://github.com/Geeksound/Reaper_Scripts-Mariow</link>
+        <tags>editing, slip, item, waveform, nudge, (protools-like)</tags>
+      </metadata>
+      <version name="1.0" author="Mariow" time="2025-12-09T00:00:00Z">
+        <changelog><![CDATA[
+v1.0 (2025-12-09)
+- Initial release: slips clip content backward using TimecodeUI nudge value
+]]></changelog>
+        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/ProTools_Essentials/SlipClipContentBackward-TCui.lua</source>
+      </version>
+    </reapack>
+    <reapack name="SlipClipContentForward-TCui.lua" type="script">
+      <metadata>
+        <description><![CDATA[
+{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
+{\colortbl;\red0\green150\blue255;\red0\green0\blue0;}
+\widowctrl\hyphauto
+
+{\pard\ql\f0\sa180\li0\fi0\b\fs40 Slip Clip Content Forward\par}
+{\pard\ql\f0\sa180\li0\fi0\b\fs32 Slip audio inside clips using shared Timecode (ProTools-like)\par}
+
+{\pard\ql\f0\sa180\li0\fi0 This script slips the \b audio content (waveform)\b0 
+inside selected items \b forward\b0 without moving the item position, according to the 
+nudge value defined in the shared \b TimecodeUI \b0 panel.\par}
+
+{\pard\ql\f0\sa180\li0\fi0 The item boundaries remain fixed while the waveform moves, 
+replicating classic \b Pro Tools Slip\b0 behavior.\par}
+
+{\pard\ql\f0\sa180\li0\fi0\b\fs32 Shared Timecode Input (via PRE-POST-ROLL ImGui)\par}
+{\pard\ql\f0\sa0\li360\fi-360\bullet\tx360\tab Namespace: "TimecodeUI"\par}
+{\pard\ql\f0\sa0\li360\fi-360\bullet\tx360\tab Key: "tc"\par}
+{\pard\ql\f0\sa0\li360\fi-360\bullet\tx360\tab Provided by: PRE-POST-ROLL (ImGui)\par}
+{\pard\ql\f0\sa0\li360\fi-360\bullet\tx360\tab Format: HH:MM:SS:FF (25 fps)\par}
+
+{\pard\ql\f0\sa180\li0\fi0\b\fs32 Usage\par}
+{\pard\ql\f0\sa0\li360\fi-360\bullet\tx360\tab Works on selected items only\par}
+{\pard\ql\f0\sa0\li360\fi-360\bullet\tx360\tab Slips waveform forward by nudge value\par}
+{\pard\ql\f0\sa0\li360\fi-360\bullet\tx360\tab Item position remains unchanged\par}
+{\pard\ql\f0\sa0\li360\fi-360\bullet\tx360\tab Undo fully supported\par}
+
+{\pard\ql\f0\sa180\li0\fi0\b\fs32 Works With:\par}
+{\pard\ql\f0\sa0\li360\fi-360\bullet\tx360\tab Slip Clip Content Backward\par}
+{\pard\ql\f0\sa0\li360\fi-360\bullet\tx360\tab Nudge Forward / Backward\par}
+{\pard\ql\f0\sa0\li360\fi-360\bullet\tx360\tab Time Selection tools\par}
+{\pard\ql\f0\sa0\li360\fi-360\bullet\tx360\tab PRE-POST-ROLL + Timecode UI (ImGui)\par}
+
+{\pard\ql\f0\sa180\li0\fi0 This script is part of the \b ProTools_Essentials \b0 suite,
+providing a unified Pro Tools–style editing workflow in REAPER.\par}
+}
+]]></description>
+        <author>Mariow</author>
+        <version>1.0</version>
+        <link>https://github.com/Geeksound/Reaper_Scripts-Mariow</link>
+        <tags>editing, slip, item, waveform, nudge, (protools-like)</tags>
+      </metadata>
+      <version name="1.0" author="Mariow" time="2025-12-09T00:00:00Z">
+        <changelog><![CDATA[
+v1.0 (2025-12-09)
+- Initial release: slips clip content forward using TimecodeUI nudge value
+]]></changelog>
+        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/ProTools_Essentials/SlipClipContentForward-TCui.lua</source>
+      </version>
+    </reapack>
     <reapack name="ZoomOutHorizontal(PT-R).lua" type="script">
       <metadata>
         <description><![CDATA[
