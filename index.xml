@@ -68,6 +68,13 @@ Built with \b ReaImGui\b0 , it serves as the main entry point to the \b Mariow S
 }]]></description>
         <link rel="website">https://github.com/Geeksound/Reaper_Scripts-Mariow</link>
       </metadata>
+      <version name="1.1.2" author="Mariow" time="2026-02-02T00:00:00Z">
+        <changelog><![CDATA[
+v1.1.2 (2026-02-02)
+-Add SlipContentOfItems
+]]></changelog>
+        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/Documentations/Mariow-ScriptsInteractiveRepository.lua</source>
+      </version>
       <version name="1.1.1" author="Mariow" time="2026-01-08T00:00:00Z">
         <changelog><![CDATA[
 v1.1.1 (2026-01-08)
