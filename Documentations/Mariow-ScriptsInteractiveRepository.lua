@@ -3,6 +3,8 @@
 @version 1.1.2
 @author Mariow
 @changelog
+    v1.1.3 (2026-02-16)
+    -Add RazorUP and RazorDOWN
     v1.1.2 (2026-02-02)
     -Add SlipContentOfItems
     v1.1.1 (2026-01-08)
@@ -301,12 +303,14 @@ local scripts = {
     help="Moves the LEFT edge of all Razor Areas backward by the nudge value from the shared Timecode UI, creating Razor Areas from the Time Selection if none exist, Pro Tools–style."},
     { category = "ProTools Essentials#1", name = "Move Razor Left Forward TCui", path = "ProTools_Essentials/MoveRazorLeftForward-TCui.lua", color={0.3,0.7,0.3,1} ,
     help="Moves the LEFT edge of all Razor Areas forward by the nudge value from the shared Timecode UI, creating Razor Areas from the Time Selection if none exist, Pro Tools–style."},
-    
-    
     { category = "ProTools Essentials#1", name = "Move Razor Right Backward TCui", path = "ProTools_Essentials/MoveRazorRightBackward-TCui.lua" , color={0.3,0.7,0.3,0.5} , same_line=true,
     help="Moves the RIGHT edge of all Razor Areas backward by the nudge value from the shared Timecode UI, creating Razor Areas from the Time Selection if none exist, Pro Tools–style."},
-    { category = "ProTools Essentials#1", name = "Move Razor Right Forward TCui", path = "ProTools_Essentials/MoveRazorRightForward-TCui.lua" , color={0.3,0.7,0.3,0.5} ,
+    { category = "ProTools Essentials#1", name = "Move Razor Right Forward TCui", path = "ProTools_Essentials/MoveRazorRightForward-TCui.lua" , color={0.3,0.7,0.3,0.5} , same_line=true,
      help="Moves the RIGHT edge of all Razor Areas forward by the nudge value from the shared Timecode UI, creating Razor Areas from the Time Selection if none exist, Pro Tools–style."},
+    { category = "ProTools Essentials#1", name = "RazorUp(Pt-P)", path = "ProTools_Essentials/RazorUp(Pt-P).lua" , color={0.2,0.4,0.8,1} , same_line=true,
+    help="Moves the RIGHT edge of all Razor Areas backward by the nudge value from the shared Timecode UI, creating Razor Areas from the Time Selection if none exist, Pro Tools–style."},
+    { category = "ProTools Essentials#1", name = "RazorDown(Pt-M).lua", path = "ProTools_Essentials/RazorDown(Pt-M).lua" , color={0.2,0.4,0.8,1} ,
+    help="Moves the RIGHT edge of all Razor Areas forward by the nudge value from the shared Timecode UI, creating Razor Areas from the Time Selection if none exist, Pro Tools–style."},
     { category = "ProTools Essentials#1", name = "SlipClipContentBackward-TCui", path = "ProTools_Essentials/SlipClipContentBackward-TCui.lua" , color={0.6,0.3,0.2,1}, same_line=true, 
     help="Slip content of Item Backward by the nudge value from the shared Timecode UI, emulating Pro Tools shortcut CTRL(-)"}, same_line=true,
     { category = "ProTools Essentials#1", name = "SlipClipContentForward-TCui", path = "ProTools_Essentials/SlipClipContentForward-TCui.lua" , color={0.6,0.3,0.2,1} ,
