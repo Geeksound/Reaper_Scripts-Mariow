@@ -4871,6 +4871,185 @@ v1.0 (2026-02-16)
         <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/ProTools_Essentials/RazorUp(Pt-P).lua</source>
       </version>
     </reapack>
+    <reapack name="RatingClip-Bad.lua" type="script">
+      <metadata>
+        <description><![CDATA[
+{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
+{\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
+\widowctrl\hyphauto
+
+{\pard\ql\f0\sa180\li0\fi0\b\fs40\cf1 RatingClip – Bad (PT-Like)\par}
+{\pard\ql\f0\sa180\li0\fi0\b\fs36 Set Clip Rating to Bad\par}
+{\pard\ql\f0\sa180\li0\fi0 Sets selected clips to Bad rating (1 star)\par}
+{\pard\ql\f0\sa0\li0\fi0 using REAPER's native up-rank system.\par}
+
+{\pard\ql\f0\sa180\li0\fi0 Native Actions Used:\par}
+{\pard\ql\f0\sa0\li360\fi-360\bullet\tx360\tab Item: Clear up-rank/down-rank markers (43161)\par}
+{\pard\ql\f0\sa0\li360\fi-360\bullet\tx360\tab Item: Cycle through up-rank/down-rank levels (43197)\par}
+
+{\pard\ql\f0\sa180\li0\fi0 Ideal for:\par}
+{\pard\ql\f0\sa0\li360\fi-360\bullet\tx360\tab Pro Tools–style clip rating workflows.\par}
+{\pard\ql\f0\sa0\li360\fi-360\bullet\tx360\tab Fast keyboard-driven take selection.\par}
+}
+]]></description>
+        <author>Mariow</author>
+        <version>1.0</version>
+        <link>https://github.com/Geeksound/Reaper_Scripts-Mariow</link>
+        <tags>rating, clip, selection, (protools-like)</tags>
+      </metadata>
+      
+      <version name="1.0" author="Mariow" time="2026-02-16T00:00:00Z">
+        <changelog><![CDATA[
+v1.0 (2026-02-16)
+- Initial release
+- Sets selected clips to Bad rating (1 star)
+]]></changelog>
+        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/ProTools_Essentials/RatingClip-Bad.lua</source>
+      </version>
+    </reapack>
+    <reapack name="RatingClip-Ok.lua" type="script">
+      <metadata>
+        <description><![CDATA[
+{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
+{\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
+\widowctrl\hyphauto
+
+{\pard\ql\f0\sa180\li0\fi0\b\fs40\cf1 RatingClip – Ok (PT-Like)\par}
+{\pard\ql\f0\sa180\li0\fi0\b\fs36 Set Clip Rating to Ok\par}
+{\pard\ql\f0\sa180\li0\fi0 Sets selected clips to Ok rating\par}
+{\pard\ql\f0\sa0\li0\fi0 using REAPER's native up-rank system.\par}
+
+{\pard\ql\f0\sa180\li0\fi0 Native Actions Used:\par}
+{\pard\ql\f0\sa0\li360\fi-360\bullet\tx360\tab Item: Clear up-rank/down-rank markers (43161)\par}
+{\pard\ql\f0\sa0\li360\fi-360\bullet\tx360\tab Item: Cycle through up-rank/down-rank levels (43197)\par}
+
+{\pard\ql\f0\sa180\li0\fi0 Ideal for:\par}
+{\pard\ql\f0\sa0\li360\fi-360\bullet\tx360\tab Pro Tools–style clip rating workflows.\par}
+{\pard\ql\f0\sa0\li360\fi-360\bullet\tx360\tab Fast keyboard-driven take selection.\par}
+}
+]]></description>
+        <author>Mariow</author>
+        <version>1.0</version>
+        <link>https://github.com/Geeksound/Reaper_Scripts-Mariow</link>
+        <tags>rating, clip, selection, (protools-like)</tags>
+      </metadata>
+      
+      <version name="1.0" author="Mariow" time="2026-02-16T00:00:00Z">
+        <changelog><![CDATA[
+v1.0 (2026-02-16)
+- Initial release
+- Sets selected clips to Ok rating
+]]></changelog>
+        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/ProTools_Essentials/RatingClip-Ok.lua</source>
+      </version>
+    </reapack>
+    <reapack name="RatingClip-Good.lua" type="script">
+      <metadata>
+        <description><![CDATA[
+{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
+{\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
+\widowctrl\hyphauto
+
+{\pard\ql\f0\sa180\li0\fi0\b\fs40\cf1 RatingClip – Good (PT-Like)\par}
+{\pard\ql\f0\sa180\li0\fi0\b\fs36 Set Clip Rating to Good\par}
+{\pard\ql\f0\sa180\li0\fi0 Sets selected clips to Good rating\par}
+{\pard\ql\f0\sa0\li0\fi0 using REAPER's native up-rank system.\par}
+
+{\pard\ql\f0\sa180\li0\fi0 Native Actions Used:\par}
+{\pard\ql\f0\sa0\li360\fi-360\bullet\tx360\tab Item: Clear up-rank/down-rank markers (43161)\par}
+{\pard\ql\f0\sa0\li360\fi-360\bullet\tx360\tab Item: Cycle through up-rank/down-rank levels (43197)\par}
+
+{\pard\ql\f0\sa180\li0\fi0 Ideal for:\par}
+{\pard\ql\f0\sa0\li360\fi-360\bullet\tx360\tab Pro Tools–style clip rating workflows.\par}
+{\pard\ql\f0\sa0\li360\fi-360\bullet\tx360\tab Fast keyboard-driven take selection.\par}
+}
+]]></description>
+        <author>Mariow</author>
+        <version>1.0</version>
+        <link>https://github.com/Geeksound/Reaper_Scripts-Mariow</link>
+        <tags>rating, clip, selection, (protools-like)</tags>
+      </metadata>
+      
+      <version name="1.0" author="Mariow" time="2026-02-16T00:00:00Z">
+        <changelog><![CDATA[
+v1.0 (2026-02-16)
+- Initial release
+- Sets selected clips to Good rating
+]]></changelog>
+        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/ProTools_Essentials/RatingClip-Good.lua</source>
+      </version>
+    </reapack>
+    <reapack name="RatingClip-Best.lua" type="script">
+      <metadata>
+        <description><![CDATA[
+{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
+{\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
+\widowctrl\hyphauto
+
+{\pard\ql\f0\sa180\li0\fi0\b\fs40\cf1 RatingClip – Best (PT-Like)\par}
+{\pard\ql\f0\sa180\li0\fi0\b\fs36 Set Clip Rating to Best\par}
+{\pard\ql\f0\sa180\li0\fi0 Sets selected clips to Best rating\par}
+{\pard\ql\f0\sa0\li0\fi0 using REAPER's native up-rank system.\par}
+
+{\pard\ql\f0\sa180\li0\fi0 Native Actions Used:\par}
+{\pard\ql\f0\sa0\li360\fi-360\bullet\tx360\tab Item: Clear up-rank/down-rank markers (43161)\par}
+{\pard\ql\f0\sa0\li360\fi-360\bullet\tx360\tab Item: Cycle through up-rank/down-rank levels (43197)\par}
+
+{\pard\ql\f0\sa180\li0\fi0 Ideal for:\par}
+{\pard\ql\f0\sa0\li360\fi-360\bullet\tx360\tab Pro Tools–style clip rating workflows.\par}
+{\pard\ql\f0\sa0\li360\fi-360\bullet\tx360\tab Fast keyboard-driven take selection.\par}
+}
+]]></description>
+        <author>Mariow</author>
+        <version>1.0</version>
+        <link>https://github.com/Geeksound/Reaper_Scripts-Mariow</link>
+        <tags>rating, clip, selection, (protools-like)</tags>
+      </metadata>
+      
+      <version name="1.0" author="Mariow" time="2026-02-16T00:00:00Z">
+        <changelog><![CDATA[
+v1.0 (2026-02-16)
+- Initial release
+- Sets selected clips to Best rating
+]]></changelog>
+        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/ProTools_Essentials/RatingClip-Best.lua</source>
+      </version>
+    </reapack>
+    <reapack name="RatingClip-Reset.lua" type="script">
+      <metadata>
+        <description><![CDATA[
+{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
+{\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
+\widowctrl\hyphauto
+
+{\pard\ql\f0\sa180\li0\fi0\b\fs40\cf1 RatingClip – Reset (PT-Like)\par}
+{\pard\ql\f0\sa180\li0\fi0\b\fs36 Clear Clip Rating\par}
+{\pard\ql\f0\sa180\li0\fi0 Clears rating on selected clips\par}
+{\pard\ql\f0\sa0\li0\fi0 using REAPER's native clear rank action.\par}
+
+{\pard\ql\f0\sa180\li0\fi0 Native Actions Used:\par}
+{\pard\ql\f0\sa0\li360\fi-360\bullet\tx360\tab Item: Clear up-rank/down-rank markers (43161)\par}
+
+{\pard\ql\f0\sa180\li0\fi0 Ideal for:\par}
+{\pard\ql\f0\sa0\li360\fi-360\bullet\tx360\tab Resetting clip evaluation quickly.\par}
+{\pard\ql\f0\sa0\li360\fi-360\bullet\tx360\tab Pro Tools–style clip rating workflows.\par}
+}
+]]></description>
+        <author>Mariow</author>
+        <version>1.0</version>
+        <link>https://github.com/Geeksound/Reaper_Scripts-Mariow</link>
+        <tags>rating, clip, selection, (protools-like)</tags>
+      </metadata>
+      
+      <version name="1.0" author="Mariow" time="2026-02-16T00:00:00Z">
+        <changelog><![CDATA[
+v1.0 (2026-02-16)
+- Initial release
+- Clears rating of selected clips
+]]></changelog>
+        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/ProTools_Essentials/RatingClip-Reset.lua</source>
+      </version>
+    </reapack>
   </category>
   <category name="Protools_Track">
     <reapack name="DelTrack(AsPT).lua" type="script" desc="Safe Delete Selected Tracks (ProTools-style)">
