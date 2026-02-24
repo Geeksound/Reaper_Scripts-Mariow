@@ -1,8 +1,10 @@
 --[[
 @description Mariow Scripts – Interactive Repository Visualizer & Launcher
-@version 1.1.2
+@version 1.1.4
 @author Mariow
 @changelog
+    v1.1.4 (2026-02-24)
+    -Add Rating Clips and Copy/Paste(PTlike)
     v1.1.3 (2026-02-16)
     -Add RazorUP and RazorDOWN
     v1.1.2 (2026-02-02)
@@ -223,6 +225,12 @@ local scripts = {
     { category = "PROTOOLS", name = "Paste To Fill", path = "PROTOOLS/Paste-ToFill.lua"  , color={0.2,0.4,0.8,1},
     help="Paste to Fill workflow based on Time Selection.\n\nCreates Razor Edits from the current Time Selection on selected tracks,"..
     "then executes the full MRX Paste To Fill process in a single undo step.\n\nReproduces Pro Tools' 'Paste to Fill' behavior for fast and precise editing."},
+    
+    { category = "PROTOOLS", name = "Copy(Pt-like)", path = "PROTOOLS/Copy(Pt-like).lua"  , color={0.2,0.4,0.8,1},same_line=true ,
+    help="Copy(Pt-like) paste Razor area or Item copied depending on context"},
+    { category = "PROTOOLS", name = "Paste(Pt-like)", path = "PROTOOLS/Paste(Pt-like).lua"  , color={0.2,0.4,0.8,1},
+    help="Paste(Pt-like) paste Razor area or Item copied depending on context"},
+    
     { category = "PROTOOLS", name = "Play Loop", path = "PROTOOLS/PlayLoop.lua"  , color={0.18,0.54,0.18,1}, same_line=true,
     help="Plays from Loop Start without losing Edit Cursor position.\n\nDisables preroll, jumps to the start of the current Loop selection, and starts playback,"..
     "then automatically restores the original Edit Cursor position when playback stops.\n\nMimics Pro Tools behavior when working with Loop Points independently from the Edit Cursor."},
@@ -357,6 +365,20 @@ local scripts = {
     { category = "ProTools Essentials#2", name = "Play Thru End", path = "ProTools_Essentials/PlayThruEnd.lua" , color={0.3,0.7,0.3,1},
     help="Plays from pre-roll through the end of the Time Selection and into post-roll, emulating Pro Tools’ 'Play Thru Out' behavior." },
     
+                   -- Dummy buttons / separation
+    { category = "PROTOOLS", name = "    ", path = nil, color={0.0,0.0,0.0,0} },
+    
+    { category = "ProTools Essentials#2", name = "RatingClip-Bad", path = "ProTools_Essentials/RatingClip-Bad.lua" , color={0.3,0.3,0.3,1}, same_line=true,
+    help="Bad Take"},
+    { category = "ProTools Essentials#2", name = "RatingClip-Ok", path = "ProTools_Essentials/RatingClip-Ok.lua" , color={0.3,0.3,0.3,1}  , same_line=true,
+    help="Rating OK on the Item/clip *"},
+    { category = "ProTools Essentials#2", name = "RatingClip-Good", path = "ProTools_Essentials/RatingClip-Good.lua" , color={0.3,0.3,0.3,0.5}, same_line=true,
+    help="Good rating on the Item/clip **"},
+    { category = "ProTools Essentials#2", name = "RatingClip-Best", path = "ProTools_Essentials/RatingClip-Best.lua" , color={0.3,0.3,0.3,0.5},
+    help="Best rating on the Item/clip ***"},
+    { category = "ProTools Essentials#2", name = "RatingClip-Reset", path = "ProTools_Essentials/RatingClip-Reset.lua" , color={0.3,0.3,0.3,0.5},
+    help="Reset the rating on the Item/clip"},
+    
   
 
     -- ProTools TAB
@@ -417,6 +439,7 @@ local scripts = {
     { category = "Protools Track", name = "Group Tracks (PT-CmdG)", path = "Protools_Track/GroupTracks(PT-CmdG).lua" , color={0.2,0.4,0.8,1},
     help="Groups selected tracks in REAPER Pro Tools–style. Emulates the Cmd+G behavior,"..
     "allowing fast, keyboard-driven track grouping like in Pro Tools."},
+    
 }
 
 -- Palette de couleurs pour onglets (RGB)
