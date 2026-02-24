@@ -1557,6 +1557,36 @@ v1.0 (2026-02-23)
         <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/PROTOOLS/Paste(Pt-like).lua</source>
       </version>
     </reapack>
+    <reapack name="Copy(Pt-like).lua" type="script" desc="Copy PT-like (ignore time selection) + move cursor to source start">
+      <metadata>
+        <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
+{\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
+\widowctrl\hyphauto
+
+{\pard\ql\f0\sa180\li0\fi0\b\fs40\cf1 Copy PT-like workflow inside REAPER\par}
+{\pard\ql\f0\sa180\li0\fi0\b\fs40\cf1   \par}
+{\pard \ql \f0 \sa180 \li0 \fi0 \outlinelevel0 \b \fs36 Copy(Pt-like)\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 Reproduces \b Pro Tools \b0 style copy behavior inside REAPER.\par}
+{\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab Executes "Copy items/tracks/envelope points (depending on focus) ignoring time selection",\par}
+{\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab If items are selected → moves edit cursor to start of first selected item,\par}
+{\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab If no items are selected → moves edit cursor to start of Time Selection,\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 Designed for fast dialog editing and PT-style source-based workflows.\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 Compatible with REAPER 7.0 and later.\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 Developed by Mariow.\par}
+}]]></description>
+        <link rel="website">https://github.com/Geeksound/Reaper_Scripts-Mariow</link>
+      </metadata>
+      <version name="1.0" author="Mariow" time="2026-02-24T00:00:00Z">
+        <changelog><![CDATA[
+v1.0 (2026-02-24)
+- Initial release
+- Executes Copy (ignore time selection)
+- Smart cursor reposition after copy
+- Pro Tools-style source workflow behavior
+]]></changelog>
+        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/PROTOOLS/Copy(Pt-like).lua</source>
+      </version>
+    </reapack>
     <reapack name="Revert-ToSaved.lua" type="script" desc="Revert-ToSaved">
       <metadata>
         <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
