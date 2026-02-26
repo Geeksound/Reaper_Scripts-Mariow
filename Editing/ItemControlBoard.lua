@@ -1,14 +1,16 @@
 --[[
 @description ItemControlBoard - Interactive Media Item Palette
-@version 1.0
+@version 1.1
 @author Mariow
 @changelog
+  v1.1 (2026-02-26)
+  -Helpers added and debug
   v1.0 (2025-11-11)
   - Fixed window close safety on ReaImGui
   - Improved color palette preview
   - Optimized repeat button behavior
 @provides
-  [main] Editing/ItemControlBoard.lua
+  [main]  Editing/ItemControlBoard.lua
 @link https://github.com/Geeksound/Reaper_Scripts-Mariow
 @repository https://github.com/Geeksound/Reaper_Scripts-Mariow
 @tags item, editing, gui, color, palette, tool
@@ -47,6 +49,26 @@ local function open_github_link()
         reaper.ShowMessageBox("⚠️ Unable to open the link.\nSWS extension is required.", "Error", 0)
     end
 end
+
+------------ HELPERS
+local function ImGui_HelpMarker(ctx, desc)
+    if reaper.ImGui_IsItemHovered(ctx) then
+        reaper.ImGui_BeginTooltip(ctx)
+        reaper.ImGui_PushTextWrapPos(ctx, reaper.ImGui_GetFontSize(ctx) * 35)
+        if reaper.ImGui_TextUnformatted then
+            reaper.ImGui_TextUnformatted(ctx, desc)
+        else
+            reaper.ImGui_Text(ctx, desc)
+        end
+        reaper.ImGui_PopTextWrapPos(ctx)
+        reaper.ImGui_EndTooltip(ctx)
+    end
+end
+
+-- 🔹 Customizable Help Texts
+local Texte1 = "press ALT to invert function"
+
+-------------------
 
 -- keep window-open flag so ImGui can signal closure
 local open = true
@@ -94,6 +116,14 @@ local function moveVertically(item, up)
     end
 end
 
+-- Move horizontally (tiny nudges)
+--local function moveHorizontally(item,left)
+--    if not item then return end
+--    local pos = reaper.GetMediaItemInfo_Value(item,"D_POSITION")
+--    local newPos = pos + (left and -0.001 or 0.001)
+---    reaper.SetMediaItemInfo_Value(item,"D_POSITION",newPos)
+---    reaper.UpdateArrange()
+--æend
 
 -- Pitch (take pitch)
 local function changePitch(item,up)
@@ -208,61 +238,53 @@ local function loop()
         if item then
             -- MOVE
             reaper.ImGui_Text(ctx,"Move")
-            repeatButton(ctx,"moveVert", isAlt and "⬇ Dwn Track" or "⬆ Up Track", function() moveVertically(item, not isAlt) end)
-            repeatButton(ctx,"move-Hor", isAlt and "Move Right" or "Move Left", function()
-                local cmd = isAlt and 40119 or 40120
-                reaper.Main_OnCommand(cmd, 0)
+            repeatButton(ctx,"moveVert", isAlt and "⬇ Down Track" or "⬆ Up Track", function() moveVertically(item, not isAlt) end)
+            ImGui_HelpMarker(ctx, Texte1)
+            repeatButton(ctx,"moveHor", isAlt and "Move RIGHT" or "Move LEFT", function() 
+            local cmd = isAlt and 40119 or 40120
+            reaper.Main_OnCommand(cmd, 0)
             end)
+            ImGui_HelpMarker(ctx, Texte1)
 
             -- TRIM (native REAPER commands)
             reaper.ImGui_Text(ctx,"Trim")
-            repeatButton(ctx,"trimLeft", isAlt and "Shrink Left" or "Grow   Left", function()
+            repeatButton(ctx,"trimLeft", isAlt and "Shrink Left" or "Grow Left", function()
                 local cmd = isAlt and 40226 or 40225
                 reaper.Main_OnCommand(cmd, 0)
             end)
+            ImGui_HelpMarker(ctx, Texte1)
             repeatButton(ctx,"trimRight", isAlt and "Shrink Right" or "Grow Right", function()
                 local cmd = isAlt and 40227 or 40228
                 reaper.Main_OnCommand(cmd, 0)
             end)
-            repeatButton(ctx,"trimBoth", isAlt and "Shrink Both" or "Grow  Both", function()
+            ImGui_HelpMarker(ctx, Texte1)
+            repeatButton(ctx,"trimBoth", isAlt and "Shrink Both" or "Grow Both", function()
                 local cmdLeft = isAlt and 40226 or 40225
                 local cmdRight = isAlt and 40227 or 40228
                 reaper.Main_OnCommand(cmdLeft, 0)
                 reaper.Main_OnCommand(cmdRight, 0)
             end)
+            ImGui_HelpMarker(ctx, Texte1)
 
             -- PITCH / STRETCH
             reaper.ImGui_Text(ctx,"Pitch / Stretch")
-            repeatButton(ctx,"pitch", isAlt and "🎶 Pitch Down" or "🎵 Pitch  Up", function() changePitch(item, not isAlt) end)
-            repeatButton(ctx,"stretch", isAlt and "📐 Compress" or "📏 T.Stretch", function() stretchItem(item, not isAlt) end)
+            repeatButton(ctx,"pitch", isAlt and "🎶 Pitch Down" or "🎵 Pitch Up", function() changePitch(item, not isAlt) end)
+            ImGui_HelpMarker(ctx, Texte1)
+            repeatButton(ctx,"stretch", isAlt and "📐 Compress" or "📏 Stretch", function() stretchItem(item, not isAlt) end)
+            ImGui_HelpMarker(ctx, Texte1)
 
-            -- GAIN
-            reaper.ImGui_Text(ctx,"Gain")
+            -- GAIN / COLOR
+            reaper.ImGui_Text(ctx,"Gain / Color")
             repeatButton(ctx,"gain", isAlt and "🔇 Lower Gain" or "🔊 Raise Gain", function() changeGain(item, not isAlt) end)
-            
-            -- FADES
-            reaper.ImGui_Text(ctx,"Fades")
-            repeatButton(ctx,"fadeIn", isAlt and "🔽 FadeIn -" or "🔼 FadeIn +", function()
-                changeFade(item, isAlt and -0.01 or 0.01, true)
-            end)
-            repeatButton(ctx,"fadeOut", isAlt and "🔼 FadeOut -" or "🔽 FadeOut +", function()
-                changeFade(item, isAlt and -0.01 or 0.01, false)
-            end)
-            repeatButton(ctx,"cycleFade", isAlt and "Cycle  F.out" or "Cycle F.in", function()
-                local cmd = isAlt and 41527 or 41520
-                reaper.Main_OnCommand(cmd, 0)
-            end)
-            
-            
-            reaper.ImGui_Separator(ctx)
-            
-            reaper.ImGui_Separator(ctx)
+            ImGui_HelpMarker(ctx, Texte1)
+            repeatButton(ctx,"color", isAlt and "🌑 Darken Color" or "🌕 Lighten Color", function() changeColor(item, not isAlt) end)
+            ImGui_HelpMarker(ctx, Texte1)
+
             -- COLOR PALETTE
-            reaper.ImGui_Text(ctx,"")
+            reaper.ImGui_Text(ctx,"Color Palette")
             local c = palette_gui[paletteIndex]
             if c then
                 local cu = reaper.ImGui_ColorConvertDouble4ToU32(c[1], c[2], c[3], 1.0)
-                reaper.ImGui_SameLine(ctx, 0,30)
                 reaper.ImGui_ColorButton(ctx, "##colorPreview", cu)
             end
             if reaper.ImGui_Button(ctx, isAlt and "⬅ Prev Color" or "➡ Next Color") then
@@ -273,12 +295,24 @@ local function loop()
                 end
                 setColorFromPalette(item, paletteIndex)
             end
-            
-            repeatButton(ctx,"color", isAlt and "🌑 Darken Color" or "🌕 Light Color", function() changeColor(item, not isAlt) end)
-            
-            reaper.ImGui_Separator(ctx)
-            -------------------------------------------
-        else
+            ImGui_HelpMarker(ctx, Texte1)
+
+            -- FADES
+            reaper.ImGui_Text(ctx,"Fades")
+            repeatButton(ctx,"fadeIn", isAlt and "🔽 FadeIn -" or "🔼 FadeIn +", function()
+                changeFade(item, isAlt and -0.5 or 0.5, true)
+            end)
+            ImGui_HelpMarker(ctx, Texte1)
+            repeatButton(ctx,"fadeOut", isAlt and "🔼 FadeOut -" or "🔽 FadeOut +", function()
+                changeFade(item, isAlt and -0.5 or 0.5, false)
+            end)
+            ImGui_HelpMarker(ctx, Texte1)
+            repeatButton(ctx,"cycleFade", isAlt and "Cycle FADE Right" or "Cycle FADE Left", function()
+                local cmd = isAlt and 41527 or 41520
+                reaper.Main_OnCommand(cmd, 0)
+            end)
+            ImGui_HelpMarker(ctx, Texte1)
+  else
             reaper.ImGui_Text(ctx,"No item selected")
         end
             if vignette_image then
