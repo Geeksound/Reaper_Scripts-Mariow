@@ -1,8 +1,10 @@
 --[[
 @description ItemControlBoard - Interactive Media Item Palette
-@version 1.1
+@version 1.1.2
 @author Mariow
 @changelog
+  v1.1.2 (2026-03-01)
+  -Interface Colorizing
   v1.1 (2026-02-26)
   -Helpers added and debug
   v1.0 (2025-11-11)
@@ -237,7 +239,7 @@ local function loop()
 
         if item then
             -- MOVE
-            reaper.ImGui_Text(ctx,"Move")
+            reaper.ImGui_Text(ctx,"     Move\n<----  ---->")
             repeatButton(ctx,"moveVert", isAlt and "⬇ Down Track" or "⬆ Up Track", function() moveVertically(item, not isAlt) end)
             ImGui_HelpMarker(ctx, Texte1)
             repeatButton(ctx,"moveHor", isAlt and "Move RIGHT" or "Move LEFT", function() 
@@ -246,8 +248,10 @@ local function loop()
             end)
             ImGui_HelpMarker(ctx, Texte1)
 
+            reaper.ImGui_Text(ctx," ")
+
             -- TRIM (native REAPER commands)
-            reaper.ImGui_Text(ctx,"Trim")
+            reaper.ImGui_Text(ctx,"     TRIM\n<-[->  <-]->")
             repeatButton(ctx,"trimLeft", isAlt and "Shrink Left" or "Grow Left", function()
                 local cmd = isAlt and 40226 or 40225
                 reaper.Main_OnCommand(cmd, 0)
@@ -266,6 +270,7 @@ local function loop()
             end)
             ImGui_HelpMarker(ctx, Texte1)
 
+            reaper.ImGui_Text(ctx," ")
             -- PITCH / STRETCH
             reaper.ImGui_Text(ctx,"Pitch / Stretch")
             repeatButton(ctx,"pitch", isAlt and "🎶 Pitch Down" or "🎵 Pitch Up", function() changePitch(item, not isAlt) end)
@@ -273,32 +278,60 @@ local function loop()
             repeatButton(ctx,"stretch", isAlt and "📐 Compress" or "📏 Stretch", function() stretchItem(item, not isAlt) end)
             ImGui_HelpMarker(ctx, Texte1)
 
+            reaper.ImGui_Text(ctx," ")
+            
             -- GAIN / COLOR
-            reaper.ImGui_Text(ctx,"Gain / Color")
-            repeatButton(ctx,"gain", isAlt and "🔇 Lower Gain" or "🔊 Raise Gain", function() changeGain(item, not isAlt) end)
-            ImGui_HelpMarker(ctx, Texte1)
-            repeatButton(ctx,"color", isAlt and "🌑 Darken Color" or "🌕 Lighten Color", function() changeColor(item, not isAlt) end)
-            ImGui_HelpMarker(ctx, Texte1)
+            
+            reaper.ImGui_Text(ctx,"  Gain / Color")
+    
+-- === CUSTOM BUTTON COLOR (ex: bleu) ===
+      reaper.ImGui_PushStyleColor(ctx, reaper.ImGui_Col_Button(),        0xF2731AFF) -- normal
+      reaper.ImGui_PushStyleColor(ctx, reaper.ImGui_Col_ButtonHovered(), 0xFF8C26FF) -- hover
+      reaper.ImGui_PushStyleColor(ctx, reaper.ImGui_Col_ButtonActive(),  0xD65A0EFF) -- active
 
-            -- COLOR PALETTE
-            reaper.ImGui_Text(ctx,"Color Palette")
-            local c = palette_gui[paletteIndex]
-            if c then
-                local cu = reaper.ImGui_ColorConvertDouble4ToU32(c[1], c[2], c[3], 1.0)
-                reaper.ImGui_ColorButton(ctx, "##colorPreview", cu)
-            end
-            if reaper.ImGui_Button(ctx, isAlt and "⬅ Prev Color" or "➡ Next Color") then
-                if isAlt then
-                    paletteIndex = (paletteIndex - 2) % #palette_gui + 1
-                else
-                    paletteIndex = (paletteIndex % #palette_gui) + 1
-                end
-                setColorFromPalette(item, paletteIndex)
-            end
-            ImGui_HelpMarker(ctx, Texte1)
+      repeatButton(ctx,"gain", isAlt and "🔇 Lower Gain" or "🔊 Raise Gain",
+         function() changeGain(item, not isAlt) end)
+       ImGui_HelpMarker(ctx, Texte1)
+
+       repeatButton(ctx,"color", isAlt and "🌑 Darken Color" or "🌕 Lighten Color",
+          function() changeColor(item, not isAlt) end)
+       ImGui_HelpMarker(ctx, Texte1)
+
+-- === BACK TO DEFAULT STYLE ===
+        reaper.ImGui_PopStyleColor(ctx, 3)
+
+
+-- COLOR PALETTE
+-- === CUSTOM BUTTON COLOR (ex: bleu) ===
+reaper.ImGui_PushStyleColor(ctx, reaper.ImGui_Col_Button(),        0x3A6EA5FF)
+reaper.ImGui_PushStyleColor(ctx, reaper.ImGui_Col_ButtonHovered(), 0x4F81BDFF)
+reaper.ImGui_PushStyleColor(ctx, reaper.ImGui_Col_ButtonActive(),  0x2E5C8AFF)
+
+reaper.ImGui_Text(ctx,"Color Palette")
+
+local c = palette_gui[paletteIndex]
+if c then
+    local cu = reaper.ImGui_ColorConvertDouble4ToU32(c[1], c[2], c[3], 1.0)
+    reaper.ImGui_ColorButton(ctx, "##colorPreview", cu)
+end
+
+if reaper.ImGui_Button(ctx, isAlt and "⬅ Prev Color" or "➡ Next Color") then
+    if isAlt then
+        paletteIndex = (paletteIndex - 2) % #palette_gui + 1
+    else
+        paletteIndex = (paletteIndex % #palette_gui) + 1
+    end
+    setColorFromPalette(item, paletteIndex)
+end
+
+ImGui_HelpMarker(ctx, Texte1)
+-- === BACK TO DEFAULT STYLE ===
+reaper.ImGui_PopStyleColor(ctx, 3)
+
+reaper.ImGui_Text(ctx," ")
 
             -- FADES
-            reaper.ImGui_Text(ctx,"Fades")
+            reaper.ImGui_Text(ctx,"     Fades\n     /        \\")
             repeatButton(ctx,"fadeIn", isAlt and "🔽 FadeIn -" or "🔼 FadeIn +", function()
                 changeFade(item, isAlt and -0.5 or 0.5, true)
             end)
