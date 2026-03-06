@@ -2662,10 +2662,17 @@ v1.0 (2025-06-07)
 {\pard\ql\f0\sa180\li0\fi0 \b Developed by Mariow. \b0\par}
 }]]></description>
         <author>Mariow</author>
-        <version>1.0</version>
+        <version>1.1</version>
         <link>https://github.com/Geeksound/Reaper_Scripts-Mariow</link>
         <tags>editing, razor, selection, vertical, arrange, (protools-like)</tags>
       </metadata>
+      <version name="1.1" author="Mariow" time="2026-03-04T00:00:00Z">
+        <changelog><![CDATA[
+v1.1 (2026-03-04)
+  - Bug correction
+    ]]></changelog>
+        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/Protools_Edit/ExtendEditDown(PT-Shift%20M).lua</source>
+      </version>
       <version name="1.0" author="Mariow" time="2025-11-30T00:00:00Z">
         <changelog><![CDATA[
 v1.0 (2025-11-30)
@@ -2749,10 +2756,17 @@ v1.0 (2025-12-01)
 {\pard\ql\f0\sa180\li0\fi0 \b Developed by Mariow. \b0\par}
 }]]></description>
         <author>Mariow</author>
-        <version>1.0</version>
+        <version>1.1</version>
         <link>https://github.com/Geeksound/Reaper_Scripts-Mariow</link>
         <tags>editing, razor, selection, arrange, (protools-like)</tags>
       </metadata>
+      <version name="1.1" author="Mariow" time="2026-03-04T00:00:00Z">
+        <changelog><![CDATA[
+v1.1 (2026-03-04)
+  - Bug correction
+]]></changelog>
+        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/Protools_Edit/ExtendEditUP(PT-Shift%20P).lua</source>
+      </version>
       <version name="1.0" author="Mariow" time="2025-11-30T00:00:00Z">
         <changelog><![CDATA[
 v1.0 (2025-11-30)
