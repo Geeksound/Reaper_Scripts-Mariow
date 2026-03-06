@@ -1,10 +1,11 @@
 --[[
 @description Interactive-TC-Display
-@version 1.3.1.1
+@version 1.4
 @author Mariow
 @license MIT
 @changelog
-
+  V1.4 (2026-03-06)
+  - Close button Added
   V1.3.1.1 (2025-11-29)
   - Minor Changes
   V1.3.1 (2025-11-29)
@@ -35,8 +36,8 @@
 local ctx = reaper.ImGui_CreateContext('Interactive-TC-Display')
 local FONT_SIZE = 24 
 local BIG_FONT_SIZE = 40
-local SMALL_FONT_SIZE = 16
-local MID_FONT_SIZE = 34
+local SMALL_FONT_SIZE = 13
+local MID_FONT_SIZE = 28
 local font_main = reaper.ImGui_CreateFont('Comic Sans MS')
 local font_big = reaper.ImGui_CreateFont('Arial')
 local font_small = reaper.ImGui_CreateFont('Comic')
@@ -108,9 +109,15 @@ local function loop()
     reaper.ImGui_SetNextWindowSize(ctx, 400, 200, reaper.ImGui_Cond_FirstUseEver())
     reaper.ImGui_SetNextWindowPos(ctx, 300, 200, reaper.ImGui_Cond_FirstUseEver())
 
-    --local visible, open = reaper.ImGui_Begin(ctx, 'Dynamic TC Display', true)
+    ---- Interactibe TC FIXE
+--local visible, open = reaper.ImGui_Begin(ctx, 'Dynamic TC Display', true)
+    -- NO Sizable
     local flags = reaper.ImGui_WindowFlags_AlwaysAutoResize() + reaper.ImGui_WindowFlags_NoTitleBar() + reaper.ImGui_WindowFlags_NoCollapse()
     local visible, open = reaper.ImGui_Begin(ctx, '##tc_display', true, flags)
+-- OR
+-- Interactive TC witn Window sizable
+-- local flags = reaper.ImGui_WindowFlags_AlwaysAutoResize() + reaper.ImGui_WindowFlags_NoCollapse()
+--local visible, open = reaper.ImGui_Begin(ctx, 'Interactive TC Display', true, flags)
     
 
     if visible then
@@ -164,7 +171,7 @@ local function loop()
                 end
 
                 local tc = format_timecode(pos)
-                reaper.ImGui_PushFont(ctx, font_main, 24)
+                reaper.ImGui_PushFont(ctx, font_main, 18)
                 reaper.ImGui_TextColored(ctx, 0x00FF00FF, "        Item Selected              " )
                 reaper.ImGui_TextColored(ctx, 0xFFFFFFFF, name .. " | " .. tc)
                 reaper.ImGui_PopFont(ctx)
@@ -199,6 +206,24 @@ local function loop()
 
                 local changed_marker, new_val = reaper.ImGui_InputText(ctx, "##MarkerInput", marker_input, reaper.ImGui_InputTextFlags_EnterReturnsTrue())
                 if changed_marker then marker_input = new_val end
+                
+                ------- CLOSE BUTTON
+                reaper.ImGui_SameLine(ctx,330)
+                
+                -- 🔴 Close Script Button
+                reaper.ImGui_PushStyleColor(ctx, reaper.ImGui_Col_Button(),        0xB22222FF)
+                reaper.ImGui_PushStyleColor(ctx, reaper.ImGui_Col_ButtonHovered(), 0xDC143CFF)
+                reaper.ImGui_PushStyleColor(ctx, reaper.ImGui_Col_ButtonActive(),  0x8B0000FF)
+                
+                if reaper.ImGui_Button(ctx, "Close Script", 75, 24) then
+                    open = false
+                end
+                reaper.ImGui_PopStyleColor(ctx, 3)
+                
+                
+                ---------------------
+                ---------------------
+                
 
                 if reaper.ImGui_IsItemDeactivatedAfterEdit(ctx) then
                     go_to_marker(marker_input)
