@@ -4961,6 +4961,44 @@ v1.0 (2026-02-16)
         <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/ProTools_Essentials/RazorUp(Pt-P).lua</source>
       </version>
     </reapack>
+    <reapack name="Link-Unlink-RazorToTrack(PT like).lua" type="script">
+      <metadata>
+        <description><![CDATA[
+{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
+{\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
+\widowctrl\hyphauto
+
+{\pard\ql\f0\sa180\li0\fi0\b\fs40\cf1 Link / Unlink Razor Edit to Track Selection (ProTools-like)\par}
+{\pard\ql\f0\sa180\li0\fi0\b\fs36 Track Selection Follows Razor Areas\par}
+{\pard\ql\f0\sa180\li0\fi0 Tracks containing Razor Edit areas are automatically selected,\par}
+{\pard\ql\f0\sa0\li0\fi0 while other tracks are deselected.\par}
+
+{\pard\ql\f0\sa180\li0\fi0 Behavior:\par}
+{\pard\ql\f0\sa0\li360\fi-360\bullet\tx360\tab If tracks contain Razor Edit areas → those tracks become selected.\par}
+{\pard\ql\f0\sa0\li360\fi-360\bullet\tx360\tab Tracks without Razor Edit areas are automatically deselected.\par}
+{\pard\ql\f0\sa0\li360\fi-360\bullet\tx360\tab Toggle action enables or disables the behavior.\par}
+
+{\pard\ql\f0\sa180\li0\fi0 Ideal for:\par}
+{\pard\ql\f0\sa0\li360\fi-360\bullet\tx360\tab Pro Tools–style editing workflows.\par}
+{\pard\ql\f0\sa0\li360\fi-360\bullet\tx360\tab Keeping track selection synchronized with edit selections.\par}
+}
+]]></description>
+        <author>Mariow</author>
+        <version>1.0</version>
+        <link>https://github.com/Geeksound/Reaper_Scripts-Mariow</link>
+        <tags>editing, razor edit, tracks, selection, (protools-like)</tags>
+      </metadata>
+      
+      <version name="1.0" author="Mariow" time="2025-06-07T00:00:00Z">
+        <changelog><![CDATA[
+v1.0 (2025-06-07)
+- Initial release
+- Links Razor Edit areas to track selection
+- Automatically selects tracks containing Razor Edit areas
+]]></changelog>
+        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/ProTools_Essentials/Link-Unlink-RazorToTrack(PT%20like).lua</source>
+      </version>
+    </reapack>
     <reapack name="RatingClip-Bad.lua" type="script">
       <metadata>
         <description><![CDATA[
