@@ -33,7 +33,7 @@
         <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/Documentations/Repository-Guide.lua</source>
       </version>
     </reapack>
-    <reapack name="Mariow-ScriptsInteractiveRepository.lua" type="script" desc="Interactive ImGui launcher and visual repository for Mariow Scripts">
+    <reapack name="Geeksound_Mariow-ScriptsInteractiveRepository.lua" type="script" desc="Interactive ImGui launcher and visual repository for Mariow Scripts">
       <metadata>
         <description><![CDATA[{\rtf1\ansi\deff0
 {\fonttbl{\f0\fswiss Helvetica;}{\f1\fmodern Courier;}}
@@ -110,7 +110,7 @@ v1.1 (2025-12-XX)
     </reapack>
   </category>
   <category name="Editing">
-    <reapack name="Swap-ItemsPositionsOnSameTracks.lua" type="script" desc="Swap the position of 2 selected items">
+    <reapack name="Geeksound_Swap-ItemsPositionsOnSameTracks.lua" type="script" desc="Swap the position of 2 selected items">
       <metadata>
         <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
 {\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
@@ -129,7 +129,7 @@ v1.1 (2025-12-XX)
         <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/Editing/Swap-ItemsPositionsOnSameTracks.lua</source>
       </version>
     </reapack>
-    <reapack name="TimeShift.lua" type="script" desc="TimeShift (Pro Tools Style)">
+    <reapack name="Geeksound_TimeShift.lua" type="script" desc="TimeShift (Pro Tools Style)">
       <metadata>
         <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
 {\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
@@ -193,7 +193,7 @@ v1.1 (2025-12-XX)
         <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/Editing/TimeShift.lua</source>
       </version>
     </reapack>
-    <reapack name="TrackManager.lua" type="script" desc="Track Manager — Compact Track Visualization Tool">
+    <reapack name="Geeksound_TrackManager.lua" type="script" desc="Track Manager — Compact Track Visualization Tool">
       <metadata>
         <description><![CDATA[
 {\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
@@ -253,7 +253,7 @@ v1.0 (2025-10-28)
         <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/Editing/TRACKMANAGER.lua</source>
       </version>
     </reapack>
-    <reapack name="TrackManager-Expanded.lua" type="script" desc="Track Manager — Extended Track Visualization Tool">
+    <reapack name="Geeksound_TrackManager-Expanded.lua" type="script" desc="Track Manager — Extended Track Visualization Tool">
       <metadata>
         <description><![CDATA[
 {\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
@@ -313,7 +313,7 @@ v1.0 (2025-10-28)
         <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/Editing/TRACKMANAGERexpanded.lua</source>
       </version>
     </reapack>
-    <reapack name="ReaPlaceClip.lua" type="script" desc="ReaPlaceClip — Replace Clip (Pro Tools Style)">
+    <reapack name="Geeksound_ReaPlaceClip.lua" type="script" desc="ReaPlaceClip — Replace Clip (Pro Tools Style)">
       <metadata>
         <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
 {\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
@@ -345,7 +345,7 @@ v1.0 (2025-11-04)
         <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/Editing/ReaplaceClip.lua</source>
       </version>
     </reapack>
-    <reapack name="ShuffleItems.lua" type="script" desc="Shuffle Items on One Track (Pro Tools Style)">
+    <reapack name="Geeksound_ShuffleItems.lua" type="script" desc="Shuffle Items on One Track (Pro Tools Style)">
       <metadata>
         <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
 {\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
@@ -364,7 +364,7 @@ v1.0 (2025-11-04)
         <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/Editing/ShuffleItems.lua</source>
       </version>
     </reapack>
-    <reapack name="RemoveTakesByChoices.lua" type="script" desc="Delete checked takes from 1 to 10">
+    <reapack name="Geeksound_RemoveTakesByChoices.lua" type="script" desc="Delete checked takes from 1 to 10">
       <metadata>
         <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
 {\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
@@ -383,7 +383,7 @@ v1.0 (2025-11-04)
         <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/Editing/RemoveTakesByChoices.lua</source>
       </version>
     </reapack>
-    <reapack name="ItemControlBoard.lua" type="script" desc="Item Control Board — Interactive Media Item Palette">
+    <reapack name="Geeksound_ItemControlBoard.lua" type="script" desc="Item Control Board — Interactive Media Item Palette">
       <metadata>
         <description><![CDATA[
 {\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
@@ -431,7 +431,7 @@ v1.0 (2025-11-11)
         <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/Editing/ItemControlBoard.lua</source>
       </version>
     </reapack>
-    <reapack name="MoveItemToTrackAbove.lua" type="script" desc="Move selected item to track above">
+    <reapack name="Geeksound_MoveItemToTrackAbove.lua" type="script" desc="Move selected item to track above">
       <metadata>
         <description><![CDATA[
 Moves the first selected media item to the track directly above it (if it exists).  
@@ -447,7 +447,7 @@ v1.0 (2025-11-10)
         <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/Editing/Mariow-MoveItemToTrackAbove.lua</source>
       </version>
     </reapack>
-    <reapack name="MoveItemToTrackBelow.lua" type="script" desc="Move selected item to track below (create new one if needed)">
+    <reapack name="Geeksound_MoveItemToTrackBelow.lua" type="script" desc="Move selected item to track below (create new one if needed)">
       <metadata>
         <description><![CDATA[
 Moves the first selected media item to the track directly below it.  
@@ -466,7 +466,7 @@ v1.0 (2025-11-10)
     </reapack>
   </category>
   <category name="Editing_TRIM">
-      <reapack name="Trim-LeftRight@range.lua" type="script" desc="TrimEdgesWithSliders(ImGui)">
+      <reapack name="Geeksound_Trim-LeftRight@range.lua" type="script" desc="TrimEdgesWithSliders(ImGui)">
       <metadata>
         <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
 {\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
@@ -496,7 +496,7 @@ v1.0 (2025-11-06)
         <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/Editing_TRIM/Trim-LeftRight@range.lua</source>
       </version>
     </reapack>
-    <reapack name="UnTrimStartToPrev.lua" type="script" desc="TrimLeft-ToPreviousClip(PT-Like)">
+    <reapack name="Geeksound_UnTrimStartToPrev.lua" type="script" desc="TrimLeft-ToPreviousClip(PT-Like)">
       <metadata>
         <description><![CDATA[
 {\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
@@ -542,7 +542,7 @@ v1.0 (2025-11-06)
         <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/Editing_TRIM/UnTrimStartToPrev.lua</source>
       </version>
     </reapack>
-    <reapack name="UnTrimEndToNext.lua" type="script" desc="TrimRightt-ToNextClip(PT-Like)">
+    <reapack name="Geeksound_UnTrimEndToNext.lua" type="script" desc="TrimRightt-ToNextClip(PT-Like)">
       <metadata>
         <description><![CDATA[
 {\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
@@ -573,7 +573,7 @@ v1.0 (2025-11-06)
         <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/Editing_TRIM/UnTrimEndToNext.lua</source>
       </version>
     </reapack>
-    <reapack name="UnTrimBetweenItems.lua" type="script" desc="UntrimBetweenItems">
+    <reapack name="Geeksound_UnTrimBetweenItems.lua" type="script" desc="UntrimBetweenItems">
       <metadata>
         <description><![CDATA[
 {\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
@@ -625,7 +625,7 @@ v1.0 (2025-11-06)
         <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/Editing_TRIM/UnTrimBetweenItems.lua</source>
       </version>
     </reapack>
-    <reapack name="DualTrimSlider-EvenOddItems" type="script" desc="DualTrimSlider-EvenOddItems">
+    <reapack name="Geeksound_DualTrimSlider-EvenOddItems" type="script" desc="DualTrimSlider-EvenOddItems">
       <metadata>
         <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
 {\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
@@ -659,7 +659,7 @@ v1.0 (2026-01-08)
         <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/Editing_TRIM/DualTrimSlider-EvenOddItems.lua</source>
       </version>
     </reapack>
-    <reapack name="Auto-Split Overlapping Items (Keep Top Item)" type="script" desc="TrimAndSplitItemUnderUnderneath">
+    <reapack name="Geeksound_Auto-Split Overlapping Items (Keep Top Item)" type="script" desc="TrimAndSplitItemUnderUnderneath">
       <metadata>
         <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
 {\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
@@ -689,7 +689,7 @@ v1.0 (2025-11-11)
     </reapack>
   </category>
   <category name="Field-Recorder_Workflow">
-    <reapack name="Detect-DeleteEmpty-Items.lua" type="script" desc="Detect-DeleteEmpty-Items">
+    <reapack name="Geeksound_Detect-DeleteEmpty-Items.lua" type="script" desc="Detect-DeleteEmpty-Items">
       <metadata>
         <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
 {\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
@@ -715,7 +715,7 @@ v1.0 (2025-11-11)
         <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/Field-Recorder_Workflow/Detect-DeleteEmpty-Items.lua</source>
       </version>
     </reapack>
-    <reapack name="DetectEmpty-Items.lua" type="script" desc="DetectEmpty-Items">
+    <reapack name="Geeksound_DetectEmpty-Items.lua" type="script" desc="DetectEmpty-Items">
       <metadata>
         <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
 {\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
@@ -741,7 +741,7 @@ v1.0 (2025-11-11)
         <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/Field-Recorder_Workflow/DetectEmpty-Items.lua</source>
       </version>
     </reapack>
-    <reapack name="Dial-EditConform.lua" type="script" desc="Dial-EditConform">
+    <reapack name="Geeksound_Dial-EditConform.lua" type="script" desc="Dial-EditConform">
       <metadata>
         <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
 {\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
@@ -770,7 +770,7 @@ v1.0 (2025-11-11)
         <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/Field-Recorder_Workflow/Dial-EditConform.lua</source>
       </version>
     </reapack>
-    <reapack name="FieldrecorderTrack-Matching.lua" type="script" desc="FieldrecorderTrack (Pro Tools Style) ">
+    <reapack name="Geeksound_FieldrecorderTrack-Matching.lua" type="script" desc="FieldrecorderTrack (Pro Tools Style) ">
       <metadata>
         <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
 {\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
@@ -814,7 +814,7 @@ v1.0 (2025-06-08)
         <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/Field-Recorder_Workflow/FieldrecorderTrack-Matching.lua</source>
       </version>
     </reapack>
-    <reapack name="FieldrecorderTrack-Matching_AUTO-Lite.lua" type="script" desc="Auto-FieldrecorderTrack (Pro Tools Style)">
+    <reapack name="Geeksound_FieldrecorderTrack-Matching_AUTO-Lite.lua" type="script" desc="Auto-FieldrecorderTrack (Pro Tools Style)">
       <metadata>
         <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
 {\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
@@ -848,7 +848,7 @@ v1.0 (2025-06-08)
         <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/Field-Recorder_Workflow/FieldrecorderTrack-Matching_AUTO-Lite.lua</source>
       </version>
     </reapack>
-    <reapack name="FieldrecordingSound-Report.lua" type="script" desc="Fieldrecording Sound-Report">
+    <reapack name="Geeksound_FieldrecordingSound-Report.lua" type="script" desc="Fieldrecording Sound-Report">
       <metadata>
         <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
 {\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
@@ -880,7 +880,7 @@ v1.0 (2025-06-08)
         <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/Field-Recorder_Workflow/FieldrecordingSound-Report.lua</source>
       </version>
     </reapack>
-    <reapack name="ItemNames-To-TrackNames.lua" type="script" desc="ItemNames-To-TrackNames">
+    <reapack name="Geeksound_ItemNames-To-TrackNames.lua" type="script" desc="ItemNames-To-TrackNames">
       <metadata>
         <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
 {\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
@@ -903,7 +903,7 @@ v1.0 (2025-06-08)
         <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/Field-Recorder_Workflow/ItemNames-To-TrackNames.lua</source>
       </version>
     </reapack>
-    <reapack name="Remove-DuplicateItems.lua" type="script" desc="Remove-DuplicateItems">
+    <reapack name="Geeksound_Remove-DuplicateItems.lua" type="script" desc="Remove-DuplicateItems">
       <metadata>
         <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
 {\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
@@ -927,7 +927,7 @@ v1.0 (2025-06-08)
         <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/Field-Recorder_Workflow/Remove-DuplicateItems.lua</source>
       </version>
     </reapack>
-    <reapack name="RenameItemFrom-ShootingSlate.lua" type="script" desc="RenameItemFrom-ShootingSlate">
+    <reapack name="Geeksound_RenameItemFrom-ShootingSlate.lua" type="script" desc="RenameItemFrom-ShootingSlate">
       <metadata>
         <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
 {\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
@@ -959,7 +959,7 @@ v1.1 (2025-11-05)
         <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/Field-Recorder_Workflow/RenameItemFrom-ShootingSlate.lua</source>
       </version>
     </reapack>
-    <reapack name="Set-ItemFor-IXMLRendering.lua" type="script" desc="Set-ItemFor-IXMLRendering">
+    <reapack name="Geeksound_Set-ItemFor-IXMLRendering.lua" type="script" desc="Set-ItemFor-IXMLRendering">
       <metadata>
         <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
 {\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
@@ -988,7 +988,7 @@ v1.0 (2025-06-08)
         <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/Field-Recorder_Workflow/Set-ItemFor-IXMLRendering.lua</source>
       </version>
     </reapack>
-    <reapack name="SelectDISARMEDitemFromCANTARMonofiles.lua" type="script" desc="Select DISARMED items from Cantar mono files">
+    <reapack name="Geeksound_SelectDISARMEDitemFromCANTARMonofiles.lua" type="script" desc="Select DISARMED items from Cantar mono files">
       <metadata>
         <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
 {\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
@@ -1014,7 +1014,7 @@ v1.0 (2025-06-08)
     </reapack>
   </category>
   <category name="Metadatas">
-    <reapack name="View-FieldRecorder-Metadatas.lua" type="script" desc="View-FieldRecorder-Metadatas (Pro Tools Style)">
+    <reapack name="Geeksound_View-FieldRecorder-Metadatas.lua" type="script" desc="View-FieldRecorder-Metadatas (Pro Tools Style)">
       <metadata>
         <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
 {\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
@@ -1040,7 +1040,7 @@ v1.0 (2025-06-08)
         <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/3ff8cf1e618556101b6b8ea6183f848bfd49b4ea/Metadatas/View-FieldRecorder-Metadatas.lua</source>
       </version>
     </reapack>
-    <reapack name="ViewFile-FieldRecorder-Metadatas.lua" type="script" desc="ViewFile-FieldRecorder-Metadatas (Pro Tools Style)">
+    <reapack name="Geeksound_ViewFile-FieldRecorder-Metadatas.lua" type="script" desc="ViewFile-FieldRecorder-Metadatas (Pro Tools Style)">
       <metadata>
         <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
 {\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
@@ -1067,7 +1067,7 @@ v1.0 (2025-06-08)
     </reapack>
   </category>
   <category name="Utility">
-    <reapack name="CreateTracksFromText.lua" type="script" desc="CreateTracksFromText">
+    <reapack name="Geeksound_CreateTracksFromText.lua" type="script" desc="CreateTracksFromText">
       <metadata>
         <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
 {\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
@@ -1094,7 +1094,7 @@ v1.0 (2025-06-08)
         <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/Utility/CreateTracksFromText.lua</source>
       </version>
     </reapack>
-    <reapack name="CreateTextFromTracks.lua" type="script" desc="CreateTextFromTracks">
+    <reapack name="Geeksound_CreateTextFromTracks.lua" type="script" desc="CreateTextFromTracks">
       <metadata>
         <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
 {\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
@@ -1120,7 +1120,7 @@ v1.0 (2025-06-08)
         <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/Utility/CreateTextFromTracks.lua</source>
       </version>
     </reapack>
-    <reapack name="prefix-to-name.lua" type="script" desc="Add prefix to the NAME of Selected Item">
+    <reapack name="Geeksound_prefix-to-name.lua" type="script" desc="Add prefix to the NAME of Selected Item">
       <metadata>
         <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
 {\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
@@ -1146,7 +1146,7 @@ v1.0 (2025-06-08)
         <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/Utility/prefix-to-name.lua</source>
       </version>
     </reapack>
-    <reapack name="ReplaceXthCharacter-inName.lua" type="script" desc="CharacterText Interchange in Names">
+    <reapack name="Geeksound_ReplaceXthCharacter-inName.lua" type="script" desc="CharacterText Interchange in Names">
       <metadata>
         <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
 {\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
@@ -1172,7 +1172,7 @@ v1.0 (2025-06-08)
         <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/Utility/ReplaceXthCharacter-inName.lua</source>
       </version>
     </reapack>
-    <reapack name="SelNoNamed-Tracks.lua" type="script" desc="SelNoNamed-Tracks">
+    <reapack name="Geeksound_SelNoNamed-Tracks.lua" type="script" desc="SelNoNamed-Tracks">
       <metadata>
         <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
 {\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
@@ -1192,7 +1192,7 @@ v1.0 (2025-06-08)
         <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/Utility/SelNoNamed-Tracks.lua</source>
       </version>
     </reapack>
-    <reapack name="ThumbnailDownload.lua" type="script" desc="Download Mariow's Thumbnail">
+    <reapack name="Geeksound_ThumbnailDownload.lua" type="script" desc="Download Mariow's Thumbnail">
       <metadata>
         <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
 {\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
@@ -1211,7 +1211,7 @@ v1.0 (2025-06-08)
         <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/Utility/ThumbnailDownload.lua</source>
       </version>
     </reapack>
-    <reapack name="GotoTime-Advanced.lua" type="script" desc="GoTo Time/Markers">
+    <reapack name="Geeksound_GotoTime-Advanced.lua" type="script" desc="GoTo Time/Markers">
       <metadata>
         <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
 {\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
@@ -1248,7 +1248,7 @@ v1.0 (2025-11-05)
         <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/Utility/GotoTime-Advanced.lua</source>
       </version>
     </reapack>
-    <reapack name="MoveItem-OneKNOB.lua" type="script" desc="MoveItemUP/Down-OneKNOB">
+    <reapack name="Geeksound_MoveItem-OneKNOB.lua" type="script" desc="MoveItemUP/Down-OneKNOB">
       <metadata>
         <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
 {\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
@@ -1275,7 +1275,7 @@ v1.0 (2025-11-10)
         <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/Utility/MoveItem-OneKNOB.lua</source>
       </version>
     </reapack>
-    <reapack name="GoTo-Markers.lua" type="script" desc="GoTo Markers (ImGui)">
+    <reapack name="Geeksound_GoTo-Markers.lua" type="script" desc="GoTo Markers (ImGui)">
       <metadata>
         <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
 {\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
@@ -1302,7 +1302,7 @@ v1.0 (2025-11-12)
         <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/Utility/GoTo-Markers.lua</source>
       </version>
     </reapack>
-    <reapack name="Create-CueItem.lua" type="script" desc="Create-CueItem">
+    <reapack name="Geeksound_Create-CueItem.lua" type="script" desc="Create-CueItem">
       <metadata>
         <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
 {\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
@@ -1340,7 +1340,7 @@ v1.0 (2025-12-05)
         </source>
       </version>
     </reapack>
-    <reapack name="MultiplyDivide-TimeAreas.lua" type="script" desc="Multiply / Divide time areas with HH:MM:SS:Frames (ReaImGui)">
+    <reapack name="Geeksound_MultiplyDivide-TimeAreas.lua" type="script" desc="Multiply / Divide time areas with HH:MM:SS:Frames (ReaImGui)">
       <metadata>
         <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
 {\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
@@ -1379,7 +1379,7 @@ v1.5 (2025-11-26)
         <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/Utility/Multiply%3ADivide-TimeAreas.lua</source>
       </version>
     </reapack>
-    <reapack name="ImportVideo.lua" type="script" desc="Import Video like Pro Tools (ImGui) with Audio extraction, mute Video items and group items)">
+    <reapack name="Geeksound_ImportVideo.lua" type="script" desc="Import Video like Pro Tools (ImGui) with Audio extraction, mute Video items and group items)">
       <metadata>
         <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
 {\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
@@ -1421,7 +1421,7 @@ v1.0 (2025-12-17)
     </reapack>
   </category>
   <category name="View">
-    <reapack name="Interactive-TC-Display.lua" type="script" desc="Interactive-TC-Display">
+    <reapack name="Geeksound_Interactive-TC-Display.lua" type="script" desc="Interactive-TC-Display">
       <metadata>
         <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
 {\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
@@ -1473,7 +1473,7 @@ v1.0 (2025-12-17)
         <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/View/Interactive-TC-Display.lua</source>
       </version>
     </reapack>
-    <reapack name="AdvancedFind.lua" type="script" desc="AdvancedFind">
+    <reapack name="Geeksound_AdvancedFind.lua" type="script" desc="AdvancedFind">
       <metadata>
         <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
 {\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
@@ -1510,7 +1510,7 @@ v1.0 (2025-12-17)
     </reapack>
   </category>
   <category name="PROTOOLS">
-    <reapack name="SyncPoint-ToEditCursor.lua" type="script" desc="SyncPoint-ToEditCursor">
+    <reapack name="Geeksound_SyncPoint-ToEditCursor.lua" type="script" desc="SyncPoint-ToEditCursor">
       <metadata>
         <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
 {\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
@@ -1537,7 +1537,7 @@ v1.0 (2025-12-17)
         <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/PROTOOLS/SyncPoint-ToEditCursor.lua</source>
       </version>
     </reapack>
-    <reapack name="Paste-ToFill.lua" type="script" desc="Paste-ToFill">
+    <reapack name="Geeksound_Paste-ToFill.lua" type="script" desc="Paste-ToFill">
       <metadata>
         <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
 {\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
@@ -1566,7 +1566,7 @@ v1.0 (2025-11-12)
         <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/PROTOOLS/Paste-ToFill.lua</source>
       </version>
     </reapack>
-    <reapack name="Paste(Pt-like).lua" type="script" desc="Paste PT-like compatible with Razor">
+    <reapack name="Geeksound_Paste(Pt-like).lua" type="script" desc="Paste PT-like compatible with Razor">
       <metadata>
         <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
 {\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
@@ -1597,7 +1597,7 @@ v1.0 (2026-02-23)
         <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/PROTOOLS/Paste(Pt-like).lua</source>
       </version>
     </reapack>
-    <reapack name="Copy(Pt-like).lua" type="script" desc="Copy PT-like (ignore time selection) + move cursor to source start">
+    <reapack name="Geeksound_Copy(Pt-like).lua" type="script" desc="Copy PT-like (ignore time selection) + move cursor to source start">
       <metadata>
         <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
 {\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
@@ -1627,7 +1627,7 @@ v1.0 (2026-02-24)
         <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/PROTOOLS/Copy(Pt-like).lua</source>
       </version>
     </reapack>
-    <reapack name="Revert-ToSaved.lua" type="script" desc="Revert-ToSaved">
+    <reapack name="Geeksound_Revert-ToSaved.lua" type="script" desc="Revert-ToSaved">
       <metadata>
         <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
 {\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
@@ -1655,7 +1655,7 @@ v1.0 (2026-02-24)
         <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/PROTOOLS/Revert-ToSaved.lua</source>
       </version>
     </reapack>
-    <reapack name="LinkUnlink-TimelineANDEdit-Sel.lua" type="script" desc="Toggle Link/Unlink TimelineEdit Selection">
+    <reapack name="Geeksound_LinkUnlink-TimelineANDEdit-Sel.lua" type="script" desc="Toggle Link/Unlink TimelineEdit Selection">
       <metadata>
         <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
 {\colortbl;\red0\green128\blue0;\red255\green0\blue0;}
@@ -1681,7 +1681,7 @@ v1.0 (2026-02-24)
         <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/PROTOOLS/LinkUnlink-TlineANDedit-Sel.lua</source>
       </version>
     </reapack>
-    <reapack name="LinkUnlink-TimelineANDEdit-SelOneKNOB.lua" type="script" desc="Toggle Link/Unlink TimelineEdit Selection (ImGui)">
+    <reapack name="Geeksound_LinkUnlink-TimelineANDEdit-SelOneKNOB.lua" type="script" desc="Toggle Link/Unlink TimelineEdit Selection (ImGui)">
       <metadata>
         <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
 {\colortbl;\red0\green128\blue0;\red255\green0\blue0;}
@@ -1708,7 +1708,7 @@ v1.0 (2026-02-24)
         <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/PROTOOLS/LinkUnlink-TlineANDedit-SelOneKNOB.lua</source>
       </version>
     </reapack>
-    <reapack name="PlayLoop.lua" type="script" desc="PlayLoop (Pro Tools style)">
+    <reapack name="Geeksound_PlayLoop.lua" type="script" desc="PlayLoop (Pro Tools style)">
       <metadata>
         <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
 {\colortbl;\red0\green128\blue0;\red255\green0\blue0;}
@@ -1737,7 +1737,7 @@ v1.0 (2026-02-24)
         <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/PROTOOLS/PlayLoop.lua</source>
       </version>
     </reapack>
-    <reapack name="PlayTimeSelection.lua" type="script" desc="Play TimeSelection (Pro Tools style)">
+    <reapack name="Geeksound_PlayTimeSelection.lua" type="script" desc="Play TimeSelection (Pro Tools style)">
       <metadata>
         <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
 {\colortbl;\red0\green128\blue0;\red255\green0\blue0;}
@@ -1766,7 +1766,7 @@ v1.0 (2026-02-24)
         <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/PROTOOLS/PlayTimeSelection.lua</source>
       </version>
     </reapack>
-    <reapack name="Save-Session-Copy-In.lua" type="script" desc="Save-Session-Copy-In">
+    <reapack name="Geeksound_Save-Session-Copy-In.lua" type="script" desc="Save-Session-Copy-In">
       <metadata>
         <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
 {\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
@@ -1797,7 +1797,7 @@ v1.0 (2025-11-21)
         <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/PROTOOLS/Save-Session-Copy-In.lua</source>
       </version>
     </reapack>
-    <reapack name="SaveSessionCopyInFolders.lua" type="script" desc="Advanced Session Copy In (4-Folder Routing)">
+    <reapack name="Geeksound_SaveSessionCopyInFolders.lua" type="script" desc="Advanced Session Copy In (4-Folder Routing)">
       <metadata>
         <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
 {\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
@@ -1846,7 +1846,7 @@ v1.0 (2025-11-21)
         <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/PROTOOLS/SaveSessionCopyInFolders.lua</source>
       </version>
     </reapack>
-    <reapack name="ZoomSel-(PT Alt F).lua" type="script">
+    <reapack name="Geeksound_ZoomSel-(PT Alt F).lua" type="script">
       <metadata>
         <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
 {\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
@@ -1878,7 +1878,7 @@ v1.0 (2025-11-26)
         <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/PROTOOLS/ZoomSel-(PT%20Alt%20F).lua</source>
       </version>
     </reapack>
-    <reapack name="MemoryLocation(as PT).lua" type="script">
+    <reapack name="Geeksound_MemoryLocation(as PT).lua" type="script">
       <metadata>
         <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0\fmodern Courier;}{\f1\fswiss Helvetica;}}
 {\colortbl;\red255\green0\blue0;}
@@ -1919,7 +1919,7 @@ v1.0 (2025-12-10)
         <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/PROTOOLS/MemoryLocation(As%20PT).lua</source>
       </version>
     </reapack>
-    <reapack name="ViewVideo.lua" type="script">
+    <reapack name="Geeksound_ViewVideo.lua" type="script">
       <metadata>
         <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0\fmodern Courier;}{\f1\fswiss Helvetica;}}
 {\colortbl;\red255\green0\blue0;}
@@ -1959,7 +1959,7 @@ v1.0 (2025-12-17)
         <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/PROTOOLS/ViewVideo.lua</source>
       </version>
     </reapack>
-    <reapack name="ImportVideo(PT-like).lua" type="script">
+    <reapack name="Geeksound_ImportVideo(PT-like).lua" type="script">
       <metadata>
         <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0\fmodern Courier;}{\f1\fswiss Helvetica;}}
 {\colortbl;\red255\green0\blue0;}
@@ -2011,7 +2011,7 @@ v1.0 (2025-12-17)
     </reapack>
   </category>
   <category name="ProTools_TAB">
-    <reapack name="(ProTools)TAB-AltShift.lua" type="script" desc="ProTools TAB - Alt+Shift+TAB (Extend Selection Left)">
+    <reapack name="Geeksound_(ProTools)TAB-AltShift.lua" type="script" desc="ProTools TAB - Alt+Shift+TAB (Extend Selection Left)">
       <metadata>
         <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
 {\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
@@ -2045,7 +2045,7 @@ v1.0 (2025-11-17)
         <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/ProTools_TAB/(Protools)TAB-AltShift.lua</source>
       </version>
     </reapack>
-    <reapack name="(ProTools)TAB-Ctrl.lua" type="script" desc="ProTools TAB - Ctrl+TAB (Select Next Item)">
+    <reapack name="Geeksound_(ProTools)TAB-Ctrl.lua" type="script" desc="ProTools TAB - Ctrl+TAB (Select Next Item)">
       <metadata>
         <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
 {\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
@@ -2078,7 +2078,7 @@ v1.0 (2025-11-17)
         <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/ProTools_TAB/(Protools)TAB-Ctrl.lua</source>
       </version>
     </reapack>
-    <reapack name="(ProTools)TAB-Ctrl(Alt).lua" type="script" desc="ProTools TAB - (Ctrl/Alt)+TAB (Select Previous Item)">
+    <reapack name="Geeksound_(ProTools)TAB-Ctrl(Alt).lua" type="script" desc="ProTools TAB - (Ctrl/Alt)+TAB (Select Previous Item)">
       <metadata>
         <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
 {\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
@@ -2111,7 +2111,7 @@ v1.0 (2025-11-17)
         <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/ProTools_TAB/(Protools)TAB-Ctrl(Alt).lua</source>
       </version>
     </reapack>
-    <reapack name="(Protools)TAB-FadeToggleShortcut.lua" type="script" desc="ProTools TAB - Toggle Fade (Keyboard Shortcut)">
+    <reapack name="Geeksound_(Protools)TAB-FadeToggleShortcut.lua" type="script" desc="ProTools TAB - Toggle Fade (Keyboard Shortcut)">
       <metadata>
         <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
 {\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
@@ -2151,7 +2151,7 @@ v1.0 (2025-06-07)
         <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/ProTools_TAB/(Protools)TAB-FadeToggleShortcut.lua</source>
       </version>
     </reapack>
-    <reapack name="(Protools)TAB-FadeToggleToolbarID.lua" type="script" desc="ProTools TAB - Toggle Fade (Toolbar Button RS1)">
+    <reapack name="Geeksound_(Protools)TAB-FadeToggleToolbarID.lua" type="script" desc="ProTools TAB - Toggle Fade (Toolbar Button RS1)">
       <metadata>
         <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
 {\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
@@ -2184,7 +2184,7 @@ v1.0 (2025-06-07)
         <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/ProTools_TAB/(Protools)TAB-FadeToggleToolbarID.lua</source>
       </version>
     </reapack>
-    <reapack name="(ProTools)TAB-Shift.lua" type="script" desc="ProTools TAB - Shift+TAB (Extend Selection / Time Selection)">
+    <reapack name="Geeksound_(ProTools)TAB-Shift.lua" type="script" desc="ProTools TAB - Shift+TAB (Extend Selection / Time Selection)">
       <metadata>
         <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
 {\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
@@ -2220,7 +2220,7 @@ v1.0 (2025-11-17)
         <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/ProTools_TAB/(Protools)TAB-Shift.lua</source>
       </version>
     </reapack>
-    <reapack name="(Protools)TAB-TransientToggleShortcut.lua" type="script" desc="ProTools TAB - Toggle TabToTransient (Keyboard Shortcut)">
+    <reapack name="Geeksound_(Protools)TAB-TransientToggleShortcut.lua" type="script" desc="ProTools TAB - Toggle TabToTransient (Keyboard Shortcut)">
       <metadata>
         <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
 {\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
@@ -2262,7 +2262,7 @@ v1.0 (2025-06-07)
         <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/ProTools_TAB/(Protools)TAB-TransientToggleShortcut.lua</source>
       </version>
     </reapack>
-    <reapack name="(Protools)TAB-TransientToggleToolbarID.lua" type="script" desc="ProTools TAB - Toggle TabToTransientDisable Fade (Toolbar Button)">
+    <reapack name="Geeksound_(Protools)TAB-TransientToggleToolbarID.lua" type="script" desc="ProTools TAB - Toggle TabToTransientDisable Fade (Toolbar Button)">
       <metadata>
         <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
 {\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
@@ -2305,7 +2305,7 @@ v1.0 (2025-06-07)
         <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/ProTools_TAB/(Protools)TAB-TransientToggleToolbarID.lua</source>
       </version>
     </reapack>
-    <reapack name="(Protools)TAB.lua" type="script" desc="ProTools TAB - Contextual Tab Navigation (Items / Fades / Transients)">
+    <reapack name="Geeksound_(Protools)TAB.lua" type="script" desc="ProTools TAB - Contextual Tab Navigation (Items / Fades / Transients)">
       <metadata>
         <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
 {\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
@@ -2352,7 +2352,7 @@ v1.0 (2025-06-07)
         <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/ProTools_TAB/(Protools)TAB.lua</source>
       </version>
     </reapack>
-    <reapack name="(Protools)TAB(alt).lua" type="script" desc="ProTools TAB - Contextual Reverse Tab Navigation (ALT+TAB)">
+    <reapack name="Geeksound_(Protools)TAB(alt).lua" type="script" desc="ProTools TAB - Contextual Reverse Tab Navigation (ALT+TAB)">
       <metadata>
         <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
 {\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
@@ -2399,7 +2399,7 @@ v1.0 (2025-06-07)
         <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/ProTools_TAB/(Protools)TAB(alt).lua</source>
       </version>
     </reapack>
-    <reapack name="(Protools)TAB(imgui).lua" type="script" desc="ProTools TAB - Main ImGui Controller (Fade / TabToTransient + ALT/SHIFT actions)">
+    <reapack name="Geeksound_(Protools)TAB(imgui).lua" type="script" desc="ProTools TAB - Main ImGui Controller (Fade / TabToTransient + ALT/SHIFT actions)">
       <metadata>
         <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
 {\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
@@ -2441,7 +2441,7 @@ v1.0 (2025-06-07)
         <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/ProTools_TAB/(Protools)TAB(imgui).lua</source>
       </version>
     </reapack>
-    <reapack name="(Protools)TAB-Instructions.lua" type="script" desc="ProTools TAB - Manual and Help (ImGui)">
+    <reapack name="Geeksound_(Protools)TAB-Instructions.lua" type="script" desc="ProTools TAB - Manual and Help (ImGui)">
       <metadata>
         <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
 {\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
@@ -2499,7 +2499,7 @@ v1.0 (2025-06-08)
     </reapack>
   </category>
   <category name="Protools_Edit">
-    <reapack name="Cut-Time-Per-Track(Shuffle).lua" type="script">
+    <reapack name="Geeksound_Cut-Time-Per-Track(Shuffle).lua" type="script">
       <metadata>
         <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
 {\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
@@ -2533,7 +2533,7 @@ v1.0 (2025-12-06)
         <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/Protools_Edit/Cut-Time-Per-Track(Shuffle).lua</source>
       </version>
     </reapack>
-    <reapack name="Consolidate-(PT AltShift3).lua" type="script">
+    <reapack name="Geeksound_Consolidate-(PT AltShift3).lua" type="script">
       <metadata>
         <description><![CDATA[
 Consolidate Items — Pro Tools Alt+Shift+3 Style
@@ -2556,7 +2556,7 @@ v1.0 (2025-11-26)
         <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/Protools_Edit/Consolidate-(PT%20AltShift3).lua</source>
       </version>
     </reapack>
-    <reapack name="Copy_Items.lua" type="script">
+    <reapack name="Geeksound_Copy_Items.lua" type="script">
       <metadata>
         <description><![CDATA[
 Copy Items — Pro Tools ⌘C Style
@@ -2578,7 +2578,7 @@ v1.0 (2025-12-06)
         <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/Protools_Edit/Copy-(PT%20CmdC)%20.lua</source>
       </version>
     </reapack>
-    <reapack name="DoubleRazorLength(PT-ShiftCtrlAltCmd-%).lua" type="script">
+    <reapack name="Geeksound_DoubleRazorLength(PT-ShiftCtrlAltCmd-%).lua" type="script">
       <metadata>
         <description><![CDATA[
 Double-length of Razor-Area on selected tracks
@@ -2601,7 +2601,7 @@ v1.0 (2025-11-26)
         <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/Protools_Edit/DoubleRazorLength(PT-ShiftCtrlAltCmd-%25).lua</source>
       </version>
     </reapack>
-    <reapack name="DoubleTimeLength(ShiftCtrlAltCmd-%).lua" type="script">
+    <reapack name="Geeksound_DoubleTimeLength(ShiftCtrlAltCmd-%).lua" type="script">
       <metadata>
         <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
 {\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
@@ -2629,7 +2629,7 @@ v1.0 (2025-11-26)
         <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/Protools_Edit/DoubleTimeLength(PT-ShiftCtrlAltCmd-%25).lua</source>
       </version>
     </reapack>
-    <reapack name="EndToFillSelection.lua" type="script">
+    <reapack name="Geeksound_EndToFillSelection.lua" type="script">
       <metadata>
         <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
 {\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
@@ -2657,7 +2657,7 @@ v1.0 (2025-06-07)
         <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/Protools_Edit/EndToFillSelection.lua</source>
       </version>
     </reapack>
-    <reapack name="ExtendEditDown(PT Shift M).lua" type="script">
+    <reapack name="Geeksound_ExtendEditDown(PT Shift M).lua" type="script">
       <metadata>
         <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
 {\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
@@ -2693,7 +2693,7 @@ v1.0 (2025-11-30)
         <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/Protools_Edit/ExtendEditDown(PT-Shift%20M).lua</source>
       </version>
     </reapack>
-    <reapack name="ExtendEditToEnd(PT AltShift Return).lua" type="script">
+    <reapack name="Geeksound_ExtendEditToEnd(PT AltShift Return).lua" type="script">
       <metadata>
         <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
 {\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
@@ -2722,7 +2722,7 @@ v1.0 (2025-12-01)
         <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/Protools_Edit/ExtendEDitToEnd(PT%20AltShift%20Return).lua</source>
       </version>
     </reapack>
-    <reapack name="ExtendEditToStart(PT Shift Return).lua" type="script">
+    <reapack name="Geeksound_ExtendEditToStart(PT Shift Return).lua" type="script">
       <metadata>
         <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
 {\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
@@ -2751,7 +2751,7 @@ v1.0 (2025-12-01)
         <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/Protools_Edit/ExtendEditToStart%28PT%20Shift%20Return%29.lua</source>
       </version>
     </reapack>
-    <reapack name="ExtendEditUp(PT Shift P).lua" type="script">
+    <reapack name="Geeksound_ExtendEditUp(PT Shift P).lua" type="script">
       <metadata>
         <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
 {\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
@@ -2786,7 +2786,7 @@ v1.0 (2025-11-30)
         <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/Protools_Edit/ExtendEditUP(PT-Shift%20P).lua</source>
       </version>
     </reapack>
-    <reapack name="HalveRazorLength(PT-ShiftCtrlAltCmd-L).lua" type="script">
+    <reapack name="Geeksound_HalveRazorLength(PT-ShiftCtrlAltCmd-L).lua" type="script">
       <metadata>
         <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
 {\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
@@ -2814,7 +2814,7 @@ v1.0 (2025-11-26)
         <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/Protools_Edit/HalveTimeLength(PT-ShiftCtrlAltCmd-L).lua</source>
       </version>
     </reapack>
-    <reapack name="HalveTimeLength(PT-ShiftCtrlAltCmd-L).lua" type="script">
+    <reapack name="Geeksound_HalveTimeLength(PT-ShiftCtrlAltCmd-L).lua" type="script">
       <metadata>
         <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
 {\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
@@ -2842,7 +2842,7 @@ v1.0 (2025-11-26)
         <source main="main">https://raw.githubusercontent.com/Geeksound/Reaper_Scripts-Mariow/main/Protools_Edit/HalveTimeLength(PT-ShiftCtrlAltCmd-L).lua</source>
       </version>
     </reapack>
-    <reapack name="Heal-Separation.lua" type="script">
+    <reapack name="Geeksound_Heal-Separation.lua" type="script">
       <metadata>
         <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
 {\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
@@ -2869,7 +2869,7 @@ v1.0 (2025-11-25)
         <source main="main">https://raw.githubusercontent.com/Geeksound/Reaper_Scripts-Mariow/main/Protools_Edit/Heal-Separation%20(PT-Cmd%20H).lua</source>
       </version>
     </reapack>
-    <reapack name="Snap-Item-ToNext.lua" type="script">
+    <reapack name="Geeksound_Snap-Item-ToNext.lua" type="script">
       <metadata>
         <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
 {\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
@@ -2903,7 +2903,7 @@ v1.0 (2025-11-26)
         <source main="main">https://raw.githubusercontent.com/Geeksound/Reaper_Scripts-Mariow/main/Protools_Edit/Snap-Item-ToNext.lua</source>
       </version>
     </reapack>
-    <reapack name="Snap-Item-ToPrevious.lua" type="script">
+    <reapack name="Geeksound_Snap-Item-ToPrevious.lua" type="script">
       <metadata>
         <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
 {\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
@@ -2937,7 +2937,7 @@ v1.0 (2025-11-26)
         <source main="main">https://raw.githubusercontent.com/Geeksound/Reaper_Scripts-Mariow/main/Protools_Edit/Snap-Item-ToPrevious.lua</source>
       </version>
     </reapack>
-    <reapack name="Space-Clips.lua" type="script">
+    <reapack name="Geeksound_Space-Clips.lua" type="script">
       <metadata>
         <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
 {\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
@@ -2965,7 +2965,7 @@ v1.0 (2025-06-07)
         <source main="main">https://raw.githubusercontent.com/Geeksound/Reaper_Scripts-Mariow/main/Protools_Edit/Space-Clips.lua</source>
       </version>
     </reapack>
-    <reapack name="Split-Item(as PT).lua" type="script">
+    <reapack name="Geeksound_Split-Item(as PT).lua" type="script">
       <metadata>
         <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
 {\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
@@ -2995,7 +2995,7 @@ v1.0 (2025-06-07)
         <source main="main">https://raw.githubusercontent.com/Geeksound/Reaper_Scripts-Mariow/main/Protools_Edit/Split-Item(as%20PT).lua</source>
       </version>
     </reapack>
-    <reapack name="StartToFillSelection.lua" type="script">
+    <reapack name="Geeksound_StartToFillSelection.lua" type="script">
       <metadata>
         <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
 {\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
@@ -3022,7 +3022,7 @@ v1.0 (2025-06-07)
         <source main="main">https://raw.githubusercontent.com/Geeksound/Reaper_Scripts-Mariow/main/Protools_Edit/StartToFillSelection.lua</source>
       </version>
     </reapack>
-    <reapack name="Trim-Left-(PT Q).lua" type="script">
+    <reapack name="Geeksound_Trim-Left-(PT Q).lua" type="script">
       <metadata>
         <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
 {\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
@@ -3049,7 +3049,7 @@ v1.0 (2025-11-26)
         <source main="main">https://raw.githubusercontent.com/Geeksound/Reaper_Scripts-Mariow/main/Protools_Edit/Trim-Left-(PT%20Q).lua</source>
       </version>
     </reapack>
-    <reapack name="Trim-Right-(PT S).lua" type="script">
+    <reapack name="Geeksound_Trim-Right-(PT S).lua" type="script">
       <metadata>
         <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
 {\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
@@ -3076,7 +3076,7 @@ v1.0 (2025-11-26)
         <source main="main">https://raw.githubusercontent.com/Geeksound/Reaper_Scripts-Mariow/main/Protools_Edit/Trim-Right-(PT%20S).lua</source>
       </version>
     </reapack>
-    <reapack name="TrimToSelection.lua" type="script">
+    <reapack name="Geeksound_TrimToSelection.lua" type="script">
       <metadata>
         <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
 {\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
@@ -3103,7 +3103,7 @@ v1.0 (2025-06-07)
         <source main="main">https://raw.githubusercontent.com/Geeksound/Reaper_Scripts-Mariow/main/Protools_Edit/TrimToSelection.lua</source>
       </version>
     </reapack>
-    <reapack name="Create-6PointsEnveloppe(PT).lua" type="script">
+    <reapack name="Geeksound_Create-6PointsEnveloppe(PT).lua" type="script">
       <metadata>
         <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
 {\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
@@ -3143,7 +3143,7 @@ v1.3 (2025-12-11)
     </reapack>
   </category>
   <category name="ProTools_Essentials">
-    <reapack name="Strip-Silence (PT-Cmd U).lua" type="script">
+    <reapack name="Geeksound_Strip-Silence (PT-Cmd U).lua" type="script">
       <metadata>
         <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
 {\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
@@ -3170,7 +3170,7 @@ v1.0 (2025-06-07)
         <source main="main">https://raw.githubusercontent.com/Geeksound/Reaper_Scripts-Mariow/main/ProTools_Essentials/Strip-Silence%20(PT-Cmd%20U).lua</source>
       </version>
     </reapack>
-    <reapack name="ZoomPresets(PT-like).lua" type="script">
+    <reapack name="Geeksound_ZoomPresets(PT-like).lua" type="script">
       <metadata>
         <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
 {\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
@@ -3205,7 +3205,7 @@ v1.0 (2025-12-06)
         <source main="main">https://raw.githubusercontent.com/Geeksound/Reaper_Scripts-Mariow/main/ProTools_Essentials/ZoomPresets(PT-like).lua</source>
       </version>
     </reapack>
-    <reapack name="CycleEnvelope.lua" type="script">
+    <reapack name="Geeksound_CycleEnvelope.lua" type="script">
       <metadata>
         <description><![CDATA[
 {\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
@@ -3246,7 +3246,7 @@ v1.0 (2025-12-08)
         <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/ProTools_Essentials/CycleEnvelope.lua</source>
       </version>
     </reapack>
-    <reapack name="CycleEnvelopeRev.lua" type="script">
+    <reapack name="Geeksound_CycleEnvelopeRev.lua" type="script">
       <metadata>
         <description><![CDATA[
 {\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
@@ -3288,7 +3288,7 @@ v1.0 (2025-12-08)
         <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/ProTools_Essentials/CycleEnvelopeRev.lua</source>
       </version>
     </reapack>
-    <reapack name="ViewNameEnvelope(imGui).lua" type="script">
+    <reapack name="Geeksound_ViewNameEnvelope(imGui).lua" type="script">
       <metadata>
         <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
 {\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
@@ -3321,7 +3321,7 @@ v1.0 (2025-12-08)
         <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/ProTools_Essentials/ViewNameEnvelope(imGui).lua</source>
       </version>
     </reapack>
-    <reapack name="Scroll-To-Track(Altcmd F).lua" type="script">
+    <reapack name="Geeksound_Scroll-To-Track(Altcmd F).lua" type="script">
       <metadata>
         <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
 {\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
@@ -3348,7 +3348,7 @@ v1.0 (2025-11-25)
         <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/ProTools_Essentials/Scroll-To-Track(AltCmd%20F).lua</source>
       </version>
     </reapack>
-    <reapack name="TimeSelectionWatcher.lua" type="script">
+    <reapack name="Geeksound_TimeSelectionWatcher.lua" type="script">
       <metadata>
         <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
 {\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
@@ -3380,7 +3380,7 @@ v1.0 (2025-06-07)
         <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/ProTools_Essentials/TimeSelectionWatcher.lua</source>
       </version>
     </reapack>
-    <reapack name="RestoreLastSelection.lua" type="script">
+    <reapack name="Geeksound_RestoreLastSelection.lua" type="script">
       <metadata>
         <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
 {\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
@@ -3412,7 +3412,7 @@ v1.0 (2025-06-07)
         <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/ProTools_Essentials/Restore-LastSelection.lua</source>
       </version>
     </reapack>
-    <reapack name="PlayFromEnd.lua" type="script">
+    <reapack name="Geeksound_PlayFromEnd.lua" type="script">
       <metadata>
         <description><![CDATA[
 {\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
@@ -3446,7 +3446,7 @@ v1.0 (2025-06-07)
         <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/ProTools_Essentials/PlayFromEnd(PT%20cmd%20RightArrow).lua</source>
       </version>
     </reapack>
-    <reapack name="PlayFromStart.lua" type="script">
+    <reapack name="Geeksound_PlayFromStart.lua" type="script">
       <metadata>
         <description><![CDATA[
 {\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
@@ -3480,7 +3480,7 @@ v1.0 (2025-06-07)
         <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/ProTools_Essentials/PlayFromStart(PT%20CmdLeftArrow).lua</source>
       </version>
     </reapack>
-    <reapack name="PlayThruEnd.lua" type="script">
+    <reapack name="Geeksound_PlayThruEnd.lua" type="script">
       <metadata>
         <description><![CDATA[
 {\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
@@ -3514,7 +3514,7 @@ v1.0 (2025-06-07)
         <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/ProTools_Essentials/PlayThruEnd(PT%20AltCmdRightArrow).lua</source>
       </version>
     </reapack>
-    <reapack name="PlayThruStart.lua" type="script">
+    <reapack name="Geeksound_PlayThruStart.lua" type="script">
       <metadata>
         <description><![CDATA[
 {\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
@@ -3548,7 +3548,7 @@ v1.0 (2025-06-07)
         <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/ProTools_Essentials/PlayThruStart(PT%20AltCmdLeftArrow).lua</source>
       </version>
     </reapack>
-    <reapack name="PlayToEnd.lua" type="script">
+    <reapack name="Geeksound_PlayToEnd.lua" type="script">
       <metadata>
         <description><![CDATA[
 {\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
@@ -3582,7 +3582,7 @@ v1.0 (2025-06-07)
         <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/ProTools_Essentials/PlayToEnd(PT%20AltRightArrow).lua</source>
       </version>
     </reapack>
-    <reapack name="PlayToStart.lua" type="script">
+    <reapack name="Geeksound_PlayToStart.lua" type="script">
       <metadata>
         <description><![CDATA[
 {\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
@@ -3616,7 +3616,7 @@ v1.0 (2025-06-07)
         <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/ProTools_Essentials/PlayToStart(PT%20AltLeftArrow).lua</source>
       </version>
     </reapack>
-    <reapack name="PRE-Post-ROLL(Imgui).lua" type="script">
+    <reapack name="Geeksound_PRE-Post-ROLL(Imgui).lua" type="script">
       <metadata>
         <description><![CDATA[
 {\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
@@ -3659,7 +3659,7 @@ v1.0 (2025-06-07)
         <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/ProTools_Essentials/PRE-Post-ROLL(Imgui).lua</source>
       </version>
     </reapack>
-    <reapack name="NudgeForward.lua" type="script">
+    <reapack name="Geeksound_NudgeForward.lua" type="script">
       <metadata>
         <description><![CDATA[
 {\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
@@ -3703,7 +3703,7 @@ v1.0 (2025-06-07)
         <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/ProTools_Essentials/NudgeForward.lua</source>
       </version>
     </reapack>
-    <reapack name="NudgeBackward.lua" type="script">
+    <reapack name="Geeksound_NudgeBackward.lua" type="script">
       <metadata>
         <description><![CDATA[
 {\rtf1\ansi\deff0{\fonttbl{\f0 Arial;}}
@@ -3746,7 +3746,7 @@ v1.0 (2025-06-07)
         <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/ProTools_Essentials/NudgeBackward.lua</source>
       </version>
     </reapack>
-    <reapack name="NudgeBackwardx10.lua" type="script">
+    <reapack name="Geeksound_NudgeBackwardx10.lua" type="script">
       <metadata>
         <description><![CDATA[
 {\rtf1\ansi\deff0{\fonttbl{\f0 Arial;}}
@@ -3788,7 +3788,7 @@ v1.0 (2025-06-07)
         <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/ProTools_Essentials/NudgeBackwardx10.lua</source>
       </version>
     </reapack>
-    <reapack name="NudgeForwardx10.lua" type="script">
+    <reapack name="Geeksound_NudgeForwardx10.lua" type="script">
       <metadata>
         <description><![CDATA[
 {\rtf1\ansi\deff0{\fonttbl{\f0 Arial;}}
@@ -3831,7 +3831,7 @@ v1.0 (2025-06-07)
         <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/ProTools_Essentials/NudgeForward%20x10.lua</source>
       </version>
     </reapack>
-    <reapack name="ExtendRazor-TCui.lua" type="script">
+    <reapack name="Geeksound_ExtendRazor-TCui.lua" type="script">
       <metadata>
         <description><![CDATA[
 {\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
@@ -3880,7 +3880,7 @@ v1.0 (2025-12-09)
         <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/ProTools_Essentials/ExtendRazor-TCui.lua</source>
       </version>
     </reapack>
-    <reapack name="GrowLeftEdge-TCui.lua" type="script">
+    <reapack name="Geeksound_GrowLeftEdge-TCui.lua" type="script">
       <metadata>
         <description><![CDATA[
 {\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
@@ -3928,7 +3928,7 @@ v1.0 (2025-12-09)
         <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/ProTools_Essentials/GrowLeftEdge-TCui.lua</source>
       </version>
     </reapack>
-    <reapack name="GrowRightEdge-TCui.lua" type="script">
+    <reapack name="Geeksound_GrowRightEdge-TCui.lua" type="script">
       <metadata>
         <description><![CDATA[
 {\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
@@ -3975,7 +3975,7 @@ v1.0 (2025-12-09)
         <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/ProTools_Essentials/GrowRightEdge-TCui.lua</source>
       </version>
     </reapack>
-    <reapack name="MoveRazorAreaBackward-TCui.lua" type="script">
+    <reapack name="Geeksound_MoveRazorAreaBackward-TCui.lua" type="script">
       <metadata>
         <description><![CDATA[
 {\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
@@ -4022,7 +4022,7 @@ v1.0 (2025-12-09)
         <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/ProTools_Essentials/MoveRazorAreaBackward-TCui.lua</source>
       </version>
     </reapack>
-    <reapack name="MoveRazorAreaForward-TCui.lua" type="script">
+    <reapack name="Geeksound_MoveRazorAreaForward-TCui.lua" type="script">
       <metadata>
         <description><![CDATA[
 {\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
@@ -4069,7 +4069,7 @@ v1.0 (2025-12-09)
         <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/ProTools_Essentials/MoveRazorAreaForward-TCui.lua</source>
       </version>
     </reapack>
-    <reapack name="MoveRazorLeftBackward-TCui.lua" type="script">
+    <reapack name="Geeksound_MoveRazorLeftBackward-TCui.lua" type="script">
       <metadata>
         <description><![CDATA[
 {\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
@@ -4117,7 +4117,7 @@ v1.0 (2025-12-09)
         <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/ProTools_Essentials/MoveRazorLeftBackward-TCui.lua</source>
       </version>
     </reapack>
-    <reapack name="MoveRazorLeftForward-TCui.lua" type="script">
+    <reapack name="Geeksound_MoveRazorLeftForward-TCui.lua" type="script">
       <metadata>
         <description><![CDATA[
 {\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
@@ -4165,7 +4165,7 @@ v1.0 (2025-12-09)
         <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/ProTools_Essentials/MoveRazorLeftForward-TCui.lua</source>
       </version>
     </reapack>
-    <reapack name="MoveRazorRightBackward-TCui.lua" type="script">
+    <reapack name="Geeksound_MoveRazorRightBackward-TCui.lua" type="script">
       <metadata>
         <description><![CDATA[
 {\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
@@ -4213,7 +4213,7 @@ v1.0 (2025-12-09)
         <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/ProTools_Essentials/MoveRazorRightBackward-TCui.lua</source>
       </version>
     </reapack>
-    <reapack name="MoveTimeSelEndBackward-TCui.lua" type="script">
+    <reapack name="Geeksound_MoveTimeSelEndBackward-TCui.lua" type="script">
       <metadata>
         <description><![CDATA[
 {\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
@@ -4260,7 +4260,7 @@ v1.0 (2025-12-09)
         <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/ProTools_Essentials/MoveTimeSelEndBackward-TCui.lua</source>
       </version>
     </reapack>
-    <reapack name="MoveTimeSelEndForward-TCui.lua" type="script">
+    <reapack name="Geeksound_MoveTimeSelEndForward-TCui.lua" type="script">
       <metadata>
         <description><![CDATA[
 {\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
@@ -4307,7 +4307,7 @@ v1.0 (2025-12-09)
         <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/ProTools_Essentials/MoveTimeSelEndForward-TCui.lua</source>
       </version>
     </reapack>
-    <reapack name="MoveRazorRightForward-TCui.lua" type="script">
+    <reapack name="Geeksound_MoveRazorRightForward-TCui.lua" type="script">
       <metadata>
         <description><![CDATA[
 {\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
@@ -4355,7 +4355,7 @@ v1.0 (2025-12-09)
         <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/ProTools_Essentials/MoveRazorRightForward-TCui.lua</source>
       </version>
     </reapack>
-    <reapack name="MoveTimeSelectionStartBackward-TCui.lua" type="script">
+    <reapack name="Geeksound_MoveTimeSelectionStartBackward-TCui.lua" type="script">
       <metadata>
         <description><![CDATA[
 {\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
@@ -4403,7 +4403,7 @@ v1.0 (2025-12-09)
         <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/ProTools_Essentials/MoveTimeSelStartBackward-TCui.lua</source>
       </version>
     </reapack>
-    <reapack name="MoveTimeSelectionStartForward-TCui.lua" type="script">
+    <reapack name="Geeksound_MoveTimeSelectionStartForward-TCui.lua" type="script">
       <metadata>
         <description><![CDATA[
 {\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
@@ -4458,7 +4458,7 @@ v1.0 (2025-12-09)
         <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/ProTools_Essentials/MoveTimeSelStartForward-TCui.lua</source>
       </version>
     </reapack>
-    <reapack name="ShrinkLeftEdge-TCui.lua" type="script">
+    <reapack name="Geeksound_ShrinkLeftEdge-TCui.lua" type="script">
       <metadata>
         <description><![CDATA[
 {\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
@@ -4514,7 +4514,7 @@ v1.0 (2025-12-09)
         <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/ProTools_Essentials/ShrinkLeftEdge-TCui.lua</source>
       </version>
     </reapack>
-    <reapack name="ShrinkRazor-TCui.lua" type="script">
+    <reapack name="Geeksound_ShrinkRazor-TCui.lua" type="script">
       <metadata>
         <description><![CDATA[
 {\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
@@ -4573,7 +4573,7 @@ v1.0 (2025-12-09)
         <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/ProTools_Essentials/ShrinkRazor-TCui.lua</source>
       </version>
     </reapack>
-    <reapack name="ShrinkRightEdge-TCui.lua" type="script">
+    <reapack name="Geeksound_ShrinkRightEdge-TCui.lua" type="script">
       <metadata>
         <description><![CDATA[
 {\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
@@ -4632,7 +4632,7 @@ v1.0 (2025-12-09)
         <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/ProTools_Essentials/ShrinkRightEdge-TCui.lua</source>
       </version>
     </reapack>
-    <reapack name="ShrinkTimeSelection-TCui.lua" type="script">
+    <reapack name="Geeksound_ShrinkTimeSelection-TCui.lua" type="script">
       <metadata>
         <description><![CDATA[
 {\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
@@ -4690,7 +4690,7 @@ v1.0 (2025-12-09)
         <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/ProTools_Essentials/ShrinkTimeSelection-TCui.lua</source>
       </version>
     </reapack>
-    <reapack name="SlipClipContentBackward-TCui.lua" type="script">
+    <reapack name="Geeksound_SlipClipContentBackward-TCui.lua" type="script">
       <metadata>
         <description><![CDATA[
 {\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
@@ -4742,7 +4742,7 @@ v1.0 (2025-12-09)
         <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/ProTools_Essentials/SlipClipContentBackward-TCui.lua</source>
       </version>
     </reapack>
-    <reapack name="SlipClipContentForward-TCui.lua" type="script">
+    <reapack name="Geeksound_SlipClipContentForward-TCui.lua" type="script">
       <metadata>
         <description><![CDATA[
 {\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
@@ -4794,7 +4794,7 @@ v1.0 (2025-12-09)
         <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/ProTools_Essentials/SlipClipContentForward-TCui.lua</source>
       </version>
     </reapack>
-    <reapack name="ZoomOutHorizontal(PT-R).lua" type="script">
+    <reapack name="Geeksound_ZoomOutHorizontal(PT-R).lua" type="script">
       <metadata>
         <description><![CDATA[
 {\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
@@ -4828,7 +4828,7 @@ v1.0 (2025-11-26)
         <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/ProTools_Essentials/ZoomOutHorizontal(PT-R).lua</source>
       </version>
     </reapack>
-    <reapack name="ZoomInHorizontal(PT-T).lua" type="script">
+    <reapack name="Geeksound_ZoomInHorizontal(PT-T).lua" type="script">
       <metadata>
         <description><![CDATA[
 {\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
@@ -4862,7 +4862,7 @@ v1.0 (2025-11-26)
         <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/ProTools_Essentials/ZoomInHorizontal(PT-T).lua</source>
       </version>
     </reapack>
-    <reapack name="ExtendTimeSelection-TCui.lua" type="script">
+    <reapack name="Geeksound_ExtendTimeSelection-TCui.lua" type="script">
       <metadata>
         <description><![CDATA[
 {\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
@@ -4902,7 +4902,7 @@ v1.0 (2025-12-09)
         <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/ProTools_Essentials/ExtendTimeSelection-TCui.lua</source>
       </version>
     </reapack>
-    <reapack name="RazorDown(Pt-M).lua" type="script">
+    <reapack name="Geeksound_RazorDown(Pt-M).lua" type="script">
       <metadata>
         <description><![CDATA[
 {\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
@@ -4944,7 +4944,7 @@ v1.0 (2026-02-16)
         <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/ProTools_Essentials/RazorDown(Pt-M).lua</source>
       </version>
     </reapack>
-    <reapack name="RazorUp(Pt-P).lua" type="script">
+    <reapack name="Geeksound_RazorUp(Pt-P).lua" type="script">
       <metadata>
         <description><![CDATA[
 {\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
@@ -4986,7 +4986,7 @@ v1.0 (2026-02-16)
         <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/ProTools_Essentials/RazorUp(Pt-P).lua</source>
       </version>
     </reapack>
-    <reapack name="Link-Unlink-RazorToTrack(PT like).lua" type="script">
+    <reapack name="Geeksound_Link-Unlink-RazorToTrack(PT like).lua" type="script">
       <metadata>
         <description><![CDATA[
 {\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
@@ -5024,7 +5024,7 @@ v1.0 (2025-06-07)
         <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/ProTools_Essentials/Link-Unlink-RazorToTrack(PT%20like).lua</source>
       </version>
     </reapack>
-    <reapack name="RatingClip-Bad.lua" type="script">
+    <reapack name="Geeksound_RatingClip-Bad.lua" type="script">
       <metadata>
         <description><![CDATA[
 {\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
@@ -5060,7 +5060,7 @@ v1.0 (2026-02-16)
         <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/ProTools_Essentials/RatingClip-Bad.lua</source>
       </version>
     </reapack>
-    <reapack name="RatingClip-Ok.lua" type="script">
+    <reapack name="Geeksound_RatingClip-Ok.lua" type="script">
       <metadata>
         <description><![CDATA[
 {\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
@@ -5096,7 +5096,7 @@ v1.0 (2026-02-16)
         <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/ProTools_Essentials/RatingClip-Ok.lua</source>
       </version>
     </reapack>
-    <reapack name="RatingClip-Good.lua" type="script">
+    <reapack name="Geeksound_RatingClip-Good.lua" type="script">
       <metadata>
         <description><![CDATA[
 {\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
@@ -5132,7 +5132,7 @@ v1.0 (2026-02-16)
         <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/ProTools_Essentials/RatingClip-Good.lua</source>
       </version>
     </reapack>
-    <reapack name="RatingClip-Best.lua" type="script">
+    <reapack name="Geeksound_RatingClip-Best.lua" type="script">
       <metadata>
         <description><![CDATA[
 {\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
@@ -5168,7 +5168,7 @@ v1.0 (2026-02-16)
         <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/ProTools_Essentials/RatingClip-Best.lua</source>
       </version>
     </reapack>
-    <reapack name="RatingClip-Reset.lua" type="script">
+    <reapack name="Geeksound_RatingClip-Reset.lua" type="script">
       <metadata>
         <description><![CDATA[
 {\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
@@ -5205,7 +5205,7 @@ v1.0 (2026-02-16)
     </reapack>
   </category>
   <category name="Protools_Track">
-    <reapack name="DelTrack(AsPT).lua" type="script" desc="Safe Delete Selected Tracks (ProTools-style)">
+    <reapack name="Geeksound_DelTrack(AsPT).lua" type="script" desc="Safe Delete Selected Tracks (ProTools-style)">
       <metadata>
         <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
 {\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
@@ -5238,7 +5238,7 @@ v1.0 (2025-11-26)
         <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/Protools_Track/DelTrack(AsPT).lua</source>
       </version>
     </reapack>
-    <reapack name="GroupTracks(PT-CmdG).lua" type="script" desc="Group selected tracks (ProTools-like)">
+    <reapack name="Geeksound_GroupTracks(PT-CmdG).lua" type="script" desc="Group selected tracks (ProTools-like)">
       <metadata>
         <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
 {\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
@@ -5267,7 +5267,7 @@ v1.0 (2025-11-25)
         <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/Protools_Track/GroupTracks(PT-CmdG).lua</source>
       </version>
     </reapack>
-    <reapack name="InsertNewTrack(PT).lua" type="script" desc="Insert a new track and adjust it (ProTools-style)">
+    <reapack name="Geeksound_InsertNewTrack(PT).lua" type="script" desc="Insert a new track and adjust it (ProTools-style)">
       <metadata>
         <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
 {\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
@@ -5298,7 +5298,7 @@ v1.0 (2025-11-26)
         <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/Protools_Track/InsertNewTrack(PT).lua</source>
       </version>
     </reapack>
-    <reapack name="MonosTracks-ToST.lua" type="script" desc="Convert mono tracks to stereo takes (ProTools-like)">
+    <reapack name="Geeksound_MonosTracks-ToST.lua" type="script" desc="Convert mono tracks to stereo takes (ProTools-like)">
       <metadata>
         <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
 {\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
@@ -5334,7 +5334,7 @@ v1.0 (2025-06-07)
         <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/Protools_Track/MonosTracks-ToST.lua</source>
       </version>
     </reapack>
-    <reapack name="Split-ST-toMonos.lua" type="script" desc="Split stereo items into mono items (ProTools-like)">
+    <reapack name="Geeksound_Split-ST-toMonos.lua" type="script" desc="Split stereo items into mono items (ProTools-like)">
       <metadata>
         <description><![CDATA[
 {\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
