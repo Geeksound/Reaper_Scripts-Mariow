@@ -400,6 +400,13 @@ v1.0 (2025-11-04)
 ]]></description>
         <link rel="website">https://github.com/Geeksound/Reaper_Scripts-Mariow</link>
       </metadata>
+      <version name="1.1.3" author="Mariow" time="2026-03-06T00:00:00Z">
+        <changelog><![CDATA[
+v1.1.3 (2026-03-06)
+    -Close button added
+]]></changelog>
+        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/Editing/ItemControlBoard.lua</source>
+      </version>
       <version name="1.1.2" author="Mariow" time="2026-03-01T00:00:00Z">
         <changelog><![CDATA[
 v1.1.2 (2026-03-01)

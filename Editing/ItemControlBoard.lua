@@ -1,8 +1,10 @@
 --[[
 @description ItemControlBoard - Interactive Media Item Palette
-@version 1.1.2
+@version 1.1.3
 @author Mariow
 @changelog
+  v1.1.3 (2026-03-06)
+  -Close button added
   v1.1.2 (2026-03-01)
   -Interface Colorizing
   v1.1 (2026-02-26)
@@ -240,7 +242,7 @@ local function loop()
         if item then
             -- MOVE
             reaper.ImGui_Text(ctx,"     Move\n<----  ---->")
-            repeatButton(ctx,"moveVert", isAlt and "⬇ Down Track" or "⬆ Up Track", function() moveVertically(item, not isAlt) end)
+            repeatButton(ctx,"moveVert", isAlt and "⬇Down Track" or "⬆ Up Track", function() moveVertically(item, not isAlt) end)
             ImGui_HelpMarker(ctx, Texte1)
             repeatButton(ctx,"moveHor", isAlt and "Move RIGHT" or "Move LEFT", function() 
             local cmd = isAlt and 40119 or 40120
@@ -289,11 +291,11 @@ local function loop()
       reaper.ImGui_PushStyleColor(ctx, reaper.ImGui_Col_ButtonHovered(), 0xFF8C26FF) -- hover
       reaper.ImGui_PushStyleColor(ctx, reaper.ImGui_Col_ButtonActive(),  0xD65A0EFF) -- active
 
-      repeatButton(ctx,"gain", isAlt and "🔇 Lower Gain" or "🔊 Raise Gain",
+      repeatButton(ctx,"gain", isAlt and "🔇Lower Gain" or "🔊Raise  Gain",
          function() changeGain(item, not isAlt) end)
        ImGui_HelpMarker(ctx, Texte1)
 
-       repeatButton(ctx,"color", isAlt and "🌑 Darken Color" or "🌕 Lighten Color",
+       repeatButton(ctx,"color", isAlt and "🌑Dark  Color" or "🌕LightClolor",
           function() changeColor(item, not isAlt) end)
        ImGui_HelpMarker(ctx, Texte1)
 
@@ -340,7 +342,7 @@ reaper.ImGui_Text(ctx," ")
                 changeFade(item, isAlt and -0.5 or 0.5, false)
             end)
             ImGui_HelpMarker(ctx, Texte1)
-            repeatButton(ctx,"cycleFade", isAlt and "Cycle FADE Right" or "Cycle FADE Left", function()
+            repeatButton(ctx,"cycleFade", isAlt and "⟳ FADE/R" or "⟳ FADE/L", function()
                 local cmd = isAlt and 41527 or 41520
                 reaper.Main_OnCommand(cmd, 0)
             end)
@@ -350,7 +352,7 @@ reaper.ImGui_Text(ctx," ")
         end
             if vignette_image then
                -- ✅ Si la vignette existe, on affiche le bouton image
-              if reaper.ImGui_ImageButton(ctx, 'vignette_github_btn', vignette_image, 70, 70) then
+              if reaper.ImGui_ImageButton(ctx, 'vignette_github_btn', vignette_image, 65, 65) then
                 open_github_link()
               end
             else
@@ -359,12 +361,24 @@ reaper.ImGui_Text(ctx," ")
                 open_github_link()
                end
             end
+            
+            -- 🔴 Close Script Button
+reaper.ImGui_PushStyleColor(ctx, reaper.ImGui_Col_Button(),        0xB22222FF) -- normal
+reaper.ImGui_PushStyleColor(ctx, reaper.ImGui_Col_ButtonHovered(), 0xDC143CFF) -- hover
+reaper.ImGui_PushStyleColor(ctx, reaper.ImGui_Col_ButtonActive(),  0x8B0000FF) -- active
+            
+            if reaper.ImGui_Button(ctx, "Close\nScript", 40, 34) then
+                open = false
+            end
+            reaper.ImGui_PopStyleColor(ctx, 3)
         reaper.ImGui_End(ctx)
     else
         -- still call End to keep ImGui state consistent
         reaper.ImGui_End(ctx)
     end
+-----
 
+-----
     -- Si l'utilisateur a cliqué sur la croix, on arrête la boucle.
     if open then
         reaper.defer(loop)
