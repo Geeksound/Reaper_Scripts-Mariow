@@ -1331,9 +1331,7 @@ v1.0 (2025-11-12)
 v1.0 (2025-12-05)
 - Initial release: ImGui V2 tool to create and customize Empty Items
 ]]></changelog>
-        <source main="main">
-          https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/Utility/Create-CueItem.lua
-        </source>
+        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/Utility/Create-CueItem.lua</source>
       </version>
     </reapack>
     <reapack name="Geeksound_MultiplyDivide-TimeAreas.lua" type="script" desc="Multiply / Divide time areas with HH:MM:SS:Frames (ReaImGui)">
