@@ -6,7 +6,7 @@
   v1.0 (2025-11-25)
   - Initial release: scrolls to track matching filter text using Alt+Cmd F workflow
 @provides
-  [main] ProTools_Essentials/Mariow Scroll-To-Track(AltCmd F).lua
+  [main] ProTools_Essentials/Scroll-To-Track(AltCmd F).lua
 @link https://github.com/Geeksound/Reaper_Scripts-Mariow
 @repository https://github.com/Geeksound/Reaper_Scripts-Mariow
 @tags navigation, tracks, filtering, (protools-like)
