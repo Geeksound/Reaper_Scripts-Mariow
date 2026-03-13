@@ -8,7 +8,7 @@
   - Simulates Pro Tools 'Revert to Saved' inside REAPER
   - Closes the current project and reopens the last saved version
 @provides
-  [main] PROTOOLS/RevertToSaved.lua
+  [main] PROTOOLS/Geeksound_RevertToSaved.lua
 @link https://github.com/Geeksound/Reaper_Scripts-Mariow
 @repository https://github.com/Geeksound/Reaper_Scripts-Mariow
 @tags project, revert, undo, workflow
