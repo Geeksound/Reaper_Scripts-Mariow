@@ -9,7 +9,7 @@
   - Automatically matches pasted item color to parent track color
   - Clears Razor Edits and resets ripple state
 @provides
-  [main] PROTOOLS/Paste(Pt-like).lua
+  [main] PROTOOLS/Geeksound_Paste(Pt-like).lua
 @link https://github.com/Geeksound/Reaper_Scripts-Mariow
 @repository https://github.com/Geeksound/Reaper_Scripts-Mariow
 @tags paste, protools, editing, color, workflow
