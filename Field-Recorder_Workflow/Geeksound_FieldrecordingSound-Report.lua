@@ -9,7 +9,7 @@
   v1.0 (2025-06-17)
   - Initial release
 @provides
-  [main] Field-Recorder_Workflow/FieldrecordingSound-Reportlua
+  [main] Field-Recorder_Workflow/Geeksound_FieldrecordingSound-Reportlua
 @link https://github.com/Geeksound/Reaper_Scripts-Mariow
 @repository https://github.com/Geeksound/Reaper_Scripts-Mariow
 @tags dialogue recording conformation workflow Sound-report
