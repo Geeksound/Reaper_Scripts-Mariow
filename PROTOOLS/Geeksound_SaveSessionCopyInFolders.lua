@@ -11,7 +11,7 @@
   v1.0 (2025-11-21))
   - Initial release
 @provides
-  [main] PROTOOLS/SaveSessionCopyInFolders.lua
+  [main] PROTOOLS/Geeksound_SaveSessionCopyInFolders.lua
 @link https://github.com/Geeksound/Reaper_Scripts-Mariow
 @repository https://github.com/Geeksound/Reaper_Scripts-Mariow
 @tags media, routing, project, copy, session, matrix, protTools, utility, management
