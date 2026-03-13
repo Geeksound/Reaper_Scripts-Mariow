@@ -16,7 +16,7 @@
   - Automatically trims selected item to previous and next items on the same track
   - Unified undo block for clean undo history
 @provides
-  [main] Editing_TRIM/UnTrimBetweenItems.lua
+  [main] Editing_TRIM/Geeksound_UnTrimBetweenItems.lua
 @link https://github.com/Geeksound/Reaper_Scripts-Mariow
 @repository https://github.com/Geeksound/Reaper_Scripts-Mariow
 @tags items, editing, trimming, utility
