@@ -7,7 +7,7 @@
   - Initial release
   - Toggle Timeline / Edit Selection link/unlink (Pro Tools style)
 @provides
-  [main] PROTOOLS/LinkUnlink-TimelineANDEdit-Sel.lua
+  [main] PROTOOLS/Geeksound_LinkUnlink-TimelineANDEdit-Sel.lua
 @link https://github.com/Geeksound/Reaper_Scripts-Mariow
 @repository https://github.com/Geeksound/Reaper_Scripts-Mariow
 @tags timeline, edit selection, link, unlink, Pro Tools
