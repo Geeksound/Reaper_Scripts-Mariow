@@ -7,7 +7,7 @@
   v1.0 (2025-11-26)
   - Initial release
 @provides
-  [main] Utility/MultiplyDivide-TimeAreas.lua
+  [main] Utility/Geeksound_MultiplyDivide-TimeAreas.lua
 @link https://github.com/Geeksound/Reaper_Scripts-Mariow
 @repository https://github.com/Geeksound/Reaper_Scripts-Mariow
 @tags utility editing timing razor timesel loops imgui stretch
