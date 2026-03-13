@@ -13,7 +13,7 @@
   - Placement options: Start of project or Edit cursor
   - Ensures video window is visible (safe, non-toggle)
 @provides
-  [main] Utility/ImportVideo.lua
+  [main] Utility/Geeksound_ImportVideo.lua
 @link https://github.com/Geeksound/Reaper_Scripts-Mariow
 @repository https://github.com/Geeksound/Reaper_Scripts-Mariow
 @tags video, audio, import, group, workflow, imgui, utility
