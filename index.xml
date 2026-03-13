@@ -3164,7 +3164,7 @@ v1.0 (2025-06-07)
         <source main="main">https://raw.githubusercontent.com/Geeksound/Reaper_Scripts-Mariow/main/ProTools_Essentials/Strip-Silence%20(PT-Cmd%20U).lua</source>
       </version>
     </reapack>
-    <reapack name="Geeksound_ZoomPresets(PT-like).lua" type="script">
+    <reapack name="Geeksound_ZoomPresets(PT-like).lua" type="script" desc="Zoom Presets like in Protools">
       <metadata>
         <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
 {\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
@@ -3199,7 +3199,7 @@ v1.0 (2025-12-06)
         <source main="main">https://raw.githubusercontent.com/Geeksound/Reaper_Scripts-Mariow/main/ProTools_Essentials/ZoomPresets(PT-like).lua</source>
       </version>
     </reapack>
-    <reapack name="Geeksound_CycleEnvelope.lua" type="script">
+    <reapack name="Geeksound_CycleEnvelope.lua" type="script" desc="Cycle Enveloppe of item like in Protools">
       <metadata>
         <description><![CDATA[
 {\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
@@ -3240,7 +3240,7 @@ v1.0 (2025-12-08)
         <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/ProTools_Essentials/CycleEnvelope.lua</source>
       </version>
     </reapack>
-    <reapack name="Geeksound_CycleEnvelopeRev.lua" type="script">
+    <reapack name="Geeksound_CycleEnvelopeRev.lua" type="script" desc="Cycle envelope of Item in opposite side">
       <metadata>
         <description><![CDATA[
 {\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
@@ -3282,7 +3282,7 @@ v1.0 (2025-12-08)
         <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/ProTools_Essentials/CycleEnvelopeRev.lua</source>
       </version>
     </reapack>
-    <reapack name="Geeksound_ViewNameEnvelope(imGui).lua" type="script">
+    <reapack name="Geeksound_ViewNameEnvelope(imGui).lua" type="script" desc="ViewNameEnvelope(imGui)">
       <metadata>
         <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
 {\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
@@ -3315,7 +3315,7 @@ v1.0 (2025-12-08)
         <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/ProTools_Essentials/ViewNameEnvelope(imGui).lua</source>
       </version>
     </reapack>
-    <reapack name="Geeksound_Scroll-To-Track(Altcmd F).lua" type="script">
+    <reapack name="Geeksound_Scroll-To-Track(Altcmd F).lua" type="script"  desc="Scroll to tracks easily">
       <metadata>
         <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
 {\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
@@ -3342,7 +3342,7 @@ v1.0 (2025-11-25)
         <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/ProTools_Essentials/Scroll-To-Track(AltCmd%20F).lua</source>
       </version>
     </reapack>
-    <reapack name="Geeksound_TimeSelectionWatcher.lua" type="script">
+    <reapack name="Geeksound_TimeSelectionWatcher.lua" type="script"  desc="Time selection Watcher to restore last selection like in PT">
       <metadata>
         <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
 {\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
@@ -3374,7 +3374,7 @@ v1.0 (2025-06-07)
         <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/ProTools_Essentials/TimeSelectionWatcher.lua</source>
       </version>
     </reapack>
-    <reapack name="Geeksound_RestoreLastSelection.lua" type="script">
+    <reapack name="Geeksound_RestoreLastSelection.lua" type="script"  desc="Restore last selection like in Protools">
       <metadata>
         <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
 {\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
@@ -3406,7 +3406,7 @@ v1.0 (2025-06-07)
         <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/ProTools_Essentials/Restore-LastSelection.lua</source>
       </version>
     </reapack>
-    <reapack name="Geeksound_PlayFromEnd.lua" type="script">
+    <reapack name="Geeksound_PlayFromEnd.lua" type="script"  desc="Play from end of timeselection like in PT">
       <metadata>
         <description><![CDATA[
 {\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
@@ -3440,7 +3440,7 @@ v1.0 (2025-06-07)
         <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/ProTools_Essentials/PlayFromEnd(PT%20cmd%20RightArrow).lua</source>
       </version>
     </reapack>
-    <reapack name="Geeksound_PlayFromStart.lua" type="script">
+    <reapack name="Geeksound_PlayFromStart.lua" type="script"  desc="Play from start of timeselection like in PT">
       <metadata>
         <description><![CDATA[
 {\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
@@ -3474,7 +3474,7 @@ v1.0 (2025-06-07)
         <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/ProTools_Essentials/PlayFromStart(PT%20CmdLeftArrow).lua</source>
       </version>
     </reapack>
-    <reapack name="Geeksound_PlayThruEnd.lua" type="script">
+    <reapack name="Geeksound_PlayThruEnd.lua" type="script"  desc="Play thru end of timeselection like in PT">
       <metadata>
         <description><![CDATA[
 {\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
@@ -3508,7 +3508,7 @@ v1.0 (2025-06-07)
         <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/ProTools_Essentials/PlayThruEnd(PT%20AltCmdRightArrow).lua</source>
       </version>
     </reapack>
-    <reapack name="Geeksound_PlayThruStart.lua" type="script">
+    <reapack name="Geeksound_PlayThruStart.lua" type="script"  desc="Play thru start of timeselection like in PT">
       <metadata>
         <description><![CDATA[
 {\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
@@ -3542,7 +3542,7 @@ v1.0 (2025-06-07)
         <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/ProTools_Essentials/PlayThruStart(PT%20AltCmdLeftArrow).lua</source>
       </version>
     </reapack>
-    <reapack name="Geeksound_PlayToEnd.lua" type="script">
+    <reapack name="Geeksound_PlayToEnd.lua" type="script"  desc="Play to end of timeselection like in PT">
       <metadata>
         <description><![CDATA[
 {\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
@@ -3576,7 +3576,7 @@ v1.0 (2025-06-07)
         <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/ProTools_Essentials/PlayToEnd(PT%20AltRightArrow).lua</source>
       </version>
     </reapack>
-    <reapack name="Geeksound_PlayToStart.lua" type="script">
+    <reapack name="Geeksound_PlayToStart.lua" type="script"  desc="Play to start of selection like in PT">
       <metadata>
         <description><![CDATA[
 {\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
@@ -3610,7 +3610,7 @@ v1.0 (2025-06-07)
         <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/ProTools_Essentials/PlayToStart(PT%20AltLeftArrow).lua</source>
       </version>
     </reapack>
-    <reapack name="Geeksound_PRE-Post-ROLL(Imgui).lua" type="script">
+    <reapack name="Geeksound_PRE-Post-ROLL(Imgui).lua" type="script"  desc="Pre-Post Roll (window) like in PT">
       <metadata>
         <description><![CDATA[
 {\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
@@ -3653,7 +3653,7 @@ v1.0 (2025-06-07)
         <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/ProTools_Essentials/PRE-Post-ROLL(Imgui).lua</source>
       </version>
     </reapack>
-    <reapack name="Geeksound_NudgeForward.lua" type="script">
+    <reapack name="Geeksound_NudgeForward.lua" type="script"  desc="Nudge forward dependant off TC nudge value">
       <metadata>
         <description><![CDATA[
 {\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
@@ -3697,7 +3697,7 @@ v1.0 (2025-06-07)
         <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/ProTools_Essentials/NudgeForward.lua</source>
       </version>
     </reapack>
-    <reapack name="Geeksound_NudgeBackward.lua" type="script">
+    <reapack name="Geeksound_NudgeBackward.lua" type="script"  desc="Nudge backward dependant off TC nudge value">
       <metadata>
         <description><![CDATA[
 {\rtf1\ansi\deff0{\fonttbl{\f0 Arial;}}
@@ -3740,7 +3740,7 @@ v1.0 (2025-06-07)
         <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/ProTools_Essentials/NudgeBackward.lua</source>
       </version>
     </reapack>
-    <reapack name="Geeksound_NudgeBackwardx10.lua" type="script">
+    <reapack name="Geeksound_NudgeBackwardx10.lua" type="script"  desc="Nudge backward x10">
       <metadata>
         <description><![CDATA[
 {\rtf1\ansi\deff0{\fonttbl{\f0 Arial;}}
@@ -3782,7 +3782,7 @@ v1.0 (2025-06-07)
         <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/ProTools_Essentials/NudgeBackwardx10.lua</source>
       </version>
     </reapack>
-    <reapack name="Geeksound_NudgeForwardx10.lua" type="script">
+    <reapack name="Geeksound_NudgeForwardx10.lua" type="script"  desc="Nudge forward x10">
       <metadata>
         <description><![CDATA[
 {\rtf1\ansi\deff0{\fonttbl{\f0 Arial;}}
@@ -3825,7 +3825,7 @@ v1.0 (2025-06-07)
         <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/ProTools_Essentials/NudgeForward%20x10.lua</source>
       </version>
     </reapack>
-    <reapack name="Geeksound_ExtendRazor-TCui.lua" type="script">
+    <reapack name="Geeksound_ExtendRazor-TCui.lua" type="script"  desc="Extend razor area by nudge TC Value">
       <metadata>
         <description><![CDATA[
 {\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
@@ -3874,7 +3874,7 @@ v1.0 (2025-12-09)
         <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/ProTools_Essentials/ExtendRazor-TCui.lua</source>
       </version>
     </reapack>
-    <reapack name="Geeksound_GrowLeftEdge-TCui.lua" type="script">
+    <reapack name="Geeksound_GrowLeftEdge-TCui.lua" type="script"  desc="Grow left edge of item by nudge TC value">
       <metadata>
         <description><![CDATA[
 {\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
@@ -3922,7 +3922,7 @@ v1.0 (2025-12-09)
         <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/ProTools_Essentials/GrowLeftEdge-TCui.lua</source>
       </version>
     </reapack>
-    <reapack name="Geeksound_GrowRightEdge-TCui.lua" type="script">
+    <reapack name="Geeksound_GrowRightEdge-TCui.lua" type="script"  desc="Grow right edge of item by nudge TC value">
       <metadata>
         <description><![CDATA[
 {\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
@@ -3969,7 +3969,7 @@ v1.0 (2025-12-09)
         <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/ProTools_Essentials/GrowRightEdge-TCui.lua</source>
       </version>
     </reapack>
-    <reapack name="Geeksound_MoveRazorAreaBackward-TCui.lua" type="script">
+    <reapack name="Geeksound_MoveRazorAreaBackward-TCui.lua" type="script"  desc="Move razor area by nudge TC value">
       <metadata>
         <description><![CDATA[
 {\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
@@ -4016,7 +4016,7 @@ v1.0 (2025-12-09)
         <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/ProTools_Essentials/MoveRazorAreaBackward-TCui.lua</source>
       </version>
     </reapack>
-    <reapack name="Geeksound_MoveRazorAreaForward-TCui.lua" type="script">
+    <reapack name="Geeksound_MoveRazorAreaForward-TCui.lua" type="script"  desc="Move razor area forward by nudge TC value">
       <metadata>
         <description><![CDATA[
 {\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
@@ -4063,7 +4063,7 @@ v1.0 (2025-12-09)
         <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/ProTools_Essentials/MoveRazorAreaForward-TCui.lua</source>
       </version>
     </reapack>
-    <reapack name="Geeksound_MoveRazorLeftBackward-TCui.lua" type="script">
+    <reapack name="Geeksound_MoveRazorLeftBackward-TCui.lua" type="script"  desc="Move razor left bacward by nudge TC value">
       <metadata>
         <description><![CDATA[
 {\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
@@ -4111,7 +4111,7 @@ v1.0 (2025-12-09)
         <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/ProTools_Essentials/MoveRazorLeftBackward-TCui.lua</source>
       </version>
     </reapack>
-    <reapack name="Geeksound_MoveRazorLeftForward-TCui.lua" type="script">
+    <reapack name="Geeksound_MoveRazorLeftForward-TCui.lua" type="script"  desc="Move razor area left forxard by nudge TC value">
       <metadata>
         <description><![CDATA[
 {\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
@@ -4159,7 +4159,7 @@ v1.0 (2025-12-09)
         <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/ProTools_Essentials/MoveRazorLeftForward-TCui.lua</source>
       </version>
     </reapack>
-    <reapack name="Geeksound_MoveRazorRightBackward-TCui.lua" type="script">
+    <reapack name="Geeksound_MoveRazorRightBackward-TCui.lua" type="script"  desc="Move razor area right backward by nudge TC value">
       <metadata>
         <description><![CDATA[
 {\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
@@ -4207,7 +4207,7 @@ v1.0 (2025-12-09)
         <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/ProTools_Essentials/MoveRazorRightBackward-TCui.lua</source>
       </version>
     </reapack>
-    <reapack name="Geeksound_MoveTimeSelEndBackward-TCui.lua" type="script">
+    <reapack name="Geeksound_MoveTimeSelEndBackward-TCui.lua" type="script"  desc="Move timeselEnd backward by nudge TC value">
       <metadata>
         <description><![CDATA[
 {\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
@@ -4254,7 +4254,7 @@ v1.0 (2025-12-09)
         <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/ProTools_Essentials/MoveTimeSelEndBackward-TCui.lua</source>
       </version>
     </reapack>
-    <reapack name="Geeksound_MoveTimeSelEndForward-TCui.lua" type="script">
+    <reapack name="Geeksound_MoveTimeSelEndForward-TCui.lua" type="script"  desc="Move timeselEnd forward by nudge TC value">
       <metadata>
         <description><![CDATA[
 {\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
@@ -4301,7 +4301,7 @@ v1.0 (2025-12-09)
         <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/ProTools_Essentials/MoveTimeSelEndForward-TCui.lua</source>
       </version>
     </reapack>
-    <reapack name="Geeksound_MoveRazorRightForward-TCui.lua" type="script">
+    <reapack name="Geeksound_MoveRazorRightForward-TCui.lua" type="script"  desc="Move razor area right Forward by nudge TC value">
       <metadata>
         <description><![CDATA[
 {\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
@@ -4349,7 +4349,7 @@ v1.0 (2025-12-09)
         <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/ProTools_Essentials/MoveRazorRightForward-TCui.lua</source>
       </version>
     </reapack>
-    <reapack name="Geeksound_MoveTimeSelectionStartBackward-TCui.lua" type="script">
+    <reapack name="Geeksound_MoveTimeSelectionStartBackward-TCui.lua" type="script"  desc="Move timeselStart Backward by nudge TC value">
       <metadata>
         <description><![CDATA[
 {\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
@@ -4397,7 +4397,7 @@ v1.0 (2025-12-09)
         <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/ProTools_Essentials/MoveTimeSelStartBackward-TCui.lua</source>
       </version>
     </reapack>
-    <reapack name="Geeksound_MoveTimeSelectionStartForward-TCui.lua" type="script">
+    <reapack name="Geeksound_MoveTimeSelectionStartForward-TCui.lua" type="script"  desc="Move timeselStart Forward by nudge TC value">
       <metadata>
         <description><![CDATA[
 {\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
@@ -4452,7 +4452,7 @@ v1.0 (2025-12-09)
         <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/ProTools_Essentials/MoveTimeSelStartForward-TCui.lua</source>
       </version>
     </reapack>
-    <reapack name="Geeksound_ShrinkLeftEdge-TCui.lua" type="script">
+    <reapack name="Geeksound_ShrinkLeftEdge-TCui.lua" type="script"  desc="Shrink left edge of item by nudge TC value">
       <metadata>
         <description><![CDATA[
 {\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
@@ -4508,7 +4508,7 @@ v1.0 (2025-12-09)
         <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/ProTools_Essentials/ShrinkLeftEdge-TCui.lua</source>
       </version>
     </reapack>
-    <reapack name="Geeksound_ShrinkRazor-TCui.lua" type="script">
+    <reapack name="Geeksound_ShrinkRazor-TCui.lua" type="script"  desc="Shrink razor area by nudge TC value">
       <metadata>
         <description><![CDATA[
 {\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
@@ -4567,7 +4567,7 @@ v1.0 (2025-12-09)
         <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/ProTools_Essentials/ShrinkRazor-TCui.lua</source>
       </version>
     </reapack>
-    <reapack name="Geeksound_ShrinkRightEdge-TCui.lua" type="script">
+    <reapack name="Geeksound_ShrinkRightEdge-TCui.lua" type="script"  desc="Shrink right edge of item by nudge TC value">
       <metadata>
         <description><![CDATA[
 {\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
@@ -4626,7 +4626,7 @@ v1.0 (2025-12-09)
         <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/ProTools_Essentials/ShrinkRightEdge-TCui.lua</source>
       </version>
     </reapack>
-    <reapack name="Geeksound_ShrinkTimeSelection-TCui.lua" type="script">
+    <reapack name="Geeksound_ShrinkTimeSelection-TCui.lua" type="script"  desc="Shrink timesel by nudge TC value">
       <metadata>
         <description><![CDATA[
 {\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
@@ -4684,7 +4684,7 @@ v1.0 (2025-12-09)
         <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/ProTools_Essentials/ShrinkTimeSelection-TCui.lua</source>
       </version>
     </reapack>
-    <reapack name="Geeksound_SlipClipContentBackward-TCui.lua" type="script">
+    <reapack name="Geeksound_SlipClipContentBackward-TCui.lua" type="script"  desc="Slip item content backward by nudge TC value like in PT">
       <metadata>
         <description><![CDATA[
 {\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
@@ -4736,7 +4736,7 @@ v1.0 (2025-12-09)
         <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/ProTools_Essentials/SlipClipContentBackward-TCui.lua</source>
       </version>
     </reapack>
-    <reapack name="Geeksound_SlipClipContentForward-TCui.lua" type="script">
+    <reapack name="Geeksound_SlipClipContentForward-TCui.lua" type="script" desc="Slip item content forward by nudge TC value like in PT">
       <metadata>
         <description><![CDATA[
 {\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
@@ -4788,7 +4788,7 @@ v1.0 (2025-12-09)
         <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/ProTools_Essentials/SlipClipContentForward-TCui.lua</source>
       </version>
     </reapack>
-    <reapack name="Geeksound_ZoomOutHorizontal(PT-R).lua" type="script">
+    <reapack name="Geeksound_ZoomOutHorizontal(PT-R).lua" type="script" desc="Zoom out horizontal like in PT">
       <metadata>
         <description><![CDATA[
 {\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
@@ -4822,7 +4822,7 @@ v1.0 (2025-11-26)
         <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/ProTools_Essentials/ZoomOutHorizontal(PT-R).lua</source>
       </version>
     </reapack>
-    <reapack name="Geeksound_ZoomInHorizontal(PT-T).lua" type="script">
+    <reapack name="Geeksound_ZoomInHorizontal(PT-T).lua" type="script" desc="Zoom in horizontal like in PT">
       <metadata>
         <description><![CDATA[
 {\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
@@ -4856,7 +4856,7 @@ v1.0 (2025-11-26)
         <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/ProTools_Essentials/ZoomInHorizontal(PT-T).lua</source>
       </version>
     </reapack>
-    <reapack name="Geeksound_ExtendTimeSelection-TCui.lua" type="script">
+    <reapack name="Geeksound_ExtendTimeSelection-TCui.lua" type="script" desc="Extend timesel by nudge TC value">
       <metadata>
         <description><![CDATA[
 {\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
@@ -4896,7 +4896,7 @@ v1.0 (2025-12-09)
         <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/ProTools_Essentials/ExtendTimeSelection-TCui.lua</source>
       </version>
     </reapack>
-    <reapack name="Geeksound_RazorDown(Pt-M).lua" type="script">
+    <reapack name="Geeksound_RazorDown(Pt-M).lua" type="script" desc="Move razor area down like in PT">
       <metadata>
         <description><![CDATA[
 {\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
@@ -4938,7 +4938,7 @@ v1.0 (2026-02-16)
         <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/ProTools_Essentials/RazorDown(Pt-M).lua</source>
       </version>
     </reapack>
-    <reapack name="Geeksound_RazorUp(Pt-P).lua" type="script">
+    <reapack name="Geeksound_RazorUp(Pt-P).lua" type="script" desc="Move razor area up like in PT">
       <metadata>
         <description><![CDATA[
 {\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
@@ -4980,7 +4980,7 @@ v1.0 (2026-02-16)
         <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/ProTools_Essentials/RazorUp(Pt-P).lua</source>
       </version>
     </reapack>
-    <reapack name="Geeksound_Link-Unlink-RazorToTrack(PT like).lua" type="script">
+    <reapack name="Geeksound_Link-Unlink-RazorToTrack(PT like).lua" type="script" desc="Toggle link razor to tracks">
       <metadata>
         <description><![CDATA[
 {\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
@@ -5018,7 +5018,7 @@ v1.0 (2025-06-07)
         <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/ProTools_Essentials/Link-Unlink-RazorToTrack(PT%20like).lua</source>
       </version>
     </reapack>
-    <reapack name="Geeksound_RatingClip-Bad.lua" type="script">
+    <reapack name="Geeksound_RatingClip-Bad.lua" type="script" desc="Rating bad take like in PT">
       <metadata>
         <description><![CDATA[
 {\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
@@ -5054,7 +5054,7 @@ v1.0 (2026-02-16)
         <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/ProTools_Essentials/RatingClip-Bad.lua</source>
       </version>
     </reapack>
-    <reapack name="Geeksound_RatingClip-Ok.lua" type="script">
+    <reapack name="Geeksound_RatingClip-Ok.lua" type="script" desc="Rating take OK like in PT">
       <metadata>
         <description><![CDATA[
 {\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
@@ -5090,7 +5090,7 @@ v1.0 (2026-02-16)
         <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/ProTools_Essentials/RatingClip-Ok.lua</source>
       </version>
     </reapack>
-    <reapack name="Geeksound_RatingClip-Good.lua" type="script">
+    <reapack name="Geeksound_RatingClip-Good.lua" type="script" desc="Rating Good take like in PT">
       <metadata>
         <description><![CDATA[
 {\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
@@ -5126,7 +5126,7 @@ v1.0 (2026-02-16)
         <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/ProTools_Essentials/RatingClip-Good.lua</source>
       </version>
     </reapack>
-    <reapack name="Geeksound_RatingClip-Best.lua" type="script">
+    <reapack name="Geeksound_RatingClip-Best.lua" type="script" desc="Rating best take like in PT">
       <metadata>
         <description><![CDATA[
 {\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
@@ -5162,7 +5162,7 @@ v1.0 (2026-02-16)
         <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/ProTools_Essentials/RatingClip-Best.lua</source>
       </version>
     </reapack>
-    <reapack name="Geeksound_RatingClip-Reset.lua" type="script">
+    <reapack name="Geeksound_RatingClip-Reset.lua" type="script" desc="Rating reset">
       <metadata>
         <description><![CDATA[
 {\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
