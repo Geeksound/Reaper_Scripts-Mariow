@@ -1034,10 +1034,10 @@ v1.0 (2025-06-08)
       </metadata>
       <version name="1.2" author="Mariow" time="2025-06-07T12:00:00Z">
         <changelog><![CDATA[Bug correction]]></changelog>
-        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/Metadatas/View-FieldRecorder-Metadatas.lua</source>
+        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/Metadatas/Geeksound_View-FieldRecorder-Metadatas.lua</source>
       </version>
       <version name="1.2.1" author="Mariow" time="2025-06-07T19:18:06Z">
-        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/3ff8cf1e618556101b6b8ea6183f848bfd49b4ea/Metadatas/View-FieldRecorder-Metadatas.lua</source>
+        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/3ff8cf1e618556101b6b8ea6183f848bfd49b4ea/Metadatas/Geeksound_View-FieldRecorder-Metadatas.lua</source>
       </version>
     </reapack>
     <reapack name="Geeksound_ViewFile-FieldRecorder-Metadatas.lua" type="script" desc="ViewFile-FieldRecorder-Metadatas (Pro Tools Style)">
@@ -1062,7 +1062,7 @@ v1.0 (2025-06-08)
       </metadata>
       <version name="1.0" author="Mariow" time="2025-06-07T20:00:00Z">
         <changelog><![CDATA[- Initial release]]></changelog>
-        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/Metadatas/ViewFile-FieldRecorder-Metadatas.lua</source>
+        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/Metadatas/Geeksound_ViewFile-FieldRecorder-Metadatas.lua</source>
       </version>
     </reapack>
   </category>
