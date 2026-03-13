@@ -8,7 +8,7 @@
   - Checks the ON/OFF state of the video window
   - Shows the video window only if it is currently hidden
 @provides
-  [main] PROTOOLS/ViewVideo.lua
+  [main] PROTOOLS/Geeksound_ViewVideo.lua
 @link https://github.com/Geeksound/Reaper_Scripts-Mariow
 @repository https://github.com/Geeksound/Reaper_Scripts-Mariow
 @tags video, window, toggle, workflow, utility
