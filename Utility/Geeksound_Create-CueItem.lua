@@ -6,7 +6,7 @@
   v1.0 (2025-12-05)
   - Initial release: ImGui V2 tool to create and customize Empty Items
 @provides
-  [main] Utility/Create-CueItem.lua
+  [main] Utility/Geeksound_Create-CueItem.lua
 @link https://github.com/Geeksound/Reaper_Scripts-Mariow
 @repository https://github.com/Geeksound/Reaper_Scripts-Mariow
 @tags item, utility, ImGui, creation, color
