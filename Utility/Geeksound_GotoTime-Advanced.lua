@@ -11,7 +11,7 @@
   - Cleaned up ImGui layout (aligned labels, compact offset slider)
   - Improved header to ReaPack format
 @provides
-  [main] Utility/GotoTime-Advanced.lua
+  [main] Utility/Geeksound_GotoTime-Advanced.lua
 @link https://github.com/Geeksound/Reaper_Scripts-Mariow
 @repository https://github.com/Geeksound/Reaper_Scripts-Mariow
 @tags time, navigation, utility, ImGui
