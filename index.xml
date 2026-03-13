@@ -1531,7 +1531,7 @@ v1.0 (2025-12-17)
         <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/PROTOOLS/Geeksound_SyncPoint-ToEditCursor.lua</source>
       </version>
     </reapack>
-    <reapack name="Geeksound_Paste-ToFill.lua" type="script" desc="Paste-ToFill">
+    <reapack name="Geeksound_Paste-ToFill.lua" type="script" desc="Paste-ToFill like in Protools">
       <metadata>
         <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
 {\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
