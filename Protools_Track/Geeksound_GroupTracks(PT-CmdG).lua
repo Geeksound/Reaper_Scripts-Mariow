@@ -6,7 +6,7 @@
   v1.0 (2025-11-25)
   - Initial release: executes the "Group tracks" command (ID 40772)
 @provides
-  [main] Protools_Track/GroupTracks(PT-CmdG).lua
+  [main] Protools_Track/Geeksound_GroupTracks(PT-CmdG).lua
 @link https://github.com/Geeksound/Reaper_Scripts-Mariow
 @repository https://github.com/Geeksound/Reaper_Scripts-Mariow
 @tags editing, tracks, grouping, (protools-like)
