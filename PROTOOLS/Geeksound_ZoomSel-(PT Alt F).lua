@@ -6,7 +6,7 @@
   v1.0 (2025-11-26)
   - Initial release: zooms to selected items or to time selection if no items, emulating Pro Tools behavior
 @provides
-  [main] PROTOOLS/ZoomSel-(PT Alt F).lua
+  [main] PROTOOLS/Geeksound_ZoomSel-(PT Alt F).lua
 @link https://github.com/Geeksound/Reaper_Scripts-Mariow
 @repository https://github.com/Geeksound/Reaper_Scripts-Mariow
 @tags navigation, zoom, items, time selection, (protools-like)
