@@ -10,7 +10,7 @@
     - Automatically restores the Edit Cursor after playback stops
     - Plays from the Edit Cursor if no Time Selection is defined
 @provides
-  [main] PROTOOLS/PlayTimeSelection.lua
+  [main] PROTOOLS/Geeksound_PlayTimeSelection.lua
 @about
   # GoTo Time Selection and Play (Reaper, Pro Tools style)
 
