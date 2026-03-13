@@ -9,7 +9,7 @@
   - Jump to marker by number or by name
   - Press Enter to validate and auto-close the window
 @provides
-  [main] PROTOOLS/MemoryLocation(as PT).lua
+  [main] PROTOOLS/Geeksound_MemoryLocation(as PT).lua
 @link https://github.com/Geeksound/Reaper_Scripts-Mariow
 @repository https://github.com/Geeksound/Reaper_Scripts-Mariow
 @tags markers, navigation, workflow, gui, imgui
