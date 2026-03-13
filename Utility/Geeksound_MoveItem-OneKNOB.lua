@@ -6,7 +6,7 @@
   v1.0 (2025-11-10)
   - ImGui interface version with dynamic button
 @provides
-  [main] Utility/MoveItem-OneKNOB.lua
+  [main] Utility/Geeksound_MoveItem-OneKNOB.lua
 @link https://github.com/Geeksound/Reaper_Scripts-Mariow
 @repository https://github.com/Geeksound/Reaper_Scripts-Mariow
 @tags items, tracks, editing, gui, imgui
