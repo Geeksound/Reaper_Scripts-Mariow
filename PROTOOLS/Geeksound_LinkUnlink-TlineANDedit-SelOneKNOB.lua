@@ -8,7 +8,7 @@
   - Small floating ImGui window showing current link state
   - Toggle Timeline / Edit Selection link/unlink
 @provides
-  [main] PROTOOLS/LinkUnlink-TimelineANDEdit-SelOneKNOB.lua
+  [main] PROTOOLS/Geeksound_LinkUnlink-TimelineANDEdit-SelOneKNOB.lua
 @link https://github.com/Geeksound/Reaper_Scripts-Mariow
 @repository https://github.com/Geeksound/Reaper_Scripts-Mariow
 @tags timeline, edit selection, link, unlink, Pro Tools, ImGui
