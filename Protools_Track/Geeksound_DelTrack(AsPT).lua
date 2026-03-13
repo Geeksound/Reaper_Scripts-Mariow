@@ -7,7 +7,7 @@
   - Initial release
   - Deletes selected tracks if empty; asks confirmation if tracks contain items
 @provides
-  [main] Protools_Track/DelTrack(AsPT).lua
+  [main] Protools_Track/Geeksound_DelTrack(AsPT).lua
 @link https://github.com/Geeksound/Reaper_Scripts-Mariow
 @repository https://github.com/Geeksound/Reaper_Scripts-Mariow
 @tags tracks, delete, safe, editing, (protools-like)
