@@ -6,7 +6,7 @@
 * REAPER: 7.0
 * Version: 1.2.3
 * Licence: MIT
-* Provides: [main]
+* Provides: [main] Metadatas/Geeksound_View-FieldRecorder-Metadatas.lua
 * This script was developed with the help of GitHub Copilot.
 --]]
 
