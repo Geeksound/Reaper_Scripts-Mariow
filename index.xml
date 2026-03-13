@@ -1557,7 +1557,7 @@ v1.0 (2025-11-12)
 - Executes full MRX "Paste To Fill" logic within a single Undo Block
 - Simplified, organized, and commented version based on MRX PasteToFill v1.1 (Ben Kersten)
 ]]></changelog>
-        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/blob/2c8205a3f377cd9e4b400f3d9f7d59b0fe6e6981/PROTOOLS/Geeksound_Paste-ToFill.lua</source>
+        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/PROTOOLS/Geeksound_Paste-ToFill.lua</source>
       </version>
     </reapack>
     <reapack name="Geeksound_Paste(Pt-like).lua" type="script" desc="Paste PT-like compatible with Razor">
