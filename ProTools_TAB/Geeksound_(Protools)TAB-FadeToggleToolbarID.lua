@@ -6,7 +6,7 @@
 	v1.0 (2025-06-07)
 	- Initial release
 @provides
-	[main] ProTools_TAB/(Protools)TAB-FadeToggleToolbarID.lua
+	[main] ProTools_TAB/Geeksound_(Protools)TAB-FadeToggleToolbarID.lua
 @tags protools, fade, editing, toolbar
 @link https://github.com/Geeksound/Reaper_Scripts-Mariow
 @repository https://github.com/Geeksound/Reaper_Scripts-Mariow
