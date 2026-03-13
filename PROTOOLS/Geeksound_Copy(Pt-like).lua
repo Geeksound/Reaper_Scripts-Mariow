@@ -9,7 +9,7 @@
   - Moves edit cursor to start of first selected item
   - Falls back to start of Time Selection if no items are selected
 @provides
-  [main] PROTOOLS/Copy(Pt-like).lua
+  [main] PROTOOLS/Geeksound_Copy(Pt-like).lua
 @link https://github.com/Geeksound/Reaper_Scripts-Mariow
 @repository https://github.com/Geeksound/Reaper_Scripts-Mariow
 @tags copy, protools, cursor, editing, workflow
