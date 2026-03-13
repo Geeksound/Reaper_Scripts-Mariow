@@ -6,7 +6,7 @@
   v1.0 (2025-11-04)
   - Initial release
 @provides
-  [main] Utility/CreateTextFromTracks.lua
+  [main] Utility/Geeksound_CreateTextFromTracks.lua
 @link https://github.com/Geeksound/Reaper_Scripts-Mariow
 @repository https://github.com/Geeksound/Reaper_Scripts-Mariow
 @tags template
