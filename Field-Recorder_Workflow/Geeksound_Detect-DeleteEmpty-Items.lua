@@ -7,7 +7,7 @@
   v1.1 (2025-06-08)
   - Renamed
 @provides
-  [main] Field-Recorder_Workflow/Detect-DeleteEmpty-Items.lua
+  [main] Field-Recorder_Workflow/Geeksound_Detect-DeleteEmpty-Items.lua
 @link https://github.com/Geeksound/Reaper_Scripts-Mariow
 @repository https://github.com/Geeksound/Reaper_Scripts-Mariow
 @tags items editing
