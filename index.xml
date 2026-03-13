@@ -1091,7 +1091,7 @@ v1.0 (2025-06-08)
       </metadata>
       <version name="1.0" author="Mariow" time="2025-05-11T21:34:52Z">
         <changelog><![CDATA[Initial release]]></changelog>
-        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/Utility/CreateTracksFromText.lua</source>
+        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/Utility/Geeksound_CreateTracksFromText.lua</source>
       </version>
     </reapack>
     <reapack name="Geeksound_CreateTextFromTracks.lua" type="script" desc="CreateTextFromTracks">
@@ -1117,7 +1117,7 @@ v1.0 (2025-06-08)
       </metadata>
       <version name="1.0" author="Mariow" time="2025-11-04T12:00:00Z">
         <changelog><![CDATA[Initial release]]></changelog>
-        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/Utility/CreateTextFromTracks.lua</source>
+        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/Utility/Geeksound_CreateTextFromTracks.lua</source>
       </version>
     </reapack>
     <reapack name="Geeksound_prefix-to-name.lua" type="script" desc="Add prefix to the NAME of Selected Item">
@@ -1143,7 +1143,7 @@ v1.0 (2025-06-08)
       </metadata>
       <version name="1.0" author="Mariow" time="2025-05-25T00:00:00Z">
         <changelog><![CDATA[Initial release]]></changelog>
-        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/Utility/prefix-to-name.lua</source>
+        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/Utility/Geeksound_prefix-to-name.lua</source>
       </version>
     </reapack>
     <reapack name="Geeksound_ReplaceXthCharacter-inName.lua" type="script" desc="CharacterText Interchange in Names">
@@ -1169,7 +1169,7 @@ v1.0 (2025-06-08)
       </metadata>
       <version name="1.0" author="Mariow" time="2025-05-25T00:00:00Z">
         <changelog><![CDATA[Initial Release]]></changelog>
-        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/Utility/ReplaceXthCharacter-inName.lua</source>
+        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/Utility/Geeksound_ReplaceXthCharacter-inName.lua</source>
       </version>
     </reapack>
     <reapack name="Geeksound_SelNoNamed-Tracks.lua" type="script" desc="SelNoNamed-Tracks">
@@ -1189,7 +1189,7 @@ v1.0 (2025-06-08)
       </metadata>
       <version name="1.0" author="Mariow" time="2025-06-08T00:00:00Z">
         <changelog><![CDATA[Initial release]]></changelog>
-        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/Utility/SelNoNamed-Tracks.lua</source>
+        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/Utility/Geeksound_SelNoNamed-Tracks.lua</source>
       </version>
     </reapack>
     <reapack name="Geeksound_ThumbnailDownload.lua" type="script" desc="Download Mariow's Thumbnail">
@@ -1208,7 +1208,7 @@ v1.0 (2025-06-08)
       </metadata>
       <version name="1.0" author="Mariow" time="2025-10-29T00:00:00Z">
         <changelog><![CDATA[Initial release]]></changelog>
-        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/Utility/ThumbnailDownload.lua</source>
+        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/Utility/Geeksound_ThumbnailDownload.lua</source>
       </version>
     </reapack>
     <reapack name="Geeksound_GotoTime-Advanced.lua" type="script" desc="GoTo Time/Markers">
@@ -1236,7 +1236,7 @@ v1.1 (2025-11-13)
 - "Go Marker" button
 - Pressing Return/Enter in the Marker input field jumps directly to that marker
 ]]></changelog>
-        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/Utility/GotoTime-Advanced.lua</source>
+        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/Utility/Geeksound_GotoTime-Advanced.lua</source>
       </version>
       <version name="1.0" author="Mariow" time="2025-11-05T00:00:00Z">
         <changelog><![CDATA[
@@ -1245,7 +1245,7 @@ v1.0 (2025-11-05)
 - Cleaned up ImGui layout (aligned labels, compact offset slider)
 - Improved header to ReaPack format
 ]]></changelog>
-        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/Utility/GotoTime-Advanced.lua</source>
+        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/Utility/Geeksound_GotoTime-Advanced.lua</source>
       </version>
     </reapack>
     <reapack name="Geeksound_MoveItem-OneKNOB.lua" type="script" desc="MoveItemUP/Down-OneKNOB">
@@ -1272,7 +1272,7 @@ v1.0 (2025-11-10)
 - Default = move down, hold Alt (Option) = move up
 - Creates a new track automatically if needed
 ]]></changelog>
-        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/Utility/MoveItem-OneKNOB.lua</source>
+        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/Utility/Geeksound_MoveItem-OneKNOB.lua</source>
       </version>
     </reapack>
     <reapack name="Geeksound_GoTo-Markers.lua" type="script" desc="GoTo Markers (ImGui)">
@@ -1299,7 +1299,7 @@ v1.0 (2025-11-12)
 - Pressing Return/Enter in the Marker input field jumps directly to that marker
 - Minor improvements for ImGui input handling
 ]]></changelog>
-        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/Utility/GoTo-Markers.lua</source>
+        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/Utility/Geeksound_GoTo-Markers.lua</source>
       </version>
     </reapack>
     <reapack name="Geeksound_Create-CueItem.lua" type="script" desc="Create-CueItem">
@@ -1370,7 +1370,7 @@ v1.5 (2025-11-26)
 - Added independent toggles for each time area type
 - Improved ReaImGui interface
 ]]></changelog>
-        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/Utility/Multiply%3ADivide-TimeAreas.lua</source>
+        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/Utility/Geeksound_Multiply%3ADivide-TimeAreas.lua</source>
       </version>
     </reapack>
     <reapack name="Geeksound_ImportVideo.lua" type="script" desc="Import Video like Pro Tools (ImGui) with Audio extraction, mute Video items and group items)">
@@ -1410,7 +1410,7 @@ v1.0 (2025-12-17)
 - Placement options: Start of project or Edit cursor
 - Ensures video window is visible (safe, non-toggle)
 ]]></changelog>
-        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/Utility/ImportVideo.lua</source>
+        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/Utility/Geeksound_ImportVideo.lua</source>
       </version>
     </reapack>
   </category>
