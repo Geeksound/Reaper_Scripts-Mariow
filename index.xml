@@ -3137,7 +3137,7 @@ v1.3 (2025-12-11)
     </reapack>
   </category>
   <category name="ProTools_Essentials">
-    <reapack name="Geeksound_Strip-Silence (PT-Cmd U).lua" type="script">
+    <reapack name="Geeksound_Strip-Silence (PT-Cmd U).lua" type="script" desc="Strip Silence like in Protools">
       <metadata>
         <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
 {\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
