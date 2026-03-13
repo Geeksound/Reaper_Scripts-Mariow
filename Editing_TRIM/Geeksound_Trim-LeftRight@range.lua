@@ -8,7 +8,7 @@
   - Improved FPS handling (defaults to 25 if unset)
   - Smoother slider responsiveness and reset when duration changes
 @provides
-  [main] Editing_TRIM/Trim-LeftRight@range.lua
+  [main] Editing_TRIM/Geeksound_Trim-LeftRight@range.lua
 @link https://github.com/Geeksound/Reaper_Scripts-Mariow
 @repository https://github.com/Geeksound/Reaper_Scripts-Mariow
 @tags items, editing, trimming, gui
