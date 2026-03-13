@@ -11,7 +11,7 @@
   v1.0 (2025-06-08)
     - Initial release.
 @provides
-  [main] Field-Recorder_Workflow/FieldrecorderTrack-Matching.lua
+  [main] Field-Recorder_Workflow/Geeksound_FieldrecorderTrack-Matching.lua
 @link https://github.com/Geeksound/Reaper_Scripts-Mariow
 @repository https://github.com/Geeksound/Reaper_Scripts-Mariow
 @tags dialogue conformation workflow Fieldrecording Track
