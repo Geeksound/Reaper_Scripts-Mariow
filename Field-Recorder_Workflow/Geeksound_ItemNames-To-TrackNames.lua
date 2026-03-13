@@ -7,7 +7,7 @@
   v1.0 (2025-06-08)
   - Initial release
 @provides
-  [main] Field-Recorder_Workflow/ItemNames-To-TrackNames.lua
+  [main] Field-Recorder_Workflow/Geeksound_ItemNames-To-TrackNames.lua
 @link https://github.com/Geeksound/Reaper_Scripts-Mariow
 @repository https://github.com/Geeksound/Reaper_Scripts-Mariow
 @tags dialogue conformation workflow Fieldrecording Track
