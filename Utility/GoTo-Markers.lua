@@ -1,5 +1,5 @@
 --[[
-@description Go To Marker (ImGui)
+@description Geeksound_GoTo-Markers
 @version 1.0
 @author Mariow
 @changelog
