@@ -10,7 +10,7 @@
   - Search for Tracks, Items & Take Markers
 
 @provides
-  [main] View/AdvancedFind.lua
+  [main] View/Geeksound_AdvancedFind.lua
 @link https://github.com/Geeksound/Reaper_Scripts-Mariow
 @repository https://github.com/Geeksound/Reaper_Scripts-Mariow
 @tags search, items, takes, markers, tracks, ImGui, multi-selection
