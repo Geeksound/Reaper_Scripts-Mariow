@@ -12,7 +12,7 @@
   v1.0 (2025-11-06)
   - Initial release
 @provides
-  [main] Editing_TRIM/UnTrimStartToPrev.lua
+  [main] Editing_TRIM/Geeksound_UnTrimStartToPrev.lua
 @link https://github.com/Geeksound/Reaper_Scripts-Mariow
 @repository https://github.com/Geeksound/Reaper_Scripts-Mariow
 @tags items, editing, trimming, cursor, utility
