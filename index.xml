@@ -2036,7 +2036,7 @@ v1.0 (2025-11-17)
 - Implements Pro Tools Alt+Shift+TAB reverse selection behavior
 - Supports tab-to-transient, fade mode, and item boundary extension
 ]]></changelog>
-        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/ProTools_TAB/(Protools)TAB-AltShift.lua</source>
+        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/ProTools_TAB/Geeksound_(Protools)TAB-AltShift.lua</source>
       </version>
     </reapack>
     <reapack name="Geeksound_(ProTools)TAB-Ctrl.lua" type="script" desc="ProTools TAB - Ctrl+TAB (Select Next Item)">
@@ -2069,7 +2069,7 @@ v1.0 (2025-11-17)
 - Emulates ProTools Ctrl+TAB item navigation
 - Selects the next item on the selected track
 ]]></changelog>
-        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/ProTools_TAB/(Protools)TAB-Ctrl.lua</source>
+        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/ProTools_TAB/Geeksound_(Protools)TAB-Ctrl.lua</source>
       </version>
     </reapack>
     <reapack name="Geeksound_(ProTools)TAB-Ctrl(Alt).lua" type="script" desc="ProTools TAB - (Ctrl/Alt)+TAB (Select Previous Item)">
@@ -2102,7 +2102,7 @@ v1.0 (2025-11-17)
 - Emulates ProTools (Ctrl/Alt)+TAB: select previous item
 - Moves cursor and selection strictly item-by-item in reverse
 ]]></changelog>
-        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/ProTools_TAB/(Protools)TAB-Ctrl(Alt).lua</source>
+        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/ProTools_TAB/Geeksound_(Protools)TAB-Ctrl(Alt).lua</source>
       </version>
     </reapack>
     <reapack name="Geeksound_(Protools)TAB-FadeToggleShortcut.lua" type="script" desc="ProTools TAB - Toggle Fade (Keyboard Shortcut)">
@@ -2132,7 +2132,7 @@ v1.0 (2025-11-17)
 v1.1 (2025-06-07)
 - RS Number update in code
 ]]></changelog>
-        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/ProTools_TAB/(Protools)TAB-FadeToggleShortcut.lua</source>
+        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/ProTools_TAB/Geeksound_(Protools)TAB-FadeToggleShortcut.lua</source>
       </version>
       <version name="1.0" author="Mariow" time="2025-06-07T00:00:00Z">
         <changelog><![CDATA[
@@ -2142,7 +2142,7 @@ v1.0 (2025-06-07)
 - Deactivates TabToTransient when engaged
 - Updates ExtState, toolbar buttons, and ImGui
 ]]></changelog>
-        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/ProTools_TAB/(Protools)TAB-FadeToggleShortcut.lua</source>
+        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/ProTools_TAB/Geeksound_(Protools)TAB-FadeToggleShortcut.lua</source>
       </version>
     </reapack>
     <reapack name="Geeksound_(Protools)TAB-FadeToggleToolbarID.lua" type="script" desc="ProTools TAB - Toggle Fade (Toolbar Button RS1)">
@@ -2175,7 +2175,7 @@ v1.0 (2025-06-07)
 - Toolbar button for toggling Fade mode
 - Syncs with ImGui interface, Transient toggle, and keyboard shortcuts
 ]]></changelog>
-        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/ProTools_TAB/(Protools)TAB-FadeToggleToolbarID.lua</source>
+        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/ProTools_TAB/Geeksound_(Protools)TAB-FadeToggleToolbarID.lua</source>
       </version>
     </reapack>
     <reapack name="Geeksound_(ProTools)TAB-Shift.lua" type="script" desc="ProTools TAB - Shift+TAB (Extend Selection / Time Selection)">
@@ -2211,7 +2211,7 @@ v1.0 (2025-11-17)
 - Implements full ProTools-style Shift+TAB extension logic
 - Supports TabToTransient, Fade, and Default modes
 ]]></changelog>
-        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/ProTools_TAB/(Protools)TAB-Shift.lua</source>
+        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/ProTools_TAB/Geeksound_(Protools)TAB-Shift.lua</source>
       </version>
     </reapack>
     <reapack name="Geeksound_(Protools)TAB-TransientToggleShortcut.lua" type="script" desc="ProTools TAB - Toggle TabToTransient (Keyboard Shortcut)">
@@ -2243,7 +2243,7 @@ v1.0 (2025-11-17)
 v1.1 (2025-06-07)
 - RS Number update in code
 ]]></changelog>
-        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/ProTools_TAB/(Protools)TAB-TransientToggleShortcut.lua</source>
+        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/ProTools_TAB/Geeksound_(Protools)TAB-TransientToggleShortcut.lua</source>
       </version>
       <version name="1.0" author="Mariow" time="2025-06-07T00:00:00Z">
         <changelog><![CDATA[
@@ -2253,7 +2253,7 @@ v1.0 (2025-06-07)
 - Disables Fade when activated, re-enables Fade when deactivated
 - Updates ExtState, toolbar buttons, and ImGui interface
 ]]></changelog>
-        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/ProTools_TAB/(Protools)TAB-TransientToggleShortcut.lua</source>
+        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/ProTools_TAB/Geeksound_(Protools)TAB-TransientToggleShortcut.lua</source>
       </version>
     </reapack>
     <reapack name="Geeksound_(Protools)TAB-TransientToggleToolbarID.lua" type="script" desc="ProTools TAB - Toggle TabToTransientDisable Fade (Toolbar Button)">
@@ -2286,7 +2286,7 @@ v1.0 (2025-06-07)
 v1.1 (2025-06-07)
 - RS Number update in code
 ]]></changelog>
-        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/ProTools_TAB/(Protools)TAB-TransientToggleToolbarID.lua</source>
+        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/ProTools_TAB/Geeksound_(Protools)TAB-TransientToggleToolbarID.lua</source>
       </version>
       <version name="1.0" author="Mariow" time="2025-06-07T00:00:00Z">
         <changelog><![CDATA[
@@ -2296,7 +2296,7 @@ v1.0 (2025-06-07)
 - Forces Fade off when necessary
 - Syncs with ImGui, shortcuts, and ExtState
 ]]></changelog>
-        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/ProTools_TAB/(Protools)TAB-TransientToggleToolbarID.lua</source>
+        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/ProTools_TAB/Geeksound_(Protools)TAB-TransientToggleToolbarID.lua</source>
       </version>
     </reapack>
     <reapack name="Geeksound_(Protools)TAB.lua" type="script" desc="ProTools TAB - Contextual Tab Navigation (Items / Fades / Transients)">
@@ -2343,7 +2343,7 @@ v1.0 (2025-06-07)
 - Handles Items, Fades, and Transients depending on active mode
 - Syncs with shared ExtState and entire ProTools TAB ecosystem
 ]]></changelog>
-        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/ProTools_TAB/(Protools)TAB.lua</source>
+        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/ProTools_TAB/Geeksound_(Protools)TAB.lua</source>
       </version>
     </reapack>
     <reapack name="Geeksound_(Protools)TAB(alt).lua" type="script" desc="ProTools TAB - Contextual Reverse Tab Navigation (ALT+TAB)">
@@ -2390,7 +2390,7 @@ v1.0 (2025-06-07)
 - Handles Items, Fades, and Transients depending on active mode
 - Syncs with shared ExtState and entire ProTools TAB ecosystem
 ]]></changelog>
-        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/ProTools_TAB/(Protools)TAB(alt).lua</source>
+        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/ProTools_TAB/Geeksound_(Protools)TAB(alt).lua</source>
       </version>
     </reapack>
     <reapack name="Geeksound_(Protools)TAB(imgui).lua" type="script" desc="ProTools TAB - Main ImGui Controller (Fade / TabToTransient + ALT/SHIFT actions)">
@@ -2422,7 +2422,7 @@ v1.0 (2025-06-07)
 v1.1 (2025-06-07)
 - RS Number update in code
 ]]></changelog>
-        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/ProTools_TAB/(Protools)TAB(imgui).lua</source>
+        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/ProTools_TAB/Geeksound_(Protools)TAB(imgui).lua</source>
       </version>
       <version name="1.0" author="Mariow" time="2025-06-07T00:00:00Z">
         <changelog><![CDATA[
@@ -2432,7 +2432,7 @@ v1.0 (2025-06-07)
 - Manages Fade, TabToTransient, ALT/SHIFT actions
 - Fully synchronized with toolbar buttons, keyboard shortcuts, and ExtState
 ]]></changelog>
-        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/ProTools_TAB/(Protools)TAB(imgui).lua</source>
+        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/ProTools_TAB/Geeksound_(Protools)TAB(imgui).lua</source>
       </version>
     </reapack>
     <reapack name="Geeksound_(Protools)TAB-Instructions.lua" type="script" desc="ProTools TAB - Manual and Help (ImGui)">
@@ -2463,14 +2463,14 @@ v1.0 (2025-06-07)
 v1.2.1 (2025-11-19)
 - Updated Instructions picture link
 ]]></changelog>
-        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/ProTools_TAB/(Protools)TAB-Instructions.lua</source>
+        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/ProTools_TAB/Geeksound_(Protools)TAB-Instructions.lua</source>
       </version>
       <version name="1.2" author="Mariow" time="2025-11-18T00:00:00Z">
         <changelog><![CDATA[
 v1.2 (2025-11-18)
 - Font Size
 ]]></changelog>
-        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/ProTools_TAB/(Protools)TAB-Instructions.lua</source>
+        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/ProTools_TAB/Geeksound_(Protools)TAB-Instructions.lua</source>
       </version>
       <version name="1.1" author="Mariow" time="2025-06-09T00:00:00Z">
         <changelog><![CDATA[
@@ -2479,7 +2479,7 @@ v1.1 (2025-06-09)
 - Added GitHub button
 - Added "Open Scripts Folder" button
 ]]></changelog>
-        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/ProTools_TAB/(Protools)TAB-Instructions.lua</source>
+        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/ProTools_TAB/Geeksound_(Protools)TAB-Instructions.lua</source>
       </version>
       <version name="1.0" author="Mariow" time="2025-06-08T00:00:00Z">
         <changelog><![CDATA[
@@ -2488,7 +2488,7 @@ v1.0 (2025-06-08)
 - Full documentation for installation, usage and developer notes
 - ImGui interface with multi-tab layout
 ]]></changelog>
-        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/ProTools_TAB/(Protools)TAB-Instructions.lua</source>
+        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/ProTools_TAB/Geeksound_(Protools)TAB-Instructions.lua</source>
       </version>
     </reapack>
   </category>
