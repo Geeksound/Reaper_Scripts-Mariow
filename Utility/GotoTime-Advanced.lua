@@ -1,5 +1,5 @@
 --[[
-@description GoTo Time/Markers 
+@description Geeksound_GoToTime-Adavanced
 @version 1.1
 @author Mariow
 @changelog
