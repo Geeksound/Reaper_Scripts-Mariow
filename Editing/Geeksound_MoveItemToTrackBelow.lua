@@ -6,7 +6,7 @@
   v1.0 (2025-11-10)
   - Initial release
 @provides
-  [main] Editing/Mariow-MoveItemToTrackBelow.lua
+  [main] Editing/Geeksound_MoveItemToTrackBelow.lua
 @link https://github.com/Geeksound/Reaper_Scripts-Mariow
 @repository https://github.com/Geeksound/Reaper_Scripts-Mariow
 @tags items, tracks, editing, creation
