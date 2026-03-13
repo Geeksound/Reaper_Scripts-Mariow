@@ -1,5 +1,5 @@
 --[[
-@description Import Video easilly
+@description Geeksound_ImportVideo
 @version 1.0
 @author Mariow
 @changelog
