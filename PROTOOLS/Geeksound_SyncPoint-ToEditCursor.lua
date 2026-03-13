@@ -6,7 +6,7 @@
   v1.0 (2025-11-12)
   - Initial release
 @provides
-  [main] PROTOOLS/SyncPoint-ToEditCursor.lua
+  [main] PROTOOLS/Geeksound_SyncPoint-ToEditCursor.lua
 @link https://github.com/Geeksound/Reaper_Scripts-Mariow
 @repository https://github.com/Geeksound/Reaper_Scripts-Mariow
 @tags items, editing, snap, offset, protools, alignment
