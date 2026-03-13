@@ -1,5 +1,5 @@
 --[[
-@description Add prefix to the NAME of Selected Item
+@description Geeksound_prefix-to-name
 @version 1.0
 @author Mariow
 @changelog
