@@ -2493,7 +2493,7 @@ v1.0 (2025-06-08)
     </reapack>
   </category>
   <category name="Protools_Edit">
-    <reapack name="Geeksound_Cut-Time-Per-Track(Shuffle).lua" type="script">
+    <reapack name="Geeksound_Cut-Time-Per-Track(Shuffle).lua" type="script" desc="Cut-Time-Per-Track(Shuffle)">
       <metadata>
         <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
 {\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
@@ -2527,7 +2527,7 @@ v1.0 (2025-12-06)
         <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/Protools_Edit/Cut-Time-Per-Track(Shuffle).lua</source>
       </version>
     </reapack>
-    <reapack name="Geeksound_Consolidate-(PT AltShift3).lua" type="script">
+    <reapack name="Geeksound_Consolidate-(PT AltShift3).lua" type="script" desc="Consolidate-(PT AltShift3)">
       <metadata>
         <description><![CDATA[
 Consolidate Items — Pro Tools Alt+Shift+3 Style
@@ -2550,7 +2550,7 @@ v1.0 (2025-11-26)
         <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/Protools_Edit/Consolidate-(PT%20AltShift3).lua</source>
       </version>
     </reapack>
-    <reapack name="Geeksound_Copy_Items.lua" type="script">
+    <reapack name="Geeksound_Copy_Items.lua" type="script" desc="Copy_Items">
       <metadata>
         <description><![CDATA[
 Copy Items — Pro Tools ⌘C Style
@@ -2572,7 +2572,7 @@ v1.0 (2025-12-06)
         <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/Protools_Edit/Copy-(PT%20CmdC)%20.lua</source>
       </version>
     </reapack>
-    <reapack name="Geeksound_DoubleRazorLength(PT-ShiftCtrlAltCmd-%).lua" type="script">
+    <reapack name="Geeksound_DoubleRazorLength(PT-ShiftCtrlAltCmd-%).lua" type="script" desc="DoubleRazorLength(PT-ShiftCtrlAltCmd-%)">
       <metadata>
         <description><![CDATA[
 Double-length of Razor-Area on selected tracks
@@ -2595,7 +2595,7 @@ v1.0 (2025-11-26)
         <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/Protools_Edit/DoubleRazorLength(PT-ShiftCtrlAltCmd-%25).lua</source>
       </version>
     </reapack>
-    <reapack name="Geeksound_DoubleTimeLength(ShiftCtrlAltCmd-%).lua" type="script">
+    <reapack name="Geeksound_DoubleTimeLength(ShiftCtrlAltCmd-%).lua" type="script" desc="DoubleTimeLength(ShiftCtrlAltCmd-%)">
       <metadata>
         <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
 {\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
@@ -2623,7 +2623,7 @@ v1.0 (2025-11-26)
         <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/Protools_Edit/DoubleTimeLength(PT-ShiftCtrlAltCmd-%25).lua</source>
       </version>
     </reapack>
-    <reapack name="Geeksound_EndToFillSelection.lua" type="script">
+    <reapack name="Geeksound_EndToFillSelection.lua" type="script" desc="EndToFillSelection">
       <metadata>
         <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
 {\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
@@ -2651,7 +2651,7 @@ v1.0 (2025-06-07)
         <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/Protools_Edit/EndToFillSelection.lua</source>
       </version>
     </reapack>
-    <reapack name="Geeksound_ExtendEditDown(PT Shift M).lua" type="script">
+    <reapack name="Geeksound_ExtendEditDown(PT Shift M).lua" type="script" desc="ExtendEditDown(PT Shift M)">
       <metadata>
         <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
 {\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
@@ -2687,7 +2687,7 @@ v1.0 (2025-11-30)
         <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/Protools_Edit/ExtendEditDown(PT-Shift%20M).lua</source>
       </version>
     </reapack>
-    <reapack name="Geeksound_ExtendEditToEnd(PT AltShift Return).lua" type="script">
+    <reapack name="Geeksound_ExtendEditToEnd(PT AltShift Return).lua" type="script" desc="ExtendEditToEnd(PT AltShift Return)">
       <metadata>
         <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
 {\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
@@ -2716,7 +2716,7 @@ v1.0 (2025-12-01)
         <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/Protools_Edit/ExtendEDitToEnd(PT%20AltShift%20Return).lua</source>
       </version>
     </reapack>
-    <reapack name="Geeksound_ExtendEditToStart(PT Shift Return).lua" type="script">
+    <reapack name="Geeksound_ExtendEditToStart(PT Shift Return).lua" type="script" desc="ExtendEditToStart(PT Shift Return)">
       <metadata>
         <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
 {\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
@@ -2745,7 +2745,7 @@ v1.0 (2025-12-01)
         <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/Protools_Edit/ExtendEditToStart%28PT%20Shift%20Return%29.lua</source>
       </version>
     </reapack>
-    <reapack name="Geeksound_ExtendEditUp(PT Shift P).lua" type="script">
+    <reapack name="Geeksound_ExtendEditUp(PT Shift P).lua" type="script" desc="ExtendEditUp(PT Shift P)">
       <metadata>
         <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
 {\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
@@ -2780,7 +2780,7 @@ v1.0 (2025-11-30)
         <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/Protools_Edit/ExtendEditUP(PT-Shift%20P).lua</source>
       </version>
     </reapack>
-    <reapack name="Geeksound_HalveRazorLength(PT-ShiftCtrlAltCmd-L).lua" type="script">
+    <reapack name="Geeksound_HalveRazorLength(PT-ShiftCtrlAltCmd-L).lua" type="script" desc="HalveRazorLength(PT-ShiftCtrlAltCmd-L)">
       <metadata>
         <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
 {\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
@@ -2808,7 +2808,7 @@ v1.0 (2025-11-26)
         <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/Protools_Edit/HalveTimeLength(PT-ShiftCtrlAltCmd-L).lua</source>
       </version>
     </reapack>
-    <reapack name="Geeksound_HalveTimeLength(PT-ShiftCtrlAltCmd-L).lua" type="script">
+    <reapack name="Geeksound_HalveTimeLength(PT-ShiftCtrlAltCmd-L).lua" type="script" desc="HalveTimeLength(PT-ShiftCtrlAltCmd-L)">
       <metadata>
         <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
 {\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
@@ -2836,7 +2836,7 @@ v1.0 (2025-11-26)
         <source main="main">https://raw.githubusercontent.com/Geeksound/Reaper_Scripts-Mariow/main/Protools_Edit/HalveTimeLength(PT-ShiftCtrlAltCmd-L).lua</source>
       </version>
     </reapack>
-    <reapack name="Geeksound_Heal-Separation.lua" type="script">
+    <reapack name="Geeksound_Heal-Separation.lua" type="script" desc="Heal-Separation">
       <metadata>
         <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
 {\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
@@ -2863,7 +2863,7 @@ v1.0 (2025-11-25)
         <source main="main">https://raw.githubusercontent.com/Geeksound/Reaper_Scripts-Mariow/main/Protools_Edit/Heal-Separation%20(PT-Cmd%20H).lua</source>
       </version>
     </reapack>
-    <reapack name="Geeksound_Snap-Item-ToNext.lua" type="script">
+    <reapack name="Geeksound_Snap-Item-ToNext.lua" type="script" desc="Snap-Item-ToNext like in PT">
       <metadata>
         <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
 {\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
@@ -2897,7 +2897,7 @@ v1.0 (2025-11-26)
         <source main="main">https://raw.githubusercontent.com/Geeksound/Reaper_Scripts-Mariow/main/Protools_Edit/Snap-Item-ToNext.lua</source>
       </version>
     </reapack>
-    <reapack name="Geeksound_Snap-Item-ToPrevious.lua" type="script">
+    <reapack name="Geeksound_Snap-Item-ToPrevious.lua" type="script" desc="Snap-Item-ToPrevious like in PT">
       <metadata>
         <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
 {\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
@@ -2931,7 +2931,7 @@ v1.0 (2025-11-26)
         <source main="main">https://raw.githubusercontent.com/Geeksound/Reaper_Scripts-Mariow/main/Protools_Edit/Snap-Item-ToPrevious.lua</source>
       </version>
     </reapack>
-    <reapack name="Geeksound_Space-Clips.lua" type="script">
+    <reapack name="Geeksound_Space-Clips.lua" type="script" desc="Space-Items easily">
       <metadata>
         <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
 {\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
@@ -2959,7 +2959,7 @@ v1.0 (2025-06-07)
         <source main="main">https://raw.githubusercontent.com/Geeksound/Reaper_Scripts-Mariow/main/Protools_Edit/Space-Clips.lua</source>
       </version>
     </reapack>
-    <reapack name="Geeksound_Split-Item(as PT).lua" type="script">
+    <reapack name="Geeksound_Split-Item(as PT).lua" type="script" desc="Split-Item(as PT)">
       <metadata>
         <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
 {\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
@@ -2989,7 +2989,7 @@ v1.0 (2025-06-07)
         <source main="main">https://raw.githubusercontent.com/Geeksound/Reaper_Scripts-Mariow/main/Protools_Edit/Split-Item(as%20PT).lua</source>
       </version>
     </reapack>
-    <reapack name="Geeksound_StartToFillSelection.lua" type="script">
+    <reapack name="Geeksound_StartToFillSelection.lua" type="script" desc="StartToFillSelection">
       <metadata>
         <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
 {\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
@@ -3016,7 +3016,7 @@ v1.0 (2025-06-07)
         <source main="main">https://raw.githubusercontent.com/Geeksound/Reaper_Scripts-Mariow/main/Protools_Edit/StartToFillSelection.lua</source>
       </version>
     </reapack>
-    <reapack name="Geeksound_Trim-Left-(PT Q).lua" type="script">
+    <reapack name="Geeksound_Trim-Left-(PT Q).lua" type="script" desc="Trim-Left-(PT Q)">
       <metadata>
         <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
 {\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
@@ -3043,7 +3043,7 @@ v1.0 (2025-11-26)
         <source main="main">https://raw.githubusercontent.com/Geeksound/Reaper_Scripts-Mariow/main/Protools_Edit/Trim-Left-(PT%20Q).lua</source>
       </version>
     </reapack>
-    <reapack name="Geeksound_Trim-Right-(PT S).lua" type="script">
+    <reapack name="Geeksound_Trim-Right-(PT S).lua" type="script" desc="Trim-Right-(PT S)">
       <metadata>
         <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
 {\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
@@ -3070,7 +3070,7 @@ v1.0 (2025-11-26)
         <source main="main">https://raw.githubusercontent.com/Geeksound/Reaper_Scripts-Mariow/main/Protools_Edit/Trim-Right-(PT%20S).lua</source>
       </version>
     </reapack>
-    <reapack name="Geeksound_TrimToSelection.lua" type="script">
+    <reapack name="Geeksound_TrimToSelection.lua" type="script" desc="TrimToSelection">
       <metadata>
         <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
 {\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
@@ -3097,7 +3097,7 @@ v1.0 (2025-06-07)
         <source main="main">https://raw.githubusercontent.com/Geeksound/Reaper_Scripts-Mariow/main/Protools_Edit/TrimToSelection.lua</source>
       </version>
     </reapack>
-    <reapack name="Geeksound_Create-6PointsEnveloppe(PT).lua" type="script">
+    <reapack name="Geeksound_Create-6PointsEnveloppe(PT).lua" type="script" desc="Create-6PointsEnveloppe(PT)">
       <metadata>
         <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
 {\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
