@@ -1,5 +1,5 @@
 --[[
-@description CharacterText Interchange in Names
+@description Geeksound_ReplaceXthCharacter-inName
 @version 1.0
 @author Mariow
 @changelog
