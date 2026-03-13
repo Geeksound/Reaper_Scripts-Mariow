@@ -8,7 +8,7 @@
   - Pressing Return/Enter in the Marker input field jumps directly to that marker
   - Minor improvements for ImGui input handling
 @provides
-  [main] Utility/GoTo-Markers.lua
+  [main] Utility/Geeksound_GoTo-Markers.lua
 @link https://github.com/Geeksound/Reaper_Scripts-Mariow
 @repository https://github.com/Geeksound/Reaper_Scripts-Mariow
 @tags navigation, utility, ImGui, marker
