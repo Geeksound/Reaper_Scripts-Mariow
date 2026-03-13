@@ -6,7 +6,7 @@
 	v1.0 (2025-11-17)
 	- Initial release
 @provides
-	[main] ProTools_TAB/(ProTools)TAB-Ctrl(Alt).lua
+	[main] ProTools_TAB/Geeksound_(ProTools)TAB-Ctrl(Alt).lua
 @tags protools, tab, item, selection, editing, previous
 @link https://github.com/Geeksound/Reaper_Scripts-Mariow
 @repository https://github.com/Geeksound/Reaper_Scripts-Mariow
