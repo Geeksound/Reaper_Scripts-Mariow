@@ -19,7 +19,7 @@
   v1.0 (2025-06-08)
   - Initial release
 @provides
-  [main] View/Interactive-TC-Display.lua
+  [main] View/Geeksound_Interactive-TC-Display.lua
 @link https://github.com/Geeksound/Reaper_Scripts-Mariow
 @repository https://github.com/Geeksound/Reaper_Scripts-Mariow
 @tags timecode display reaper contextual items status marker navigation
