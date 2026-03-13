@@ -8,7 +8,7 @@
     v1.0 (2025-06-07)
     - Initial release
 @provides
-    [main] ProTools_TAB/(Protools)TAB-TransientToggleShortcut.lua
+    [main] ProTools_TAB/Geeksound_(Protools)TAB-TransientToggleShortcut.lua
 @tags protools, transient, tab, shortcut, editing
 @link https://github.com/Geeksound/Reaper_Scripts-Mariow
 @repository https://github.com/Geeksound/Reaper_Scripts-Mariow
