@@ -5229,7 +5229,7 @@ v1.0 (2025-11-26)
 - Initial release
 - Deletes selected tracks if empty; asks confirmation if tracks contain items
 ]]></changelog>
-        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/Protools_Track/DelTrack(AsPT).lua</source>
+        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/Protools_Track/Geeksound_DelTrack(AsPT).lua</source>
       </version>
     </reapack>
     <reapack name="Geeksound_GroupTracks(PT-CmdG).lua" type="script" desc="Group selected tracks (ProTools-like)">
@@ -5258,7 +5258,7 @@ v1.0 (2025-11-26)
 v1.0 (2025-11-25)
 - Initial release: executes the "Group tracks" command (ID 40772)
 ]]></changelog>
-        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/Protools_Track/GroupTracks(PT-CmdG).lua</source>
+        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/Protools_Track/Geeksound_GroupTracks(PT-CmdG).lua</source>
       </version>
     </reapack>
     <reapack name="Geeksound_InsertNewTrack(PT).lua" type="script" desc="Insert a new track and adjust it (ProTools-style)">
@@ -5289,7 +5289,7 @@ v1.0 (2025-11-25)
 v1.0 (2025-11-26)
 - Initial release
 ]]></changelog>
-        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/Protools_Track/InsertNewTrack(PT).lua</source>
+        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/Protools_Track/Geeksound_InsertNewTrack(PT).lua</source>
       </version>
     </reapack>
     <reapack name="Geeksound_MonosTracks-ToST.lua" type="script" desc="Convert mono tracks to stereo takes (ProTools-like)">
@@ -5325,7 +5325,7 @@ v1.0 (2025-11-26)
 v1.0 (2025-06-07)
 - Initial release
 ]]></changelog>
-        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/Protools_Track/MonosTracks-ToST.lua</source>
+        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/Protools_Track/Geeksound_MonosTracks-ToST.lua</source>
       </version>
     </reapack>
     <reapack name="Geeksound_Split-ST-toMonos.lua" type="script" desc="Split stereo items into mono items (ProTools-like)">
@@ -5359,7 +5359,7 @@ v1.0 (2025-06-07)
 v1.0 (2025-06-07)
 - Initial release
 ]]></changelog>
-        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/Protools_Track/Split-ST-toMonos.lua</source>
+        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/Protools_Track/Geeksound_Split-ST-toMonos.lua</source>
       </version>
     </reapack>
   </category>
