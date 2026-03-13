@@ -10,7 +10,7 @@
     - Automatically restores the Edit Cursor after playback stops
     - Mimics Pro Tools behavior of "Edit Selection vs Loop Points"
 @provides
-  [main] PROTOOLS/PlayLoop.lua
+  [main] PROTOOLS/Geeksound_PlayLoop.lua
 @about
   # GoTo Loop Start and Play (Reaper, Pro Tools style)
 
