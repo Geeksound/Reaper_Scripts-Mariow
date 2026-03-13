@@ -10,7 +10,7 @@
   - Updates all media paths inside the duplicated .RPP
   - Includes auto-close and window close (croix) handling
 @provides
-  [main] PROTOOLS/Save-Session-Copy-In.lua
+  [main] PROTOOLS/Geeksound_Save-Session-Copy-In.lua
 @link https://github.com/Geeksound/Reaper_Scripts-Mariow
 @repository https://github.com/Geeksound/Reaper_Scripts-Mariow
 @tags project, copy, media, session, protTools, utility, management
