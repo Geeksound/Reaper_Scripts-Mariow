@@ -1528,7 +1528,7 @@ v1.0 (2025-12-17)
   - Initial release
   - Emulates \b Protools \b0 'K' shortcut: moves selected item(s) so Snap Offset aligns with Edit Cursor
 ]]></changelog>
-        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/PROTOOLS/SyncPoint-ToEditCursor.lua</source>
+        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/PROTOOLS/Geeksound_SyncPoint-ToEditCursor.lua</source>
       </version>
     </reapack>
     <reapack name="Geeksound_Paste-ToFill.lua" type="script" desc="Paste-ToFill">
@@ -1557,7 +1557,7 @@ v1.0 (2025-11-12)
 - Executes full MRX "Paste To Fill" logic within a single Undo Block
 - Simplified, organized, and commented version based on MRX PasteToFill v1.1 (Ben Kersten)
 ]]></changelog>
-        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/PROTOOLS/Paste-ToFill.lua</source>
+        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/PROTOOLS/Geeksound_Paste-ToFill.lua</source>
       </version>
     </reapack>
     <reapack name="Geeksound_Paste(Pt-like).lua" type="script" desc="Paste PT-like compatible with Razor">
@@ -1588,7 +1588,7 @@ v1.0 (2026-02-23)
 - Automatically matches pasted item color to parent track color
 - Clears Razor Edits and resets ripple editing state
 ]]></changelog>
-        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/PROTOOLS/Paste(Pt-like).lua</source>
+        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/PROTOOLS/Geeksound_Paste(Pt-like).lua</source>
       </version>
     </reapack>
     <reapack name="Geeksound_Copy(Pt-like).lua" type="script" desc="Copy PT-like (ignore time selection) + move cursor to source start">
@@ -1618,7 +1618,7 @@ v1.0 (2026-02-24)
 - Smart cursor reposition after copy
 - Pro Tools-style source workflow behavior
 ]]></changelog>
-        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/PROTOOLS/Copy(Pt-like).lua</source>
+        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/PROTOOLS/Geeksound_Copy(Pt-like).lua</source>
       </version>
     </reapack>
     <reapack name="Geeksound_Revert-ToSaved.lua" type="script" desc="Revert-ToSaved">
@@ -1646,7 +1646,7 @@ v1.0 (2026-02-24)
   - Simulates Pro Tools 'Revert to Saved' inside REAPER
   - Closes the current project and reopens the last saved version
 ]]></changelog>
-        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/PROTOOLS/Revert-ToSaved.lua</source>
+        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/PROTOOLS/Geeksound_Revert-ToSaved.lua</source>
       </version>
     </reapack>
     <reapack name="Geeksound_LinkUnlink-TimelineANDEdit-Sel.lua" type="script" desc="Toggle Link/Unlink TimelineEdit Selection">
@@ -1672,7 +1672,7 @@ v1.0 (2026-02-24)
   - Initial release
   - Toggle Timeline / Edit Selection link/unlink (Pro Tools style)
 ]]></changelog>
-        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/PROTOOLS/LinkUnlink-TlineANDedit-Sel.lua</source>
+        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/PROTOOLS/Geeksound_LinkUnlink-TlineANDedit-Sel.lua</source>
       </version>
     </reapack>
     <reapack name="Geeksound_LinkUnlink-TimelineANDEdit-SelOneKNOB.lua" type="script" desc="Toggle Link/Unlink TimelineEdit Selection (ImGui)">
@@ -1699,7 +1699,7 @@ v1.0 (2026-02-24)
   - Small floating ImGui window with a single button
   - Button color and label indicate current LINKED / UNLINKED state
 ]]></changelog>
-        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/PROTOOLS/LinkUnlink-TlineANDedit-SelOneKNOB.lua</source>
+        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/PROTOOLS/Geeksound_LinkUnlink-TlineANDedit-SelOneKNOB.lua</source>
       </version>
     </reapack>
     <reapack name="Geeksound_PlayLoop.lua" type="script" desc="PlayLoop (Pro Tools style)">
@@ -1728,7 +1728,7 @@ v1.0 (2026-02-24)
   - Saves and restores Edit Cursor (SWS slot 1)
   - Mimics Pro Tools behavior for Edit Selection vs Loop Points
 ]]></changelog>
-        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/PROTOOLS/PlayLoop.lua</source>
+        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/PROTOOLS/Geeksound_PlayLoop.lua</source>
       </version>
     </reapack>
     <reapack name="Geeksound_PlayTimeSelection.lua" type="script" desc="Play TimeSelection (Pro Tools style)">
@@ -1757,7 +1757,7 @@ v1.0 (2026-02-24)
   - Saves and restores Edit Cursor (SWS slot 1)
   - Plays from Edit Cursor if no Time Selection is defined
 ]]></changelog>
-        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/PROTOOLS/PlayTimeSelection.lua</source>
+        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/PROTOOLS/Geeksound_PlayTimeSelection.lua</source>
       </version>
     </reapack>
     <reapack name="Geeksound_Save-Session-Copy-In.lua" type="script" desc="Save-Session-Copy-In">
@@ -1788,7 +1788,7 @@ v1.0 (2025-11-21)
 - Updates all media paths in the new .RPP
 - Auto-close and window close support
 ]]></changelog>
-        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/PROTOOLS/Save-Session-Copy-In.lua</source>
+        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/PROTOOLS/Geeksound_Save-Session-Copy-In.lua</source>
       </version>
     </reapack>
     <reapack name="Geeksound_SaveSessionCopyInFolders.lua" type="script" desc="Advanced Session Copy In (4-Folder Routing)">
@@ -1824,7 +1824,7 @@ v1.1 (2025-11-22)
 - ALT + clic sur colonne = coche/décoche tous les médias de la colonne
 - Clic simple = sélection classique
 ]]></changelog>
-        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/PROTOOLS/SaveSessionCopyInFolders.lua</source>
+        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/PROTOOLS/Geeksound_SaveSessionCopyInFolders.lua</source>
       </version>
       <version name="1.0" author="Mariow" time="2025-11-21T00:00:00Z">
         <changelog><![CDATA[
@@ -1837,7 +1837,7 @@ v1.0 (2025-11-21)
 - Automatic .RPP update after duplication
 - Window close and auto-close support
 ]]></changelog>
-        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/PROTOOLS/SaveSessionCopyInFolders.lua</source>
+        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/PROTOOLS/Geeksound_SaveSessionCopyInFolders.lua</source>
       </version>
     </reapack>
     <reapack name="Geeksound_ZoomSel-(PT Alt F).lua" type="script" desc="Zoom on timesel-(PT Alt F)">
@@ -1869,7 +1869,7 @@ v1.0 (2025-11-21)
 v1.0 (2025-11-26)
 - Initial release: zooms to selected items or to time selection if no items, emulating Pro Tools behavior
 ]]></changelog>
-        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/PROTOOLS/ZoomSel-(PT%20Alt%20F).lua</source>
+        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/PROTOOLS/Geeksound_ZoomSel-(PT%20Alt%20F).lua</source>
       </version>
     </reapack>
     <reapack name="Geeksound_MemoryLocation(as PT).lua" type="script" desc="MemoryLocation(as PT)">
@@ -1910,7 +1910,7 @@ v1.0 (2025-12-10)
 - Jump to marker by number or by name
 - Press Enter to validate and auto-close the window
 ]]></changelog>
-        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/PROTOOLS/MemoryLocation(As%20PT).lua</source>
+        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/PROTOOLS/Geeksound_MemoryLocation(As%20PT).lua</source>
       </version>
     </reapack>
     <reapack name="Geeksound_ViewVideo.lua" type="script" desc="ViewVideo">
@@ -1950,7 +1950,7 @@ v1.0 (2025-12-17)
 - Smart check of video window ON/OFF state
 - Shows video window only if it is hidden
 ]]></changelog>
-        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/PROTOOLS/ViewVideo.lua</source>
+        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/PROTOOLS/Geeksound_ViewVideo.lua</source>
       </version>
     </reapack>
     <reapack name="Geeksound_ImportVideo(PT-like).lua" type="script" desc="ImportVideo(PT-like)">
@@ -2000,7 +2000,7 @@ v1.0 (2025-12-17)
 - Opens Item Properties for imported video
 - Ensures video window is visible
 ]]></changelog>
-        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/PROTOOLS/ImportVideo(PT-like).lua</source>
+        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/PROTOOLS/Geeksound_ImportVideo(PT-like).lua</source>
       </version>
     </reapack>
   </category>
