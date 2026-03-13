@@ -6,7 +6,7 @@
   v1.0 (2025-06-07)
   - Initial release
 @provides
-  [main] Utility/prefix-to-name.lua
+  [main] Utility/Geeksopund_prefix-to-name.lua
 @link https://github.com/Geeksound/Reaper_Scripts-Mariow
 @repository https://github.com/Geeksound/Reaper_Scripts-Mariow
 @tags name, items, editing
