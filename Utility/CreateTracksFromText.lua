@@ -1,5 +1,5 @@
 --[[
-@description CreateTracksFromText
+@description Geeksound_CreateTracksFromText
 @version 1.0
 @author Mariow
 @changelog
