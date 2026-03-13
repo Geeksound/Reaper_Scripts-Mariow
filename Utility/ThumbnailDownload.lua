@@ -1,5 +1,5 @@
 --[[ 
-  @description Downloads Mariow’s thumbnail into the user’s Scripts directory to ensure it displays properly in his scripts
+  @description Geeksound_ThumbnailDownload
   @version 1.0
   @author Mariow
   @changelog
