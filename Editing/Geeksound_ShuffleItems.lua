@@ -6,7 +6,7 @@
   v1.0 (2025-11-09)
   - Initial release
 @provides
-  [main] Editing/shuffleItems.lua
+  [main] Editing/Geeksound_shuffleItems.lua
 @link https://github.com/Geeksound/Reaper_Scripts-Mariow
 @repository https://github.com/Geeksound/Reaper_Scripts-Mariow
 @tags items, track, editing, arrange
