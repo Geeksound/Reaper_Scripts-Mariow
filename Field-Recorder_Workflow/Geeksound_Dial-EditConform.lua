@@ -7,7 +7,7 @@
   v1.0 (2025-06-08)
   - Initial release
 @provides
-  [main] Field-Recorder_Workflow/Dial-EditConform.lua
+  [main] Field-Recorder_Workflow/Geeksound_Dial-EditConform.lua
 @link https://github.com/Geeksound/Reaper_Scripts-Mariow
 @repository https://github.com/Geeksound/Reaper_Scripts-Mariow
 @tags dialogue editing conformation workflow timecode display items
