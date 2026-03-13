@@ -6,7 +6,7 @@
   v1.0 (2025-06-07)
   - Initial release
 @provides
-  [main] Protools_Track/MonosTracks-ToST.lua
+  [main] Protools_Track/Geeksound_MonosTracks-ToST.lua
 @link https://github.com/Geeksound/Reaper_Scripts-Mariow
 @repository https://github.com/Geeksound/Reaper_Scripts-Mariow
 @tags editing, tracks, items, takes, implode, glue, (protools-like)
