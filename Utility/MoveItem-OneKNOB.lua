@@ -1,5 +1,5 @@
 --[[
-@description MoveItemUP/Down-OneKNOB
+@description Geeksound_MoveItemUP/Down-OneKNOB
 @version 1.0
 @author Mariow
 @changelog
