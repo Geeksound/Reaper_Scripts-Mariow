@@ -8,7 +8,7 @@
     v1.0 (2025-06-07)
     - Initial release
 @provides
-    [main] ProTools_TAB/(Protools)TAB(imgui).lua
+    [main] ProTools_TAB/Geeksound_(Protools)TAB(imgui).lua
 @link https://github.com/Geeksound/Reaper_Scripts-Mariow
 @repository https://github.com/Geeksound/Reaper_Scripts-Mariow
 @tags protools, tab, transient, fade, editing, gui, imgui
