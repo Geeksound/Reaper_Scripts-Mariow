@@ -1840,7 +1840,7 @@ v1.0 (2025-11-21)
         <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/PROTOOLS/SaveSessionCopyInFolders.lua</source>
       </version>
     </reapack>
-    <reapack name="Geeksound_ZoomSel-(PT Alt F).lua" type="script">
+    <reapack name="Geeksound_ZoomSel-(PT Alt F).lua" type="script" desc="Zoom on timesel-(PT Alt F)">
       <metadata>
         <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
 {\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
@@ -1872,7 +1872,7 @@ v1.0 (2025-11-26)
         <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/PROTOOLS/ZoomSel-(PT%20Alt%20F).lua</source>
       </version>
     </reapack>
-    <reapack name="Geeksound_MemoryLocation(as PT).lua" type="script">
+    <reapack name="Geeksound_MemoryLocation(as PT).lua" type="script" desc="MemoryLocation(as PT)">
       <metadata>
         <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0\fmodern Courier;}{\f1\fswiss Helvetica;}}
 {\colortbl;\red255\green0\blue0;}
@@ -1913,7 +1913,7 @@ v1.0 (2025-12-10)
         <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/PROTOOLS/MemoryLocation(As%20PT).lua</source>
       </version>
     </reapack>
-    <reapack name="Geeksound_ViewVideo.lua" type="script">
+    <reapack name="Geeksound_ViewVideo.lua" type="script" desc="ViewVideo">
       <metadata>
         <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0\fmodern Courier;}{\f1\fswiss Helvetica;}}
 {\colortbl;\red255\green0\blue0;}
@@ -1953,7 +1953,7 @@ v1.0 (2025-12-17)
         <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/PROTOOLS/ViewVideo.lua</source>
       </version>
     </reapack>
-    <reapack name="Geeksound_ImportVideo(PT-like).lua" type="script">
+    <reapack name="Geeksound_ImportVideo(PT-like).lua" type="script" desc="ImportVideo(PT-like)">
       <metadata>
         <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0\fmodern Courier;}{\f1\fswiss Helvetica;}}
 {\colortbl;\red255\green0\blue0;}
