@@ -27,7 +27,7 @@
   - Initial release
 
 @provides
-  [main] Editing/TimeShift.lua
+  [main] Editing/Geeksound_TimeShift.lua
 @link https://github.com/Geeksound/Reaper_Scripts-Mariow
 @repository https://github.com/Geeksound/Reaper_Scripts-Mariow
 @tags timecode, display, items, editing
