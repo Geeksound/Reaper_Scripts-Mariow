@@ -1,5 +1,5 @@
 --[[
-@description Multiply/Divide TimeAreas (razor-Timesel-loop) with HH:MM:SS:Frames (ReaImGui)
+@description Geeksound_Multiply:Divide-TimeAreas
 @version 1.0
 @author Mariow
 @license MIT
