@@ -1,5 +1,5 @@
 --[[
-@description SelNoNamed-Tracks
+@description Geeksound_SelNoNamed-Tracks
 @version 1.1
 @author Mariow
 @license MIT
