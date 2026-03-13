@@ -15,7 +15,7 @@
   
   
 @provides
-  [main] PROTOOLS/ImportVideo(PT-like).lua
+  [main] PROTOOLS/Geeksound_ImportVideo(PT-like).lua
 @link https://github.com/Geeksound/Reaper_Scripts-Mariow
 @repository https://github.com/Geeksound/Reaper_Scripts-Mariow
 @tags video, audio, workflow, import, group, prottools-like, imgui
