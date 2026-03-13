@@ -9,7 +9,7 @@
   - Automatically rebuilds peaks (cmd 40441) for updated waveforms
   
 @provides
-  [main] Editing/ReaPlaceClip.lua
+  [main] Editing/Geeksound_ReaPlaceClip.lua
 @link https://github.com/Geeksound/Reaper_Scripts-Mariow
 @repository https://github.com/Geeksound/Reaper_Scripts-Mariow
 @tags audio, editing, replace, clip, protools, source
