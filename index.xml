@@ -493,7 +493,7 @@ v1.0 (2025-11-06)
 - Improved FPS handling (defaults to 25 if unset)
 - Smoother slider responsiveness and reset when duration changes
 ]]></changelog>
-        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/Editing_TRIM/Trim-LeftRight@range.lua</source>
+        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/Editing_TRIM/Geeksound_Trim-LeftRight@range.lua</source>
       </version>
     </reapack>
     <reapack name="Geeksound_UnTrimStartToPrev.lua" type="script" desc="TrimLeft-ToPreviousClip(PT-Like)">
@@ -517,21 +517,21 @@ v1.0 (2025-11-06)
 v1.2
 - Process all selected items one by one safely
 ]]></changelog>
-        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/Editing_TRIM/UnTrimStartToPrev.lua</source>
+        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/Editing_TRIM/Geeksound_UnTrimStartToPrev.lua</source>
       </version>
       <version name="1.1.1" author="Mariow" time="2025-12-02T00:00:00Z">
         <changelog><![CDATA[
 v1.1.1 (2025-12-02)
 - Bug Fix
 ]]></changelog>
-        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/Editing_TRIM/UnTrimStartToPrev.lua</source>
+        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/Editing_TRIM/Geeksound_UnTrimStartToPrev.lua</source>
       </version>
       <version name="1.1" author="Mariow" time="2025-11-07T00:00:00Z">
         <changelog><![CDATA[
 v1.1 (2025-11-07)
 - Added condition: left edge will not move if already aligned with previous item's right edge
 ]]></changelog>
-        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/Editing_TRIM/UnTrimStartToPrev.lua</source>
+        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/Editing_TRIM/Geeksound_UnTrimStartToPrev.lua</source>
       </version>
       <version name="1.0" author="Mariow" time="2025-11-06T00:00:00Z">
         <changelog><![CDATA[
@@ -539,7 +539,7 @@ v1.0 (2025-11-06)
 - Initial release
 - Trim the left edge of the selected item to the end of the previous item
 ]]></changelog>
-        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/Editing_TRIM/UnTrimStartToPrev.lua</source>
+        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/Editing_TRIM/Geeksound_UnTrimStartToPrev.lua</source>
       </version>
     </reapack>
     <reapack name="Geeksound_UnTrimEndToNext.lua" type="script" desc="TrimRightt-ToNextClip(PT-Like)">
@@ -562,7 +562,7 @@ v1.0 (2025-11-06)
 v1.1
 - Process all selected items one by one safely
 ]]></changelog>
-        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/Editing_TRIM/UnTrimEndToNext.lua</source>
+        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/Editing_TRIM/Geeksound_UnTrimEndToNext.lua</source>
       </version>
       <version name="1.0" author="Mariow" time="2025-11-06T00:00:00Z">
         <changelog><![CDATA[
@@ -570,7 +570,7 @@ v1.0 (2025-11-06)
 - Initial release
 - Trim the right edge of the selected item to the start of the next item
 ]]></changelog>
-        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/Editing_TRIM/UnTrimEndToNext.lua</source>
+        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/Editing_TRIM/Geeksound_UnTrimEndToNext.lua</source>
       </version>
     </reapack>
     <reapack name="Geeksound_UnTrimBetweenItems.lua" type="script" desc="UntrimBetweenItems">
@@ -593,28 +593,28 @@ v1.0 (2025-11-06)
 v1.2
 - Process all selected items one by one safely
 ]]></changelog>
-        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/Editing_TRIM/UnTrimBetweenItems.lua</source>
+        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/Editing_TRIM/Geeksound_UnTrimBetweenItems.lua</source>
       </version>
       <version name="1.1.2" author="Mariow" time="2025-12-03T00:00:00Z">
         <changelog><![CDATA[
 v1.1.2 (2025-12-03)
 - Bug Fix
 ]]></changelog>
-        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/Editing_TRIM/UnTrimBetweenItems.lua</source>
+        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/Editing_TRIM/Geeksound_UnTrimBetweenItems.lua</source>
       </version>
       <version name="1.1.1" author="Mariow" time="2025-12-02T00:00:00Z">
         <changelog><![CDATA[
 v1.1.1 (2025-12-02)
 - Bug Fix
 ]]></changelog>
-        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/Editing_TRIM/UnTrimBetweenItems.lua</source>
+        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/Editing_TRIM/Geeksound_UnTrimBetweenItems.lua</source>
       </version>
       <version name="1.1" author="Mariow" time="2025-11-06T00:00:00Z">
         <changelog><![CDATA[
 v1.1 (2025-11-06)
 - Added condition: left edge will not move if already aligned with previous item's right edge
 ]]></changelog>
-        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/Editing_TRIM/UnTrimBetweenItems.lua</source>
+        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/Editing_TRIM/Geeksound_UnTrimBetweenItems.lua</source>
       </version>
       <version name="1.0" author="Mariow" time="2025-11-06T00:00:00Z">
         <changelog><![CDATA[
@@ -622,7 +622,7 @@ v1.0 (2025-11-06)
 - Initial release
 - Trim both left and right edges of the selected item to adjacent items
 ]]></changelog>
-        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/Editing_TRIM/UnTrimBetweenItems.lua</source>
+        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/Editing_TRIM/Geeksound_UnTrimBetweenItems.lua</source>
       </version>
     </reapack>
     <reapack name="Geeksound_DualTrimSlider-EvenOddItems" type="script" desc="DualTrimSlider-EvenOddItems">
@@ -656,7 +656,7 @@ v1.0 (2026-01-08)
 - Slider 2 affects even items primarily
 - Actions executed according to REAPER command IDs
 ]]></changelog>
-        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/Editing_TRIM/DualTrimSlider-EvenOddItems.lua</source>
+        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/Editing_TRIM/Geeksound_DualTrimSlider-EvenOddItems.lua</source>
       </version>
     </reapack>
     <reapack name="Geeksound_Auto-Split Overlapping Items (Keep Top Item)" type="script" desc="TrimAndSplitItemUnderUnderneath">
@@ -684,7 +684,7 @@ v1.0 (2025-11-11)
 - When moving or pasting Item on another, preserves selected (top) items
 - Removes only overlapped portions below
 ]]></changelog>
-        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/Editing_TRIM/TrimAndSplitByItemOnTop.lua</source>
+        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/Editing_TRIM/Geeksound_TrimAndSplitByItemOnTop.lua</source>
       </version>
     </reapack>
   </category>
