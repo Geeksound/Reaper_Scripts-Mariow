@@ -10,7 +10,7 @@
   - Automatically trims the right edge of the selected item to Start of next item on the same track
 
 @provides
-  [main] Editing_TRIM/UnTrimEndToNext.lua
+  [main] Editing_TRIM/Geeksound_UnTrimEndToNext.lua
 @link https://github.com/Geeksound/Reaper_Scripts-Mariow
 @repository https://github.com/Geeksound/Reaper_Scripts-Mariow
 @tags items, editing, trimming, utility
