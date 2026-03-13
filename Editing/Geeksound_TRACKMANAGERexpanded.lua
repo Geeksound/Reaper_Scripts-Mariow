@@ -1,5 +1,5 @@
 --[[
-@description TrackManager-Expanded
+@description TRACKMANAGERexpanded
 @version 1.4
 @author Mariow
 @changelog
@@ -17,7 +17,7 @@
   v1.0 (2025-10-28)
   - Initial release
 @provides
-  [main] trackManager-expanded.lua
+  [main] Editing/Geeksound_TRACKMANAGERexpanded.lua
 @link https://github.com/Geeksound/Reaper_Scripts-Mariow
 @repository https://github.com/Geeksound/Reaper_Scripts-Mariow
 @tags tracks, session, palette, management, visualization
