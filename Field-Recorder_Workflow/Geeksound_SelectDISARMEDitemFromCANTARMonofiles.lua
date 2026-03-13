@@ -6,7 +6,7 @@
   v1.0 (2025-11-05)
   - Select all mono items marked as DISARMED in Cantar iXML metadata
 @provides
-  [main] Field-Recorder_Workflow/Select_DISARMED_Items.lua
+  [main] Field-Recorder_Workflow/Geeksound_Select_DISARMED_Items.lua
 @link https://github.com/Geeksound/Reaper_Scripts-Mariow
 @repository https://github.com/Geeksound/Reaper_Scripts-Mariow
 @tags dialogue conformation workflow fieldrecording cantar disarmed
