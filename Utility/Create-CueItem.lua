@@ -1,5 +1,5 @@
 --[[
-@description Empty Item Creator
+@description Geeksound_Create-CueItem
 @version 1.0
 @author Mariow
 @changelog
