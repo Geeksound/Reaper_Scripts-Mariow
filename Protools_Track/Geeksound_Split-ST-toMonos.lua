@@ -6,7 +6,7 @@
   v1.0 (2025-06-07)
   - Initial release
 @provides
-  [main] Protools_Track/Split-ST-toMonos.lua
+  [main] Protools_Track/Geeksound_Split-ST-toMonos.lua
 @link https://github.com/Geeksound/Reaper_Scripts-Mariow
 @repository https://github.com/Geeksound/Reaper_Scripts-Mariow
 @tags editing, items, audio, explode, channels, prottools-like
