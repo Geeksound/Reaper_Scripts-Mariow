@@ -6,7 +6,7 @@
     v1.0 (2025-11-17)
     - Initial release
 @provides
-    [main] ProTools_TAB/(ProTools)TAB-AltShift.lua
+    [main] ProTools_TAB/Geeksound_(ProTools)TAB-AltShift.lua
 @tags protools, tab, transient, fade, selection, timesel, editing, reverse
 @link https://github.com/Geeksound/Reaper_Scripts-Mariow
 @repository https://github.com/Geeksound/Reaper_Scripts-Mariow
