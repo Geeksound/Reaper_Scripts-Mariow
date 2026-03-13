@@ -14,7 +14,7 @@
   - Improved color palette preview
   - Optimized repeat button behavior
 @provides
-  [main]  Editing/ItemControlBoard.lua
+  [main]  Editing/Geeksound_ItemControlBoard.lua
 @link https://github.com/Geeksound/Reaper_Scripts-Mariow
 @repository https://github.com/Geeksound/Reaper_Scripts-Mariow
 @tags item, editing, gui, color, palette, tool
