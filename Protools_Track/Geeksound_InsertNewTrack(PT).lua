@@ -6,7 +6,7 @@
   v1.0 (2025-11-26)
   - Initial release
 @provides
-  [main] Protools_Track/InsertNewTrack(PT).lua
+  [main] Protools_Track/Geeksound_InsertNewTrack(PT).lua
 @link https://github.com/Geeksound/Reaper_Scripts-Mariow
 @repository https://github.com/Geeksound/Reaper_Scripts-Mariow
 @tags track, insert, rename, height, editing
