@@ -9,7 +9,7 @@
   - Executes full MRX "Paste To Fill" logic within a single Undo Block
   - Simplified, organized, and commented version based on MRX PasteToFill v1.1 (Ben Kersten)
 @provides
-  [main] PROTOOLS/Paste-ToFill.lua
+  [main] PROTOOLS/Geeksound_Paste-ToFill.lua
 @link https://github.com/Geeksound/Reaper_Scripts-Mariow
 @repository https://github.com/Geeksound/Reaper_Scripts-Mariow
 @tags razor, paste, fill, editing, items, envelopes
