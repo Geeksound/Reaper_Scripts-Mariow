@@ -8,7 +8,7 @@
     v1.0 (2025-06-07)
     - Initial release
 @provides
-    [main] ProTools_TAB/(Protools)TAB-FadeToggleShortcut.lua
+    [main] ProTools_TAB/Geeksound_(Protools)TAB-FadeToggleShortcut.lua
 @tags protools, fade, shortcut, editing
 @link https://github.com/Geeksound/Reaper_Scripts-Mariow
 @repository https://github.com/Geeksound/Reaper_Scripts-Mariow
