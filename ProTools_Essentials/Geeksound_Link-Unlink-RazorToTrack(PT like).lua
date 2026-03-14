@@ -6,7 +6,7 @@
   v1.0 (2025-06-07)
   - Initial release: links Razor Edit areas to track selection (toggle)
 @provides
-  [main] ProTools_Essentials/Link-Unlink-RazorToTrack(PT like).lua
+  [main] ProTools_Essentials/Geeksound_Link-Unlink-RazorToTrack(PT like).lua
 @link https://github.com/Geeksound/Reaper_Scripts-Mariow
 @repository https://github.com/Geeksound/Reaper_Scripts-Mariow
 @tags editing, razor edit, tracks, selection, (protools-like)
