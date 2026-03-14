@@ -6,7 +6,7 @@
     v1.0 (2025-12-09)
     - Initial release (reduces time selection using TimecodeUI nudge value)
 @provides
-    [main] ProTools_Essentials/ShrinkTimeSelection-TCui.lua
+    [main] ProTools_Essentials/Geeksound_ShrinkTimeSelection-TCui.lua
 @link https://github.com/Geeksound/Reaper_Scripts-Mariow
 @repository https://github.com/Geeksound/Reaper_Scripts-Mariow
 @tags editing, timesel, nudge, transport, (protools-like)
