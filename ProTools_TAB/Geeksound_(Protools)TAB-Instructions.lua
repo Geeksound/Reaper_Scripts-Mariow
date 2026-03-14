@@ -1,8 +1,10 @@
 --[[
 @description ProTools TAB - Manual & Help (ImGui)
-@version 1.2.1
+@version 1.2.2
 @author Mariow
 @changelog
+    v1.2.2 (2026-03-14)
+    - Instructions added
     v1.2.1 (2025-11-19)
     - Instructions picture Link
     v1.2 (2025-11-18)
@@ -123,6 +125,7 @@ Do NOT place the main ImGui script in the toolbar
 Like in Protools style, you may assign:
     • [ctrl      cmd]TAB- to toggle Fade On/Off
     •       [alt-cmd]TAB- to toggle TAB-to-Transient
+    •  and ALL (Ctrl/Shift/Alt) + TAB known by Protools users
 
 Shortcuts remain synchronized with:
     - Toolbar buttons
@@ -190,6 +193,7 @@ Shortcut scripts may have SHORTCUT ASSIGNED:
 
 - FadeToggleShortcut → toggles Fade
 - TransientToggleShortcut → toggles TabToTransient
+- TAB Scripts that reproduces (SHift-Ctr-lAlt)+TAB shortcuts known in Protools
 ]])
 end
 
@@ -246,11 +250,17 @@ local function Tab_SystemCheck()
     local script_path = reaper.GetResourcePath() .. "/Scripts/Mariow Scripts/ProTools_TAB/"
 
     local files = {
-        { name = "Main ImGui Script", file = "(Protools)TAB(imgui).lua" },
-        { name = "Fade Shortcut", file = "(Protools)TAB-FadeToggleShortcut.lua" },
-        { name = "Transient Shortcut", file = "(Protools)TAB-TransientToggleShortcut.lua" },
-        { name = "Fade Toolbar Button", file = "(Protools)TAB-FadeToggleToolbarID.lua" },
-        { name = "Transient Toolbar Button", file = "(Protools)TAB-TransientToggleToolbarID.lua" },
+        { name = "Main ImGui Script", file = "Geeksound_(Protools)TAB(imgui).lua" },
+        { name = "Fade Shortcut", file = "Geeksound_(Protools)TAB-FadeToggleShortcut.lua" },
+        { name = "Transient Shortcut", file = "Geeksound_(Protools)TAB-TransientToggleShortcut.lua" },
+        { name = "Fade Toolbar Button", file = "Geeksound_(Protools)TAB-FadeToggleToolbarID.lua" },
+        { name = "Transient Toolbar Button", file = "Geeksound_(Protools)TAB-TransientToggleToolbarID.lua" },
+        { name = "TAB Shortcut", file = "Geeksound_(Protools)TAB.lua" },
+        { name = "Alt+TAB Shortcut", file = "Geeksound_(Protools)TAB(alt).lua" },
+        { name = "Ctrl+TAB Shortcut", file = "Geeksound_(Protools)TAB-Ctrl.lua" },
+        { name = "(AltCtrl)+TAB Shortcut", file = "Geeksound_(Protools)TAB-Ctrl(Alt).lua" },
+        { name = "Shift+TAB Shortcut", file = "Geeksound_(Protools)TAB-Shift.lua" },
+        { name = "(Alt+Shift)+TAB Shortcut", file = "Geeksound_(Protools)TAB-AltShift.lua" },
     }
 
     SectionTitle("Checking files in: Scripts/Mariow Scripts/ProTools_TAB/")
@@ -274,11 +284,18 @@ REAPER Resource Path/
   └── Scripts/
         └── Mariow Scripts/
               └── ProTools_TAB/
-                    • (Protools)TAB(imgui).lua
-                    • (Protools)TAB-FadeToggleToolbarID.lua
-                    • (Protools)TAB-TransientToggleToolbarID.lua
-                    • (Protools)TAB-FadeToggleShortcut.lua
-                    • (Protools)TAB-TransientToggleShortcut.lua
+                    • Geeksound_(Protools)TAB(imgui).lua
+                    • Geeksound_(Protools)TAB-FadeToggleToolbarID.lua
+                    • Geeksound_(Protools)TAB-TransientToggleToolbarID.lua
+                    • Geeksound_(Protools)TAB-FadeToggleShortcut.lua
+                    • Geeksound_(Protools)TAB-TransientToggleShortcut.lua
+                    • Geeksound_(Protools)TAB.lua
+                    • Geeksound_(Protools)TAB(alt).lua
+                    • Geeksound_(Protools)TAB-Ctrl.lua
+                    • Geeksound_(Protools)TAB-Ctrl(Alt).lua
+                    • Geeksound_(Protools)TAB-Shift.lua
+                    • Geeksound_(Protools)TAB-AltShift.lua
+                    
 ]])
     Pad()
 
