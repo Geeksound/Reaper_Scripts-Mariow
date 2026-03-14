@@ -8,7 +8,7 @@
     - If Razor Areas exist: moves them down
     - If no Razor Areas but media items are selected: encloses items first, then moves down
 @provides
-    [main] ProTools_Essentials/RazorDown(Pt-M).lua
+    [main] ProTools_Essentials/Geeksound_RazorDown(Pt-M).lua
 @link https://github.com/Geeksound/Reaper_Scripts-Mariow
 @repository https://github.com/Geeksound/Reaper_Scripts-Mariow
 @tags editing, razor, smart, move, items, (protools-like)
