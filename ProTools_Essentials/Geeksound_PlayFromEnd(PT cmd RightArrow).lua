@@ -6,7 +6,7 @@
   v1.0 (2025-06-07)
   - Initial release
 @provides
-  [main] ProTools_Essentials/PlayFromEnd(PT cmd RightArrow).lua
+  [main] ProTools_Essentials/Geeksound_PlayFromEnd(PT cmd RightArrow).lua
 @link https://github.com/Geeksound/Reaper_Scripts-Mariow
 @repository https://github.com/Geeksound/Reaper_Scripts-Mariow
 @tags editing, transport, playback, (protools-like)
