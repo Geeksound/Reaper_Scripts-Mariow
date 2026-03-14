@@ -1,8 +1,10 @@
 --[[
 @description ProTools TAB - Toggle TabToTransient & Disable Fade (Toolbar Button)
-@version 1.1
+@version 1.2
 @author Mariow
 @changelog
+    v1.2 (2026-03-14)
+  - Geeksound Command ID 
     V1.1 (2025-06-07)
     - RS Number Upadate in code
     v1.0 (2025-06-07)
@@ -47,7 +49,7 @@ end
 -- Mettre à jour le bouton Fade dans la toolbar
 do
     -- On récupère le contexte du script Fade
-    local fade_commandID = reaper.NamedCommandLookup("_RS9660f424e64c0735a524774e52e173a6e638bdfa") -- "RS1"
+    local fade_commandID = reaper.NamedCommandLookup("_RS9e4cf7c1db6dfbada996402eed2f9a144458ecda") -- "RS1"
     local fade_sectionID = 0 -- Main section
     if fade_commandID then
         reaper.SetToggleCommandState(fade_sectionID, fade_commandID, 0) -- OFF

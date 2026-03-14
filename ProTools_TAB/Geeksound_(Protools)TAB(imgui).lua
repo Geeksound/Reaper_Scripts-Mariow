@@ -1,10 +1,12 @@
 --[[
 @description ProTools TAB - Main ImGui Controller (Fade / TabToTransient + ALT/SHIFT actions)
-@version 1.1
+@version 1.2
 @author Mariow
 @changelog
+    v1.2 (2026-03-14)
+  - Geeksound Command ID 
     V1.1 (2025-06-07)
-    - RS Number Upadate in code
+    - RS Number Update in code
     v1.0 (2025-06-07)
     - Initial release
 @provides
@@ -117,8 +119,8 @@ local function main()
             -- Récupérer contexte du bouton ImGui pour toolbar
             local _, _, sectionID, commandID = reaper.get_action_context()
 
-            local fade_commandID = reaper.NamedCommandLookup("_RS9660f424e64c0735a524774e52e173a6e638bdfa") -- "RS1"
-            local transient_commandID = reaper.NamedCommandLookup("_RSb0daa3cdff54c89e91d18544ce23fca5f3290582") -- RS2
+            local fade_commandID = reaper.NamedCommandLookup("_RS9e4cf7c1db6dfbada996402eed2f9a144458ecda") -- "RS1"
+            local transient_commandID = reaper.NamedCommandLookup("_RSdc2c04951b03274ecdb0c38810431f8b6c448061") -- RS2
 
             if isAlt then
                 -- ALT+CLICK → TabToTransient
