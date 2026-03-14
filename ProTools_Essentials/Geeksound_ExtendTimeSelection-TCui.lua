@@ -6,7 +6,7 @@
     v1.0 (2025-12-09)
     - Initial release (extends current Time Selection using TimecodeUI value)
 @provides
-    [main] ProTools_Essentials/ExtendTimeSelection-TCui.lua
+    [main] ProTools_Essentials/Geeksound_ExtendTimeSelection-TCui.lua
 @link https://github.com/Geeksound/Reaper_Scripts-Mariow
 @repository https://github.com/Geeksound/Reaper_Scripts-Mariow
 @tags editing, time selection, nudge, transport, (protools-like)
