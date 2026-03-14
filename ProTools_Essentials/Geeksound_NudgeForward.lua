@@ -6,7 +6,7 @@
   v1.0 (2025-06-07)
   - Initial release (reads tc value from Unified PRE-POST-ROLL panel)
 @provides
-  [main] ProTools_Essentials/NudgeForward.lua
+  [main] ProTools_Essentials/Geeksound_NudgeForward.lua
 @link https://github.com/Geeksound/Reaper_Scripts-Mariow
 @repository https://github.com/Geeksound/Reaper_Scripts-Mariow
 @tags editing, nudge, cursor, items, transport, (protools-like)
