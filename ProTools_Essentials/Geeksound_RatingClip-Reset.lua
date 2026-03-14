@@ -7,7 +7,7 @@
     - Initial release
     - Clears clip rating
 @provides
-    [main] ProTools_Essentials/RatingClip-Reset.lua
+    [main] ProTools_Essentials/Geeksound_RatingClip-Reset.lua
 @link https://github.com/Geeksound/Reaper_Scripts-Mariow
 @repository https://github.com/Geeksound/Reaper_Scripts-Mariow
 @tags rating, clip, protools-like, editing
