@@ -1,8 +1,10 @@
 --[[
 @description ProTools TAB - Main ImGui Controller (Fade / TabToTransient + ALT/SHIFT actions)
-@version 1.2
+@version 1.2.1
 @author Mariow
 @changelog
+      v1.2.1 (2026-03-15)
+    - Helpers changed
     v1.2 (2026-03-14)
   - Geeksound Command ID 
     V1.1 (2025-06-07)
@@ -58,7 +60,7 @@ local function ImGui_HelpMarker(ctx, desc)
     end
 end
 
-local Texte1 = "TAB functions like in Protools\nPress [ALT] to activate Tab to Transient\nPress [SHIFT] to open Transient Detection"
+local Texte1 = "TAB functions like in Protools\nPress [ALT] to activate Tab to Transient\nPress [SHIFT] to open Transient Detection\nRun Geeksound_(Protools)TAB-Instructions.lua\n--FOR INSTRUCTIONS & DOCUMENTATIONS"
 
 local ctx = reaper.ImGui_CreateContext('ProTools TAB')
 
