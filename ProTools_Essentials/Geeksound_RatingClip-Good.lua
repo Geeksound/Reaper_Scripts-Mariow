@@ -7,7 +7,7 @@
     - Initial release
     - Sets clip rating to Good
 @provides
-    [main] ProTools_Essentials/RatingClip-Good.lua
+    [main] ProTools_Essentials/Geeksound_RatingClip-Good.lua
 @link https://github.com/Geeksound/Reaper_Scripts-Mariow
 @repository https://github.com/Geeksound/Reaper_Scripts-Mariow
 @tags rating, clip, protools-like, editing
