@@ -8,7 +8,7 @@
     - If Razor Areas exist: moves them up
     - If no Razor Areas but media items are selected: encloses items first, then moves up
 @provides
-    [main] ProTools_Essentials/RazorUp(Pt-P).lua
+    [main] ProTools_Essentials/Geeksound_RazorUp(Pt-P).lua
 @link https://github.com/Geeksound/Reaper_Scripts-Mariow
 @repository https://github.com/Geeksound/Reaper_Scripts-Mariow
 @tags editing, razor, smart, move, items, (protools-like)
