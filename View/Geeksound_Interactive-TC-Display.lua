@@ -1,9 +1,11 @@
 --[[
 @description Interactive-TC-Display
-@version 1.4
+@version 1.4.1
 @author Mariow
 @license MIT
 @changelog
+  V1.4.1 (2026-03-14)
+  - Bug on markers fixed
   V1.4 (2026-03-06)
   - Close button Added
   V1.3.1.1 (2025-11-29)
@@ -19,7 +21,7 @@
   v1.0 (2025-06-08)
   - Initial release
 @provides
-  [main] View/Geeksound_Interactive-TC-Display.lua
+  [main] View/Interactive-TC-Display.lua
 @link https://github.com/Geeksound/Reaper_Scripts-Mariow
 @repository https://github.com/Geeksound/Reaper_Scripts-Mariow
 @tags timecode display reaper contextual items status marker navigation
@@ -206,29 +208,22 @@ local function loop()
 
                 local changed_marker, new_val = reaper.ImGui_InputText(ctx, "##MarkerInput", marker_input, reaper.ImGui_InputTextFlags_EnterReturnsTrue())
                 if changed_marker then marker_input = new_val end
-                
-                ------- CLOSE BUTTON
-                reaper.ImGui_SameLine(ctx,330)
-                
-                -- 🔴 Close Script Button
-                reaper.ImGui_PushStyleColor(ctx, reaper.ImGui_Col_Button(),        0xB22222FF)
-                reaper.ImGui_PushStyleColor(ctx, reaper.ImGui_Col_ButtonHovered(), 0xDC143CFF)
-                reaper.ImGui_PushStyleColor(ctx, reaper.ImGui_Col_ButtonActive(),  0x8B0000FF)
-                
-                if reaper.ImGui_Button(ctx, "Close Script", 75, 24) then
-                    open = false
-                end
-                reaper.ImGui_PopStyleColor(ctx, 3)
-                
-                
-                ---------------------
-                ---------------------
-                
-
                 if reaper.ImGui_IsItemDeactivatedAfterEdit(ctx) then
                     go_to_marker(marker_input)
                 end
             end
+            ------- CLOSE BUTTON
+            reaper.ImGui_SameLine(ctx,330)
+            
+            -- 🔴 Close Script Button
+            reaper.ImGui_PushStyleColor(ctx, reaper.ImGui_Col_Button(),        0xB22222FF)
+            reaper.ImGui_PushStyleColor(ctx, reaper.ImGui_Col_ButtonHovered(), 0xDC143CFF)
+            reaper.ImGui_PushStyleColor(ctx, reaper.ImGui_Col_ButtonActive(),  0x8B0000FF)
+            
+            if reaper.ImGui_Button(ctx, "Close Script", 75, 24) then
+                open = false
+            end
+            reaper.ImGui_PopStyleColor(ctx, 3)
         end
 
         reaper.ImGui_End(ctx)
