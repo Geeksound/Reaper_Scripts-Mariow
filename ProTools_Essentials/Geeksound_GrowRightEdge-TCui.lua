@@ -6,7 +6,7 @@
   v1.0 (2025-12-09)
   - Initial release (extends right edge of selected items based on TimecodeUI value)
 @provides
-  [main] ProTools_Essentials/GrowRightEdge-TCui.lua
+  [main] ProTools_Essentials/Geeksound_GrowRightEdge-TCui.lua
 @link https://github.com/Geeksound/Reaper_Scripts-Mariow
 @repository https://github.com/Geeksound/Reaper_Scripts-Mariow
 @tags editing, nudge, item, trim, transport, (protools-like)
