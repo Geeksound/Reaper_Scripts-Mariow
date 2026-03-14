@@ -6,7 +6,7 @@
   v1.0 (2025-11-26)
   - Initial release: zooms out horizontally, Pro Tools R behavior
 @provides
-  [main] ProTools_Essentials/ZoomOutHorizontal(PT-R).lua
+  [main] ProTools_Essentials/Geeksound_ZoomOutHorizontal(PT-R).lua
 @link https://github.com/Geeksound/Reaper_Scripts-Mariow
 @repository https://github.com/Geeksound/Reaper_Scripts-Mariow
 @tags navigation, zoom, arrange, (protools-like)
