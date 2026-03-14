@@ -6,7 +6,7 @@
   v1.0 (2025-11-26)
   - Initial release: zooms horizontally and scrolls arrange view to cursor, Pro Tools T behavior
 @provides
-  [main] ProTools_Essentials/ZoomInHorizontal(PT-T).lua
+  [main] ProTools_Essentials/Geeksound_ZoomInHorizontal(PT-T).lua
 @link https://github.com/Geeksound/Reaper_Scripts-Mariow
 @repository https://github.com/Geeksound/Reaper_Scripts-Mariow
 @tags navigation, zoom, arrange, (protools-like)
