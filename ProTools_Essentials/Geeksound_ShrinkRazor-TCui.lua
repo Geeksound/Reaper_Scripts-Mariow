@@ -6,7 +6,7 @@
     v1.0 (2025-12-09)
     - Initial release (reduces Razor Areas using TimecodeUI nudge value)
 @provides
-    [main] ProTools_Essentials/ShrinkRazor-TCui.lua
+    [main] ProTools_Essentials/Geeksound_ShrinkRazor-TCui.lua
 @link https://github.com/Geeksound/Reaper_Scripts-Mariow
 @repository https://github.com/Geeksound/Reaper_Scripts-Mariow
 @tags editing, razor, nudge, items, transport, (protools-like)
