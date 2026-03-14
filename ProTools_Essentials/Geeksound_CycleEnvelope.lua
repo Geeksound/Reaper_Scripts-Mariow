@@ -8,7 +8,7 @@
   - Cycles through Volume → Mute → Pan (ProTools-style)
   - Stores state in ExtState (PT_Toggles)
 @provides
-  [main] ProTools_Essentials/CycleEnvelope.lua
+  [main] ProTools_Essentials/Geeksound_CycleEnvelope.lua
 @link https://github.com/Geeksound/Reaper_Scripts-Mariow
 @repository https://github.com/Geeksound/Reaper_Scripts-Mariow
 @tags envelope, cycle, prot tools, volume, mute, pan, hide
