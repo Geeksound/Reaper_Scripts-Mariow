@@ -10,7 +10,7 @@
   - Click to recall zoom (ProTools-like)
   - Compatible with all ReaImGui versions
 @provides
-  [main] ProTools_Essentials/ZoomPresets(PT-like).lua
+  [main] ProTools_Essentials/Geeksound_ZoomPresets(PT-like).lua
 @link https://github.com/Geeksound/Reaper_Scripts-Mariow
 @repository https://github.com/Geeksound/Reaper_Scripts-Mariow
 @tags zoom, presets, arrange, vertical, horizontal, dockable, (protools-like)
