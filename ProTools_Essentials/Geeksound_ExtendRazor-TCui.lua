@@ -6,7 +6,7 @@
     v1.0 (2025-12-09)
     - Initial release (extends Razor Areas based on TimecodeUI value; converts Time Selection if none exist)
 @provides
-    [main] ProTools_Essentials/ExtendRazor-TCui.lua
+    [main] ProTools_Essentials/Geeksound_ExtendRazor-TCui.lua
 @link https://github.com/Geeksound/Reaper_Scripts-Mariow
 @repository https://github.com/Geeksound/Reaper_Scripts-Mariow
 @tags editing, razor, time selection, nudge, transport, (protools-like)
