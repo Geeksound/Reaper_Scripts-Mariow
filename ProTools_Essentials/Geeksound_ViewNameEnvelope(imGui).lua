@@ -8,7 +8,7 @@
   - Shows selected envelope name, or track name if no envelope is selected
   - Lightweight ImGui floating window
 @provides
-  [main] ProTools_Essentials/ViewNameEnvelope(imGui).lua
+  [main] ProTools_Essentials/Geeksound_ViewNameEnvelope(imGui).lua
 @link https://github.com/Geeksound/Reaper_Scripts-Mariow
 @repository https://github.com/Geeksound/Reaper_Scripts-Mariow
 @tags envelope, track, display, imgui, helper, prot tools
