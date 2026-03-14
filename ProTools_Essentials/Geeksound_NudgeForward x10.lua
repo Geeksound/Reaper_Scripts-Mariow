@@ -6,7 +6,7 @@
   v1.0 (2025-06-07)
   - Initial release (multiplies timecode nudge by 10)
 @provides
-  [main] ProTools_Essentials/NudgeForwardx10.lua
+  [main] ProTools_Essentials/Geeksound_NudgeForwardx10.lua
 @link https://github.com/Geeksound/Reaper_Scripts-Mariow
 @repository https://github.com/Geeksound/Reaper_Scripts-Mariow
 @tags editing, nudge, cursor, items, transport, (protools-like)
