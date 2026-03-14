@@ -3161,7 +3161,7 @@ v1.3 (2025-12-11)
 v1.0 (2025-06-07)
 - Initial release: executes REAPER's Strip Silence action
 ]]></changelog>
-        <source main="main">https://raw.githubusercontent.com/Geeksound/Reaper_Scripts-Mariow/main/ProTools_Essentials/Strip-Silence%20(PT-Cmd%20U).lua</source>
+        <source main="main">https://raw.githubusercontent.com/Geeksound/Reaper_Scripts-Mariow/main/ProTools_Essentials/Geeksound_Strip-Silence%20(PT-Cmd%20U).lua</source>
       </version>
     </reapack>
     <reapack name="Geeksound_ZoomPresets(PT-like).lua" type="script" desc="Zoom Presets like in Protools">
@@ -3196,7 +3196,7 @@ v1.0 (2025-12-06)
 - Click to recall zoom (ProTools-like)
 - Compatible with all ReaImGui versions
 ]]></changelog>
-        <source main="main">https://raw.githubusercontent.com/Geeksound/Reaper_Scripts-Mariow/main/ProTools_Essentials/ZoomPresets(PT-like).lua</source>
+        <source main="main">https://raw.githubusercontent.com/Geeksound/Reaper_Scripts-Mariow/main/ProTools_Essentials/Geeksound_ZoomPresets(PT-like).lua</source>
       </version>
     </reapack>
     <reapack name="Geeksound_CycleEnvelope.lua" type="script" desc="Cycle Enveloppe of item like in Protools">
@@ -3237,7 +3237,7 @@ v1.0 (2025-12-08)
 - Adds "Hide" state
 - Stores state using ExtState (PT_Toggles)
 ]]></changelog>
-        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/ProTools_Essentials/CycleEnvelope.lua</source>
+        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/ProTools_Essentials/Geeksound_CycleEnvelope.lua</source>
       </version>
     </reapack>
     <reapack name="Geeksound_CycleEnvelopeRev.lua" type="script" desc="Cycle envelope of Item in opposite side">
@@ -3279,7 +3279,7 @@ v1.0 (2025-12-08)
 - Adds "Hide" state for full reverse cycle
 - Shares ExtState with forward cycling script
 ]]></changelog>
-        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/ProTools_Essentials/CycleEnvelopeRev.lua</source>
+        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/ProTools_Essentials/Geeksound_CycleEnvelopeRev.lua</source>
       </version>
     </reapack>
     <reapack name="Geeksound_ViewNameEnvelope(imGui).lua" type="script" desc="ViewNameEnvelope(imGui)">
@@ -3312,7 +3312,7 @@ v1.0 (2025-12-08)
 - Displays selected envelope name, or track name if no envelope is selected
 - Lightweight ImGui floating helper window
 ]]></changelog>
-        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/ProTools_Essentials/ViewNameEnvelope(imGui).lua</source>
+        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/ProTools_Essentials/Geeksound_ViewNameEnvelope(imGui).lua</source>
       </version>
     </reapack>
     <reapack name="Geeksound_Scroll-To-Track(Altcmd F).lua" type="script"  desc="Scroll to tracks easily">
@@ -3339,7 +3339,7 @@ v1.0 (2025-12-08)
 v1.0 (2025-11-25)
 - Initial release: scrolls to track matching filter text using Alt+Cmd+F workflow
 ]]></changelog>
-        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/ProTools_Essentials/Scroll-To-Track(AltCmd%20F).lua</source>
+        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/ProTools_Essentials/Geeksound_Scroll-To-Track(AltCmd%20F).lua</source>
       </version>
     </reapack>
     <reapack name="Geeksound_TimeSelectionWatcher.lua" type="script"  desc="Time selection Watcher to restore last selection like in PT">
@@ -3371,7 +3371,7 @@ v1.0 (2025-11-25)
 v1.0 (2025-06-07)
 - Initial release
 ]]></changelog>
-        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/ProTools_Essentials/TimeSelectionWatcher.lua</source>
+        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/ProTools_Essentials/Geeksound_TimeSelectionWatcher.lua</source>
       </version>
     </reapack>
     <reapack name="Geeksound_RestoreLastSelection.lua" type="script"  desc="Restore last selection like in Protools">
@@ -3403,7 +3403,7 @@ v1.0 (2025-06-07)
 v1.0 (2025-06-07)
 - Initial release
 ]]></changelog>
-        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/ProTools_Essentials/Restore-LastSelection.lua</source>
+        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/ProTools_Essentials/Geeksound_Restore-LastSelection.lua</source>
       </version>
     </reapack>
     <reapack name="Geeksound_PlayFromEnd.lua" type="script"  desc="Play from end of timeselection like in PT">
@@ -3437,7 +3437,7 @@ v1.0 (2025-06-07)
 v1.0 (2025-06-07)
 - Initial release
 ]]></changelog>
-        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/ProTools_Essentials/PlayFromEnd(PT%20cmd%20RightArrow).lua</source>
+        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/ProTools_Essentials/Geeksound_PlayFromEnd(PT%20cmd%20RightArrow).lua</source>
       </version>
     </reapack>
     <reapack name="Geeksound_PlayFromStart.lua" type="script"  desc="Play from start of timeselection like in PT">
@@ -3471,7 +3471,7 @@ v1.0 (2025-06-07)
 v1.0 (2025-06-07)
 - Initial release
 ]]></changelog>
-        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/ProTools_Essentials/PlayFromStart(PT%20CmdLeftArrow).lua</source>
+        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/ProTools_Essentials/Geeksound_PlayFromStart(PT%20CmdLeftArrow).lua</source>
       </version>
     </reapack>
     <reapack name="Geeksound_PlayThruEnd.lua" type="script"  desc="Play thru end of timeselection like in PT">
@@ -3505,7 +3505,7 @@ v1.0 (2025-06-07)
 v1.0 (2025-06-07)
 - Initial release
 ]]></changelog>
-        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/ProTools_Essentials/PlayThruEnd(PT%20AltCmdRightArrow).lua</source>
+        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/ProTools_Essentials/Geeksound_PlayThruEnd(PT%20AltCmdRightArrow).lua</source>
       </version>
     </reapack>
     <reapack name="Geeksound_PlayThruStart.lua" type="script"  desc="Play thru start of timeselection like in PT">
@@ -3539,7 +3539,7 @@ v1.0 (2025-06-07)
 v1.0 (2025-06-07)
 - Initial release
 ]]></changelog>
-        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/ProTools_Essentials/PlayThruStart(PT%20AltCmdLeftArrow).lua</source>
+        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/ProTools_Essentials/Geeksound_PlayThruStart(PT%20AltCmdLeftArrow).lua</source>
       </version>
     </reapack>
     <reapack name="Geeksound_PlayToEnd.lua" type="script"  desc="Play to end of timeselection like in PT">
@@ -3573,7 +3573,7 @@ v1.0 (2025-06-07)
 v1.0 (2025-06-07)
 - Initial release
 ]]></changelog>
-        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/ProTools_Essentials/PlayToEnd(PT%20AltRightArrow).lua</source>
+        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/ProTools_Essentials/Geeksound_PlayToEnd(PT%20AltRightArrow).lua</source>
       </version>
     </reapack>
     <reapack name="Geeksound_PlayToStart.lua" type="script"  desc="Play to start of selection like in PT">
@@ -3607,7 +3607,7 @@ v1.0 (2025-06-07)
 v1.0 (2025-06-07)
 - Initial release
 ]]></changelog>
-        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/ProTools_Essentials/PlayToStart(PT%20AltLeftArrow).lua</source>
+        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/ProTools_Essentials/Geeksound_PlayToStart(PT%20AltLeftArrow).lua</source>
       </version>
     </reapack>
     <reapack name="Geeksound_PRE-Post-ROLL(Imgui).lua" type="script"  desc="Pre-Post Roll (window) like in PT">
@@ -3650,7 +3650,7 @@ v1.0 (2025-06-07)
 v1.0 (2025-06-07)
 - Initial release
 ]]></changelog>
-        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/ProTools_Essentials/PRE-Post-ROLL(Imgui).lua</source>
+        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/ProTools_Essentials/Geeksound_PRE-Post-ROLL(Imgui).lua</source>
       </version>
     </reapack>
     <reapack name="Geeksound_NudgeForward.lua" type="script"  desc="Nudge forward dependant off TC nudge value">
@@ -3694,7 +3694,7 @@ using the shared timecode entered in the\par}
 v1.0 (2025-06-07)
 - Initial release (reads tc value from Unified PRE-POST-ROLL panel)
 ]]></changelog>
-        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/ProTools_Essentials/NudgeForward.lua</source>
+        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/ProTools_Essentials/Geeksound_NudgeForward.lua</source>
       </version>
     </reapack>
     <reapack name="Geeksound_NudgeBackward.lua" type="script"  desc="Nudge backward dependant off TC nudge value">
@@ -3737,7 +3737,7 @@ v1.0 (2025-06-07)
 v1.0 (2025-06-07)
 - Initial release (reads tc value from Unified PRE-POST-ROLL panel)
 ]]></changelog>
-        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/ProTools_Essentials/NudgeBackward.lua</source>
+        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/ProTools_Essentials/Geeksound_NudgeBackward.lua</source>
       </version>
     </reapack>
     <reapack name="Geeksound_NudgeBackwardx10.lua" type="script"  desc="Nudge backward x10">
@@ -3779,7 +3779,7 @@ v1.1 (2025-12-08)
 v1.0 (2025-06-07)
 - Initial release (multiplies timecode nudge by 10)
 ]]></changelog>
-        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/ProTools_Essentials/NudgeBackwardx10.lua</source>
+        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/ProTools_Essentials/Geeksound_NudgeBackwardx10.lua</source>
       </version>
     </reapack>
     <reapack name="Geeksound_NudgeForwardx10.lua" type="script"  desc="Nudge forward x10">
@@ -3822,7 +3822,7 @@ v1.0 (2025-06-07)
 v1.0 (2025-06-07)
 - Initial release (multiplies timecode nudge by 10)
 ]]></changelog>
-        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/ProTools_Essentials/NudgeForward%20x10.lua</source>
+        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/ProTools_Essentials/Geeksound_NudgeForward%20x10.lua</source>
       </version>
     </reapack>
     <reapack name="Geeksound_ExtendRazor-TCui.lua" type="script"  desc="Extend razor area by nudge TC Value">
@@ -3871,7 +3871,7 @@ v1.0 (2025-12-09)
 - Initial release: extends Razor Areas using shared TimecodeUI value
 - Converts Time Selection to Razor Area if none exist
 ]]></changelog>
-        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/ProTools_Essentials/ExtendRazor-TCui.lua</source>
+        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/ProTools_Essentials/Geeksound_ExtendRazor-TCui.lua</source>
       </version>
     </reapack>
     <reapack name="Geeksound_GrowLeftEdge-TCui.lua" type="script"  desc="Grow left edge of item by nudge TC value">
@@ -3919,7 +3919,7 @@ providing a unified, Pro Tools–style editing workflow inside REAPER.\par}
 v1.0 (2025-12-09)
 - Initial release: extends left edge of selected items using shared TimecodeUI value
 ]]></changelog>
-        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/ProTools_Essentials/GrowLeftEdge-TCui.lua</source>
+        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/ProTools_Essentials/Geeksound_GrowLeftEdge-TCui.lua</source>
       </version>
     </reapack>
     <reapack name="Geeksound_GrowRightEdge-TCui.lua" type="script"  desc="Grow right edge of item by nudge TC value">
@@ -3966,7 +3966,7 @@ providing a unified, Pro Tools–style editing workflow inside REAPER.\par}
 v1.0 (2025-12-09)
 - Initial release: extends right edge of selected items using shared TimecodeUI value
 ]]></changelog>
-        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/ProTools_Essentials/GrowRightEdge-TCui.lua</source>
+        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/ProTools_Essentials/Geeksound_GrowRightEdge-TCui.lua</source>
       </version>
     </reapack>
     <reapack name="Geeksound_MoveRazorAreaBackward-TCui.lua" type="script"  desc="Move razor area by nudge TC value">
@@ -4013,7 +4013,7 @@ providing a unified, Pro Tools–style editing workflow inside REAPER.\par}
 v1.0 (2025-12-09)
 - Initial release: moves all Razor Areas backward using shared TimecodeUI value
 ]]></changelog>
-        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/ProTools_Essentials/MoveRazorAreaBackward-TCui.lua</source>
+        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/ProTools_Essentials/Geeksound_MoveRazorAreaBackward-TCui.lua</source>
       </version>
     </reapack>
     <reapack name="Geeksound_MoveRazorAreaForward-TCui.lua" type="script"  desc="Move razor area forward by nudge TC value">
@@ -4060,7 +4060,7 @@ providing a unified, Pro Tools–style editing workflow inside REAPER.\par}
 v1.0 (2025-12-09)
 - Initial release: moves all Razor Areas forward using shared TimecodeUI value
 ]]></changelog>
-        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/ProTools_Essentials/MoveRazorAreaForward-TCui.lua</source>
+        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/ProTools_Essentials/Geeksound_MoveRazorAreaForward-TCui.lua</source>
       </version>
     </reapack>
     <reapack name="Geeksound_MoveRazorLeftBackward-TCui.lua" type="script"  desc="Move razor left bacward by nudge TC value">
@@ -4108,7 +4108,7 @@ providing a unified, Pro Tools–style editing workflow inside REAPER.\par}
 v1.0 (2025-12-09)
 - Initial release: moves left edge of Razor Areas backward using shared TimecodeUI value
 ]]></changelog>
-        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/ProTools_Essentials/MoveRazorLeftBackward-TCui.lua</source>
+        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/ProTools_Essentials/Geeksound_MoveRazorLeftBackward-TCui.lua</source>
       </version>
     </reapack>
     <reapack name="Geeksound_MoveRazorLeftForward-TCui.lua" type="script"  desc="Move razor area left forxard by nudge TC value">
@@ -4156,7 +4156,7 @@ providing a unified, Pro Tools–style editing workflow inside REAPER.\par}
 v1.0 (2025-12-09)
 - Initial release: moves left edge of Razor Areas forward using shared TimecodeUI value
 ]]></changelog>
-        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/ProTools_Essentials/MoveRazorLeftForward-TCui.lua</source>
+        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/ProTools_Essentials/Geeksound_MoveRazorLeftForward-TCui.lua</source>
       </version>
     </reapack>
     <reapack name="Geeksound_MoveRazorRightBackward-TCui.lua" type="script"  desc="Move razor area right backward by nudge TC value">
@@ -4204,7 +4204,7 @@ providing a unified, Pro Tools–style editing workflow inside REAPER.\par}
 v1.0 (2025-12-09)
 - Initial release: moves right edge of Razor Areas backward using shared TimecodeUI value
 ]]></changelog>
-        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/ProTools_Essentials/MoveRazorRightBackward-TCui.lua</source>
+        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/ProTools_Essentials/Geeksound_MoveRazorRightBackward-TCui.lua</source>
       </version>
     </reapack>
     <reapack name="Geeksound_MoveTimeSelEndBackward-TCui.lua" type="script"  desc="Move timeselEnd backward by nudge TC value">
@@ -4251,7 +4251,7 @@ providing a unified, Pro Tools–style editing workflow inside REAPER.\par}
 v1.0 (2025-12-09)
 - Initial release: moves end of Time Selection backward using TimecodeUI value
 ]]></changelog>
-        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/ProTools_Essentials/MoveTimeSelEndBackward-TCui.lua</source>
+        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/ProTools_Essentials/Geeksound_MoveTimeSelEndBackward-TCui.lua</source>
       </version>
     </reapack>
     <reapack name="Geeksound_MoveTimeSelEndForward-TCui.lua" type="script"  desc="Move timeselEnd forward by nudge TC value">
@@ -4298,7 +4298,7 @@ providing a unified, Pro Tools–style editing workflow inside REAPER.\par}
 v1.0 (2025-12-09)
 - Initial release: moves end of Time Selection forward using TimecodeUI value
 ]]></changelog>
-        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/ProTools_Essentials/MoveTimeSelEndForward-TCui.lua</source>
+        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/ProTools_Essentials/Geeksound_MoveTimeSelEndForward-TCui.lua</source>
       </version>
     </reapack>
     <reapack name="Geeksound_MoveRazorRightForward-TCui.lua" type="script"  desc="Move razor area right Forward by nudge TC value">
@@ -4346,7 +4346,7 @@ providing a unified, Pro Tools–style editing workflow inside REAPER.\par}
 v1.0 (2025-12-09)
 - Initial release: moves right edge of Razor Areas forward using shared TimecodeUI value
 ]]></changelog>
-        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/ProTools_Essentials/MoveRazorRightForward-TCui.lua</source>
+        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/ProTools_Essentials/Geeksound_MoveRazorRightForward-TCui.lua</source>
       </version>
     </reapack>
     <reapack name="Geeksound_MoveTimeSelectionStartBackward-TCui.lua" type="script"  desc="Move timeselStart Backward by nudge TC value">
@@ -4394,7 +4394,7 @@ providing a unified, Pro Tools–style editing workflow inside REAPER.\par}
 v1.0 (2025-12-09)
 - Initial release: moves start of Time Selection forward or backward using TimecodeUI value
 ]]></changelog>
-        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/ProTools_Essentials/MoveTimeSelStartBackward-TCui.lua</source>
+        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/ProTools_Essentials/Geeksound_MoveTimeSelStartBackward-TCui.lua</source>
       </version>
     </reapack>
     <reapack name="Geeksound_MoveTimeSelectionStartForward-TCui.lua" type="script"  desc="Move timeselStart Forward by nudge TC value">
@@ -4449,7 +4449,7 @@ providing a unified, Pro Tools–style editing workflow inside REAPER.\par}
 v1.0 (2025-12-09)
 - Initial release: moves the start of Time Selection forward using TimecodeUI value (shared with PRE-Post-ROLL ImGui)
 ]]></changelog>
-        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/ProTools_Essentials/MoveTimeSelStartForward-TCui.lua</source>
+        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/ProTools_Essentials/Geeksound_MoveTimeSelStartForward-TCui.lua</source>
       </version>
     </reapack>
     <reapack name="Geeksound_ShrinkLeftEdge-TCui.lua" type="script"  desc="Shrink left edge of item by nudge TC value">
@@ -4505,7 +4505,7 @@ bringing a consistent, Pro Tools–inspired workflow to REAPER.\par}
 v1.0 (2025-12-09)
 - Initial release: trims left edge of selected items using TimecodeUI nudge value (shared with PRE-POST-ROLL ImGui)
 ]]></changelog>
-        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/ProTools_Essentials/ShrinkLeftEdge-TCui.lua</source>
+        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/ProTools_Essentials/Geeksound_ShrinkLeftEdge-TCui.lua</source>
       </version>
     </reapack>
     <reapack name="Geeksound_ShrinkRazor-TCui.lua" type="script"  desc="Shrink razor area by nudge TC value">
@@ -4564,7 +4564,7 @@ bringing a consistent, Pro Tools–like editing workflow to REAPER.\par}
 v1.0 (2025-12-09)
 - Initial release: reduces Razor Areas using TimecodeUI nudge value (shared with PRE-POST-ROLL ImGui)
 ]]></changelog>
-        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/ProTools_Essentials/ShrinkRazor-TCui.lua</source>
+        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/ProTools_Essentials/Geeksound_ShrinkRazor-TCui.lua</source>
       </version>
     </reapack>
     <reapack name="Geeksound_ShrinkRightEdge-TCui.lua" type="script"  desc="Shrink right edge of item by nudge TC value">
@@ -4623,7 +4623,7 @@ bringing a consistent, Pro Tools–inspired editing workflow to REAPER.\par}
 v1.0 (2025-12-09)
 - Initial release: shrinks right edge of selected items using TimecodeUI nudge value (shared with PRE-POST-ROLL ImGui)
 ]]></changelog>
-        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/ProTools_Essentials/ShrinkRightEdge-TCui.lua</source>
+        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/ProTools_Essentials/Geeksound_ShrinkRightEdge-TCui.lua</source>
       </version>
     </reapack>
     <reapack name="Geeksound_ShrinkTimeSelection-TCui.lua" type="script"  desc="Shrink timesel by nudge TC value">
@@ -4681,7 +4681,7 @@ delivering a unified, Pro Tools–style editing workflow inside REAPER.\par}
 v1.0 (2025-12-09)
 - Initial release: reduces Time Selection using TimecodeUI nudge value (shared with PRE-POST-ROLL ImGui)
 ]]></changelog>
-        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/ProTools_Essentials/ShrinkTimeSelection-TCui.lua</source>
+        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/ProTools_Essentials/Geeksound_ShrinkTimeSelection-TCui.lua</source>
       </version>
     </reapack>
     <reapack name="Geeksound_SlipClipContentBackward-TCui.lua" type="script"  desc="Slip item content backward by nudge TC value like in PT">
@@ -4785,7 +4785,7 @@ providing a unified Pro Tools–style editing workflow in REAPER.\par}
 v1.0 (2025-12-09)
 - Initial release: slips clip content forward using TimecodeUI nudge value
 ]]></changelog>
-        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/ProTools_Essentials/SlipClipContentForward-TCui.lua</source>
+        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/ProTools_Essentials/Geeksound_SlipClipContentForward-TCui.lua</source>
       </version>
     </reapack>
     <reapack name="Geeksound_ZoomOutHorizontal(PT-R).lua" type="script" desc="Zoom out horizontal like in PT">
@@ -4819,7 +4819,7 @@ v1.0 (2025-12-09)
 v1.0 (2025-11-26)
 - Initial release: zooms out horizontally (Pro Tools R behavior)
 ]]></changelog>
-        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/ProTools_Essentials/ZoomOutHorizontal(PT-R).lua</source>
+        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/ProTools_Essentials/Geeksound_ZoomOutHorizontal(PT-R).lua</source>
       </version>
     </reapack>
     <reapack name="Geeksound_ZoomInHorizontal(PT-T).lua" type="script" desc="Zoom in horizontal like in PT">
@@ -4853,7 +4853,7 @@ v1.0 (2025-11-26)
 v1.0 (2025-11-26)
 - Initial release: zooms horizontally and scrolls arrange view to cursor (Pro Tools T behavior)
 ]]></changelog>
-        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/ProTools_Essentials/ZoomInHorizontal(PT-T).lua</source>
+        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/ProTools_Essentials/Geeksound_ZoomInHorizontal(PT-T).lua</source>
       </version>
     </reapack>
     <reapack name="Geeksound_ExtendTimeSelection-TCui.lua" type="script" desc="Extend timesel by nudge TC value">
@@ -4893,7 +4893,7 @@ v1.0 (2025-12-09)
 - Initial release
 - Extends current Time Selection using shared TimecodeUI PRE / POST roll value
 ]]></changelog>
-        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/ProTools_Essentials/ExtendTimeSelection-TCui.lua</source>
+        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/ProTools_Essentials/Geeksound_ExtendTimeSelection-TCui.lua</source>
       </version>
     </reapack>
     <reapack name="Geeksound_RazorDown(Pt-M).lua" type="script" desc="Move razor area down like in PT">
@@ -4935,7 +4935,7 @@ v1.0 (2026-02-16)
 - Moves Razor Areas down
 - Auto-encloses selected items if no Razor Areas exist
 ]]></changelog>
-        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/ProTools_Essentials/RazorDown(Pt-M).lua</source>
+        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/ProTools_Essentials/Geeksound_RazorDown(Pt-M).lua</source>
       </version>
     </reapack>
     <reapack name="Geeksound_RazorUp(Pt-P).lua" type="script" desc="Move razor area up like in PT">
@@ -4977,7 +4977,7 @@ v1.0 (2026-02-16)
 - Moves Razor Areas up
 - Auto-encloses selected items if no Razor Areas exist
 ]]></changelog>
-        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/ProTools_Essentials/RazorUp(Pt-P).lua</source>
+        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/ProTools_Essentials/Geeksound_RazorUp(Pt-P).lua</source>
       </version>
     </reapack>
     <reapack name="Geeksound_Link-Unlink-RazorToTrack(PT like).lua" type="script" desc="Toggle link razor to tracks">
@@ -5015,7 +5015,7 @@ v1.0 (2025-06-07)
 - Links Razor Edit areas to track selection
 - Automatically selects tracks containing Razor Edit areas
 ]]></changelog>
-        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/ProTools_Essentials/Link-Unlink-RazorToTrack(PT%20like).lua</source>
+        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/ProTools_Essentials/Geeksound_Link-Unlink-RazorToTrack(PT%20like).lua</source>
       </version>
     </reapack>
     <reapack name="Geeksound_RatingClip-Bad.lua" type="script" desc="Rating bad take like in PT">
@@ -5051,7 +5051,7 @@ v1.0 (2026-02-16)
 - Initial release
 - Sets selected clips to Bad rating (1 star)
 ]]></changelog>
-        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/ProTools_Essentials/RatingClip-Bad.lua</source>
+        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/ProTools_Essentials/Geeksound_RatingClip-Bad.lua</source>
       </version>
     </reapack>
     <reapack name="Geeksound_RatingClip-Ok.lua" type="script" desc="Rating take OK like in PT">
@@ -5087,7 +5087,7 @@ v1.0 (2026-02-16)
 - Initial release
 - Sets selected clips to Ok rating
 ]]></changelog>
-        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/ProTools_Essentials/RatingClip-Ok.lua</source>
+        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/ProTools_Essentials/Geeksound_RatingClip-Ok.lua</source>
       </version>
     </reapack>
     <reapack name="Geeksound_RatingClip-Good.lua" type="script" desc="Rating Good take like in PT">
@@ -5123,7 +5123,7 @@ v1.0 (2026-02-16)
 - Initial release
 - Sets selected clips to Good rating
 ]]></changelog>
-        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/ProTools_Essentials/RatingClip-Good.lua</source>
+        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/ProTools_Essentials/Geeksound_RatingClip-Good.lua</source>
       </version>
     </reapack>
     <reapack name="Geeksound_RatingClip-Best.lua" type="script" desc="Rating best take like in PT">
@@ -5159,7 +5159,7 @@ v1.0 (2026-02-16)
 - Initial release
 - Sets selected clips to Best rating
 ]]></changelog>
-        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/ProTools_Essentials/RatingClip-Best.lua</source>
+        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/ProTools_Essentials/Geeksound_RatingClip-Best.lua</source>
       </version>
     </reapack>
     <reapack name="Geeksound_RatingClip-Reset.lua" type="script" desc="Rating reset">
@@ -5194,7 +5194,7 @@ v1.0 (2026-02-16)
 - Initial release
 - Clears rating of selected clips
 ]]></changelog>
-        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/ProTools_Essentials/RatingClip-Reset.lua</source>
+        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/ProTools_Essentials/Geeksound_RatingClip-Reset.lua</source>
       </version>
     </reapack>
   </category>
