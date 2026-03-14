@@ -6,7 +6,7 @@
   v1.0 (2025-12-09)
   - Initial release (shrinks right edge of selected items using TimecodeUI)
 @provides
-  [main] ProTools_Essentials/ShrinkRightEdge-TCui.lua
+  [main] ProTools_Essentials/Geeksound_ShrinkRightEdge-TCui.lua
 @link https://github.com/Geeksound/Reaper_Scripts-Mariow
 @repository https://github.com/Geeksound/Reaper_Scripts-Mariow
 @tags editing, trim, nudge, items, transport, (protools-like)
