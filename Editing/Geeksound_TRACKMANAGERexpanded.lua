@@ -1,8 +1,10 @@
 --[[
-@description TRACKMANAGERexpanded
-@version 1.4
+@description TrackManager-Expanded
+@version 1.4.1
 @author Mariow
 @changelog
+  V1.4.1 (2026-03-15)
+  - Add Close button and no bar title
   V1.4 (2025-11-22)
   - Add Solo Clear
   V1.3.1 (2025-11-18)
@@ -13,7 +15,6 @@
   Check when creating a track that the track name does not already exist.
   v1.1 (2025-10-31)
   - Debug with relaunch on Prefix button
-
   v1.0 (2025-10-28)
   - Initial release
 @provides
@@ -1223,7 +1224,6 @@ local function ReorderTracksByItems()
         reaper.ImGui_PushFont(ctx, font, 16)
         reaper.ImGui_SetNextWindowSize(ctx, 800, 70, reaper.ImGui_Cond_FirstUseEver())
 
-                         
         local visible, open = reaper.ImGui_Begin(ctx, 'Reorder Tracks', true)
 
         if visible then
@@ -1819,7 +1819,11 @@ local function loop()
     first_frame = false
   end
 
-  local visible, open = reaper.ImGui_Begin(ctx, 'TRACKMANAGER⌘   Colorizing ┤       ├TRKS < ordering > ITEMS┤       ├ C R E A T I N G     (TRKs & Spacer)┤      ├MOVE      🀰Tracks🀰    SELECT┤          ____VIEW___                             ├F  I  N  D┤       https://github.com/Geeksound/Reaper_Scripts-Mariow', true)
+  -- a reactiver pour menu et desactiver les 2 qui suivent
+  --local visible, open = reaper.ImGui_Begin(ctx, 'TRACKMANAGER⌘   Colorizing ┤       ├TRKS < ordering > ITEMS┤       ├ C R E A T I N G     (TRKs & Spacer)┤      ├MOVE      🀰Tracks🀰    SELECT┤          ____VIEW___                             ├F  I  N  D┤       https://github.com/Geeksound/Reaper_Scripts-Mariow', true)
+  local flags = reaper.ImGui_WindowFlags_AlwaysAutoResize() + reaper.ImGui_WindowFlags_NoTitleBar() + reaper.ImGui_WindowFlags_NoCollapse()
+  local visible, open = reaper.ImGui_Begin(ctx, 'Title_window', true, flags)
+  
   if not visible then
     if open then reaper.defer(loop) end
     return
@@ -1968,7 +1972,7 @@ reaper.ShowMessageBox(
 end
 
 --reaper.ImGui_PopStyleColor(ctx, 3)
-    reaper.ImGui_SameLine(ctx, nil, 05)
+    reaper.ImGui_SameLine(ctx, nil, 15)
 -- Définir la couleur jaune pour le texte🀰
 reaper.ImGui_PushStyleColor(ctx, reaper.ImGui_Col_Text(),  reaper.ImGui_ColorConvertDouble4ToU32(1.0, 1.0, 0.0, 1.0)) -- Jaune
 
@@ -1994,7 +1998,7 @@ end
     reaper.Main_OnCommand(41337,0)
   end
 
-  reaper.ImGui_SameLine(ctx, nil, 20)
+  reaper.ImGui_SameLine(ctx, nil, 25)
 
 ---------------- ITEM FORWARD & BACKWARD ------------------------
 
@@ -2026,7 +2030,7 @@ reaper.ImGui_PushStyleColor(ctx, reaper.ImGui_Col_ButtonActive(),  0xFFA100FF) -
   reaper.ImGui_PopStyleColor(ctx, 3) -- On retire le chgt de couleur
 
 
-  reaper.ImGui_SameLine(ctx, nil, 20)
+  reaper.ImGui_SameLine(ctx, nil, 25)
   -- Autres boutons
 -- Vérifie si Alt (Option sur Mac) est pressé
 local mods = reaper.ImGui_GetKeyMods(ctx)
@@ -2204,7 +2208,7 @@ if reaper.ImGui_ArrowButton(ctx, '##right', reaper.ImGui_Dir_Right()) then
 end
 -------------- end Arrows L/R ---------
  ------------------------------
-  reaper.ImGui_SameLine(ctx, nil, 20)
+  reaper.ImGui_SameLine(ctx, nil, 25)
   if reaper.ImGui_Button(ctx, 'FOCUS') then MirrorSelection() end
   ImGui_HelpMarker(ctx, Texte5)
   reaper.ImGui_SameLine(ctx, nil, 05)
@@ -2240,7 +2244,7 @@ reaper.ImGui_PopStyleColor(ctx, 3)
 
 
 -- === Texte label + champ de recherche ===
-reaper.ImGui_SameLine(ctx, nil, 5)
+reaper.ImGui_SameLine(ctx, nil,25)
 
 -- Texte "Recherche" en jaune
 reaper.ImGui_PushStyleColor(ctx, reaper.ImGui_Col_Text(), reaper.ImGui_ColorConvertDouble4ToU32(1.0, 1.0, 0.0, 1.0))
@@ -2305,7 +2309,7 @@ end
  -- reaper.ImGui_PopStyleColor(ctx)
     reaper.ImGui_SameLine(ctx)
   -- Checkbox GUIDE TRACKS
-  reaper.ImGui_SameLine(ctx, nil, 05)
+  reaper.ImGui_SameLine(ctx, nil, 25)
   reaper.ImGui_Text(ctx, "View")
   reaper.ImGui_SameLine(ctx)
   local changed
@@ -2314,7 +2318,7 @@ end
 
 ---------------------------------------- Partie ImGui Pour vignette ----------------------------------------------
 -------------------------------------------------------------------------------------------------------------------
-  reaper.ImGui_SameLine(ctx, nil, 20)
+  reaper.ImGui_SameLine(ctx, nil, 30)
 -- Texte "Recherche" en jaune
 reaper.ImGui_PushStyleColor(ctx, reaper.ImGui_Col_Text(), reaper.ImGui_ColorConvertDouble4ToU32(1.0, 1.0, 0.0, 1.0))
 reaper.ImGui_Text(ctx, "Visit my GitHub")
@@ -2334,6 +2338,17 @@ if image then
         ouvrir_lien()
       end
     end
+    
+    reaper.ImGui_SameLine(ctx)
+                -- 🔴 Close Script Button
+    reaper.ImGui_PushStyleColor(ctx, reaper.ImGui_Col_Button(),        0xB22222FF) -- normal
+    reaper.ImGui_PushStyleColor(ctx, reaper.ImGui_Col_ButtonHovered(), 0xDC143CFF) -- hover
+    reaper.ImGui_PushStyleColor(ctx, reaper.ImGui_Col_ButtonActive(),  0x8B0000FF) -- active
+                
+                if reaper.ImGui_Button(ctx, "Close", 40, 40) then
+                    open = false
+                end
+                reaper.ImGui_PopStyleColor(ctx, 3)
 
 ---------------------------- End ImGui dans loop() pour vignette --------------------
   reaper.ImGui_Separator(ctx)
