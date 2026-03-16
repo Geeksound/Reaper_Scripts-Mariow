@@ -5376,6 +5376,136 @@ v1.0 (2025-06-07)
       </version>
     </reapack>
   </category>
+  <category name="ProTools_Linking">
+    <reapack name="Geeksound_Startup-RazorLinks.lua" type="script" desc="Ensure Razor Edit Track + TimeSelection + Loop linked at startup">
+      <metadata>
+        <description><![CDATA[
+{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
+{\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
+\widowctrl\hyphauto
+
+{\pard\ql\f0\sa180\li0\fi0\b\fs40\cf1 Razor Edit Linking at Startup\par}
+{\pard\ql\f0\sa180\li0\fi0\b\fs36 Startup-RazorLinks\par}
+
+{\pard\ql\f0\sa180\li0\fi0 Automatically configures several editing behaviours when \b REAPER \b0 starts.\par}
+{\pard\ql\f0\sa180\li0\fi0 Ensures Razor Edit selections interact correctly with track selection and timeline selections.\par}
+
+{\pard\ql\f0\sa180\li0\fi0\bullet\tx360\tab Activates \b Razor Edit → Track Selection \b0 linking.\par}
+{\pard\ql\f0\sa180\li0\fi0\bullet\tx360\tab Links \b Razor Edit \b0 with the \b Time Selection \b0.\par}
+{\pard\ql\f0\sa180\li0\fi0\bullet\tx360\tab Links \b Loop Points \b0 to the \b Time Selection \b0 safely.\par}
+
+{\pard\ql\f0\sa180\li0\fi0 Designed to run inside \b Startup Actions \b0 so the configuration is always applied when REAPER launches.\par}
+{\pard\ql\f0\sa180\li0\fi0 Ideal for workflows seeking a more \b ProTools-like editing behaviour \b0 when using Razor Edits.\par}
+}
+]]></description>
+        <license>MIT</license>
+        <link rel="website">https://github.com/Geeksound/Reaper_Scripts-Mariow</link>
+        <tags>startup, razor edit, timesel, loop, linking, protools-like</tags>
+      </metadata>
+      <version name="1.0" author="Mariow" time="2025-03-15T00:00:00Z">
+        <changelog><![CDATA[
+v1.0 (2025-03-15)
+- Initial release
+]]></changelog>
+        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/ProTools_Linking/Geeksound_Startup-RazorLinks.lua</source>
+      </version>
+    </reapack>
+    <reapack name="Geeksound_ToggleLink-RazorToTimeSelection(PT like).lua" type="script" desc="Toggle Link Razor Edit ↔ Time Selection (ProTools-like)">
+      <metadata>
+        <description><![CDATA[
+{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
+{\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
+\widowctrl\hyphauto
+
+{\pard\ql\f0\sa180\li0\fi0\b\fs40\cf1 Toggle Link Razor Edit ↔ Time Selection\par}
+{\pard\ql\f0\sa180\li0\fi0\b\fs36 ToggleLink-RazorToTimeSelection (PT like)\par}
+
+{\pard\ql\f0\sa180\li0\fi0 Links Razor Edit areas with the global Time Selection automatically.\par}
+{\pard\ql\f0\sa180\li0\fi0 Monitors Razor Edit changes in the background, providing a \b ProTools-like \b0 workflow.\par}
+
+{\pard\ql\f0\sa180\li0\fi0\bullet\tx360\tab Toggle linkage between Razor Edits and Time Selection ON/OFF.\par}
+{\pard\ql\f0\sa180\li0\fi0\bullet\tx360\tab Automatically updates Time Selection to match the Razor Edit area.\par}
+{\pard\ql\f0\sa180\li0\fi0\bullet\tx360\tab Designed to run in the background after being started by \b Geeksound_Startup-RazorLinks \b0.\par}
+{\pard\ql\f0\sa180\li0\fi0\bullet\tx360\tab Useful for editing workflows where Razor Edits are the primary selection tool.\par}
+}
+]]></description>
+        <license>MIT</license>
+        <link rel="website">https://github.com/Geeksound/Reaper_Scripts-Mariow</link>
+        <tags>razor edit, time selection, link, toggle, editing, protools-like</tags>
+      </metadata>
+      <version name="1.0" author="Mariow" time="2026-03-14T00:00:00Z">
+        <changelog><![CDATA[
+v1.0 (2026-03-14)
+- Initial release
+- Toggle linkage between Razor Edits and Time Selection
+- Automatically updates Time Selection to match Razor Edit area
+]]></changelog>
+        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/ProTools_Linking/Geeksound_ToggleLink-RazorToTimeSelection(PT like).lua</source>
+      </version>
+    </reapack>
+    <reapack name="Geeksound_ToggleLink-RazorToTracks(PT like).lua" type="script" desc="Toggle Link Razor Edit to Track Selection (ProTools-like)">
+      <metadata>
+        <description><![CDATA[
+{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
+{\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
+\widowctrl\hyphauto
+
+{\pard\ql\f0\sa180\li0\fi0\b\fs40\cf1 Toggle Link Razor Edit ↔ Track Selection\par}
+{\pard\ql\f0\sa180\li0\fi0\b\fs36 ToggleLink-RazorToTracks (PT like)\par}
+
+{\pard\ql\f0\sa180\li0\fi0 Toggles a behavior where tracks containing Razor Edit areas are automatically selected.\par}
+{\pard\ql\f0\sa180\li0\fi0 Mimics the Pro Tools workflow where edit selections define the active tracks for editing operations.\par}
+
+{\pard\ql\f0\sa180\li0\fi0\bullet\tx360\tab Toggle linkage ON/OFF between Razor Edit areas and Track Selection.\par}
+{\pard\ql\f0\sa180\li0\fi0\bullet\tx360\tab Intended for toolbar button use; not meant to run automatically at startup.\par}
+{\pard\ql\f0\sa180\li0\fi0\bullet\tx360\tab Works in conjunction with \b Geeksound_Startup-RazorLinks \b0 to safely activate during session startup.\par}
+{\pard\ql\f0\sa180\li0\fi0\bullet\tx360\tab Useful for workflows where Razor Edits are the primary selection tool.\par}
+}
+]]></description>
+        <license>MIT</license>
+        <link rel="website">https://github.com/Geeksound/Reaper_Scripts-Mariow</link>
+        <tags>razor edit, tracks, selection, linking, protools-like</tags>
+      </metadata>
+      <version name="1.0" author="Mariow" time="2025-06-07T00:00:00Z">
+        <changelog><![CDATA[
+v1.0 (2025-06-07)
+- Initial release: links Razor Edit areas to track selection (toggle)
+]]></changelog>
+        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/ProTools_Linking/Geeksound_ToggleLink-RazorToTracks(PT like).lua</source>
+      </version>
+    </reapack>
+    <reapack name="Geeksound_LinkTimesel-edit(loop).lua" type="script" desc="Link-Timeselection and Edit(loop) (ProTools-like)">
+      <metadata>
+        <description><![CDATA[
+{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
+{\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
+\widowctrl\hyphauto
+
+{\pard\ql\f0\sa180\li0\fi0\b\fs40\cf1 Link Edit & Timeline (ProTools-like)\par}
+{\pard\ql\f0\sa180\li0\fi0\b\fs36 LinkTimesel-edit(loop)\par}
+
+{\pard\ql\f0\sa180\li0\fi0 Emulates the Pro Tools (Shift+/) shortcut by linking Razor Edits to Time Selection and Loop points automatically.\par}
+{\pard\ql\f0\sa180\li0\fi0 Ensures that editing areas and loop points remain synchronized with the timeline selection.\par}
+
+{\pard\ql\f0\sa180\li0\fi0\bullet\tx360\tab Toggles Loop Points linked to Time Selection.\par}
+{\pard\ql\f0\sa180\li0\fi0\bullet\tx360\tab Based on CommandID 40621 (Set Time Selection to Razor Edit area).\par}
+{\pard\ql\f0\sa180\li0\fi0\bullet\tx360\tab Useful for ProTools-like editing workflows with Razor Edits.\par}
+}
+]]></description>
+        <license>MIT</license>
+        <link rel="website">https://github.com/Geeksound/Reaper_Scripts-Mariow</link>
+        <tags>edit, linking, protools-like</tags>
+      </metadata>
+      <version name="1.0" author="Mariow" time="2026-03-15T00:00:00Z">
+        <changelog><![CDATA[
+v1.0 (2026-03-15)
+- Toggle loop points linked to time selection
+- Based on CommandID 40621 (Set Time Selection to Razor Edit area)
+]]></changelog>
+        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/ProTools_Linking/Geeksound_LinkTimesel-edit(loop).lua</source>
+      </version>
+    </reapack>
+  </category>
   <metadata>
     <description><![CDATA[
 {\rtf1\ansi\deff0{\fonttbl{\f0\fswiss Helvetica;}{\f1 Courier;}}
