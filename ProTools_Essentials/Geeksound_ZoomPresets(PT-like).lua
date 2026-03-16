@@ -1,35 +1,36 @@
 --[[
 @description Zoom Presets H+V (4 slots) - ProTools-like
-@version 1.0 (2025-12-06)
+@version 1.1
 @author Mariow
 @changelog
+  v1.1 (2026-03-15)
+  - Added tooltip helper on buttons
+  - Shows ALT+Click save hint
   v1.0 (2025-12-06)
   - Dockable ImGui panel
   - 4 horizontal + vertical zoom presets
   - ALT+Click to save current H+V zoom
   - Click to recall zoom (ProTools-like)
   - Compatible with all ReaImGui versions
-@provides
-  [main] ProTools_Essentials/Geeksound_ZoomPresets(PT-like).lua
-@link https://github.com/Geeksound/Reaper_Scripts-Mariow
-@repository https://github.com/Geeksound/Reaper_Scripts-Mariow
-@tags zoom, presets, arrange, vertical, horizontal, dockable, (protools-like)
-@about
-  # Zoom Presets H+V (4 slots) - ProTools-like
-  This script provides a dockable REAPER panel that mimics ProTools’ zoom presets.
-  - ALT + click a button to save current horizontal + vertical zoom.
-  - Click button to restore the saved zoom.
-  - 4 slots available.
+  @provides
+    [main] ProTools_Essentials/Geeksound_ZoomPresets(PT-like).lua
+  @link https://github.com/Geeksound/Reaper_Scripts-Mariow
+  @repository https://github.com/Geeksound/Reaper_Scripts-Mariow
+  @tags zoom, presets, arrange, vertical, horizontal, dockable, (protools-like)
+  @about
+    # Zoom Presets H+V (4 slots) - ProTools-like
+    This script provides a dockable REAPER panel that mimics ProTools’ zoom presets.
+    - ALT + click a button to save current horizontal + vertical zoom.
+    - Click button to restore the saved zoom.
+    - 4 slots available.
 --]]
-
 
 local reaper = reaper
 
 ------------------------------------------------------------
--- CREATE DOCKABLE IMGUI CONTEXT (compatible method)
+-- CREATE DOCKABLE IMGUI CONTEXT
 ------------------------------------------------------------
 
--- Docking enabled directly here (no GetIO needed)
 local ctx = reaper.ImGui_CreateContext(
     'Zoom Presets',
     reaper.ImGui_ConfigFlags_DockingEnable()
@@ -37,6 +38,30 @@ local ctx = reaper.ImGui_CreateContext(
 
 local font = reaper.ImGui_CreateFont('sans-serif', 16)
 reaper.ImGui_Attach(ctx, font)
+
+------------------------------------------------------------
+-- TOOLTIP HELPER
+------------------------------------------------------------
+
+local function ImGui_HelpMarker(ctx, desc)
+    if reaper.ImGui_IsItemHovered(ctx) then
+        reaper.ImGui_BeginTooltip(ctx)
+        reaper.ImGui_PushTextWrapPos(ctx, reaper.ImGui_GetFontSize(ctx) * 35)
+
+        if reaper.ImGui_TextUnformatted then
+            reaper.ImGui_TextUnformatted(ctx, desc)
+        else
+            reaper.ImGui_Text(ctx, desc)
+        end
+
+        reaper.ImGui_PopTextWrapPos(ctx)
+        reaper.ImGui_EndTooltip(ctx)
+    end
+end
+
+local tooltip_zoom =
+"Click : Recall zoom preset\n" ..
+"ALT + Click : Save current H+V zoom"
 
 ------------------------------------------------------------
 -- PRESETS CONFIG
@@ -150,6 +175,7 @@ end
 ------------------------------------------------------------
 
 local function loop()
+
     local flags =
           reaper.ImGui_WindowFlags_AlwaysAutoResize()
         | reaper.ImGui_WindowFlags_NoCollapse()
@@ -158,6 +184,7 @@ local function loop()
         reaper.ImGui_Begin(ctx, 'Zoom Presets', true, flags)
 
     if visible then
+
         reaper.ImGui_PushFont(ctx, font,14)
 
         local mods = reaper.ImGui_GetKeyMods(ctx)
@@ -176,6 +203,8 @@ local function loop()
                     load_vzoom(p.id)
                 end
             end
+
+            ImGui_HelpMarker(ctx, tooltip_zoom)
 
             if p.align then
                 reaper.ImGui_SameLine(ctx, 0, 10)
