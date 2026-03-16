@@ -5471,7 +5471,7 @@ v1.0 (2026-03-14)
 v1.0 (2025-06-07)
 - Initial release: links Razor Edit areas to track selection (toggle)
 ]]></changelog>
-        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/ProTools_Linking/Geeksound_ToggleLink-RazorToTracks(PT like).lua</source>
+        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/ProTools_Linking/Geeksound_ToggleLink-RazorToTracks(PT%20like).lua</source>
       </version>
     </reapack>
     <reapack name="Geeksound_LinkTimesel-edit(loop).lua" type="script" desc="Link-Timeselection and Edit(loop) (ProTools-like)">
@@ -5502,7 +5502,7 @@ v1.0 (2026-03-15)
 - Toggle loop points linked to time selection
 - Based on CommandID 40621 (Set Time Selection to Razor Edit area)
 ]]></changelog>
-        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/ProTools_Linking/Geeksound_LinkTimesel-edit(loop).lua</source>
+        <source main="main">https://github.com/Geeksound/Reaper_Scripts-Mariow/raw/main/ProTools_Linking/Geeksound_ToggleLink-RazorToTimeSelection(PT%20like).lua</source>
       </version>
     </reapack>
   </category>
